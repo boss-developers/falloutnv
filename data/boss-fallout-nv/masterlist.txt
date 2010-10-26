@@ -1,0 +1,51 @@
+\ Leading symbol code:
+\
+\ \ A silent comment - will be ignored by the program.
+\ % A Bashed Patch suggestion for the mod above.
+\ ? A comment about the mod above.
+\ * Flags a critical mistake for FOOK2 installation in relation to the mod above.
+\ $ Flags a critical mistake for FWE installation in relation to the mod above.
+\ : Means "Requires:"
+\ " Means "Conflicts with:"
+\
+\ > process this line only if FOOK2 is installed.
+\ < process this line only if FOOK2 isn't installed.
+\
+\ Unused symbols: ^
+\ Don't try using them, as they aren't assigned to do anything special.
+\
+\ Multiple remark/comment/bash/error lines allowed.
+\ Lines beginning with \ and blank lines are treated the same (ignored).
+
+
+\BeginGroup\: ESMs
+\------------
+FalloutNV.esm
+? Masterlist Information: $Revision: 1710 $, $Date: 2010-10-21 02:24:31 -0400 (Thu, 21 Oct 2010) $, $LastChangedBy: mosanger $
+CaravanPack.esm
+\EndGroup\\
+
+
+
+
+\BeginGroup\: Bashed Patch
+\-----------
+Bashed Patch, 0.esp
+Bashed Patch, 1.esp
+Bashed Patch, 2.esp
+Bashed Patch, 3.esp
+Bashed Patch, 4.esp
+Bashed Patch, 5.esp
+Bashed Patch, 6.esp
+Bashed Patch, 7.esp
+Bashed Patch, 8.esp
+Bashed Patch, 9.esp
+Bashed Patch.esp
+\EndGroup\\
+
+\BeginGroup\: Post Bashed Patch
+\-----------
+\Mods rumoured to be needed after Bashed Patch.
+\Utility addons.
+\Ultimate final absolute end last mods, ever.
+\EndGroup\\
