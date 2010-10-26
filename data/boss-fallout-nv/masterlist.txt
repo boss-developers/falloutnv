@@ -32,16 +32,67 @@ CaravanCardFix.esp
 FNV-BeardEyebrowFixV1_0.esp
 \EndGroup\\
 
+\BeginGroup\: Early Loading Mods
+\-----------
+\EndGroup\\
+
+
 \BeginGroup\: Sounds
 \-----------
 Distant Gunfire Sound Fix.esp
 \EndGroup\\
 
-\BeginGroup\: Early Misc A (Perks)
+\BeginGroup\: Early Misc (Perks)
 \-----------
 VG0PreorderAlternative.esp
 \EndGroup\\
 
+\BeginGroup\: Weapons
+\-----------
+ImmaSightinMahLazor.esp
+\EndGroup\\
+
+\BeginGroup\: Armor\Clothes
+\-----------
+\EndGroup\\
+
+\BeginGroup\: Cosmetics
+\-----------
+\EndGroup\\
+
+\BeginGroup\: Middle Misc
+\-----------
+RepairLists.esp
+Canteen.esp
+Immersive Karma with NoStealingKarma.esp
+\EndGroup\\
+
+\BeginGroup\: Companions
+\-----------
+NVPhalanx.esp
+\EndGroup\\
+
+\BeginGroup\: Later Misc
+\-----------
+\EndGroup\\
+
+\BeginGroup\: Game-Settings and Overrides
+\-----------
+Improved Throwing1.esp
+\EndGroup\\
+
+\BeginGroup\: Weather\Light\Water
+\-----------
+night_and_day.esp
+\EndGroup\\
+
+\BeginGroup\: Lastish
+\-----------
+\EndGroup\\
+
+\BeginGroup\: Hair
+\-----------
+\EndGroup\\
 
 \BeginGroup\: Bashed Patch
 \-----------
