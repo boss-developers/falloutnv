@@ -23,9 +23,24 @@
 FalloutNV.esm
 ? Masterlist Information: $Revision: 1710 $, $Date: 2010-10-21 02:24:31 -0400 (Thu, 21 Oct 2010) $, $LastChangedBy: mosanger $
 CaravanPack.esm
+FOOK - New Vegas.esm
 \EndGroup\\
 
+\BeginGroup\: Unofficial Patches and Fixes
+\-----------
+CaravanCardFix.esp
+FNV-BeardEyebrowFixV1_0.esp
+\EndGroup\\
 
+\BeginGroup\: Sounds
+\-----------
+Distant Gunfire Sound Fix.esp
+\EndGroup\\
+
+\BeginGroup\: Early Misc A (Perks)
+\-----------
+VG0PreorderAlternative.esp
+\EndGroup\\
 
 
 \BeginGroup\: Bashed Patch
