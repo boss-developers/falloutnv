@@ -22,6 +22,9 @@
 \------------
 FalloutNV.esm
 ? Masterlist Information: $Revision: 1710 $, $Date: 2010-10-21 02:24:31 -0400 (Thu, 21 Oct 2010) $, $LastChangedBy: mosanger $
+ClassicPack.esm
+MercenaryPack.esm
+TribalPack.esm
 CaravanPack.esm
 FOOK - New Vegas.esm
 \EndGroup\\
@@ -30,10 +33,29 @@ FOOK - New Vegas.esm
 \-----------
 CaravanCardFix.esp
 FNV-BeardEyebrowFixV1_0.esp
+VMS44Fixed.esp
+Davisonnoattack.esp
+Lucky 38 Suite Respawn Fix.esp
+Vault11HouseFix.esp
+VeronicaFix.esp
 \EndGroup\\
 
 \BeginGroup\: Early Loading Mods
 \-----------
+\EndGroup\\
+
+\BeginGroup\: Quests
+\-----------
+\EndGroup\\
+
+\BeginGroup\: NPC
+\-----------
+I Fought the Law Workaround.esp
+\EndGroup\\
+
+\BeginGroup\: Places
+\-----------
+BetterLuckySuite.esp
 \EndGroup\\
 
 
@@ -42,17 +64,29 @@ FNV-BeardEyebrowFixV1_0.esp
 Distant Gunfire Sound Fix.esp
 \EndGroup\\
 
-\BeginGroup\: Early Misc (Perks)
+
+\BeginGroup\: Perks
 \-----------
 VG0PreorderAlternative.esp
+\EndGroup\\
+
+
+\BeginGroup\: Early Misc
+\-----------
+Night Vision Sunglasses.esp
+QS_Blackwolf_NV_Backpackmod.esp
+BetterRepairKits.esp
+Solar's Bottled Water.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
 \-----------
 ImmaSightinMahLazor.esp
+Automatic Service Rifle.esp
+Better Binoculars Max.esp
 \EndGroup\\
 
-\BeginGroup\: Armor\Clothes
+\BeginGroup\: Armor and Clothes
 \-----------
 \EndGroup\\
 
@@ -70,10 +104,14 @@ Immersive Karma with NoStealingKarma.esp
 \BeginGroup\: Companions
 \-----------
 NVPhalanx.esp
+Essentialcompanions.esp
+CManagerie.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
 \-----------
+T3T_MiscItemIconsNV.esp
+aaaJNFCamp.esp
 \EndGroup\\
 
 \BeginGroup\: Game-Settings and Overrides
