@@ -57,6 +57,7 @@ I Fought the Law Workaround.esp
 
 \BeginGroup\: Places
 \-----------
+IIWR 2.0.3.esp
 BetterLuckySuite.esp
 Better forest.esp
 \EndGroup\\
@@ -66,6 +67,7 @@ Better forest.esp
 
 \BeginGroup\: Other
 \-----------
+Arwen_NV_Realism_Core.esp
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
@@ -87,7 +89,7 @@ VG0PreorderAlternative.esp
 \BeginGroup\: Early Misc
 \-----------
 Canteen.esp
-BetterRepairKits.esp
+BetterRepairKits2b.esp
 Solar's Bottled Water.esp
 AddEmptyBottle.esp
 Sorter - Combined.esp
