@@ -42,10 +42,12 @@ VeronicaFix.esp
 
 \BeginGroup\: Early Loading Mods
 \-----------
+DarNifiedUINV.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
 \-----------
+Wasteland Explorer.esp
 \EndGroup\\
 
 \BeginGroup\: NPC
@@ -58,6 +60,16 @@ I Fought the Law Workaround.esp
 BetterLuckySuite.esp
 \EndGroup\\
 
+\BeginGroup\: Overhauls
+\-----------
+
+\BeginGroup\: Other
+\-----------
+Adventurers_New_Vegas-econ-and-items-V02.esp
+Adventurers_New_Vegas-gameplay-and-combat-V02.esp
+Fallout - New FPS (Medium).esp
+\EndGroup\\
+\EndGroup\\ Overhauls
 
 \BeginGroup\: Sounds
 \-----------
@@ -77,13 +89,17 @@ Night Vision Sunglasses.esp
 QS_Blackwolf_NV_Backpackmod.esp
 BetterRepairKits.esp
 Solar's Bottled Water.esp
+AddEmptyBottle.esp
+Sorter - Combined.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
 \-----------
 ImmaSightinMahLazor.esp
+PlasmaRifleAwesomefied.esp
 Automatic Service Rifle.esp
 Better Binoculars Max.esp
+Improved Throwing1.esp
 \EndGroup\\
 
 \BeginGroup\: Armor and Clothes
@@ -116,7 +132,6 @@ aaaJNFCamp.esp
 
 \BeginGroup\: Game-Settings and Overrides
 \-----------
-Improved Throwing1.esp
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
