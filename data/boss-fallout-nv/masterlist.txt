@@ -27,6 +27,8 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 FOOK - New Vegas.esm
+% {{BASH: Names,Stats,Delev}}
+
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
@@ -68,6 +70,9 @@ Better forest.esp
 \BeginGroup\: Other
 \-----------
 Arwen_NV_Realism_Core.esp
+% {{BASH: Stats}}
+Adventurers_New_Vegas-V0.1.esp
+? Old
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
@@ -89,6 +94,8 @@ VG0PreorderAlternative.esp
 \BeginGroup\: Early Misc
 \-----------
 Canteen.esp
+BetterRepairKits.esp
+? Old
 BetterRepairKits2b.esp
 Solar's Bottled Water.esp
 AddEmptyBottle.esp
@@ -101,7 +108,9 @@ less_aggressive_cazadores.esp
 \BeginGroup\: Weapons
 \-----------
 ImmaSightinMahLazor.esp
+% {{BASH: Stats}}
 PlasmaRifleAwesomefied.esp
+% {{BASH: Sound}}
 Automatic Service Rifle.esp
 Better Binoculars Max.esp
 Improved Throwing1.esp
@@ -135,6 +144,7 @@ CManagerie.esp
 \BeginGroup\: Later Misc
 \-----------
 T3T_MiscItemIconsNV.esp
+% {{BASH: Graphics}}
 Sorter - Combined - T3T Icon Compatch.esp
 aaaJNFCamp.esp
 \EndGroup\\
