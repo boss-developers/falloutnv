@@ -58,6 +58,7 @@ I Fought the Law Workaround.esp
 \BeginGroup\: Places
 \-----------
 BetterLuckySuite.esp
+Better forest.esp
 \EndGroup\\
 
 \BeginGroup\: Overhauls
@@ -85,12 +86,14 @@ VG0PreorderAlternative.esp
 
 \BeginGroup\: Early Misc
 \-----------
-Night Vision Sunglasses.esp
-QS_Blackwolf_NV_Backpackmod.esp
+Canteen.esp
 BetterRepairKits.esp
 Solar's Bottled Water.esp
 AddEmptyBottle.esp
 Sorter - Combined.esp
+Lighter books.esp
+nv_passive_critters_norm_gecko.esp
+less_aggressive_cazadores.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -104,6 +107,9 @@ Improved Throwing1.esp
 
 \BeginGroup\: Armor and Clothes
 \-----------
+QS_Blackwolf_NV_Backpackmod.esp
+Night Vision Sunglasses.esp
+Faction Armor Converted to Non Faction.esp
 \EndGroup\\
 
 \BeginGroup\: Cosmetics
@@ -113,7 +119,7 @@ Improved Throwing1.esp
 \BeginGroup\: Middle Misc
 \-----------
 RepairLists.esp
-Canteen.esp
+RasRepair.esp
 Immersive Karma with NoStealingKarma.esp
 \EndGroup\\
 
@@ -127,11 +133,13 @@ CManagerie.esp
 \BeginGroup\: Later Misc
 \-----------
 T3T_MiscItemIconsNV.esp
+Sorter - Combined - T3T Icon Compatch.esp
 aaaJNFCamp.esp
 \EndGroup\\
 
 \BeginGroup\: Game-Settings and Overrides
 \-----------
+Imp's Timescale Adjuster.esp
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
