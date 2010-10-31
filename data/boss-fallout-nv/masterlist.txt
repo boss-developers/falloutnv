@@ -28,11 +28,11 @@ TribalPack.esm
 CaravanPack.esm
 FOOK - New Vegas.esm
 % {{BASH: Names,Stats,Delev}}
-
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
+Compiled Patch.esp
 CaravanCardFix.esp
 FNV-BeardEyebrowFixV1_0.esp
 VMS44Fixed.esp
@@ -51,6 +51,12 @@ DarNifiedUINV.esp
 \-----------
 Wasteland Explorer.esp
 \EndGroup\\
+
+\BeginGroup\: Faces
+\-----------
+Cuter Boone.esp
+Cuter Boone NEW.esp
+Cuter Veronica Felicia Day.esp
 
 \BeginGroup\: NPC
 \-----------
