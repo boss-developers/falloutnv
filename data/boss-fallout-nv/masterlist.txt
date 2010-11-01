@@ -112,6 +112,9 @@ Sorter - Combined.esp
 Lighter books.esp
 nv_passive_critters_norm_gecko.esp
 less_aggressive_cazadores.esp
+Slightly More Hardcore Hardcore Mode.esp
+Classic Pack Canteen More Hardcore.esp
+LFox Bottle That Water.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -124,6 +127,7 @@ Automatic Service Rifle.esp
 Better Binoculars.esp 
 Better Binoculars Max.esp
 Improved Throwing1.esp
+EnergyWeaponDeNerf.esp
 \EndGroup\\
 
 \BeginGroup\: Armor and Clothes
