@@ -77,6 +77,8 @@ Better forest.esp
 \-----------
 Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
+hardercore_combat.esp
+hardercore_wealth.esp
 Adventurers_New_Vegas-V0.1.esp
 ? Old
 Adventurers_New_Vegas-econ-and-items-V02.esp
