@@ -90,6 +90,7 @@ Fallout - New FPS (Medium).esp
 \BeginGroup\: Sounds
 \-----------
 Distant Gunfire Sound Fix.esp
+enclaveradio.esp
 \EndGroup\\
 
 
@@ -120,6 +121,7 @@ ImmaSightinMahLazor.esp
 PlasmaRifleAwesomefied.esp
 % {{BASH: Sound}}
 Automatic Service Rifle.esp
+Better Binoculars.esp 
 Better Binoculars Max.esp
 Improved Throwing1.esp
 \EndGroup\\
@@ -164,6 +166,8 @@ Imp's Timescale Adjuster.esp
 
 \BeginGroup\: Weather\Light\Water
 \-----------
+URWLNV.esp
+Fellout.esp
 night_and_day.esp
 \EndGroup\\
 
