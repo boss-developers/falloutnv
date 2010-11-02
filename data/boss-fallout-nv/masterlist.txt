@@ -49,6 +49,7 @@ DarNifiedUINV.esp
 
 \BeginGroup\: Quests
 \-----------
+Bobblehunt.esp
 Wasteland Explorer.esp
 \EndGroup\\
 
@@ -91,11 +92,13 @@ Fallout - New FPS (Medium).esp
 \-----------
 Distant Gunfire Sound Fix.esp
 enclaveradio.esp
+Existence2.0.esp
 \EndGroup\\
 
 
 \BeginGroup\: Perks
 \-----------
+PerkEveryLevel.esp
 VG0PreorderAlternative.esp
 \EndGroup\\
 
@@ -115,10 +118,12 @@ less_aggressive_cazadores.esp
 Slightly More Hardcore Hardcore Mode.esp
 Classic Pack Canteen More Hardcore.esp
 LFox Bottle That Water.esp
+Better Casinos.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
 \-----------
+Weathered10mmFixed.esp
 ImmaSightinMahLazor.esp
 % {{BASH: Stats}}
 PlasmaRifleAwesomefied.esp
@@ -151,6 +156,7 @@ Immersive Karma with NoStealingKarma.esp
 \BeginGroup\: Companions
 \-----------
 NVPhalanx.esp
+ICC.esp
 Essentialcompanions.esp
 CManagerie.esp
 \EndGroup\\
@@ -165,6 +171,7 @@ aaaJNFCamp.esp
 
 \BeginGroup\: Game-Settings and Overrides
 \-----------
+noautoaim.esp
 Imp's Timescale Adjuster.esp
 \EndGroup\\
 
