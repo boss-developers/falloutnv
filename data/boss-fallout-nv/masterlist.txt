@@ -45,12 +45,15 @@ VeronicaFix.esp
 \BeginGroup\: Early Loading Mods
 \-----------
 DarNifiedUINV.esp
+Centered 3rd Person Camera - Unraised.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
 \-----------
+FreeplayafterMQNVv1_6.esp
 Bobblehunt.esp
 Wasteland Explorer.esp
+Goodsprings Filler.esp
 \EndGroup\\
 
 \BeginGroup\: Faces
@@ -69,6 +72,18 @@ I Fought the Law Workaround.esp
 IIWR 2.0.3.esp
 BetterLuckySuite.esp
 Better forest.esp
+AbandonedShack.esp
+NCR Outpost.esp
+vegassuburbshome.esp
+My Goodsprings Home.esp
+Goodspring Playerhome V1_1.esp
+Goodsprings Improvment1.2.esp
+GoodSprings Home.esp
+McFlyFarm.esp
+NVHomestead.esp
+A Home in the Mountains.esp
+SecretHideout-v1.21.esp
+BONsQuarryJunctionRefuge-cave.esp
 \EndGroup\\
 
 \BeginGroup\: Overhauls
@@ -93,6 +108,7 @@ Fallout - New FPS (Medium).esp
 Distant Gunfire Sound Fix.esp
 enclaveradio.esp
 Existence2.0.esp
+CONELRAD 640-1240.esp
 \EndGroup\\
 
 
@@ -119,6 +135,9 @@ Slightly More Hardcore Hardcore Mode.esp
 Classic Pack Canteen More Hardcore.esp
 LFox Bottle That Water.esp
 Better Casinos.esp
+Animated Prostitution.esp
+BzBody.esp
+PortableCampsite.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -138,6 +157,8 @@ EnergyWeaponDeNerf.esp
 \BeginGroup\: Armor and Clothes
 \-----------
 QS_Blackwolf_NV_Backpackmod.esp
+QBackPackNV.esp
+KDS Wearable Backpacks.esp
 Night Vision Sunglasses.esp
 Faction Armor Converted to Non Faction.esp
 \EndGroup\\
@@ -158,7 +179,10 @@ Immersive Karma with NoStealingKarma.esp
 NVPhalanx.esp
 ICC.esp
 Essentialcompanions.esp
+AllCompanionsEssential.esp
 CManagerie.esp
+JeyebotCompanion.esp
+Companion Sandbox Mode.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
@@ -173,6 +197,7 @@ aaaJNFCamp.esp
 \-----------
 noautoaim.esp
 Imp's Timescale Adjuster.esp
+PipBoyLightx2.esp
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
