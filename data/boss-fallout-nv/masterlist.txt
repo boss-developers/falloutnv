@@ -21,7 +21,7 @@
 \BeginGroup\: ESMs
 \------------
 FalloutNV.esm
-? Masterlist Information: $Revision: 1710 $, $Date: 2010-10-21 02:24:31 -0400 (Thu, 21 Oct 2010) $, $LastChangedBy: mosanger $
+? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
