@@ -49,6 +49,7 @@ DarNifiedUINV.esp
 Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
 Further3rdPersonCamera.esp
+RMPipboy.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
@@ -68,6 +69,7 @@ Cuter Veronica Felicia Day.esp
 \BeginGroup\: NPC
 \-----------
 I Fought the Law Workaround.esp
+Raul - Danny Trejo.esp
 \EndGroup\\
 
 \BeginGroup\: Places
@@ -88,6 +90,7 @@ NVHomestead.esp
 A Home in the Mountains.esp
 SecretHideout-v1.21.esp
 BONsQuarryJunctionRefuge-cave.esp
+NewStripMapMarkers.esp
 \EndGroup\\
 
 \BeginGroup\: Overhauls
@@ -113,6 +116,7 @@ Distant Gunfire Sound Fix.esp
 enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
+Improved Sound FX.esp
 \EndGroup\\
 
 
@@ -132,6 +136,7 @@ BetterRepairKits2b.esp
 Solar's Bottled Water.esp
 AddEmptyBottle.esp
 Sorter - Combined.esp
+Sorter - Combined - Aid Crafting.esp
 Lighter books.esp
 nv_passive_critters_norm_gecko.esp
 less_aggressive_cazadores.esp
@@ -142,6 +147,8 @@ Better Casinos.esp
 Animated Prostitution.esp
 BzBody.esp
 PortableCampsite.esp
+Military Explansion Program.esp
+populatedcasino.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -157,6 +164,15 @@ Better Binoculars High.esp
 Better Binoculars Max.esp
 Improved Throwing1.esp
 EnergyWeaponDeNerf.esp
+1st Recon Ranger Gear.esp
+ASG.esp
+DWM4A1.esp
+Moddable Unique Weps.esp
+Mossberg590.esp
+SAW M249.esp
+xCALIBRuniverse_ImpulsePurchasePack.esp
+xCALIBRuniverse_mo'guns.esp
+Tactical Weapon Pack.esp
 \EndGroup\\
 
 \BeginGroup\: Armor and Clothes
@@ -168,6 +184,10 @@ Night Vision Sunglasses.esp
 Faction Armor Converted to Non Faction.esp
 Oblivion Conversions Merged.esp
 QSondraOutfits.esp
+Desert Armor.esp
+NEVECbodysuit.esp
+Holster.esp
+OCD-Cass outfits.esp
 \EndGroup\\
 
 \BeginGroup\: Cosmetics
@@ -192,6 +212,7 @@ CManagerie.esp
 JeyebotCompanion.esp
 Companion Sandbox Mode.esp
 UnlimitedCompanions.esp
+Boone0.2.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
