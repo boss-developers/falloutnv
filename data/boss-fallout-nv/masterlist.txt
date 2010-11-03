@@ -88,6 +88,7 @@ GoodSprings Home.esp
 McFlyFarm.esp
 NVHomestead.esp
 A Home in the Mountains.esp
+FNV - ShopHome.esp
 SecretHideout-v1.21.esp
 BONsQuarryJunctionRefuge-cave.esp
 NewStripMapMarkers.esp
@@ -116,6 +117,7 @@ Distant Gunfire Sound Fix.esp
 enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
+WPR.esp
 Improved Sound FX.esp
 \EndGroup\\
 
@@ -149,6 +151,11 @@ BzBody.esp
 PortableCampsite.esp
 Military Explansion Program.esp
 populatedcasino.esp
+populatedcasino-medium.esp
+populatedcasino-light.esp
+More Ammo - 2x.esp
+More Ammo - 3x.esp
+More Ammo - 5x.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -192,6 +199,7 @@ OCD-Cass outfits.esp
 
 \BeginGroup\: Cosmetics
 \-----------
+headgearfix.esp
 \EndGroup\\
 
 \BeginGroup\: Middle Misc
@@ -199,6 +207,7 @@ OCD-Cass outfits.esp
 RepairLists.esp
 RasRepair.esp
 Realistic_Repair_v062.esp
+Realistic_Repair_NV.esp
 Immersive Karma with NoStealingKarma.esp
 \EndGroup\\
 
