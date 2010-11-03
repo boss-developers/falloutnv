@@ -63,13 +63,17 @@ Goodsprings Filler.esp
 \BeginGroup\: Faces
 \-----------
 Cuter Boone.esp
+% {{BASH: NpcFaces}}
 Cuter Boone NEW.esp
+% {{BASH: NpcFaces}}
 Cuter Veronica Felicia Day.esp
+% {{BASH: NpcFaces}}
+Raul - Danny Trejo.esp
+% {{BASH: NpcFaces}}
 
 \BeginGroup\: NPC
 \-----------
 I Fought the Law Workaround.esp
-Raul - Danny Trejo.esp
 \EndGroup\\
 
 \BeginGroup\: Places
@@ -102,7 +106,9 @@ NewStripMapMarkers.esp
 Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
 hardercore_combat.esp
+% {{BASH: Stats}}
 hardercore_wealth.esp
+% {{BASH: Delev}}
 Adventurers_New_Vegas-V0.1.esp
 ? Old
 Adventurers_New_Vegas-econ-and-items-V02.esp
@@ -175,6 +181,7 @@ EnergyWeaponDeNerf.esp
 ASG.esp
 DWM4A1.esp
 Moddable Unique Weps.esp
+% {{BASH: Graphics}}
 Mossberg590.esp
 SAW M249.esp
 xCALIBRuniverse_ImpulsePurchasePack.esp
@@ -214,6 +221,7 @@ Immersive Karma with NoStealingKarma.esp
 \BeginGroup\: Companions
 \-----------
 NVPhalanx.esp
+% {{BASH: Actors.AIPackages,Actors.CombatStyle}}
 ICC.esp
 Essentialcompanions.esp
 AllCompanionsEssential.esp
