@@ -26,6 +26,7 @@ ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
+Lings.esm
 FOOK - New Vegas.esm
 % {{BASH: Names,Stats,Delev}}
 \EndGroup\\
@@ -45,7 +46,9 @@ VeronicaFix.esp
 \BeginGroup\: Early Loading Mods
 \-----------
 DarNifiedUINV.esp
+Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
+Further3rdPersonCamera.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
@@ -78,6 +81,7 @@ vegassuburbshome.esp
 My Goodsprings Home.esp
 Goodspring Playerhome V1_1.esp
 Goodsprings Improvment1.2.esp
+GoodspringsHome.esp
 GoodSprings Home.esp
 McFlyFarm.esp
 NVHomestead.esp
@@ -148,7 +152,8 @@ ImmaSightinMahLazor.esp
 PlasmaRifleAwesomefied.esp
 % {{BASH: Sound}}
 Automatic Service Rifle.esp
-Better Binoculars.esp 
+Better Binoculars.esp
+Better Binoculars High.esp
 Better Binoculars Max.esp
 Improved Throwing1.esp
 EnergyWeaponDeNerf.esp
@@ -161,6 +166,8 @@ QBackPackNV.esp
 KDS Wearable Backpacks.esp
 Night Vision Sunglasses.esp
 Faction Armor Converted to Non Faction.esp
+Oblivion Conversions Merged.esp
+QSondraOutfits.esp
 \EndGroup\\
 
 \BeginGroup\: Cosmetics
@@ -171,6 +178,7 @@ Faction Armor Converted to Non Faction.esp
 \-----------
 RepairLists.esp
 RasRepair.esp
+Realistic_Repair_v062.esp
 Immersive Karma with NoStealingKarma.esp
 \EndGroup\\
 
@@ -183,6 +191,7 @@ AllCompanionsEssential.esp
 CManagerie.esp
 JeyebotCompanion.esp
 Companion Sandbox Mode.esp
+UnlimitedCompanions.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
@@ -198,6 +207,7 @@ aaaJNFCamp.esp
 noautoaim.esp
 Imp's Timescale Adjuster.esp
 PipBoyLightx2.esp
+dD - Enhanced Blood Main NV.esp
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
