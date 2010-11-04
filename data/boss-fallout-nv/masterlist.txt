@@ -202,6 +202,7 @@ Desert Armor.esp
 NEVECbodysuit.esp
 Holster.esp
 OCD-Cass outfits.esp
+dressupWITHweaponchanges.esp
 \EndGroup\\
 
 \BeginGroup\: Cosmetics
@@ -230,6 +231,14 @@ JeyebotCompanion.esp
 Companion Sandbox Mode.esp
 UnlimitedCompanions.esp
 Boone0.2.esp
+ede-e_alert_replacement.esp
+Light Step ED-E.esp
+ED-E Burr.esp
+ED-E Incinerator.esp
+ED-E Phaser.esp
+ED-E Plasma.esp
+ED-E Rocket.esp
+ED-E Shotgun.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
