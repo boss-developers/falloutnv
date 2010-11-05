@@ -50,6 +50,8 @@ Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
 Further3rdPersonCamera.esp
 RMPipboy.esp
+Sorter - Combined.esp
+Sorter - Combined - Aid Crafting.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
@@ -85,6 +87,7 @@ AbandonedShack.esp
 NCR Outpost.esp
 vegassuburbshome.esp
 My Goodsprings Home.esp
+GoodspringsPlayerHome.esp
 Goodspring Playerhome V1_1.esp
 Goodsprings Improvment1.2.esp
 GoodspringsHome.esp
@@ -114,6 +117,7 @@ Adventurers_New_Vegas-V0.1.esp
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
+pnv.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
 
@@ -137,31 +141,37 @@ VG0PreorderAlternative.esp
 
 \BeginGroup\: Early Misc
 \-----------
-Canteen.esp
+AddEmptyBottle.esp
+Animated Prostitution.esp
+Better Casinos.esp
 BetterRepairKits.esp
 ? Old
 BetterRepairKits2b.esp
-Solar's Bottled Water.esp
-AddEmptyBottle.esp
-Sorter - Combined.esp
-Sorter - Combined - Aid Crafting.esp
-Lighter books.esp
-nv_passive_critters_norm_gecko.esp
-less_aggressive_cazadores.esp
-Slightly More Hardcore Hardcore Mode.esp
-Classic Pack Canteen More Hardcore.esp
-LFox Bottle That Water.esp
-Better Casinos.esp
-Animated Prostitution.esp
 BzBody.esp
-PortableCampsite.esp
+Casino UnBanner.esp
+Canteen.esp
+Classic Pack Canteen More Hardcore.esp
+less_aggressive_cazadores.esp
+LFox Bottle That Water.esp
+Lighter books.esp
+LightweightSanitizer.esp
 Military Explansion Program.esp
-populatedcasino.esp
-populatedcasino-medium.esp
-populatedcasino-light.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
 More Ammo - 5x.esp
+NoFastTravel_NV.esp
+nv_passive_critters_norm_gecko.esp
+Oven Cooking.esp
+Permanent Skill Mags.esp
+Permanent Skill Mags - Item Sorter.esp
+populatedcasino.esp
+populatedcasino-medium.esp
+populatedcasino-light.esp
+PortableCampsite.esp
+ReducedUndiscoveredCompass.esp
+Slightly More Hardcore Hardcore Mode.esp
+Solar's Bottled Water.esp
+You take a sip from your trusty Vault 13 canteen.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -180,10 +190,12 @@ EnergyWeaponDeNerf.esp
 1st Recon Ranger Gear.esp
 ASG.esp
 DWM4A1.esp
-Moddable Unique Weps.esp
-% {{BASH: Graphics}}
+hz_SVD.esp
+m1c.esp
 Mossberg590.esp
 SAW M249.esp
+Moddable Unique Weps.esp
+% {{BASH: Graphics}}
 xCALIBRuniverse_ImpulsePurchasePack.esp
 xCALIBRuniverse_mo'guns.esp
 Tactical Weapon Pack.esp
@@ -196,12 +208,15 @@ QBackPackNV.esp
 KDS Wearable Backpacks.esp
 Night Vision Sunglasses.esp
 Faction Armor Converted to Non Faction.esp
-Oblivion Conversions Merged.esp
+BodyJewelry.esp
 QSondraOutfits.esp
 Desert Armor.esp
-NEVECbodysuit.esp
 Holster.esp
+JRougeRangerCoats4Loot.esp
+NEVECbodysuit.esp
+Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
+SBVenomousArmor.esp
 dressupWITHweaponchanges.esp
 \EndGroup\\
 
@@ -243,6 +258,7 @@ ED-E Shotgun.esp
 
 \BeginGroup\: Later Misc
 \-----------
+1PipboyPDA.esp
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
 Sorter - Combined - T3T Icon Compatch.esp
@@ -259,17 +275,35 @@ dD - Enhanced Blood Main NV.esp
 
 \BeginGroup\: Weather\Light\Water
 \-----------
-URWLNV.esp
 Fellout.esp
+Nights are Darker 50%.esp
+Nights are Darker 25%.esp
 night_and_day.esp
+URWLNV.esp
+URWLNV Darker Night.esp
+URWLNV Brighter Lights.esp
+DN More Lights.esp
+Emperical Weather.esp
 \EndGroup\\
 
 \BeginGroup\: Lastish
 \-----------
 \EndGroup\\
 
+\BeginGroup\: Pose mods
+\-----------
+FewPosesMore NVedition.esp
+\EndGroup\\
+
+\BeginGroup\: Beauty Packs & Race Addons
+\-----------
+AFricanAmericanAAlbino.esp
+\EndGroup\\
+
 \BeginGroup\: Hair
 \-----------
+SideburnsBeardLong.esp
+Sideburns.esp
 \EndGroup\\
 
 \BeginGroup\: Bashed Patch
