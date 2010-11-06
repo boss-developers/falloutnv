@@ -82,6 +82,7 @@ I Fought the Law Workaround.esp
 \BeginGroup\: Places
 \-----------
 IIWR 2.0.3.esp
+IIWR 2.0.7.esp
 BetterLuckySuite.esp
 Better forest.esp
 AbandonedShack.esp
@@ -113,6 +114,7 @@ hardercore_combat.esp
 % {{BASH: Stats}}
 hardercore_wealth.esp
 % {{BASH: Delev}}
+hardercore_healing.esp
 Adventurers_New_Vegas-V0.1.esp
 ? Old
 Adventurers_New_Vegas-econ-and-items-V02.esp
@@ -240,10 +242,11 @@ Immersive Karma with NoStealingKarma.esp
 \-----------
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages,Actors.CombatStyle}}
-ICC.esp
-Essentialcompanions.esp
 AllCompanionsEssential.esp
+AllCompanionsEssential 2.0.esp
 CManagerie.esp
+Essentialcompanions.esp
+ICC.esp
 JeyebotCompanion.esp
 Companion Sandbox Mode.esp
 UnlimitedCompanions.esp
