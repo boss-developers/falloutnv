@@ -35,6 +35,7 @@ Shojo Race Vegas.esm
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
 Compiled Patch.esp
+% {{BASH: Stats}}
 CaravanCardFix.esp
 FNV-BeardEyebrowFixV1_0.esp
 VMS44Fixed.esp
@@ -66,13 +67,13 @@ Goodsprings Filler.esp
 \BeginGroup\: Faces
 \-----------
 Cuter Boone.esp
-% {{BASH: NpcFaces}}
+% {{BASH: NpcFaces,NoMerge}}
 Cuter Boone NEW.esp
-% {{BASH: NpcFaces}}
+% {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day.esp
-% {{BASH: NpcFaces}}
+% {{BASH: NpcFaces,NoMerge}}
 Raul - Danny Trejo.esp
-% {{BASH: NpcFaces}}
+% {{BASH: NpcFaces,NoMerge}}
 
 \BeginGroup\: NPC
 \-----------
@@ -115,6 +116,7 @@ hardercore_combat.esp
 hardercore_wealth.esp
 % {{BASH: Delev}}
 hardercore_healing.esp
+% {{BASH: Stats}}
 Adventurers_New_Vegas-V0.1.esp
 ? Old
 Adventurers_New_Vegas-econ-and-items-V02.esp
@@ -198,7 +200,6 @@ m1c.esp
 Mossberg590.esp
 SAW M249.esp
 Moddable Unique Weps.esp
-% {{BASH: Graphics}}
 xCALIBRuniverse_ImpulsePurchasePack.esp
 xCALIBRuniverse_mo'guns.esp
 Tactical Weapon Pack.esp
