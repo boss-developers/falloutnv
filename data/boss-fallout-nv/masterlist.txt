@@ -29,6 +29,7 @@ CaravanPack.esm
 Lings.esm
 FOOK - New Vegas.esm
 % {{BASH: Names,Stats,Delev}}
+Shojo Race Vegas.esm
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
@@ -218,6 +219,7 @@ Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
 SBVenomousArmor.esp
 dressupWITHweaponchanges.esp
+NWghostbodysuit.esp
 \EndGroup\\
 
 \BeginGroup\: Cosmetics
@@ -275,6 +277,7 @@ dD - Enhanced Blood Main NV.esp
 
 \BeginGroup\: Weather\Light\Water
 \-----------
+Western Sky.esp
 Fellout.esp
 Nights are Darker 50%.esp
 Nights are Darker 25%.esp
