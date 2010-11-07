@@ -54,6 +54,7 @@ Further3rdPersonCamera.esp
 RMPipboy.esp
 Sorter - Combined.esp
 Sorter - Combined - Aid Crafting.esp
+CASM.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
