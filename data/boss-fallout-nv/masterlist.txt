@@ -26,7 +26,9 @@ ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
+More Perks.esm
 Lings.esm
+MikotoBeauty.esm
 FOOK - New Vegas.esm
 % {{BASH: Names,Stats,Delev}}
 Shojo Race Vegas.esm
@@ -73,12 +75,21 @@ Cuter Boone NEW.esp
 % {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day.esp
 % {{BASH: NpcFaces,NoMerge}}
+MikotoBPCCArcade.esp
+% {{BASH: NpcFaces,NoMerge}}
+MikotoBPCCBoone.esp
+% {{BASH: NpcFaces,NoMerge}}
+MikotoBPCCCass.esp
+% {{BASH: NpcFaces,NoMerge}}
+MikotoBPWastersOverhaul.esp
+% {{BASH: NpcFaces,NoMerge}}
 Raul - Danny Trejo.esp
 % {{BASH: NpcFaces,NoMerge}}
 
 \BeginGroup\: NPC
 \-----------
 I Fought the Law Workaround.esp
+Mr Moneybags.esp
 \EndGroup\\
 
 \BeginGroup\: Places
@@ -96,8 +107,13 @@ Goodspring Playerhome V1_1.esp
 Goodsprings Improvment1.2.esp
 GoodspringsHome.esp
 GoodSprings Home.esp
+GunRunnersExpandedV3.3.esp
+HiddenBunker.esp
+Isolated Camp.esp
 McFlyFarm.esp
 NVHomestead.esp
+NV Interiors - El Ray Motel.esp
+NV Interiors - West Vegas Fringe.esp
 A Home in the Mountains.esp
 FNV - ShopHome.esp
 SecretHideout-v1.21.esp
@@ -133,6 +149,7 @@ Distant Gunfire Sound Fix.esp
 enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
+R.A.C.E. Station.esp
 WPR.esp
 Improved Sound FX.esp
 \EndGroup\\
@@ -142,6 +159,8 @@ Improved Sound FX.esp
 \-----------
 PerkEveryLevel.esp
 VG0PreorderAlternative.esp
+More Perks Update.esp
+psychoelf traits 1.esp
 \EndGroup\\
 
 
@@ -150,9 +169,12 @@ VG0PreorderAlternative.esp
 AddEmptyBottle.esp
 Animated Prostitution.esp
 Better Casinos.esp
+BetterCraftingSorting.esp
 BetterRepairKits.esp
 ? Old
 BetterRepairKits2b.esp
+Better Tag Skills.esp
+BlackMountainRadioEverywhere.esp
 BzBody.esp
 Casino UnBanner.esp
 Canteen.esp
@@ -162,6 +184,7 @@ LFox Bottle That Water.esp
 Lighter books.esp
 LightweightSanitizer.esp
 Military Explansion Program.esp
+More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
 More Ammo - 5x.esp
@@ -174,9 +197,11 @@ populatedcasino.esp
 populatedcasino-medium.esp
 populatedcasino-light.esp
 PortableCampsite.esp
+psychoelfs sneak past artillery.esp
 ReducedUndiscoveredCompass.esp
 Slightly More Hardcore Hardcore Mode.esp
 Solar's Bottled Water.esp
+WurstBarberMachine.esp
 You take a sip from your trusty Vault 13 canteen.esp
 \EndGroup\\
 
@@ -191,8 +216,13 @@ Automatic Service Rifle.esp
 Better Binoculars.esp
 Better Binoculars High.esp
 Better Binoculars Max.esp
-Improved Throwing1.esp
+Binocs12fov.esp
+Caravan Pack Durability.esp
+DiscontinuedLegionArmorSet.esp
+DiscontinuedNCRArmorSet.esp
 EnergyWeaponDeNerf.esp
+Improved Throwing1.esp
+LightSaberMod.esp
 1st Recon Ranger Gear.esp
 ASG.esp
 DWM4A1.esp
@@ -213,7 +243,10 @@ QBackPackNV.esp
 KDS Wearable Backpacks.esp
 Night Vision Sunglasses.esp
 Faction Armor Converted to Non Faction.esp
+AliceRace.esp
+AliceOutfits.esp
 BodyJewelry.esp
+ChildArmorPack.esp
 QSondraOutfits.esp
 Desert Armor.esp
 Holster.esp
@@ -277,6 +310,10 @@ aaaJNFCamp.esp
 noautoaim.esp
 Imp's Timescale Adjuster.esp
 PipBoyLightx2.esp
+Colored Piplight - White.esp
+Piplight Brightness - 200%.esp
+Piplight Brightness - 400%.esp
+Piplight Brightness - 500%.esp
 dD - Enhanced Blood Main NV.esp
 \EndGroup\\
 
@@ -312,6 +349,7 @@ AFricanAmericanAAlbino.esp
 \-----------
 SideburnsBeardLong.esp
 Sideburns.esp
+MikotoBeauty.esp
 \EndGroup\\
 
 \BeginGroup\: Bashed Patch
