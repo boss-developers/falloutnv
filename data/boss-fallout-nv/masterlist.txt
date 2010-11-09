@@ -163,13 +163,13 @@ hardercore_combat.esp
 hardercore_wealth.esp
 % {{BASH: Delev}}
 hardercore_healing.esp
-% {{BASH: Stats}}
 Adventurers_New_Vegas-V0.1.esp
 ? Old
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
 FOOK - New Vegas.esp
+% {{BASH: Names,Stats,Delev}}
 pnv.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
