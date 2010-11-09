@@ -29,6 +29,7 @@ CaravanPack.esm
 More Perks.esm
 Lings.esm
 MikotoBeauty.esm
+Moddable Unique Weps.esm
 FOOK - New Vegas.esm
 % {{BASH: Names,Stats,Delev}}
 Shojo Race Vegas.esm
@@ -62,6 +63,7 @@ CASM.esp
 \BeginGroup\: Quests
 \-----------
 FreeplayafterMQNVv1_6.esp
+Free Play after MQ.esp
 Bobblehunt.esp
 Wasteland Explorer.esp
 Goodsprings Filler.esp
@@ -114,15 +116,43 @@ McFlyFarm.esp
 NVHomestead.esp
 NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
+NV Interiors - Cottonwood Cove.esp
 A Home in the Mountains.esp
 FNV - ShopHome.esp
 SecretHideout-v1.21.esp
 BONsQuarryJunctionRefuge-cave.esp
+markers.esp
 NewStripMapMarkers.esp
 \EndGroup\\
 
 \BeginGroup\: Overhauls
 \-----------
+
+\BeginGroup\: BlackCompany HarderCore Pack
+\-----------
+NVHarderCore.esp
+NVLogicalRepairLists.esp
+NVORganizedItems.esp
+NVSettingsTweaks.esp
+NVWastelandUnlocked.esp
+NVWeaponAmmoTweaks.esp
+\EndGroup\\
+
+\BeginGroup\: Frontsalats Modular Mods and Tweaks
+\-----------
+SlowerBackWardsSpeed.esp
+HeadWearShaders.esp
+JumpHigher.esp
+MaxLevel99.esp
+PitchBlackNights.esp
+ClutterWeight.esp
+SlowerLeveling.esp
+StrongerLight.esp
+Companionchanges.esp
+NoSneakWarnings.esp
+LootOverhaul.esp
+Food&DrinkDontHeal.esp
+\EndGroup\\
 
 \BeginGroup\: Other
 \-----------
@@ -139,6 +169,7 @@ Adventurers_New_Vegas-V0.1.esp
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
+FOOK - New Vegas.esp
 pnv.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
@@ -157,10 +188,12 @@ Improved Sound FX.esp
 
 \BeginGroup\: Perks
 \-----------
-PerkEveryLevel.esp
-VG0PreorderAlternative.esp
+Kobu's Free Wild Wasteland Trait.esp
+More Perks.esp
 More Perks Update.esp
+PerkEveryLevel.esp
 psychoelf traits 1.esp
+VG0PreorderAlternative.esp
 \EndGroup\\
 
 
@@ -168,8 +201,11 @@ psychoelf traits 1.esp
 \-----------
 AddEmptyBottle.esp
 Animated Prostitution.esp
+BCL custom edition.esp
 Better Casinos.esp
 BetterCraftingSorting.esp
+BetterGamePerformanceV2.esp
+BetterGamePerformanceV3.esp
 BetterRepairKits.esp
 ? Old
 BetterRepairKits2b.esp
@@ -178,17 +214,24 @@ BlackMountainRadioEverywhere.esp
 BzBody.esp
 Casino UnBanner.esp
 Canteen.esp
+Clanf_NoWeaponsRemove.esp
 Classic Pack Canteen More Hardcore.esp
+CompanionDe-Equip.esp
+FalloutNVCheatTerminal.esp
+gambling.esp
 less_aggressive_cazadores.esp
 LFox Bottle That Water.esp
 Lighter books.esp
 LightweightSanitizer.esp
 Military Explansion Program.esp
+MojaveXP.esp
 More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
 More Ammo - 5x.esp
 NoFastTravel_NV.esp
+No Litter.esp
+NewVegasRestorationStrip+Casino.esp
 nv_passive_critters_norm_gecko.esp
 Oven Cooking.esp
 Permanent Skill Mags.esp
@@ -197,12 +240,18 @@ populatedcasino.esp
 populatedcasino-medium.esp
 populatedcasino-light.esp
 PortableCampsite.esp
+Project13 - Populated Wasteland.esp
+psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 ReducedUndiscoveredCompass.esp
+Respawning Containers.esp
+Respawn24HoursImprovedEx.esp
 Slightly More Hardcore Hardcore Mode.esp
 Solar's Bottled Water.esp
+Solar's Bottled Water - Bottlecaps.esp 
 WurstBarberMachine.esp
 You take a sip from your trusty Vault 13 canteen.esp
+z_Fiends_2.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -213,6 +262,7 @@ ImmaSightinMahLazor.esp
 PlasmaRifleAwesomefied.esp
 % {{BASH: Sound}}
 Automatic Service Rifle.esp
+BearTrap.esp
 Better Binoculars.esp
 Better Binoculars High.esp
 Better Binoculars Max.esp
@@ -231,6 +281,8 @@ m1c.esp
 Mossberg590.esp
 SAW M249.esp
 Moddable Unique Weps.esp
+? Old: If you are using above version 2.0 you must delete this file
+" Moddable Unique Weps.esm
 xCALIBRuniverse_ImpulsePurchasePack.esp
 xCALIBRuniverse_mo'guns.esp
 Tactical Weapon Pack.esp
@@ -241,6 +293,8 @@ Tactical Weapon Pack.esp
 QS_Blackwolf_NV_Backpackmod.esp
 QBackPackNV.esp
 KDS Wearable Backpacks.esp
+Kobu's Sortable Backpack.esp
+Kobu's Sortable Backpack - No Extra Carry Weight.esp
 Night Vision Sunglasses.esp
 Faction Armor Converted to Non Faction.esp
 AliceRace.esp
@@ -250,11 +304,15 @@ ChildArmorPack.esp
 QSondraOutfits.esp
 Desert Armor.esp
 Holster.esp
+JillBSAA.esp
 JRougeRangerCoats4Loot.esp
 NEVECbodysuit.esp
+NVLadyoutfit1.esp
 Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
 SBVenomousArmor.esp
+TheArmorer.esp
+dressup.esp
 dressupWITHweaponchanges.esp
 NWghostbodysuit.esp
 \EndGroup\\
@@ -268,6 +326,7 @@ headgearfix.esp
 \-----------
 RepairLists.esp
 RasRepair.esp
+RasRepairAll.esp
 Realistic_Repair_v062.esp
 Realistic_Repair_NV.esp
 Immersive Karma with NoStealingKarma.esp
@@ -283,8 +342,14 @@ CManagerie.esp
 Essentialcompanions.esp
 ICC.esp
 JeyebotCompanion.esp
+miria.esp
+nemunoki-replacer.esp
+Psychoelfs Veronica shojo.esp
+Psychoelfs Veronica shojo bms.esp
 Companion Sandbox Mode.esp
 UnlimitedCompanions.esp
+Unlimited Companions.esp
+Max Followers 12.esp
 Boone0.2.esp
 ede-e_alert_replacement.esp
 Light Step ED-E.esp
@@ -308,6 +373,12 @@ aaaJNFCamp.esp
 \BeginGroup\: Game-Settings and Overrides
 \-----------
 noautoaim.esp
+Improved VATS and Autoaim fix with Better Binoculars.esp
+RWD-NVv1.esp
+vatsbuff2x.esp
+Less Armor Degradation.esp
+Less Weapon Degradation.esp
+Faster Runing.esp
 Imp's Timescale Adjuster.esp
 PipBoyLightx2.esp
 Colored Piplight - White.esp
@@ -329,6 +400,8 @@ URWLNV Darker Night.esp
 URWLNV Brighter Lights.esp
 DN More Lights.esp
 Emperical Weather.esp
+CustomLighting-IE DoF Blur.esp
+CustomLighting-IE DoF.esp
 \EndGroup\\
 
 \BeginGroup\: Lastish
