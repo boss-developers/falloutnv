@@ -38,12 +38,13 @@ Shojo Race Vegas.esm
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
 Compiled Patch.esp
-% {{BASH: Stats}}
+% {{BASH: Actors.AIPackages,Delev,Sound,Stats,Scripts}}
 CaravanCardFix.esp
 FNV-BeardEyebrowFixV1_0.esp
 VMS44Fixed.esp
 Davisonnoattack.esp
 Lucky 38 Suite Respawn Fix.esp
+ReloadBugFix.esp
 Vault11HouseFix.esp
 VeronicaFix.esp
 \EndGroup\\
@@ -56,6 +57,7 @@ Centered 3rd Person Camera - Unraised.esp
 Further3rdPersonCamera.esp
 RMPipboy.esp
 Sorter - Combined.esp
+% {{BASH: Names}}
 Sorter - Combined - Aid Crafting.esp
 CASM.esp
 \EndGroup\\
@@ -98,6 +100,7 @@ Mr Moneybags.esp
 \-----------
 IIWR 2.0.3.esp
 IIWR 2.0.7.esp
+nocol.esp
 BetterLuckySuite.esp
 Better forest.esp
 AbandonedShack.esp
@@ -131,11 +134,15 @@ NewStripMapMarkers.esp
 \BeginGroup\: BlackCompany HarderCore Pack
 \-----------
 NVHarderCore.esp
+% {{BASH: Stats}}
 NVLogicalRepairLists.esp
 NVORganizedItems.esp
+% {{BASH: Names}}
 NVSettingsTweaks.esp
 NVWastelandUnlocked.esp
+% {{BASH: Relations}}
 NVWeaponAmmoTweaks.esp
+NVPerksImproved.esp
 \EndGroup\\
 
 \BeginGroup\: Frontsalats Modular Mods and Tweaks
@@ -169,7 +176,7 @@ Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
 FOOK - New Vegas.esp
-% {{BASH: Names,Stats,Delev}}
+% {{BASH: Delev,Names,Stats}}
 pnv.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
@@ -194,6 +201,7 @@ More Perks Update.esp
 PerkEveryLevel.esp
 psychoelf traits 1.esp
 VG0PreorderAlternative.esp
+xatmosSkillPerks.esp
 \EndGroup\\
 
 
@@ -202,8 +210,11 @@ VG0PreorderAlternative.esp
 AddEmptyBottle.esp
 Animated Prostitution.esp
 BCL custom edition.esp
+Better Ammo Crafting.esp
+% {{BASH: Names}}
 Better Casinos.esp
 BetterCraftingSorting.esp
+% {{BASH: Names}}
 BetterGamePerformanceV2.esp
 BetterGamePerformanceV3.esp
 BetterRepairKits.esp
@@ -236,6 +247,7 @@ nv_passive_critters_norm_gecko.esp
 Oven Cooking.esp
 Permanent Skill Mags.esp
 Permanent Skill Mags - Item Sorter.esp
+Plausible Starting Outfit.esp
 populatedcasino.esp
 populatedcasino-medium.esp
 populatedcasino-light.esp
@@ -244,11 +256,14 @@ Project13 - Populated Wasteland.esp
 psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 ReducedUndiscoveredCompass.esp
+RespawnerImprovedEx.esp
+Respawn24Hours.esp
 Respawning Containers.esp
 Respawn24HoursImprovedEx.esp
 Slightly More Hardcore Hardcore Mode.esp
 Solar's Bottled Water.esp
-Solar's Bottled Water - Bottlecaps.esp 
+Solar's Bottled Water - Bottlecaps.esp
+Tag Skills Improved.esp
 WurstBarberMachine.esp
 You take a sip from your trusty Vault 13 canteen.esp
 z_Fiends_2.esp
@@ -334,31 +349,32 @@ Immersive Karma with NoStealingKarma.esp
 
 \BeginGroup\: Companions
 \-----------
-NVPhalanx.esp
-% {{BASH: Actors.AIPackages,Actors.CombatStyle}}
 AllCompanionsEssential.esp
 AllCompanionsEssential 2.0.esp
-CManagerie.esp
 Essentialcompanions.esp
 ICC.esp
-JeyebotCompanion.esp
-miria.esp
-nemunoki-replacer.esp
-Psychoelfs Veronica shojo.esp
-Psychoelfs Veronica shojo bms.esp
-Companion Sandbox Mode.esp
-UnlimitedCompanions.esp
-Unlimited Companions.esp
-Max Followers 12.esp
 Boone0.2.esp
 ede-e_alert_replacement.esp
-Light Step ED-E.esp
 ED-E Burr.esp
 ED-E Incinerator.esp
 ED-E Phaser.esp
 ED-E Plasma.esp
 ED-E Rocket.esp
 ED-E Shotgun.esp
+CManagerie.esp
+Companion Sandbox Mode.esp
+EnclaveCommander.esp
+JeyebotCompanion.esp
+Light Step ED-E.esp
+Max Followers 12.esp
+miria.esp
+nemunoki-replacer.esp
+Psychoelfs Veronica shojo.esp
+Psychoelfs Veronica shojo bms.esp
+UnlimitedCompanions.esp
+Unlimited Companions.esp
+NVPhalanx.esp
+% {{BASH: Actors.AIPackages,Actors.CombatStyle,Scripts}}
 \EndGroup\\
 
 \BeginGroup\: Later Misc
@@ -392,6 +408,7 @@ dD - Enhanced Blood Main NV.esp
 \-----------
 Western Sky.esp
 Fellout.esp
+friendofnightforfellout.esp
 Nights are Darker 50%.esp
 Nights are Darker 25%.esp
 night_and_day.esp
