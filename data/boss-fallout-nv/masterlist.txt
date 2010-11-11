@@ -34,7 +34,7 @@ Moddable Unique Weps.esm
 \mods
 20th Century Weapons.esm
 FOOK - New Vegas.esm
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Stats,Scripts}}
+% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 Shojo Race Vegas.esm
 Ambient Temperature.esm
 \EndGroup\\
@@ -193,7 +193,7 @@ Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
 FOOK - New Vegas.esp
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Stats,Scripts}}
+% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 pnv.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
@@ -205,6 +205,11 @@ Existence2.0.esp
 CONELRAD 640-1240.esp
 R.A.C.E. Station.esp
 RNVExtended[80]v3b1.esp
+RNVExtended [20].esp
+RNVExtended [40].esp
+RNVExtended [60].esp
+RNVExtended [80].esp
+RNVExtended [100].esp
 thewastelandstream.esp
 WPR.esp
 Distant Gunfire Sound Fix.esp
@@ -232,8 +237,6 @@ BCL custom edition.esp
 BetterGamePerformanceV1.esp
 BetterGamePerformanceV2.esp
 BetterGamePerformanceV3.esp
-BetterRepairKits.esp
-? Old
 Better Tag Skills.esp
 BlackMountainRadioEverywhere.esp
 BzBody.esp
@@ -301,7 +304,6 @@ Better Ammo Crafting.esp
 Better Casinos.esp
 BetterCraftingSorting.esp
 % {{BASH: Names}}
-BetterRepairKits2b.esp
 Craftable Stealth boys.esp
 EMP Ammo Expansion.esp
 ExplosivesRecipes.esp
@@ -401,7 +403,7 @@ AirForceArmorT57C.esp
 AliceRace.esp
 AliceOutfits.esp
 Armored PA Gloves.esp
-% {{BASH: Delev,Relev}}
+% {{BASH: Deflst}}
 BodyJewelry.esp
 ChildArmorPack.esp
 ClassicPowerArmorPulseRifle.esp
@@ -419,6 +421,7 @@ JRougeRangerCoats4Loot.esp
 Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
 LUCSA.esp
+Mantis07Reflex - Realism.esp
 NEVECbodysuit.esp
 NVLadyoutfit1.esp
 NWghostbodysuit.esp
@@ -484,10 +487,13 @@ NVPhalanx.esp
 \BeginGroup\: Later Misc
 \-----------
 1PipboyPDA.esp
+aaaJNFCamp.esp
+BetterRepairKits.esp
+? Old
+BetterRepairKits2b.esp
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
 Sorter - Combined - T3T Icon Compatch.esp
-aaaJNFCamp.esp
 \EndGroup\\
 
 \BeginGroup\: Game-Settings and Overrides
