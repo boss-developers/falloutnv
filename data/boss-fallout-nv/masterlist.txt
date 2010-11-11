@@ -31,7 +31,7 @@ Lings.esm
 MikotoBeauty.esm
 Moddable Unique Weps.esm
 FOOK - New Vegas.esm
-% {{BASH: Names,Stats,Delev}}
+% {{BASH: Deflst,Delev,Graphics,Names,Stats,Scripts}}
 Shojo Race Vegas.esm
 \EndGroup\\
 
@@ -134,13 +134,13 @@ NewStripMapMarkers.esp
 \BeginGroup\: BlackCompany HarderCore Pack
 \-----------
 NVHarderCore.esp
-% {{BASH: Stats}}
+% {{BASH: Names,Stats}}
 NVLogicalRepairLists.esp
 NVORganizedItems.esp
 % {{BASH: Names}}
 NVSettingsTweaks.esp
 NVWastelandUnlocked.esp
-% {{BASH: Relations}}
+% {{BASH: Delev,Names,Relations}}
 NVWeaponAmmoTweaks.esp
 NVPerksImproved.esp
 \EndGroup\\
@@ -176,7 +176,7 @@ Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Fallout - New FPS (Medium).esp
 FOOK - New Vegas.esp
-% {{BASH: Delev,Names,Stats}}
+% {{BASH: Deflst,Delev,Graphics,Names,Stats,Scripts}}
 pnv.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
@@ -232,6 +232,7 @@ FalloutNVCheatTerminal.esp
 gambling.esp
 less_aggressive_cazadores.esp
 LFox Bottle That Water.esp
+% {{BASH: Names}}
 Lighter books.esp
 LightweightSanitizer.esp
 Military Explansion Program.esp
