@@ -31,7 +31,7 @@ More Perks.esm
 Lings.esm
 MikotoBeauty.esm
 Moddable Unique Weps.esm
-\mods
+% {{BASH: WeaponMods}}
 20th Century Weapons.esm
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
@@ -158,8 +158,7 @@ NVHarderCore.esp
 NVLogicalRepairLists.esp
 NVSettingsTweaks.esp
 NVWastelandUnlocked.esp
-% {{BASH: Delev,Names,Relations,Relev}}
-\mods
+% {{BASH: Delev,Names,Relations,Relev,WeaponMods}}
 NVWeaponAmmoTweaks.esp
 NVUnnerfed.esp
 \EndGroup\\
@@ -341,7 +340,7 @@ AA12.esp
 ACR.esp
 ASG.esp
 Assault Carbine mods.esp
-\mods
+% {{BASH: WeaponMods}}
 Automatic Service Rifle.esp
 BearTrap.esp
 Beretta.esp
@@ -378,11 +377,11 @@ m1c.esp
 M2HB.esp
 M82.esp
 Moddable Anti-Materiel Rifle.esp
-\mods
+% {{BASH: WeaponMods}}
 Moddable Unique Weps.esp
 ? Old: If you are using above version 2.0 you must delete this file
 " Moddable Unique Weps.esm
-\mods
+% {{BASH: WeaponMods}}
 Mossberg.esp
 Mossberg590.esp
 NepaleseKukri.esp
