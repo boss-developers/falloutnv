@@ -3,13 +3,13 @@
 \ \ A silent comment - will be ignored by the program.
 \ % A Bashed Patch suggestion for the mod above.
 \ ? A comment about the mod above.
-\ * Flags a critical mistake for FOOK2 installation in relation to the mod above.
+\ * Flags a critical mistake for FOOK installation in relation to the mod above.
 \ $ Flags a critical mistake for FWE installation in relation to the mod above.
 \ : Means "Requires:"
 \ " Means "Conflicts with:"
 \
-\ > process this line only if FOOK2 is installed.
-\ < process this line only if FOOK2 isn't installed.
+\ > process this line only if FOOK is installed.
+\ < process this line only if FOOK isn't installed.
 \
 \ Unused symbols: ^
 \ Don't try using them, as they aren't assigned to do anything special.
@@ -44,6 +44,7 @@ Ambient Temperature.esm
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Abandoned Bunker Fix.esp
+BoxFix.esp
 Brotherhood Fix.esp
 CaravanCardFix.esp
 Davisonnoattack.esp
@@ -62,10 +63,13 @@ DarNifiedUINV.esp
 Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
 Further3rdPersonCamera.esp
+NVORganizedItems.esp
+% {{BASH: Names}}
 RMPipboy.esp
 Sorter - Combined.esp
 % {{BASH: Names}}
 Sorter - Combined - Aid Crafting.esp
+% {{BASH: Names}}
 CASM.esp
 \EndGroup\\
 
@@ -152,14 +156,19 @@ NewStripMapMarkers.esp
 NVHarderCore.esp
 % {{BASH: Names,Stats}}
 NVLogicalRepairLists.esp
-NVORganizedItems.esp
-% {{BASH: Names}}
 NVSettingsTweaks.esp
 NVWastelandUnlocked.esp
 % {{BASH: Delev,Names,Relations,Relev}}
 \mods
 NVWeaponAmmoTweaks.esp
-NVPerksImproved.esp
+NVUnnerfed.esp
+\EndGroup\\
+
+\BeginGroup\: FOOK
+\-----------
+FOOK - New Vegas.esp
+% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+ammo can fix.esp
 \EndGroup\\
 
 \BeginGroup\: Frontsalats Modular Mods and Tweaks
@@ -180,20 +189,18 @@ Food&DrinkDontHeal.esp
 
 \BeginGroup\: Other
 \-----------
+Adventurers_New_Vegas-V0.1.esp
+? Old
+Adventurers_New_Vegas-econ-and-items-V02.esp
+Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
+Fallout - New FPS (Medium).esp
 hardercore_combat.esp
 % {{BASH: Stats}}
 hardercore_wealth.esp
 % {{BASH: Delev,Relev}}
 hardercore_healing.esp
-Adventurers_New_Vegas-V0.1.esp
-? Old
-Adventurers_New_Vegas-econ-and-items-V02.esp
-Adventurers_New_Vegas-gameplay-and-combat-V02.esp
-Fallout - New FPS (Medium).esp
-FOOK - New Vegas.esp
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 pnv.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
@@ -222,6 +229,7 @@ Improved Sound FX.esp
 Kobu's Free Wild Wasteland Trait.esp
 More Perks.esp
 More Perks Update.esp
+NVPerksImproved.esp
 PerkEveryLevel.esp
 psychoelf traits 1.esp
 VG0PreorderAlternative.esp
@@ -249,6 +257,7 @@ CompanionDe-Equip.esp
 Druged Effects.esp
 FalloutNVCheatTerminal.esp
 gambling.esp
+Hardcore canteen.esp
 hold_breath.esp
 Kobu's Primary Attributes Uncapper.esp
 less_aggressive_cazadores.esp
@@ -344,6 +353,12 @@ Binocs12fov.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
+Classic Plasma Grenade.esp
+% {{BASH: Graphics}}
+Classic Pulse Grenade (classic sound).esp
+% {{BASH: Graphics,Sounds}}
+Classic Pulse Grenade (vanilla sound).esp
+% {{BASH: Graphics}}
 Classic YK42b Pulse Rifle.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
@@ -380,6 +395,7 @@ RHINO45-70_NV.esp
 SAW M249.esp
 silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
+Usableservice.esp
 Weathered10mmFixed.esp
 xCALIBRuniverse_ImpulsePurchasePack.esp
 xCALIBRuniverse_mo'guns.esp
