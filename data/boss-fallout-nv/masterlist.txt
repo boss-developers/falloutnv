@@ -27,11 +27,14 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 CALIBR.esm
+Goodsprings Hideout.esm
 More Perks.esm
 Lings.esm
 MikotoBeauty.esm
+Thermal Vision.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
+" Moddable Unique Weps.esp
 20th Century Weapons.esm
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
@@ -105,6 +108,7 @@ Raul - Danny Trejo.esp
 
 \BeginGroup\: NPC
 \-----------
+Armor Replacer Child NPC Fix.esp
 I Fought the Law Workaround.esp
 Mr Moneybags.esp
 NPCsUseAmoo.esp
@@ -141,6 +145,7 @@ NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
 PoseidonResearchFacility.esp
+SDs Lucky 38 Suite Trophies.esp
 SecretHideout-v1.21.esp
 vegassuburbshome.esp
 Wolf's Goodspring hole v0.2.esp
@@ -158,8 +163,9 @@ NVHarderCore.esp
 NVLogicalRepairLists.esp
 NVSettingsTweaks.esp
 NVWastelandUnlocked.esp
-% {{BASH: Delev,Names,Relations,Relev,WeaponMods}}
+% {{BASH: Delev,Names,Relations,Relev,Stats,WeaponMods}}
 NVWeaponAmmoTweaks.esp
+% {{BASH: Stats,WeaponMods}}
 NVUnnerfed.esp
 \EndGroup\\
 
@@ -172,7 +178,13 @@ ammo can fix.esp
 
 \BeginGroup\: Frontsalats Modular Mods and Tweaks
 \-----------
+NoWeaponZoom.esp
+ImprovedBinocs.esp
+BugFixes.esp
+GsSourceShack.esp
 SlowerBackWardsSpeed.esp
+EasyConsoleCommands.esp
+HotkeysRebind.esp
 HeadWearShaders.esp
 JumpHigher.esp
 MaxLevel99.esp
@@ -180,10 +192,14 @@ PitchBlackNights.esp
 ClutterWeight.esp
 SlowerLeveling.esp
 StrongerLight.esp
-Companionchanges.esp
 NoSneakWarnings.esp
 LootOverhaul.esp
 Food&DrinkDontHeal.esp
+PerkEveryLevel.esp
+Companionchanges.esp
+CompanionsImproved.esp
+novacgiftshp.esp
+RecipeOverhaul.esp
 \EndGroup\\
 
 \BeginGroup\: Other
@@ -225,11 +241,11 @@ Improved Sound FX.esp
 
 \BeginGroup\: Perks
 \-----------
+Free Wild Wasteland.esp
 Kobu's Free Wild Wasteland Trait.esp
 More Perks.esp
 More Perks Update.esp
 NVPerksImproved.esp
-PerkEveryLevel.esp
 psychoelf traits 1.esp
 VG0PreorderAlternative.esp
 xatmosSkillPerks.esp
@@ -240,6 +256,7 @@ xatmosSkillPerks.esp
 \-----------
 AddEmptyBottle.esp
 Animated Prostitution.esp
+ArenaAnySex.esp
 BCL custom edition.esp
 BetterGamePerformanceV1.esp
 BetterGamePerformanceV2.esp
@@ -253,12 +270,14 @@ Clanf_NoWeaponsRemove.esp
 Classic Pack Canteen More Hardcore.esp
 Clean Up New Vegas.esp
 CompanionDe-Equip.esp
+Desaturated Cateye.esp
 Druged Effects.esp
 FalloutNVCheatTerminal.esp
 gambling.esp
 Hardcore canteen.esp
 hold_breath.esp
 Kobu's Primary Attributes Uncapper.esp
+Kobu's Primary Attribute Uncapper.esp
 less_aggressive_cazadores.esp
 Level Cap 100.esp
 LFox Bottle That Water.esp
@@ -298,6 +317,7 @@ Silver Rush inventory expansion.esp
 Slightly More Hardcore Hardcore Mode.esp
 Solar's Bottled Water.esp
 Solar's Bottled Water - Bottlecaps.esp
+Sprint Mod.esp
 Stocked38 .esp
 Tag Skills Improved.esp
 WurstBarberMachine.esp
@@ -315,8 +335,10 @@ BetterCraftingSorting.esp
 Craftable Stealth boys.esp
 EMP Ammo Expansion.esp
 ExplosivesRecipes.esp
+GtabImprovedAmmo.esp
 LFox Missing Ammo Recipes.esp
 Pulse Grenade Recipes.esp
+Stealthboy Recipe.esp
 Survival Expansion 0.1.esp
 \EndGroup\\
 
@@ -379,9 +401,8 @@ M82.esp
 Moddable Anti-Materiel Rifle.esp
 % {{BASH: WeaponMods}}
 Moddable Unique Weps.esp
-? Old: If you are using above version 2.0 you must delete this file
-" Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
+" Moddable Unique Weps.esm
 Mossberg.esp
 Mossberg590.esp
 NepaleseKukri.esp
@@ -394,6 +415,7 @@ RHINO45-70_NV.esp
 SAW M249.esp
 silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
+Throwing Ninja's Weapon.esp
 Usableservice.esp
 Weathered10mmFixed.esp
 xCALIBRuniverse_ImpulsePurchasePack.esp
@@ -408,8 +430,7 @@ QBackPackNV.esp
 KDS Wearable Backpacks.esp
 Kobu's Sortable Backpack.esp
 Kobu's Sortable Backpack - No Extra Carry Weight.esp
-Night Vision Sunglasses.esp
-Faction Armor Converted to Non Faction.esp
+Kobu's Sortable Crafting Backpack.esp
 Advanced Recon Gear.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 Advanced Recon Armor-Location Doc Mitchell.esp
@@ -419,6 +440,7 @@ AliceRace.esp
 AliceOutfits.esp
 Armored PA Gloves.esp
 % {{BASH: Deflst}}
+ATT LeatherJacket.esp
 BodyJewelry.esp
 ChildArmorPack.esp
 ClassicPowerArmorPulseRifle.esp
@@ -430,6 +452,7 @@ Desert Armor rebuilt.esp
 DragonskinTacticalOutfit.esp
 dressup.esp
 dressupWITHweaponchanges.esp
+Faction Armor Converted to Non Faction.esp
 Holster.esp
 JillBSAA.esp
 JRougeRangerCoats4Loot.esp
@@ -438,17 +461,23 @@ LegateArmor.esp
 LUCSA.esp
 Mantis07Reflex - Realism.esp
 NEVECbodysuit.esp
+Night Vision Sunglasses.esp
 NVLadyoutfit1.esp
 NWghostbodysuit.esp
 Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
+Persona_and_Secret.esp
 QSondraOutfits.esp
 RCSS.esp
 Realistic Power Armor.esp
 SBVenomousArmor.esp
+Sunglasses Shipment.esp
+Sunglasses Shipment - Four Eyes.esp
+t3bbarmor.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 TheArmorer.esp
+Valhalla_Personal_Protection_NV.esp
 Vegas Volt his 7.esp
 \EndGroup\\
 
