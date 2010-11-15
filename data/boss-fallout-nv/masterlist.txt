@@ -63,17 +63,22 @@ VMS44Fixed.esp
 \BeginGroup\: Early Loading Mods
 \-----------
 DarNifiedUINV.esp
+CASM.esp
 Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
 Further3rdPersonCamera.esp
 NVORganizedItems.esp
 % {{BASH: Names}}
+Purge Cell Buffers.esp
+Readius_NV.esp
+Realistic Weight.esp
+% {{BASH: Stats}}
 RMPipboy.esp
 Sorter - Combined.esp
 % {{BASH: Names}}
 Sorter - Combined - Aid Crafting.esp
 % {{BASH: Names}}
-CASM.esp
+Sorter Caravan Card & Ammo @ END.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
@@ -105,6 +110,8 @@ MikotoBPWastersOverhaul.esp
 % {{BASH: NpcFaces,NoMerge}}
 Raul - Danny Trejo.esp
 % {{BASH: NpcFaces,NoMerge}}
+VyntageCass02.esp
+% {{BASH: NpcFaces}}
 
 \BeginGroup\: NPC
 \-----------
@@ -136,6 +143,7 @@ GoodSprings Home.esp
 GunRunnersExpandedV3.3.esp
 HiddenBunker.esp
 Isolated Camp.esp
+KDS Green World.esp
 LargeGoodspringsPlayerHome.esp
 McFlyFarm.esp
 My Goodsprings Home.esp
@@ -167,6 +175,19 @@ NVWastelandUnlocked.esp
 NVWeaponAmmoTweaks.esp
 % {{BASH: Stats,WeaponMods}}
 NVUnnerfed.esp
+\EndGroup\\
+
+\BeginGroup\: Fallout New Vegas Advanced
+\-----------
+FONVAHeavyAmmo.esp
+FONVARareItems.esp
+FONVAFoodDrinks.esp
+FONVAHeavyMoney.esp
+FONVASixHands.esp
+FONVARepairBarter.esp
+FONVADamage.esp
+FONVAChemsBooks.esp
+FONVAOOCHPR.esp
 \EndGroup\\
 
 \BeginGroup\: FOOK
@@ -202,14 +223,39 @@ novacgiftshp.esp
 RecipeOverhaul.esp
 \EndGroup\\
 
+\BeginGroup\: Puce Moose Tweak and Balance Center
+\-----------
+PMT - XPadjust.esp
+PMT - QuieterVats.esp
+PMT - Rude Awakening.esp
+PMT - Nastier mines and grenades.esp
+PMT - Slower Backward Movement.esp
+PMT - Total Challenge Remover.esp
+" PMT - Reduced Challenge Notifications.esp
+PMT - Reduced Challenge Notifications.esp
+" PMT - Total Challenge Remover.esp
+PMT - Reduced Ammo and Chems.esp
+PMT - More Demanding Hardcore.esp
+\EndGroup\\
+
+\BeginGroup\: Reload
+\-----------
+Reload.esp
+Rebalance.esp
+Rearm.esp
+RebalanceRearm.esp
+\EndGroup\\
+
 \BeginGroup\: Other
 \-----------
+ABARM.esp
 Adventurers_New_Vegas-V0.1.esp
 ? Old
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
+BallanceMod.esp 
 Fallout - New FPS (Medium).esp
 hardercore_combat.esp
 % {{BASH: Stats}}
@@ -226,7 +272,11 @@ enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
 R.A.C.E. Station.esp
+RNVExtended[20]v3b1.esp
+RNVExtended[40]v3b1.esp
+RNVExtended[60]v3b1.esp
 RNVExtended[80]v3b1.esp
+RNVExtended[100]v3b1.esp
 RNVExtended [20].esp
 RNVExtended [40].esp
 RNVExtended [60].esp
@@ -263,6 +313,7 @@ BetterGamePerformanceV2.esp
 BetterGamePerformanceV3.esp
 Better Tag Skills.esp
 BlackMountainRadioEverywhere.esp
+BoostedSkills.esp
 BzBody.esp
 Casino UnBanner.esp
 Canteen.esp
@@ -271,6 +322,7 @@ Classic Pack Canteen More Hardcore.esp
 Clean Up New Vegas.esp
 CompanionDe-Equip.esp
 Desaturated Cateye.esp
+DK_BulletTime_NV.esp
 Druged Effects.esp
 FalloutNVCheatTerminal.esp
 gambling.esp
@@ -279,6 +331,8 @@ hold_breath.esp
 Kobu's Primary Attributes Uncapper.esp
 Kobu's Primary Attribute Uncapper.esp
 less_aggressive_cazadores.esp
+Less Weight.esp
+" More Weight.esp
 Level Cap 100.esp
 LFox Bottle That Water.esp
 % {{BASH: Names,Scripts}}
@@ -290,6 +344,9 @@ More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
 More Ammo - 5x.esp
+MoreShells.esp
+More Weight.esp
+" Less Weight.esp
 NoFastTravel_NV.esp
 No Litter.esp
 NewVegasRestorationStrip+Casino.esp
@@ -307,12 +364,14 @@ PortableCampsite.esp
 Project13 - Populated Wasteland.esp
 psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
+pyDoF.esp
 ReducedUndiscoveredCompass.esp
 RespawnerImprovedEx.esp
 Respawn1Week.esp
 Respawn24Hours.esp
 Respawning Containers.esp
 Respawn24HoursImprovedEx.esp
+SaveCass.esp
 Silver Rush inventory expansion.esp
 Slightly More Hardcore Hardcore Mode.esp
 Solar's Bottled Water.esp
@@ -359,6 +418,11 @@ injectionpatch.esp
 MERGEinjection.esp
 1st Recon Ranger Gear.esp
 AA12.esp
+Advanced Recon Armor-Location Doc Mitchell.esp
+Advanced Recon Armor-No Stealth Field.esp
+Advanced Recon Armor.esp
+Advanced Recon Gear-Locations Doc Mitchell.esp
+Advanced Recon Gear.esp
 ACR.esp
 ASG.esp
 Assault Carbine mods.esp
@@ -513,6 +577,7 @@ ED-E Shotgun.esp
 CManagerie.esp
 Companion Sandbox Mode.esp
 EnclaveCommander.esp
+Follower Home Marker.esp
 JeyebotCompanion.esp
 Light Step ED-E.esp
 Max Followers 12.esp
@@ -524,6 +589,7 @@ RexReplacerEss.esp
 % {{BASH: Graphics}}
 UnlimitedCompanions.esp
 Unlimited Companions.esp
+No More Annoying CC - ALL.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages,Actors.CombatStyle,Scripts}}
 \EndGroup\\
@@ -546,6 +612,7 @@ noautoaim.esp
 Improved VATS and Autoaim fix with Better Binoculars.esp
 RWD-NVv1.esp
 vatsbuff2x.esp
+Bullet Impact Increased LOD.esp
 Closer To Fallout - True Threshold.esp
 dD - Enhanced Blood Main NV.esp
 Faster Runing.esp
@@ -561,6 +628,8 @@ Piplight Brightness - 500%.esp
 
 \BeginGroup\: Weather\Light\Water
 \-----------
+ACF Brighter Days and Darker Nights v5 - Medium
+ACF Brighter Days and Darker Nights v5 - Dark
 CustomLighting-IE DoF Blur.esp
 CustomLighting-IE DoF.esp
 DN More Lights.esp
@@ -595,7 +664,9 @@ AFricanAmericanAAlbino.esp
 \-----------
 MikotoBeauty.esp
 Rikai'sHairPack.esp
+SideburnsBeardFlare.esp
 SideburnsBeardLong.esp
+SideburnsBeardShort.esp
 Sideburns.esp
 \EndGroup\\
 
