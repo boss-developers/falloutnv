@@ -190,13 +190,6 @@ FONVAChemsBooks.esp
 FONVAOOCHPR.esp
 \EndGroup\\
 
-\BeginGroup\: FOOK
-\-----------
-FOOK - New Vegas.esp
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
-ammo can fix.esp
-\EndGroup\\
-
 \BeginGroup\: Frontsalats Modular Mods and Tweaks
 \-----------
 NoWeaponZoom.esp
@@ -226,6 +219,7 @@ RecipeOverhaul.esp
 \BeginGroup\: Puce Moose Tweak and Balance Center
 \-----------
 PMT - XPadjust.esp
+% {{BASH: Invent}}
 PMT - QuieterVats.esp
 PMT - Rude Awakening.esp
 PMT - Nastier mines and grenades.esp
@@ -235,7 +229,13 @@ PMT - Total Challenge Remover.esp
 PMT - Reduced Challenge Notifications.esp
 " PMT - Total Challenge Remover.esp
 PMT - Reduced Ammo and Chems.esp
+% {{BASH: Relev}}
 PMT - More Demanding Hardcore.esp
+% {{BASH: Stats}}
+PMT - Deadlier Combat.esp
+% {{BASH: Stats}}
+PMT - Deadlier Combat Mk II.esp
+% {{BASH: Stats}}
 \EndGroup\\
 
 \BeginGroup\: Reload
@@ -244,6 +244,13 @@ Reload.esp
 Rebalance.esp
 Rearm.esp
 RebalanceRearm.esp
+\EndGroup\\
+
+\BeginGroup\: FOOK
+\-----------
+FOOK - New Vegas.esp
+% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+ammo can fix.esp
 \EndGroup\\
 
 \BeginGroup\: Other
@@ -473,7 +480,7 @@ NepaleseKukri.esp
 NV binoculars.esp
 PK_Pulse_Pistol.esp
 PlasmaRifleAwesomefied.esp
-% {{BASH: Sound}}
+% {{BASH: Sound,Stats}}
 P90Nana-set.esp
 RHINO45-70_NV.esp
 SAW M249.esp
