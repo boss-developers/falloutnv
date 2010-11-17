@@ -27,6 +27,7 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 CALIBR.esm
+Tales from the Burning Sands.esm
 Goodsprings Hideout.esm
 More Perks.esm
 Lings.esm
@@ -190,6 +191,13 @@ FONVAChemsBooks.esp
 FONVAOOCHPR.esp
 \EndGroup\\
 
+\BeginGroup\: FOOK
+\-----------
+FOOK - New Vegas.esp
+% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+ammo can fix.esp
+\EndGroup\\
+
 \BeginGroup\: Frontsalats Modular Mods and Tweaks
 \-----------
 NoWeaponZoom.esp
@@ -241,16 +249,14 @@ PMT - Deadlier Combat Mk II.esp
 \BeginGroup\: Reload
 \-----------
 Reload.esp
+% {{BASH: Names}}
 Rebalance.esp
+% {{BASH: Names,Stats}}
 Rearm.esp
 RebalanceRearm.esp
-\EndGroup\\
-
-\BeginGroup\: FOOK
-\-----------
-FOOK - New Vegas.esp
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
-ammo can fix.esp
+% {{BASH: Stats}}
+RearmRebalance.esp
+% {{BASH: Stats}}
 \EndGroup\\
 
 \BeginGroup\: Other
