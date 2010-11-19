@@ -48,17 +48,21 @@ Ambient Temperature.esm
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Abandoned Bunker Fix.esp
+BMNeilFix.esp
 BoxFix.esp
 Brotherhood Fix.esp
 CaravanCardFix.esp
+CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 FNV-BeardEyebrowFixV1_0.esp
 Lucky 38 Suite Respawn Fix.esp
 MeyersFix.esp
 ReloadBugFix.esp
 Vault11HouseFix.esp
+Vault34Fix.esp
 VeronicaFix.esp
 VMS44Fixed.esp
+weathersnotstuck.esp
 \EndGroup\\
 
 \BeginGroup\: Early Loading Mods
@@ -100,7 +104,7 @@ Cuter Boone.esp
 Cuter Boone NEW.esp
 % {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces}}
 MikotoBPCCArcade.esp
 % {{BASH: NpcFaces,NoMerge}}
 MikotoBPCCBoone.esp
@@ -158,6 +162,7 @@ SDs Lucky 38 Suite Trophies.esp
 SecretHideout-v1.21.esp
 vegassuburbshome.esp
 Wolf's Goodspring hole v0.2.esp
+Lucky38marker.esp
 markers.esp
 NewStripMapMarkers.esp
 \EndGroup\\
@@ -237,22 +242,24 @@ PMT - Total Challenge Remover.esp
 PMT - Reduced Challenge Notifications.esp
 " PMT - Total Challenge Remover.esp
 PMT - Reduced Ammo and Chems.esp
-% {{BASH: Relev}}
+% {{BASH: Delev,Relev}}
 PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
 PMT - Deadlier Combat.esp
 % {{BASH: Stats}}
 PMT - Deadlier Combat Mk II.esp
 % {{BASH: Stats}}
+PMT - Tougher economy.esp
 \EndGroup\\
 
 \BeginGroup\: Reload
 \-----------
 Reload.esp
-% {{BASH: Names}}
+% {{BASH: Delev,Names,Relev}}
 Rebalance.esp
 % {{BASH: Names,Stats}}
 Rearm.esp
+% {{BASH: Delev,Relev}}
 RebalanceRearm.esp
 % {{BASH: Stats}}
 RearmRebalance.esp
@@ -304,6 +311,7 @@ Improved Sound FX.esp
 
 \BeginGroup\: Perks
 \-----------
+ChildAtHeartPerk.esp
 Free Wild Wasteland.esp
 Kobu's Free Wild Wasteland Trait.esp
 More Perks.esp
@@ -334,11 +342,15 @@ Clanf_NoWeaponsRemove.esp
 Classic Pack Canteen More Hardcore.esp
 Clean Up New Vegas.esp
 CompanionDe-Equip.esp
+CompanionsInfiniteAmmoMin.esp
+CompanionsInfiniteAmmoFull.esp
+CompanionsInfiniteAmmoCheat.esp
 Desaturated Cateye.esp
 DK_BulletTime_NV.esp
 Druged Effects.esp
 FalloutNVCheatTerminal.esp
 gambling.esp
+GomorrahProstituteEnable.esp
 Hardcore canteen.esp
 hold_breath.esp
 Kobu's Primary Attributes Uncapper.esp
@@ -363,6 +375,7 @@ More Weight.esp
 NoFastTravel_NV.esp
 No Litter.esp
 NewVegasRestorationStrip+Casino.esp
+NVfreeradicalperkfix.esp
 nv_passive_critters_norm_gecko.esp
 OJL38RealCasino.esp
 Open Sesame.esp
@@ -480,6 +493,7 @@ Moddable Anti-Materiel Rifle.esp
 Moddable Unique Weps.esp
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esm
+MoraelinsExoticBladesMod.esp
 Mossberg.esp
 Mossberg590.esp
 NepaleseKukri.esp
@@ -547,6 +561,8 @@ Persona_and_Secret.esp
 QSondraOutfits.esp
 RCSS.esp
 Realistic Power Armor.esp
+Repairable_NCR_Combat_Armor_Main.esp
+Repairable_NCR_Combat_Armor_Alt.esp
 SBVenomousArmor.esp
 Sunglasses Shipment.esp
 Sunglasses Shipment - Four Eyes.esp
@@ -591,11 +607,15 @@ CManagerie.esp
 Companion Sandbox Mode.esp
 EnclaveCommander.esp
 Follower Home Marker.esp
+FPT EDE - Irish Redhead - Vanilla.esp
 JeyebotCompanion.esp
 Light Step ED-E.esp
 Max Followers 12.esp
 miria.esp
 nemunoki-replacer.esp
+psychoelfs cass shojo blond.esp
+psychoelfs cass shojo black hair.esp
+psychoelfs cass shojo brown.esp
 Psychoelfs Veronica shojo.esp
 Psychoelfs Veronica shojo bms.esp
 RexReplacerEss.esp
@@ -649,6 +669,7 @@ DN More Lights.esp
 Emperical Weather.esp
 Fellout.esp
 friendofnightforfellout.esp
+KDS Green World.esp
 Nevada Skies.esp
 Nights are Darker 50%.esp
 Nights are Darker 25%.esp
