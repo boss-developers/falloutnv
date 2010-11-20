@@ -316,6 +316,7 @@ Free Wild Wasteland.esp
 Kobu's Free Wild Wasteland Trait.esp
 More Perks.esp
 More Perks Update.esp
+NV_Jinxed_KD.esp
 NVPerksImproved.esp
 psychoelf traits 1.esp
 VG0PreorderAlternative.esp
@@ -333,6 +334,7 @@ BetterGamePerformanceV1.esp
 BetterGamePerformanceV2.esp
 BetterGamePerformanceV3.esp
 Better Tag Skills.esp
+BHS.esp
 BlackMountainRadioEverywhere.esp
 BoostedSkills.esp
 BzBody.esp
@@ -363,6 +365,9 @@ LFox Bottle That Water.esp
 % {{BASH: Names,Scripts}}
 Lighter books.esp
 LightweightSanitizer.esp
+LootableOldCars.esp
+LootableOldCars_AE.esp
+LootableOldCars_OE.esp
 Military Explansion Program.esp
 MojaveXP.esp
 More Ammo.esp
@@ -403,6 +408,7 @@ Slightly More Hardcore Hardcore Mode.esp
 Solar's Bottled Water.esp
 Solar's Bottled Water - Bottlecaps.esp
 Sprint Mod.esp
+Static Battery Replacer.esp
 Stocked38 .esp
 Tag Skills Improved.esp
 WurstBarberMachine.esp
@@ -421,6 +427,7 @@ Craftable Stealth boys.esp
 EMP Ammo Expansion.esp
 ExplosivesRecipes.esp
 GtabImprovedAmmo.esp
+Homemade Grenades.esp
 LFox Missing Ammo Recipes.esp
 Pulse Grenade Recipes.esp
 Stealthboy Recipe.esp
@@ -549,6 +556,7 @@ JillBSAA.esp
 JRougeRangerCoats4Loot.esp
 Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
+LegionNCRnonfaction.esp
 LUCSA.esp
 Mantis07Reflex - Realism.esp
 NEVECbodysuit.esp
@@ -564,6 +572,7 @@ Realistic Power Armor.esp
 Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
 SBVenomousArmor.esp
+Starke's Seperate Chinese Stealth Armor Helmet NV.esp
 Sunglasses Shipment.esp
 Sunglasses Shipment - Four Eyes.esp
 t3bbarmor.esp
