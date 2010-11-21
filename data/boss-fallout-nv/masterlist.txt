@@ -284,30 +284,10 @@ Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
 BallanceMod.esp 
 Fallout - New FPS (Medium).esp
-" Fallout - New FPS (Extreme).esp
-" Realistic Health - Medium.esp
-" Realistic Health - Extreme.esp
-" Realistic Health - Maximum.esp
 Fallout - New FPS (Extreme).esp
-" Fallout - New FPS (Medium).esp
-" Realistic Health - Medium.esp
-" Realistic Health - Extreme.esp
-" Realistic Health - Maximum.esp
 Realistic Health - Medium.esp
-" Fallout - New FPS (Medium).esp
-" Fallout - New FPS (Extreme).esp
-" Realistic Health - Extreme.esp
-" Realistic Health - Maximum.esp
 Realistic Health - Extreme.esp
-" Fallout - New FPS (Medium).esp
-" Fallout - New FPS (Extreme).esp
-" Realistic Health - Medium.esp
-" Realistic Health - Maximum.esp
 Realistic Health - Maximum.esp
-" Fallout - New FPS (Medium).esp
-" Fallout - New FPS (Extreme).esp
-" Realistic Health - Medium.esp
-" Realistic Health - Extreme.esp
 hardercore_combat.esp
 % {{BASH: Stats}}
 hardercore_wealth.esp
@@ -690,11 +670,7 @@ Sorter - Combined - T3T Icon Compatch.esp
 \BeginGroup\: Game-Settings and Overrides
 \-----------
 BetterImplantRegen2.esp
-" BetterImplantRegen5.esp
-" ImprovedImplantRegen.esp
 BetterImplantRegen5.esp
-" BetterImplantRegen2.esp
-" ImprovedImplantRegen.esp
 noautoaim.esp
 Improved VATS and Autoaim fix with Better Binoculars.esp
 RWD-NVv1.esp
@@ -717,8 +693,6 @@ Faster Running (5.5).esp
 Faster Running 4.5.esp
 Imp's Timescale Adjuster.esp
 ImprovedImplantRegen.esp
-" BetterImplantRegen2.esp
-" BetterImplantRegen5.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
 NoDegradation.esp
@@ -763,23 +737,9 @@ FewPosesMore NVedition.esp
 \-----------
 AFricanAmericanAAlbino.esp
 tkEyelashesFNV.esp
-" Lings.esm
-" MikotoBeauty.esm
-" tkEyelashesFNV_FemalesOnly.esp
-" AFricanAmericanAAlbino.esp
-" MikotoBeauty.esp
-" Rikai'sHairPack.esp
-" Shojo Race Vegas.esm
-? conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
+" conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
 tkEyelashesFNV_FemalesOnly.esp
-" Lings.esm
-" MikotoBeauty.esm
-"tkEyelashesFNV.esp
-" AFricanAmericanAAlbino.esp
-" MikotoBeauty.esp
-" Rikai'sHairPack.esp
-" Shojo Race Vegas.esm
-? conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
+" conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
 \EndGroup\\
 
 \BeginGroup\: Hair
