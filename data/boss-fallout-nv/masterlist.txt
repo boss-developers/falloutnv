@@ -73,6 +73,7 @@ CASM.esp
 Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
 Further3rdPersonCamera.esp
+LessIntrusiveKillCam.esp
 NVORganizedItems.esp
 % {{BASH: Names}}
 Purge Cell Buffers.esp
@@ -85,6 +86,7 @@ Sorter - Combined.esp
 Sorter - Combined - Aid Crafting.esp
 % {{BASH: Names}}
 Sorter Caravan Card & Ammo @ END.esp
+Vanity Camera Smoother.esp
 \EndGroup\\
 
 \BeginGroup\: Quests
@@ -154,6 +156,8 @@ GoodSprings Home.esp
 GunRunnersExpandedV3.3.esp
 HomeSweetHome.esp
 HiddenBunker.esp
+IncreasedLegion.esp
+IncreasedLegion1_1.esp
 Isolated Camp.esp
 KDS Green World.esp
 LargeGoodspringsPlayerHome.esp
@@ -240,6 +244,8 @@ RecipeOverhaul.esp
 \-----------
 PMT - XPadjust.esp
 % {{BASH: Invent}}
+PMT - Tougher XPadjust.esp
+% {{BASH: Invent}}
 PMT - QuieterVats.esp
 PMT - Rude Awakening.esp
 PMT - Nastier mines and grenades.esp
@@ -257,6 +263,8 @@ PMT - Deadlier Combat.esp
 PMT - Deadlier Combat Mk II.esp
 % {{BASH: Stats}}
 PMT - Tougher economy.esp
+PMT - Slower Reloading.esp
+% {{BASH: Stats}}
 \EndGroup\\
 
 \BeginGroup\: Reload
@@ -284,10 +292,14 @@ Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
 BallanceMod.esp 
 Fallout - New FPS (Medium).esp
+<<<<<<< .mine
+Realistic Health - Medium.esp
+=======
 Fallout - New FPS (Extreme).esp
 Realistic Health - Medium.esp
 Realistic Health - Extreme.esp
 Realistic Health - Maximum.esp
+>>>>>>> .r1908
 hardercore_combat.esp
 % {{BASH: Stats}}
 hardercore_wealth.esp
@@ -379,6 +391,7 @@ LightweightSanitizer.esp
 LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
+ManualReload.esp
 Military Explansion Program.esp
 MojaveXP.esp
 More Ammo.esp
@@ -390,6 +403,7 @@ More Weight.esp
 " Less Weight.esp
 NoFastTravel_NV.esp
 No Litter.esp
+No Stealth Messages.esp
 NewVegasRestorationStrip+Casino.esp
 NVfreeradicalperkfix.esp
 nv_passive_critters_norm_gecko.esp
@@ -407,6 +421,11 @@ Project13 - Populated Wasteland.esp
 psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 pyDoF.esp
+pyRepair.esp
+Realistic Preorder-Caravan.esp
+Realistic Preorder-Classic.esp
+Realistic Preorder-Mercenary.esp
+Realistic Preorder-Tribal.esp
 ReducedUndiscoveredCompass.esp
 RespawnerImprovedEx.esp
 Respawn1Week.esp
@@ -416,6 +435,11 @@ Respawn24HoursImprovedEx.esp
 SaveCass.esp
 Silver Rush inventory expansion.esp
 Slightly More Hardcore Hardcore Mode.esp
+Slower Level Rates - x1.3.esp
+Slower Level Rates - x1.5.esp
+Slower Level Rates - x2.0.esp
+Slower Level Rates - x2.5.esp
+Slower Level Rates - x3.0.esp
 Solar's Bottled Water.esp
 Solar's Bottled Water - Bottlecaps.esp
 Sprint Mod.esp
@@ -431,6 +455,7 @@ z_Fiends_2.esp
 
 \BeginGroup\: Crafting
 \-----------
+ArmourRepairKits.esp
 Better Ammo Crafting.esp
 % {{BASH: Names}}
 Better Casinos.esp
@@ -445,6 +470,10 @@ LFox Missing Ammo Recipes.esp
 Pulse Grenade Recipes.esp
 Stealthboy Recipe.esp
 Survival Expansion 0.1.esp
+WeaponModRecipes.esp
+WeaponModRecipesA.esp
+WeaponModRecipesS.esp
+WeaponModRecipesR.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -506,6 +535,11 @@ Improved Throwing1.esp
 LightSaberMod.esp
 Jswords4sale.esp
 JTommyGun4Loot.esp
+MachienzoDLCBounty.esp
+MachienzoDLCCourier.esp
+MachienzoDLCDoctor.esp
+MachienzoDLCGambler.esp
+MachienzoDLCMysterious.esp
 m1c.esp
 M2HB.esp
 M82.esp
@@ -601,6 +635,7 @@ Vegas Volt his 7.esp
 \BeginGroup\: Cosmetics
 \-----------
 headgearfix.esp
+tkEyelashesFNV.esp
 \EndGroup\\
 
 \BeginGroup\: Middle Misc
@@ -653,6 +688,7 @@ Unlimited Companions.esp
 No More Annoying CC - ALL.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages,Actors.CombatStyle,Scripts}}
+WeakerBoone40LevelMultiplierESSENTIALVERSION.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
@@ -722,6 +758,7 @@ URWLNV.esp
 URWLNV Darker Night.esp
 URWLNV Brighter Lights.esp
 Western Sky.esp
+Western Sky - Darker Nights.esp
 \EndGroup\\
 
 \BeginGroup\: Lastish
@@ -744,7 +781,9 @@ tkEyelashesFNV_FemalesOnly.esp
 
 \BeginGroup\: Hair
 \-----------
+MediumBeard.esp
 MikotoBeauty.esp
+Receding Hairstyle.esp
 Rikai'sHairPack.esp
 SideburnsBeardFlare.esp
 SideburnsBeardLong.esp
