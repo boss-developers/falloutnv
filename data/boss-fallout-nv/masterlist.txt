@@ -292,14 +292,10 @@ Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
 BallanceMod.esp 
 Fallout - New FPS (Medium).esp
-<<<<<<< .mine
-Realistic Health - Medium.esp
-=======
 Fallout - New FPS (Extreme).esp
 Realistic Health - Medium.esp
 Realistic Health - Extreme.esp
 Realistic Health - Maximum.esp
->>>>>>> .r1908
 hardercore_combat.esp
 % {{BASH: Stats}}
 hardercore_wealth.esp
@@ -635,19 +631,18 @@ Vegas Volt his 7.esp
 \BeginGroup\: Cosmetics
 \-----------
 headgearfix.esp
-tkEyelashesFNV.esp
 \EndGroup\\
 
 \BeginGroup\: Middle Misc
 \-----------
+Immersive Karma.esp
+Immersive Karma with NoStealingKarma.esp
+nokarmalossforstealing.esp
 RepairLists.esp
 RasRepair.esp
 RasRepairAll.esp
 Realistic_Repair_v062.esp
 Realistic_Repair_NV.esp
-Immersive Karma with NoStealingKarma.esp
-nokarmalossforstealing.esp
-Immersive Karma.esp
 \EndGroup\\
 
 \BeginGroup\: Companions
@@ -674,6 +669,9 @@ Light Step ED-E.esp
 Max Followers 12.esp
 miria.esp
 nemunoki-replacer.esp
+No More Annoying CC - ALL.esp
+NVPhalanx.esp
+% {{BASH: Actors.AIPackages,Actors.CombatStyle,Scripts}}
 psychoelfs cass shojo blond.esp
 psychoelfs cass shojo black hair.esp
 psychoelfs cass shojo brown.esp
@@ -681,14 +679,10 @@ Psychoelfs Veronica shojo.esp
 Psychoelfs Veronica shojo bms.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
-WeakerBoone40LevelMultiplierESSENTIALVERSION.esp
-WeakerBoone40LevelMultiplier.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
-No More Annoying CC - ALL.esp
-NVPhalanx.esp
-% {{BASH: Actors.AIPackages,Actors.CombatStyle,Scripts}}
 WeakerBoone40LevelMultiplierESSENTIALVERSION.esp
+WeakerBoone40LevelMultiplier.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
