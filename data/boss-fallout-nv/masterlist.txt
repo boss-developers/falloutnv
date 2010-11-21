@@ -118,6 +118,7 @@ Raul - Danny Trejo.esp
 % {{BASH: NpcFaces,NoMerge}}
 VyntageCass02.esp
 % {{BASH: NpcFaces}}
+\EndGroup\\
 
 \BeginGroup\: NPC
 \-----------
@@ -309,7 +310,6 @@ Distant Gunfire Sound Fix.esp
 Improved Sound FX.esp
 \EndGroup\\
 
-
 \BeginGroup\: Perks
 \-----------
 ChildAtHeartPerk.esp
@@ -323,7 +323,6 @@ psychoelf traits 1.esp
 VG0PreorderAlternative.esp
 xatmosSkillPerks.esp
 \EndGroup\\
-
 
 \BeginGroup\: Early Misc
 \-----------
@@ -485,6 +484,7 @@ DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
 DWM4A1.esp
 EnergyWeaponDeNerf.esp
+FingerOfGodNV.esp
 F03weaponpack_v1_0.esp
 G36C.esp
 HighRoller.esp
@@ -600,6 +600,7 @@ RasRepairAll.esp
 Realistic_Repair_v062.esp
 Realistic_Repair_NV.esp
 Immersive Karma with NoStealingKarma.esp
+Immersive Karma.esp
 \EndGroup\\
 
 \BeginGroup\: Companions
@@ -662,9 +663,12 @@ Bullet Impact Increased LOD.esp
 Closer To Fallout - True Threshold.esp
 dD - Enhanced Blood Main NV.esp
 Faster Runing.esp
+Faster Running (5.5).esp
+Faster Running 4.5.esp
 Imp's Timescale Adjuster.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
+NoDegradation.esp
 PipBoyLightx2.esp
 Colored Piplight - White.esp
 Piplight Brightness - 200%.esp
@@ -705,6 +709,24 @@ FewPosesMore NVedition.esp
 \BeginGroup\: Beauty Packs & Race Addons
 \-----------
 AFricanAmericanAAlbino.esp
+tkEyelashesFNV.esp
+" Lings.esm
+" MikotoBeauty.esm
+" tkEyelashesFNV_FemalesOnly.esp
+" AFricanAmericanAAlbino.esp
+" MikotoBeauty.esp
+" Rikai'sHairPack.esp
+" Shojo Race Vegas.esm
+? conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
+tkEyelashesFNV_FemalesOnly.esp
+" Lings.esm
+" MikotoBeauty.esm
+"tkEyelashesFNV.esp
+" AFricanAmericanAAlbino.esp
+" MikotoBeauty.esp
+" Rikai'sHairPack.esp
+" Shojo Race Vegas.esm
+? conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
 \EndGroup\\
 
 \BeginGroup\: Hair
