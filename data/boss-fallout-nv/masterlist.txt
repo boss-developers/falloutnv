@@ -124,6 +124,10 @@ VyntageCass02.esp
 \-----------
 Armor Replacer Child NPC Fix.esp
 I Fought the Law Workaround.esp
+KillableKids_E.esp
+" KillableKids_NE.esp
+KillableKids_NE.esp
+" KillableKids_E.esp
 Mr Moneybags.esp
 NPCsUseAmoo.esp
 \EndGroup\\
@@ -148,6 +152,7 @@ Goodsprings Improvment1.2.esp
 GoodspringsHome.esp
 GoodSprings Home.esp
 GunRunnersExpandedV3.3.esp
+HomeSweetHome.esp
 HiddenBunker.esp
 Isolated Camp.esp
 KDS Green World.esp
@@ -279,6 +284,30 @@ Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
 BallanceMod.esp 
 Fallout - New FPS (Medium).esp
+" Fallout - New FPS (Extreme).esp
+" Realistic Health - Medium.esp
+" Realistic Health - Extreme.esp
+" Realistic Health - Maximum.esp
+Fallout - New FPS (Extreme).esp
+" Fallout - New FPS (Medium).esp
+" Realistic Health - Medium.esp
+" Realistic Health - Extreme.esp
+" Realistic Health - Maximum.esp
+Realistic Health - Medium.esp
+" Fallout - New FPS (Medium).esp
+" Fallout - New FPS (Extreme).esp
+" Realistic Health - Extreme.esp
+" Realistic Health - Maximum.esp
+Realistic Health - Extreme.esp
+" Fallout - New FPS (Medium).esp
+" Fallout - New FPS (Extreme).esp
+" Realistic Health - Medium.esp
+" Realistic Health - Maximum.esp
+Realistic Health - Maximum.esp
+" Fallout - New FPS (Medium).esp
+" Fallout - New FPS (Extreme).esp
+" Realistic Health - Medium.esp
+" Realistic Health - Extreme.esp
 hardercore_combat.esp
 % {{BASH: Stats}}
 hardercore_wealth.esp
@@ -415,6 +444,8 @@ Stocked38 .esp
 Tag Skills Improved.esp
 WurstBarberMachine.esp
 You take a sip from your trusty Vault 13 canteen.esp
+Weight8000.esp
+weight50000.esp
 z_Fiends_2.esp
 \EndGroup\\
 
@@ -600,6 +631,7 @@ RasRepairAll.esp
 Realistic_Repair_v062.esp
 Realistic_Repair_NV.esp
 Immersive Karma with NoStealingKarma.esp
+nokarmalossforstealing.esp
 Immersive Karma.esp
 \EndGroup\\
 
@@ -634,6 +666,8 @@ Psychoelfs Veronica shojo.esp
 Psychoelfs Veronica shojo bms.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
+WeakerBoone40LevelMultiplierESSENTIALVERSION.esp
+WeakerBoone40LevelMultiplier.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
 No More Annoying CC - ALL.esp
@@ -655,6 +689,12 @@ Sorter - Combined - T3T Icon Compatch.esp
 
 \BeginGroup\: Game-Settings and Overrides
 \-----------
+BetterImplantRegen2.esp
+" BetterImplantRegen5.esp
+" ImprovedImplantRegen.esp
+BetterImplantRegen5.esp
+" BetterImplantRegen2.esp
+" ImprovedImplantRegen.esp
 noautoaim.esp
 Improved VATS and Autoaim fix with Better Binoculars.esp
 RWD-NVv1.esp
@@ -662,10 +702,23 @@ vatsbuff2x.esp
 Bullet Impact Increased LOD.esp
 Closer To Fallout - True Threshold.esp
 dD - Enhanced Blood Main NV.esp
+dD-Smaller Wounds.esp
+dD-More Gore.esp
+dD-Reduced Dismember Force.esp
+dD-Reduced Ragdoll Force.esp
+dD-Screen Blood Vanilla.esp
+dD-Full Screen Blood Instant Remove.esp
+dD-Less Screen Blood Time.esp
+dD-No Screen Blood.esp
+dD-Smaller Spatters Default.esp
+dD-Smaller Spatters Realistic.esp
 Faster Runing.esp
 Faster Running (5.5).esp
 Faster Running 4.5.esp
 Imp's Timescale Adjuster.esp
+ImprovedImplantRegen.esp
+" BetterImplantRegen2.esp
+" BetterImplantRegen5.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
 NoDegradation.esp
