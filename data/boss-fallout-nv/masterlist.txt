@@ -32,6 +32,7 @@ Goodsprings Hideout.esm
 More Perks.esm
 Lings.esm
 MikotoBeauty.esm
+CompanionInfAmmo.esm
 Thermal Vision.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
@@ -347,6 +348,8 @@ CompanionDe-Equip.esp
 CompanionsInfiniteAmmoMin.esp
 CompanionsInfiniteAmmoFull.esp
 CompanionsInfiniteAmmoCheat.esp
+CompanionInfAmmoOptional.esp
+CompanionInfAmmoCheat.esp 
 Desaturated Cateye.esp
 DK_BulletTime_NV.esp
 Druged Effects.esp
@@ -551,6 +554,7 @@ DragonskinTacticalOutfit.esp
 dressup.esp
 dressupWITHweaponchanges.esp
 Faction Armor Converted to Non Faction.esp
+Hereticus Faction Armors Fading.esp
 Holster.esp
 JillBSAA.esp
 JRougeRangerCoats4Loot.esp
