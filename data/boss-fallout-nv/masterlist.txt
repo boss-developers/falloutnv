@@ -27,6 +27,7 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 CALIBR.esm
+CHEMS.esm
 Tales from the Burning Sands.esm
 Goodsprings Hideout.esm
 More Perks.esm
@@ -34,6 +35,7 @@ Lings.esm
 MikotoBeauty.esm
 CompanionInfAmmo.esm
 Thermal Vision.esm
+RH_IRONSIGHTS_NV.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
@@ -42,6 +44,7 @@ FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 Shojo Race Vegas.esm
 Ambient Temperature.esm
+Docs Sexy Nurse.esm
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
@@ -59,6 +62,7 @@ FNV-BeardEyebrowFixV1_0.esp
 Lucky 38 Suite Respawn Fix.esp
 MeyersFix.esp
 ReloadBugFix.esp
+Raul Ranger Andy fix.esp
 Vault11HouseFix.esp
 Vault34Fix.esp
 VeronicaFix.esp
@@ -80,10 +84,16 @@ Purge Cell Buffers.esp
 Readius_NV.esp
 Realistic Weight.esp
 % {{BASH: Stats}}
+Weight_Balance.esp
+% {{BASH: Stats}}
+Weight_Balance_v07.esp
+% {{BASH: Stats}}
 RMPipboy.esp
 Sorter - Combined.esp
 % {{BASH: Names}}
 Sorter - Combined - Aid Crafting.esp
+% {{BASH: Names}}
+Sorter - Combined - Weighted.esp
 % {{BASH: Names}}
 Sorter Caravan Card & Ammo @ END.esp
 Vanity Camera Smoother.esp
@@ -132,15 +142,20 @@ KillableKids_NE.esp
 " KillableKids_E.esp
 Mr Moneybags.esp
 NPCsUseAmoo.esp
+RefinedCasinoPeople&Suits.esp
+SuitFixes+Factions.esp
 \EndGroup\\
 
 \BeginGroup\: Places
 \-----------
 IIWR 2.0.3.esp
 IIWR 2.0.7.esp
+IIWR 2.0.9.esp
+IIWR 2.1.0.esp
 nocol.esp
 A Home in the Mountains.esp
 AbandonedShack.esp
+Baloks Schoolhouse.esp
 Better forest.esp
 Better Lucky 38 Presidential Suite Version 1.0.esp
 BetterLuckySuite.esp
@@ -153,6 +168,7 @@ Goodspring Playerhome V1_1.esp
 Goodsprings Improvment1.2.esp
 GoodspringsHome.esp
 GoodSprings Home.esp
+Goodsprings Shack.esp
 GunRunnersExpandedV3.3.esp
 HomeSweetHome.esp
 HiddenBunker.esp
@@ -169,11 +185,13 @@ NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
 PoseidonResearchFacility.esp
+RedRockRanch.esp
 SDs Lucky 38 Suite Trophies.esp
 SecretHideout-v1.21.esp
 vegassuburbshome.esp
 Wolf's Goodspring hole v0.2.esp
 Lucky38marker.esp
+Lucky38markerV3.esp
 markers.esp
 NewStripMapMarkers.esp
 \EndGroup\\
@@ -218,6 +236,7 @@ ammo can fix.esp
 \-----------
 NoWeaponZoom.esp
 ImprovedBinocs.esp
+HeadWearShaderFX.esp
 BugFixes.esp
 GsSourceShack.esp
 SlowerBackWardsSpeed.esp
@@ -231,13 +250,19 @@ ClutterWeight.esp
 SlowerLeveling.esp
 StrongerLight.esp
 NoSneakWarnings.esp
+NoSpeedReload.esp
 LootOverhaul.esp
 Food&DrinkDontHeal.esp
+Perks&Traits.esp
 PerkEveryLevel.esp
 Companionchanges.esp
 CompanionsImproved.esp
 novacgiftshp.esp
 RecipeOverhaul.esp
+DamageOverhaul.esp
+KarmaOverhaul.esp
+RepairOverhaul.esp
+Npc&CreatureRespawn.esp
 \EndGroup\\
 
 \BeginGroup\: Puce Moose Tweak and Balance Center
@@ -331,12 +356,22 @@ Improved Sound FX.esp
 \-----------
 ChildAtHeartPerk.esp
 Free Wild Wasteland.esp
+KDS Stronger Back Perk 100 Pounds.esp
+KDS Stronger Back Perk 200 Pounds.esp
+KDS Stronger Back Perk 500 Pounds.esp
+KDS Stronger Back Perk 1000 Pounds.esp
 Kobu's Free Wild Wasteland Trait.esp
 More Perks.esp
 More Perks Update.esp
+MercGrenadeRifleDemoPyro.esp
+NV_Jinxed_Classicish.esp
 NV_Jinxed_KD.esp
+NVfreeradicalperkfix.esp
+NVfreeradicalperkfix2.esp
 NVPerksImproved.esp
 psychoelf traits 1.esp
+SturdyCaravanShotgunSurgeon.esp
+Weathered10mmProfessional.esp
 VG0PreorderAlternative.esp
 xatmosSkillPerks.esp
 \EndGroup\\
@@ -345,6 +380,7 @@ xatmosSkillPerks.esp
 \-----------
 AddEmptyBottle.esp
 Animated Prostitution.esp
+ammoingredientsloot.esp
 ArenaAnySex.esp
 BCL custom edition.esp
 BetterGamePerformanceV1.esp
@@ -369,7 +405,9 @@ CompanionInfAmmoCheat.esp
 Desaturated Cateye.esp
 DK_BulletTime_NV.esp
 Druged Effects.esp
+EnhancedSniperAmmo.esp
 FalloutNVCheatTerminal.esp
+FO1TAG.esp
 gambling.esp
 GomorrahProstituteEnable.esp
 Hardcore canteen.esp
@@ -380,6 +418,8 @@ less_aggressive_cazadores.esp
 Less Weight.esp
 " More Weight.esp
 Level Cap 100.esp
+levelcap45.esp
+levelcap46.esp
 LFox Bottle That Water.esp
 % {{BASH: Names,Scripts}}
 Lighter books.esp
@@ -405,7 +445,6 @@ NVfreeradicalperkfix.esp
 nv_passive_critters_norm_gecko.esp
 OJL38RealCasino.esp
 Open Sesame.esp
-Oven Cooking.esp
 Permanent Skill Mags.esp
 Permanent Skill Mags - Item Sorter.esp
 Plausible Starting Outfit.esp
@@ -457,12 +496,18 @@ Better Ammo Crafting.esp
 Better Casinos.esp
 BetterCraftingSorting.esp
 % {{BASH: Names}}
+BuildableBotsNV.esp
+CHEMS - Benches.esp
+CHEMS - Basic Chems.esp
 Craftable Stealth boys.esp
+CRFTOven.esp
 EMP Ammo Expansion.esp
 ExplosivesRecipes.esp
 GtabImprovedAmmo.esp
 Homemade Grenades.esp
+IntuitiveRealisticCooking.esp
 LFox Missing Ammo Recipes.esp
+Oven Cooking.esp
 Pulse Grenade Recipes.esp
 Stealthboy Recipe.esp
 Survival Expansion 0.1.esp
@@ -474,6 +519,7 @@ WeaponModRecipesR.esp
 
 \BeginGroup\: Weapons
 \-----------
+RH_IronSights_NV_Vanilla.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
 20th Century v5 ALIVE (Khan).esp
@@ -505,6 +551,7 @@ Better Binoculars.esp
 Better Binoculars High.esp
 Better Binoculars Max.esp
 Better Zoom.esp
+Xepha's Radial Blurred Zoom.esp
 Binocs12fov.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
@@ -519,6 +566,7 @@ Classic YK42b Pulse Rifle.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
 DWM4A1.esp
+EarlyWeapons.esp
 EnergyWeaponDeNerf.esp
 FingerOfGodNV.esp
 F03weaponpack_v1_0.esp
@@ -531,6 +579,8 @@ Improved Throwing1.esp
 LightSaberMod.esp
 Jswords4sale.esp
 JTommyGun4Loot.esp
+KerberosPanzer.esp
+Kerberosweapons.esp
 MachienzoDLCBounty.esp
 MachienzoDLCCourier.esp
 MachienzoDLCDoctor.esp
@@ -544,6 +594,8 @@ Moddable Anti-Materiel Rifle.esp
 Moddable Unique Weps.esp
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esm
+Inventory Sorter - Moddable Unique Weps.esp
+: Moddable Unique Weps.esp
 MoraelinsExoticBladesMod.esp
 Mossberg.esp
 Mossberg590.esp
@@ -553,6 +605,7 @@ PK_Pulse_Pistol.esp
 PlasmaRifleAwesomefied.esp
 % {{BASH: Sound,Stats}}
 P90Nana-set.esp
+RH_IronSights_NV_NewWeapons.esp
 RHINO45-70_NV.esp
 SAW M249.esp
 silenced 9mmpistol.esp
@@ -584,6 +637,7 @@ Armored PA Gloves.esp
 % {{BASH: Deflst}}
 ATT LeatherJacket.esp
 BodyJewelry.esp
+Brotherhood Armor.esp
 ChildArmorPack.esp
 ClassicPowerArmorPulseRifle.esp
 Crazyeyesreaper T51b Variety Pack.esp
@@ -591,14 +645,21 @@ Dark Mercenary Gear.esp
 DeepEyesNV.esp
 Desert Armor.esp
 Desert Armor rebuilt.esp
+Docs Sexy Nurse.esp
 DragonskinTacticalOutfit.esp
 dressup.esp
 dressupWITHweaponchanges.esp
 Faction Armor Converted to Non Faction.esp
+FaithOutfit.esp
+GrimySuitM+DirtySuitF.esp
+GrimySuitMFix.esp
 Hereticus Faction Armors Fading.esp
+HomeTeleport.esp
 Holster.esp
 JillBSAA.esp
 JRougeRangerCoats4Loot.esp
+KerberosPanzer-power armor.esp
+KerberosPanzer-lower dt.esp
 Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
 LegionNCRnonfaction.esp
@@ -618,12 +679,15 @@ Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
 SBVenomousArmor.esp
 Starke's Seperate Chinese Stealth Armor Helmet NV.esp
+Starke's Seperate Chinese Stealth Armor Helmet NV (OA Version).esp
 Sunglasses Shipment.esp
 Sunglasses Shipment - Four Eyes.esp
 t3bbarmor.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 TheArmorer.esp
+TGsArmorCollectionVegas.esp
+UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
 Vegas Volt his 7.esp
 \EndGroup\\
@@ -652,6 +716,9 @@ AllCompanionsEssential 2.0.esp
 Essentialcompanions.esp
 ICC.esp
 Boone0.2.esp
+Companions never Die.esp
+Cuter Veronica Felicia Day-Essential.esp
+Cuter Veronica Felicia Day.esp
 ede-e_alert_replacement.esp
 ED-E Burr.esp
 ED-E Incinerator.esp
@@ -681,6 +748,8 @@ RexReplacerEss.esp
 % {{BASH: Graphics}}
 UnlimitedCompanions.esp
 Unlimited Companions.esp
+VeronicaFix.esp
+VeronicaFixEssential.esp
 WeakerBoone40LevelMultiplierESSENTIALVERSION.esp
 WeakerBoone40LevelMultiplier.esp
 \EndGroup\\
@@ -688,12 +757,14 @@ WeakerBoone40LevelMultiplier.esp
 \BeginGroup\: Later Misc
 \-----------
 1PipboyPDA.esp
+Pipboy 5k.esp
 aaaJNFCamp.esp
 BetterRepairKits.esp
 ? Old
 BetterRepairKits2b.esp
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
+ShilohDS-Color Maps and Icons.esp
 Sorter - Combined - T3T Icon Compatch.esp
 \EndGroup\\
 
@@ -701,11 +772,15 @@ Sorter - Combined - T3T Icon Compatch.esp
 \-----------
 BetterImplantRegen2.esp
 BetterImplantRegen5.esp
+CarryMult.esp
 noautoaim.esp
 Improved VATS and Autoaim fix with Better Binoculars.esp
 RWD-NVv1.esp
 vatsbuff2x.esp
 Bullet Impact Increased LOD.esp
+realistic headshots HC VATS.esp
+realistic headshots.esp
+realistic headshots VATS.esp
 Closer To Fallout - True Threshold.esp
 dD - Enhanced Blood Main NV.esp
 dD-Smaller Wounds.esp
@@ -722,6 +797,7 @@ Faster Runing.esp
 Faster Running (5.5).esp
 Faster Running 4.5.esp
 Imp's Timescale Adjuster.esp
+Ambient Temperature - ITA.esp
 ImprovedImplantRegen.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
@@ -739,6 +815,13 @@ ACF Brighter Days and Darker Nights v5 - Medium
 ACF Brighter Days and Darker Nights v5 - Dark
 CustomLighting-IE DoF Blur.esp
 CustomLighting-IE DoF.esp
+Depth of View I.esp
+Depth of View I Blur.esp
+Depth of View IE.esp
+Depth of View IE Blur.esp
+Depth of View IE Custom.esp
+Depth of View IE Gentler.esp
+Depth of View IE Middle.esp
 DN More Lights.esp
 Emperical Weather.esp
 Fellout.esp
