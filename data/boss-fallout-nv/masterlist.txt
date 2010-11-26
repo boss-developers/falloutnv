@@ -58,15 +58,21 @@ wsex.esm
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Abandoned Bunker Fix.esp
+BathFix.esp
 BMNeilFix.esp
 BoxFix.esp
 Brotherhood Fix.esp
 CaravanCardFix.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
+DonationFix.esp
+Followers-NCR Alliance Fix.esp
 FNV-BeardEyebrowFixV1_0.esp
 Lucky 38 Suite Respawn Fix.esp
 MeyersFix.esp
+MissFortuneFix.esp
+NV_Fixpack_Perks.esp
+NV_Fixpack_Items.esp
 ReloadBugFix.esp
 Raul Ranger Andy fix.esp
 vangraf fix.esp
@@ -75,8 +81,10 @@ Vault22ElevatorFix.esp
 Vault34Fix.esp
 VeronicaFix.esp
 VMS44Fixed.esp
+WeAllGoTogether.esp
 weathersnotstuck.esp
 WorkingCrimsonCaravanTraders.esp
+PO10mmFix.esp
 \EndGroup\\
 
 \BeginGroup\: Early Loading Mods
@@ -87,6 +95,7 @@ CASM.esp
 BetterLoadingText.esp
 Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
+DynamiCamera.esp
 Further3rdPersonCamera.esp
 LessIntrusiveKillCam.esp
 LMDExpandedHotkeys.esp
@@ -115,9 +124,18 @@ Goodsprings Filler.esp
 Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
+NewVegasBounties.esp
 Wasteland Explorer.esp
 wsexInnuendoAnims.esp
+: wsex.esm
 wsexInnuendoNPCs.esp
+: wsex.esm
+wsex_workgirl.esp
+: wsex.esm
+" wsex_workgirl_tryout.esp
+wsex_workgirl_tryout.esp
+: wsex.esm
+"wsex_workgirl.esp
 \EndGroup\\
 
 \BeginGroup\: Faces
@@ -163,6 +181,9 @@ Mr Moneybags.esp
 NPCsUseAmoo.esp
 RefinedCasinoPeople&Suits.esp
 SuitFixes+Factions.esp
+VendorGameTimeRestock.esp
+VendorGameTimeRestockNoDefaultRestock.esp
+VendorGameTimeRestockNoNVSE.esp
 weathersnotstuck.esp
 \EndGroup\\
 
@@ -223,6 +244,7 @@ Lucky38markerV3.esp
 markers.esp
 StripMarkers21603.esp
 SimpleStripMarkers21603.esp
+New Vegas Map Markers.esp
 NewStripMapMarkers.esp
 \EndGroup\\
 
@@ -367,6 +389,8 @@ pnv.esp
 enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
+Machienzo-RadioNewVegasFix.esp
+Machienzo-RadioNewVegasFixv11.esp
 R.A.C.E. Station.esp
 RNVExtended[20]v3b1.esp
 RNVExtended[40]v3b1.esp
@@ -463,6 +487,8 @@ levelcap45.esp
 levelcap46.esp
 LFox Bottle That Water.esp
 % {{BASH: Names,Scripts}}
+LFox Infinite Companion Ammo Repair.esp
+LFox Infinite Companion Ammo.esp
 Lighter books.esp
 LightweightSanitizer.esp
 LootableOldCars.esp
@@ -479,6 +505,7 @@ MoreShells.esp
 More Weight.esp
 " Less Weight.esp
 NoFastTravel_NV.esp
+No Clutter Junk in Loot Containers.esp
 No Litter.esp
 No Stealth Messages.esp
 NewVegasRestorationStrip+Casino.esp
@@ -509,6 +536,7 @@ Respawn24Hours.esp
 Respawning Containers.esp
 Respawn24HoursImprovedEx.esp
 SaveCass.esp
+SaveCass_german.esp
 Silver Rush inventory expansion.esp
 Slightly More Hardcore Hardcore Mode.esp
 Slower Level Rates - x1.3.esp
@@ -593,6 +621,7 @@ Advanced Recon Armor.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 Advanced Recon Gear.esp
 ACR.esp
+American Hammer Compact.esp
 ASG.esp
 Assault Carbine mods.esp
 % {{BASH: WeaponMods}}
@@ -603,7 +632,7 @@ Better Binoculars.esp
 Better Binoculars High.esp
 Better Binoculars Max.esp
 Better Zoom.esp
-Xepha's Radial Blurred Zoom.esp
+BoilingOil - Eli's Edge.esp
 Binocs12fov.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
@@ -633,6 +662,8 @@ ImmaSightinMahLazor.esp
 % {{BASH: Stats}}
 Improved Throwing1.esp
 LightSaberMod.esp
+J3Rifle4Free.esp
+J3Rifle4Sale.esp
 Jswords4sale.esp
 JTommyGun4Loot.esp
 JTommyGun4Free.esp
@@ -646,6 +677,12 @@ MachienzoDLCCourier.esp
 MachienzoDLCDoctor.esp
 MachienzoDLCGambler.esp
 MachienzoDLCMysterious.esp
+MachienzoDLC2GreatKhan.esp
+MachienzoDLC2Legion.esp
+MachienzoDLC2NCR.esp
+MachienzoDLC2PowderGanger.esp
+MiniNuke.esp
+MiniNukeSmall.esp
 Moddable Anti-Materiel Rifle.esp
 % {{BASH: WeaponMods}}
 Moddable Unique Weps.esp
@@ -659,6 +696,7 @@ NV binoculars.esp
 NVExverminatorRifle.esp
 NVExverminatorRifle2xZoom.esp
 NVExverminatorRifle4xZoom.esp
+Orchids Custom Arsenal.esp
 Pew Pew Pew Pew Pew Pew.esp
 PK_Pulse_Pistol.esp
 PlasmaRifleAwesomefied.esp
@@ -671,12 +709,13 @@ SAW M249.esp
 silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
 Throwing Ninja's Weapon.esp
+Tactical Weapon Pack.esp
 Usableservice.esp
 Weathered10mmFixed.esp
+WeatheredHoldout.esp
 xCALIBRuniverse_ImpulsePurchasePack.esp
 xCALIBRuniverse_mo'guns.esp
-Tactical Weapon Pack.esp
-WeatheredHoldout.esp
+Xepha's Radial Blurred Zoom.esp
 \EndGroup\\
 
 \BeginGroup\: Armor and Clothes
@@ -714,6 +753,7 @@ Docs Sexy Nurse.esp
 DragonskinTacticalOutfit.esp
 dressup.esp
 dressupWITHweaponchanges.esp
+DynamicNightVision.esp
 ERCA.esp
 ERCAFACTLESS.esp
 " ERCA.esp
@@ -757,6 +797,7 @@ PimpMyScarf.esp
 PimpMyScarf_v2.esp
 PlasmaShields.esp
 QSondraOutfits.esp
+Rangermask.esp
 RCSS.esp
 Realistic Power Armor.esp
 Repairable_NCR_Combat_Armor_Main.esp
@@ -814,6 +855,7 @@ Boone0.2.esp
 Companions never Die.esp
 Companions Commander.esp
 Companions Commander RUS.esp
+Companion Neutrality Act.esp
 Companions teleporter All Essential.esp
 Companions teleporter All Essential RUS.esp
 Companions teleporter.esp
@@ -844,6 +886,7 @@ Max Followers 12.esp
 miria.esp
 nemunoki-replacer.esp
 No More Annoying CC - ALL.esp
+NVBabyDeathclawCommander.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages,Actors.CombatStyle,Scripts}}
 psychoelfs cass shojo blond.esp
@@ -851,9 +894,11 @@ psychoelfs cass shojo black hair.esp
 psychoelfs cass shojo brown.esp
 Psychoelfs Veronica shojo.esp
 Psychoelfs Veronica shojo bms.esp
+RemoteControlCompanions.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
 SecuritronCompanion.esp
+SunnyCompanion.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
 VeronicaFix.esp
@@ -872,6 +917,7 @@ aaaJNFCamp.esp
 BetterRepairKits.esp
 ? Old
 BetterRepairKits2b.esp
+Destruction.esp
 Static Battery Replacer.esp
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
@@ -918,12 +964,17 @@ dD-Smaller Spatters Realistic.esp
 Faster Runing.esp
 Faster Running (5.5).esp
 Faster Running 4.5.esp
+Fatigue - Loot the Unconscious.esp
+Fatigue - Weapons Fatigue Damage.esp
 FlashlightNV-LOS.esp
 FlashlightNV-Performance.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
 GunsIgnoreArmor.esp
+Imp's More Complex Needs.esp
+Imp's More Complex Needs - JA - SORTED.esp
+Ambient Temperature - IMCNNV.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
 ImprovedImplantRegen.esp
@@ -947,9 +998,17 @@ realistic headshots HC VATS.esp
 realistic headshots.esp
 realistic headshots VATS.esp
 Realistic Weapon Impact Effects.esp
+NVExpansionByDandysV1.400.esp
+NVReplayabilityByDandys.esp
+NVReplayabilityByDandysV1.100.esp
+NVReplayabilityByDandysV1.200.esp
+NVReplayabilityByDandysV1.300.esp
+NVReplayabilityByDandysV1.5000.esp
 Reign Monocyte Implant Improvement.esp
 SneakingCrosshair.esp
 vanilla move.esp
+XtraSpecialNV.esp
+XSNVBalanceTweaks.esp
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
@@ -970,6 +1029,7 @@ Depth of View IE Middle.esp
 DN More Lights.esp
 Emperical Weather.esp
 Fellout.esp
+Field Depth.esp
 friendofnightforfellout.esp
 Interior Lighting Overhaul-Realistic.esp
 Interior Lighting Overhaul-Darker.esp
