@@ -699,7 +699,7 @@ Armored PA Gloves.esp
 % {{BASH: Deflst}}
 ATT LeatherJacket.esp
 BodyJewelry.esp
-Brotherhood Armor.esp\
+Brotherhood Armor.esp
 bzArmour.esp
 bzBodySuits.esp
 ChildArmorPack.esp
