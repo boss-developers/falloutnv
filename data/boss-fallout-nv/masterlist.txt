@@ -48,6 +48,7 @@ Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
 More Perks.esm
+Playthings.esm
 RH_IRONSIGHTS_NV.esm
 Shojo Race Vegas.esm
 SCAV.esm
@@ -189,7 +190,8 @@ KillableKids_E.esp
 " KillableKids_NE.esp
 KillableKids_NE.esp
 " KillableKids_E.esp
-LFox Easy Weapon Mods.esp 
+LFox Easy Weapon Mods.esp
+Merchants Sell Displayed Items.esp
 Mr Moneybags.esp
 NCR Doggy Buddies.esp
 NCR Doggy Buddies - Alsatian.esp
@@ -263,7 +265,8 @@ Silverpeak Bunker.esp
 SecretHideout-v1.21.esp
 vegassuburbshome.esp
 Wolf's Goodspring hole v0.2.esp
-UHNV.esp 
+UHNV.esp
+Underground Home.esp 
 Lucky38marker.esp
 Lucky38markerV3.esp
 markers.esp
@@ -477,7 +480,9 @@ ZZZZ--APB_By_Nokturnihs.esp
 
 \BeginGroup\: Early Misc
 \-----------
+Active Wasteland.esp
 AddEmptyBottle.esp
+Alternative Console Access.esp
 Animated Prostitution.esp
 ammoingredientsloot.esp
 ArenaAnySex.esp
@@ -613,6 +618,7 @@ Slower Level Rates - x3.0.esp
 Solar's Bottled Water.esp
 Solar's Bottled Water - Bottlecaps.esp
 Sprint Mod.esp
+StarBottleCaps.esp
 Static Battery Replacer.esp
 Stocked38 .esp
 Tag Skills Improved.esp
@@ -907,6 +913,7 @@ Tailor Maid Black Retex - NV.esp
 TGsArmorCollectionVegas.esp
 TheArmorer.esp
 Thermoptic Power Helmets.esp
+TUPAM-NV.esp
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
 Vegas Volt his 7.esp
@@ -927,6 +934,7 @@ headgearfix.esp
 \-----------
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
+LogicalReputationShifts.esp
 Mercy Killing Karma.esp
 Mercy Killing Karma v2.0.esp
 nokarmalossforstealing.esp
@@ -1057,6 +1065,7 @@ Improved VATS and Autoaim fix with Better Binoculars.esp
 RWD-NVv1.esp
 vatsbuff2x.esp
 Bullet Impact Increased LOD.esp
+CF_FastStart.esp
 Closer To Fallout - True Threshold.esp
 dD - Enhanced Blood Main NV.esp
 dD-Smaller Wounds.esp
