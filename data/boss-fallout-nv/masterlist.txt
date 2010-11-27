@@ -27,6 +27,7 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 20th Century Weapons.esm
+Achievement Remover.ESM
 Ambient Temperature.esm
 BinocularsOverhaul.esm
 CALIBR.esm
@@ -75,6 +76,8 @@ NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
 ReloadBugFix.esp
 Raul Ranger Andy fix.esp
+TravelingMerchantFix.esp
+Vance's Gun Quest Patch.esp 
 vangraf fix.esp
 Vault11HouseFix.esp
 Vault22ElevatorFix.esp
@@ -110,6 +113,7 @@ Weight_Balance.esp
 Weight_Balance_v07.esp
 % {{BASH: Stats}}
 RMPipboy.esp
+Sex Try.esp 
 Sorter Caravan Card & Ammo @ END.esp
 Vanity Camera Smoother.esp
 \EndGroup\\
@@ -146,6 +150,7 @@ Cuter Boone NEW.esp
 % {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day.esp
 % {{BASH: NpcFaces}}
+K2_NVPresets.esp 
 MikotoBPCCArcade.esp
 % {{BASH: NpcFaces,NoMerge}}
 MikotoBPCCBoone.esp
@@ -177,6 +182,7 @@ KillableKids_E.esp
 " KillableKids_NE.esp
 KillableKids_NE.esp
 " KillableKids_E.esp
+LFox Easy Weapon Mods.esp 
 Mr Moneybags.esp
 NPCsUseAmoo.esp
 RefinedCasinoPeople&Suits.esp
@@ -223,22 +229,26 @@ Isolated Camp.esp
 KDS Green World.esp
 Lucky 38 Suite Expansion.esp
 Lucky 38 Suite Expansion Bed Option.esp
+Lucky38SuiteRemodel.esp 
 Bobblehunt - Lucky 38 Expantion Compatible.esp
 LargeGoodspringsPlayerHome.esp
 McFlyFarm.esp
 My Goodsprings Home.esp
 NCR Outpost.esp
+NovacMotelroom.esp 
 NVHomestead.esp
 NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
 PoseidonResearchFacility.esp
 RedRockRanch.esp
+Schoolhouse Base.esp 
 SDs Lucky 38 Suite Trophies.esp
 Silverpeak Bunker.esp
 SecretHideout-v1.21.esp
 vegassuburbshome.esp
 Wolf's Goodspring hole v0.2.esp
+UHNV.esp 
 Lucky38marker.esp
 Lucky38markerV3.esp
 markers.esp
@@ -431,6 +441,7 @@ NV_Jinxed_KD.esp
 NVfreeradicalperkfix.esp
 NVfreeradicalperkfix2.esp
 NVPerksImproved.esp
+OutofVATS.esp 
 psychoelf traits 1.esp
 Predator Sneak.esp
 SturdyCaravanShotgunSurgeon.esp
@@ -581,6 +592,7 @@ ExplosivesRecipes.esp
 GtabImprovedAmmo.esp
 HandyRecipes.esp
 Homemade Grenades.esp
+Improved ammo.esp 
 IntuitiveRealisticCooking.esp
 LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
@@ -745,6 +757,8 @@ ChildArmorPack.esp
 ClassicPowerArmorPulseRifle.esp
 Crazyeyesreaper T51b Variety Pack.esp
 Dark Mercenary Gear.esp
+Dark Temptress.esp
+DarkStalker Outfit.esp 
 DeepEyesNV.esp
 Desert Armor.esp
 Desert Armor rebuilt.esp
@@ -764,6 +778,7 @@ ERCA NCRSH.esp
 Eyepatch.esp
 Faction Armor Converted to Non Faction.esp
 FaithOutfit.esp
+Glove_be_gone.esp 
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
 Hereticus Faction Armors Fading.esp
@@ -786,6 +801,7 @@ Military NV Backpacks - Vendor Script Replenish.esp
 My Cloth Collection NV.esp
 NEVECbodysuit.esp
 Night Vision Sunglasses.esp
+NV Night Vision Sunglasses.esp 
 NinjaHeadbandNV_Balanced.esp
 NinjaHeadbandNV_Powerful.esp
 NVLadyoutfit1.esp
@@ -861,6 +877,7 @@ Companions teleporter All Essential RUS.esp
 Companions teleporter.esp
 Companions teleporter RUS.esp
 CompanionLevel30Cap.esp
+CompanionsEssential.esp 
 Cuter Veronica Felicia Day-Essential.esp
 Cuter Veronica Felicia Day.esp
 ede-e_alert_replacement.esp
@@ -872,6 +889,7 @@ ED-E Rocket.esp
 ED-E Shotgun.esp
 CManagerie.esp
 Companion Sandbox Mode.esp
+Companion Sandbox Mode V2.0.esp 
 EnclaveCommander.esp
 Follower Home Marker.esp
 FPT EDE - Irish Redhead - Vanilla.esp
@@ -901,6 +919,7 @@ SecuritronCompanion.esp
 SunnyCompanion.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
+veronicafaceonly.esp
 VeronicaFix.esp
 VeronicaFixEssential.esp
 VeronicaScribeRobe.esp
@@ -972,18 +991,21 @@ FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
 GunsIgnoreArmor.esp
+HJLLessDismembermentAndExplosionsv100.esp 
 Imp's More Complex Needs.esp
 Imp's More Complex Needs - JA - SORTED.esp
 Ambient Temperature - IMCNNV.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
 ImprovedImplantRegen.esp
+JumpNFall.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
 limbregen.esp
 Melee Lock-On.esp
 More Damage To Player.esp
 NoDegradation.esp
+No Scope Wobble.esp 
 PipBoyLightx2.esp
 PipBoyLight.esp
 pipboyx2.esp
