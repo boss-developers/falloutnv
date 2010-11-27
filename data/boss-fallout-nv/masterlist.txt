@@ -1028,13 +1028,13 @@ Depth of View IE Gentler.esp
 Depth of View IE Middle.esp
 DN More Lights.esp
 Emperical Weather.esp
+Nevada Skies.esp
 Fellout.esp
 Field Depth.esp
 friendofnightforfellout.esp
 Interior Lighting Overhaul-Realistic.esp
 Interior Lighting Overhaul-Darker.esp
 KDS Green World.esp
-Nevada Skies.esp
 Nights are Darker 50%.esp
 Nights are Darker 25%.esp
 night_and_day.esp
