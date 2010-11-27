@@ -342,7 +342,7 @@ Perks&Traits.esp
 PerkEveryLevel.esp
 Companionchanges.esp
 CompanionsImproved.esp
-% {{BASH: Actors.AIPAckages}}
+% {{BASH: Actors.AIPackages}}
 novacgiftshp.esp
 RecipeOverhaul.esp
 DamageOverhaul.esp
