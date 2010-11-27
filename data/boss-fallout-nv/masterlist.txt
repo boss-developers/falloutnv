@@ -490,6 +490,8 @@ BCL custom edition.esp
 BetterGamePerformanceV1.esp
 BetterGamePerformanceV2.esp
 BetterGamePerformanceV3.esp
+Better Sneak.esp
+Better Sneak - No Stealth Field.esp
 Better Tag Skills.esp
 BHS.esp
 BlackMountainRadioEverywhere.esp
