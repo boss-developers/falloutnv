@@ -54,6 +54,7 @@ Shojo Race Vegas.esm
 SCAV.esm
 Tales from the Burning Sands.esm
 Thermal Vision.esm
+Weapon Mod Expansion.esm
 wsex.esm
 \EndGroup\\
 
@@ -125,6 +126,7 @@ Vanity Camera Smoother.esp
 \BeginGroup\: Quests
 \-----------
 Bobblehunt.esp
+Bobblehunt (german).esp
 Bobbleheads - Cases.esp
 Bobbleheads - Hidden_v1.2.esp
 Bobbleheads - Not Hidden_v1.2.esp
@@ -250,7 +252,9 @@ LargeGoodspringsPlayerHome.esp
 McFlyFarm.esp
 My Goodsprings Home.esp
 NCR Outpost.esp
-NovacMotelroom.esp 
+NovacMotelroom.esp
+NoVac 4.0_eng.esp
+NoVac 4.0_ger.esp 
 NVHomestead.esp
 NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
@@ -420,6 +424,7 @@ pnv.esp
 
 \BeginGroup\: Sounds
 \-----------
+AOI AWeSOME.esp
 enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
@@ -461,6 +466,7 @@ KDS Stronger Back Perk 500 Pounds.esp
 KDS Stronger Back Perk 1000 Pounds.esp
 Kobu's Free Wild Wasteland Trait.esp
 More Perks.esp
+Perks per du.esp
 More Perks Update.esp
 MercGrenadeRifleDemoPyro.esp
 NV_Jinxed_Classicish.esp
@@ -634,6 +640,7 @@ z_Fiends_2.esp
 \BeginGroup\: Crafting
 \-----------
 ArmourRepairKits.esp
+Armor Crafting BETA.esp
 Better Ammo Crafting.esp
 % {{BASH: Names}}
 Better Casinos.esp
@@ -661,6 +668,7 @@ LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
 Oven Cooking.esp
 Pulse Grenade Recipes.esp
+RiaAmmo.esp
 Recycling.esp
 SCAMP - Scrapping Clutter And Making Parts.esp
 Stealthboy Recipe.esp
@@ -844,6 +852,7 @@ Desert Recon Kit.esp
 Docs Sexy Nurse.esp
 DragonskinTacticalOutfit.esp
 DragonskinNCRPersonnelWearingOutfits.esp
+% {{BASH: Relev}}
 DragonskinBonusPack.esp
 dressup.esp
 dressupWITHweaponchanges.esp
@@ -912,8 +921,10 @@ T51b-Manual.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 TGsArmorCollectionVegas.esp
+THE5 Visors Mod.esp
 TheArmorer.esp
 Thermoptic Power Helmets.esp
+Transladatum - E.esp
 TUPAM-NV.esp
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
@@ -1052,6 +1063,7 @@ FeelingIrradiated-IS.esp
 \BeginGroup\: Game-Settings and Overrides
 \-----------
 aaaJNFSniperZooming.esp
+Automatic Inventory.esp
 Balance mod - 10% XP Gain.esp
 Balance mod - 50% XP Gain.esp
 balance mod - perk every 2 levels optional.esp
@@ -1059,6 +1071,7 @@ balance mod - perk every 3 levels optional.esp
 BalanceMod - Slower moving optional.esp
 BetterImplantRegen2.esp
 BetterImplantRegen5.esp
+Bindable Pipboy Light R2.esp
 Carrying Capacity Increase.esp
 CarryMult.esp
 noautoaim.esp
@@ -1178,6 +1191,8 @@ Western Sky - Darker Nights.esp
 
 \BeginGroup\: Lastish
 \-----------
+Weapon Mod Expansion.esp
+% {{BASH: Stats,WeaponMods}}
 \EndGroup\\
 
 \BeginGroup\: Pose mods
