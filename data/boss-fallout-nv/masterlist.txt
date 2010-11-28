@@ -43,6 +43,7 @@ Goodsprings Hideout.esm
 Inventory Access.esm
 Lings.esm
 MikotoBeauty.esm
+Military Explansion Program.esm
 Military NV Backpacks.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
@@ -50,6 +51,9 @@ Moddable Unique Weps.esm
 More Perks.esm
 Playthings.esm
 RH_IRONSIGHTS_NV.esm
+RZW_Master.esm
+RZW_Television.esm
+: RZW_Master.esm
 Shojo Race Vegas.esm
 SCAV.esm
 Tales from the Burning Sands.esm
@@ -149,6 +153,7 @@ wsex_workgirl.esp
 wsex_workgirl_tryout.esp
 : wsex.esm
 "wsex_workgirl.esp
+Zombie Apocalypse.esp
 \EndGroup\\
 
 \BeginGroup\: Faces
@@ -185,6 +190,7 @@ Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
+GunRunnersExpandedV3.4.esp
 I Fought the Law Workaround.esp
 AndTheLawWon.esp
 Karma Fix - NCRCF Powder Ganger.esp
@@ -256,6 +262,7 @@ NovacMotelroom.esp
 NoVac 4.0_eng.esp
 NoVac 4.0_ger.esp 
 NVHomestead.esp
+NVHomestedCompanionEdit.esp
 NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
@@ -353,6 +360,40 @@ DamageOverhaul.esp
 KarmaOverhaul.esp
 RepairOverhaul.esp
 Npc&CreatureRespawn.esp
+\EndGroup\\
+
+\BeginGroup\: NEVAX - New Vegas Expanded (German)
+\-----------
+NEVAX - BALANCINGS.esp
+NEVAX - BEAUTYPACK.esp
+% {{BASH: Body-F,Body-M,NPCFaces}}
+NEVAX - DUNKLE NAECHTE.esp
+NEVAX - EINSTELLUNGSTERMINALS.esp
+NEVAX - FUNDE.esp
+% {{BASH: DefLst,Relev}}
+NEVAX - HomeSweetHome.esp
+NEVAX - ITEMBALANCINGS.esp
+% {{BASH: Stats}}
+NEVAX - KAUFINHALTE.esp
+% {{BASH: DefLst,Invent,Relev}}
+NEVAX - MEHR MONSTER.esp
+% {{BASH: Relev,Scripts}}
+NEVAX - MONSTER.esp
+% {{BASH: DefLst,Relev}}
+NEVAX - MUNITIONSBEZEICHNUNGEN.esp
+NEVAX - NPC BALANCING.esp
+% {{BASH: DefLst,Relev,Scripts}}
+NEVAX - PERKS SKILLS.esp
+NEVAX - PERKS.esp
+NEVAX - RAIDER u NPC.esp
+% {{BASH: DefLst,Relev,Scripts}}
+NEVAX - RUESTUNGEN.esp
+% {{BASH: DefLst,Relev}}
+NEVAX - TOEDLICHERE PROJEKTILE.esp
+NEVAX - WAFFEN.esp
+% {{BASH: DefLst,Relev}}
+NEVAX - WENIGER GEGENSTAENDE.esp
+NEVAX - WENIGER MUNITION.esp
 \EndGroup\\
 
 \BeginGroup\: Puce Moose Tweak and Balance Center
@@ -611,9 +652,19 @@ Respawn6Months.esp
 Respawn6MonthsImproved.esp
 Respawn72HoursImproved.esp
 RespawnerImprovedEx.esp
-: Requires Respawn Timer (Any Version)
+: Respawn Timer (Any Version)
 Respawning Containers.esp
 Respawn24HoursImprovedEx.esp
+RZW_VideoCollection01.esp
+: RZW_Television.esm
+RZW_VideoCollection02.esp
+: RZW_Television.esm
+RZW_VideoCollection03.esp
+: RZW_Television.esm
+RZW_VideoCollection04.esp
+: RZW_Television.esm
+RZW_SilentVideoCollection.esp
+: RZW_Television.esm
 SaveCass.esp
 SaveCass_german.esp
 Silver Rush inventory expansion.esp
@@ -883,6 +934,7 @@ LegionNCRnonfaction.esp
 LFox Invisible Armored Vests.esp
 lucky Shades.esp
 LUCSA.esp
+LUMENARIUM - Working Sunglasses ONLY.esp
 Mantis07Reflex - Realism.esp
 Military NV Backpacks - Blank's Container Patch.esp
 Military NV Backpacks - BumBagUseSlot1.esp
@@ -890,11 +942,12 @@ Military NV Backpacks - No Straps.esp
 Military NV Backpacks - Vendor Script Replenish.esp
 My Cloth Collection NV.esp
 NEVECbodysuit.esp
-Night Vision Sunglasses.esp
-NV Night Vision Sunglasses.esp 
 NinjaHeadbandNV_Balanced.esp
 NinjaHeadbandNV_Powerful.esp
+Night Vision Sunglasses.esp
+NV Night Vision Sunglasses.esp 
 NVLadyoutfit1.esp
+NvTacticalVests.esp
 NWghostbodysuit.esp
 Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
@@ -905,6 +958,7 @@ PlasmaShields.esp
 Powered Power Armor.esp
 Ambient Temperature - PPA.esp
 QSondraOutfits.esp
+ranger_leather.esp
 Rangermask.esp
 RCSS.esp
 Realistic Power Armor.esp
@@ -929,6 +983,7 @@ TUPAM-NV.esp
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
 Vegas Volt his 7.esp
+VT08RangerGear.esp
 w44Satchels - Full.esp
 : SCAV.esm
 " w44Satchels - Lite.esp
@@ -957,6 +1012,8 @@ RasRepairAll.esp
 Realistic_Repair_v062.esp
 Realistic_Repair_NV.esp
 Stealing -1 Karma.esp
+nv_hats_repair.esp
+nv_hats_repair_morehealth.esp
 \EndGroup\\
 
 \BeginGroup\: Companions
@@ -966,6 +1023,7 @@ AllCompanionsEssential.esp
 AllCompanionsEssential 2.0.esp
 Essentialcompanions.esp
 ICC.esp
+boon_harcored.esp
 Boone0.2.esp
 Companions never Die.esp
 Companions Commander.esp
@@ -1116,7 +1174,9 @@ Jump Fall Fixer.esp
 JumpNFall.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
+Leveled Lists Fix.esp
 limbregen.esp
+LR - CD [NV].esp
 Melee Lock-On.esp
 More Damage To Player.esp
 NoBlurOnHit.esp
@@ -1130,6 +1190,7 @@ NVReplayabilityByDandysV1.100.esp
 NVReplayabilityByDandysV1.200.esp
 NVReplayabilityByDandysV1.300.esp
 NVReplayabilityByDandysV1.5000.esp
+NVReplayabilityByDandysV1.600.esp
 PipBoyLightx2.esp
 PipBoyLight.esp
 pipboyx2.esp
@@ -1158,9 +1219,11 @@ XSNVBalanceTweaks.esp
 \-----------
 ACF Brighter Days and Darker Nights v5 - Medium
 ACF Brighter Days and Darker Nights v5 - Dark
+CustomLighting.esp
 CustomLighting-I DoF Blur.esp
 CustomLighting-IE DoF Blur.esp
-CustomLighting-IE DoF Clear.esp
+CustomLighting-IE DOF Clear.esp
+CustomLighting-IE Clear.esp
 CustomLighting-IE DoF.esp
 Depth of View I.esp
 Depth of View I Blur.esp
@@ -1172,6 +1235,11 @@ Depth of View IE Middle.esp
 DN More Lights.esp
 Emperical Weather.esp
 Nevada Skies.esp
+ELECTRO-CITY - CompletedWorkorders.esp
+LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+" Nevada Skies.esp
+LUMENARIUM - Bright Clear Days.esp
+ELECTRO-CITY - Darker Nights.esp
 Fellout.esp
 Field Depth.esp
 friendofnightforfellout.esp
