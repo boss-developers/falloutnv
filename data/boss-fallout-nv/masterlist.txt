@@ -423,9 +423,9 @@ pnv.esp
 enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
+Improved Sound FX.esp
 Improved Sound FX - Gunshot Distance Tweak.esp
 Improved Sound FX - Weapon Sharing Fix.esp
-Improved Sound FX.esp
 Machienzo-RadioNewVegasFix.esp
 Machienzo-RadioNewVegasFixv11.esp
 PA Footsteps.esp
