@@ -724,9 +724,6 @@ Classic YK42b Pulse Rifle.esp
 Devil'sMistressReturns.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
-DragonskinTacticalOutfit.esp
-DragonskinBonusPack.esp
-DragonskinNCRPersonnelWearingOutfits.esp
 DWM4A1.esp
 EarlyWeapons.esp
 EnergyWeaponDeNerf.esp
@@ -846,6 +843,8 @@ Desert Armor rebuilt.esp
 Desert Recon Kit.esp
 Docs Sexy Nurse.esp
 DragonskinTacticalOutfit.esp
+DragonskinNCRPersonnelWearingOutfits.esp
+DragonskinBonusPack.esp
 dressup.esp
 dressupWITHweaponchanges.esp
 DynamicNightVision.esp
