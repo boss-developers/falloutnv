@@ -40,6 +40,7 @@ FONVAMoreSpawns.esm
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 Goodsprings Hideout.esm
+Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
 Lings.esm
 MikotoBeauty.esm
@@ -220,6 +221,10 @@ IIWR 2.0.7.esp
 IIWR 2.0.9.esp
 IIWR 2.1.0.esp
 nocol.esp
+1000th addon (more containers).esp
+1000th patch 2.1.esp
+1000th addon (new walls n floors 1.1).esp
+1000th addon (balcony 1.1).esp
 A Home in the Mountains.esp
 AbandonedShack.esp
 Baloks Schoolhouse.esp
@@ -321,6 +326,8 @@ FONVAOOCHPR.esp
 FOOK - New Vegas.esp
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 ammo can fix.esp
+AR-15 worth a fook.esp
+vertibirds & toxic cave.esp
 \EndGroup\\
 
 \BeginGroup\: Frontsalats Modular Mods and Tweaks
@@ -402,25 +409,26 @@ PMT - XPadjust.esp
 % {{BASH: Invent}}
 PMT - Tougher XPadjust.esp
 % {{BASH: Invent}}
-PMT - QuieterVats.esp
-PMT - Rude Awakening.esp
-PMT - Nastier mines and grenades.esp
+PMT - Slower Reloading.esp
+% {{BASH: Stats}}
 PMT - Slower Backward Movement.esp
-PMT - Total Challenge Remover.esp
-" PMT - Reduced Challenge Notifications.esp
-PMT - Reduced Challenge Notifications.esp
-" PMT - Total Challenge Remover.esp
 PMT - Reduced Ammo and Chems.esp
 % {{BASH: Delev,Relev}}
 PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
+PMT - Nastier mines and grenades.esp
 PMT - Deadlier Combat.esp
 % {{BASH: Stats}}
 PMT - Deadlier Combat Mk II.esp
 % {{BASH: Stats}}
+PMT - Gravity Kills.esp
 PMT - Tougher economy.esp
-PMT - Slower Reloading.esp
-% {{BASH: Stats}}
+PMT - Rude Awakening.esp
+PMT - QuieterVats.esp
+PMT - Total Challenge Remover.esp
+" PMT - Reduced Challenge Notifications.esp
+PMT - Reduced Challenge Notifications.esp
+" PMT - Total Challenge Remover.esp
 \EndGroup\\
 
 \BeginGroup\: Reload
@@ -506,6 +514,7 @@ KDS Stronger Back Perk 200 Pounds.esp
 KDS Stronger Back Perk 500 Pounds.esp
 KDS Stronger Back Perk 1000 Pounds.esp
 Kobu's Free Wild Wasteland Trait.esp
+LFox Improved Regen Implant.esp
 More Perks.esp
 Perks per du.esp
 More Perks Update.esp
@@ -917,11 +926,13 @@ ERCA NCRSH.esp
 : ERCA.esp
 Eyepatch.esp
 Faction Armor Converted to Non Faction.esp
+Fade That Faction Armor.esp
 FaithOutfit.esp
 Glove_be_gone.esp 
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
 Hereticus Faction Armors Fading.esp
+% {{BASH: Names}}
 HomeTeleport.esp
 Holster.esp
 JillBSAA.esp
@@ -982,6 +993,7 @@ Transladatum - E.esp
 TUPAM-NV.esp
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
+VegasOutfits.esp
 Vegas Volt his 7.esp
 VT08RangerGear.esp
 w44Satchels - Full.esp
