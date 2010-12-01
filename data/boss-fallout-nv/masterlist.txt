@@ -1176,6 +1176,7 @@ GunsIgnoreArmor.esp
 HJLLessDismembermentAndExplosionsv100.esp 
 Imp's More Complex Needs.esp
 Imp's More Complex Needs - JA - SORTED.esp
+IMCNNV - Sorted.esp
 Ambient Temperature - IMCNNV.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
