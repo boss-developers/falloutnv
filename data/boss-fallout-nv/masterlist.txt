@@ -50,6 +50,10 @@ Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
 More Perks.esm
+NosCo Companion System.esm
+NCCS Nos' Premade Companions.esm
+Herculine's NCCS Companions Volume 1.esm
+: Lings.esm
 Playthings.esm
 RH_IRONSIGHTS_NV.esm
 RZW_Master.esm
@@ -77,6 +81,7 @@ CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 DonationFix.esp
 Followers-NCR Alliance Fix.esp
+Followers+NCR=Alliance.fix.esp
 FNV-BeardEyebrowFixV1_0.esp
 JBrightExodusFix.esp
 Lucky 38 Suite Respawn Fix.esp
@@ -189,6 +194,7 @@ Caesars_Legion_Overhaul.esp
 CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
+FiendsNoHelmet.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
 GunRunnersExpandedV3.4.esp
@@ -202,6 +208,7 @@ KillableKids_NE.esp
 LFox Easy Weapon Mods.esp
 Merchants Sell Displayed Items.esp
 Mr Moneybags.esp
+NiptonFixes.esp
 NCR Doggy Buddies.esp
 NCR Doggy Buddies - Alsatian.esp
 NCR Doggy Buddies - Leather Armor.esp
@@ -227,6 +234,7 @@ nocol.esp
 1000th addon (balcony 1.1).esp
 A Home in the Mountains.esp
 AbandonedShack.esp
+Badmagic - Watchtowers.esp
 Baloks Schoolhouse.esp
 Basement Hideout[English].esp
 Better forest.esp
@@ -288,6 +296,7 @@ Lucky38markerV3.esp
 markers.esp
 StripMarkers21603.esp
 SimpleStripMarkers21603.esp
+Tibersmapmarkers.esp
 New Vegas Map Markers.esp
 NewStripMapMarkers.esp
 \EndGroup\\
@@ -477,6 +486,7 @@ AOI AWeSOME.esp
 enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
+ExtendedNVRadio.esp
 Improved Sound FX.esp
 Improved Sound FX - Gunshot Distance Tweak.esp
 Improved Sound FX - Weapon Sharing Fix.esp
@@ -505,6 +515,7 @@ Distant Gunfire Sound Fix.esp
 
 \BeginGroup\: Perks
 \-----------
+AlternativeSniperPerk.esp
 ChildAtHeartPerk.esp
 Free Wild Wasteland.esp
 FreakinLaserBeams_Perk_1_2.esp
@@ -527,6 +538,7 @@ NVPerksImproved.esp
 OutofVATS.esp 
 psychoelf traits 1.esp
 Predator Sneak.esp
+skeleton_key.esp
 SturdyCaravanShotgunSurgeon.esp
 Weathered10mmProfessional.esp
 VG0PreorderAlternative.esp
@@ -699,6 +711,7 @@ z_Fiends_2.esp
 
 \BeginGroup\: Crafting
 \-----------
+aliencell.esp
 ArmourRepairKits.esp
 Armor Crafting BETA.esp
 Better Ammo Crafting.esp
@@ -817,6 +830,7 @@ Kerberosweapons.esp
 m1c.esp
 M2HB.esp
 M82.esp
+mac10.esp
 MachienzoDLCBounty.esp
 MachienzoDLCCourier.esp
 MachienzoDLCDoctor.esp
@@ -918,6 +932,8 @@ dressup.esp
 dressupWITHweaponchanges.esp
 DynamicNightVision.esp
 ERCA.esp
+ERCA FACTLESS.esp
+" ERCA.esp
 ERCAFACTLESS.esp
 " ERCA.esp
 ERCA Doc.esp
@@ -928,6 +944,8 @@ Eyepatch.esp
 Faction Armor Converted to Non Faction.esp
 Fade That Faction Armor.esp
 FaithOutfit.esp
+Female t45 Power Armor.esp
+Female t51-b PA.esp 
 Glove_be_gone.esp 
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
@@ -952,6 +970,8 @@ Military NV Backpacks - BumBagUseSlot1.esp
 Military NV Backpacks - No Straps.esp
 Military NV Backpacks - Vendor Script Replenish.esp
 My Cloth Collection NV.esp
+Neckchains.esp
+NeutralPowerArmor.esp
 NEVECbodysuit.esp
 NinjaHeadbandNV_Balanced.esp
 NinjaHeadbandNV_Powerful.esp
@@ -1067,9 +1087,11 @@ FPT EDE 2BetaVanillaBlonde.esp
 FPT EDE 2BetaVanillaBlue.esp
 FPT EDE 2BetaVanillaBrunette.esp
 FPT EDE 2BetaVanillaRedhead.esp
+GARU.esp
 ImprovedCompanions.esp
 JeyebotCompanion.esp
 Light Step ED-E.esp
+Lucky38ContainersFix.esp
 Max Followers 12.esp
 miria.esp
 nemunoki-replacer.esp
@@ -1145,8 +1167,14 @@ Bindable Pipboy Light R2.esp
 Carrying Capacity Increase.esp
 CarryMult.esp
 noautoaim.esp
+Improved VATS and Autoaim fix (no VATS invincibility, no binoculars).esp
+Improved VATS and Autoaim fix with Better Binoculars (no VATS invincibility).esp
 Improved VATS and Autoaim fix with Better Binoculars.esp
 RWD-NVv1.esp
+RWD-NV V1.2 Alt NoLimbsExplosions.esp
+RWD-NV V1.2 Alt.esp
+RWD-NV V1.2 NoLimbsExplosions.esp
+RWD-NV V1.2.esp
 vatsbuff2x.esp
 Bullet Impact Increased LOD.esp
 CF_FastStart.esp
@@ -1162,6 +1190,13 @@ dD-Less Screen Blood Time.esp
 dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
+Ephemeral Ash and Goo Piles.esp
+Easy Hacking and Guaranteed Pick Pocket.esp
+Easy Hacking.esp
+Easy Unlocking and Easy Hacking and Guaranteed Pick Pocket.esp
+Easy Unlocking and Easy Hacking.esp
+Easy Unlocking and Guaranteed Pick Pocket.esp
+Easy Unlocking.esp
 Faster Runing.esp
 Faster Running (5.5).esp
 Faster Running 4.5.esp
@@ -1172,6 +1207,7 @@ FlashlightNV-Performance.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
+Guaranteed Pick Pocket.esp
 GunsIgnoreArmor.esp
 HJLLessDismembermentAndExplosionsv100.esp 
 Imp's More Complex Needs.esp
@@ -1204,6 +1240,7 @@ NVReplayabilityByDandysV1.200.esp
 NVReplayabilityByDandysV1.300.esp
 NVReplayabilityByDandysV1.5000.esp
 NVReplayabilityByDandysV1.600.esp
+NVReplayabilityByDandysV1.700.esp
 PipBoyLightx2.esp
 PipBoyLight.esp
 pipboyx2.esp
@@ -1247,6 +1284,8 @@ Depth of View IE Gentler.esp
 Depth of View IE Middle.esp
 DN More Lights.esp
 Emperical Weather.esp
+HighGrass.esp
+MedGrass.esp
 Nevada Skies.esp
 ELECTRO-CITY - CompletedWorkorders.esp
 LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
