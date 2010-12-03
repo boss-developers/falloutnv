@@ -191,6 +191,7 @@ VyntageCass02.esp
 \-----------
 Armor Replacer Child NPC Fix.esp
 Caesars_Legion_Overhaul.esp
+% {{BASH: Invent}}
 CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
@@ -427,7 +428,7 @@ PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
 PMT - Nastier mines and grenades.esp
 PMT - Destructible Ordnance.esp
-% {{BASH: Destructable}}
+% {{BASH: Destructable,Stats}}
 PMT - Deadlier Combat.esp
 % {{BASH: Stats}}
 PMT - Deadlier Combat Mk II.esp
@@ -643,6 +644,7 @@ populatedcasino-medium.esp
 populatedcasino-light.esp
 PortableCampsite.esp
 Project13 - Populated Wasteland.esp
+% {{BASH: Delev,Relev}}
 psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 pyDoF.esp
@@ -855,6 +857,7 @@ Moddable Unique Weps.esp
 MoraelinsExoticBladesMod.esp
 Mossberg.esp
 Mossberg590.esp
+NekhCFinderFix.esp
 NepaleseKukri.esp
 NV binoculars.esp
 NVExverminatorRifle.esp
@@ -1319,7 +1322,7 @@ Western Sky - Darker Nights.esp
 \BeginGroup\: Lastish
 \-----------
 Weapon Mod Expansion.esp
-% {{BASH: Stats,WeaponMods}}
+% {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - that gun 556.esp
 WME - that gun 44 mag.esp
 WME - Reload.esp
