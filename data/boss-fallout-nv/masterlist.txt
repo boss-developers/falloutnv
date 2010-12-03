@@ -426,6 +426,8 @@ PMT - Reduced Ammo and Chems.esp
 PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
 PMT - Nastier mines and grenades.esp
+PMT - Destructible Ordnance.esp
+% {{BASH: Destructable}}
 PMT - Deadlier Combat.esp
 % {{BASH: Stats}}
 PMT - Deadlier Combat Mk II.esp
@@ -550,6 +552,7 @@ ZZZZ--APB_By_Nokturnihs.esp
 \-----------
 Active Wasteland.esp
 AddEmptyBottle.esp
+add that gun to cowboy perk.esp
 Alternative Console Access.esp
 Animated Prostitution.esp
 ammoingredientsloot.esp
@@ -688,6 +691,7 @@ RZW_SilentVideoCollection.esp
 : RZW_Television.esm
 SaveCass.esp
 SaveCass_german.esp
+Sex Try.esp
 Silver Rush inventory expansion.esp
 Slightly More Hardcore Hardcore Mode.esp
 Slower Level Rates - x1.3.esp
@@ -808,6 +812,7 @@ DiscontinuedNCRArmorSet.esp
 DWM4A1.esp
 EarlyWeapons.esp
 EnergyWeaponDeNerf.esp
+EnhancedServiceRifle.esp
 FingerOfGodNV.esp
 F03weaponpack_v1_0.esp
 fownv - Sonic Screwdriver 1.0.esp
@@ -868,8 +873,10 @@ RWIE Classic Pack.esp
 SAW M249.esp
 silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
-Throwing Ninja's Weapon.esp
 Tactical Weapon Pack.esp
+that gun 556.esp
+that gun 44 mag.esp
+Throwing Ninja's Weapon.esp
 Usableservice.esp
 Weathered10mmFixed.esp
 WeatheredHoldout.esp
@@ -1313,6 +1320,12 @@ Western Sky - Darker Nights.esp
 \-----------
 Weapon Mod Expansion.esp
 % {{BASH: Stats,WeaponMods}}
+WME - that gun 556.esp
+WME - that gun 44 mag.esp
+WME - Reload.esp
+WME - Reload, Rebalance.esp
+WME - Reload, Rearm.esp
+WME - Reload, Rearm, Rebalance.esp
 \EndGroup\\
 
 \BeginGroup\: Pose mods
