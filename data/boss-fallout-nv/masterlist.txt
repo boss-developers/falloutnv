@@ -34,6 +34,7 @@ CALIBR.esm
 Caliber.esm
 CFWNV.esm
 CHEMS.esm
+CreatureAdditions.esm
 Docs Sexy Nurse.esm
 CompanionInfAmmo.esm
 FONVAMoreSpawns.esm
