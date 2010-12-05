@@ -54,6 +54,7 @@ NosCo Companion System.esm
 NCCS Nos' Premade Companions.esm
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
+PipboyRemover.esm
 Playthings.esm
 RH_IRONSIGHTS_NV.esm
 RZW_Master.esm
@@ -1214,6 +1215,7 @@ dD-Less Screen Blood Time.esp
 dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
+durability.esp
 Ephemeral Ash and Goo Piles.esp
 Easy Hacking and Guaranteed Pick Pocket.esp
 Easy Hacking.esp
@@ -1224,6 +1226,7 @@ Easy Unlocking.esp
 Faster Runing.esp
 Faster Running (5.5).esp
 Faster Running 4.5.esp
+Faster Terminals.esp
 Fatigue - Loot the Unconscious.esp
 Fatigue - Weapons Fatigue Damage.esp
 FlashlightNV-LOS.esp
@@ -1284,6 +1287,10 @@ Shotgun Commando.esp
 Shotgun Commando 1.2 Caravan.esp
 SneakingCrosshair.esp
 SPECIALer.esp
+tyfasterwalk.esp
+tyfasterwalk-FR.esp
+tyfasterwalk-FR-N2HRP.esp
+tyfasterwalk-N2HRP.esp
 vanilla move.esp
 XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
