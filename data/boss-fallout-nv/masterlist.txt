@@ -72,6 +72,7 @@ wsex.esm
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Abandoned Bunker Fix.esp
+AndyRaulFix.esp
 BathFix.esp
 BMNeilFix.esp
 BoxFix.esp
@@ -80,23 +81,30 @@ CaravanCardFix.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 DonationFix.esp
+ED-EUpgradeInventoryFix.esp
 Followers-NCR Alliance Fix.esp
 Followers+NCR=Alliance.fix.esp
 FNV-BeardEyebrowFixV1_0.esp
 JBrightExodusFix.esp
 Lucky 38 Suite Respawn Fix.esp
+McCarranFixes.esp
 MeyersFix.esp
 MissFortuneFix.esp
+Motor-RunnerJackDianeFix.esp
+MushroomCloudFix.esp
 NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
-ReloadBugFix.esp
+RadioComputerPartsFix.esp
 Raul Ranger Andy fix.esp
+ReloadBugFix.esp
 TravelingMerchantFix.esp
+Ultra-LuxeFixes.esp
 Vance's Gun Quest Patch.esp 
 vangraf fix.esp
 Vault11HouseFix.esp
 Vault22ElevatorFix.esp
 Vault34Fix.esp
+VendorAmmo45-70Fix.esp
 VeronicaFix.esp
 VMS44Fixed.esp
 WeAllGoTogether.esp
@@ -123,6 +131,7 @@ Purge Cell Buffers.esp
 Readius_NV.esp
 Realistic Weight.esp
 % {{BASH: Stats}}
+SaveKey.esp
 Weight_Balance.esp
 % {{BASH: Stats}}
 Weight_Balance_v07.esp
@@ -429,6 +438,7 @@ PMT - More Demanding Hardcore.esp
 PMT - Nastier mines and grenades.esp
 PMT - Destructible Ordnance.esp
 % {{BASH: Destructable}}
+PMT - Explosive Robots.esp
 PMT - Deadlier Combat.esp
 % {{BASH: Stats}}
 PMT - Deadlier Combat Mk II.esp
@@ -497,6 +507,7 @@ Machienzo-RadioNewVegasFix.esp
 Machienzo-RadioNewVegasFixv11.esp
 PA Footsteps.esp
 R.A.C.E. Station.esp
+RadioNewVegas_Balancing.esp
 RNVExtended[20]v3b1.esp
 RNVExtended[40]v3b1.esp
 RNVExtended[60]v3b1.esp
@@ -567,6 +578,8 @@ Better Sneak - No Stealth Field.esp
 Better Tag Skills.esp
 BHS.esp
 BlackMountainRadioEverywhere.esp
+BLTC NV.esp
+BLTC NV immersion plugin.esp
 BoostedSkills.esp
 BzBody.esp
 Casino Exchange All.esp
@@ -813,6 +826,7 @@ DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
 DWM4A1.esp
 EarlyWeapons.esp
+EnergyBoost.esp
 EnergyWeaponDeNerf.esp
 EnhancedServiceRifle.esp
 FingerOfGodNV.esp
