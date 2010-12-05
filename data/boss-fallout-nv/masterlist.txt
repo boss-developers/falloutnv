@@ -106,10 +106,8 @@ Vault11HouseFix.esp
 Vault22ElevatorFix.esp
 Vault34Fix.esp
 VendorAmmo45-70Fix.esp
-VeronicaFix.esp
 VMS44Fixed.esp
 WeAllGoTogether.esp
-weathersnotstuck.esp
 WorkingCrimsonCaravanTraders.esp
 PO10mmFix.esp
 \EndGroup\\
@@ -168,7 +166,7 @@ wsex_workgirl.esp
 " wsex_workgirl_tryout.esp
 wsex_workgirl_tryout.esp
 : wsex.esm
-"wsex_workgirl.esp
+" wsex_workgirl.esp
 Zombie Apocalypse.esp
 \EndGroup\\
 
@@ -179,6 +177,8 @@ Cuter Boone.esp
 Cuter Boone NEW.esp
 % {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day.esp
+% {{BASH: NpcFaces}}
+Cuter Veronica Felicia Day-Essential.esp
 % {{BASH: NpcFaces}}
 K2_NVPresets.esp 
 MikotoBPCCArcade.esp
@@ -273,7 +273,6 @@ HideoutVault.esp
 IncreasedLegion.esp
 IncreasedLegion1_1.esp
 Isolated Camp.esp
-KDS Green World.esp
 Lucky 38 Suite Expansion.esp
 Lucky 38 Suite Expansion Bed Option.esp
 Lucky38SuiteRemodel.esp 
@@ -605,7 +604,6 @@ FalloutNVCheatTerminal.esp
 FeelingIrradiated.esp
 FO1TAG.esp
 gambling.esp
-GomorrahProstituteEnable.esp
 Hardcore canteen.esp
 Hardcore (Double Rates).esp
 Hardcore (Refined Rates).esp
@@ -646,7 +644,6 @@ No Litter.esp
 No Stealth Messages.esp
 NewVegasRestorationStrip+Casino.esp
 Nuka Cola Enhanced.esp
-NVfreeradicalperkfix.esp
 nv_passive_critters_norm_gecko.esp
 OJL38RealCasino.esp
 Open Sesame.esp
@@ -792,11 +789,8 @@ injectionpatch.esp
 MERGEinjection.esp
 1st Recon Ranger Gear.esp
 AA12.esp
-Advanced Recon Armor-Location Doc Mitchell.esp
-Advanced Recon Armor-No Stealth Field.esp
-Advanced Recon Armor.esp
-Advanced Recon Gear-Locations Doc Mitchell.esp
 Advanced Recon Gear.esp
+Advanced Recon Gear-Locations Doc Mitchell.esp
 ACR.esp
 American Hammer Compact.esp
 ASG.esp
@@ -918,9 +912,6 @@ Advanced Recon Armor-Location Doc Mitchell.esp
 Advanced Recon Armor-No Stealth Field.esp
 Advanced Recon Armor-Predator Mode.esp
 Advanced Recon Armor-Stealth With Drawn Weapon.esp
-Advanced Recon Gear.esp
-Advanced Recon Gear-Locations Doc Mitchell.esp
-Advanced Recon Gear-Power Armor.esp
 AG All-Purpose Science Suit 100.esp
 AirForceArmorT57C.esp
 Alexscorpion'sNVG.esp
@@ -1092,8 +1083,6 @@ Companions teleporter.esp
 Companions teleporter RUS.esp
 CompanionLevel30Cap.esp
 CompanionsEssential.esp 
-Cuter Veronica Felicia Day-Essential.esp
-Cuter Veronica Felicia Day.esp
 ede-e_alert_replacement.esp
 ED-E Burr.esp
 ED-E Incinerator.esp
@@ -1156,7 +1145,6 @@ BetterRepairKits.esp
 ? Old
 BetterRepairKits2b.esp
 Destruction.esp
-Static Battery Replacer.esp
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
 ShilohDS-Color Maps and Icons.esp
@@ -1374,7 +1362,6 @@ MediumBeard.esp
 MikotoBeauty.esp
 Receding Hairstyle.esp
 Rikai'sHairPack.esp
-Receding Hairstyle.esp
 SideburnsBeardFlare.esp
 SideburnsBeardLong.esp
 SideburnsBeardShort.esp
