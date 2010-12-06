@@ -41,6 +41,7 @@ FONVAMoreSpawns.esm
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 Goodsprings Hideout.esm
+HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
 Lings.esm
@@ -84,6 +85,7 @@ CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
+Fix - Boulder City Negotiator.esp
 Followers-NCR Alliance Fix.esp
 Followers+NCR=Alliance.fix.esp
 FNV-BeardEyebrowFixV1_0.esp
@@ -254,6 +256,7 @@ Better forest.esp
 Better Lucky 38 Presidential Suite Version 1.0.esp
 BetterLuckySuite.esp
 BONsQuarryJunctionRefuge-cave.esp
+Brahmin Bess.esp
 Bungalow Home.esp
 CKvendor.esp
 FalloutShelter-gear-v1-45.esp
@@ -300,6 +303,7 @@ SDs Lucky 38 Suite Trophies.esp
 Silverpeak Bunker.esp
 SecretHideout-v1.21.esp
 vegassuburbshome.esp
+Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
 UHNV.esp
 Underground Home.esp 
@@ -329,7 +333,7 @@ NVWeaponAmmoTweaks.esp
 NVUnnerfed.esp
 \EndGroup\\
 
-\BeginGroup\: Fallout New Vegas Advanced
+\BeginGroup\: Fallout New Vegas Advanced & HAM-Hardcore Advanced Mods
 \-----------
 FONVAHeavyAmmo.esp
 FONVARareItems.esp
@@ -340,6 +344,10 @@ FONVARepairBarter.esp
 FONVADamage.esp
 FONVAChemsBooks.esp
 FONVAOOCHPR.esp
+HAM-Basics.esp
+HAM-Damage.esp
+HAM-Needs.esp
+HAM-SixHands.esp
 \EndGroup\\
 
 \BeginGroup\: FOOK
@@ -533,6 +541,7 @@ Distant Gunfire Sound Fix.esp
 \-----------
 AlternativeSniperPerk.esp
 ChildAtHeartPerk.esp
+Calm_Heart_Fix.esp
 Free Wild Wasteland.esp
 FreakinLaserBeams_Perk_1_2.esp
 FreakinLaserBeams_Perk_Light_1_2.esp
@@ -633,6 +642,7 @@ LootableOldCars_AE.esp
 LootableOldCars_OE.esp
 ManualReload.esp
 Military Explansion Program.esp
+Mojave Express Expansion.esp
 MojaveXP.esp
 More Ammo.esp
 More Ammo - 2x.esp
@@ -947,6 +957,7 @@ DeepEyesNV.esp
 Desert Armor.esp
 Desert Armor rebuilt.esp
 Desert Recon Kit.esp
+DIM TYPE3clothesRETAIL_NV.esp
 Docs Sexy Nurse.esp
 DragonskinTacticalOutfit.esp
 DragonskinNCRPersonnelWearingOutfits.esp
@@ -1263,6 +1274,7 @@ NoDegradation.esp
 NoQuestItems.esp
 No Scope Wobble.esp
 NVExpansionByDandysV1.400.esp
+NVR - High Lethality.esp
 NVReplayabilityByDandys.esp
 NVReplayabilityByDandysV1.100.esp
 NVReplayabilityByDandysV1.200.esp
