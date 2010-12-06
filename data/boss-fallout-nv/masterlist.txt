@@ -101,7 +101,8 @@ Raul Ranger Andy fix.esp
 ReloadBugFix.esp
 TravelingMerchantFix.esp
 Ultra-LuxeFixes.esp
-Vance's Gun Quest Patch.esp 
+Vance's Gun Quest Full Patch.esp
+Vance's Gun Quest Patch.esp
 vangraf fix.esp
 Vault11HouseFix.esp
 Vault22ElevatorFix.esp
@@ -554,6 +555,7 @@ OutofVATS.esp
 psychoelf traits 1.esp
 Predator Sneak.esp
 skeleton_key.esp
+SPECIAL_Fixes.esp
 SturdyCaravanShotgunSurgeon.esp
 Weathered10mmProfessional.esp
 VG0PreorderAlternative.esp
@@ -570,6 +572,7 @@ Alternative Console Access.esp
 Animated Prostitution.esp
 ammoingredientsloot.esp
 ArenaAnySex.esp
+BAN - Dupe This.esp
 BCL custom edition.esp
 BetterGamePerformanceV1.esp
 BetterGamePerformanceV2.esp
@@ -798,6 +801,7 @@ ASG.esp
 Assault Carbine mods.esp
 % {{BASH: WeaponMods}}
 Automatic Service Rifle.esp
+AWMRifle.esp
 BearTrap.esp
 Beretta.esp
 Better Binoculars.esp
@@ -806,6 +810,7 @@ Better Binoculars Max.esp
 Better Zoom.esp
 BoilingOil - Eli's Edge.esp
 Binocs12fov.esp
+Boomers - T-57c PA.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
@@ -820,11 +825,13 @@ Classic YK42b Pulse Rifle.esp
 Devil'sMistressReturns.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
+DWDEagle44.esp
 DWM4A1.esp
 EarlyWeapons.esp
 EnergyBoost.esp
 EnergyWeaponDeNerf.esp
 EnhancedServiceRifle.esp
+ExperimentalMIRV.esp
 FingerOfGodNV.esp
 F03weaponpack_v1_0.esp
 fownv - Sonic Screwdriver 1.0.esp
@@ -972,6 +979,7 @@ HomeTeleport.esp
 Holster.esp
 JillBSAA.esp
 JRougeRangerCoats4Loot.esp
+K2_NVClothes01.esp
 KerberosPanzer-power armor.esp
 KerberosPanzer-lower dt.esp
 Leather Trench Coat NV v1.0.esp
@@ -1013,6 +1021,7 @@ Realistic Power Armor.esp
 Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
 SBVenomousArmor.esp
+Spawn Armor.esp
 Starke's Seperate Chinese Stealth Armor Helmet NV.esp
 Starke's Seperate Chinese Stealth Armor Helmet NV (OA Version).esp
 Sunglasses Shipment.esp
@@ -1235,6 +1244,7 @@ Ambient Temperature - ITA.esp
 ImprovedImplantRegen.esp
 Increasedcarryweight.esp
 Increasedcarryweight2.esp
+insta-hacker.esp
 Jump Fall Fixer.esp
 JumpNFall.esp
 Less Armor Degradation.esp
@@ -1244,6 +1254,9 @@ limbregen.esp
 LR - CD [NV].esp
 Melee Lock-On.esp
 More Damage To Player.esp
+move.base.speed.100.esp
+move.base.speed.125.esp
+move.base.speed.150.esp
 NoBlurOnHit.esp
 NoDegrade.esp
 NoDegradation.esp
