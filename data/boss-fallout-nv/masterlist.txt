@@ -398,6 +398,7 @@ DamageOverhaul.esp
 KarmaOverhaul.esp
 RepairOverhaul.esp
 Npc&CreatureRespawn.esp
+% {{BASH: Relev}}
 \EndGroup\\
 
 \BeginGroup\: NEVAX - New Vegas Expanded (German)
@@ -1111,6 +1112,7 @@ Companions teleporter All Essential RUS.esp
 Companions teleporter.esp
 Companions teleporter RUS.esp
 CompanionLevel30Cap.esp
+% {{BASH: Actors.ACBS}}
 CompanionsEssential.esp 
 ede-e_alert_replacement.esp
 ED-E Burr.esp
