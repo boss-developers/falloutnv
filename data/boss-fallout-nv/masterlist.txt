@@ -786,6 +786,9 @@ WeaponModRecipes.esp
 WeaponModRecipesA.esp
 WeaponModRecipesS.esp
 WeaponModRecipesR.esp
+WMR_WME_A.esp
+WMR_WME_S.esp
+WMR_WME_R.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -843,6 +846,7 @@ DWDEagle44.esp
 DWM4A1.esp
 EarlyWeapons.esp
 EnergyBoost.esp
+% {{BASH: Stats}}
 EnergyWeaponDeNerf.esp
 EnhancedServiceRifle.esp
 ExperimentalMIRV.esp
