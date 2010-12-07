@@ -26,6 +26,8 @@ ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
+RBX.esm
+\ Needs to be before any mod using a reloading bench including a lot of house mods. 
 20th Century Weapons.esm
 Achievement Remover.ESM
 Ambient Temperature.esm
@@ -745,6 +747,8 @@ z_Fiends_2.esp
 aliencell.esp
 ArmourRepairKits.esp
 Armor Crafting BETA.esp
+Automated Reloading Bench.esp
+RBX Caliber compatibilty.esp
 Better Ammo Crafting.esp
 % {{BASH: Names}}
 Better Casinos.esp
@@ -1250,6 +1254,7 @@ Imp's More Complex Needs.esp
 Imp's More Complex Needs - JA - SORTED.esp
 IMCNNV - Sorted.esp
 Ambient Temperature - IMCNNV.esp
+IMCNNV - HUD and Hotkeys.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
 ImprovedImplantRegen.esp
@@ -1335,6 +1340,8 @@ Nevada Skies.esp
 ELECTRO-CITY - CompletedWorkorders.esp
 LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 " Nevada Skies.esp
+LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
+" Nevada Skies.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
 Fellout.esp
@@ -1346,6 +1353,9 @@ KDS Green World.esp
 Nights are Darker 50%.esp
 Nights are Darker 25%.esp
 night_and_day.esp
+UnderwaterFX.esp
+UWFXGodrays.esp
+" UnderwaterFX.esp
 URWLNV.esp
 URWLNV Darker Night.esp
 URWLNV Brighter Lights.esp
