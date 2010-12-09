@@ -92,6 +92,7 @@ Followers-NCR Alliance Fix.esp
 Followers+NCR=Alliance.fix.esp
 FNV-BeardEyebrowFixV1_0.esp
 JBrightExodusFix.esp
+Lucky38ContainersFix.esp
 Lucky 38 Suite Respawn Fix.esp
 McCarranFixes.esp
 MeyersFix.esp
@@ -206,8 +207,6 @@ VyntageCass02.esp
 \BeginGroup\: NPC
 \-----------
 Armor Replacer Child NPC Fix.esp
-Caesars_Legion_Overhaul.esp
-% {{BASH: Invent}}
 CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
@@ -1077,6 +1076,8 @@ headgearfix.esp
 
 \BeginGroup\: Middle Misc
 \-----------
+Caesars_Legion_Overhaul.esp
+% {{BASH: Invent}}
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
 LogicalReputationShifts.esp
@@ -1136,14 +1137,13 @@ GARU.esp
 ImprovedCompanions.esp
 JeyebotCompanion.esp
 Light Step ED-E.esp
-Lucky38ContainersFix.esp
 Max Followers 12.esp
 miria.esp
 nemunoki-replacer.esp
 No More Annoying CC - ALL.esp
 NVBabyDeathclawCommander.esp
 NVPhalanx.esp
-% {{BASH: Actors.AIPackages,Actors.CombatStyle,Scripts}}
+% {{BASH: Actors.AIPackages,Actors.CombatStyle,C.Owner,Scripts}}
 psychoelfs Boone Shojo.esp
 psychoelfs cass shojo blond.esp
 psychoelfs cass shojo black hair.esp
