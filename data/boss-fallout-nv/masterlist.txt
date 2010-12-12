@@ -30,6 +30,7 @@ RBX.esm
 \ Needs to be before any mod using a reloading bench including a lot of house mods. 
 20th Century Weapons.esm
 Achievement Remover.ESM
+Alice Armor.esm
 Ambient Temperature.esm
 BinocularsOverhaul.esm
 CALIBR.esm
@@ -50,12 +51,14 @@ Lings.esm
 MikotoBeauty.esm
 Military Explansion Program.esm
 Military NV Backpacks.esm
+M.M.A.T - Core Module.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
 More Perks.esm
 NosCo Companion System.esm
 NCCS Nos' Premade Companions.esm
+NVStripOpen.esm
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 PipboyRemover.esm
@@ -129,6 +132,9 @@ Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
 DynamiCamera.esp
 Further3rdPersonCamera.esp
+HUD Extended.esp
+HUD Extended - Ambient Temperature.esp
+: Ambient Temperature.esm
 LessIntrusiveKillCam.esp
 LMDExpandedHotkeys.esp
 NVORganizedItems.esp
@@ -159,6 +165,7 @@ CharacterBackgrounds.esp
 FreeplayafterMQNVv1_6.esp
 Free Play after MQ.esp
 Goodsprings Filler.esp
+Goodsprings Goodstart.esp 
 Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
@@ -214,6 +221,7 @@ FiendsNoHelmet.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
 GunRunnersExpandedV3.4.esp
+GunRunnersExpanded-LoreFriendly.esp
 I Fought the Law Workaround.esp
 AndTheLawWon.esp
 Karma Fix - NCRCF Powder Ganger.esp
@@ -230,6 +238,7 @@ NCR Doggy Buddies - Alsatian.esp
 NCR Doggy Buddies - Leather Armor.esp
 NPCsUseAmoo.esp
 RefinedCasinoPeople&Suits.esp
+StripOpenNPCs.esp
 SuitFixes+Factions.esp
 VendorGameTimeRestock.esp
 VendorGameTimeRestockNoDefaultRestock.esp
@@ -259,6 +268,7 @@ BetterLuckySuite.esp
 BONsQuarryJunctionRefuge-cave.esp
 Brahmin Bess.esp
 Bungalow Home.esp
+Dan's Presidential Upgrade.esp
 CKvendor.esp
 FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
@@ -398,6 +408,28 @@ KarmaOverhaul.esp
 RepairOverhaul.esp
 Npc&CreatureRespawn.esp
 % {{BASH: Relev}}
+M.M.A.T - GMST Module.esp
+M.M.A.T - BugFixes Module.esp
+M.M.A.T - Misc Item Module.esp
+M.M.A.T - Companion Module.esp
+% {{BASH: Actors.AIPackages}}
+M.M.A.T - Ingestible Module.esp
+% {{BASH: Stats}}
+M.M.A.T - Quest&Gameplay Module.esp
+M.M.A.T - Shader Module.esp
+M.M.A.T Loot Module.esp
+% {{BASH: Invent}}
+M.M.A.T - Loot Module.esp
+% {{BASH: Invent}}
+M.M.A.T - Weapon Module.esp
+% {{BASH: Scripts,Stats}}
+M.M.A.T - Spawn Module.esp
+% {{BASH: Relev}}
+M.M.A.T - Enviromental Module.esp
+M.M.A.T Recipe Module.esp
+M.M.A.T - Recipe Module.esp
+M.M.A.T Repair Module.esp
+M.M.A.T - Repair Module.esp
 \EndGroup\\
 
 \BeginGroup\: NEVAX - New Vegas Expanded (German)
@@ -481,6 +513,55 @@ ReSort.esp
 % {{BASH: Names}}
 \EndGroup\\
 
+\BeginGroup\: XFO NV - The New Vegas Overhaul
+\-----------
+XFO - 1aa - Damage - Skill=Acc - mild.esp
+XFO - 1ab - Damage - Skill=Acc - med.esp
+XFO - 1ac - Damage - Skill=Acc - high.esp
+XFO - 2aa - Armor - DR+DT - revamp - mild.esp
+XFO - 2ab - Armor - DR+DT - revamp - med.esp
+XFO - 2ac - Armor - DR+DT - revamp - hard.esp
+XFO - 2ba - Armor - DR+DT - simple - mild.esp
+XFO - 2bb - Armor - DR+DT - simple - med.esp
+XFO - 2bc - Armor - DR+DT - simple - hard.esp
+XFO - 3aa - rarity - ammo - mild.esp
+XFO - 3ab - rarity - ammo - med.esp
+XFO - 3ac - rarity - ammo - hard.esp
+XFO - 3ad - rarity - ammo - vanilla.esp
+XFO - 3ae - rarity - ammo - easier.esp
+XFO - 3ba - rarity - caps - mild.esp
+XFO - 3bb - rarity - caps - med.esp
+XFO - 3bc - rarity - caps - hard.esp
+XFO - 3bd - rarity - caps - vanilla.esp
+XFO - 3be - rarity - caps - easier.esp
+XFO - 3ca - rarity - meds - mild.esp
+XFO - 3cb - rarity - meds - med.esp
+XFO - 3cc - rarity - meds - hard.esp
+XFO - 3cd - rarity - meds - vanilla.esp
+XFO - 3ce - rarity - meds - easier.esp
+XFO - 4a - Perks - Paths.esp
+XFO - 4b - Perks - Perk Every Level.esp
+XFO - 5a - SPECIAL & Stats Rebalance.esp
+XFO - 5b - Skills - SP Formula Rebalance.esp
+XFO - 5c - Skills - Better Med Surv Repair.esp
+XFO - 5da - Skills - Sneak - mild.esp
+XFO - 5db - Skills - Sneak - hard.esp
+XFO - 5ea - Skills - Barter - Mild.esp
+XFO - 5eb - Skills - Barter - Hard.esp
+XFO - 6a - Pacing - Faster (No Cap).esp
+XFO - 6b - Pacing - Mild (No Cap).esp
+XFO - 6c - Pacing - Med (No Cap).esp
+XFO - 6d - Pacing - High (No Cap).esp
+XFO - 6e - Pacing - Vanilla (JUST No Cap).esp
+XFO - 7a - UnMSG - Empty.esp
+XFO - 7b - UnMSG - Karma (Incl Sounds).esp
+XFO - 7c - UnMSG - Sneak Status.esp
+XFO - 8a - Cripple & Body Part Revamp.esp
+XFO - 8b - Speed Increases.esp
+XFO - 8c - Karma Rebalance.esp
+XFO - 8d - Gore Changes.esp
+\EndGroup\\
+
 \BeginGroup\: Other
 \-----------
 ABARM.esp
@@ -553,7 +634,10 @@ KDS Stronger Back Perk 500 Pounds.esp
 KDS Stronger Back Perk 1000 Pounds.esp
 Kobu's Free Wild Wasteland Trait.esp
 LFox Improved Regen Implant.esp
+LFox Night Vision Implant.esp
+LFox Night Vision Implant Low Brightness.esp
 More Perks.esp
+NinjaPerkFix.esp
 Perks per du.esp
 More Perks Update.esp
 MercGrenadeRifleDemoPyro.esp
@@ -658,6 +742,7 @@ NoFastTravel_NV.esp
 No Clutter Junk in Loot Containers.esp
 No Litter.esp
 No Stealth Messages.esp
+NoHarassingTheKing.esp 
 NewVegasRestorationStrip+Casino.esp
 Nuka Cola Enhanced.esp
 nv_passive_critters_norm_gecko.esp
@@ -778,6 +863,7 @@ Oven Cooking.esp
 Pulse Grenade Recipes.esp
 RiaAmmo.esp
 Recycling.esp
+RX-Auto Harvest.esp 
 SCAMP - Scrapping Clutter And Making Parts.esp
 Stealthboy Recipe.esp
 StimpakGivesSyringe.esp
@@ -855,6 +941,7 @@ F03weaponpack_v1_0.esp
 fownv - Sonic Screwdriver 1.0.esp
 G36C.esp
 Golden Eagle.esp
+guitar.esp
 HighRoller.esp
 hz_BAMR.esp
 hz_SVD.esp
@@ -941,6 +1028,7 @@ Advanced Recon Armor-Stealth With Drawn Weapon.esp
 AG All-Purpose Science Suit 100.esp
 AirForceArmorT57C.esp
 Alexscorpion'sNVG.esp
+Alice Armor.esp
 AliceRace.esp
 AliceOutfits.esp
 Armored PA Gloves.esp
@@ -1104,6 +1192,8 @@ Essentialcompanions.esp
 ICC.esp
 boon_harcored.esp
 Boone0.2.esp
+Cass_Redux.esp
+Cass_Redux_Mikoto.esp
 Companions never Die.esp
 Companions Commander.esp
 Companions Commander RUS.esp
@@ -1157,6 +1247,8 @@ SecuritronCompanion.esp
 SunnyCompanion.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
+Veronica_Redux_Type3_Alice_Lings.esp
+Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
 VeronicaFist.esp
 VeronicaFix.esp
