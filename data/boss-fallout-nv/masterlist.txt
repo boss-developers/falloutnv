@@ -39,6 +39,7 @@ CFWNV.esm
 CHEMS.esm
 CreatureAdditions.esm
 Docs Sexy Nurse.esm
+EZ_CompanionNVSE.esm
 CompanionInfAmmo.esm
 FONVAMoreSpawns.esm
 FOOK - New Vegas.esm
@@ -47,8 +48,7 @@ Goodsprings Hideout.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
-Lings.esm
-MikotoBeauty.esm
+IWS-Core.esm 
 Military Explansion Program.esm
 Military NV Backpacks.esm
 M.M.A.T - Core Module.esm
@@ -58,6 +58,7 @@ Moddable Unique Weps.esm
 More Perks.esm
 NosCo Companion System.esm
 NCCS Nos' Premade Companions.esm
+NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
@@ -73,6 +74,8 @@ Tales from the Burning Sands.esm
 Thermal Vision.esm
 Weapon Mod Expansion.esm
 wsex.esm
+Lings.esm
+MikotoBeauty.esm
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
@@ -127,6 +130,7 @@ PO10mmFix.esp
 DarNifiedUINV.esp
 The Chicken and the Egg.esp
 CASM.esp
+Arwen_Camera.esp
 BetterLoadingText.esp
 Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
@@ -139,6 +143,8 @@ LessIntrusiveKillCam.esp
 LMDExpandedHotkeys.esp
 NVORganizedItems.esp
 % {{BASH: Names}}
+NVR - Extra Actions Toggle - Crouch.esp
+NVR - Extra Actions Toggle - Walk.esp
 Purge Cell Buffers.esp
 Readius_NV.esp
 Realistic Weight.esp
@@ -213,6 +219,7 @@ VyntageCass02.esp
 
 \BeginGroup\: NPC
 \-----------
+A Repair Bot.esp
 Armor Replacer Child NPC Fix.esp
 CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
@@ -652,6 +659,7 @@ Predator Sneak.esp
 skeleton_key.esp
 SPECIAL_Fixes.esp
 SturdyCaravanShotgunSurgeon.esp
+UnarmedAndMelee-PerkFix.esp
 Weathered10mmProfessional.esp
 VG0PreorderAlternative.esp
 xatmosSkillPerks.esp
@@ -692,7 +700,8 @@ CompanionsInfiniteAmmoMin.esp
 CompanionsInfiniteAmmoFull.esp
 CompanionsInfiniteAmmoCheat.esp
 CompanionInfAmmoOptional.esp
-CompanionInfAmmoCheat.esp 
+CompanionInfAmmoCheat.esp
+Cliff's Empty Drinkable Bottles.esp 
 Desaturated Cateye.esp
 DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
@@ -744,6 +753,7 @@ No Litter.esp
 No Stealth Messages.esp
 NoHarassingTheKing.esp 
 NewVegasRestorationStrip+Casino.esp
+NVR - Hardcore Enhanced.esp
 Nuka Cola Enhanced.esp
 nv_passive_critters_norm_gecko.esp
 OJL38RealCasino.esp
@@ -859,7 +869,9 @@ Improved ammo.esp
 IntuitiveRealisticCooking.esp
 LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
+NVR - Trapper Time.esp
 Oven Cooking.esp
+psychoelfs ammo crafting.esp
 Pulse Grenade Recipes.esp
 RiaAmmo.esp
 Recycling.esp
@@ -899,6 +911,7 @@ AA12.esp
 Advanced Recon Gear.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 ACR.esp
+AK47.esp
 American Hammer Compact.esp
 ASG.esp
 Assault Carbine mods.esp
@@ -956,6 +969,8 @@ JTommyGun4Loot.esp
 JTommyGun4Free.esp
 KerberosPanzer.esp
 Kerberosweapons.esp
+M14.esp
+M4A1.esp
 m1c.esp
 M2HB.esp
 M82.esp
@@ -1172,6 +1187,8 @@ LogicalReputationShifts.esp
 Mercy Killing Karma.esp
 Mercy Killing Karma v2.0.esp
 nokarmalossforstealing.esp
+NVR - GUI - Silent Challenges.esp
+NVR - GUI - Silent Karma.esp
 Repair.esp
 RepairLists.esp
 RasRepair.esp
@@ -1342,6 +1359,7 @@ Fatigue - Loot the Unconscious.esp
 Fatigue - Weapons Fatigue Damage.esp
 FlashlightNV-LOS.esp
 FlashlightNV-Performance.esp
+FONV - Real Time Lockpicking and Hacking.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
@@ -1374,10 +1392,13 @@ move.base.speed.150.esp
 NoBlurOnHit.esp
 NoDegrade.esp
 NoDegradation.esp
+NoFactionArmorMessage.esp
 NoQuestItems.esp
 No Scope Wobble.esp
 NVExpansionByDandysV1.400.esp
 NVR - High Lethality.esp
+NVR - Lock Bombing.esp
+NVR - Lock Kicking.esp
 NVReplayabilityByDandys.esp
 NVReplayabilityByDandysV1.100.esp
 NVReplayabilityByDandysV1.200.esp
@@ -1394,6 +1415,7 @@ Colored Piplight - White.esp
 Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
 Piplight Brightness - 500%.esp
+RandomExtraTrapsNV.esp
 Realistic Death Impulse.esp
 realistic headshots HC VATS.esp
 realistic headshots.esp
