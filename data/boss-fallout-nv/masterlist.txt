@@ -145,6 +145,7 @@ NVORganizedItems.esp
 % {{BASH: Names}}
 NVR - Extra Actions Toggle - Crouch.esp
 NVR - Extra Actions Toggle - Walk.esp
+Primary Needs HUD.esp
 Purge Cell Buffers.esp
 Readius_NV.esp
 Realistic Weight.esp
@@ -200,6 +201,7 @@ Cuter Veronica Felicia Day.esp
 % {{BASH: NpcFaces}}
 Cuter Veronica Felicia Day-Essential.esp
 % {{BASH: NpcFaces}}
+Improved Faces v1.esp
 K2_NVPresets.esp 
 MikotoBPCCArcade.esp
 % {{BASH: NpcFaces,NoMerge}}
@@ -424,12 +426,13 @@ M.M.A.T - Ingestible Module.esp
 % {{BASH: Stats}}
 M.M.A.T - Quest&Gameplay Module.esp
 M.M.A.T - Shader Module.esp
+% {{BASH: Stats}}
 M.M.A.T Loot Module.esp
 % {{BASH: Invent}}
 M.M.A.T - Loot Module.esp
 % {{BASH: Invent}}
 M.M.A.T - Weapon Module.esp
-% {{BASH: Scripts,Stats}}
+% {{BASH: Stats}}
 M.M.A.T - Spawn Module.esp
 % {{BASH: Relev}}
 M.M.A.T - Enviromental Module.esp
@@ -688,12 +691,14 @@ BlackMountainRadioEverywhere.esp
 BLTC NV.esp
 BLTC NV immersion plugin.esp
 BoostedSkills.esp
+Bottles, cans, litter oh my!.esp
 BzBody.esp
 Casino Exchange All.esp
 Casino UnBanner.esp
 Canteen.esp
 Clanf_NoWeaponsRemove.esp
 Classic Pack Canteen More Hardcore.esp
+clean paper trash remover.esp
 Clean Up New Vegas.esp
 CompanionDe-Equip.esp
 CompanionsInfiniteAmmoMin.esp
@@ -1099,6 +1104,7 @@ Hereticus Faction Armors Fading.esp
 % {{BASH: Names}}
 HomeTeleport.esp
 Holster.esp
+iL-Camouflage Ghost Bodysuit.esp
 JillBSAA.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
@@ -1112,6 +1118,7 @@ lucky Shades.esp
 LUCSA.esp
 LUMENARIUM - Working Sunglasses ONLY.esp
 Mantis07Reflex - Realism.esp
+Mantis07Reflex.esp
 Military NV Backpacks - Blank's Container Patch.esp
 Military NV Backpacks - BumBagUseSlot1.esp
 Military NV Backpacks - No Straps.esp
@@ -1247,6 +1254,8 @@ Light Step ED-E.esp
 Max Followers 12.esp
 miria.esp
 nemunoki-replacer.esp
+NewCass.esp
+NewCass1.1.esp
 No More Annoying CC - ALL.esp
 NVBabyDeathclawCommander.esp
 NVPhalanx.esp
@@ -1264,6 +1273,7 @@ SecuritronCompanion.esp
 SunnyCompanion.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
+Veronica.esp
 Veronica_Redux_Type3_Alice_Lings.esp
 Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
@@ -1508,6 +1518,7 @@ tkEyelashesFNV.esp
 " conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
 tkEyelashesFNV_FemalesOnly.esp
 " conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
+ShilohDS-Desert Succubus CORE.esp 
 Shojo Neko.esp
 : Shojo Race Vegas.esm
 \EndGroup\\
@@ -1515,13 +1526,13 @@ Shojo Neko.esp
 \BeginGroup\: Hair
 \-----------
 MediumBeard.esp
-MikotoBeauty.esp
 Receding Hairstyle.esp
 Rikai'sHairPack.esp
 SideburnsBeardFlare.esp
 SideburnsBeardLong.esp
 SideburnsBeardShort.esp
 Sideburns.esp
+MikotoBeauty.esp
 \EndGroup\\
 
 \BeginGroup\: Bashed Patch
