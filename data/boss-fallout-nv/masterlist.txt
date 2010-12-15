@@ -31,6 +31,7 @@ RBX.esm
 20th Century Weapons.esm
 Achievement Remover.ESM
 Alice Armor.esm
+Advanced Recon Tech.esm
 Ambient Temperature.esm
 BinocularsOverhaul.esm
 CALIBR.esm
@@ -48,7 +49,9 @@ Goodsprings Hideout.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
-IWS-Core.esm 
+IWS-Core.esm
+LW Companion.esm
+? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
 Military Explansion Program.esm
 Military NV Backpacks.esm
 M.M.A.T - Core Module.esm
@@ -321,6 +324,8 @@ RedRockRanch.esp
 Schoolhouse Base.esp 
 SDs Lucky 38 Suite Trophies.esp
 Silverpeak Bunker.esp
+SLA_01_wall.esp
+SLA_02a_fort.esp
 SecretHideout-v1.21.esp
 vegassuburbshome.esp
 Wasteland Defense.esp
@@ -740,6 +745,7 @@ LightweightSanitizer.esp
 LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
+MagazinesReworked.esp
 ManualReload.esp
 Military Explansion Program.esp
 Mojave Express Expansion.esp
@@ -914,6 +920,8 @@ MERGEinjection.esp
 1st Recon Ranger Gear.esp
 AA12.esp
 Advanced Recon Gear.esp
+Advanced Recon Tech.esp
+Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 ACR.esp
 AK47.esp
@@ -963,6 +971,7 @@ guitar.esp
 HighRoller.esp
 hz_BAMR.esp
 hz_SVD.esp
+IDreamOfElectricSheep.esp
 ImmaSightinMahLazor.esp
 % {{BASH: Stats}}
 Improved Throwing1.esp
@@ -974,6 +983,7 @@ JTommyGun4Loot.esp
 JTommyGun4Free.esp
 KerberosPanzer.esp
 Kerberosweapons.esp
+lucky_bastard_rifle_v3.esp
 M14.esp
 M4A1.esp
 m1c.esp
