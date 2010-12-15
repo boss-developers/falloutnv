@@ -98,9 +98,10 @@ Davisonnoattack.esp
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
 Fix - Boulder City Negotiator.esp
+FNV-BeardEyebrowFixV1_0.esp
 Followers-NCR Alliance Fix.esp
 Followers+NCR=Alliance.fix.esp
-FNV-BeardEyebrowFixV1_0.esp
+Freeside Kings Gift Giving Fix
 JBrightExodusFix.esp
 Lucky38ContainersFix.esp
 Lucky 38 Suite Respawn Fix.esp
@@ -536,6 +537,7 @@ ReSort.esp
 \BeginGroup\: Superior Firepower
 \-----------
 Superior Firepower - Unique Weaponry.esp
+% {{BASH: Stats}}
 Superior Firepower - Misc Changes.esp
 Superior Firepower - Alternate Energy Weapons.esp
 Lesser Superior Firepower - Alternate Energy Weapons.esp
@@ -548,6 +550,7 @@ Lesser Superior Firepower - Kinetic Weaponry.esp
 Greater Superior Firepower - Kinetic Weaponry.esp
 Superior Firepower (BETA) - Explosive Weaponry.esp
 Superior Firepower - Factional Changes.esp
+% {{BASH: Delev,Relev}}
 Superior Firepower - Leveled Lists Fix.esp
 \EndGroup\\
 
@@ -634,6 +637,7 @@ ExtendedNVRadio.esp
 Improved Sound FX.esp
 Improved Sound FX - Gunshot Distance Tweak.esp
 Improved Sound FX - Weapon Sharing Fix.esp
+% {{BASH: Sound}}
 Machienzo-RadioNewVegasFix.esp
 Machienzo-RadioNewVegasFixv11.esp
 PA Footsteps.esp
@@ -742,6 +746,7 @@ Double Turbo.esp
 Druged Effects.esp
 EnhancedSniperAmmo.esp
 FalloutNVCheatTerminal.esp
+FasterDialogZoom.esp
 FeelingIrradiated.esp
 FO1TAG.esp
 gambling.esp
@@ -852,6 +857,7 @@ SaveCass.esp
 SaveCass_german.esp
 Sex Try.esp
 Silver Rush inventory expansion.esp
+SleepHeath.esp
 Slightly More Hardcore Hardcore Mode.esp
 Slower Level Rates - x1.3.esp
 Slower Level Rates - x1.5.esp
@@ -866,10 +872,13 @@ Static Battery Replacer.esp
 Stocked38 .esp
 Tag Skills Improved.esp
 that gun holdout.esp
-WurstBarberMachine.esp
-You take a sip from your trusty Vault 13 canteen.esp
 Weight8000.esp
 weight50000.esp
+WurstBarberMachine.esp
+XP_Slower_125.esp
+XP_Slower_Challenges.esp
+XP_Slower_NPCs.esp
+You take a sip from your trusty Vault 13 canteen.esp
 z_Fiends_2.esp
 \EndGroup\\
 
@@ -928,6 +937,7 @@ WMR_WME_R.esp
 \BeginGroup\: Weapons
 \-----------
 RH_IronSights_NV_Vanilla.esp
+% {{BASH: Graphics}}
 .454 Cavalry Revolver Version 2 fixed.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
@@ -1536,7 +1546,9 @@ Western Sky - Darker Nights.esp
 Weapon Mod Expansion.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - FOOK.ESP
+% {{BASH: Names}}
 WME Replacer - FOOK.esp
+% {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - that gun 556.esp
 WME - that gun 223.esp
 WME - that gun 44 mag.esp
@@ -1545,6 +1557,7 @@ WME - Reload, Rebalance.esp
 WME - Reload, Rearm.esp
 WME - Reload, Rearm, Rebalance.esp
 WME - RH Ironsights.esp
+% {{BASH: Graphics,WeaponMods}}
 \EndGroup\\
 
 \BeginGroup\: Pose mods
