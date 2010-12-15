@@ -83,6 +83,7 @@ MikotoBeauty.esm
 
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
+{FalloutNV v1.2.0.285 [Unpatched Records]}.esp 
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Abandoned Bunker Fix.esp
@@ -108,11 +109,13 @@ MeyersFix.esp
 MissFortuneFix.esp
 Motor-RunnerJackDianeFix.esp
 MushroomCloudFix.esp
+? Obsolete with latest patch
 NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
 RadioComputerPartsFix.esp
 Raul Ranger Andy fix.esp
 ReloadBugFix.esp
+? Obsolete with latest patch
 TravelingMerchantFix.esp
 Ultra-LuxeFixes.esp
 Vance's Gun Quest Full Patch.esp
@@ -122,6 +125,7 @@ Vault11HouseFix.esp
 Vault22ElevatorFix.esp
 Vault34Fix.esp
 VendorAmmo45-70Fix.esp
+? Obsolete with latest patch
 VMS44Fixed.esp
 WeAllGoTogether.esp
 WorkingCrimsonCaravanTraders.esp
@@ -528,6 +532,25 @@ ReSort.esp
 % {{BASH: Names}}
 \EndGroup\\
 
+
+\BeginGroup\: Superior Firepower
+\-----------
+Superior Firepower - Unique Weaponry.esp
+Superior Firepower - Misc Changes.esp
+Superior Firepower - Alternate Energy Weapons.esp
+Lesser Superior Firepower - Alternate Energy Weapons.esp
+Greater Superior Firepower - Alternate Energy Weapons.esp
+Superior Firepower - Energy Weapons.esp
+Lesser Superior Firepower - Energy Weapons.esp
+Greater Superior Firepower - Energy Weapons.esp
+Superior Firepower - Kinetic Weaponry.esp
+Lesser Superior Firepower - Kinetic Weaponry.esp
+Greater Superior Firepower - Kinetic Weaponry.esp
+Superior Firepower (BETA) - Explosive Weaponry.esp
+Superior Firepower - Factional Changes.esp
+Superior Firepower - Leveled Lists Fix.esp
+\EndGroup\\
+
 \BeginGroup\: XFO NV - The New Vegas Overhaul
 \-----------
 XFO - 1aa - Damage - Skill=Acc - mild.esp
@@ -768,6 +791,7 @@ NVR - Hardcore Enhanced.esp
 Nuka Cola Enhanced.esp
 nv_passive_critters_norm_gecko.esp
 OJL38RealCasino.esp
+old vaquero includes that gun.esp
 Open Sesame.esp
 Permanent Skill Mags.esp
 Permanent Skill Mags - Item Sorter.esp
@@ -841,6 +865,7 @@ StarBottleCaps.esp
 Static Battery Replacer.esp
 Stocked38 .esp
 Tag Skills Improved.esp
+that gun holdout.esp
 WurstBarberMachine.esp
 You take a sip from your trusty Vault 13 canteen.esp
 Weight8000.esp
@@ -936,6 +961,8 @@ Beretta.esp
 Better Binoculars.esp
 Better Binoculars High.esp
 Better Binoculars Max.esp
+better that gun 223.esp
+better that gun 44mag.esp
 Better Zoom.esp
 BoilingOil - Eli's Edge.esp
 Binocs12fov.esp
@@ -1508,12 +1535,16 @@ Western Sky - Darker Nights.esp
 \-----------
 Weapon Mod Expansion.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
+WME - FOOK.ESP
+WME Replacer - FOOK.esp
 WME - that gun 556.esp
+WME - that gun 223.esp
 WME - that gun 44 mag.esp
 WME - Reload.esp
 WME - Reload, Rebalance.esp
 WME - Reload, Rearm.esp
 WME - Reload, Rearm, Rebalance.esp
+WME - RH Ironsights.esp
 \EndGroup\\
 
 \BeginGroup\: Pose mods
@@ -1565,4 +1596,5 @@ Bashed Patch.esp
 \Mods rumoured to be needed after Bashed Patch.
 \Utility addons.
 \Ultimate final absolute end last mods, ever.
+{FalloutNV v1.2.0.314 [Patched Records]}.esp
 \EndGroup\\
