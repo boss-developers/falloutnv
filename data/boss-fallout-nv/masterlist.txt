@@ -43,13 +43,12 @@ Docs Sexy Nurse.esm
 EZ_CompanionNVSE.esm
 CompanionInfAmmo.esm
 FONVAMoreSpawns.esm
-FOOK - New Vegas.esm
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 Goodsprings Hideout.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
 IWS-Core.esm
+% {{BASH: Delev,Relev}}
 LW Companion.esm
 ? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
 Military Explansion Program.esm
@@ -76,14 +75,17 @@ SCAV.esm
 Tales from the Burning Sands.esm
 Thermal Vision.esm
 Weapon Mod Expansion.esm
+% {{BASH: Names}}
 wsex.esm
+FOOK - New Vegas.esm
+% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 Lings.esm
 MikotoBeauty.esm
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
-{FalloutNV v1.2.0.285 [Unpatched Records]}.esp 
+{FalloutNV v1.2.0.285 [Unpatched Records]}.esp
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Abandoned Bunker Fix.esp
@@ -206,7 +208,7 @@ Cuter Boone.esp
 Cuter Boone NEW.esp
 % {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day.esp
-% {{BASH: NpcFaces}}
+% {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day-Essential.esp
 % {{BASH: NpcFaces}}
 Improved Faces v1.esp
@@ -386,6 +388,8 @@ FOOK - New Vegas.esp
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 ammo can fix.esp
 AR-15 worth a fook.esp
+LinkesAuge - Retexture edits.esp
+% {{BASH: Graphics}}
 vertibirds & toxic cave.esp
 \EndGroup\\
 
@@ -972,7 +976,9 @@ Better Binoculars.esp
 Better Binoculars High.esp
 Better Binoculars Max.esp
 better that gun 223.esp
+% {{BASH: Names,Stats}}
 better that gun 44mag.esp
+% {{BASH: Names,Stats}}
 Better Zoom.esp
 BoilingOil - Eli's Edge.esp
 Binocs12fov.esp
@@ -1546,12 +1552,15 @@ Western Sky - Darker Nights.esp
 Weapon Mod Expansion.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - FOOK.ESP
-% {{BASH: Names}}
+% {{BASH: Names,Stats}}
 WME Replacer - FOOK.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - that gun 556.esp
+% {{BASH: Names,Stats,WeaponMods}}
 WME - that gun 223.esp
+% {{BASH: Names,Stats,WeaponMods}}
 WME - that gun 44 mag.esp
+% {{BASH: Names,Stats,WeaponMods}}
 WME - Reload.esp
 WME - Reload, Rebalance.esp
 WME - Reload, Rearm.esp
