@@ -338,7 +338,8 @@ vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
 UHNV.esp
-Underground Home.esp 
+Underground Home.esp
+YangtzeBunkerPlayerHomeV1_3.esp 
 Lucky38marker.esp
 Lucky38markerV3.esp
 markers.esp
@@ -748,6 +749,10 @@ DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
 Double Turbo.esp
 Druged Effects.esp
+Enhanced Ballistics Effects.esp
+Enhanced Ballistics Effects WME.esp
+Enhanced Ballistics Effects - NoTweaks.esp
+Enhanced Ballistics Effects WME RH - NoTweaks.esp
 EnhancedSniperAmmo.esp
 FalloutNVCheatTerminal.esp
 FasterDialogZoom.esp
@@ -847,6 +852,7 @@ RespawnerImprovedEx.esp
 : Respawn Timer (Any Version)
 Respawning Containers.esp
 Respawn24HoursImprovedEx.esp
+Rustyhwys.esp 
 RZW_VideoCollection01.esp
 : RZW_Television.esm
 RZW_VideoCollection02.esp
@@ -999,6 +1005,8 @@ DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
 DWDEagle44.esp
 DWM4A1.esp
+DWSpas12.esp
+DWUSP45.esp 
 EarlyWeapons.esp
 EnergyBoost.esp
 % {{BASH: Stats}}
@@ -1116,6 +1124,7 @@ Cat Outfits Vegas.esp
 Child Reading Glasses.esp
 ChildArmorPack.esp
 ClassicPowerArmorPulseRifle.esp
+Clearhelmets4radsuits.esp
 CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Crazyeyesreaper T51b Variety Pack.esp
