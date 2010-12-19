@@ -1170,6 +1170,7 @@ LFox Invisible Armored Vests.esp
 lucky Shades.esp
 LUCSA.esp
 LUMENARIUM - Working Sunglasses ONLY.esp
+% {{BASH: Names}}
 Mantis07Reflex - Realism.esp
 Mantis07Reflex.esp
 Military NV Backpacks - Blank's Container Patch.esp
@@ -1521,12 +1522,14 @@ HighGrass.esp
 MedGrass.esp
 Nevada Skies.esp
 ELECTRO-CITY - CompletedWorkorders.esp
+% {{BASH: Names}}
 LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 " Nevada Skies.esp
 LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " Nevada Skies.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
+ELECTRO-CITY - Emittance.esp
 Fellout.esp
 Field Depth.esp
 friendofnightforfellout.esp
