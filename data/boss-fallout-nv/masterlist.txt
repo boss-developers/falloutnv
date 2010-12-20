@@ -91,15 +91,18 @@ Compiled Patch.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
 BathFix.esp
+BlackMountainRadioRhonda.esp
 BMNeilFix.esp
 BoxFix.esp
 Brotherhood Fix.esp
 CaravanCardFix.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
+Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
 Fix - Boulder City Negotiator.esp
+Fix - Laser Rifle Beam Splitter Item Mod (v2).esp
 FNV-BeardEyebrowFixV1_0.esp
 Followers-NCR Alliance Fix.esp
 Followers+NCR=Alliance.fix.esp
@@ -124,8 +127,10 @@ Ultra-LuxeFixes.esp
 Vance's Gun Quest Full Patch.esp
 Vance's Gun Quest Patch.esp
 vangraf fix.esp
+VanGraff Vendor Fix.esp
 Vault11HouseFix.esp
 Vault22ElevatorFix.esp
+Vault3DoorNameFix.esp
 Vault34Fix.esp
 VendorAmmo45-70Fix.esp
 ? Obsolete with latest patch
@@ -160,6 +165,7 @@ Purge Cell Buffers.esp
 Readius_NV.esp
 Realistic Weight.esp
 % {{BASH: Stats}}
+ReallyOTS.esp
 SaveKey.esp
 Weight_Balance.esp
 % {{BASH: Stats}}
@@ -765,6 +771,7 @@ Hardcore (Refined Rates).esp
 Hardcore (Triple Rates).esp
 Hardcore Rates (Refined-robpsychobob).esp
 hold_breath.esp
+immersivesneaking.esp
 Kobu's Primary Attributes Uncapper.esp
 Kobu's Primary Attribute Uncapper.esp
 less_aggressive_cazadores.esp
@@ -962,13 +969,16 @@ RH_IronSights_NV_Vanilla.esp
 20th Century v5 ALIVE (SuperMutant).esp
 injectionpatch.esp
 MERGEinjection.esp
+10mmPistol-SigSauer_Replacement_NewSounds_v1.0.esp
+10mmPistol-SigSaur_Replacement_v1.0.esp
 1st Recon Ranger Gear.esp
 AA12.esp
+ACR.esp
 Advanced Recon Gear.esp
 Advanced Recon Tech.esp
 Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
-ACR.esp
+AEVegas.esp 
 AK47.esp
 American Hammer Compact.esp
 ASG.esp
@@ -992,6 +1002,7 @@ Boomers - T-57c PA.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
+Classic energy weapons.esp
 Classic M72 Gauss Rifle.esp
 Classic Plasma Grenade.esp
 % {{BASH: Graphics}}
@@ -1000,6 +1011,8 @@ Classic Pulse Grenade (classic sound).esp
 Classic Pulse Grenade (vanilla sound).esp
 % {{BASH: Graphics}}
 Classic YK42b Pulse Rifle.esp
+ColtM1911.esp
+ColtM1911NoAmmo.esp
 Devil'sMistressReturns.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
@@ -1154,6 +1167,8 @@ ERCA Doc.esp
 ERCA NCRSH.esp
 : ERCA.esp
 Eyepatch.esp
+exoArmorPerks.esp
+exoMedicArmor.esp
 Faction Armor Converted to Non Faction.esp
 Fade That Faction Armor.esp
 FaithOutfit.esp
@@ -1176,6 +1191,7 @@ Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
 LegionNCRnonfaction.esp
 LFox Invisible Armored Vests.esp
+Lucky Lighter.esp
 lucky Shades.esp
 LUCSA.esp
 LUMENARIUM - Working Sunglasses ONLY.esp
@@ -1337,6 +1353,7 @@ SunnyCompanion.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
 Veronica.esp
+Veronica fix.esp
 Veronica_Redux_Type3_Alice_Lings.esp
 Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
@@ -1462,6 +1479,7 @@ More Damage To Player.esp
 move.base.speed.100.esp
 move.base.speed.125.esp
 move.base.speed.150.esp
+no-faction-warning.esp
 NoBlurOnHit.esp
 NoDegrade.esp
 NoDegradation.esp
@@ -1479,6 +1497,7 @@ NVReplayabilityByDandysV1.300.esp
 NVReplayabilityByDandysV1.5000.esp
 NVReplayabilityByDandysV1.600.esp
 NVReplayabilityByDandysV1.700.esp
+PipBoyLightx1.5.esp
 PipBoyLightx2.esp
 PipBoyLight.esp
 pipboyx2.esp
@@ -1489,6 +1508,7 @@ Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
 Piplight Brightness - 500%.esp
 RandomExtraTrapsNV.esp
+Realistic death.esp 
 Realistic Death Impulse.esp
 realistic headshots HC VATS.esp
 realistic headshots.esp
@@ -1513,6 +1533,7 @@ XSNVBalanceTweaks.esp
 ACF Brighter Days and Darker Nights v5 - Medium
 ACF Brighter Days and Darker Nights v5 - Dark
 CustomLighting.esp
+CustomLighting II.esp
 CustomLighting-I DoF Blur.esp
 CustomLighting-IE DoF Blur.esp
 CustomLighting-IE DOF Clear.esp
