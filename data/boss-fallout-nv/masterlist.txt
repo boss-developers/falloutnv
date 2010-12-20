@@ -30,9 +30,10 @@ RBX.esm
 \ Needs to be before any mod using a reloading bench including a lot of house mods. 
 20th Century Weapons.esm
 Achievement Remover.ESM
-Alice Armor.esm
 Advanced Recon Tech.esm
+Alice Armor.esm
 Ambient Temperature.esm
+AWorldOfPain(Preview).esm
 BinocularsOverhaul.esm
 CALIBR.esm
 Caliber.esm
@@ -96,11 +97,13 @@ BMNeilFix.esp
 BoxFix.esp
 Brotherhood Fix.esp
 CaravanCardFix.esp
+? Obsolete with latest patch
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
+? Obsolete with latest patch
 Fix - Boulder City Negotiator.esp
 Fix - Laser Rifle Beam Splitter Item Mod (v2).esp
 FNV-BeardEyebrowFixV1_0.esp
@@ -122,6 +125,7 @@ RadioComputerPartsFix.esp
 Raul Ranger Andy fix.esp
 ReloadBugFix.esp
 ? Obsolete with latest patch
+RHKBooneWarnFix.esp
 TravelingMerchantFix.esp
 Ultra-LuxeFixes.esp
 Vance's Gun Quest Full Patch.esp
@@ -148,7 +152,9 @@ CASM.esp
 Arwen_Camera.esp
 BetterLoadingText.esp
 Centered 3rd Person Camera.esp
+" FOOK - New Vegas.esm
 Centered 3rd Person Camera - Unraised.esp
+" FOOK - New Vegas.esm
 DynamiCamera.esp
 Further3rdPersonCamera.esp
 HUD Extended.esp
@@ -760,6 +766,9 @@ Enhanced Ballistics Effects WME.esp
 Enhanced Ballistics Effects - NoTweaks.esp
 Enhanced Ballistics Effects WME RH - NoTweaks.esp
 EnhancedSniperAmmo.esp
+ExpansionVendors.esp
+EV-WME.esp
+: Weapon Mod Expansion.esm
 FalloutNVCheatTerminal.esp
 FasterDialogZoom.esp
 FeelingIrradiated.esp
@@ -947,8 +956,11 @@ WeaponModRecipesA.esp
 WeaponModRecipesS.esp
 WeaponModRecipesR.esp
 WMR_WME_A.esp
+: Weapon Mod Expansion.esm
 WMR_WME_S.esp
+: Weapon Mod Expansion.esm
 WMR_WME_R.esp
+: Weapon Mod Expansion.esm
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -1090,6 +1102,11 @@ RH_IronSights_NV_NewWeapons.esp
 RHINO45-70_NV.esp
 RWIE Classic Pack.esp
 SAW M249.esp
+Shotgun Commando.esp
+% {{BASH: Stats}}
+Shotgun Commando 1.2 Caravan.esp
+: CaravanPack.esm
+% {{BASH: Stats}}
 silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
 Tactical Weapon Pack.esp
@@ -1515,8 +1532,6 @@ realistic headshots.esp
 realistic headshots VATS.esp
 Realistic Weapon Impact Effects.esp
 Reign Monocyte Implant Improvement.esp
-Shotgun Commando.esp
-Shotgun Commando 1.2 Caravan.esp
 SneakingCrosshair.esp
 SPECIALer.esp
 tyfasterwalk.esp
@@ -1583,22 +1598,36 @@ Western Sky - Darker Nights.esp
 \BeginGroup\: Lastish
 \-----------
 Weapon Mod Expansion.esp
+: Weapon Mod Expansion.esm
+% {{BASH: Graphics,Names,Stats,WeaponMods}}
+WME - 00 Commando.esp
+: Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - FOOK.ESP
+: Weapon Mod Expansion.esm
 % {{BASH: Names,Stats}}
 WME Replacer - FOOK.esp
+: Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - that gun 556.esp
+: Weapon Mod Expansion.esm
 % {{BASH: Names,Stats,WeaponMods}}
 WME - that gun 223.esp
+: Weapon Mod Expansion.esm
 % {{BASH: Names,Stats,WeaponMods}}
 WME - that gun 44 mag.esp
+: Weapon Mod Expansion.esm
 % {{BASH: Names,Stats,WeaponMods}}
 WME - Reload.esp
+: Weapon Mod Expansion.esm
 WME - Reload, Rebalance.esp
+: Weapon Mod Expansion.esm
 WME - Reload, Rearm.esp
+: Weapon Mod Expansion.esm
 WME - Reload, Rearm, Rebalance.esp
+: Weapon Mod Expansion.esm
 WME - RH Ironsights.esp
+: Weapon Mod Expansion.esm
 % {{BASH: Graphics,WeaponMods}}
 \EndGroup\\
 
