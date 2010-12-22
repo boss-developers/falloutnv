@@ -731,6 +731,7 @@ ammoingredientsloot.esp
 ArenaAnySex.esp
 BAN - Dupe This.esp
 BCL custom edition.esp
+Better Casinos.esp
 BetterGamePerformanceV1.esp
 BetterGamePerformanceV2.esp
 BetterGamePerformanceV3.esp
@@ -744,6 +745,7 @@ BLTC NV immersion plugin.esp
 BoostedSkills.esp
 Bottles, cans, litter oh my!.esp
 BzBody.esp
+Casino Bets.esp
 Casino Exchange All.esp
 Casino UnBanner.esp
 Canteen.esp
@@ -783,6 +785,8 @@ Hardcore (Triple Rates).esp
 Hardcore Rates (Refined-robpsychobob).esp
 hold_breath.esp
 immersivesneaking.esp
+IWS-MoreSpawns.esp
+IWS-UltraSpawns.esp
 Kobu's Primary Attributes Uncapper.esp
 Kobu's Primary Attribute Uncapper.esp
 less_aggressive_cazadores.esp
@@ -920,7 +924,6 @@ Automated Reloading Bench.esp
 RBX Caliber compatibilty.esp
 Better Ammo Crafting.esp
 % {{BASH: Names}}
-Better Casinos.esp
 BetterCraftingSorting.esp
 % {{BASH: Names}}
 BuildableBotsNV.esp
@@ -1240,6 +1243,7 @@ PimpMyScarf.esp
 PimpMyScarf_v2.esp
 PlasmaShields.esp
 Powered Power Armor.esp
+% {{BASH: Deflst}}
 Ambient Temperature - PPA.esp
 QSondraOutfits.esp
 ranger_leather.esp
@@ -1633,6 +1637,7 @@ WME - Reload, Rearm, Rebalance.esp
 WME - RH Ironsights.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,WeaponMods}}
+mypatch.esp
 \EndGroup\\
 
 \BeginGroup\: Pose mods
