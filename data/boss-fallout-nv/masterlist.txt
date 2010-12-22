@@ -75,6 +75,7 @@ Shojo Race Vegas.esm
 SCAV.esm
 Tales from the Burning Sands.esm
 Thermal Vision.esm
+VMods - Master.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
 wsex.esm
@@ -98,6 +99,7 @@ BoxFix.esp
 Brotherhood Fix.esp
 CaravanCardFix.esp
 ? Obsolete with latest patch
+CompanionHoldouts.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
@@ -898,6 +900,7 @@ Static Battery Replacer.esp
 Stocked38 .esp
 Tag Skills Improved.esp
 that gun holdout.esp
+VMods.esp
 Weight8000.esp
 weight50000.esp
 WurstBarberMachine.esp
@@ -1575,6 +1578,7 @@ LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
 ELECTRO-CITY - Emittance.esp
+ELECTRO-CITY - Highways and Byways.esp
 Fellout.esp
 Field Depth.esp
 friendofnightforfellout.esp
