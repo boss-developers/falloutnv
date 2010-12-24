@@ -29,6 +29,7 @@ RBX.esm
 \ Needs to be before any mod using a reloading bench including a lot of house mods. 
 20th Century Weapons.esm
 Achievement Remover.ESM
+Active Wasteland.esm
 Advanced Recon Tech.esm
 Alice Armor.esm
 Ambient Temperature.esm
@@ -41,8 +42,10 @@ CHEMS.esm
 CreatureAdditions.esm
 Docs Sexy Nurse.esm
 EZ_CompanionNVSE.esm
+FalloutNV_Camera_Control.esm
 CompanionInfAmmo.esm
 FONVAMoreSpawns.esm
+FPT EDE Lings Lisbet Brunette.esm
 Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 HAM-Spawns.esm
@@ -68,6 +71,7 @@ Herculine's NCCS Companions Volume 1.esm
 PipboyRemover.esm
 Playthings.esm
 RH_IRONSIGHTS_NV.esm
+RRCompanionVault.esm
 RZW_Master.esm
 RZW_Television.esm
 : RZW_Master.esm
@@ -81,6 +85,7 @@ Weapon Mod Expansion.esm
 wsex.esm
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+VMods - Master.esm
 Lings.esm
 MikotoBeauty.esm
 \EndGroup\\
@@ -220,6 +225,9 @@ Zombie Apocalypse.esp
 
 \BeginGroup\: Faces
 \-----------
+Cass_Redux.esp
+Cass_Redux_Mikoto.esp
+Cass V01 -Lings.esp
 Cuter Boone.esp
 % {{BASH: NpcFaces,NoMerge}}
 Cuter Boone NEW.esp
@@ -228,6 +236,12 @@ Cuter Veronica Felicia Day.esp
 % {{BASH: NpcFaces,NoMerge}}
 Cuter Veronica Felicia Day-Essential.esp
 % {{BASH: NpcFaces}}
+Dalls_NV_Better_Faces.esp
+FPT EDE - Irish Redhead - Vanilla.esp
+FPT EDE 2BetaVanillaBlonde.esp
+FPT EDE 2BetaVanillaBlue.esp
+FPT EDE 2BetaVanillaBrunette.esp
+FPT EDE 2BetaVanillaRedhead.esp
 Improved Faces v1.esp
 K2_NVPresets.esp 
 MikotoBPCCArcade.esp
@@ -240,8 +254,20 @@ MikotoBPWastersOverhaul.esp
 % {{BASH: NpcFaces,NoMerge}}
 MikotoBPCCFull.esp
 % {{BASH: NpcFaces,NoMerge}}
+NewCass.esp
+NewCass1.1.esp
+psychoelfs Boone Shojo.esp
+psychoelfs cass shojo blond.esp
+psychoelfs cass shojo black hair.esp
+psychoelfs cass shojo brown.esp
+Psychoelfs Veronica shojo.esp
+Psychoelfs Veronica shojo bms.esp
+Rifulized Veronica.esp
 Raul - Danny Trejo.esp
 % {{BASH: NpcFaces,NoMerge}}
+Veronica_Redux_Type3_Alice_Lings.esp
+Veronica_Redux_Type3_Alice_Mikoto.esp
+veronicafaceonly.esp
 VyntageCass02.esp
 % {{BASH: NpcFaces}}
 \EndGroup\\
@@ -255,6 +281,7 @@ CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
 FiendsNoHelmet.esp
+GibsonDogs.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
 GunRunnersExpandedV3.4.esp
@@ -313,6 +340,7 @@ FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
 FNV - ShopHome.esp
 Freesidehome.esp
+Gomorrah3rdFloor.esp
 GoodspringsFarmhouse_v1.2.esp
 GoodspringsPlayerHome.esp
 Goodspring Playerhome V1_1.esp
@@ -360,7 +388,11 @@ Wolf's Goodspring hole v0.2.esp
 UHNV.esp
 UHNV-ARB Patch.esp
 Underground Home.esp
+YangtzeBunkerPlayerHome.esp 
+YangtzeBunkerPlayerHomeV1_2.esp 
 YangtzeBunkerPlayerHomeV1_3.esp 
+YangtzeBunkerPlayerHomeV1_4.esp
+YangtzeBunkerPlayerHomeV1_5.esp 
 Lucky38marker.esp
 Lucky38markerV3.esp
 markers.esp
@@ -696,6 +728,7 @@ Calm_Heart_Fix.esp
 Free Wild Wasteland.esp
 FreakinLaserBeams_Perk_1_2.esp
 FreakinLaserBeams_Perk_Light_1_2.esp
+Guns_challenge_and_perk_fix.esp
 KDS Stronger Back Perk 100 Pounds.esp
 KDS Stronger Back Perk 200 Pounds.esp
 KDS Stronger Back Perk 500 Pounds.esp
@@ -722,6 +755,7 @@ SPECIAL_Fixes.esp
 SturdyCaravanShotgunSurgeon.esp
 UnarmedAndMelee-PerkFix.esp
 Weathered10mmProfessional.esp
+WilderWasteland_SAC.esp
 VG0PreorderAlternative.esp
 xatmosSkillPerks.esp
 ZZZZ--APB_By_Nokturnihs.esp
@@ -730,7 +764,9 @@ ZZZZ--APB_By_Nokturnihs.esp
 \BeginGroup\: Early Misc
 \-----------
 Active Wasteland.esp
+Active Wasteland - Vanilla Replacements.esp
 AddEmptyBottle.esp
+AddLunchBox.esp
 add that gun to cowboy perk.esp
 Alternative Console Access.esp
 Animated Prostitution.esp
@@ -760,6 +796,7 @@ Clanf_NoWeaponsRemove.esp
 Classic Pack Canteen More Hardcore.esp
 clean paper trash remover.esp
 Clean Up New Vegas.esp
+Collectible Canteens.esp
 CompanionDe-Equip.esp
 CompanionsInfiniteAmmoMin.esp
 CompanionsInfiniteAmmoFull.esp
@@ -772,6 +809,7 @@ DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
 Double Turbo.esp
 Druged Effects.esp
+Duke Patricks - Improved Magazines.esp
 Enhanced Ballistics Effects.esp
 Enhanced Ballistics Effects WME.esp
 Enhanced Ballistics Effects - NoTweaks.esp
@@ -791,6 +829,8 @@ Hardcore (Refined Rates).esp
 Hardcore (Triple Rates).esp
 Hardcore Rates (Refined-robpsychobob).esp
 hold_breath.esp
+HoverBoard.esp
+Improved Non Combat XP-Orchid.esp
 immersivesneaking.esp
 IWS-MoreSpawns.esp
 IWS-UltraSpawns.esp
@@ -808,6 +848,7 @@ LFox Infinite Companion Ammo Repair.esp
 LFox Infinite Companion Ammo.esp
 Lighter books.esp
 LightweightSanitizer.esp
+LMDStorageBag.esp
 LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
@@ -833,6 +874,7 @@ NewVegasRestorationStrip+Casino.esp
 NVR - Hardcore Enhanced.esp
 Nuka Cola Enhanced.esp
 nv_passive_critters_norm_gecko.esp
+NoUndiscoveredCompassMarkers.esp
 OJL38RealCasino.esp
 old vaquero includes that gun.esp
 Open Sesame.esp
@@ -953,6 +995,7 @@ IntuitiveRealisticCooking.esp
 LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
 NVR - Trapper Time.esp
+NukaColaQuantum.esp
 Oven Cooking.esp
 psychoelfs ammo crafting.esp
 Pulse Grenade Recipes.esp
@@ -962,6 +1005,7 @@ RX-Auto Harvest.esp
 SCAMP - Scrapping Clutter And Making Parts.esp
 Stealthboy Recipe.esp
 StimpakGivesSyringe.esp
+Tactical Crafting.esp
 Survival Expansion 0.1.esp
 WeaponModRecipes.esp
 WeaponModRecipesA.esp
@@ -1257,6 +1301,7 @@ ranger_leather.esp
 Rangermask.esp
 RCSS.esp
 Realistic Power Armor.esp
+RealisticStealthArmor.esp
 Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
 SBVenomousArmor.esp
@@ -1298,6 +1343,7 @@ headgearfix.esp
 \-----------
 Caesars_Legion_Overhaul.esp
 % {{BASH: Invent}}
+Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
 LogicalReputationShifts.esp
@@ -1313,6 +1359,7 @@ RasRepairAll.esp
 Realistic_Repair_v062.esp
 Realistic_Repair_NV.esp
 Stealing -1 Karma.esp
+TheRocKarma.esp
 nv_hats_repair.esp
 nv_hats_repair_morehealth.esp
 \EndGroup\\
@@ -1326,8 +1373,6 @@ Essentialcompanions.esp
 ICC.esp
 boon_harcored.esp
 Boone0.2.esp
-Cass_Redux.esp
-Cass_Redux_Mikoto.esp
 Charisma Based Follower Limit.esp
 Companions never Die.esp
 Companions Commander.esp
@@ -1340,6 +1385,7 @@ Companions teleporter RUS.esp
 CompanionLevel30Cap.esp
 % {{BASH: Actors.ACBS}}
 CompanionsEssential.esp 
+ED-E 3D Sound.esp
 ede-e_alert_replacement.esp
 ED-E Burr.esp
 ED-E Incinerator.esp
@@ -1353,11 +1399,6 @@ Companion Sandbox Mode V2.0.esp
 Comp_Idles_NV.esp
 EnclaveCommander.esp
 Follower Home Marker.esp
-FPT EDE - Irish Redhead - Vanilla.esp
-FPT EDE 2BetaVanillaBlonde.esp
-FPT EDE 2BetaVanillaBlue.esp
-FPT EDE 2BetaVanillaBrunette.esp
-FPT EDE 2BetaVanillaRedhead.esp
 GARU.esp
 ImprovedCompanions.esp
 JeyebotCompanion.esp
@@ -1365,18 +1406,10 @@ Light Step ED-E.esp
 Max Followers 12.esp
 miria.esp
 nemunoki-replacer.esp
-NewCass.esp
-NewCass1.1.esp
 No More Annoying CC - ALL.esp
 NVBabyDeathclawCommander.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages,Actors.CombatStyle,C.Owner,Scripts}}
-psychoelfs Boone Shojo.esp
-psychoelfs cass shojo blond.esp
-psychoelfs cass shojo black hair.esp
-psychoelfs cass shojo brown.esp
-Psychoelfs Veronica shojo.esp
-Psychoelfs Veronica shojo bms.esp
 RemoteControlCompanions.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
@@ -1386,9 +1419,6 @@ UnlimitedCompanions.esp
 Unlimited Companions.esp
 Veronica.esp
 Veronica fix.esp
-Veronica_Redux_Type3_Alice_Lings.esp
-Veronica_Redux_Type3_Alice_Mikoto.esp
-veronicafaceonly.esp
 VeronicaFist.esp
 VeronicaFix.esp
 VeronicaFixEssential.esp
@@ -1401,6 +1431,9 @@ WeakerBoone40LevelMultiplier.esp
 \BeginGroup\: Later Misc
 \-----------
 1PipboyPDA.esp
+Advanced PipBoy 1.esp
+Advanced PipBoy 2.esp
+Advanced PipBoy 3.esp
 Pipboy 5k.esp
 aaaJNFCamp.esp
 BetterRepairKits.esp
@@ -1431,6 +1464,7 @@ FeelingIrradiated-IS.esp
 
 \BeginGroup\: Game-Settings and Overrides
 \-----------
+_glaunch_explosion.esp
 aaaJNFSniperZooming.esp
 Automatic Inventory.esp
 Balance mod - 10% XP Gain.esp
@@ -1447,6 +1481,7 @@ noautoaim.esp
 Improved VATS and Autoaim fix (no VATS invincibility, no binoculars).esp
 Improved VATS and Autoaim fix with Better Binoculars (no VATS invincibility).esp
 Improved VATS and Autoaim fix with Better Binoculars.esp
+instavats.esp
 RWD-NVv1.esp
 RWD-NV V1.2 Alt NoLimbsExplosions.esp
 RWD-NV V1.2 Alt.esp
@@ -1475,18 +1510,22 @@ Easy Unlocking and Easy Hacking and Guaranteed Pick Pocket.esp
 Easy Unlocking and Easy Hacking.esp
 Easy Unlocking and Guaranteed Pick Pocket.esp
 Easy Unlocking.esp
+fastervats.esp
 Faster Runing.esp
 Faster Running (5.5).esp
 Faster Running 4.5.esp
 Faster Terminals.esp
 Fatigue - Loot the Unconscious.esp
 Fatigue - Weapons Fatigue Damage.esp
+First_Person_Gun_No_Follow.esp
+First_Person_Gun_No_Follow_Less.esp
 FlashlightNV-LOS.esp
 FlashlightNV-Performance.esp
 FONV - Real Time Lockpicking and Hacking.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
+GrenadeHotkey.esp
 Guaranteed Pick Pocket.esp
 GunsIgnoreArmor.esp
 HJLLessDismembermentAndExplosionsv100.esp 
@@ -1506,6 +1545,7 @@ JumpNFall.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
 Leveled Lists Fix.esp
+Lever Rifle fire rate slow.esp
 limbregen.esp
 LR - CD [NV].esp
 Melee Lock-On.esp
@@ -1541,6 +1581,7 @@ Colored Piplight - White.esp
 Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
 Piplight Brightness - 500%.esp
+Quest Items - Non-Essential and Categorised.esp
 RandomExtraTrapsNV.esp
 Realistic death.esp
 Realistic Death & Dismemberment Physics.esp 
@@ -1548,6 +1589,7 @@ Realistic Death Impulse.esp
 realistic headshots HC VATS.esp
 realistic headshots.esp
 realistic headshots VATS.esp
+Realistic Ingestible Metabolic Effects.esp
 Realistic Weapon Impact Effects.esp
 Reign Monocyte Implant Improvement.esp
 Sensible Dismemberment.esp
@@ -1558,6 +1600,7 @@ tyfasterwalk-FR.esp
 tyfasterwalk-FR-N2HRP.esp
 tyfasterwalk-N2HRP.esp
 vanilla move.esp
+VMods.esp
 XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
 \EndGroup\\
@@ -1617,6 +1660,8 @@ Western Sky - Darker Nights.esp
 
 \BeginGroup\: Lastish
 \-----------
+Color Me Evil.esp
+Color Me Evil - Cass.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
@@ -1660,6 +1705,7 @@ FewPosesMore NVedition.esp
 \BeginGroup\: Beauty Packs & Race Addons
 \-----------
 AFricanAmericanAAlbino.esp
+T3BBN Old Women.esp
 tkEyelashesFNV.esp
 " conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
 tkEyelashesFNV_FemalesOnly.esp
