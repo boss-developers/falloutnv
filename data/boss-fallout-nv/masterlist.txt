@@ -70,7 +70,7 @@ Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 PipboyRemover.esm
 Playthings.esm
-RH_IRONSIGHTS_NV.esm
+
 RRCompanionVault.esm
 RZW_Master.esm
 RZW_Television.esm
@@ -82,6 +82,7 @@ Thermal Vision.esm
 VMods - Master.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
+RH_IRONSIGHTS_NV.esm
 wsex.esm
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
@@ -135,6 +136,7 @@ Raul Ranger Andy fix.esp
 ReloadBugFix.esp
 ? Obsolete with latest patch
 RHKBooneWarnFix.esp
+ScotchBottleFix.esp
 TravelingMerchantFix.esp
 Ultra-LuxeFixes.esp
 Vance's Gun Quest Full Patch.esp
@@ -811,10 +813,6 @@ DK_BulletTime_NV.esp
 Double Turbo.esp
 Druged Effects.esp
 Duke Patricks - Improved Magazines.esp
-Enhanced Ballistics Effects.esp
-Enhanced Ballistics Effects WME.esp
-Enhanced Ballistics Effects - NoTweaks.esp
-Enhanced Ballistics Effects WME RH - NoTweaks.esp
 EnhancedSniperAmmo.esp
 ExpansionVendors.esp
 EV-WME.esp
@@ -951,6 +949,7 @@ Solar's Bottled Water - Bottlecaps.esp
 Sprint Mod.esp
 StarBottleCaps.esp
 Static Battery Replacer.esp
+StealthBoyEnhanced.esp 
 Stocked38 .esp
 Tag Skills Improved.esp
 that gun holdout.esp
@@ -995,6 +994,7 @@ Improved ammo.esp
 IntuitiveRealisticCooking.esp
 LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
+MyFirstCookbook.esp
 NVR - Trapper Time.esp
 NukaColaQuantum.esp
 Oven Cooking.esp
@@ -1022,8 +1022,6 @@ WMR_WME_R.esp
 
 \BeginGroup\: Weapons
 \-----------
-RH_IronSights_NV_Vanilla.esp
-% {{BASH: Graphics}}
 .454 Cavalry Revolver Version 2 fixed.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
@@ -1159,7 +1157,6 @@ PlasmaRifleAwesomefied.esp
 P90Nana-set.esp
 R700.esp
 RAKatanasMod.esp
-RH_IronSights_NV_NewWeapons.esp
 RHINO45-70_NV.esp
 RWIE Classic Pack.esp
 SAW M249.esp
@@ -1466,6 +1463,11 @@ BetterRepairKits2.esp
 ? Old
 BetterRepairKits2b.esp
 Destruction.esp
+Feng Shui NV.esp
+Feng Shui NV - Keymap Template.esp
+Grays_EverybodyBleeds.esp 
+" Moddable Unique Weps.esp
+" Moddable Unique Weps.esm
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
 ShilohDS-Color Maps and Icons.esp
@@ -1558,6 +1560,7 @@ Imp's More Complex Needs - JA - SORTED.esp
 IMCNNV - Sorted.esp
 Ambient Temperature - IMCNNV.esp
 IMCNNV - HUD and Hotkeys.esp
+MyFirstCookbook - IMCN compatibility.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
 ImprovedImplantRegen.esp
@@ -1582,6 +1585,7 @@ no-faction-warning.esp
 NoBlurOnHit.esp
 NoDegrade.esp
 NoDegradation.esp
+NoDialogueHints.esp
 NoFactionArmorMessage.esp
 NoQuestItems.esp
 No Scope Wobble.esp
@@ -1602,6 +1606,8 @@ PipBoyLight.esp
 pipboyx2.esp
 pipboyx3.esp
 pipboyx4.esp
+pipboyx5.esp
+pipboyx6.esp
 Colored Piplight - White.esp
 Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
@@ -1663,6 +1669,7 @@ LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
 ELECTRO-CITY - Emittance.esp
 ELECTRO-CITY - Highways and Byways.esp
+ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
 Fellout.esp
 Field Depth.esp
 friendofnightforfellout.esp
@@ -1716,9 +1723,21 @@ WME - Reload, Rearm.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm, Rebalance.esp
 : Weapon Mod Expansion.esm
+RH_IronSights_NV_Vanilla.esp
+: RH_IRONSIGHTS_NV.esm
+% {{BASH: Graphics}}
 WME - RH Ironsights.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,WeaponMods}}
+RH_IronSights_NV_NewWeapons.esp
+: RH_IRONSIGHTS_NV.esm
+Enhanced Ballistics Effects.esp
+Enhanced Ballistics Effects - NoTweaks.esp
+Enhanced Ballistics Effects WME.esp
+: Weapon Mod Expansion.esm
+Enhanced Ballistics Effects WME RH - NoTweaks.esp
+: Weapon Mod Expansion.esm
+: RH_IRONSIGHTS_NV.esm
 mypatch.esp
 \EndGroup\\
 
