@@ -183,6 +183,7 @@ Realistic Weight.esp
 % {{BASH: Stats}}
 ReallyOTS.esp
 SaveKey.esp
+TUWRM.esp
 Weight_Balance.esp
 % {{BASH: Stats}}
 Weight_Balance_v07.esp
@@ -1117,6 +1118,7 @@ KerberosPanzer.esp
 Kerberosweapons.esp
 lucky_bastard_rifle_v3.esp
 M14.esp
+M1GarandThisMachine.esp
 M4A1.esp
 m1c.esp
 M2HB.esp
@@ -1143,6 +1145,7 @@ Mossberg.esp
 Mossberg590.esp
 NekhCFinderFix.esp
 NepaleseKukri.esp
+NudeRay 1.3.esp
 NV binoculars.esp
 NVExverminatorRifle.esp
 NVExverminatorRifle2xZoom.esp
@@ -1154,6 +1157,8 @@ PK_Pulse_Pistol.esp
 PlasmaRifleAwesomefied.esp
 % {{BASH: Sound,Stats}}
 P90Nana-set.esp
+R700.esp
+RAKatanasMod.esp
 RH_IronSights_NV_NewWeapons.esp
 RHINO45-70_NV.esp
 RWIE Classic Pack.esp
@@ -1165,9 +1170,11 @@ Shotgun Commando 1.2 Caravan.esp
 % {{BASH: Stats}}
 silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
+SpookyJ's LngRng GRifle.esp
 Tactical Weapon Pack.esp
 that gun 556.esp
 that gun 44 mag.esp
+ThirdLeg.esp
 Throwing Ninja's Weapon.esp
 Usableservice.esp
 Weathered10mmFixed.esp
@@ -1193,14 +1200,20 @@ Advanced Recon Armor-No Stealth Field.esp
 Advanced Recon Armor-Predator Mode.esp
 Advanced Recon Armor-Stealth With Drawn Weapon.esp
 AG All-Purpose Science Suit 100.esp
+AL Black Corsetry and Blanc dress.esp
 AirForceArmorT57C.esp
 Alexscorpion'sNVG.esp
 Alice Armor.esp
+Alice Murray Outfit.esp
 AliceRace.esp
 AliceOutfits.esp
+Amy_Armor.esp
+Amazon Armor.esp
 Armored PA Gloves.esp
 % {{BASH: Deflst}}
+AsharasLightningItems_ForNV.esp
 ATT LeatherJacket.esp
+ATT SamusZero.esp
 BodyJewelry.esp
 Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
@@ -1246,7 +1259,8 @@ Faction Armor Converted to Non Faction.esp
 Fade That Faction Armor.esp
 FaithOutfit.esp
 Female t45 Power Armor.esp
-Female t51-b PA.esp 
+Female t51-b PA.esp
+Free Tribal Outfits.esp
 Glove_be_gone.esp 
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
@@ -1270,6 +1284,7 @@ lucky Shades.esp
 LUCSA.esp
 LUMENARIUM - Working Sunglasses ONLY.esp
 % {{BASH: Names}}
+MadGear.esp
 Mantis07Reflex - Realism.esp
 Mantis07Reflex.esp
 Military NV Backpacks - Blank's Container Patch.esp
@@ -1280,11 +1295,13 @@ My Cloth Collection NV.esp
 Neckchains.esp
 NeutralPowerArmor.esp
 NEVECbodysuit.esp
+NimrodDresses.esp
 NinjaHeadbandNV_Balanced.esp
 NinjaHeadbandNV_Powerful.esp
 Night Vision Sunglasses.esp
 NV Night Vision Sunglasses.esp 
 NVLadyoutfit1.esp
+NVRefugee Outfits.esp
 NvTacticalVests.esp
 NWghostbodysuit.esp
 Oblivion Conversions Merged.esp
@@ -1296,7 +1313,9 @@ PlasmaShields.esp
 Powered Power Armor.esp
 % {{BASH: Deflst}}
 Ambient Temperature - PPA.esp
+PURELUST_port.esp
 QSondraOutfits.esp
+QVaultSuits.esp
 ranger_leather.esp
 Rangermask.esp
 RCSS.esp
@@ -1312,11 +1331,14 @@ Sunglasses Shipment.esp
 Sunglasses Shipment - Four Eyes.esp
 t3bbarmor.esp
 T3BBN Armor Replacer.esp
+T3Belts_BootsNV.esp
+T3Belts_BootsNV2.esp
 T51b-Manual.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 TGsArmorCollectionVegas.esp
 THE5 Visors Mod.esp
+Toni Outfits.esp
 TheArmorer.esp
 Thermoptic Power Helmets.esp
 Transladatum - E.esp
@@ -1332,6 +1354,7 @@ w44Satchels - Full.esp
 w44Satchels - Lite.esp
 : SCAV.esm
 " w44Satchels - Full.esp
+WastelandCourier.esp
 \EndGroup\\
 
 \BeginGroup\: Cosmetics
@@ -1413,6 +1436,7 @@ NVPhalanx.esp
 RemoteControlCompanions.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
+RWKNV.esp
 SecuritronCompanion.esp
 SunnyCompanion.esp
 UnlimitedCompanions.esp
@@ -1548,6 +1572,7 @@ Leveled Lists Fix.esp
 Lever Rifle fire rate slow.esp
 limbregen.esp
 LR - CD [NV].esp
+MakeGrenadeLaunchersUseful_v1.esp
 Melee Lock-On.esp
 More Damage To Player.esp
 move.base.speed.100.esp
