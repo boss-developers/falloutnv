@@ -17,7 +17,6 @@
 \ Multiple remark/comment/bash/error lines allowed.
 \ Lines beginning with \ and blank lines are treated the same (ignored).
 
-
 \BeginGroup\: ESMs
 \------------
 FalloutNV.esm
@@ -44,6 +43,7 @@ Docs Sexy Nurse.esm
 EZ_CompanionNVSE.esm
 CompanionInfAmmo.esm
 FONVAMoreSpawns.esm
+Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
@@ -111,7 +111,9 @@ Fix - Laser Rifle Beam Splitter Item Mod (v2).esp
 FNV-BeardEyebrowFixV1_0.esp
 Followers-NCR Alliance Fix.esp
 Followers+NCR=Alliance.fix.esp
-Freeside Kings Gift Giving Fix
+FreesideKingsGiftGiverFix.esp
+FreesideKingsGiftGiverFix14Days.esp
+FreesideKingsGiftGiverFix999Days.esp
 JBrightExodusFix.esp
 Lucky38ContainersFix.esp
 Lucky 38 Suite Respawn Fix.esp
@@ -152,6 +154,7 @@ DarNifiedUINV.esp
 The Chicken and the Egg.esp
 CASM.esp
 Arwen_Camera.esp
+Automated Reloading Bench.esp
 BetterLoadingText.esp
 Centered 3rd Person Camera.esp
 " FOOK - New Vegas.esm
@@ -247,6 +250,7 @@ VyntageCass02.esp
 \-----------
 A Repair Bot.esp
 Armor Replacer Child NPC Fix.esp
+ArmyMen.esp
 CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
@@ -270,6 +274,8 @@ NCR Doggy Buddies.esp
 NCR Doggy Buddies - Alsatian.esp
 NCR Doggy Buddies - Leather Armor.esp
 NPCsUseAmoo.esp
+NV Ghouls Revenge - Increased Numbers.esp
+NV Ghouls Revenge - Resurrection.esp
 RefinedCasinoPeople&Suits.esp
 StripOpenNPCs.esp
 SuitFixes+Factions.esp
@@ -352,6 +358,7 @@ vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
 UHNV.esp
+UHNV-ARB Patch.esp
 Underground Home.esp
 YangtzeBunkerPlayerHomeV1_3.esp 
 Lucky38marker.esp
@@ -920,7 +927,6 @@ z_Fiends_2.esp
 aliencell.esp
 ArmourRepairKits.esp
 Armor Crafting BETA.esp
-Automated Reloading Bench.esp
 RBX Caliber compatibilty.esp
 Better Ammo Crafting.esp
 % {{BASH: Names}}
@@ -1206,6 +1212,7 @@ HomeTeleport.esp
 Holster.esp
 iL-Camouflage Ghost Bodysuit.esp
 JillBSAA.esp
+JillBSAA Multicolor.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
 KerberosPanzer-power armor.esp
@@ -1321,6 +1328,7 @@ boon_harcored.esp
 Boone0.2.esp
 Cass_Redux.esp
 Cass_Redux_Mikoto.esp
+Charisma Based Follower Limit.esp
 Companions never Die.esp
 Companions Commander.esp
 Companions Commander RUS.esp
@@ -1396,6 +1404,8 @@ WeakerBoone40LevelMultiplier.esp
 Pipboy 5k.esp
 aaaJNFCamp.esp
 BetterRepairKits.esp
+? Old
+BetterRepairKits2.esp
 ? Old
 BetterRepairKits2b.esp
 Destruction.esp
@@ -1532,13 +1542,15 @@ Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
 Piplight Brightness - 500%.esp
 RandomExtraTrapsNV.esp
-Realistic death.esp 
+Realistic death.esp
+Realistic Death & Dismemberment Physics.esp 
 Realistic Death Impulse.esp
 realistic headshots HC VATS.esp
 realistic headshots.esp
 realistic headshots VATS.esp
 Realistic Weapon Impact Effects.esp
 Reign Monocyte Implant Improvement.esp
+Sensible Dismemberment.esp
 SneakingCrosshair.esp
 SPECIALer.esp
 tyfasterwalk.esp
