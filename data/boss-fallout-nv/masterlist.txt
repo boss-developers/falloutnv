@@ -58,6 +58,7 @@ LW Companion.esm
 Military Explansion Program.esm
 Military NV Backpacks.esm
 M.M.A.T - Core Module.esm
+Mo'.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
@@ -70,7 +71,6 @@ Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 PipboyRemover.esm
 Playthings.esm
-
 RRCompanionVault.esm
 RZW_Master.esm
 RZW_Television.esm
@@ -511,6 +511,25 @@ M.M.A.T Recipe Module.esp
 M.M.A.T - Recipe Module.esp
 M.M.A.T Repair Module.esp
 M.M.A.T - Repair Module.esp
+\EndGroup\\
+
+\BeginGroup\: Mo Beta
+\-----------
+Mo'Guns.esp
+: Mo'.esm
+Mo'betta IPP.esp
+: Mo'.esm
+Mo'Gals.esp
+: Mo'.esm
+: Lings.esm
+Mo'Suite.esp
+: Mo'.esm
+: Lings.esm
+Mo'o'less.esp
+: Mo'.esm
+: Lings.esm
+: Mo'Suite.esp
+
 \EndGroup\\
 
 \BeginGroup\: NEVAX - New Vegas Expanded (German)
@@ -1160,6 +1179,7 @@ RAKatanasMod.esp
 RHINO45-70_NV.esp
 RWIE Classic Pack.esp
 SAW M249.esp
+ShinohaiOuka.esp
 Shotgun Commando.esp
 % {{BASH: Stats}}
 Shotgun Commando 1.2 Caravan.esp
@@ -1436,6 +1456,11 @@ RexReplacerEss.esp
 RWKNV.esp
 SecuritronCompanion.esp
 SunnyCompanion.esp
+Mo'SunnyCompanion.esp
+: Mo'.esm
+: Lings.esm
+: Mo'Suite.esp
+: SunnyCompanion.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
 Veronica.esp
