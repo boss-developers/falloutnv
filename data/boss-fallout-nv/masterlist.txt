@@ -89,6 +89,7 @@ FOOK - New Vegas.esm
 VMods - Master.esm
 Lings.esm
 MikotoBeauty.esm
+SunnyCompanion.esm
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
@@ -151,6 +152,7 @@ VendorAmmo45-70Fix.esp
 ? Obsolete with latest patch
 VMS44Fixed.esp
 WeAllGoTogether.esp
+Weathered10mmFixes.esp
 WorkingCrimsonCaravanTraders.esp
 PO10mmFix.esp
 \EndGroup\\
@@ -241,6 +243,7 @@ Cuter Veronica Felicia Day-Essential.esp
 % {{BASH: NpcFaces}}
 Dalls_NV_Better_Faces.esp
 FPT EDE - Irish Redhead - Vanilla.esp
+FPT EDE 2 Lings Brunette.esp
 FPT EDE 2BetaVanillaBlonde.esp
 FPT EDE 2BetaVanillaBlue.esp
 FPT EDE 2BetaVanillaBrunette.esp
@@ -280,6 +283,8 @@ VyntageCass02.esp
 A Repair Bot.esp
 Armor Replacer Child NPC Fix.esp
 ArmyMen.esp
+Bigger Brighter Livelier Vegas.esp
+Brotherhood and House Alliance.esp
 CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
@@ -299,6 +304,7 @@ KillableKids_NE.esp
 LFox Easy Weapon Mods.esp
 Merchants Sell Displayed Items.esp
 Mr Moneybags.esp
+mysteriousnun.esp 
 NiptonFixes.esp
 NCR Doggy Buddies.esp
 NCR Doggy Buddies - Alsatian.esp
@@ -342,6 +348,7 @@ CKvendor.esp
 FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
 FNV - ShopHome.esp
+Freeside NCR Guard Post - Revamp.esp
 Freesidehome.esp
 Gomorrah3rdFloor.esp
 GoodspringsFarmhouse_v1.2.esp
@@ -353,6 +360,7 @@ GoodSprings Home.esp
 GoodspringsSewer-1.22.esp
 Goodsprings Shack.esp
 GunRunnersExpandedV3.3.esp
+HELIOS Outpost - Revamp.esp
 HomeSweetHome.esp
 HiddenBunker.esp
 HideoutVault.esp
@@ -366,6 +374,8 @@ Bobblehunt - Lucky 38 Expantion Compatible.esp
 LargeGoodspringsPlayerHome.esp
 McFlyFarm.esp
 My Goodsprings Home.esp
+Mojave Outpost - Revamp.esp
+NCR Embassy-Revamp.esp
 NCR Outpost.esp
 NovacMotelroom.esp
 NoVac 4.0_eng.esp
@@ -381,6 +391,7 @@ PoseidonResearchFacility.esp
 RedRockRanch.esp
 Schoolhouse Base.esp 
 SDs Lucky 38 Suite Trophies.esp
+Searchlight Outpost- Revamp.esp
 Silverpeak Bunker.esp
 SLA_01_wall.esp
 SLA_02a_fort.esp
@@ -390,6 +401,7 @@ Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
 UHNV.esp
 UHNV-ARB Patch.esp
+UHNV-Performance-Patch.esp
 Underground Home.esp
 YangtzeBunkerPlayerHome.esp 
 YangtzeBunkerPlayerHomeV1_2.esp 
@@ -636,15 +648,31 @@ Superior Firepower - Leveled Lists Fix.esp
 
 \BeginGroup\: XFO NV - The New Vegas Overhaul
 \-----------
+XFO - 1aa - Accuracy Revamp - mild.esp
 XFO - 1aa - Damage - Skill=Acc - mild.esp
+XFO - 1ab - Accuracy Revamp - hard.esp
 XFO - 1ab - Damage - Skill=Acc - med.esp
 XFO - 1ac - Damage - Skill=Acc - high.esp
+XFO - 1ba - Dmg - Non-Var - 1x.esp
+XFO - 1bb - Dmg - Non-Var - 2x.esp
+XFO - 1bc - Dmg - Non-Var - 3x.esp
+XFO - 1bd - Dmg - Non-Var - 5x.esp
+XFO - 1be - Dmg - Skill-Var - 2x.esp
+XFO - 1bf - Dmg - Skill-Var - 3x.esp
+XFO - 1bg - Dmg - Skill-Var - 5x.esp
+XFO - 2aa - Armor - DR+DT - revamp - low.esp
 XFO - 2aa - Armor - DR+DT - revamp - mild.esp
 XFO - 2ab - Armor - DR+DT - revamp - med.esp
 XFO - 2ac - Armor - DR+DT - revamp - hard.esp
+XFO - 2ac - Armor - DR+DT - revamp - high.esp
+XFO - 2ba - Armor - DR+DT - simple - low.esp
 XFO - 2ba - Armor - DR+DT - simple - mild.esp
 XFO - 2bb - Armor - DR+DT - simple - med.esp
 XFO - 2bc - Armor - DR+DT - simple - hard.esp
+XFO - 2bc - Armor - DR+DT - simple - high.esp
+XFO - 2da - Bleedthrough - 10% (from 20).esp
+XFO - 2db - Bleedthrough - 5%.esp
+XFO - 2dc - Bleedthrough - 0% (Full DT).esp
 XFO - 3aa - rarity - ammo - mild.esp
 XFO - 3ab - rarity - ammo - med.esp
 XFO - 3ac - rarity - ammo - hard.esp
@@ -681,6 +709,15 @@ XFO - 8a - Cripple & Body Part Revamp.esp
 XFO - 8b - Speed Increases.esp
 XFO - 8c - Karma Rebalance.esp
 XFO - 8d - Gore Changes.esp
+XFO - 9a - Enemies - AI revamp.esp
+XFO - 9ba - Enemies - NPC Health + low.esp
+XFO - 9bb - Enemies - NPC Health + high.esp
+XFO - 9ca - Enemies - NPC Aim + low.esp
+XFO - 9cb - Enemies - NPC Aim + high.esp
+XFO - 9da - Enemies - NPC Healing - low.esp
+XFO - 9db - Enemies - NPC Healing - med.esp
+XFO - 9dc - Enemies - NPC Healing - high.esp
+
 \EndGroup\\
 
 \BeginGroup\: Other
@@ -764,8 +801,15 @@ NinjaPerkFix.esp
 Perks per du.esp
 More Perks Update.esp
 MercGrenadeRifleDemoPyro.esp
+mysterious increase.esp
 NV_Jinxed_Classicish.esp
 NV_Jinxed_KD.esp
+NV_STMutatePack - NVSE.esp
+NV_STMutatePack.esp
+NV_STTraitsandPerks - NVSE.esp
+NV_STTraitsandPerks.esp
+NV_STTraitsandPerks_Crunch - NVSE.esp
+NV_STTraitsandPerks_Crunch.esp
 NVfreeradicalperkfix.esp
 NVfreeradicalperkfix2.esp
 NVPerksImproved.esp
@@ -902,6 +946,7 @@ Plausible Starting Outfit.esp
 populatedcasino.esp
 populatedcasino-medium.esp
 populatedcasino-light.esp
+Pop and Beer do not Dehydrate.esp
 PortableCampsite.esp
 Project13 - Populated Wasteland.esp
 % {{BASH: Delev,Relev}}
@@ -1016,6 +1061,7 @@ Metal Squeezer.esp
 MyFirstCookbook.esp
 NVR - Trapper Time.esp
 NukaColaQuantum.esp
+NukaColaQuantum1.1.esp
 Oven Cooking.esp
 psychoelfs ammo crafting.esp
 Pulse Grenade Recipes.esp
@@ -1111,11 +1157,13 @@ EnergyBoost.esp
 % {{BASH: Stats}}
 EnergyWeaponDeNerf.esp
 EnhancedServiceRifle.esp
+Euclid C-Finder Unlimited Ammo.esp
 ExperimentalMIRV.esp
 FingerOfGodNV.esp
 F03weaponpack_v1_0.esp
 fownv - Sonic Screwdriver 1.0.esp
 G36C.esp
+Gobi Rifle Enhanced.esp
 Golden Eagle.esp
 guitar.esp
 HighRoller.esp
@@ -1288,6 +1336,7 @@ Holster.esp
 iL-Camouflage Ghost Bodysuit.esp
 JillBSAA.esp
 JillBSAA Multicolor.esp
+Journeyman Armor.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
 KerberosPanzer-power armor.esp
@@ -1318,6 +1367,7 @@ NinjaHeadbandNV_Powerful.esp
 Night Vision Sunglasses.esp
 NV Night Vision Sunglasses.esp 
 NVLadyoutfit1.esp
+NVLadyoutfitXOH.esp
 NVRefugee Outfits.esp
 NvTacticalVests.esp
 NWghostbodysuit.esp
@@ -1490,6 +1540,7 @@ BetterRepairKits2b.esp
 Destruction.esp
 Feng Shui NV.esp
 Feng Shui NV - Keymap Template.esp
+getallACH.esp
 Grays_EverybodyBleeds.esp 
 " Moddable Unique Weps.esp
 " Moddable Unique Weps.esm
@@ -1515,6 +1566,7 @@ FeelingIrradiated-IS.esp
 
 \BeginGroup\: Game-Settings and Overrides
 \-----------
+4Aces Gameplay.esp
 _glaunch_explosion.esp
 aaaJNFSniperZooming.esp
 Automatic Inventory.esp
@@ -1606,6 +1658,7 @@ More Damage To Player.esp
 move.base.speed.100.esp
 move.base.speed.125.esp
 move.base.speed.150.esp
+MrSlackPants-DecentPipboyLightNV.esp
 no-faction-warning.esp
 NoBlurOnHit.esp
 NoDegrade.esp
@@ -1719,6 +1772,7 @@ Western Sky - Darker Nights.esp
 \-----------
 Color Me Evil.esp
 Color Me Evil - Cass.esp
+No Neos.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
@@ -1754,6 +1808,7 @@ RH_IronSights_NV_Vanilla.esp
 WME - RH Ironsights.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,WeaponMods}}
+WME - WorldofPain.esp
 RH_IronSights_NV_NewWeapons.esp
 : RH_IRONSIGHTS_NV.esm
 Enhanced Ballistics Effects.esp
