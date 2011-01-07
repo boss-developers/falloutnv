@@ -63,12 +63,8 @@ Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
 More Perks.esm
-NosCo Companion System.esm
-NCCS Nos' Premade Companions.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
-Herculine's NCCS Companions Volume 1.esm
-: Lings.esm
 PipboyRemover.esm
 Playthings.esm
 RRCompanionVault.esm
@@ -89,6 +85,10 @@ FOOK - New Vegas.esm
 VMods - Master.esm
 Lings.esm
 MikotoBeauty.esm
+Herculine's NCCS Companions Volume 1.esm
+: Lings.esm
+NosCo Companion System.esm
+NCCS Nos' Premade Companions.esm
 SunnyCompanion.esm
 \EndGroup\\
 
