@@ -39,11 +39,11 @@ CALIBR.esm
 Caliber.esm
 CFWNV.esm
 CHEMS.esm
+CompanionInfAmmo.esm
 CreatureAdditions.esm
 Docs Sexy Nurse.esm
 EZ_CompanionNVSE.esm
 FalloutNV_Camera_Control.esm
-CompanionInfAmmo.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
 Ghouls Attack Test.esm
@@ -63,6 +63,8 @@ Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
 More Perks.esm
+New Vegas Redesigned.esm
+% {{BASH: NpcFaces}}
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 PipboyRemover.esm
@@ -249,7 +251,9 @@ FPT EDE 2BetaVanillaBlue.esp
 FPT EDE 2BetaVanillaBrunette.esp
 FPT EDE 2BetaVanillaRedhead.esp
 Improved Faces v1.esp
-K2_NVPresets.esp 
+K2_NVPresets.esp
+Lore version.esp
+% {{BASH: NpcFaces}}
 MikotoBPCCArcade.esp
 % {{BASH: NpcFaces,NoMerge}}
 MikotoBPCCBoone.esp
@@ -584,11 +588,13 @@ PMT - XPadjust.esp
 % {{BASH: Invent}}
 PMT - Tougher XPadjust.esp
 % {{BASH: Invent}}
+PMT - Non-Combat XP Reduced.esp
 PMT - Slower Reloading.esp
 % {{BASH: Stats}}
 PMT - Slower Backward Movement.esp
 PMT - Reduced Ammo and Chems.esp
 % {{BASH: Delev,Relev}}
+PMT - Reduced Caps and Item Value.esp
 PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
 PMT - Nastier mines and grenades.esp
@@ -607,6 +613,7 @@ PMT - Total Challenge Remover.esp
 " PMT - Reduced Challenge Notifications.esp
 PMT - Reduced Challenge Notifications.esp
 " PMT - Total Challenge Remover.esp
+PMT - Sound Fixes.esp
 \EndGroup\\
 
 \BeginGroup\: Reload
