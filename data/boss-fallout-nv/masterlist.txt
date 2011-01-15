@@ -101,11 +101,13 @@ Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
+Atomic Wrangler Suite Fix.esp
 BathFix.esp
 BlackMountainRadioRhonda.esp
 BMNeilFix.esp
 BoxFix.esp
 Brotherhood Fix.esp
+CaesarsFavorFoeHireFix.esp
 CaravanCardFix.esp
 ? Obsolete with latest patch
 CompanionHoldouts.esp
@@ -123,6 +125,7 @@ Followers+NCR=Alliance.fix.esp
 FreesideKingsGiftGiverFix.esp
 FreesideKingsGiftGiverFix14Days.esp
 FreesideKingsGiftGiverFix999Days.esp
+IsolatingVirusFix.esp
 JBrightExodusFix.esp
 Lucky38ContainersFix.esp
 Lucky 38 Suite Respawn Fix.esp
@@ -130,6 +133,7 @@ McCarranFixes.esp
 MeyersFix.esp
 MissFortuneFix.esp
 Motor-RunnerJackDianeFix.esp
+MrCuddles.esp
 MushroomCloudFix.esp
 ? Obsolete with latest patch
 NV_Fixpack_Perks.esp
@@ -901,6 +905,13 @@ hold_breath.esp
 HoverBoard.esp
 Improved Non Combat XP-Orchid.esp
 immersivesneaking.esp
+IWS-Core-Patrols.esp
+Unknown mod file: IWS-Core-Guards.esp
+Unknown mod file: IWS-Core-Civilians.esp
+Unknown mod file: IWS-AS-HighSpawns.esp
+Unknown mod file: IWS-AS-MedSpawns.esp
+Unknown mod file: IWS-AS-LowSpawns.esp
+Unknown mod file: IWS-AS-NoInteriorSpawns.esp
 IWS-MoreSpawns.esp
 IWS-UltraSpawns.esp
 Kobu's Primary Attributes Uncapper.esp
