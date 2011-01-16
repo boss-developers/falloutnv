@@ -41,6 +41,7 @@ CFWNV.esm
 CHEMS.esm
 CompanionInfAmmo.esm
 CreatureAdditions.esm
+Decrucifixion.esm
 Docs Sexy Nurse.esm
 EZ_CompanionNVSE.esm
 FalloutNV_Camera_Control.esm
@@ -69,6 +70,7 @@ NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 PipboyRemover.esm
 Playthings.esm
+Primary Needs HUD.esm
 RRCompanionVault.esm
 RZW_Master.esm
 RZW_Television.esm
@@ -85,8 +87,12 @@ wsex.esm
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 VMods - Master.esm
+New Vegas Redesigned.esm
+% {{BASH: NpcFaces,Hair,Eyes,Body-M,Body-F}}
 Lings.esm
+% {{BASH: Hair,eyes}}
 MikotoBeauty.esm
+% {{BASH: Hair,eyes}}
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 NosCo Companion System.esm
@@ -97,8 +103,12 @@ SunnyCompanion.esm
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
 {FalloutNV v1.2.0.285 [Unpatched Records]}.esp
+Community Bugfix Compilation Patch.esp
+% {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
+" Compiled Patch.esp
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
+" Community Bugfix Compilation Patch.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
 Atomic Wrangler Suite Fix.esp
@@ -136,6 +146,7 @@ Motor-RunnerJackDianeFix.esp
 MrCuddles.esp
 MushroomCloudFix.esp
 ? Obsolete with latest patch
+new vegas radios.esp
 NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
 RadioComputerPartsFix.esp
@@ -188,6 +199,7 @@ NVORganizedItems.esp
 NVR - Extra Actions Toggle - Crouch.esp
 NVR - Extra Actions Toggle - Walk.esp
 Primary Needs HUD.esp
+Primary Needs HUD-Kick Start Fix.esp
 Purge Cell Buffers.esp
 Readius_NV.esp
 Realistic Weight.esp
@@ -198,6 +210,8 @@ TUWRM.esp
 Weight_Balance.esp
 % {{BASH: Stats}}
 Weight_Balance_v07.esp
+% {{BASH: Stats}}
+Weight_Balance_v10.esp
 % {{BASH: Stats}}
 RMPipboy.esp
 Sex Try.esp 
@@ -346,6 +360,7 @@ AbandonedShack.esp
 Badmagic - Watchtowers.esp
 Baloks Schoolhouse.esp
 Basement Hideout[English].esp
+Bella.esp
 Better forest.esp
 Better Lucky 38 Presidential Suite Version 1.0.esp
 BetterLuckySuite.esp
@@ -829,6 +844,8 @@ NVPerksImproved.esp
 OutofVATS.esp 
 psychoelf traits 1.esp
 Predator Sneak.esp
+SnowGlobePerks.esp
+SnowGlobePerks_SkillsOnly.esp
 skeleton_key.esp
 SPECIAL_Fixes.esp
 SturdyCaravanShotgunSurgeon.esp
@@ -868,6 +885,7 @@ BoostedSkills.esp
 Bottles, cans, litter oh my!.esp
 BzBody.esp
 Caesars Freeside Shop.esp
+Casino Anti Anti Cheat.esp
 Casino Bets.esp
 Casino Exchange All.esp
 Casino UnBanner.esp
@@ -884,6 +902,8 @@ CompanionsInfiniteAmmoCheat.esp
 CompanionInfAmmoOptional.esp
 CompanionInfAmmoCheat.esp
 Cliff's Empty Drinkable Bottles.esp 
+Decrucifixion.esp
+Decrucifixion - More Victims.esp
 Desaturated Cateye.esp
 DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
@@ -908,6 +928,7 @@ hold_breath.esp
 HoverBoard.esp
 Improved Non Combat XP-Orchid.esp
 immersivesneaking.esp
+Insects.esp
 IWS-Core-Patrols.esp
 IWS-Core-Guards.esp
 IWS-Core-Civilians.esp
@@ -979,6 +1000,7 @@ Realistic Preorder-Caravan.esp
 Realistic Preorder-Classic.esp
 Realistic Preorder-Mercenary.esp
 Realistic Preorder-Tribal.esp
+Realistic Wildlife.esp
 ReducedUndiscoveredCompass.esp
 Respawn12Hours.esp
 Respawn12HoursImproved.esp
@@ -1080,6 +1102,8 @@ IntuitiveRealisticCooking.esp
 LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
 MyFirstCookbook.esp
+MyFirstCookbook - sorted.esp
+" MyFirstCookbook.esp
 NVR - Trapper Time.esp
 NukaColaQuantum.esp
 NukaColaQuantum1.1.esp
@@ -1347,6 +1371,7 @@ FaithOutfit.esp
 Female t45 Power Armor.esp
 Female t51-b PA.esp
 Free Tribal Outfits.esp
+Geonox_Riot_Armor.esp
 Glove_be_gone.esp 
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
@@ -1360,6 +1385,7 @@ JillBSAA Multicolor.esp
 Journeyman Armor.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
+Kaya47NordicGear.esp
 KerberosPanzer-power armor.esp
 KerberosPanzer-lower dt.esp
 Leather Trench Coat NV v1.0.esp
@@ -1411,8 +1437,12 @@ Realistic Power Armor.esp
 RealisticStealthArmor.esp
 Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
+Roberts_NewVegas.esp
+Sack of Holding-NV.esp
 SBVenomousArmor.esp
 Spawn Armor.esp
+SpetsnazArmor.esp
+SpetsnazN'SmittysArmory.esp
 Starke's Seperate Chinese Stealth Armor Helmet NV.esp
 Starke's Seperate Chinese Stealth Armor Helmet NV (OA Version).esp
 Sunglasses Shipment.esp
@@ -1443,11 +1473,14 @@ w44Satchels - Lite.esp
 : SCAV.esm
 " w44Satchels - Full.esp
 WastelandCourier.esp
+WearGloves.esp
 \EndGroup\\
 
 \BeginGroup\: Cosmetics
 \-----------
 headgearfix.esp
+Lore version.esp
+: New Vegas Redesigned.esm
 \EndGroup\\
 
 \BeginGroup\: Middle Misc
@@ -1496,6 +1529,14 @@ Companions teleporter RUS.esp
 CompanionLevel30Cap.esp
 % {{BASH: Actors.ACBS}}
 CompanionsEssential.esp 
+Correction - Passive 2 Option.esp
+" Correction - Passive.esp
+Correction - Passive.esp
+" Correction - Passive 2 Option.esp
+Cass Passive Fix.esp
+" Cass Passive Fix 2 Option.esp
+Cass Passive Fix 2 Option.esp
+" Cass Passive Fix.esp
 ED-E 3D Sound.esp
 ede-e_alert_replacement.esp
 ED-E Burr.esp
@@ -1512,6 +1553,7 @@ EnclaveCommander.esp
 Follower Home Marker.esp
 GARU.esp
 ImprovedCompanions.esp
+Jade.esp
 JeyebotCompanion.esp
 Light Step ED-E.esp
 Max Followers 12.esp
@@ -1758,20 +1800,32 @@ Emperical Weather.esp
 HighGrass.esp
 MedGrass.esp
 Nevada Skies.esp
+" Nevada Skies - URWLified.esp
+Nevada Skies - URWLified.esp
+" Nevada Skies.esp
+Fellout.esp
+friendofnightforfellout.esp
+URWLNV.esp
+URWLNV Darker Night.esp
+URWLNV Brighter Lights.esp
+NSkies - URWLNV.esp
+Western Sky.esp
+Western Sky - Darker Nights.esp
 ELECTRO-CITY - CompletedWorkorders.esp
 % {{BASH: Names}}
+LUMENARIUM - Bright Clear Days.esp
+ELECTRO-CITY - Highways and Byways.esp
+ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
+ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
+ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
+ELECTRO-CITY - Darker Nights.esp
+ELECTRO-CITY - Emittance.esp
+ELECTRO-CITY - Imaginator.esp
 LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 " Nevada Skies.esp
 LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " Nevada Skies.esp
-LUMENARIUM - Bright Clear Days.esp
-ELECTRO-CITY - Darker Nights.esp
-ELECTRO-CITY - Emittance.esp
-ELECTRO-CITY - Highways and Byways.esp
-ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
-Fellout.esp
 Field Depth.esp
-friendofnightforfellout.esp
 Interior Lighting Overhaul-Realistic.esp
 Interior Lighting Overhaul-Darker.esp
 KDS Green World.esp
@@ -1781,19 +1835,16 @@ night_and_day.esp
 UnderwaterFX.esp
 UWFXGodrays.esp
 " UnderwaterFX.esp
-URWLNV.esp
-URWLNV Darker Night.esp
-URWLNV Brighter Lights.esp
-NSkies - URWLNV.esp
-Western Sky.esp
-Western Sky - Darker Nights.esp
 \EndGroup\\
 
 \BeginGroup\: Lastish
 \-----------
 Color Me Evil.esp
 Color Me Evil - Cass.esp
+FNNsysNV.esp
+Imp's Timescale Adjuster.esp
 No Neos.esp
+WeaponModsExpanded.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
