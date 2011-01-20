@@ -34,6 +34,7 @@ Advanced Recon Tech.esm
 Alice Armor.esm
 Ambient Temperature.esm
 AWorldOfPain(Preview).esm
+AWorldOfPain(LowLoot).esm
 BinocularsOverhaul.esm
 CALIBR.esm
 Caliber.esm
@@ -611,6 +612,10 @@ PMT - Tougher XPadjust.esp
 % {{BASH: Invent}}
 PMT - Non-Combat XP Reduced.esp
 PMT - Slower Reloading.esp
+" PMT - Slower Reloading No Visible Perk.esp
+% {{BASH: Stats}}
+PMT - Slower Reloading No Visible Perk.esp
+" PMT - Slower Reloading.esp
 % {{BASH: Stats}}
 PMT - Slower Backward Movement.esp
 PMT - Reduced Ammo and Chems.esp
@@ -935,6 +940,7 @@ IWS-Core-Civilians.esp
 IWS-AS-HighSpawns.esp
 IWS-AS-MedSpawns.esp
 IWS-AS-LowSpawns.esp
+IWS-AS-EnableDebugInfo.esp
 IWS-AS-NoInteriorSpawns.esp
 IWS-MoreSpawns.esp
 IWS-UltraSpawns.esp
