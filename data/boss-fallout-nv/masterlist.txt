@@ -997,7 +997,7 @@ populatedcasino-light.esp
 Pop and Beer do not Dehydrate.esp
 PortableCampsite.esp
 Project13 - Populated Wasteland.esp
-% {{BASH: Delev,Relev}}
+% {{BASH: Actors.AIPackages,Delev,Relev}}
 psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 pyDoF.esp
@@ -1490,7 +1490,6 @@ Lore version.esp
 \BeginGroup\: Middle Misc
 \-----------
 Caesars_Legion_Overhaul.esp
-% {{BASH: Invent}}
 Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
@@ -1870,9 +1869,9 @@ Weapon Mod Expansion.esp
 WME - 00 Commando.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
-WME - FOOK.ESP
+WME - FOOK.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Names,Stats}}
+% {{BASH: Names,Sound,Stats}}
 WME Replacer - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
