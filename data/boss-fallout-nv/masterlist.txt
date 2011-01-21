@@ -65,6 +65,7 @@ Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
 More Perks.esm
+More Perks for Companions.esm 
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces}}
 NVR - Extra Actions Lib.esm
@@ -168,6 +169,7 @@ Vault3DoorNameFix.esp
 Vault34Fix.esp
 VendorAmmo45-70Fix.esp
 ? Obsolete with latest patch
+VendorBulkBuyFixer.esp 
 VMS44Fixed.esp
 WeAllGoTogether.esp
 Weathered10mmFixes.esp
@@ -325,6 +327,7 @@ KillableKids_E.esp
 " KillableKids_NE.esp
 KillableKids_NE.esp
 " KillableKids_E.esp
+KillableKids.esp 
 LFox Easy Weapon Mods.esp
 Merchants Sell Displayed Items.esp
 Mr Moneybags.esp
@@ -414,6 +417,7 @@ Portable Tent.esp
 Realistic Portable Tent.esp
 PoseidonResearchFacility.esp
 RedRockRanch.esp
+RustTownV1-1.esp 
 Schoolhouse Base.esp 
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
@@ -762,6 +766,7 @@ Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
+Arwen FOV patch.esp 
 BallanceMod.esp 
 Fallout - New FPS (Medium).esp
 Fallout - New FPS (Extreme).esp
@@ -809,6 +814,7 @@ SecretStash60.esp
 SecretStash80.esp
 thewastelandstream.esp
 WPR.esp
+world of pain voice.esp
 Distant Gunfire Sound Fix.esp
 \EndGroup\\
 
@@ -849,6 +855,7 @@ NVPerksImproved.esp
 OutofVATS.esp 
 psychoelf traits 1.esp
 Predator Sneak.esp
+QuickerDrawOriginal.esp 
 SnowGlobePerks.esp
 SnowGlobePerks_SkillsOnly.esp
 skeleton_key.esp
@@ -942,6 +949,7 @@ IWS-AS-MedSpawns.esp
 IWS-AS-LowSpawns.esp
 IWS-AS-EnableDebugInfo.esp
 IWS-AS-NoInteriorSpawns.esp
+IWS-AS-EnableDebugInfo.esp 
 IWS-MoreSpawns.esp
 IWS-UltraSpawns.esp
 Kobu's Primary Attributes Uncapper.esp
@@ -1110,6 +1118,7 @@ Metal Squeezer.esp
 MyFirstCookbook.esp
 MyFirstCookbook - sorted.esp
 : MyFirstCookbook.esp
+NV Lucky 38 Reloading Bench.esp 
 NVR - Trapper Time.esp
 NukaColaQuantum.esp
 NukaColaQuantum1.1.esp
@@ -1865,6 +1874,9 @@ No Neos.esp
 WeaponModsExpanded.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
+% {{BASH: Graphics,Names,Stats,WeaponMods}}
+WME - Arwen Core.esp 
+" Weapon Mod Expansion.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - 00 Commando.esp
 : Weapon Mod Expansion.esm
