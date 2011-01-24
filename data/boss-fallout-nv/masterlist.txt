@@ -319,6 +319,7 @@ GibsonDogs.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
 GunRunnersExpandedV3.4.esp
+GunRunnersExpandedV3.5.esp
 GunRunnersExpanded-LoreFriendly.esp
 I Fought the Law Workaround.esp
 AndTheLawWon.esp
@@ -431,6 +432,7 @@ Wolf's Goodspring hole v0.2.esp
 UHNV.esp
 UHNV-ARB Patch.esp
 UHNV-Performance-Patch.esp
+UHNV-IncreasedLighting.esp
 Underground Home.esp
 YangtzeBunkerPlayerHome.esp 
 YangtzeBunkerPlayerHomeV1_2.esp 
@@ -484,6 +486,7 @@ HAM-SixHands.esp
 \-----------
 FOOK - New Vegas.esp
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+CFWNV-FOOK.esp 
 ammo can fix.esp
 AR-15 worth a fook.esp
 LinkesAuge - Bug fixing compilation.esp
@@ -894,6 +897,7 @@ BlackMountainRadioEverywhere.esp
 BLTC NV.esp
 BLTC NV immersion plugin.esp
 BoostedSkills.esp
+Bottlecaps Have Weight.esp
 Bottles, cans, litter oh my!.esp
 BzBody.esp
 Caesars Freeside Shop.esp
@@ -1545,6 +1549,7 @@ Correction - Passive 2 Option.esp
 " Correction - Passive.esp
 Correction - Passive.esp
 " Correction - Passive 2 Option.esp
+Brahmin Companion.esp 
 Cass Passive Fix.esp
 " Cass Passive Fix 2 Option.esp
 Cass Passive Fix 2 Option.esp
@@ -1848,6 +1853,7 @@ Nevada Skies - URWLified.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
+DYNAVISION - Dynamic Lens Effect.esp
 ELECTRO-CITY - Emittance.esp
 " ELECTRO-CITY - Imaginator.esp
 ELECTRO-CITY - Imaginator.esp
@@ -1872,6 +1878,12 @@ FNNsysNV.esp
 Imp's Timescale Adjuster.esp
 No Neos.esp
 WeaponModsExpanded.esp
+" RH_IRONSIGHTS_NV.esm
+WMX-Arwen_NV_Realism.esp
+" WMX-ShotgunCommando.esp
+WMX-ShotgunCommando.esp
+" WMX-Arwen_NV_Realism.esp
+WMX - Sorted.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
@@ -1904,6 +1916,11 @@ WME - Reload, Rearm.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm, Rebalance.esp
 : Weapon Mod Expansion.esm
+WME - CS Sight Q Fix.esp
+: Weapon Mod Expansion.esm
+WME - Ironsights.esp 
+: Weapon Mod Expansion.esm
+" RH_IRONSIGHTS_NV.esm
 RH_IronSights_NV_Vanilla.esp
 : RH_IRONSIGHTS_NV.esm
 % {{BASH: Graphics}}
@@ -1920,6 +1937,22 @@ Enhanced Ballistics Effects WME.esp
 Enhanced Ballistics Effects WME RH - NoTweaks.esp
 : Weapon Mod Expansion.esm
 : RH_IRONSIGHTS_NV.esm
+Mail Order Catalogs PopUp.esp
+" Mail Order Catalogs.esp
+Mail Order Catalogs.esp
+" Mail Order Catalogs PopUp.esp
+Mail Order Catalogs WME PopUp.esp
+: Weapon Mod Expansion.esm
+" Mail Order Catalogs WME.esp
+Mail Order Catalogs WME.esp
+: Weapon Mod Expansion.esm
+" Mail Order Catalogs WME PopUp.esp
+Order Catalogs WMX PopUp.esp
+: WeaponModsExpanded.esp
+" Order Catalogs WMX.esp
+Order Catalogs WMX.esp
+: WeaponModsExpanded.esp
+" Order Catalogs WMX PopUp.esp
 mypatch.esp
 \EndGroup\\
 
