@@ -1854,11 +1854,14 @@ Nevada Skies - URWLified.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
 DYNAVISION - Dynamic Lens Effect.esp
+" Field Depth.esp
+Field Depth.esp
+" DYNAVISION - Dynamic Lens Effect.esp
 ELECTRO-CITY - Emittance.esp
 " ELECTRO-CITY - Imaginator.esp
 ELECTRO-CITY - Imaginator.esp
 " ELECTRO-CITY - Emittance.esp
-Field Depth.esp
+
 Interior Lighting Overhaul-Realistic.esp
 Interior Lighting Overhaul-Darker.esp
 KDS Green World.esp
