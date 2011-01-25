@@ -1950,12 +1950,12 @@ Mail Order Catalogs WME PopUp.esp
 Mail Order Catalogs WME.esp
 : Weapon Mod Expansion.esm
 " Mail Order Catalogs WME PopUp.esp
-Order Catalogs WMX PopUp.esp
+Mail Order Catalogs WMX PopUp.esp
 : WeaponModsExpanded.esp
-" Order Catalogs WMX.esp
-Order Catalogs WMX.esp
+" Mail Order Catalogs WMX.esp
+Mail Order Catalogs WMX.esp
 : WeaponModsExpanded.esp
-" Order Catalogs WMX PopUp.esp
+" Mail Order Catalogs WMX PopUp.esp
 mypatch.esp
 \EndGroup\\
 
