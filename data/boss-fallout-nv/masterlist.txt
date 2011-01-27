@@ -489,7 +489,9 @@ FOOK - New Vegas.esp
 CFWNV-FOOK.esp 
 ammo can fix.esp
 AR-15 worth a fook.esp
+FOOK - New Vegas [ForTheLulz].esp
 LinkesAuge - Bug fixing compilation.esp
+% {{BASH: Deflst,Names,Scripts,Stats}}
 LinkesAuge - Retexture edits.esp
 % {{BASH: Graphics}}
 vertibirds & toxic cave.esp
@@ -628,6 +630,7 @@ PMT - Slower Backward Movement.esp
 PMT - Reduced Ammo and Chems.esp
 % {{BASH: Delev,Relev}}
 PMT - Reduced Caps and Item Value.esp
+% {{BASH: Delev,Relev}}
 PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
 PMT - Nastier mines and grenades.esp
@@ -1898,7 +1901,7 @@ WME - 00 Commando.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - FOOK.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Names,Sound,Stats}}
+% {{BASH: Delev,Graphics,Names,Sound,Stats}}
 WME Replacer - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
