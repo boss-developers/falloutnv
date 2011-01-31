@@ -45,6 +45,7 @@ CreatureAdditions.esm
 Decrucifixion.esm
 Docs Sexy Nurse.esm
 EZ_CompanionNVSE.esm
+EZ_CompanionNVSE_Killable_Normal.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
@@ -1570,6 +1571,7 @@ Companion Sandbox Mode.esp
 Companion Sandbox Mode V2.0.esp
 Comp_Idles_NV.esp
 EnclaveCommander.esp
+EZ_VanillaFollowers.esp
 Follower Home Marker.esp
 GARU.esp
 ImprovedCompanions.esp
@@ -1854,6 +1856,7 @@ Nevada Skies - URWLified.esp
 " Nevada Skies.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+StripNightLum.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
 DYNAVISION - Dynamic Lens Effect.esp
@@ -1864,7 +1867,6 @@ ELECTRO-CITY - Emittance.esp
 " ELECTRO-CITY - Imaginator.esp
 ELECTRO-CITY - Imaginator.esp
 " ELECTRO-CITY - Emittance.esp
-
 Interior Lighting Overhaul-Realistic.esp
 Interior Lighting Overhaul-Darker.esp
 KDS Green World.esp
