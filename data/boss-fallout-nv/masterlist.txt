@@ -241,7 +241,8 @@ CharacterBackgrounds.esp
 FreeplayafterMQNVv1_6.esp
 Free Play after MQ.esp
 Goodsprings Filler.esp
-Goodsprings Goodstart.esp 
+Goodsprings Goodstart.esp
+SilentStruggleV1.esp 
 Identity Crisis Part I - Silent Struggle V2.esp
 Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
@@ -686,7 +687,6 @@ ReSort.esp
 % {{BASH: Names}}
 \EndGroup\\
 
-
 \BeginGroup\: Superior Firepower
 \-----------
 Superior Firepower - Unique Weaponry.esp
@@ -727,7 +727,6 @@ XFO - 2ab - Armor - DR+DT - revamp - med.esp
 XFO - 2ac - Armor - DR+DT - revamp - hard.esp
 XFO - 2ac - Armor - DR+DT - revamp - high.esp
 XFO - 2ba - Armor - DR+DT - simple - low.esp
-XFO - 2ba - Armor - DR+DT - simple - mild.esp
 XFO - 2bb - Armor - DR+DT - simple - med.esp
 XFO - 2bc - Armor - DR+DT - simple - hard.esp
 XFO - 2bc - Armor - DR+DT - simple - high.esp
@@ -750,8 +749,8 @@ XFO - 3cc - rarity - meds - hard.esp
 XFO - 3cd - rarity - meds - vanilla.esp
 XFO - 3ce - rarity - meds - easier.esp
 XFO - 4a - Perks - Paths.esp
-XFO - 4b - Perks - Perk Every Level.esp
-XFO - 4bb - Perks - Two per level.esp
+XFO - 4ba - Perks - Perk Every Level.esp
+XFO - 4bb - Perks - Two Perks Per Level.esp
 XFO - 5a - SPECIAL & Stats Rebalance.esp
 XFO - 5b - Skills - SP Formula Rebalance.esp
 XFO - 5c - Skills - Better Med Surv Repair.esp
@@ -760,7 +759,13 @@ XFO - 5db - Skills - Sneak - hard.esp
 XFO - 5ea - Skills - Barter - Mild.esp
 XFO - 5eb - Skills - Barter - Hard.esp
 XFO - 6a - Pacing - Faster (No Cap).esp
+XFO - 6aa - Epic Skills - Effects Over 100 (NVSE req).esp
 XFO - 6b - Pacing - Mild (No Cap).esp
+XFO - 6ba - Pacing - Mild (No Cap).esp
+XFO - 6bb - Pacing - Med (No Cap).esp
+XFO - 6bc - Pacing - High (No Cap).esp
+XFO - 6bd - Pacing - Faster (No Cap).esp
+XFO - 6be - Pacing - Vanilla (JUST No Cap).esp
 XFO - 6c - Pacing - Med (No Cap).esp
 XFO - 6d - Pacing - High (No Cap).esp
 XFO - 6e - Pacing - Vanilla (JUST No Cap).esp
@@ -779,7 +784,12 @@ XFO - 9cb - Enemies - NPC Aim + high.esp
 XFO - 9da - Enemies - NPC Healing - low.esp
 XFO - 9db - Enemies - NPC Healing - med.esp
 XFO - 9dc - Enemies - NPC Healing - high.esp
-
+XFO - 10aa - Hardcore - Hunger&Thirst - Mild (2x).esp
+XFO - 10ab - Hardcore - Hunger&Thirst - Med (3x).esp
+XFO - 10ac - Hardcore - Hunger&Thirst - High (5x) .esp
+XFO - 10ad - Hardcore - Hunger&Thirst - Easier (Half).esp
+XFO - 10b - Hardcore - Food&Drink (no healing).esp
+XFO - 10c - Hardcore - Severe Penalties.esp
 \EndGroup\\
 
 \BeginGroup\: Other
@@ -1650,9 +1660,10 @@ nemunoki-replacer.esp
 No More Annoying CC - ALL.esp
 NVBabyDeathclawCommander.esp
 NVC_Misty.esp
+RemoteControlCompanions.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages,Actors.CombatStyle,C.Owner,Scripts}}
-RemoteControlCompanions.esp
+" Incompatible with a majority of other companion mods.  Be aware when installing.
 RexReplacerEss.esp
 % {{BASH: Graphics}}
 RWKNV.esp
