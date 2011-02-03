@@ -40,8 +40,10 @@ CALIBR.esm
 Caliber.esm
 CFWNV.esm
 CHEMS.esm
+CINEMATECH.esm
 CompanionInfAmmo.esm
 CreatureAdditions.esm
+Creature Add-On XIII.esm
 Decrucifixion.esm
 Docs Sexy Nurse.esm
 EZ_CompanionNVSE.esm
@@ -49,6 +51,7 @@ EZ_CompanionNVSE_Killable_Normal.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
+FNVToolkit.esm
 Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 HAM-Spawns.esm
@@ -66,7 +69,8 @@ Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
 More Perks.esm
-More Perks for Companions.esm 
+More Perks for Companions.esm
+More Traits.esm 
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces}}
 NVR - Extra Actions Lib.esm
@@ -74,6 +78,8 @@ NVStripOpen.esm
 PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
+Project Nevada - Core.esm
+ReactivePeople.esm
 RRCompanionVault.esm
 RZW_Master.esm
 RZW_Television.esm
@@ -183,6 +189,7 @@ PO10mmFix.esp
 DarNifiedUINV.esp
 The Chicken and the Egg.esp
 CASM.esp
+Achievement Remover.esp
 Arwen_Camera.esp
 Automated Reloading Bench.esp
 BetterLoadingText.esp
@@ -235,10 +242,12 @@ FreeplayafterMQNVv1_6.esp
 Free Play after MQ.esp
 Goodsprings Filler.esp
 Goodsprings Goodstart.esp 
+Identity Crisis Part I - Silent Struggle V2.esp
 Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
+TheCollector.esp
 Wasteland Explorer.esp
 wsexInnuendoAnims.esp
 : wsex.esm
@@ -316,6 +325,8 @@ CorpseEquip.esp
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
 FiendsNoHelmet.esp
+FNV_MoreVendorCaps.esp
+Follower Wait Time 100000.esp
 GibsonDogs.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
@@ -370,10 +381,14 @@ Bella.esp
 Better forest.esp
 Better Lucky 38 Presidential Suite Version 1.0.esp
 BetterLuckySuite.esp
+BetterNovacRoomFull.esp
 BONsQuarryJunctionRefuge-cave.esp
 Brahmin Bess.esp
 Bungalow Home.esp
+Dalls_Birds_Nest.esp
+Dalls_Lodger.esp
 Dan's Presidential Upgrade.esp
+clean McCarran.esp
 CKvendor.esp
 FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
@@ -424,6 +439,7 @@ Schoolhouse Base.esp
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
 Silverpeak Bunker.esp
+sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
 SLA_02a_fort.esp
 SecretHideout-v1.21.esp
@@ -448,6 +464,7 @@ SimpleStripMarkers21603.esp
 Tibersmapmarkers.esp
 New Vegas Map Markers.esp
 NewStripMapMarkers.esp
+NewVegasStrip&FreesideMarkers_v2.esp
 \EndGroup\\
 
 \BeginGroup\: Overhauls
@@ -734,6 +751,7 @@ XFO - 3cd - rarity - meds - vanilla.esp
 XFO - 3ce - rarity - meds - easier.esp
 XFO - 4a - Perks - Paths.esp
 XFO - 4b - Perks - Perk Every Level.esp
+XFO - 4bb - Perks - Two per level.esp
 XFO - 5a - SPECIAL & Stats Rebalance.esp
 XFO - 5b - Skills - SP Formula Rebalance.esp
 XFO - 5c - Skills - Better Med Surv Repair.esp
@@ -823,10 +841,13 @@ thewastelandstream.esp
 WPR.esp
 world of pain voice.esp
 Distant Gunfire Sound Fix.esp
+Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 \EndGroup\\
 
 \BeginGroup\: Perks
 \-----------
+1ASS RPG, Clean.esp
+1ASS RPG, Extra.esp
 AlternativeSniperPerk.esp
 ChildAtHeartPerk.esp
 Calm_Heart_Fix.esp
@@ -843,9 +864,11 @@ LFox Improved Regen Implant.esp
 LFox Night Vision Implant.esp
 LFox Night Vision Implant Low Brightness.esp
 More Perks.esp
+More Perks for Companions Update.esp
+More Perks Update.esp
+More Traits Update.esp
 NinjaPerkFix.esp
 Perks per du.esp
-More Perks Update.esp
 MercGrenadeRifleDemoPyro.esp
 mysterious increase.esp
 NV_Jinxed_Classicish.esp
@@ -859,9 +882,12 @@ NV_STTraitsandPerks_Crunch.esp
 NVfreeradicalperkfix.esp
 NVfreeradicalperkfix2.esp
 NVPerksImproved.esp
-OutofVATS.esp 
+OutofVATS.esp
+Passive Animals & Critters - A Perk Suite.esp 
 psychoelf traits 1.esp
 Predator Sneak.esp
+pyFourEyesFix - w FX.esp
+pyFourEyesFix.esp
 QuickerDrawOriginal.esp 
 SnowGlobePerks.esp
 SnowGlobePerks_SkillsOnly.esp
@@ -981,6 +1007,11 @@ LootableOldCars_OE.esp
 MagazinesReworked.esp
 ManualReload.esp
 Military Explansion Program.esp
+Mod Loot - 1. Really Rare.esp
+Mod Loot - 2. Reasonably Rare.esp
+Mod Loot - 3. A Bit Common.esp
+Mod Loot - 4. Just Plain Cheating.esp
+Mod Loot - 5. Pretty Common.esp
 Mojave Express Expansion.esp
 MojaveXP.esp
 More Ammo.esp
@@ -1018,6 +1049,7 @@ psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 pyDoF.esp
 pyRepair.esp
+Reactive People II - Sneak & Diversion.esp
 Realistic Preorder-Caravan.esp
 Realistic Preorder-Classic.esp
 Realistic Preorder-Mercenary.esp
@@ -1082,6 +1114,7 @@ StealthBoyEnhanced.esp
 Stocked38 .esp
 Tag Skills Improved.esp
 that gun holdout.esp
+VisualDrugs.esp
 VMods.esp
 Weight8000.esp
 weight50000.esp
@@ -1119,7 +1152,8 @@ ExplosivesRecipes.esp
 GtabImprovedAmmo.esp
 HandyRecipes.esp
 Homemade Grenades.esp
-Improved ammo.esp 
+Improved ammo.esp
+ImprovedWorkbench.esp 
 IntuitiveRealisticCooking.esp
 LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
@@ -1135,7 +1169,11 @@ psychoelfs ammo crafting.esp
 Pulse Grenade Recipes.esp
 RiaAmmo.esp
 Recycling.esp
-RX-Auto Harvest.esp 
+RX-Auto Harvest.esp
+RX-Auto Harvest Mark 1 recipe.esp
+RX-Oven Is Campfire.esp
+RX-Pre-War Food become worse.esp
+RX-Silent Harvest.esp
 SCAMP - Scrapping Clutter And Making Parts.esp
 Stealthboy Recipe.esp
 StimpakGivesSyringe.esp
@@ -1224,6 +1262,7 @@ EarlyWeapons.esp
 EnergyBoost.esp
 % {{BASH: Stats}}
 EnergyWeaponDeNerf.esp
+EnergyWeaponMod.esp
 EnhancedServiceRifle.esp
 Euclid C-Finder Unlimited Ammo.esp
 ExperimentalMIRV.esp
@@ -1276,6 +1315,7 @@ Moddable Unique Weps.esp
 MoraelinsExoticBladesMod.esp
 Mossberg.esp
 Mossberg590.esp
+Murdelizer.esp
 NekhCFinderFix.esp
 NepaleseKukri.esp
 NudeRay 1.3.esp
@@ -1332,6 +1372,7 @@ Advanced Recon Armor-Location Doc Mitchell.esp
 Advanced Recon Armor-No Stealth Field.esp
 Advanced Recon Armor-Predator Mode.esp
 Advanced Recon Armor-Stealth With Drawn Weapon.esp
+Advanced Recon Range Finder.esp
 AG All-Purpose Science Suit 100.esp
 AL Black Corsetry and Blanc dress.esp
 AirForceArmorT57C.esp
@@ -1350,6 +1391,7 @@ ATT SamusZero.esp
 BodyJewelry.esp
 Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
+BOAt51b.esp
 bzArmour.esp
 bzBodySuits.esp
 Cat Outfits Vegas.esp
@@ -1383,7 +1425,7 @@ ERCAFACTLESS.esp
 " ERCA.esp
 ERCA Doc.esp
 : ERCA.esp
-ERCA NCRSH.esp
+ERCA NCRSH.espFlashlightNVSE.esp
 : ERCA.esp
 Eyepatch.esp
 exoArmorPerks.esp
@@ -1393,11 +1435,17 @@ Fade That Faction Armor.esp
 FaithOutfit.esp
 Female t45 Power Armor.esp
 Female t51-b PA.esp
+Fiendish Power Armor - Thermal Nightvision.esp
+Fiendish Power Armor-Doc Mitchells.esp
+Fiendish Power Armor.esp
+FlashlightNVSE.esp
 Free Tribal Outfits.esp
 Geonox_Riot_Armor.esp
+Geonox_Wasteland_outfits.esp
 Glove_be_gone.esp 
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
+Head Mounted Flashlight.esp
 Hereticus Faction Armors Fading.esp
 % {{BASH: Names}}
 HomeTeleport.esp
@@ -1433,6 +1481,7 @@ NimrodDresses.esp
 NinjaHeadbandNV_Balanced.esp
 NinjaHeadbandNV_Powerful.esp
 Night Vision Sunglasses.esp
+NV Boone Armor Playable.esp
 NV Night Vision Sunglasses.esp 
 NVLadyoutfit1.esp
 NVLadyoutfitXOH.esp
@@ -1448,6 +1497,7 @@ PlasmaShields.esp
 Powered Power Armor.esp
 % {{BASH: Deflst}}
 Ambient Temperature - PPA.esp
+Power Armour is Powered.esp
 PURELUST_port.esp
 QSondraOutfits.esp
 QVaultSuits.esp
@@ -1475,6 +1525,7 @@ T3Belts_BootsNV2.esp
 T51b-Manual.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
+Tactical Combat Gear.esp
 TGsArmorCollectionVegas.esp
 THE5 Visors Mod.esp
 Toni Outfits.esp
@@ -1511,6 +1562,7 @@ Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
 LogicalReputationShifts.esp
+PrimmReputation.esp
 Mercy Killing Karma.esp
 Mercy Killing Karma v2.0.esp
 nokarmalossforstealing.esp
@@ -1558,6 +1610,9 @@ Cass Passive Fix.esp
 " Cass Passive Fix 2 Option.esp
 Cass Passive Fix 2 Option.esp
 " Cass Passive Fix.esp
+drgNV - Melissa Companion (Lings Hairstyle Add-On).esp
+drgNV - Melissa Companion (Recruitment Fix).esp
+drgNV - Melissa Companion.esm
 ED-E 3D Sound.esp
 ede-e_alert_replacement.esp
 ED-E Burr.esp
@@ -1566,6 +1621,7 @@ ED-E Phaser.esp
 ED-E Plasma.esp
 ED-E Rocket.esp
 ED-E Shotgun.esp
+Eve.esm
 CManagerie.esp
 Companion Sandbox Mode.esp
 Companion Sandbox Mode V2.0.esp
@@ -1580,9 +1636,20 @@ JeyebotCompanion.esp
 Light Step ED-E.esp
 Max Followers 12.esp
 miria.esp
+Nano - Cass Type A (Original Hair) (Essential).esp
+Nano - Cass Type A (Original Hair).esp
+Nano - Cass Type B (Essential).esp
+Nano - Cass Type B.esp
+Nano - Cass Type C (Essential).esp
+Nano - Cass Type C.esp
+Nano - Natural Veronica (Essential).esp
+Nano - Natural Veronica.esp
+Nano - Veronica Day (Essential).esp
+Nano - Veronica Day.esp
 nemunoki-replacer.esp
 No More Annoying CC - ALL.esp
 NVBabyDeathclawCommander.esp
+NVC_Misty.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages,Actors.CombatStyle,C.Owner,Scripts}}
 RemoteControlCompanions.esp
@@ -1611,6 +1678,7 @@ WeakerBoone40LevelMultiplier.esp
 
 \BeginGroup\: Later Misc
 \-----------
+1ASS RPG, Icons.esp
 1PipboyPDA.esp
 Advanced PipBoy 1.esp
 Advanced PipBoy 2.esp
@@ -1623,6 +1691,7 @@ BetterRepairKits2.esp
 ? Old
 BetterRepairKits2b.esp
 Destruction.esp
+Destructibles.esp
 Feng Shui NV.esp
 Feng Shui NV - Keymap Template.esp
 getallACH.esp
@@ -1675,6 +1744,11 @@ RWD-NV V1.2 Alt NoLimbsExplosions.esp
 RWD-NV V1.2 Alt.esp
 RWD-NV V1.2 NoLimbsExplosions.esp
 RWD-NV V1.2.esp
+RWD-NV v1.3 [Alternative Version] [NoLimbsExplosions].esp
+RWD-NV v1.3 [Alternative Version].esp
+RWD-NV v1.3 [NoLimbsExplosions].esp
+RWD-NV v1.3 [Standard Version].esp
+vatsbuff.esp
 vatsbuff2x.esp
 Bullet Impact Increased LOD.esp
 CF_FastStart.esp
@@ -1775,7 +1849,10 @@ Colored Piplight - White.esp
 Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
 Piplight Brightness - 500%.esp
+Project Nevada - Cyberware.esp
 Quest Items - Non-Essential and Categorised.esp
+Quicker PipBoy Light-0_2Sec.esp
+Quicker PipBoy Light-0_4Sec.esp
 RandomExtraTrapsNV.esp
 Realistic death.esp
 Realistic Death & Dismemberment Physics.esp 
@@ -1789,11 +1866,13 @@ Reign Monocyte Implant Improvement.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
 SPECIALer.esp
+Toggle Quest Object.esp
 tyfasterwalk.esp
 tyfasterwalk-FR.esp
 tyfasterwalk-FR-N2HRP.esp
 tyfasterwalk-N2HRP.esp
 vanilla move.esp
+Vats Longer distance.esp
 VMods.esp
 XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
@@ -1819,6 +1898,7 @@ Depth of View IE Gentler.esp
 Depth of View IE Middle.esp
 DN More Lights.esp
 Emperical Weather.esp
+FNVEnhancedShaders - AA-DOF Enable.esp
 HighGrass.esp
 MedGrass.esp
 Fellout.esp
@@ -1852,10 +1932,12 @@ Nevada Skies.esp
 " Nevada Skies - URWLified.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+Ambient Temperature - Nevada Skies.esp
 Nevada Skies - URWLified.esp
 " Nevada Skies.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+Ambient Temperature - URWLified Nevada Skies.esp
 StripNightLum.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
@@ -1867,6 +1949,7 @@ ELECTRO-CITY - Emittance.esp
 " ELECTRO-CITY - Imaginator.esp
 ELECTRO-CITY - Imaginator.esp
 " ELECTRO-CITY - Emittance.esp
+Interior Lighting Overhaul-Realistic Interiors-Full.esp
 Interior Lighting Overhaul-Realistic.esp
 Interior Lighting Overhaul-Darker.esp
 KDS Green World.esp
@@ -1887,11 +1970,17 @@ Imp's Timescale Adjuster.esp
 No Neos.esp
 WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm
+WMX-AWOP Patch.esp
+: AWorldOfPain(Preview).esm
 WMX-Arwen_NV_Realism.esp
 " WMX-ShotgunCommando.esp
 WMX-ShotgunCommando.esp
 " WMX-Arwen_NV_Realism.esp
 WMX - Sorted.esp
+WMX-PreOrderPackCaravan.esp
+: CaravanPack.esm
+WMX-PreOrderPackMercenary.esp
+: MercenaryPack.esm
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
@@ -1936,6 +2025,7 @@ WME - RH Ironsights.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,WeaponMods}}
 WME - WorldofPain.esp
+Mod Loot - 2. Reasonably Rare (WME).esp
 RH_IronSights_NV_NewWeapons.esp
 : RH_IRONSIGHTS_NV.esm
 Enhanced Ballistics Effects.esp
