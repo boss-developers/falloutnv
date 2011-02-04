@@ -84,7 +84,7 @@ RRCompanionVault.esm
 RZW_Master.esm
 RZW_Television.esm
 : RZW_Master.esm
-Shojo Race Vegas.esm
+
 SCAV.esm
 Tales from the Burning Sands.esm
 Thermal Vision.esm
@@ -105,6 +105,8 @@ MikotoBeauty.esm
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 NosCo Companion System.esm
+Shojo Race Vegas.esm
+: Lings.esm
 NCCS Nos' Premade Companions.esm
 SunnyCompanion.esm
 \EndGroup\\
@@ -1455,7 +1457,6 @@ Geonox_Wasteland_outfits.esp
 Glove_be_gone.esp 
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
-Head Mounted Flashlight.esp
 Hereticus Faction Armors Fading.esp
 % {{BASH: Names}}
 HomeTeleport.esp
@@ -1794,6 +1795,8 @@ First_Person_Gun_No_Follow.esp
 First_Person_Gun_No_Follow_Less.esp
 FlashlightNV-LOS.esp
 FlashlightNV-Performance.esp
+Head Mounted Flashlight.esp
+: FlashlightNV-LOS.esp
 FONV - Real Time Lockpicking and Hacking.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
