@@ -1602,7 +1602,7 @@ Lore version.esp
 
 \BeginGroup\: Middle Misc
 \-----------
-< Caesars_Legion_Overhaul.esp
+<Caesars_Legion_Overhaul.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
