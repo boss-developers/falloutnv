@@ -648,8 +648,8 @@ NEVAX - WENIGER MUNITION.esp
 
 \BeginGroup\: nVamp
 \-----------
-> Caesars_Legion_Overhaul.esp
-> Caesars Freeside Shop.esp
+>Caesars_Legion_Overhaul.esp
+>Caesars Freeside Shop.esp
 nVamp - Caesars Legion Overhaul.esp
 nVamp - More Perks.esp
 nVamp - XFO.esp
@@ -976,7 +976,7 @@ BoostedSkills.esp
 Bottlecaps Have Weight.esp
 Bottles, cans, litter oh my!.esp
 BzBody.esp
-< Caesars Freeside Shop.esp
+<Caesars Freeside Shop.esp
 Casino Anti Anti Cheat.esp
 Casino Bets.esp
 Casino Exchange All.esp
