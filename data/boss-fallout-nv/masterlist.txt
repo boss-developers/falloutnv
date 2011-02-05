@@ -3,16 +3,14 @@
 \ \ A silent comment - will be ignored by the program.
 \ % A Bashed Patch suggestion for the mod above.
 \ ? A comment about the mod above.
-\ * Flags a critical mistake for FOOK installation in relation to the mod above.
-\ $ Flags a critical mistake for FWE installation in relation to the mod above.
-\ : Means "Requires:"
-\ " Means "Conflicts with:"
+\ * Flags a critical mistake for nVamp installation in relation to the mod above.
+\ : An installation requirement (ie another mod or NVSE etc.).
+\ " A specific incompatibility.
+\ $ A FOOK specific comment.
+\ ^ A UNUSED specific comment
 \
-\ > process this line only if FOOK is installed.
-\ < process this line only if FOOK isn't installed.
-\
-\ Unused symbols: ^
-\ Don't try using them, as they aren't assigned to do anything special.
+\ > process this line only if nVamp is installed.
+\ < process this line only if nVamp isn't installed.
 \
 \ Multiple remark/comment/bash/error lines allowed.
 \ Lines beginning with \ and blank lines are treated the same (ignored).
@@ -33,21 +31,14 @@ Active Wasteland.esm
 Advanced Recon Tech.esm
 Alice Armor.esm
 Ambient Temperature.esm
-AWorldOfPain(Preview).esm
-AWorldOfPain(LowLoot).esm
 BinocularsOverhaul.esm
 CALIBR.esm
-Caliber.esm
-CFWNV.esm
 CHEMS.esm
-CINEMATECH.esm
 CompanionInfAmmo.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
 Decrucifixion.esm
 Docs Sexy Nurse.esm
-EZ_CompanionNVSE.esm
-EZ_CompanionNVSE_Killable_Normal.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
@@ -57,8 +48,6 @@ Goodsprings Hideout.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
-IWS-Core.esm
-% {{BASH: Delev,Relev}}
 LW Companion.esm
 ? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
 Military Explansion Program.esm
@@ -68,9 +57,6 @@ Mo'.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
-More Perks.esm
-More Perks for Companions.esm
-More Traits.esm 
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces}}
 NVR - Extra Actions Lib.esm
@@ -84,17 +70,32 @@ RRCompanionVault.esm
 RZW_Master.esm
 RZW_Television.esm
 : RZW_Master.esm
-
 SCAV.esm
-Tales from the Burning Sands.esm
 Thermal Vision.esm
 VMods - Master.esm
-Weapon Mod Expansion.esm
-% {{BASH: Names}}
 RH_IRONSIGHTS_NV.esm
 wsex.esm
+\ nVamp stuff
+CINEMATECH.esm
+IWS-Core.esm
+% {{BASH: Delev,Relev}}
+Tales from the Burning Sands.esm
+AWorldOfPain(Preview).esm
+AWorldOfPain(LowLoot).esm
+EZ_CompanionNVSE.esm
+EZ_CompanionNVSE_Killable_Normal.esm
+More Perks.esm
+More Perks for Companions.esm
+More Traits.esm 
+More Challenges.esm
+Caliber.esm
+CFWNV.esm
+Weapon Mod Expansion.esm
+% {{BASH: Names}}
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+nVamp - Core.esm
+\ nVamp end
 VMods - Master.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces,Hair,Eyes,Body-M,Body-F}}
@@ -111,9 +112,17 @@ NCCS Nos' Premade Companions.esm
 SunnyCompanion.esm
 \EndGroup\\
 
-\BeginGroup\: Unofficial Patches and Fixes
+\BeginGroup\: Earliest
 \-----------
 {FalloutNV v1.2.0.285 [Unpatched Records]}.esp
+nVamp - Tales from the Burning Sands.esp
+nVamp - A World of Pain.esp
+nVamp - Caliber.esp
+nVamp - Classic Fallout Weapons.esp
+
+
+\BeginGroup\: Unofficial Patches and Fixes
+\-----------
 Community Bugfix Compilation Patch.esp
 % {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 " Compiled Patch.esp
@@ -250,6 +259,9 @@ Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
+nVamp - New Vegas Bounties.esp
+Serial Killer.esp
+nVamp - A World of Pain Addon.esp
 TheCollector.esp
 Wasteland Explorer.esp
 wsexInnuendoAnims.esp
@@ -634,6 +646,28 @@ NEVAX - WENIGER GEGENSTAENDE.esp
 NEVAX - WENIGER MUNITION.esp
 \EndGroup\\
 
+\BeginGroup\: nVamp
+\-----------
+> Caesars_Legion_Overhaul.esp
+> Caesars Freeside Shop.esp
+nVamp - Caesars Legion Overhaul.esp
+nVamp - More Perks.esp
+nVamp - XFO.esp
+nVamp - Increased Wasteland Spawns.esp
+nVamp - Effects and Graphics.esp
+nVamp - Superior Firepower.esp
+nVamp - Weapon Mod Expansion.esp
+nVamp - Combat Enhancement.esp
+nVamp - Game Fixes.esp
+nVamp - Core.esp
+nVamp - More Hardcore.esp
+nVamp - MedSpawns.esp
+nVamp - LowSpawns.esp
+nVamp - HarderAI.esp
+nVamp - EasierAI.esp
+nVamp - Weapon Mods Expanded.esp
+\EndGroup\\
+
 \BeginGroup\: Puce Moose Tweak and Balance Center
 \-----------
 PMT - XPadjust.esp
@@ -942,7 +976,7 @@ BoostedSkills.esp
 Bottlecaps Have Weight.esp
 Bottles, cans, litter oh my!.esp
 BzBody.esp
-Caesars Freeside Shop.esp
+< Caesars Freeside Shop.esp
 Casino Anti Anti Cheat.esp
 Casino Bets.esp
 Casino Exchange All.esp
@@ -1568,7 +1602,7 @@ Lore version.esp
 
 \BeginGroup\: Middle Misc
 \-----------
-Caesars_Legion_Overhaul.esp
+< Caesars_Legion_Overhaul.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
@@ -1998,7 +2032,7 @@ WMX-PreOrderPackMercenary.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
-WME - Arwen Core.esp 
+WME - Arwen Core.esp
 " Weapon Mod Expansion.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - 00 Commando.esp
@@ -2029,7 +2063,7 @@ WME - Reload, Rearm, Rebalance.esp
 : Weapon Mod Expansion.esm
 WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
-WME - Ironsights.esp 
+WME - Ironsights.esp
 : Weapon Mod Expansion.esm
 " RH_IRONSIGHTS_NV.esm
 RH_IronSights_NV_Vanilla.esp
