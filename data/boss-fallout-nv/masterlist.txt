@@ -64,7 +64,6 @@ NVStripOpen.esm
 PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
-Project Nevada - Core.esm
 ReactivePeople.esm
 RRCompanionVault.esm
 RZW_Master.esm
@@ -88,12 +87,15 @@ More Perks.esm
 More Perks for Companions.esm
 More Traits.esm 
 More Challenges.esm
+Project Nevada - Core.esm
 Caliber.esm
 CFWNV.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+ELECTRO-CITY – CompletedWorkorders.esm
+ELECTRO-CITY – Highways and Byways.esm
 nVamp - Core.esm
 \ nVamp end
 VMods - Master.esm
@@ -115,11 +117,7 @@ SunnyCompanion.esm
 \BeginGroup\: Earliest
 \-----------
 {FalloutNV v1.2.0.285 [Unpatched Records]}.esp
-nVamp - Tales from the Burning Sands.esp
-nVamp - A World of Pain.esp
-nVamp - Caliber.esp
-nVamp - Classic Fallout Weapons.esp
-
+\EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
@@ -259,9 +257,7 @@ Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
-nVamp - New Vegas Bounties.esp
 Serial Killer.esp
-nVamp - A World of Pain Addon.esp
 TheCollector.esp
 Wasteland Explorer.esp
 wsexInnuendoAnims.esp
@@ -646,28 +642,6 @@ NEVAX - WENIGER GEGENSTAENDE.esp
 NEVAX - WENIGER MUNITION.esp
 \EndGroup\\
 
-\BeginGroup\: nVamp
-\-----------
->Caesars_Legion_Overhaul.esp
->Caesars Freeside Shop.esp
-nVamp - Caesars Legion Overhaul.esp
-nVamp - More Perks.esp
-nVamp - XFO.esp
-nVamp - Increased Wasteland Spawns.esp
-nVamp - Effects and Graphics.esp
-nVamp - Superior Firepower.esp
-nVamp - Weapon Mod Expansion.esp
-nVamp - Combat Enhancement.esp
-nVamp - Game Fixes.esp
-nVamp - Core.esp
-nVamp - More Hardcore.esp
-nVamp - MedSpawns.esp
-nVamp - LowSpawns.esp
-nVamp - HarderAI.esp
-nVamp - EasierAI.esp
-nVamp - Weapon Mods Expanded.esp
-\EndGroup\\
-
 \BeginGroup\: Puce Moose Tweak and Balance Center
 \-----------
 PMT - XPadjust.esp
@@ -850,6 +824,7 @@ hardercore_wealth.esp
 % {{BASH: Delev,Relev}}
 hardercore_healing.esp
 pnv.esp
+Project Nevada - Cyberware.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
 
@@ -910,8 +885,8 @@ LFox Improved Regen Implant.esp
 LFox Night Vision Implant.esp
 LFox Night Vision Implant Low Brightness.esp
 More Perks.esp
-More Perks for Companions Update.esp
 More Perks Update.esp
+More Perks for Companions Update.esp
 More Traits Update.esp
 NinjaPerkFix.esp
 Perks per du.esp
@@ -976,7 +951,7 @@ BoostedSkills.esp
 Bottlecaps Have Weight.esp
 Bottles, cans, litter oh my!.esp
 BzBody.esp
-<Caesars Freeside Shop.esp
+Caesars Freeside Shop.esp
 Casino Anti Anti Cheat.esp
 Casino Bets.esp
 Casino Exchange All.esp
@@ -1602,7 +1577,7 @@ Lore version.esp
 
 \BeginGroup\: Middle Misc
 \-----------
-<Caesars_Legion_Overhaul.esp
+Caesars_Legion_Overhaul.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
@@ -1897,7 +1872,6 @@ Colored Piplight - White.esp
 Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
 Piplight Brightness - 500%.esp
-Project Nevada - Cyberware.esp
 Quest Items - Non-Essential and Categorised.esp
 Quicker PipBoy Light-0_2Sec.esp
 Quicker PipBoy Light-0_4Sec.esp
@@ -2016,6 +1990,9 @@ Color Me Evil - Cass.esp
 FNNsysNV.esp
 Imp's Timescale Adjuster.esp
 No Neos.esp
+RH_IronSights_NV_Vanilla.esp
+: RH_IRONSIGHTS_NV.esm
+% {{BASH: Graphics}}
 WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm
 WMX-AWOP Patch.esp
@@ -2035,43 +2012,42 @@ Weapon Mod Expansion.esp
 WME - Arwen Core.esp
 " Weapon Mod Expansion.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
-WME - 00 Commando.esp
-: Weapon Mod Expansion.esm
-% {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Delev,Graphics,Names,Sound,Stats}}
 WME Replacer - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
-WME - that gun 556.esp
-: Weapon Mod Expansion.esm
-% {{BASH: Names,Stats,WeaponMods}}
-WME - that gun 223.esp
-: Weapon Mod Expansion.esm
-% {{BASH: Names,Stats,WeaponMods}}
-WME - that gun 44 mag.esp
-: Weapon Mod Expansion.esm
-% {{BASH: Names,Stats,WeaponMods}}
 WME - Reload.esp
-: Weapon Mod Expansion.esm
-WME - Reload, Rebalance.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm.esp
 : Weapon Mod Expansion.esm
+WME - Reload, Rebalance.esp
+: Weapon Mod Expansion.esm
 WME - Reload, Rearm, Rebalance.esp
 : Weapon Mod Expansion.esm
-WME - CS Sight Q Fix.esp
+WME - that gun 44 mag.esp
 : Weapon Mod Expansion.esm
-WME - Ironsights.esp
+% {{BASH: Names,Stats,WeaponMods}}
+WME - that gun 556.esp
 : Weapon Mod Expansion.esm
-" RH_IRONSIGHTS_NV.esm
-RH_IronSights_NV_Vanilla.esp
-: RH_IRONSIGHTS_NV.esm
-% {{BASH: Graphics}}
+% {{BASH: Names,Stats,WeaponMods}}
+? Old
+WME - that gun 223.esp
+: Weapon Mod Expansion.esm
+% {{BASH: Names,Stats,WeaponMods}}
+WME - 00 Commando.esp
+: Weapon Mod Expansion.esm
+% {{BASH: Graphics,Names,Stats,WeaponMods}}
 WME - RH Ironsights.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,WeaponMods}}
+Big Big Boomer - WME.esp
+WME - Ironsights.esp
+: Weapon Mod Expansion.esm
+" RH_IRONSIGHTS_NV.esm
+WME - CS Sight Q Fix.esp
+: Weapon Mod Expansion.esm
 WME - WorldofPain.esp
 Mod Loot - 2. Reasonably Rare (WME).esp
 RH_IronSights_NV_NewWeapons.esp
@@ -2100,6 +2076,28 @@ Mail Order Catalogs WMX.esp
 : WeaponModsExpanded.esp
 " Mail Order Catalogs WMX PopUp.esp
 mypatch.esp
+\EndGroup\\
+
+\BeginGroup\: nVamp
+\-----------
+nVamp – Tales from the Burning Sands.esp
+nVamp – A World of Pain.esp
+nVamp – Caliber.esp
+nVamp – Classic Fallout Weapons.esp
+nVamp – New Vegas Bounties.esp
+nVamp – Caesars Legion Overhaul.esp
+nVamp – More Perks.esp
+nVamp – XFO.esp
+nVamp – Increased Wasteland Spawns.esp
+nVamp – Effects and Graphics.esp
+? OPTIONAL FOR GRAPHICAL OVERHAUL
+nVamp – Superior Firepower.esp
+nVamp – Weapon Mod Expansion.esp
+nVamp – Combat Enhancement.esp
+nVamp – Game Fixes.esp
+nVamp – Core.esp
+nVamp – More Hardcore.esp
+? OPTIONAL FOR MORE HARDCORE EXPERIENCE
 \EndGroup\\
 
 \BeginGroup\: Pose mods
