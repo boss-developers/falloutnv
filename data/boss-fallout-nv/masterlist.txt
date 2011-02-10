@@ -32,6 +32,7 @@ Advanced Recon Tech.esm
 Alice Armor.esm
 Ambient Temperature.esm
 BinocularsOverhaul.esm
+BoulderCityFaceliftProject.esm
 CALIBR.esm
 CHEMS.esm
 CompanionInfAmmo.esm
@@ -70,6 +71,7 @@ RZW_Master.esm
 RZW_Television.esm
 : RZW_Master.esm
 SCAV.esm
+Selective Fire.esm 
 Thermal Vision.esm
 VMods - Master.esm
 RH_IRONSIGHTS_NV.esm
@@ -83,13 +85,13 @@ AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
+Project Nevada - Core.esm
+Caliber.esm
+CFWNV.esm
 More Perks.esm
 More Perks for Companions.esm
 More Traits.esm 
 More Challenges.esm
-Project Nevada - Core.esm
-Caliber.esm
-CFWNV.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
 FOOK - New Vegas.esm
@@ -388,6 +390,7 @@ AbandonedShack.esp
 Badmagic - Watchtowers.esp
 Baloks Schoolhouse.esp
 Basement Hideout[English].esp
+BCFollowersClinic.esp 
 Bella.esp
 Better forest.esp
 Better Lucky 38 Presidential Suite Version 1.0.esp
@@ -433,6 +436,9 @@ My Goodsprings Home.esp
 Mojave Outpost - Revamp.esp
 NCR Embassy-Revamp.esp
 NCR Outpost.esp
+Novac Hotel Suite Upgrade.esp
+BobblehuntNovacSuite.esp
+NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
 NovacMotelroom.esp
 NoVac 4.0_eng.esp
 NoVac 4.0_ger.esp 
@@ -445,7 +451,8 @@ Portable Tent.esp
 Realistic Portable Tent.esp
 PoseidonResearchFacility.esp
 RedRockRanch.esp
-RustTownV1-1.esp 
+RustTownV1-1.esp
+SadiesSundries.esp  
 Schoolhouse Base.esp 
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
@@ -462,6 +469,7 @@ UHNV-ARB Patch.esp
 UHNV-Performance-Patch.esp
 UHNV-IncreasedLighting.esp
 Underground Home.esp
+WildBillsPawnArmory.esp 
 YangtzeBunkerPlayerHome.esp 
 YangtzeBunkerPlayerHomeV1_2.esp 
 YangtzeBunkerPlayerHomeV1_3.esp 
@@ -712,6 +720,16 @@ Superior Firepower - Kinetic Weaponry.esp
 Lesser Superior Firepower - Kinetic Weaponry.esp
 Greater Superior Firepower - Kinetic Weaponry.esp
 Superior Firepower (BETA) - Explosive Weaponry.esp
+Superior Firepower - New Weaponry.esp
+Superior Firepower - Alternate Energy Ammo.esp
+Lesser Superior Firepower - Alternate Energy Ammo.esp
+Greater Superior Firepower - Alternate Energy Ammo.esp
+Superior Firepower - Energy Ammo.esp
+Lesser Superior Firepower - Energy Ammo.esp
+Greater Superior Firepower - Energy Ammo.esp
+Superior Firepower - Kinetic Ammo.esp
+Lesser Superior Firepower - Kinetic Ammo.esp
+Greater Superior Firepower - Kinetic Ammo.esp
 Superior Firepower - Factional Changes.esp
 % {{BASH: Delev,Relev}}
 Superior Firepower - Leveled Lists Fix.esp
@@ -881,6 +899,7 @@ KDS Stronger Back Perk 200 Pounds.esp
 KDS Stronger Back Perk 500 Pounds.esp
 KDS Stronger Back Perk 1000 Pounds.esp
 Kobu's Free Wild Wasteland Trait.esp
+LibrarianOfTheWastes.esp
 LFox Improved Regen Implant.esp
 LFox Night Vision Implant.esp
 LFox Night Vision Implant Low Brightness.esp
@@ -940,6 +959,7 @@ Better Casinos.esp
 BetterGamePerformanceV1.esp
 BetterGamePerformanceV2.esp
 BetterGamePerformanceV3.esp
+BetterGamePerformanceV4.esp
 Better Sneak.esp
 Better Sneak - No Stealth Field.esp
 Better Tag Skills.esp
@@ -1020,7 +1040,6 @@ LFox Bottle That Water.esp
 LFox Infinite Companion Ammo Repair.esp
 LFox Infinite Companion Ammo.esp
 Lighter books.esp
-LightweightSanitizer.esp
 LMDStorageBag.esp
 LootableOldCars.esp
 LootableOldCars_AE.esp
@@ -1256,6 +1275,7 @@ better that gun 44mag.esp
 % {{BASH: Names,Stats}}
 Better Zoom.esp
 BoilingOil - Eli's Edge.esp
+Big Big Boomer.esp
 Binocs12fov.esp
 Boomers - T-57c PA.esp
 Caravan Pack Durability.esp
@@ -1291,6 +1311,7 @@ FingerOfGodNV.esp
 F03weaponpack_v1_0.esp
 fownv - Sonic Screwdriver 1.0.esp
 G36C.esp
+Glow Sticks.esp 
 Gobi Rifle Enhanced.esp
 Golden Eagle.esp
 guitar.esp
@@ -1344,6 +1365,7 @@ NV binoculars.esp
 NVExverminatorRifle.esp
 NVExverminatorRifle2xZoom.esp
 NVExverminatorRifle4xZoom.esp
+Omegared99-M2081.esp 
 Orchids Custom Arsenal.esp
 PB-AR1.esp
 Pew Pew Pew Pew Pew Pew.esp
@@ -1409,6 +1431,7 @@ Armored PA Gloves.esp
 AsharasLightningItems_ForNV.esp
 ATT LeatherJacket.esp
 ATT SamusZero.esp
+Boacombat2glove.esp
 BodyJewelry.esp
 Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
@@ -1733,6 +1756,7 @@ Sorter - Combined - Weighted.esp
 Inventory Sorter - Moddable Unique Weps.esp
 % {{BASH: Names}}
 : Moddable Unique Weps.esp
+LightweightSanitizer.esp
 DrugsAreBadMKay-IS.esp
 % {{BASH: Names}}
 FeelingIrradiated-IS.esp
@@ -1884,6 +1908,7 @@ realistic headshots.esp
 realistic headshots VATS.esp
 Realistic Ingestible Metabolic Effects.esp
 Realistic Weapon Impact Effects.esp
+Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
@@ -1896,6 +1921,7 @@ tyfasterwalk-N2HRP.esp
 vanilla move.esp
 Vats Longer distance.esp
 VMods.esp
+XIII + J3X's Flesh Burnificating Plasma.esp
 XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
 \EndGroup\\
@@ -1965,6 +1991,9 @@ LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
 DYNAVISION - Dynamic Lens Effect.esp
 " Field Depth.esp
+DYNAVISION 2 - Dynamic Lens Effect.esp 
+" DYNAVISION - Dynamic Lens Effect.esp
+" Field Depth.esp
 Field Depth.esp
 " DYNAVISION - Dynamic Lens Effect.esp
 ELECTRO-CITY - Emittance.esp
@@ -2006,6 +2035,7 @@ WMX-PreOrderPackCaravan.esp
 : CaravanPack.esm
 WMX-PreOrderPackMercenary.esp
 : MercenaryPack.esm
+Recharger Weapons Rebalance WMX.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
