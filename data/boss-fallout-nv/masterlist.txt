@@ -78,6 +78,7 @@ RH_IRONSIGHTS_NV.esm
 wsex.esm
 \ nVamp stuff
 CINEMATECH.esm
+rePopulated Wasteland.esm
 IWS-Core.esm
 % {{BASH: Delev,Relev}}
 Tales from the Burning Sands.esm
@@ -2075,7 +2076,6 @@ WME - RH Ironsights.esp
 Big Big Boomer - WME.esp
 WME - Ironsights.esp
 : Weapon Mod Expansion.esm
-" RH_IRONSIGHTS_NV.esm
 WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
 WME - WorldofPain.esp
