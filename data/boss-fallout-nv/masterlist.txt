@@ -71,7 +71,7 @@ RZW_Master.esm
 RZW_Television.esm
 : RZW_Master.esm
 SCAV.esm
-Selective Fire.esm 
+Selective Fire.esm
 Thermal Vision.esm
 VMods - Master.esm
 RH_IRONSIGHTS_NV.esm
@@ -84,6 +84,8 @@ IWS-Core.esm
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
+Mo'.esm
+: CaliberX and NVSE Beta 6 or newer.
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
 Project Nevada - Core.esm
@@ -91,7 +93,7 @@ Caliber.esm
 CFWNV.esm
 More Perks.esm
 More Perks for Companions.esm
-More Traits.esm 
+More Traits.esm
 More Challenges.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
@@ -174,6 +176,8 @@ RadioComputerPartsFix.esp
 Raul Ranger Andy fix.esp
 ReloadBugFix.esp
 ? Obsolete with latest patch
+RepairKitFix.esp
+? This fix does not currently work for custom weapon durability mods which increase the weapon's health by anything other than 50%.
 RHKBooneWarnFix.esp
 ScotchBottleFix.esp
 TravelingMerchantFix.esp
@@ -217,6 +221,7 @@ HUD Extended - Ambient Temperature.esp
 : Ambient Temperature.esm
 LessIntrusiveKillCam.esp
 LMDExpandedHotkeys.esp
+NewVegasOM_2.2.esp
 NVORganizedItems.esp
 % {{BASH: Names}}
 NVR - Extra Actions Toggle - Crouch.esp
@@ -321,6 +326,9 @@ Psychoelfs Veronica shojo bms.esp
 Rifulized Veronica.esp
 Raul - Danny Trejo.esp
 % {{BASH: NpcFaces,NoMerge}}
+REsLorePackNV.esp
+REsNonLorePackNV.esp
+RivensEyescapesNV.esp
 Veronica_Redux_Type3_Alice_Lings.esp
 Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
@@ -1444,6 +1452,7 @@ Child Reading Glasses.esp
 ChildArmorPack.esp
 ClassicPowerArmorPulseRifle.esp
 Clearhelmets4radsuits.esp
+COL - Liena's Armour.esp
 CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Crazyeyesreaper T51b Variety Pack.esp
@@ -1463,6 +1472,8 @@ DragonskinBonusPack.esp
 dressup.esp
 dressupWITHweaponchanges.esp
 DynamicNightVision.esp
+epock.esp
+? Meshes based off of the Type 3 Female Body.
 ERCA.esp
 ERCA FACTLESS.esp
 " ERCA.esp
@@ -1577,6 +1588,8 @@ TheArmorer.esp
 Thermoptic Power Helmets.esp
 Transladatum - E.esp
 TUPAM-NV.esp
+Type3 Leather Armors-lvld.esp
+: meshes and textures from New Vegas Type3 Leather Armors.
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
 VegasOutfits.esp
@@ -1609,6 +1622,16 @@ LogicalReputationShifts.esp
 PrimmReputation.esp
 Mercy Killing Karma.esp
 Mercy Killing Karma v2.0.esp
+Mo'AWOP.esp
+: A World of Pain.
+Mo'Gals.esp
+: Anthony Lings Coiffure - Hair Eyes Lashes for FONV.
+Mo'Guns.esp
+Mo'IPP.esp
+Mo'Suite.esp
+Mo'SunnyCompanion.esp
+: Sunny Smiles Companion.
+Mo'Uniques.esp
 nokarmalossforstealing.esp
 NVR - GUI - Silent Challenges.esp
 NVR - GUI - Silent Karma.esp
@@ -1769,6 +1792,8 @@ FeelingIrradiated-IS.esp
 4Aces Gameplay.esp
 _glaunch_explosion.esp
 aaaJNFSniperZooming.esp
+AccuRifles.esm
+: NVSE
 Automatic Inventory.esp
 Balance mod - 10% XP Gain.esp
 Balance mod - 50% XP Gain.esp
@@ -1785,6 +1810,8 @@ Improved VATS and Autoaim fix (no VATS invincibility, no binoculars).esp
 Improved VATS and Autoaim fix with Better Binoculars (no VATS invincibility).esp
 Improved VATS and Autoaim fix with Better Binoculars.esp
 instavats.esp
+IntegratedFullDLC.esp
+: All four DLC's.
 RWD-NVv1.esp
 RWD-NV V1.2 Alt NoLimbsExplosions.esp
 RWD-NV V1.2 Alt.esp
@@ -1837,6 +1864,7 @@ FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
 GrenadeHotkey.esp
 Guaranteed Pick Pocket.esp
+GunCrosshairFollow.esp
 GunsIgnoreArmor.esp
 HJLLessDismembermentAndExplosionsv100.esp 
 Imp's More Complex Needs.esp
