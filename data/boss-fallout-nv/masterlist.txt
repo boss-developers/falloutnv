@@ -244,41 +244,8 @@ Weight_Balance_v10.esp
 RMPipboy.esp
 Sex Try.esp 
 Sorter Caravan Card & Ammo @ END.esp
+STnukaRetex.esp
 Vanity Camera Smoother.esp
-\EndGroup\\
-
-\BeginGroup\: Quests
-\-----------
-Bobblehunt.esp
-Bobblehunt (german).esp
-Bobbleheads - Cases.esp
-Bobbleheads - Hidden_v1.2.esp
-Bobbleheads - Not Hidden_v1.2.esp
-CharacterBackgrounds.esp
-FreeplayafterMQNVv1_6.esp
-Free Play after MQ.esp
-Goodsprings Filler.esp
-Goodsprings Goodstart.esp
-SilentStruggleV1.esp 
-Identity Crisis Part I - Silent Struggle V2.esp
-Kobu's New Game Quick Start and Better Rebuild.esp
-Northwind Bunker.esp
-Prove Your Worth.esp
-NewVegasBounties.esp
-Serial Killer.esp
-TheCollector.esp
-Wasteland Explorer.esp
-wsexInnuendoAnims.esp
-: wsex.esm
-wsexInnuendoNPCs.esp
-: wsex.esm
-wsex_workgirl.esp
-: wsex.esm
-" wsex_workgirl_tryout.esp
-wsex_workgirl_tryout.esp
-: wsex.esm
-" wsex_workgirl.esp
-Zombie Apocalypse.esp
 \EndGroup\\
 
 \BeginGroup\: Faces
@@ -892,6 +859,41 @@ Distant Gunfire Sound Fix.esp
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 \EndGroup\\
 
+\BeginGroup\: Quests
+\-----------
+Bobblehunt.esp
+Bobblehunt (german).esp
+Bobbleheads - Cases.esp
+Bobbleheads - Hidden_v1.2.esp
+Bobbleheads - Not Hidden_v1.2.esp
+CharacterBackgrounds.esp
+Express Delivery.esp
+FreeplayafterMQNVv1_6.esp
+Free Play after MQ.esp
+Goodsprings Filler.esp
+Goodsprings Goodstart.esp
+SilentStruggleV1.esp
+Identity Crisis Part I - Silent Struggle V2.esp
+Kobu's New Game Quick Start and Better Rebuild.esp
+Northwind Bunker.esp
+Prove Your Worth.esp
+NewVegasBounties.esp
+Serial Killer.esp
+TheCollector.esp
+Wasteland Explorer.esp
+wsexInnuendoAnims.esp
+: wsex.esm
+wsexInnuendoNPCs.esp
+: wsex.esm
+wsex_workgirl.esp
+: wsex.esm
+" wsex_workgirl_tryout.esp
+wsex_workgirl_tryout.esp
+: wsex.esm
+" wsex_workgirl.esp
+Zombie Apocalypse.esp
+\EndGroup\\
+
 \BeginGroup\: Perks
 \-----------
 1ASS RPG, Clean.esp
@@ -1254,6 +1256,7 @@ WMR_WME_R.esp
 20th Century v5 ALIVE (Fiend).esp
 20th Century v5 ALIVE (LEGION).esp
 20th Century v5 ALIVE (SuperMutant).esp
+88 Plasma Rifle.esp
 injectionpatch.esp
 MERGEinjection.esp
 10mmPistol-SigSauer_Replacement_NewSounds_v1.0.esp
@@ -1318,6 +1321,7 @@ Euclid C-Finder Unlimited Ammo.esp
 ExperimentalMIRV.esp
 FingerOfGodNV.esp
 F03weaponpack_v1_0.esp
+FO3WeaponsRestoration.esp
 fownv - Sonic Screwdriver 1.0.esp
 G36C.esp
 Glow Sticks.esp 
@@ -1356,6 +1360,16 @@ MachienzoDLC2GreatKhan.esp
 MachienzoDLC2Legion.esp
 MachienzoDLC2NCR.esp
 MachienzoDLC2PowderGanger.esp
+Mail Order Catalogs XFO WMX PopUp.esp
+: NVSE 1.0 Beta 6 +
+Mail Order Catalogs XFO WME PopUp.esp
+: NVSE 1.0 Beta 6 +
+Mail Order Catalogs XFO WME.esp
+: NVSE 1.0 Beta 6 +
+Mail Order Catalogs XFO.esp
+: NVSE 1.0 Beta 6 +
+Mail Order Catalogs XFO WMX.esp
+: NVSE 1.0 Beta 6 +
 MiniNuke.esp
 MiniNukeSmall.esp
 Moddable Anti-Materiel Rifle.esp
@@ -1450,6 +1464,7 @@ bzBodySuits.esp
 Cat Outfits Vegas.esp
 Child Reading Glasses.esp
 ChildArmorPack.esp
+Classic Midwestern Power Armor.esp
 ClassicPowerArmorPulseRifle.esp
 Clearhelmets4radsuits.esp
 COL - Liena's Armour.esp
@@ -1512,6 +1527,7 @@ Journeyman Armor.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
 Kaya47NordicGear.esp
+KerberosPanzer-AdvancedReconGear.esp
 KerberosPanzer-power armor.esp
 KerberosPanzer-lower dt.esp
 Leather Trench Coat NV v1.0.esp
@@ -2095,6 +2111,8 @@ WME - that gun 556.esp
 WME - that gun 223.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Names,Stats,WeaponMods}}
+WME - Named & Sorted.esp
+: Weapon Mod Expansion.esm
 WME - 00 Commando.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
