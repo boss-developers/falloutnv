@@ -19,12 +19,13 @@
 \------------
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+AmmoSpreadEffectFixer.esm
 ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 RBX.esm
-\ Needs to be before any mod using a reloading bench including a lot of house mods. 
+? Needs to be before any mod using a reloading bench including a lot of house mods. 
 20th Century Weapons.esm
 Achievement Remover.ESM
 Active Wasteland.esm
@@ -2073,6 +2074,8 @@ WMX-AWOP Patch.esp
 : AWorldOfPain(Preview).esm
 WMX-Arwen_NV_Realism.esp
 " WMX-ShotgunCommando.esp
+WMX-ModernWeapons.esp
+: AmmoSpreadEffectFixer.esm and Weapon Mod Expansion.esm
 WMX-ShotgunCommando.esp
 " WMX-Arwen_NV_Realism.esp
 WMX - Sorted.esp
