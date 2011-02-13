@@ -2188,6 +2188,11 @@ Sideburns.esp
 MikotoBeauty.esp
 \EndGroup\\
 
+\BeginGroup\: Merged Patch
+\-----------
+Merged Patch.esp
+\EndGroup\\
+
 \BeginGroup\: Bashed Patch
 \-----------
 Bashed Patch, 0.esp
