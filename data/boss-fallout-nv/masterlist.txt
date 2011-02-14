@@ -692,6 +692,12 @@ ReSort.esp
 Superior Firepower - Unique Weaponry.esp
 % {{BASH: Stats}}
 Superior Firepower - Misc Changes.esp
+Superior Firepower - Energy Ammo.esp
+Lesser Superior Firepower - Energy Ammo.esp
+Greater Superior Firepower - Energy Ammo.esp
+Superior Firepower - Kinetic Ammo.esp
+Lesser Superior Firepower - Kinetic Ammo.esp
+Greater Superior Firepower - Kinetic Ammo.esp
 Superior Firepower - Alternate Energy Weapons.esp
 Lesser Superior Firepower - Alternate Energy Weapons.esp
 Greater Superior Firepower - Alternate Energy Weapons.esp
@@ -706,12 +712,7 @@ Superior Firepower - New Weaponry.esp
 Superior Firepower - Alternate Energy Ammo.esp
 Lesser Superior Firepower - Alternate Energy Ammo.esp
 Greater Superior Firepower - Alternate Energy Ammo.esp
-Superior Firepower - Energy Ammo.esp
-Lesser Superior Firepower - Energy Ammo.esp
-Greater Superior Firepower - Energy Ammo.esp
-Superior Firepower - Kinetic Ammo.esp
-Lesser Superior Firepower - Kinetic Ammo.esp
-Greater Superior Firepower - Kinetic Ammo.esp
+
 Superior Firepower - Factional Changes.esp
 % {{BASH: Delev,Relev}}
 Superior Firepower - Leveled Lists Fix.esp
