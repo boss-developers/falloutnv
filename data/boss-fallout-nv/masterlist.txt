@@ -55,7 +55,6 @@ LW Companion.esm
 Military Explansion Program.esm
 Military NV Backpacks.esm
 M.M.A.T - Core Module.esm
-Mo'.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
@@ -85,12 +84,12 @@ IWS-Core.esm
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
-Mo'.esm
-: CaliberX and NVSE Beta 6 or newer.
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
 Project Nevada - Core.esm
 Caliber.esm
+Mo'.esm
+: CaliberX and NVSE Beta 6 or newer.
 CFWNV.esm
 More Perks.esm
 More Perks for Companions.esm
@@ -209,6 +208,7 @@ The Chicken and the Egg.esp
 CASM.esp
 Achievement Remover.esp
 Arwen_Camera.esp
+ASEF - Project Nevada Dynamic Crosshair Patch.esp
 Automated Reloading Bench.esp
 BetterLoadingText.esp
 BIS - Brumbek's Inventory Sorting.esp
@@ -1072,6 +1072,7 @@ Mod Loot - 4. Just Plain Cheating.esp
 Mod Loot - 5. Pretty Common.esp
 Mojave Express Expansion.esp
 MojaveXP.esp
+mojave music radio expanded v1.1.esp
 More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
@@ -1873,6 +1874,8 @@ Easy Unlocking and Easy Hacking and Guaranteed Pick Pocket.esp
 Easy Unlocking and Easy Hacking.esp
 Easy Unlocking and Guaranteed Pick Pocket.esp
 Easy Unlocking.esp
+Endurance_And_Health_Overhaul_Low.esp
+Expanded Traits.esp
 fastervats.esp
 Faster Runing.esp
 Faster Running (5.5).esp
@@ -1909,6 +1912,7 @@ Increasedcarryweight2.esp
 insta-hacker.esp
 Jump Fall Fixer.esp
 JumpNFall.esp
+KillingKarmaFix.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
 Leveled Lists Fix.esp
