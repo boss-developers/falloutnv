@@ -211,6 +211,8 @@ Achievement Remover.esp
 Arwen_Camera.esp
 Automated Reloading Bench.esp
 BetterLoadingText.esp
+BIS - Brumbek's Inventory Sorting.esp
+BIS - More Cactus Water Recipes.esp
 Centered 3rd Person Camera.esp
 " FOOK - New Vegas.esm
 Centered 3rd Person Camera - Unraised.esp
@@ -1608,6 +1610,8 @@ TheArmorer.esp
 Thermoptic Power Helmets.esp
 Transladatum - E.esp
 TUPAM-NV.esp
+Type3 Leather Armors.esp
+? Designed for the Type3 Female Body Replacer.
 Type3 Leather Armors-lvld.esp
 : meshes and textures from New Vegas Type3 Leather Armors.
 UrgeWasterScarf.esp
@@ -1766,6 +1770,7 @@ WeakerBoone40LevelMultiplier.esp
 
 \BeginGroup\: Later Misc
 \-----------
+PrimmSheriff.esp
 1ASS RPG, Icons.esp
 1PipboyPDA.esp
 Advanced PipBoy 1.esp
@@ -1788,6 +1793,8 @@ Grays_EverybodyBleeds.esp
 " Moddable Unique Weps.esm
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
+BIS - T3T_MiscItemIconsNV 0.7.esp
+: T3T_MiscItemIconsNV.esp
 ShilohDS-Color Maps and Icons.esp
 Sorter - Combined.esp
 % {{BASH: Names}}
@@ -2011,6 +2018,8 @@ LUMENARIUM - Working Sunglasses ONLY.esp
 ELECTRO-CITY - CompletedWorkorders.esp
 % {{BASH: Names}}
 ELECTRO-CITY - Highways and Byways.esp
+BIS - ELECTRO-CITY Extended Cateye.esp
+: ELECTRO-CITY - CompletedWorkorders.esp, ELECTRO-CITY - Highways and Byways.esp OR ELECTRO-CITY - CompletedWorkorders.esm and ELECTRO-CITY - Highways and Byways.esm
 ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
 : IWS-CORE.ESM
 ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
@@ -2034,6 +2043,8 @@ Nevada Skies - URWLified.esp
 " Nevada Skies.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+BIS - Nevada Skies URWLified.esp
+: Nevada Skies - URWLified.esp
 Ambient Temperature - URWLified Nevada Skies.esp
 StripNightLum.esp
 LUMENARIUM - Bright Clear Days.esp
@@ -2073,6 +2084,8 @@ RH_IronSights_NV_Vanilla.esp
 % {{BASH: Graphics}}
 WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm
+BIS - Weapon Mods Expanded (WMX).esp
+: WeaponModsExpanded.esp
 WMX-AWOP Patch.esp
 : AWorldOfPain(Preview).esm
 WMX-Arwen_NV_Realism.esp
