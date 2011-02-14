@@ -2082,7 +2082,6 @@ UWFXGodrays.esp
 Color Me Evil.esp
 Color Me Evil - Cass.esp
 FNNsysNV.esp
-Imp's Timescale Adjuster.esp
 No Neos.esp
 RH_IronSights_NV_Vanilla.esp
 : RH_IRONSIGHTS_NV.esm
