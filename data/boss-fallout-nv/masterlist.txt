@@ -1318,7 +1318,8 @@ DiscontinuedNCRArmorSet.esp
 DWDEagle44.esp
 DWM4A1.esp
 DWSpas12.esp
-DWUSP45.esp 
+DWUSP45.esp
+E-88 Plasma Rifle.esp
 EarlyWeapons.esp
 EnergyBoost.esp
 % {{BASH: Stats}}
