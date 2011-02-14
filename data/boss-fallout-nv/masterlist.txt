@@ -100,9 +100,10 @@ Weapon Mod Expansion.esm
 % {{BASH: Names}}
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
-ELECTRO-CITY – CompletedWorkorders.esm
-ELECTRO-CITY – Highways and Byways.esm
+ELECTRO-CITY - CompletedWorkorders.esm
+ELECTRO-CITY - Highways and Byways.esm
 nVamp - Core.esm
+nVamp - Vaernus's Voracious Vermin.esm
 \ nVamp end
 VMods - Master.esm
 New Vegas Redesigned.esm
@@ -500,6 +501,8 @@ HAM-SixHands.esp
 \-----------
 FOOK - New Vegas.esp
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+Selective Fire - FOOK NV.esp
+: FOOK - New Vegas.esm
 CFWNV-FOOK.esp 
 ammo can fix.esp
 AR-15 worth a fook.esp
@@ -2159,24 +2162,29 @@ mypatch.esp
 
 \BeginGroup\: nVamp
 \-----------
-nVamp – Tales from the Burning Sands.esp
-nVamp – A World of Pain.esp
-nVamp – Caliber.esp
-nVamp – Classic Fallout Weapons.esp
-nVamp – New Vegas Bounties.esp
-nVamp – Caesars Legion Overhaul.esp
-nVamp – More Perks.esp
-nVamp – XFO.esp
-nVamp – Increased Wasteland Spawns.esp
-nVamp – Effects and Graphics.esp
+nVamp - Tales from the Burning Sands.esp
+nVamp - A World of Pain.esp
+nVamp - Caliber.esp
+nVamp - Classic Fallout Weapons.esp
+nVamp - New Vegas Bounties.esp
+nVamp - Caesars Legion Overhaul.esp
+nVamp - More Perks.esp
+nVamp - XFO.esp
+nVamp - Increased Wasteland Spawns.esp
+nVamp - Effects and Graphics.esp
 ? OPTIONAL FOR GRAPHICAL OVERHAUL
-nVamp – Superior Firepower.esp
-nVamp – Weapon Mod Expansion.esp
-nVamp – Combat Enhancement.esp
-nVamp – Game Fixes.esp
-nVamp – Core.esp
+nVamp - Superior Firepower.esp
+nVamp - Weapon Mod Expansion.esp
+nVamp - Combat Enhancement.esp
+nVamp - Game Fixes.esp
+nVamp - Core.esp
+nVamp - Vaernus's Voracious Vermin.esp
 nVamp – More Hardcore.esp
 ? OPTIONAL FOR MORE HARDCORE EXPERIENCE
+nVamp – EasierAI.esp
+? Use either nVamp – EasierAI.esp or nVamp - HarderAI.esp, not both.
+nVamp - HarderAI.esp
+? Use either nVamp – EasierAI.esp or nVamp - HarderAI.esp, not both.
 \EndGroup\\
 
 \BeginGroup\: Pose mods
