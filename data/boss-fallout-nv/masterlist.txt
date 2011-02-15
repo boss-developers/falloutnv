@@ -1603,6 +1603,8 @@ Realistic Power Armor.esp
 RealisticStealthArmor.esp
 Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
+Rivens Costume Mod.esp
+? Designed for Robert's Male Body and Type3 Female Body variants.
 Roberts_NewVegas.esp
 Sack of Holding-NV.esp
 SBVenomousArmor.esp
