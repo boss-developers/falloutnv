@@ -1429,6 +1429,7 @@ SpookyJ's LngRng GRifle.esp
 Tactical Weapon Pack.esp
 that gun 556.esp
 that gun 44 mag.esp
+The Sword of a Thousand Truths.esp
 ThirdLeg.esp
 Throwing Ninja's Weapon.esp
 Usableservice.esp
@@ -1679,6 +1680,8 @@ Mo'SunnyCompanion.esp
 : Sunny Smiles Companion.
 Mo'Uniques.esp
 nokarmalossforstealing.esp
+nv_hats_repair.esp
+nv_hats_repair_morehealth.esp
 NVR - GUI - Silent Challenges.esp
 NVR - GUI - Silent Karma.esp
 Repair.esp
@@ -1689,8 +1692,7 @@ Realistic_Repair_v062.esp
 Realistic_Repair_NV.esp
 Stealing -1 Karma.esp
 TheRocKarma.esp
-nv_hats_repair.esp
-nv_hats_repair_morehealth.esp
+VRC.esp
 \EndGroup\\
 
 \BeginGroup\: Companions
