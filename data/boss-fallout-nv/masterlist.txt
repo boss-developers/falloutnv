@@ -159,6 +159,7 @@ Followers+NCR=Alliance.fix.esp
 FreesideKingsGiftGiverFix.esp
 FreesideKingsGiftGiverFix14Days.esp
 FreesideKingsGiftGiverFix999Days.esp
+headgearfix.esp
 IsolatingVirusFix.esp
 JBrightExodusFix.esp
 Lucky38ContainersFix.esp
@@ -205,7 +206,10 @@ PO10mmFix.esp
 \-----------
 DarNifiedUINV.esp
 The Chicken and the Egg.esp
+RX-Auto Incremental Save.esp
+? Do not use with CASM; has the same purpose.
 CASM.esp
+? Do not use with Auto Incremental Save; has the same purpose.
 Achievement Remover.esp
 Arwen_Camera.esp
 ASEF - Project Nevada Dynamic Crosshair Patch.esp
@@ -224,6 +228,7 @@ HUD Extended.esp
 HUD Extended - Ambient Temperature.esp
 : Ambient Temperature.esm
 LessIntrusiveKillCam.esp
+IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
 NewVegasOM_2.2.esp
 NVORganizedItems.esp
@@ -342,6 +347,7 @@ NiptonFixes.esp
 NCR Doggy Buddies.esp
 NCR Doggy Buddies - Alsatian.esp
 NCR Doggy Buddies - Leather Armor.esp
+NCR Rearmed.esp
 NPCsUseAmoo.esp
 NV Ghouls Revenge - Increased Numbers.esp
 NV Ghouls Revenge - Resurrection.esp
@@ -906,6 +912,7 @@ Zombie Apocalypse.esp
 1ASS RPG, Clean.esp
 1ASS RPG, Extra.esp
 AlternativeSniperPerk.esp
+Boones Spotter Perk Enhanced.esp
 ChildAtHeartPerk.esp
 Calm_Heart_Fix.esp
 Free Wild Wasteland.esp
@@ -1448,6 +1455,8 @@ Advanced Recon Armor-No Stealth Field.esp
 Advanced Recon Armor-Predator Mode.esp
 Advanced Recon Armor-Stealth With Drawn Weapon.esp
 Advanced Recon Range Finder.esp
+Advanced Recon Tech - Fiendish Power Armor.esp
+? Merged into nVamp -Advanced Mod Project.  Do not use both at the same time.
 AG All-Purpose Science Suit 100.esp
 AL Black Corsetry and Blanc dress.esp
 AirForceArmorT57C.esp
@@ -1477,9 +1486,11 @@ Classic Midwestern Power Armor.esp
 ClassicPowerArmorPulseRifle.esp
 Clearhelmets4radsuits.esp
 COL - Liena's Armour.esp
+Colossus NV.esp
 CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Crazyeyesreaper T51b Variety Pack.esp
+Dark Justice Duster.esp
 Dark Mercenary Gear.esp
 Dark Temptress.esp
 DarkStalker Outfit.esp 
@@ -1518,6 +1529,8 @@ Female t51-b PA.esp
 Fiendish Power Armor - Thermal Nightvision.esp
 Fiendish Power Armor-Doc Mitchells.esp
 Fiendish Power Armor.esp
+Fiendish Power Armor - Project Nevada.esp
+? Merged into nVamp - New Vegas Mod Project.  Do not use together.
 FlashlightNVSE.esp
 Free Tribal Outfits.esp
 Geonox_Riot_Armor.esp
@@ -1557,6 +1570,8 @@ My Cloth Collection NV.esp
 Neckchains.esp
 NeutralPowerArmor.esp
 NEVECbodysuit.esp
+Nidaoutfitv1.esp
+? Designed for the Type3 Female Body Replacer variants.
 NimrodDresses.esp
 NinjaHeadbandNV_Balanced.esp
 NinjaHeadbandNV_Powerful.esp
@@ -1634,6 +1649,8 @@ WearGloves.esp
 
 \BeginGroup\: Cosmetics
 \-----------
+Armor by Race w Undies.esp
+Body by Race.esp
 headgearfix.esp
 Lore version.esp
 : New Vegas Redesigned.esm
