@@ -19,6 +19,8 @@
 \------------
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+iHUD.esm
+: New Vegas Script Extender
 AmmoSpreadEffectFixer.esm
 ClassicPack.esm
 MercenaryPack.esm
@@ -442,6 +444,8 @@ SadiesSundries.esp
 Schoolhouse Base.esp 
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
+Selective Fire - FO3 Weapons Restoration.esp
+: Selective Fire.esm
 Silverpeak Bunker.esp
 sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
