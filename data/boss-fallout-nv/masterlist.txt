@@ -78,6 +78,8 @@ Thermal Vision.esm
 VMods - Master.esm
 RH_IRONSIGHTS_NV.esm
 wsex.esm
+AccuRifles.esm
+: NVSE
 \ nVamp stuff
 CINEMATECH.esm
 rePopulated Wasteland.esm
@@ -217,6 +219,7 @@ Arwen_Camera.esp
 ASEF - Project Nevada Dynamic Crosshair Patch.esp
 Automated Reloading Bench.esp
 BetterLoadingText.esp
+Better Performance for Older PCs - Bundle.esp
 BIS - Brumbek's Inventory Sorting.esp
 BIS - More Cactus Water Recipes.esp
 Centered 3rd Person Camera.esp
@@ -390,7 +393,10 @@ Bungalow Home.esp
 Dalls_Birds_Nest.esp
 Dalls_Lodger.esp
 Dan's Presidential Upgrade.esp
+CleanFreeside.esp
+Clean Goodsprings.esp
 clean McCarran.esp
+Clean Strip.esp
 CKvendor.esp
 FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
@@ -424,6 +430,7 @@ My Goodsprings Home.esp
 Mojave Outpost - Revamp.esp
 NCR Embassy-Revamp.esp
 NCR Outpost.esp
+NiceFreeside.esp
 Novac Hotel Suite Upgrade.esp
 BobblehuntNovacSuite.esp
 NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
@@ -823,9 +830,11 @@ Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Arwen_NV_Realism_Core.esp
 % {{BASH: Stats}}
 Arwen FOV patch.esp 
-BallanceMod.esp 
+BallanceMod.esp
+DeadlierExplosivesNV.esp
 Fallout - New FPS (Medium).esp
 Fallout - New FPS (Extreme).esp
+Light My Flare.esp
 Realistic Health - Medium.esp
 Realistic Health - Extreme.esp
 Realistic Health - Maximum.esp
@@ -891,6 +900,7 @@ Goodsprings Filler.esp
 Goodsprings Goodstart.esp
 SilentStruggleV1.esp
 Identity Crisis Part I - Silent Struggle V2.esp
+Identity Crisis Part 2 - Long Night.esp
 Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
@@ -1462,6 +1472,7 @@ Advanced Recon Armor-Stealth With Drawn Weapon.esp
 Advanced Recon Range Finder.esp
 Advanced Recon Tech - Fiendish Power Armor.esp
 ? Merged into nVamp -Advanced Mod Project.  Do not use both at the same time.
+Advanced Recon Gear - Project Nevada.esp
 AG All-Purpose Science Suit 100.esp
 AL Black Corsetry and Blanc dress.esp
 AirForceArmorT57C.esp
@@ -1847,8 +1858,6 @@ FeelingIrradiated-IS.esp
 4Aces Gameplay.esp
 _glaunch_explosion.esp
 aaaJNFSniperZooming.esp
-AccuRifles.esm
-: NVSE
 Automatic Inventory.esp
 Balance mod - 10% XP Gain.esp
 Balance mod - 50% XP Gain.esp
@@ -2174,6 +2183,7 @@ WME - Ironsights.esp
 WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
 WME - WorldofPain.esp
+Mo'WME.esp
 Mod Loot - 2. Reasonably Rare (WME).esp
 RH_IronSights_NV_NewWeapons.esp
 : RH_IRONSIGHTS_NV.esm
@@ -2201,6 +2211,8 @@ Mail Order Catalogs WMX.esp
 : WeaponModsExpanded.esp
 " Mail Order Catalogs WMX PopUp.esp
 mypatch.esp
+NV Scopes WME Compability.esp
+: Weapon Mod expansion.esp
 \EndGroup\\
 
 \BeginGroup\: nVamp
