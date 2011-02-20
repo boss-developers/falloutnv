@@ -107,6 +107,7 @@ ELECTRO-CITY - CompletedWorkorders.esm
 ELECTRO-CITY - Highways and Byways.esm
 nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
+? Old, consider upgrading to nVamp version 0.15
 \ nVamp end
 VMods - Master.esm
 New Vegas Redesigned.esm
@@ -2218,24 +2219,37 @@ NV Scopes WME Compability.esp
 \BeginGroup\: nVamp
 \-----------
 nVamp - Tales from the Burning Sands.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - A World of Pain.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - Caliber.esp
 nVamp - Classic Fallout Weapons.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - New Vegas Bounties.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - Caesars Legion Overhaul.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - More Perks.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - XFO.esp
 nVamp - Increased Wasteland Spawns.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - Effects and Graphics.esp
 ? OPTIONAL FOR GRAPHICAL OVERHAUL
+? Old, consider upgrading to nVamp version 0.15
 nVamp - Superior Firepower.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - Weapon Mod Expansion.esp
 nVamp - Combat Enhancement.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - Game Fixes.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp - Core.esp
 nVamp - Vaernus's Voracious Vermin.esp
+? Old, consider upgrading to nVamp version 0.15
 nVamp – More Hardcore.esp
 ? OPTIONAL FOR MORE HARDCORE EXPERIENCE
+? Old, consider upgrading to nVamp version 0.15
 nVamp – EasierAI.esp
 ? Use either nVamp – EasierAI.esp or nVamp - HarderAI.esp, not both.
 nVamp - HarderAI.esp
