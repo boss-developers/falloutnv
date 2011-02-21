@@ -2013,6 +2013,8 @@ pipboyx3.esp
 pipboyx4.esp
 pipboyx5.esp
 pipboyx6.esp
+Project Nevada - FPSWeaponWheel.esp
+: Project Nevada - Core.esm and FNVToolkit.esm
 Colored Piplight - White.esp
 Piplight Brightness - 200%.esp
 Piplight Brightness - 400%.esp
