@@ -88,6 +88,7 @@ IWS-Core.esm
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
+decwithreg.esm
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
 Project Nevada - Core.esm
@@ -105,6 +106,23 @@ FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 ELECTRO-CITY - CompletedWorkorders.esm
 ELECTRO-CITY - Highways and Byways.esm
+nVamp â€“ Very Voracious Vermin.esm
+nVamp â€“ Really Awesome Travels.esm
+nVamp â€“ Pathway To Glory.esm
+nVamp â€“ Art Of War.esm
+nVamp â€“ Gizmos nâ€™ Gadgets.esm
+nVamp â€“ Effects nVamped.esm
+? Optional for the nVamp graphics effects.
+nVamp â€“ Hardcore nVamped.esm
+: Separate resource files.
+? Optional for a more difficult experience.
+nVamp â€“ Hardcore Really nVamped.esm
+: nVamp â€“ Hardcore nVamped.esm, nVamp â€“ Hardcore nVamped.esp and optional resource files.
+? Optional for a more difficult experience.
+nVamp â€“ Combat nVamped.esm
+nVamp â€“ More Of Everything.esm
+nVamp â€“ Performance nVamped.esm
+? Optional file designed to increase game performance for those with older computers.
 nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
 ? Old, consider upgrading to nVamp version 0.15
@@ -519,6 +537,7 @@ HAM-SixHands.esp
 \-----------
 FOOK - New Vegas.esp
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+FOOK - Lings.esp
 Selective Fire - FOOK NV.esp
 : FOOK - New Vegas.esm
 CFWNV-FOOK.esp 
@@ -1713,6 +1732,8 @@ VRC.esp
 
 \BeginGroup\: Companions
 \-----------
+Cassidy0.4E.esp
+Veronica0.6E.esp
 A Present For Boone.esp
 AllCompanionsEssential.esp
 AllCompanionsEssential 2.0.esp
@@ -2222,7 +2243,6 @@ nVamp - Tales from the Burning Sands.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - A World of Pain.esp
 ? Old, consider upgrading to nVamp version 0.15
-nVamp - Caliber.esp
 nVamp - Classic Fallout Weapons.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - New Vegas Bounties.esp
@@ -2232,6 +2252,8 @@ nVamp - Caesars Legion Overhaul.esp
 nVamp - More Perks.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - XFO.esp
+nVamp â€“ PMT.esp
+nVamp - Caliber.esp
 nVamp - Increased Wasteland Spawns.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Effects and Graphics.esp
@@ -2240,20 +2262,41 @@ nVamp - Effects and Graphics.esp
 nVamp - Superior Firepower.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Weapon Mod Expansion.esp
+: Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
+nVamp â€“ Weapon Mods Expanded.esp
+: WeaponModsExpanded.esp
+nVamp â€“ Settings.esp
 nVamp - Combat Enhancement.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Game Fixes.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Core.esp
+nVamp â€“ Very Voracious Vermin.esp
+nVamp â€“ VVV â€“ Bosses.esp
+? Optional component of nVamp.
+nVamp â€“ VVV â€“ Glowy Creatures.esp
+? Optional component of nVamp.
+nVamp â€“ Effects nVamped.esp
+: nVamp â€“ Effects nVamped.esm
+? Optional for nVamp's graphics overhaul.
+nVamp â€“ Performance nVamped.esp
+: nVamp â€“ Performance nVamped.esm
+? Optional to increase game performance for those with older computers.
+nVamp â€“ Hardcore nVamped.esp
+: nVamp â€“ Hardcore nVamped.esm and separate resource files.
+? Optional for a more difficult experience.
+nVamp â€“ Hardcore Really nVamped.esp
+: nVamp â€“ Hardcore nVamped.esm, nVamp â€“ Hardcore Really nVamped.esm and nVamp â€“ Hardcore nVamped.esp
+? Optional for a more difficult experience.
 nVamp - Vaernus's Voracious Vermin.esp
 ? Old, consider upgrading to nVamp version 0.15
-nVamp – More Hardcore.esp
+nVamp â€“ More Hardcore.esp
 ? OPTIONAL FOR MORE HARDCORE EXPERIENCE
 ? Old, consider upgrading to nVamp version 0.15
-nVamp – EasierAI.esp
-? Use either nVamp – EasierAI.esp or nVamp - HarderAI.esp, not both.
+nVamp â€“ EasierAI.esp
+? Use either nVamp â€“ EasierAI.esp or nVamp - HarderAI.esp, not both.
 nVamp - HarderAI.esp
-? Use either nVamp – EasierAI.esp or nVamp - HarderAI.esp, not both.
+? Use either nVamp â€“ EasierAI.esp or nVamp - HarderAI.esp, not both.
 \EndGroup\\
 
 \BeginGroup\: Pose mods
