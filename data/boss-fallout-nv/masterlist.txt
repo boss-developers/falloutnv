@@ -106,22 +106,22 @@ FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
 ELECTRO-CITY - CompletedWorkorders.esm
 ELECTRO-CITY - Highways and Byways.esm
-nVamp â€“ Very Voracious Vermin.esm
-nVamp â€“ Really Awesome Travels.esm
-nVamp â€“ Pathway To Glory.esm
-nVamp â€“ Art Of War.esm
-nVamp â€“ Gizmos nâ€™ Gadgets.esm
-nVamp â€“ Effects nVamped.esm
+nVamp - Very Voracious Vermin.esm
+nVamp - Really Awesome Travels.esm
+nVamp - Pathway To Glory.esm
+nVamp - Art Of War.esm
+nVamp - Gizmos nâ€™ Gadgets.esm
+nVamp - Effects nVamped.esm
 ? Optional for the nVamp graphics effects.
-nVamp â€“ Hardcore nVamped.esm
+nVamp - Hardcore nVamped.esm
 : Separate resource files.
 ? Optional for a more difficult experience.
-nVamp â€“ Hardcore Really nVamped.esm
-: nVamp â€“ Hardcore nVamped.esm, nVamp â€“ Hardcore nVamped.esp and optional resource files.
+nVamp - Hardcore Really nVamped.esm
+: nVamp - Hardcore nVamped.esm, nVamp - Hardcore nVamped.esp and optional resource files.
 ? Optional for a more difficult experience.
-nVamp â€“ Combat nVamped.esm
-nVamp â€“ More Of Everything.esm
-nVamp â€“ Performance nVamped.esm
+nVamp - Combat nVamped.esm
+nVamp - More Of Everything.esm
+nVamp - Performance nVamped.esm
 ? Optional file designed to increase game performance for those with older computers.
 nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
@@ -916,6 +916,7 @@ FreeplayafterMQNVv1_6.esp
 Free Play after MQ.esp
 Goodsprings Filler.esp
 Goodsprings Goodstart.esp
+HarderThan.esp
 SilentStruggleV1.esp
 Identity Crisis Part I - Silent Struggle V2.esp
 Identity Crisis Part 2 - Long Night.esp
@@ -2252,7 +2253,7 @@ nVamp - Caesars Legion Overhaul.esp
 nVamp - More Perks.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - XFO.esp
-nVamp â€“ PMT.esp
+nVamp - PMT.esp
 nVamp - Caliber.esp
 nVamp - Increased Wasteland Spawns.esp
 ? Old, consider upgrading to nVamp version 0.15
@@ -2263,40 +2264,40 @@ nVamp - Superior Firepower.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
-nVamp â€“ Weapon Mods Expanded.esp
+nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
-nVamp â€“ Settings.esp
+nVamp - Settings.esp
 nVamp - Combat Enhancement.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Game Fixes.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Core.esp
-nVamp â€“ Very Voracious Vermin.esp
-nVamp â€“ VVV â€“ Bosses.esp
+nVamp - Very Voracious Vermin.esp
+nVamp - VVV - Bosses.esp
 ? Optional component of nVamp.
-nVamp â€“ VVV â€“ Glowy Creatures.esp
+nVamp - VVV - Glowy Creatures.esp
 ? Optional component of nVamp.
-nVamp â€“ Effects nVamped.esp
-: nVamp â€“ Effects nVamped.esm
+nVamp - Effects nVamped.esp
+: nVamp - Effects nVamped.esm
 ? Optional for nVamp's graphics overhaul.
-nVamp â€“ Performance nVamped.esp
-: nVamp â€“ Performance nVamped.esm
+nVamp - Performance nVamped.esp
+: nVamp - Performance nVamped.esm
 ? Optional to increase game performance for those with older computers.
-nVamp â€“ Hardcore nVamped.esp
-: nVamp â€“ Hardcore nVamped.esm and separate resource files.
+nVamp - Hardcore nVamped.esp
+: nVamp - Hardcore nVamped.esm and separate resource files.
 ? Optional for a more difficult experience.
-nVamp â€“ Hardcore Really nVamped.esp
-: nVamp â€“ Hardcore nVamped.esm, nVamp â€“ Hardcore Really nVamped.esm and nVamp â€“ Hardcore nVamped.esp
+nVamp - Hardcore Really nVamped.esp
+: nVamp - Hardcore nVamped.esm, nVamp - Hardcore Really nVamped.esm and nVamp - Hardcore nVamped.esp
 ? Optional for a more difficult experience.
 nVamp - Vaernus's Voracious Vermin.esp
 ? Old, consider upgrading to nVamp version 0.15
-nVamp â€“ More Hardcore.esp
+nVamp - More Hardcore.esp
 ? OPTIONAL FOR MORE HARDCORE EXPERIENCE
 ? Old, consider upgrading to nVamp version 0.15
-nVamp â€“ EasierAI.esp
-? Use either nVamp â€“ EasierAI.esp or nVamp - HarderAI.esp, not both.
+nVamp - EasierAI.esp
+? Use either nVamp - EasierAI.esp or nVamp - HarderAI.esp, not both.
 nVamp - HarderAI.esp
-? Use either nVamp â€“ EasierAI.esp or nVamp - HarderAI.esp, not both.
+? Use either nVamp - EasierAI.esp or nVamp - HarderAI.esp, not both.
 \EndGroup\\
 
 \BeginGroup\: Pose mods
