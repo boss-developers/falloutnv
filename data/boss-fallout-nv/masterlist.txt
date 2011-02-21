@@ -1373,6 +1373,8 @@ F03weaponpack_v1_0.esp
 FO3WeaponsRestoration.esp
 Selective Fire - FO3 Weapons Restoration.esp
 : Selective Fire.esm and FO3WeaponsRestoration.esp
+Selective Fire - Classic Fallout Weapons NV.esp
+: Selective Fire.esm and CFWNV.esm
 fownv - Sonic Screwdriver 1.0.esp
 G36C.esp
 Glow Sticks.esp
