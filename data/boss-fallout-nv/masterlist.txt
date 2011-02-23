@@ -21,6 +21,8 @@ FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 iHUD.esm
 : New Vegas Script Extender
+Ambient Temperature.esm
+DeadMoney.esm
 AmmoSpreadEffectFixer.esm
 ClassicPack.esm
 MercenaryPack.esm
@@ -28,12 +30,12 @@ TribalPack.esm
 CaravanPack.esm
 RBX.esm
 ? Needs to be before any mod using a reloading bench including a lot of house mods.
+FNVToolkit.esm
 20th Century Weapons.esm
 Achievement Remover.ESM
 Active Wasteland.esm
 Advanced Recon Tech.esm
 Alice Armor.esm
-Ambient Temperature.esm
 BinocularsOverhaul.esm
 BoulderCityFaceliftProject.esm
 CALIBR.esm
@@ -46,7 +48,6 @@ Docs Sexy Nurse.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
-FNVToolkit.esm
 Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 HAM-Spawns.esm
