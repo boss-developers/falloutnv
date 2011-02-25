@@ -19,8 +19,6 @@
 \------------
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
-iHUD.esm
-: New Vegas Script Extender
 Ambient Temperature.esm
 DeadMoney.esm
 AmmoSpreadEffectFixer.esm
@@ -37,7 +35,6 @@ Active Wasteland.esm
 Advanced Recon Tech.esm
 Alice Armor.esm
 BinocularsOverhaul.esm
-BoulderCityFaceliftProject.esm
 CALIBR.esm
 CHEMS.esm
 CompanionInfAmmo.esm
@@ -53,6 +50,7 @@ Goodsprings Hideout.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
+IWR.esm
 LW Companion.esm
 ? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
 Military Explansion Program.esm
@@ -81,32 +79,35 @@ RH_IRONSIGHTS_NV.esm
 wsex.esm
 AccuRifles.esm
 : NVSE
-\ nVamp stuff
-CINEMATECH.esm
 rePopulated Wasteland.esm
+\ nVamp stuff
 IWS-Core.esm
 % {{BASH: Delev,Relev}}
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
 decwithreg.esm
+BoulderCityFaceliftProject.esm
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
-Project Nevada - Core.esm
-Caliber.esm
-Mo'.esm
-: CaliberX and NVSE Beta 6 or newer.
-CFWNV.esm
 More Perks.esm
 More Perks for Companions.esm
 More Traits.esm
 More Challenges.esm
+Project Nevada - Core.esm
+iHUD.esm
+: New Vegas Script Extender
+ELECTRO-CITY - CompletedWorkorders.esm
+ELECTRO-CITY - Highways and Byways.esm
+CINEMATECH.esm
+Caliber.esm
+CFWNV.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
-ELECTRO-CITY - CompletedWorkorders.esm
-ELECTRO-CITY - Highways and Byways.esm
+Mo'.esm
+: CaliberX and NVSE Beta 6 or newer.
 nVamp - Very Voracious Vermin.esm
 nVamp - Really Awesome Travels.esm
 nVamp - Pathway To Glory.esm
@@ -128,6 +129,8 @@ nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
 ? Old, consider upgrading to nVamp version 0.15
 \ nVamp end
+WME - Dead Money.esm
+: Dead Money.esm
 VMods - Master.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces,Hair,Eyes,Body-M,Body-F}}
@@ -252,6 +255,7 @@ Further3rdPersonCamera.esp
 HUD Extended.esp
 HUD Extended - Ambient Temperature.esp
 : Ambient Temperature.esm
+IWR - Rebuilt.esp
 LessIntrusiveKillCam.esp
 IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
@@ -705,6 +709,7 @@ PMT - Total Challenge Remover.esp
 PMT - Reduced Challenge Notifications.esp
 " PMT - Total Challenge Remover.esp
 PMT - Sound Fixes.esp
+nVamp - PMT.esp
 \EndGroup\\
 
 \BeginGroup\: Reload
@@ -748,10 +753,10 @@ Superior Firepower - New Weaponry.esp
 Superior Firepower - Alternate Energy Ammo.esp
 Lesser Superior Firepower - Alternate Energy Ammo.esp
 Greater Superior Firepower - Alternate Energy Ammo.esp
-
 Superior Firepower - Factional Changes.esp
 % {{BASH: Delev,Relev}}
 Superior Firepower - Leveled Lists Fix.esp
+nVamp - Caliber.esp
 \EndGroup\\
 
 \BeginGroup\: XFO NV - The New Vegas Overhaul
@@ -837,6 +842,7 @@ XFO - 10ac - Hardcore - Hunger&Thirst - High (5x) .esp
 XFO - 10ad - Hardcore - Hunger&Thirst - Easier (Half).esp
 XFO - 10b - Hardcore - Food&Drink (no healing).esp
 XFO - 10c - Hardcore - Severe Penalties.esp
+nVamp - XFO.esp
 \EndGroup\\
 
 \BeginGroup\: Other
@@ -1137,6 +1143,7 @@ old vaquero includes that gun.esp
 Open Sesame.esp
 Permanent Skill Mags.esp
 Permanent Skill Mags - Item Sorter.esp
+Pipboy2500.esp
 Plausible Starting Outfit.esp
 populatedcasino.esp
 populatedcasino-medium.esp
@@ -2151,6 +2158,8 @@ RH_IronSights_NV_Vanilla.esp
 % {{BASH: Graphics}}
 WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm
+nVamp - Weapon Mods Expanded.esp
+: WeaponModsExpanded.esp
 BIS - Weapon Mods Expanded (WMX).esp
 : WeaponModsExpanded.esp
 WMX-AWOP Patch.esp
@@ -2170,6 +2179,10 @@ Recharger Weapons Rebalance WMX.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
+WME - Dead Money.esp
+: Dead Money.esm
+nVamp - Weapon Mod Expansion.esp
+: Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
 WME - Arwen Core.esp
 " Weapon Mod Expansion.esp
 % {{BASH: Graphics,Names,Stats,WeaponMods}}
@@ -2257,9 +2270,6 @@ nVamp - Caesars Legion Overhaul.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - More Perks.esp
 ? Old, consider upgrading to nVamp version 0.15
-nVamp - XFO.esp
-nVamp - PMT.esp
-nVamp - Caliber.esp
 nVamp - Increased Wasteland Spawns.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Effects and Graphics.esp
@@ -2267,10 +2277,6 @@ nVamp - Effects and Graphics.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Superior Firepower.esp
 ? Old, consider upgrading to nVamp version 0.15
-nVamp - Weapon Mod Expansion.esp
-: Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
-nVamp - Weapon Mods Expanded.esp
-: WeaponModsExpanded.esp
 nVamp - Settings.esp
 nVamp - Combat Enhancement.esp
 ? Old, consider upgrading to nVamp version 0.15
@@ -2278,24 +2284,28 @@ nVamp - Game Fixes.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Core.esp
 nVamp - Very Voracious Vermin.esp
-nVamp - HalfSpeed.esp
-? Use either nVamp – HalfSpeed.esp or nVamp - VanillaSpeed.esp, not both.
-nVamp - VanillaSpeed.esp
-? Use either nVamp – HalfSpeed.esp or nVamp - VanillaSpeed.esp, not both.
 nVamp - VVV - Bosses.esp
 ? Optional component of nVamp.
 nVamp - VVV - Glowy Creatures.esp
 ? Optional component of nVamp.
-nVamp - VVV - Low Spawns.esp
-? Use either nVamp - VVV - Low Spawns.esp or nVamp - VVV - Med Spawns.esp, not both.
-nVamp - VVV - Med Spawns.esp
-? Use either nVamp - VVV - Low Spawns.esp or nVamp - VVV - Med Spawns.esp, not both.
 nVamp - Effects nVamped.esp
 : nVamp - Effects nVamped.esm
 ? Optional for nVamp's graphics overhaul.
 nVamp - Performance nVamped.esp
 : nVamp - Performance nVamped.esm
 ? Optional to increase game performance for those with older computers.
+nVamp - HalfSpeed.esp
+? Use either nVamp – HalfSpeed.esp or nVamp - VanillaSpeed.esp, not both.
+nVamp - VanillaSpeed.esp
+? Use either nVamp – HalfSpeed.esp or nVamp - VanillaSpeed.esp, not both.
+nVamp - EasierAI.esp
+? Use either nVamp - EasierAI.esp or nVamp - HarderAI.esp, not both.
+nVamp - HarderAI.esp
+? Use either nVamp - EasierAI.esp or nVamp - HarderAI.esp, not both.
+nVamp - VVV - Low Spawns.esp
+? Use either nVamp - VVV - Low Spawns.esp or nVamp - VVV - Med Spawns.esp, not both.
+nVamp - VVV - Med Spawns.esp
+? Use either nVamp - VVV - Low Spawns.esp or nVamp - VVV - Med Spawns.esp, not both.
 nVamp - Hardcore nVamped.esp
 : nVamp - Hardcore nVamped.esm and separate resource files.
 ? Optional for a more difficult experience.
@@ -2307,10 +2317,6 @@ nVamp - Vaernus's Voracious Vermin.esp
 nVamp - More Hardcore.esp
 ? OPTIONAL FOR MORE HARDCORE EXPERIENCE
 ? Old, consider upgrading to nVamp version 0.15
-nVamp - EasierAI.esp
-? Use either nVamp - EasierAI.esp or nVamp - HarderAI.esp, not both.
-nVamp - HarderAI.esp
-? Use either nVamp - EasierAI.esp or nVamp - HarderAI.esp, not both.
 \EndGroup\\
 
 \BeginGroup\: Pose mods
