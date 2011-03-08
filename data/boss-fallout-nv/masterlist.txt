@@ -41,6 +41,7 @@ CompanionInfAmmo.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
 Decrucifixion.esm
+Detect Traps.esm
 Docs Sexy Nurse.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
@@ -106,6 +107,7 @@ Weapon Mod Expansion.esm
 % {{BASH: Names}}
 FOOK - New Vegas.esm
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+FOOK - New Vegas DLCs.esm
 Mo'.esm
 : CaliberX and NVSE Beta 6 or newer.
 nVamp - Very Voracious Vermin.esm
@@ -178,6 +180,7 @@ Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
 ? Obsolete with latest patch
+FatigueWeaponsFix.esp
 Fix - Boulder City Negotiator.esp
 Fix - Laser Rifle Beam Splitter Item Mod (v2).esp
 FNV-BeardEyebrowFixV1_0.esp
@@ -458,6 +461,9 @@ NiceFreeside.esp
 Novac Hotel Suite Upgrade.esp
 BobblehuntNovacSuite.esp
 NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
+StripOpenNPCs.esp
+NewVegasStripOverhaul.esp
+: StripOpenNPCs.esp
 NovacMotelroom.esp
 NoVac 4.0_eng.esp
 NoVac 4.0_ger.esp
@@ -468,6 +474,8 @@ NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
 Portable Tent.esp
 Realistic Portable Tent.esp
+return_deadmoney.esp
+: DeadMoney.esm
 PoseidonResearchFacility.esp
 RedRockRanch.esp
 RustTownV1-1.esp
@@ -484,6 +492,7 @@ vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
 UHNV.esp
+UHNV-Bobblehunt.esp
 UHNV-ARB Patch.esp
 UHNV-Performance-Patch.esp
 UHNV-IncreasedLighting.esp
@@ -542,6 +551,8 @@ HAM-SixHands.esp
 \-----------
 FOOK - New Vegas.esp
 % {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+FOOK - No Loose Files.esp
+FOOK - New Vegas DLCs.esp
 FOOK - Lings.esp
 Selective Fire - FOOK NV.esp
 : FOOK - New Vegas.esm
@@ -955,6 +966,7 @@ AlternativeSniperPerk.esp
 Boones Spotter Perk Enhanced.esp
 ChildAtHeartPerk.esp
 Calm_Heart_Fix.esp
+Detect Traps - Perk.esp
 Free Wild Wasteland.esp
 FreakinLaserBeams_Perk_1_2.esp
 FreakinLaserBeams_Perk_Light_1_2.esp
@@ -1057,6 +1069,9 @@ Cliff's Empty Drinkable Bottles.esp
 Decrucifixion.esp
 Decrucifixion - More Victims.esp
 Desaturated Cateye.esp
+Detect Traps - Traponator 4000.esp
+Detect Traps - Dead Money.esp
+: DeadMoney.esm
 DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
 Double Turbo.esp
@@ -1221,6 +1236,7 @@ StealthBoyEnhanced.esp
 Stocked38 .esp
 Tag Skills Improved.esp
 that gun holdout.esp
+theHeroNV_1.1.esp
 VisualDrugs.esp
 VMods.esp
 Weight8000.esp
@@ -1251,6 +1267,9 @@ CHEMS - Basic Chems.esp
 Craft Overhaul 1.1.esp
 Craftable Stealth boys.esp
 CRFTOven.esp
+DeadMoneyJunkRoundsRedux.esp
+: Dead Money.esm
+Dire Contraptions.esp
 Dynamic Herbalism.esp
 " Bountiful Harvest.esp
 EMP Ammo Expansion.esp
@@ -1322,6 +1341,7 @@ AA12.esp
 ACR.esp
 Advanced Recon Gear.esp
 Advanced Recon Tech.esp
+Advanced Recon Tech - Detect Traps.esp
 Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 AEVegas.esp
@@ -1460,6 +1480,7 @@ P90Nana-set.esp
 R700.esp
 RAKatanasMod.esp
 RHINO45-70_NV.esp
+RHINO45-70MX_NV.esp
 RWIE Classic Pack.esp
 SAW M249.esp
 ShinohaiOuka.esp
@@ -1579,6 +1600,8 @@ Fiendish Power Armor.esp
 Fiendish Power Armor - Project Nevada.esp
 ? Merged into nVamp - New Vegas Mod Project.  Do not use together.
 FlashlightNVSE.esp
+Project Nevada - FlashlightNVSE.esp
+: FlashlightNVSE.esp
 Free Tribal Outfits.esp
 Geonox_Riot_Armor.esp
 Geonox_Wasteland_outfits.esp
@@ -1638,6 +1661,7 @@ PimpMyScarf_v2.esp
 PlasmaShields.esp
 Powered Power Armor.esp
 % {{BASH: Deflst}}
+Project Nevada - Desert Armor Patch.esp
 Ambient Temperature - PPA.esp
 Power Armour is Powered.esp
 PURELUST_port.esp
@@ -1773,6 +1797,7 @@ Cass Passive Fix.esp
 " Cass Passive Fix 2 Option.esp
 Cass Passive Fix 2 Option.esp
 " Cass Passive Fix.esp
+drgNV - Marcus Companion.esp
 drgNV - Melissa Companion (Lings Hairstyle Add-On).esp
 drgNV - Melissa Companion (Recruitment Fix).esp
 drgNV - Melissa Companion.esm
@@ -1865,8 +1890,11 @@ Grays_EverybodyBleeds.esp
 " Moddable Unique Weps.esm
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
+Master of Throwing.esp
+Craft Throwing weapons.esp
 BIS - T3T_MiscItemIconsNV 0.7.esp
 : T3T_MiscItemIconsNV.esp
+Scrap the crap.esp
 ShilohDS-Color Maps and Icons.esp
 Sorter - Combined.esp
 % {{BASH: Names}}
@@ -1891,6 +1919,7 @@ FeelingIrradiated-IS.esp
 4Aces Gameplay.esp
 _glaunch_explosion.esp
 aaaJNFSniperZooming.esp
+Arwen_NV_Hard-Core.esp
 Automatic Inventory.esp
 Balance mod - 10% XP Gain.esp
 Balance mod - 50% XP Gain.esp
@@ -1969,6 +1998,7 @@ HJLLessDismembermentAndExplosionsv100.esp
 Imp's More Complex Needs.esp
 Imp's More Complex Needs - JA - SORTED.esp
 IMCNNV - Sorted.esp
+Improved Stealth Boy.esp
 Ambient Temperature - IMCNNV.esp
 IMCNNV - HUD and Hotkeys.esp
 MyFirstCookbook - IMCN compatibility.esp
@@ -1990,6 +2020,8 @@ LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
 Melee Lock-On.esp
 More Damage To Player.esp
+More Realistic Aiming.esp
+: NVSE
 move.base.speed.100.esp
 move.base.speed.125.esp
 move.base.speed.150.esp
@@ -2031,6 +2063,8 @@ Quest Items - Non-Essential and Categorised.esp
 Quicker PipBoy Light-0_2Sec.esp
 Quicker PipBoy Light-0_4Sec.esp
 RandomExtraTrapsNV.esp
+Reactive People - Ultimatum.esp
+: NVSE
 Realistic death.esp
 Realistic Death & Dismemberment Physics.esp
 Realistic Death Impulse.esp
@@ -2039,6 +2073,7 @@ realistic headshots.esp
 realistic headshots VATS.esp
 Realistic Ingestible Metabolic Effects.esp
 Realistic Weapon Impact Effects.esp
+Realistic Weight Overhaul.esp
 Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
 Sensible Dismemberment.esp
@@ -2049,6 +2084,7 @@ tyfasterwalk.esp
 tyfasterwalk-FR.esp
 tyfasterwalk-FR-N2HRP.esp
 tyfasterwalk-N2HRP.esp
+UnconsciousLooting.esp
 vanilla move.esp
 Vats Longer distance.esp
 VMods.esp
@@ -2158,6 +2194,8 @@ RH_IronSights_NV_Vanilla.esp
 % {{BASH: Graphics}}
 WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm
+WMX-DeadMoney.esp
+: WeaponModsExpanded.esp and DeadMoney.esm
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
 BIS - Weapon Mods Expanded (WMX).esp
@@ -2224,6 +2262,7 @@ WME - Ironsights.esp
 WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
 WME - WorldofPain.esp
+Improved Ballistics Effects V2.esp
 Mo'WME.esp
 Mod Loot - 2. Reasonably Rare (WME).esp
 RH_IronSights_NV_NewWeapons.esp
