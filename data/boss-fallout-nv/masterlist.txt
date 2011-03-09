@@ -19,8 +19,11 @@
 \------------
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+Community Bugfix Compilation Patch.esm
+% {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
 Ambient Temperature.esm
 DeadMoney.esm
+CBC Dead Money Patch.esm
 AmmoSpreadEffectFixer.esm
 ClassicPack.esm
 MercenaryPack.esm
@@ -1384,6 +1387,7 @@ Devil'sMistressReturns.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
 DWDEagle44.esp
+DWHKUMP.esp
 DWM4A1.esp
 DWSpas12.esp
 DWUSP45.esp
@@ -2196,6 +2200,10 @@ WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm
 WMX-DeadMoney.esp
 : WeaponModsExpanded.esp and DeadMoney.esm
+Mail Order Catalogs XFO WMX DLC PopUp.esp
+: WeaponModsExpanded.esp, DeadMoney.esm and WMX-DeadMoney.esp
+WeaponModsExpanded_FO3WeaponsRestoration.esp
+: WeaponModsExpanded.esp and FO3WeaponsRestoration.esp
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
 BIS - Weapon Mods Expanded (WMX).esp
