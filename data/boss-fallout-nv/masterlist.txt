@@ -84,6 +84,7 @@ wsex.esm
 AccuRifles.esm
 : NVSE
 rePopulated Wasteland.esm
+aHUD.esm
 \ nVamp stuff
 IWS-Core.esm
 % {{BASH: Delev,Relev}}
@@ -467,6 +468,7 @@ NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
 StripOpenNPCs.esp
 NewVegasStripOverhaul.esp
 : StripOpenNPCs.esp
+NVSO - ELECTRO-CITY Patch.esp
 NovacMotelroom.esp
 NoVac 4.0_eng.esp
 NoVac 4.0_ger.esp
@@ -1704,6 +1706,7 @@ Toni Outfits.esp
 TheArmorer.esp
 Thermoptic Power Helmets.esp
 Transladatum - E.esp
+TumbaJamba Tactical Gear.esp
 TUPAM-NV.esp
 Type3 Leather Armors.esp
 ? Designed for the Type3 Female Body Replacer.
