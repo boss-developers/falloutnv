@@ -86,6 +86,7 @@ AccuRifles.esm
 rePopulated Wasteland.esm
 aHUD.esm
 \ nVamp stuff
+Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 IWS-Core.esm
 % {{BASH: Delev,Relev}}
 Tales from the Burning Sands.esm
@@ -127,10 +128,14 @@ nVamp - Hardcore nVamped.esm
 nVamp - Hardcore Really nVamped.esm
 : nVamp - Hardcore nVamped.esm, nVamp - Hardcore nVamped.esp and optional resource files.
 ? Optional for a more difficult experience.
+nVamp - Crafted And Dangerous.esm
 nVamp - Combat nVamped.esm
 nVamp - More Of Everything.esm
 nVamp - Performance nVamped.esm
 ? Optional file designed to increase game performance for those with older computers.
+nVamp - Dead Money.esm
+nVamp - Dead Money - WME.esm
+nVamp - Dead Money - WMX.esm
 nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
 ? Old, consider upgrading to nVamp version 0.15
@@ -989,6 +994,7 @@ More Perks.esp
 More Perks Update.esp
 More Perks for Companions Update.esp
 More Traits Update.esp
+More Challenges - Original Challenges Overhaul.esp
 NinjaPerkFix.esp
 Perks per du.esp
 MercGrenadeRifleDemoPyro.esp
@@ -2308,6 +2314,9 @@ NV Scopes WME Compability.esp
 
 \BeginGroup\: nVamp
 \-----------
+nVamp - Dead Money.esp
+nVamp - Dead Money - WME.esp
+nVamp - Dead Money - WMX.esp
 nVamp - Tales from the Burning Sands.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - A World of Pain.esp
@@ -2367,6 +2376,7 @@ nVamp - Vaernus's Voracious Vermin.esp
 nVamp - More Hardcore.esp
 ? OPTIONAL FOR MORE HARDCORE EXPERIENCE
 ? Old, consider upgrading to nVamp version 0.15
+nVamp - VVV + Effects + Optional + DM.esp
 \EndGroup\\
 
 \BeginGroup\: Pose mods
