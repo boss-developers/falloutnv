@@ -20,7 +20,7 @@
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 Community Bugfix Compilation Patch.esm
-% {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
+% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 Ambient Temperature.esm
 DeadMoney.esm
 CBC Dead Money Patch.esm
@@ -88,7 +88,7 @@ aHUD.esm
 \ nVamp stuff
 Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 IWS-Core.esm
-% {{BASH: Delev,Relev}}
+% {{BASH: Delev, Relev}}
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
@@ -111,7 +111,7 @@ CFWNV.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
 FOOK - New Vegas.esm
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+% {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 FOOK - New Vegas DLCs.esm
 Mo'.esm
 : CaliberX and NVSE Beta 6 or newer.
@@ -144,11 +144,11 @@ WME - Dead Money.esm
 : Dead Money.esm
 VMods - Master.esm
 New Vegas Redesigned.esm
-% {{BASH: NpcFaces,Hair,Eyes,Body-M,Body-F}}
+% {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
-% {{BASH: Hair,eyes}}
+% {{BASH: Hair, eyes}}
 MikotoBeauty.esm
-% {{BASH: Hair,eyes}}
+% {{BASH: Hair, eyes}}
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 NosCo Companion System.esm
@@ -166,10 +166,10 @@ SunnyCompanion.esm
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
 Community Bugfix Compilation Patch.esp
-% {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
+% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 " Compiled Patch.esp
 Compiled Patch.esp
-% {{BASH: Actors.AIPackages,Delev,Relev,Sound,Stats,Scripts}}
+% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 " Community Bugfix Compilation Patch.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -304,11 +304,11 @@ Cass_Redux.esp
 Cass_Redux_Mikoto.esp
 Cass V01 -Lings.esp
 Cuter Boone.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 Cuter Boone NEW.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 Cuter Veronica Felicia Day.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 Cuter Veronica Felicia Day-Essential.esp
 % {{BASH: NpcFaces}}
 Dalls_NV_Better_Faces.esp
@@ -323,15 +323,15 @@ K2_NVPresets.esp
 Lore version.esp
 % {{BASH: NpcFaces}}
 MikotoBPCCArcade.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 MikotoBPCCBoone.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 MikotoBPCCCass.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 MikotoBPWastersOverhaul.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 MikotoBPCCFull.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 NewCass.esp
 NewCass1.1.esp
 psychoelfs Boone Shojo.esp
@@ -342,7 +342,7 @@ Psychoelfs Veronica shojo.esp
 Psychoelfs Veronica shojo bms.esp
 Rifulized Veronica.esp
 Raul - Danny Trejo.esp
-% {{BASH: NpcFaces,NoMerge}}
+% {{BASH: NpcFaces, NoMerge}}
 REsLorePackNV.esp
 REsNonLorePackNV.esp
 RivensEyescapesNV.esp
@@ -530,13 +530,13 @@ NewVegasStrip&FreesideMarkers_v2.esp
 \BeginGroup\: BlackCompany HarderCore Pack
 \-----------
 NVHarderCore.esp
-% {{BASH: Names,Stats}}
+% {{BASH: Names, Stats}}
 NVLogicalRepairLists.esp
 NVSettingsTweaks.esp
 NVWastelandUnlocked.esp
-% {{BASH: Delev,Names,Relations,Relev,Stats,WeaponMods}}
+% {{BASH: Delev, Names, Relations, Relev, Stats, WeaponMods}}
 NVWeaponAmmoTweaks.esp
-% {{BASH: Stats,WeaponMods}}
+% {{BASH: Stats, WeaponMods}}
 NVUnnerfed.esp
 \EndGroup\\
 
@@ -560,7 +560,7 @@ HAM-SixHands.esp
 \BeginGroup\: FOOK
 \-----------
 FOOK - New Vegas.esp
-% {{BASH: Deflst,Delev,Graphics,Names,Relev,Sound,Stats,Scripts}}
+% {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 FOOK - No Loose Files.esp
 FOOK - New Vegas DLCs.esp
 FOOK - Lings.esp
@@ -571,7 +571,7 @@ ammo can fix.esp
 AR-15 worth a fook.esp
 FOOK - New Vegas [ForTheLulz].esp
 LinkesAuge - Bug fixing compilation.esp
-% {{BASH: Deflst,Names,Scripts,Stats}}
+% {{BASH: Deflst, Names, Scripts, Stats}}
 LinkesAuge - Retexture edits.esp
 % {{BASH: Graphics}}
 vertibirds & toxic cave.esp
@@ -584,7 +584,7 @@ NoWeaponZoom.esp
 ImprovedBinocs.esp
 % {{BASH: Invent}}
 HeadWearShaderFX.esp
-% {{BASH: Scripts,Stats}}
+% {{BASH: Scripts, Stats}}
 BugFixes.esp
 GsSourceShack.esp
 SlowerBackWardsSpeed.esp
@@ -663,32 +663,32 @@ Mo'o'less.esp
 \-----------
 NEVAX - BALANCINGS.esp
 NEVAX - BEAUTYPACK.esp
-% {{BASH: Body-F,Body-M,NPCFaces}}
+% {{BASH: Body-F, Body-M, NPCFaces}}
 NEVAX - DUNKLE NAECHTE.esp
 NEVAX - EINSTELLUNGSTERMINALS.esp
 NEVAX - FUNDE.esp
-% {{BASH: DefLst,Relev}}
+% {{BASH: DefLst, Relev}}
 NEVAX - HomeSweetHome.esp
 NEVAX - ITEMBALANCINGS.esp
 % {{BASH: Stats}}
 NEVAX - KAUFINHALTE.esp
-% {{BASH: DefLst,Invent,Relev}}
+% {{BASH: DefLst, Invent, Relev}}
 NEVAX - MEHR MONSTER.esp
-% {{BASH: Relev,Scripts}}
+% {{BASH: Relev, Scripts}}
 NEVAX - MONSTER.esp
-% {{BASH: DefLst,Relev}}
+% {{BASH: DefLst, Relev}}
 NEVAX - MUNITIONSBEZEICHNUNGEN.esp
 NEVAX - NPC BALANCING.esp
-% {{BASH: DefLst,Relev,Scripts}}
+% {{BASH: DefLst, Relev, Scripts}}
 NEVAX - PERKS SKILLS.esp
 NEVAX - PERKS.esp
 NEVAX - RAIDER u NPC.esp
-% {{BASH: DefLst,Relev,Scripts}}
+% {{BASH: DefLst, Relev, Scripts}}
 NEVAX - RUESTUNGEN.esp
-% {{BASH: DefLst,Relev}}
+% {{BASH: DefLst, Relev}}
 NEVAX - TOEDLICHERE PROJEKTILE.esp
 NEVAX - WAFFEN.esp
-% {{BASH: DefLst,Relev}}
+% {{BASH: DefLst, Relev}}
 NEVAX - WENIGER GEGENSTAENDE.esp
 NEVAX - WENIGER MUNITION.esp
 \EndGroup\\
@@ -708,9 +708,9 @@ PMT - Slower Reloading No Visible Perk.esp
 % {{BASH: Stats}}
 PMT - Slower Backward Movement.esp
 PMT - Reduced Ammo and Chems.esp
-% {{BASH: Delev,Relev}}
+% {{BASH: Delev, Relev}}
 PMT - Reduced Caps and Item Value.esp
-% {{BASH: Delev,Relev}}
+% {{BASH: Delev, Relev}}
 PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
 PMT - Nastier mines and grenades.esp
@@ -736,11 +736,11 @@ nVamp - PMT.esp
 \BeginGroup\: Reload
 \-----------
 Reload.esp
-% {{BASH: Delev,Names,Relev}}
+% {{BASH: Delev, Names, Relev}}
 Rebalance.esp
-% {{BASH: Names,Stats}}
+% {{BASH: Names, Stats}}
 Rearm.esp
-% {{BASH: Delev,Relev}}
+% {{BASH: Delev, Relev}}
 RebalanceRearm.esp
 % {{BASH: Stats}}
 RearmRebalance.esp
@@ -775,7 +775,7 @@ Superior Firepower - Alternate Energy Ammo.esp
 Lesser Superior Firepower - Alternate Energy Ammo.esp
 Greater Superior Firepower - Alternate Energy Ammo.esp
 Superior Firepower - Factional Changes.esp
-% {{BASH: Delev,Relev}}
+% {{BASH: Delev, Relev}}
 Superior Firepower - Leveled Lists Fix.esp
 nVamp - Caliber.esp
 \EndGroup\\
@@ -887,7 +887,7 @@ Realistic Health - Maximum.esp
 hardercore_combat.esp
 % {{BASH: Stats}}
 hardercore_wealth.esp
-% {{BASH: Delev,Relev}}
+% {{BASH: Delev, Relev}}
 hardercore_healing.esp
 pnv.esp
 Project Nevada - Cyberware.esp
@@ -1127,7 +1127,7 @@ Level Cap 100.esp
 levelcap45.esp
 levelcap46.esp
 LFox Bottle That Water.esp
-% {{BASH: Names,Scripts}}
+% {{BASH: Names, Scripts}}
 LFox Infinite Companion Ammo Repair.esp
 LFox Infinite Companion Ammo.esp
 Lighter books.esp
@@ -1177,7 +1177,7 @@ populatedcasino-light.esp
 Pop and Beer do not Dehydrate.esp
 PortableCampsite.esp
 Project13 - Populated Wasteland.esp
-% {{BASH: Actors.AIPackages,Delev,Relev}}
+% {{BASH: Actors.AIPackages, Delev, Relev}}
 psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 pyDoF.esp
@@ -1369,9 +1369,9 @@ Better Binoculars.esp
 Better Binoculars High.esp
 Better Binoculars Max.esp
 better that gun 223.esp
-% {{BASH: Names,Stats}}
+% {{BASH: Names, Stats}}
 better that gun 44mag.esp
-% {{BASH: Names,Stats}}
+% {{BASH: Names, Stats}}
 Better Zoom.esp
 BoilingOil - Eli's Edge.esp
 Big Big Boomer.esp
@@ -1385,7 +1385,7 @@ Classic M72 Gauss Rifle.esp
 Classic Plasma Grenade.esp
 % {{BASH: Graphics}}
 Classic Pulse Grenade (classic sound).esp
-% {{BASH: Graphics,Sounds}}
+% {{BASH: Graphics, Sounds}}
 Classic Pulse Grenade (vanilla sound).esp
 % {{BASH: Graphics}}
 Classic YK42b Pulse Rifle.esp
@@ -1487,7 +1487,7 @@ PB-AR1.esp
 Pew Pew Pew Pew Pew Pew.esp
 PK_Pulse_Pistol.esp
 PlasmaRifleAwesomefied.esp
-% {{BASH: Sound,Stats}}
+% {{BASH: Sound, Stats}}
 P90Nana-set.esp
 R700.esp
 RAKatanasMod.esp
@@ -1535,7 +1535,7 @@ Advanced Recon Armor-Predator Mode.esp
 Advanced Recon Armor-Stealth With Drawn Weapon.esp
 Advanced Recon Range Finder.esp
 Advanced Recon Tech - Fiendish Power Armor.esp
-? Merged into nVamp -Advanced Mod Project.  Do not use both at the same time.
+? Merged into nVamp -Advanced Mod Project. Do not use both at the same time.
 Advanced Recon Gear - Project Nevada.esp
 AG All-Purpose Science Suit 100.esp
 AL Black Corsetry and Blanc dress.esp
@@ -1610,7 +1610,7 @@ Fiendish Power Armor - Thermal Nightvision.esp
 Fiendish Power Armor-Doc Mitchells.esp
 Fiendish Power Armor.esp
 Fiendish Power Armor - Project Nevada.esp
-? Merged into nVamp - New Vegas Mod Project.  Do not use together.
+? Merged into nVamp - New Vegas Mod Project. Do not use together.
 FlashlightNVSE.esp
 Project Nevada - FlashlightNVSE.esp
 : FlashlightNVSE.esp
@@ -1853,8 +1853,8 @@ NVBabyDeathclawCommander.esp
 NVC_Misty.esp
 RemoteControlCompanions.esp
 NVPhalanx.esp
-% {{BASH: Actors.AIPackages,Actors.CombatStyle,C.Owner,Scripts}}
-" Incompatible with a majority of other companion mods.  Be aware when installing.
+% {{BASH: Actors.AIPackages, Actors.CombatStyle, C.Owner, Scripts}}
+" Incompatible with a majority of other companion mods. Be aware when installing.
 RexReplacerEss.esp
 % {{BASH: Graphics}}
 RWKNV.esp
@@ -2233,20 +2233,20 @@ WMX-PreOrderPackMercenary.esp
 Recharger Weapons Rebalance WMX.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Graphics,Names,Stats,WeaponMods}}
+% {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - Dead Money.esp
 : Dead Money.esm
 nVamp - Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
 WME - Arwen Core.esp
 " Weapon Mod Expansion.esp
-% {{BASH: Graphics,Names,Stats,WeaponMods}}
+% {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - FOOK.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Delev,Graphics,Names,Sound,Stats}}
+% {{BASH: Delev, Graphics, Names, Sound, Stats}}
 WME Replacer - FOOK.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Graphics,Names,Stats,WeaponMods}}
+% {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - Reload.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm.esp
@@ -2257,22 +2257,22 @@ WME - Reload, Rearm, Rebalance.esp
 : Weapon Mod Expansion.esm
 WME - that gun 44 mag.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Names,Stats,WeaponMods}}
+% {{BASH: Names, Stats, WeaponMods}}
 WME - that gun 556.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Names,Stats,WeaponMods}}
+% {{BASH: Names, Stats, WeaponMods}}
 ? Old
 WME - that gun 223.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Names,Stats,WeaponMods}}
+% {{BASH: Names, Stats, WeaponMods}}
 WME - Named & Sorted.esp
 : Weapon Mod Expansion.esm
 WME - 00 Commando.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Graphics,Names,Stats,WeaponMods}}
+% {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - RH Ironsights.esp
 : Weapon Mod Expansion.esm
-% {{BASH: Graphics,WeaponMods}}
+% {{BASH: Graphics, WeaponMods}}
 Big Big Boomer - WME.esp
 WME - Ironsights.esp
 : Weapon Mod Expansion.esm
