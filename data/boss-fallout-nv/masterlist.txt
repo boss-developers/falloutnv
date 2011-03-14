@@ -15,6 +15,10 @@
 \ Multiple remark/comment/bash/error lines allowed.
 \ Lines beginning with \ and blank lines are treated the same (ignored).
 
+//Masterlist variable setup. For BOSS v1.7+. 
+//Earlier versions of BOSS will ignore this and any other masterlist format v2 stuff.
+IF (nVamp - Core.esm) SET: NVAMP
+
 \BeginGroup\: ESMs
 \------------
 FalloutNV.esm
@@ -2342,6 +2346,7 @@ nVamp - Combat Enhancement.esp
 nVamp - Game Fixes.esp
 ? Old, consider upgrading to nVamp version 0.15
 nVamp - Core.esp
+IFNOT (NVAMP) ERROR: nVamp - Core.esm is missing.
 nVamp - Very Voracious Vermin.esp
 nVamp - VVV - Bosses.esp
 ? Optional component of nVamp.
