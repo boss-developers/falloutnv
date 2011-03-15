@@ -339,6 +339,7 @@ MikotoBPCCFull.esp
 % {{BASH: NpcFaces, NoMerge}}
 NewCass.esp
 NewCass1.1.esp
+OldGhoulEye.esp
 OldGhoulEye-NoHeadbandSlotForHeadgear.esp
 OldGhoulEye-ProjectNevada.esp
 : Project Nevada - Core.esm
