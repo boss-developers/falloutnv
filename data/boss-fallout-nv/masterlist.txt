@@ -23,10 +23,10 @@ IF ("nVamp - Core.esm") SET: NVAMP
 \------------
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
-Community Bugfix Compilation Patch.esm
-% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 Ambient Temperature.esm
 DeadMoney.esm
+Community Bugfix Compilation Patch.esm
+% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 CBC Dead Money Patch.esm
 AmmoSpreadEffectFixer.esm
 ClassicPack.esm
@@ -280,6 +280,7 @@ NVORganizedItems.esp
 % {{BASH: Names}}
 NVR - Extra Actions Toggle - Crouch.esp
 NVR - Extra Actions Toggle - Walk.esp
+ParallaxRoadtrim.esp
 Primary Needs HUD.esp
 Primary Needs HUD-Kick Start Fix.esp
 Purge Cell Buffers.esp
@@ -338,6 +339,9 @@ MikotoBPCCFull.esp
 % {{BASH: NpcFaces, NoMerge}}
 NewCass.esp
 NewCass1.1.esp
+OldGhoulEye-NoHeadbandSlotForHeadgear.esp
+OldGhoulEye-ProjectNevada.esp
+: Project Nevada - Core.esm
 psychoelfs Boone Shojo.esp
 psychoelfs cass shojo blond.esp
 psychoelfs cass shojo black hair.esp
