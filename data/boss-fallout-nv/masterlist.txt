@@ -2256,6 +2256,7 @@ WME - FOOK.esp
 WME Replacer - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
+WME - FOOK - Dead Money.esp
 WME - Reload.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm.esp
@@ -2357,6 +2358,7 @@ nVamp - VVV - Bosses.esp
 ? Optional component of nVamp.
 nVamp - VVV - Glowy Creatures.esp
 ? Optional component of nVamp.
+nVamp - VVV - Dead Money.esp
 nVamp - Effects nVamped.esp
 : nVamp - Effects nVamped.esm
 ? Optional for nVamp's graphics overhaul.
