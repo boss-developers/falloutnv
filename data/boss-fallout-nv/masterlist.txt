@@ -186,6 +186,7 @@ Brotherhood Fix.esp
 CaesarsFavorFoeHireFix.esp
 CaravanCardFix.esp
 ? Obsolete with latest patch
+CBC Dead Money Patch.esp
 CompanionHoldouts.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
@@ -214,6 +215,7 @@ Motor-RunnerJackDianeFix.esp
 MrCuddles.esp
 MushroomCloudFix.esp
 ? Obsolete with latest patch
+NCRRCombatFix.esp
 new vegas radios.esp
 NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
@@ -365,6 +367,7 @@ VyntageCass02.esp
 \BeginGroup\: NPC
 \-----------
 A Repair Bot.esp
+AlsatianRex.esp
 Armor Replacer Child NPC Fix.esp
 ArmyMen.esp
 Bigger Brighter Livelier Vegas.esp
@@ -434,6 +437,7 @@ BetterLuckySuite.esp
 BetterNovacRoomFull.esp
 BONsQuarryJunctionRefuge-cave.esp
 Brahmin Bess.esp
+Brighter Novac Player Room.esp
 Bungalow Home.esp
 Dalls_Birds_Nest.esp
 Dalls_Lodger.esp
@@ -1301,6 +1305,7 @@ Homemade Grenades.esp
 Improved ammo.esp
 ImprovedWorkbench.esp
 IntuitiveRealisticCooking.esp
+jerky.esp
 LFox Missing Ammo Recipes.esp
 Metal Squeezer.esp
 MyFirstCookbook.esp
@@ -1525,6 +1530,10 @@ WeatheredHoldout.esp
 xCALIBRuniverse_ImpulsePurchasePack.esp
 xCALIBRuniverse_mo'guns.esp
 Xepha's Radial Blurred Zoom.esp
+ZLArmaments.esp
+Selective Fire - ZL Armaments.esp
+: ZLArmaments.esp and Selective Fire.esm
+: Caliber.esm
 \EndGroup\\
 
 \BeginGroup\: Armor and Clothes
@@ -2098,6 +2107,7 @@ Realistic Weapon Impact Effects.esp
 Realistic Weight Overhaul.esp
 Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
+Sarsaparilla.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
 SPECIALer.esp
@@ -2244,7 +2254,9 @@ Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - Dead Money.esp
-: Dead Money.esm
+: DeadMoney.esm
+WME - FOOK - Dead Money.esp
+: FOOK - New Vegas.esm and DeadMoney.esm
 nVamp - Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
 WME - Arwen Core.esp
