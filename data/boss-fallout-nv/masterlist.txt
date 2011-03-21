@@ -88,6 +88,7 @@ wsex.esm
 AccuRifles.esm
 : NVSE
 rePopulated Wasteland.esm
+WARZONES - Misanthropy Pure.esm
 aHUD.esm
 \ nVamp stuff
 Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
@@ -515,6 +516,8 @@ vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
 UHNV.esp
+UHNV - Dead Money.esp
+: UHNV.esp and DeadMoney.esm
 UHNV-Bobblehunt.esp
 UHNV-ARB Patch.esp
 UHNV-Performance-Patch.esp
@@ -1242,6 +1245,8 @@ RZW_SilentVideoCollection.esp
 : RZW_Television.esm
 SaveCass.esp
 SaveCass_german.esp
+Selective Fire - Project Nevada.esp
+: Selective Fire.esm and Project Nevada - Core.esm
 Sex Try.esp
 Silver Rush inventory expansion.esp
 SleepHeath.esp
