@@ -15,8 +15,8 @@
 \ Multiple remark/comment/bash/error lines allowed.
 \ Lines beginning with \ and blank lines are treated the same (ignored).
 
-//Masterlist variable setup. For BOSS v1.7+. 
-//Earlier versions of BOSS will ignore this and any other masterlist format v2 stuff.
+\Masterlist variable setup. For BOSS v1.7+. 
+\Earlier versions of BOSS will ignore this and any other masterlist format v2 stuff.
 IF ("nVamp - Core.esm") SET: NVAMP
 
 \BeginGroup\: ESMs
