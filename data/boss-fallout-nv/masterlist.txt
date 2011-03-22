@@ -516,7 +516,7 @@ vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
 UHNV.esp
-UHNV - Dead Money.esp
+UHNV-Dead Money.esp
 : UHNV.esp and DeadMoney.esm
 UHNV-Bobblehunt.esp
 UHNV-ARB Patch.esp
@@ -1281,6 +1281,7 @@ z_Fiends_2.esp
 \BeginGroup\: Crafting
 \-----------
 aliencell.esp
+AmmoCraftingSchematics.esp
 ArmourRepairKits.esp
 Armor Crafting BETA.esp
 RBX Caliber compatibilty.esp
@@ -2218,6 +2219,7 @@ night_and_day.esp
 UnderwaterFX.esp
 UWFXGodrays.esp
 " UnderwaterFX.esp
+Vurt's Trees & Grass.esp
 \EndGroup\\
 
 \BeginGroup\: Lastish
