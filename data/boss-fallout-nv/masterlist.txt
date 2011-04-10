@@ -92,6 +92,9 @@ WARZONES - Misanthropy Pure.esm
 aHUD.esm
 \ nVamp stuff
 Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
+% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
+Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
+% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 IWS-Core.esm
 % {{BASH: Delev, Relev}}
 Tales from the Burning Sands.esm
@@ -101,8 +104,12 @@ decwithreg.esm
 BoulderCityFaceliftProject.esm
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
+? Old
+EZ_Face_TEMPLATE.esm
+OutfitsReColorNVMaster.esm
 More Perks.esm
 More Perks for Companions.esm
+More Perks for Dead Money.esm
 More Traits.esm
 More Challenges.esm
 Project Nevada - Core.esm
@@ -151,9 +158,9 @@ VMods - Master.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
-% {{BASH: Hair, eyes}}
+% {{BASH: Hair, Eyes}}
 MikotoBeauty.esm
-% {{BASH: Hair, eyes}}
+% {{BASH: Hair, Eyes}}
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 NosCo Companion System.esm
@@ -269,6 +276,7 @@ Centered 3rd Person Camera.esp
 Centered 3rd Person Camera - Unraised.esp
 " FOOK - New Vegas.esm
 DynamiCamera.esp
+EZ_Force_Killable_NormalMode.esp
 EZ_GLUE.esp
 Further3rdPersonCamera.esp
 HUD Extended.esp
@@ -1009,6 +1017,7 @@ LFox Night Vision Implant Low Brightness.esp
 More Perks.esp
 More Perks Update.esp
 More Perks for Companions Update.esp
+More Perks for Dead Money Update.esp
 More Traits Update.esp
 More Challenges - Original Challenges Overhaul.esp
 NinjaPerkFix.esp
@@ -2184,11 +2193,13 @@ LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " Nevada Skies - URWLified.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 Nevada Skies.esp
+% {{BASH: C.Climate,C.Light}}
 " Nevada Skies - URWLified.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 Ambient Temperature - Nevada Skies.esp
 Nevada Skies - URWLified.esp
+% {{BASH: C.Climate,C.Light}}
 " Nevada Skies.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
@@ -2384,6 +2395,17 @@ nVamp - Effects nVamped.esp
 nVamp - Performance nVamped.esp
 : nVamp - Performance nVamped.esm
 ? Optional to increase game performance for those with older computers.
+nVamp - Effects + DM.esp
+nVamp - Effects + Optional + DM.esp
+nVamp - Effects + Optional.esp
+nVamp - Optional + DM.esp
+nVamp - VVV + DM.esp
+nVamp - VVV + Effects + DM.esp
+nVamp - VVV + Effects + Optional + DM.esp
+nVamp - VVV + Effects + Optional.esp
+nVamp - VVV + Effects.esp
+nVamp - VVV + Optional + DM.esp
+nVamp - VVV + Optional.esp
 nVamp - HalfSpeed.esp
 ? Use either nVamp – HalfSpeed.esp or nVamp - VanillaSpeed.esp, not both.
 nVamp - VanillaSpeed.esp
@@ -2407,7 +2429,6 @@ nVamp - Vaernus's Voracious Vermin.esp
 nVamp - More Hardcore.esp
 ? OPTIONAL FOR MORE HARDCORE EXPERIENCE
 ? Old, consider upgrading to nVamp version 0.15
-nVamp - VVV + Effects + Optional + DM.esp
 \EndGroup\\
 
 \BeginGroup\: Pose mods
