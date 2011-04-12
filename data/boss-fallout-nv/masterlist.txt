@@ -28,6 +28,7 @@ DeadMoney.esm
 Community Bugfix Compilation Patch.esm
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 CBC Dead Money Patch.esm
+: DeadMoney.esm
 AmmoSpreadEffectFixer.esm
 ClassicPack.esm
 MercenaryPack.esm
@@ -97,11 +98,15 @@ Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
 % {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 IWS-Core.esm
 % {{BASH: Delev, Relev}}
+Frys_Freehold.esm
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
+? Outdated. Consider using the latest version along with the low loot patches instead.
+dangame.esm
 decwithreg.esm
 BoulderCityFaceliftProject.esm
+The Roost.esm
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
 ? Old
@@ -180,9 +185,15 @@ SunnyCompanion.esm
 Community Bugfix Compilation Patch.esp
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 " Compiled Patch.esp
+CBC Dead Money Patch.esp
+: DeadMoney.esm
+" Compiled Patch - DeadMoney.esp
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 " Community Bugfix Compilation Patch.esp
+Compiled Patch - DeadMoney.esp
+: DeadMoney.esm
+" CBC Dead Money Patch.esm AND CBC Dead Money Patch.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
 Atomic Wrangler Suite Fix.esp
@@ -199,6 +210,9 @@ CompanionHoldouts.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
+DLM_QuestItemsFix_1.3b_Eng.esp
+DLM_QuestItemsFix_1.3b-DLC_DM.esp
+: DeadMoney.esm
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
 ? Obsolete with latest patch
@@ -283,6 +297,7 @@ HUD Extended.esp
 HUD Extended - Ambient Temperature.esp
 : Ambient Temperature.esm
 IWR - Rebuilt.esp
+: IWR.esm
 LessIntrusiveKillCam.esp
 IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
@@ -291,6 +306,7 @@ NVORganizedItems.esp
 % {{BASH: Names}}
 NVR - Extra Actions Toggle - Crouch.esp
 NVR - Extra Actions Toggle - Walk.esp
+OperationFixedTerrain.esp
 ParallaxRoadtrim.esp
 Primary Needs HUD.esp
 Primary Needs HUD-Kick Start Fix.esp
@@ -404,6 +420,7 @@ KillableKids.esp
 LFox Easy Weapon Mods.esp
 Merchants Sell Displayed Items.esp
 Mr Moneybags.esp
+MUd-CR48 Merchant.esp
 mysteriousnun.esp
 NiptonFixes.esp
 NCR Doggy Buddies.esp
@@ -425,9 +442,13 @@ weathersnotstuck.esp
 \BeginGroup\: Places
 \-----------
 IIWR 2.0.3.esp
+? Outdated Version. Consider Updating to IWR.esm
 IIWR 2.0.7.esp
+? Outdated Version. Consider Updating to IWR.esm
 IIWR 2.0.9.esp
+? Outdated Version. Consider Updating to IWR.esm
 IIWR 2.1.0.esp
+? Outdated Version. Consider Updating to IWR.esm
 nocol.esp
 1000th addon (more containers).esp
 1000th patch 2.1.esp
@@ -458,6 +479,8 @@ Clean Strip.esp
 CKvendor.esp
 FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
+FF_Entry_Fix.esp
+: Frys_Freehold.esm
 FNV - ShopHome.esp
 Freeside NCR Guard Post - Revamp.esp
 Freesidehome.esp
@@ -529,6 +552,8 @@ UHNV-Dead Money.esp
 UHNV-Bobblehunt.esp
 UHNV-ARB Patch.esp
 UHNV-Performance-Patch.esp
+? Outdated as of Version 2.9
+UHNV-Brighter Lighting.esp
 UHNV-IncreasedLighting.esp
 Underground Home.esp
 WildBillsPawnArmory.esp
@@ -740,6 +765,7 @@ PMT - More Demanding Hardcore.esp
 PMT - Nastier mines and grenades.esp
 PMT - Destructible Ordnance.esp
 % {{BASH: Destructable}}
+PMT - Destructible Ordnance Reduced Ammo.esp
 PMT - Explosive Robots.esp
 PMT - Deadlier Combat.esp
 % {{BASH: Stats}}
@@ -827,6 +853,8 @@ XFO - 2ba - Armor - DR+DT - simple - low.esp
 XFO - 2bb - Armor - DR+DT - simple - med.esp
 XFO - 2bc - Armor - DR+DT - simple - hard.esp
 XFO - 2bc - Armor - DR+DT - simple - high.esp
+XFODeadMoney.esp
+: DeadMoney.esm
 XFO - 2da - Bleedthrough - 10% (from 20).esp
 XFO - 2db - Bleedthrough - 5%.esp
 XFO - 2dc - Bleedthrough - 0% (Full DT).esp
@@ -976,6 +1004,7 @@ Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
+NewVegasBountiesII.esp
 Serial Killer.esp
 TheCollector.esp
 Wasteland Explorer.esp
@@ -1009,6 +1038,7 @@ KDS Stronger Back Perk 100 Pounds.esp
 KDS Stronger Back Perk 200 Pounds.esp
 KDS Stronger Back Perk 500 Pounds.esp
 KDS Stronger Back Perk 1000 Pounds.esp
+Killable Children.esp
 Kobu's Free Wild Wasteland Trait.esp
 LibrarianOfTheWastes.esp
 LFox Improved Regen Implant.esp
@@ -1066,6 +1096,26 @@ Alternative Console Access.esp
 Animated Prostitution.esp
 ammoingredientsloot.esp
 ArenaAnySex.esp
+AWOPLowRobots.esp
+" AWOPVeryLowRobots.esp
+: AWorldOfPain(Preview).esm
+AWOPVeryLowRobots.esp
+" AWOPLowRobots.esp
+: AWorldOfPain(Preview).esm
+AWOP-BOEWeaponPatch.esp
+: AWorldOfPain(Preview).esm AND Mo'.esm
+AWOPCaliberXAmmoPatch.esp
+" AWOPCaliberXAmmoPatchLOW.esp
+: AWorldOfPain(Preview).esm AND Caliber.esm
+AWOPCaliberXAmmoPatchLOW.esp
+" AWOPCaliberXAmmoPatch.esp
+: AWorldOfPain(Preview).esm AND Caliber.esm
+AWOPLowLootGeneral.esp
+: AWorldOfPain(Preview).esm
+AWOPLowLootMWeapons.esp
+: AWorldOfPain(Preview).esm
+AWOPLowLootSkillBooks.esp
+: AWorldOfPain(Preview).esm
 BAN - Dupe This.esp
 BCL custom edition.esp
 Better Casinos.esp
@@ -1081,6 +1131,8 @@ BlackMountainRadioEverywhere.esp
 BLTC NV.esp
 BLTC NV immersion plugin.esp
 BoostedSkills.esp
+BottleBrahminMilkNV11.esp
+BottleBrahminMilkNV12.esp
 Bottlecaps Have Weight.esp
 Bottles, cans, litter oh my!.esp
 BzBody.esp
@@ -1409,6 +1461,8 @@ Boomers - T-57c PA.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
+Chey Tac M200.esp
+: CaliberX's Meshes and Textures for .408 ammo AND/OR Caliber.esm depending on the .esp you are using. Please read carefully when choosing one.
 Classic energy weapons.esp
 Classic M72 Gauss Rifle.esp
 Classic Plasma Grenade.esp
@@ -1423,9 +1477,14 @@ ColtM1911NoAmmo.esp
 Devil'sMistressReturns.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
+DWAUGA3.esp
 DWDEagle44.esp
 DWHKUMP.esp
 DWM4A1.esp
+" DWM4A1V18Personal.esp
+DWM4A1V18Personal.esp
+" DWM4A1.esp
+: Selective Fire.esm IF the optional .esp is installed.
 DWSpas12.esp
 DWUSP45.esp
 E-88 Plasma Rifle.esp
@@ -1438,6 +1497,7 @@ EnhancedServiceRifle.esp
 Euclid C-Finder Unlimited Ammo.esp
 ExperimentalMIRV.esp
 FingerOfGodNV.esp
+FN_SCAR.esp
 F03weaponpack_v1_0.esp
 FO3WeaponsRestoration.esp
 Selective Fire - FO3 Weapons Restoration.esp
@@ -1460,12 +1520,15 @@ Improved Throwing1.esp
 LightSaberMod.esp
 J3Rifle4Free.esp
 J3Rifle4Sale.esp
+Jmod Bullpup Pack.esp
 Jswords4sale.esp
 JTommyGun4Loot.esp
 JTommyGun4Free.esp
 KerberosPanzer.esp
 Kerberosweapons.esp
 lucky_bastard_rifle_v3.esp
+m110.esp
+: New Vegas Script Extender
 M14.esp
 M1GarandThisMachine.esp
 M4A1.esp
@@ -1538,6 +1601,7 @@ that gun 556.esp
 that gun 44 mag.esp
 The Sword of a Thousand Truths.esp
 ThirdLeg.esp
+THOR.esp
 Throwing Ninja's Weapon.esp
 Usableservice.esp
 Weathered10mmFixed.esp
@@ -1682,6 +1746,10 @@ Military NV Backpacks - BumBagUseSlot1.esp
 Military NV Backpacks - No Straps.esp
 Military NV Backpacks - Vendor Script Replenish.esp
 My Cloth Collection NV.esp
+NCR Rearmament v1.5.esp
+" NCR Rearmament v1.5 (Lore).esp
+NCR Rearmament v1.5 (Lore).esp
+" NCR Rearmament v1.5.esp
 Neckchains.esp
 NeutralPowerArmor.esp
 NEVECbodysuit.esp
@@ -1719,6 +1787,8 @@ Realistic Power Armor.esp
 RealisticStealthArmor.esp
 Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
+ReworkStuff.esp
+: Type 3 Body Replacer
 Rivens Costume Mod.esp
 ? Designed for Robert's Male Body and Type3 Female Body variants.
 Roberts_NewVegas.esp
@@ -1753,6 +1823,7 @@ Type3 Leather Armors-lvld.esp
 : meshes and textures from New Vegas Type3 Leather Armors.
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
+VaultTecPowerArmor.esp
 VegasOutfits.esp
 Vegas Volt his 7.esp
 VT08RangerGear.esp
@@ -1843,6 +1914,8 @@ Cass Passive Fix.esp
 " Cass Passive Fix 2 Option.esp
 Cass Passive Fix 2 Option.esp
 " Cass Passive Fix.esp
+DeanMoneyCompanionsDeEquipandRebalance.esp
+: DeadMoney.esm
 drgNV - Marcus Companion.esp
 drgNV - Melissa Companion (Lings Hairstyle Add-On).esp
 drgNV - Melissa Companion (Recruitment Fix).esp
@@ -1966,6 +2039,11 @@ FeelingIrradiated-IS.esp
 _glaunch_explosion.esp
 aaaJNFSniperZooming.esp
 Arwen_NV_Hard-Core.esp
+: Arwen_NV_Realism_Core.esp
+Arwen_NV_Encumbrance.esp
+: Arwen_NV_Realism_Core.esp
+Arwen_Med-Tec.esp
+: Arwen_NV_Realism_Core.esp
 Automatic Inventory.esp
 Balance mod - 10% XP Gain.esp
 Balance mod - 50% XP Gain.esp
@@ -2009,6 +2087,8 @@ dD-Less Screen Blood Time.esp
 dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
+DM-NoLvlMsg.esp
+: DeadMoney.esm
 durability.esp
 Ephemeral Ash and Goo Piles.esp
 Easy Hacking and Guaranteed Pick Pocket.esp
@@ -2065,6 +2145,7 @@ limbregen.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
 Melee Lock-On.esp
+Modified Combat Values v2.esp
 More Damage To Player.esp
 More Realistic Aiming.esp
 : NVSE
@@ -2120,6 +2201,12 @@ realistic headshots VATS.esp
 Realistic Ingestible Metabolic Effects.esp
 Realistic Weapon Impact Effects.esp
 Realistic Weight Overhaul.esp
+RealisticWeaponRecoil.esp
+" RealisticWeaponRecoilDM.esp
+: New Vegas Script Extender
+RealisticWeaponRecoilDM.esp
+" RealisticWeaponRecoil.esp
+: New Vegas Script Extender AND DeadMoney.esm
 Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
 Sarsaparilla.esp
@@ -2223,6 +2310,8 @@ ELECTRO-CITY - Imaginator.esp
 Interior Lighting Overhaul-Realistic Interiors-Full.esp
 Interior Lighting Overhaul-Realistic.esp
 Interior Lighting Overhaul-Darker.esp
+OFT_ElectroCity.esp
+: ELECTRO-CITY - CompletedWorkorders.esm, OperationFixedTerrain.esp AND/OR ELECTRO-CITY - Highways and Byways.esm
 KDS Green World.esp
 Nights are Darker 50%.esp
 Nights are Darker 25%.esp
@@ -2231,6 +2320,11 @@ UnderwaterFX.esp
 UWFXGodrays.esp
 " UnderwaterFX.esp
 Vurt's Trees & Grass.esp
+? This is an outdated version. Consider updating to the latest.
+Vurt's WFO.esp
+" Vurt's Trees & Grass.esp
+Vurt's WFO [Lite].esp
+" Vurt's WFO.esp
 \EndGroup\\
 
 \BeginGroup\: Lastish
