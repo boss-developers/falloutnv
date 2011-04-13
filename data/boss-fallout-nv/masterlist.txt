@@ -285,6 +285,8 @@ BetterLoadingText.esp
 Better Performance for Older PCs - Bundle.esp
 BIS - Brumbek's Inventory Sorting.esp
 BIS - More Cactus Water Recipes.esp
+Bobblehunt.esp
+Bobblehunt (german).esp
 Centered 3rd Person Camera.esp
 " FOOK - New Vegas.esm
 Centered 3rd Person Camera - Unraised.esp
@@ -550,11 +552,21 @@ UHNV.esp
 UHNV-Dead Money.esp
 : UHNV.esp and DeadMoney.esm
 UHNV-Bobblehunt.esp
+: UHNV.esp and Bobblehunt.esp
 UHNV-ARB Patch.esp
+: UHNV.esp and RBX.esm
+UHNV-Chems.esp
+: UHNV.esp and CHEMS.esm
 UHNV-Performance-Patch.esp
+: UHNV.esp
 ? Outdated as of Version 2.9
 UHNV-Brighter Lighting.esp
+: UHNV.esp
+" UHNV-IncreasedLighting.esp
 UHNV-IncreasedLighting.esp
+: UHNV.esp
+" UHNV-Brighter Lighting.esp
+? Outdated; Consider Updating.
 Underground Home.esp
 WildBillsPawnArmory.esp
 YangtzeBunkerPlayerHome.esp
@@ -985,8 +997,6 @@ Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 
 \BeginGroup\: Quests
 \-----------
-Bobblehunt.esp
-Bobblehunt (german).esp
 Bobbleheads - Cases.esp
 Bobbleheads - Hidden_v1.2.esp
 Bobbleheads - Not Hidden_v1.2.esp
@@ -2353,7 +2363,7 @@ WMX-AWOP Patch.esp
 WMX-Arwen_NV_Realism.esp
 " WMX-ShotgunCommando.esp
 WMX-ModernWeapons.esp
-: AmmoSpreadEffectFixer.esm and Weapon Mod Expansion.esm
+: AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
 WMX-ShotgunCommando.esp
 " WMX-Arwen_NV_Realism.esp
 WMX - Sorted.esp
