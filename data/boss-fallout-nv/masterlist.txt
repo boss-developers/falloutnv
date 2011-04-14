@@ -68,8 +68,6 @@ M.M.A.T - Core Module.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
-New Vegas Redesigned.esm
-% {{BASH: NpcFaces}}
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 PipboyRemover.esm
