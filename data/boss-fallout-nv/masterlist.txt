@@ -1237,13 +1237,13 @@ Mail Order Catalogs DLC.esp
 : New Vegas Script Extender AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod.
 Mail Order Catalogs DLC PopUp.esp
-: New Vegas Script Extender AND any official DLC's that are required. 
+: New Vegas Script Extender AND DeadMoney.esm 
 ? Select only ONE .esp when installing this mod.
 Mail Order Catalogs XFO DLC.esp
-: New Vegas Script Extender AND any official DLC's that are required. 
+: New Vegas Script Extender AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod. Does not require XFO.
 Mail Order Catalogs XFO DLC PopUp.esp
-: New Vegas Script Extender AND any official DLC's that are required.
+: New Vegas Script Extender AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod. Does not require XFO.
 ManualReload.esp
 Military Explansion Program.esp
