@@ -1221,6 +1221,30 @@ LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
 MagazinesReworked.esp
+Mail Order Catalogs.esp
+: New Vegas Script Extender
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs PopUp.esp
+: New Vegas Script Extender
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs XFO.esp
+: New Vegas Script Extender
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs XFO PopUp.esp
+: New Vegas Script Extender
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs DLC.esp
+: New Vegas Script Extender AND DeadMoney.esm
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs DLC PopUp.esp
+: New Vegas Script Extender AND any official DLC's that are required. 
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs XFO DLC.esp
+: New Vegas Script Extender AND any official DLC's that are required. 
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs XFO DLC PopUp.esp
+: New Vegas Script Extender AND any official DLC's that are required.
+? Select only ONE .esp when installing this mod. Does not require XFO.
 ManualReload.esp
 Military Explansion Program.esp
 Mod Loot - 1. Really Rare.esp
@@ -1409,16 +1433,11 @@ WeaponModRecipes.esp
 WeaponModRecipesA.esp
 WeaponModRecipesS.esp
 WeaponModRecipesR.esp
-WMR_WME_A.esp
-: Weapon Mod Expansion.esm
-WMR_WME_S.esp
-: Weapon Mod Expansion.esm
-WMR_WME_R.esp
-: Weapon Mod Expansion.esm
 \EndGroup\\
 
 \BeginGroup\: Weapons
 \-----------
+1Camon Aks47 (In BUNKER HIDDEN VALLEY).esp
 .454 Cavalry Revolver Version 2 fixed.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
@@ -1519,6 +1538,7 @@ Gobi Rifle Enhanced.esp
 Golden Eagle.esp
 guitar.esp
 HighRoller.esp
+HK MP7.esp
 hz_BAMR.esp
 hz_SVD.esp
 IDreamOfElectricSheep.esp
@@ -1553,16 +1573,6 @@ MachienzoDLC2GreatKhan.esp
 MachienzoDLC2Legion.esp
 MachienzoDLC2NCR.esp
 MachienzoDLC2PowderGanger.esp
-Mail Order Catalogs XFO WMX PopUp.esp
-: NVSE 1.0 Beta 6 +
-Mail Order Catalogs XFO WME PopUp.esp
-: NVSE 1.0 Beta 6 +
-Mail Order Catalogs XFO WME.esp
-: NVSE 1.0 Beta 6 +
-Mail Order Catalogs XFO.esp
-: NVSE 1.0 Beta 6 +
-Mail Order Catalogs XFO WMX.esp
-: NVSE 1.0 Beta 6 +
 MiniNuke.esp
 MiniNukeSmall.esp
 Moddable Anti-Materiel Rifle.esp
@@ -1619,8 +1629,7 @@ xCALIBRuniverse_mo'guns.esp
 Xepha's Radial Blurred Zoom.esp
 ZLArmaments.esp
 Selective Fire - ZL Armaments.esp
-: ZLArmaments.esp and Selective Fire.esm
-: Caliber.esm
+: ZLArmaments.esp, Selective Fire.esm, AND Caliber.esm
 \EndGroup\\
 
 \BeginGroup\: Armor and Clothes
@@ -2084,6 +2093,8 @@ vatsbuff2x.esp
 Bullet Impact Increased LOD.esp
 CF_FastStart.esp
 Closer To Fallout - True Threshold.esp
+Color Me Evil.esp
+Color Me Evil - Cass.esp
 dD - Enhanced Blood Main NV.esp
 dD-Smaller Wounds.esp
 dD-More Gore.esp
@@ -2167,6 +2178,7 @@ NoDegrade.esp
 NoDegradation.esp
 NoDialogueHints.esp
 NoFactionArmorMessage.esp
+No Neos.esp
 NoQuestItems.esp
 No Scope Wobble.esp
 NVExpansionByDandysV1.400.esp
@@ -2217,6 +2229,8 @@ RealisticWeaponRecoilDM.esp
 : New Vegas Script Extender AND DeadMoney.esm
 Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
+RRDynamicXPonly.esp
+: New Vegas Script Extender
 Sarsaparilla.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
@@ -2235,143 +2249,45 @@ XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
 \EndGroup\\
 
-\BeginGroup\: Weather\Light\Water
+\BeginGroup\: Base Game Weapon Modifications
 \-----------
-ACF Brighter Days and Darker Nights v5 - Medium
-ACF Brighter Days and Darker Nights v5 - Dark
-CustomLighting.esp
-CustomLighting II.esp
-CustomLighting-I DoF Blur.esp
-CustomLighting-IE DoF Blur.esp
-CustomLighting-IE DOF Clear.esp
-CustomLighting-IE Clear.esp
-CustomLighting-IE DoF.esp
-Depth of View I.esp
-Depth of View I Blur.esp
-Depth of View IE.esp
-Depth of View IE Blur.esp
-Depth of View IE Custom.esp
-Depth of View IE Gentler.esp
-Depth of View IE Middle.esp
-DN More Lights.esp
-Emperical Weather.esp
-FNVEnhancedShaders - AA-DOF Enable.esp
-HighGrass.esp
-MedGrass.esp
-Fellout.esp
-friendofnightforfellout.esp
-URWLNV.esp
-URWLNV Darker Night.esp
-URWLNV Brighter Lights.esp
-NSkies - URWLNV.esp
-Western Sky.esp
-Western Sky - Darker Nights.esp
-LUMENARIUM - Working Sunglasses ONLY.esp
-% {{BASH: Names}}
-ELECTRO-CITY - CompletedWorkorders.esp
-% {{BASH: Names}}
-ELECTRO-CITY - Highways and Byways.esp
-BIS - ELECTRO-CITY Extended Cateye.esp
-: ELECTRO-CITY - CompletedWorkorders.esp, ELECTRO-CITY - Highways and Byways.esp OR ELECTRO-CITY - CompletedWorkorders.esm and ELECTRO-CITY - Highways and Byways.esm
-ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
-: IWS-CORE.ESM
-ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
-" ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
-ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
-" ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
-LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
-" Nevada Skies.esp
-" Nevada Skies - URWLified.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
-LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
-" Nevada Skies.esp
-" Nevada Skies - URWLified.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
-Nevada Skies.esp
-% {{BASH: C.Climate,C.Light}}
-" Nevada Skies - URWLified.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
-Ambient Temperature - Nevada Skies.esp
-Nevada Skies - URWLified.esp
-% {{BASH: C.Climate,C.Light}}
-" Nevada Skies.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
-BIS - Nevada Skies URWLified.esp
-: Nevada Skies - URWLified.esp
-Ambient Temperature - URWLified Nevada Skies.esp
-StripNightLum.esp
-LUMENARIUM - Bright Clear Days.esp
-ELECTRO-CITY - Darker Nights.esp
-DYNAVISION - Dynamic Lens Effect.esp
-" Field Depth.esp
-DYNAVISION 2 - Dynamic Lens Effect.esp
-" DYNAVISION - Dynamic Lens Effect.esp
-" Field Depth.esp
-Field Depth.esp
-" DYNAVISION - Dynamic Lens Effect.esp
-ELECTRO-CITY - Emittance.esp
-" ELECTRO-CITY - Imaginator.esp
-ELECTRO-CITY - Imaginator.esp
-" ELECTRO-CITY - Emittance.esp
-Interior Lighting Overhaul-Realistic Interiors-Full.esp
-Interior Lighting Overhaul-Realistic.esp
-Interior Lighting Overhaul-Darker.esp
-OFT_ElectroCity.esp
-: ELECTRO-CITY - CompletedWorkorders.esm, OperationFixedTerrain.esp AND/OR ELECTRO-CITY - Highways and Byways.esm
-KDS Green World.esp
-Nights are Darker 50%.esp
-Nights are Darker 25%.esp
-night_and_day.esp
-UnderwaterFX.esp
-UWFXGodrays.esp
-" UnderwaterFX.esp
-Vurt's Trees & Grass.esp
-? This is an outdated version. Consider updating to the latest.
-Vurt's WFO.esp
-" Vurt's Trees & Grass.esp
-Vurt's WFO [Lite].esp
-" Vurt's WFO.esp
-\EndGroup\\
-
-\BeginGroup\: Lastish
-\-----------
-Color Me Evil.esp
-Color Me Evil - Cass.esp
-FNNsysNV.esp
-No Neos.esp
 RH_IronSights_NV_Vanilla.esp
 : RH_IRONSIGHTS_NV.esm
+" WeaponModsExpanded.esp
 % {{BASH: Graphics}}
+RH_IronSights_NV_NewWeapons.esp
+: RH_IRONSIGHTS_NV.esm
 WeaponModsExpanded.esp
-" RH_IRONSIGHTS_NV.esm
-WMX-DeadMoney.esp
-: WeaponModsExpanded.esp and DeadMoney.esm
-Mail Order Catalogs XFO WMX DLC PopUp.esp
-: WeaponModsExpanded.esp, DeadMoney.esm and WMX-DeadMoney.esp
-WeaponModsExpanded_FO3WeaponsRestoration.esp
-: WeaponModsExpanded.esp and FO3WeaponsRestoration.esp
-nVamp - Weapon Mods Expanded.esp
-: WeaponModsExpanded.esp
+" RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
+WMX - Sorted.esp
+? Merged into the main mod; No longer required.
+WMX-AWOP Patch.esp
+: AWorldOfPain(Preview).esm and WeaponModsExpanded.esp
 BIS - Weapon Mods Expanded (WMX).esp
 : WeaponModsExpanded.esp
-WMX-AWOP Patch.esp
-: AWorldOfPain(Preview).esm
+WeaponModsExpanded_FO3WeaponsRestoration.esp
+: WeaponModsExpanded.esp and FO3WeaponsRestoration.esp
+WMX-ShotgunCommando.esp
+: WeaponModsExpanded.esp and Shotgun Commando.esp
+" WMX-Arwen_NV_Realism.esp
 WMX-Arwen_NV_Realism.esp
+: WeaponModsExpanded.esp and Arwen_NV_Realism_Core.esp
 " WMX-ShotgunCommando.esp
+nVamp - Weapon Mods Expanded.esp
+: WeaponModsExpanded.esp
 WMX-ModernWeapons.esp
 : AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
-WMX-ShotgunCommando.esp
-" WMX-Arwen_NV_Realism.esp
-WMX - Sorted.esp
+WMX-DeadMoney.esp
+: WeaponModsExpanded.esp and DeadMoney.esm
 WMX-PreOrderPackCaravan.esp
-: CaravanPack.esm
+: CaravanPack.esm and WeaponModsExpanded.esp
 WMX-PreOrderPackMercenary.esp
-: MercenaryPack.esm
+: MercenaryPack.esm and WeaponModsExpanded.esp
 Recharger Weapons Rebalance WMX.esp
+: WeaponModsExpanded.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
+" WeaponModsExpanded.esp
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - Dead Money.esp
 : DeadMoney.esm
@@ -2380,7 +2296,7 @@ WME - FOOK - Dead Money.esp
 nVamp - Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
 WME - Arwen Core.esp
-" Weapon Mod Expansion.esp
+: Weapon Mod Expansion.esp
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - FOOK.esp
 : Weapon Mod Expansion.esm
@@ -2389,6 +2305,7 @@ WME Replacer - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - FOOK - Dead Money.esp
+: Weapon Mod Expansion.esm AND DeadMoney.esm
 WME - Reload.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm.esp
@@ -2413,7 +2330,7 @@ WME - 00 Commando.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - RH Ironsights.esp
-: Weapon Mod Expansion.esm
+: Weapon Mod Expansion.esm, RH_Ironsights_NV.esm, AND RH_IronSights_NV_Vanilla.esp
 % {{BASH: Graphics, WeaponMods}}
 Big Big Boomer - WME.esp
 WME - Ironsights.esp
@@ -2421,37 +2338,193 @@ WME - Ironsights.esp
 WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
 WME - WorldofPain.esp
-Improved Ballistics Effects V2.esp
+: AWorldOfPain(Preview).esm
+WMR_WME_A.esp
+: Weapon Mod Expansion.esm
+WMR_WME_S.esp
+: Weapon Mod Expansion.esm
+WMR_WME_R.esp
+: Weapon Mod Expansion.esm
 Mo'WME.esp
+: Mo'.esm
 Mod Loot - 2. Reasonably Rare (WME).esp
-RH_IronSights_NV_NewWeapons.esp
-: RH_IRONSIGHTS_NV.esm
+: Weapon Mod Expansion.esm
+NV Scopes WME Compability.esp
+: Weapon Mod expansion.esp
+Mail Order Catalogs WMX.esp
+: New Vegas Script Extender AND WeaponModsExpanded.esp
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs WMX PopUp.esp
+: New Vegas Script Extender AND WeaponModsExpanded.esp
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs XFO WMX.esp
+: New Vegas Script Extender AND WeaponModsExpanded.esp
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs XFO WMX PopUp.esp
+: New Vegas Script Extender AND WeaponModsExpanded.esp
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs WMX DLC.esp
+: New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs WMX DLC PopUp.esp
+: New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs XFO WMX DLC.esp
+: New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs XFO WMX DLC PopUp.esp
+: New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs WME.esp
+: New Vegas Script Extender, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs WME PopUp.esp
+: New Vegas Script Extender, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
+? Select only ONE .esp when installing this mod.
+Mail Order Catalogs XFO WME.esp
+: New Vegas Script Extender, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
+? Select only ONE .esp when installing this mod. Does not require XFO.
+Mail Order Catalogs XFO WME PopUp.esp
+: New Vegas Script Extender, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
+? Select only ONE .esp when installing this mod. Does not require XFO.
+\EndGroup\\
+
+\BeginGroup\: Weather\Light\Water
+\-----------
+FNVEnhancedShaders - AA-DOF Enable.esp
+OFT_ElectroCity.esp
+: ELECTRO-CITY - CompletedWorkorders.esm AND OperationFixedTerrain.esp
+MedGrass.esp
+HighGrass.esp
+KDS Green World.esp
+Vurt's Trees & Grass.esp
+? This is an outdated version. Consider updating to the latest.
+Vurt's WFO.esp
+" Vurt's Trees & Grass.esp
+Vurt's WFO [Lite].esp
+" Vurt's WFO.esp
+ACF Brighter Days and Darker Nights v5 - Medium
+" Will conflict with any other mod that changes image space and image space modifiers.
+ACF Brighter Days and Darker Nights v5 - Dark
+" Will conflict with any other mod that changes image space and image space modifiers.
+Emperical Weather.esp
+" Will conflict with any other mod that changes weather, image space, and image space modifiers.
+Fellout.esp
+" Will conflict with any other mod that changes weather, image space, and image space modifiers.
+friendofnightforfellout.esp
+? Recommended for use with Fellout.esp
+night_and_day.esp
+" Will conflict with any other mod that changes weather, image space, and image space modifiers.
+URWLNV.esp
+" Will conflict with any other mod that changes weather, image space, and image space modifiers.
+URWLNV Darker Night.esp
+URWLNV Brighter Lights.esp
+Western Sky.esp
+" Will conflict with any other mod that changes weather, image space, and image space modifiers.
+Western Sky - Darker Nights.esp
+DN More Lights.esp
+" ELECTRO-CITY - CompletedWorkorder.esp / .esm ; Has the same purpose.
+LUMENARIUM - Working Sunglasses ONLY.esp
+% {{BASH: Names}}
+ELECTRO-CITY - CompletedWorkorders.esp
+% {{BASH: Names}}
+ELECTRO-CITY - Highways and Byways.esp
+: ELECTRO-CITY - CompletedWorkorders.esp
+BIS - ELECTRO-CITY Extended Cateye.esp
+: ELECTRO-CITY - CompletedWorkorders.esp and ELECTRO-CITY - Highways and Byways.esp OR ELECTRO-CITY - CompletedWorkorders.esm and ELECTRO-CITY - Highways and Byways.esm
+ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
+: IWS-CORE.ESM
+? Will work but no further support will be added.
+ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
+" ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
+ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
+" ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
+LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+" Nevada Skies.esp
+" Nevada Skies - URWLified.esp
+" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
+LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
+" Nevada Skies.esp
+" Nevada Skies - URWLified.esp
+" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+Nevada Skies.esp
+% {{BASH: C.Climate,C.Light}}
+" Nevada Skies - URWLified.esp
+" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
+" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+Ambient Temperature - Nevada Skies.esp
+: Ambient Temperature.esm AND Nevada Skies.esp
+Nevada Skies - URWLified.esp
+% {{BASH: C.Climate,C.Light}}
+" Nevada Skies.esp
+" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
+" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+BIS - Nevada Skies URWLified.esp
+: Nevada Skies - URWLified.esp
+Ambient Temperature - URWLified Nevada Skies.esp
+: Ambient Temperature.esm AND Nevada Skies - URWLified.esp
+NSkies - URWLNV.esp
+? Outdated. Please update via the Nevada Skies download page.
+StripNightLum.esp
+LUMENARIUM - Bright Clear Days.esp
+ELECTRO-CITY - Darker Nights.esp
+? No longer supported by the mod. Can still be used.
+Nights are Darker 25%.esp
+Nights are Darker 50%.esp
+Interior Lighting Overhaul-Realistic Interiors-Full.esp
+Interior Lighting Overhaul-Realistic.esp
+? Outdated. Consider Updating.
+Interior Lighting Overhaul-Darker.esp
+? Outdated and no longer supported.
+Depth of View I.esp
+Depth of View I Blur.esp
+Depth of View IE.esp
+Depth of View IE Blur.esp
+Depth of View IE Custom.esp
+Depth of View IE Gentler.esp
+Depth of View IE Middle.esp
+DYNAVISION - Dynamic Lens Effect.esp
+" Field Depth.esp
+? Outdated. Consider updating.
+DYNAVISION 2 - Dynamic Lens Effect.esp
+" DYNAVISION - Dynamic Lens Effect.esp
+" Field Depth.esp
+Field Depth.esp
+" DYNAVISION - Dynamic Lens Effect.esp
+ELECTRO-CITY - Emittance.esp
+" ELECTRO-CITY - Imaginator.esp
+? Outdated. Consider updating.
+ELECTRO-CITY - Imaginator.esp
+" ELECTRO-CITY - Emittance.esp
+CustomLighting-I DoF Blur.esp
+? Outdated.
+CustomLighting-IE DoF Blur.esp
+? Outdated.
+CustomLighting-IE DOF Clear.esp
+? Outdated.
+CustomLighting-IE Clear.esp
+? Outdated.
+CustomLighting-IE DoF.esp
+? Outdated.
+CustomLighting.esp
+CustomLighting II.esp
+UnderwaterFX.esp
+: New Vegas Script Extender
+UWFXGodrays.esp
+: New Vegas Script Extender AND UnderwaterFX.esp
+\EndGroup\\
+
+\BeginGroup\: Lastish
+\-----------
+FNNsysNV.esp
 Enhanced Ballistics Effects.esp
 Enhanced Ballistics Effects - NoTweaks.esp
 Enhanced Ballistics Effects WME.esp
 : Weapon Mod Expansion.esm
 Enhanced Ballistics Effects WME RH - NoTweaks.esp
-: Weapon Mod Expansion.esm
-: RH_IRONSIGHTS_NV.esm
-Mail Order Catalogs PopUp.esp
-" Mail Order Catalogs.esp
-Mail Order Catalogs.esp
-" Mail Order Catalogs PopUp.esp
-Mail Order Catalogs WME PopUp.esp
-: Weapon Mod Expansion.esm
-" Mail Order Catalogs WME.esp
-Mail Order Catalogs WME.esp
-: Weapon Mod Expansion.esm
-" Mail Order Catalogs WME PopUp.esp
-Mail Order Catalogs WMX PopUp.esp
-: WeaponModsExpanded.esp
-" Mail Order Catalogs WMX.esp
-Mail Order Catalogs WMX.esp
-: WeaponModsExpanded.esp
-" Mail Order Catalogs WMX PopUp.esp
+: Weapon Mod Expansion.esm AND RH_IRONSIGHTS_NV.esm
+Improved Ballistics Effects V2.esp
 mypatch.esp
-NV Scopes WME Compability.esp
-: Weapon Mod expansion.esp
 \EndGroup\\
 
 \BeginGroup\: nVamp
