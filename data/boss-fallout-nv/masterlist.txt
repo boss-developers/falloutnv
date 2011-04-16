@@ -1433,6 +1433,12 @@ WeaponModRecipes.esp
 WeaponModRecipesA.esp
 WeaponModRecipesS.esp
 WeaponModRecipesR.esp
+WMR_WME_A.esp
+: Weapon Mod Expansion.esm
+WMR_WME_S.esp
+: Weapon Mod Expansion.esm
+WMR_WME_R.esp
+: Weapon Mod Expansion.esm
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -2339,14 +2345,8 @@ WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
 WME - WorldofPain.esp
 : AWorldOfPain(Preview).esm
-WMR_WME_A.esp
-: Weapon Mod Expansion.esm
-WMR_WME_S.esp
-: Weapon Mod Expansion.esm
-WMR_WME_R.esp
-: Weapon Mod Expansion.esm
 Mo'WME.esp
-: Mo'.esm
+: Mo'.esm AND Weapon Mod Expansion.esm
 Mod Loot - 2. Reasonably Rare (WME).esp
 : Weapon Mod Expansion.esm
 NV Scopes WME Compability.esp
