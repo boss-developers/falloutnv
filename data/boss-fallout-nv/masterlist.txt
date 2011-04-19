@@ -163,7 +163,7 @@ New Vegas Redesigned.esm
 Lings.esm
 % {{BASH: Hair, Eyes}}
 MikotoBeauty.esm
-% {{BASH: Hair, Eyes}}
+% {{BASH: Hair, Eyes, Graphics}}
 Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 NosCo Companion System.esm
@@ -2609,6 +2609,9 @@ nVamp - More Hardcore.esp
 \BeginGroup\: Pose mods
 \-----------
 FewPosesMore NVedition.esp
+7DanceFnV.esp
+Animation Tool.esp
+The Groovatron.esp
 \EndGroup\\
 
 \BeginGroup\: Beauty Packs & Race Addons
