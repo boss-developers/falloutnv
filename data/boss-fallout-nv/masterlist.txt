@@ -94,6 +94,8 @@ Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 % {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
 % {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
+Machienzo - NPC Cosmetic Fixes.esm
+% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 IWS-Core.esm
 % {{BASH: Delev, Relev}}
 Frys_Freehold.esm
