@@ -23,7 +23,6 @@
 \------------
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
-Ambient Temperature.esm
 DeadMoney.esm
 Community Bugfix Compilation Patch.esm
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
@@ -34,12 +33,15 @@ ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
+Ambient Temperature.esm
 RBX.esm
 ? Needs to be before any mod using a reloading bench including a lot of house mods.
 FNVToolkit.esm
 20th Century Weapons.esm
-Achievement Remover.ESM
+Achievement Remover.esm
 Active Wasteland.esm
+AccuRifles.esm
+: NVSE
 Advanced Recon Tech.esm
 Alice Armor.esm
 BinocularsOverhaul.esm
@@ -48,12 +50,15 @@ CHEMS.esm
 CompanionInfAmmo.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
+dangame.esm
+decwithreg.esm
 Decrucifixion.esm
 Detect Traps.esm
 Docs Sexy Nurse.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
+Frys_Freehold.esm
 Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 HAM-Spawns.esm
@@ -75,6 +80,7 @@ Playthings.esm
 Primary Needs HUD.esm
 ReactivePeople.esm
 RRCompanionVault.esm
+RH_IRONSIGHTS_NV.esm
 RZW_Master.esm
 RZW_Television.esm
 : RZW_Master.esm
@@ -82,10 +88,8 @@ SCAV.esm
 Selective Fire.esm
 Thermal Vision.esm
 VMods - Master.esm
-RH_IRONSIGHTS_NV.esm
+WMVM.esm
 wsex.esm
-AccuRifles.esm
-: NVSE
 rePopulated Wasteland.esm
 WARZONES - Misanthropy Pure.esm
 aHUD.esm
@@ -98,15 +102,11 @@ Machienzo - NPC Cosmetic Fixes.esm
 % {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 IWS-Core.esm
 % {{BASH: Delev, Relev}}
-Frys_Freehold.esm
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
 ? Outdated. Consider using the latest version along with the low loot patches instead.
-dangame.esm
-decwithreg.esm
 BoulderCityFaceliftProject.esm
-The Roost.esm
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
 ? Old
@@ -157,6 +157,7 @@ nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
 ? Old, consider upgrading to nVamp version 0.15
 \ nVamp end
+The Roost.esm
 WME - Dead Money.esm
 : Dead Money.esm
 VMods - Master.esm
@@ -205,7 +206,6 @@ Brotherhood Fix.esp
 CaesarsFavorFoeHireFix.esp
 CaravanCardFix.esp
 ? Obsolete with latest patch
-CBC Dead Money Patch.esp
 CompanionHoldouts.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
@@ -309,7 +309,6 @@ NVORganizedItems.esp
 NVR - Extra Actions Toggle - Crouch.esp
 NVR - Extra Actions Toggle - Walk.esp
 OperationFixedTerrain.esp
-ParallaxRoadtrim.esp
 Primary Needs HUD.esp
 Primary Needs HUD-Kick Start Fix.esp
 Purge Cell Buffers.esp
@@ -436,8 +435,12 @@ RefinedCasinoPeople&Suits.esp
 StripOpenNPCs.esp
 SuitFixes+Factions.esp
 VendorGameTimeRestock.esp
-VendorGameTimeRestockNoDefaultRestock.esp
+: New Vegas Script Extender
+" VendorGameTimeRestockNoNVSE.esp
 VendorGameTimeRestockNoNVSE.esp
+" VendorGameTimeRestock.esp
+VendorGameTimeRestockNoDefaultRestock.esp
+? Recommended to be used with one of the main .esp's
 weathersnotstuck.esp
 \EndGroup\\
 
@@ -570,9 +573,13 @@ UHNV-IncreasedLighting.esp
 Underground Home.esp
 WildBillsPawnArmory.esp
 YangtzeBunkerPlayerHome.esp
+? Outdated; Consider Updating.
 YangtzeBunkerPlayerHomeV1_2.esp
+? Outdated; Consider Updating.
 YangtzeBunkerPlayerHomeV1_3.esp
+? Outdated; Consider Updating.
 YangtzeBunkerPlayerHomeV1_4.esp
+? Outdated; Consider Updating.
 YangtzeBunkerPlayerHomeV1_5.esp
 Lucky38marker.esp
 Lucky38markerV3.esp
@@ -1164,6 +1171,10 @@ CompanionsInfiniteAmmoCheat.esp
 CompanionInfAmmoOptional.esp
 CompanionInfAmmoCheat.esp
 Cliff's Empty Drinkable Bottles.esp
+Dead Money - Hack Vending Machines.esp
+: DeadMoney.esm
+Dead Money - Low Loot.esp
+: DeadMoney.esm
 Decrucifixion.esp
 Decrucifixion - More Victims.esp
 Desaturated Cateye.esp
@@ -1365,6 +1376,8 @@ VisualDrugs.esp
 VMods.esp
 Weight8000.esp
 weight50000.esp
+WMVM-DM.esp
+: WMVM.esm and DeadMoney.esm
 WurstBarberMachine.esp
 XP_Slower_125.esp
 XP_Slower_Challenges.esp
@@ -1446,6 +1459,7 @@ WMR_WME_R.esp
 \BeginGroup\: Weapons
 \-----------
 1Camon Aks47 (In BUNKER HIDDEN VALLEY).esp
+? Outdated. Consider Updating.
 .454 Cavalry Revolver Version 2 fixed.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
@@ -1478,6 +1492,7 @@ ASG.esp
 Assault Carbine mods.esp
 % {{BASH: WeaponMods}}
 Automatic Service Rifle.esp
+AW50f.esp
 AWMRifle.esp
 BearTrap.esp
 Beretta.esp
@@ -1493,6 +1508,7 @@ BoilingOil - Eli's Edge.esp
 Big Big Boomer.esp
 Binocs12fov.esp
 Boomers - T-57c PA.esp
+Camon AKS 47 Black Hidden Valley Bunker.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
@@ -1515,6 +1531,7 @@ DiscontinuedNCRArmorSet.esp
 DWAUGA3.esp
 DWDEagle44.esp
 DWHKUMP.esp
+: Caliber.esm IF the optional .esp is installed.
 DWM4A1.esp
 " DWM4A1V18Personal.esp
 DWM4A1V18Personal.esp
@@ -1522,6 +1539,7 @@ DWM4A1V18Personal.esp
 : Selective Fire.esm IF the optional .esp is installed.
 DWSpas12.esp
 DWUSP45.esp
+: Caliber.esm IF the optional .esp is installed.
 E-88 Plasma Rifle.esp
 EarlyWeapons.esp
 EnergyBoost.esp
@@ -1553,6 +1571,8 @@ IDreamOfElectricSheep.esp
 ImmaSightinMahLazor.esp
 % {{BASH: Stats}}
 Improved Throwing1.esp
+ironsightsnozoom.esp
+" ironsightsnozoom-wmx.esp
 LightSaberMod.esp
 J3Rifle4Free.esp
 J3Rifle4Sale.esp
@@ -2200,6 +2220,7 @@ NVReplayabilityByDandysV1.300.esp
 NVReplayabilityByDandysV1.5000.esp
 NVReplayabilityByDandysV1.600.esp
 NVReplayabilityByDandysV1.700.esp
+Packless Heavy Weapons.esp
 PipBoyLightx1.5.esp
 PipBoyLightx2.esp
 PipBoyLight.esp
@@ -2235,6 +2256,8 @@ RealisticWeaponRecoil.esp
 RealisticWeaponRecoilDM.esp
 " RealisticWeaponRecoil.esp
 : New Vegas Script Extender AND DeadMoney.esm
+Real Time Entry Skills.esp
+: New Vegas Script Extender
 Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
 RRDynamicXPonly.esp
@@ -2250,6 +2273,8 @@ tyfasterwalk-FR-N2HRP.esp
 tyfasterwalk-N2HRP.esp
 UnconsciousLooting.esp
 vanilla move.esp
+VarmintRifle22LR.esp
+" WMX-VarmintRifle22LR.esp
 Vats Longer distance.esp
 VMods.esp
 XIII + J3X's Flesh Burnificating Plasma.esp
@@ -2281,18 +2306,49 @@ WMX-ShotgunCommando.esp
 WMX-Arwen_NV_Realism.esp
 : WeaponModsExpanded.esp and Arwen_NV_Realism_Core.esp
 " WMX-ShotgunCommando.esp
+WMR_WMX_A.esp
+: WeaponModsExpanded.esp
+WMR_WMX_R.esp
+: WeaponModsExpanded.esp
+WMR_WMX_S.esp
+: WeaponModsExpanded.esp
+AW50f WMX Patch.esp
+AntiMaterialRifleRanger.esp
+: WeaponModsExpanded.esp IF using WMX version
+ironsightsnozoom-wmx.esp
+: WeaponModsExpanded.esp
+" ironsightsnozoom.esp
+Recharger Weapons Rebalance WMX.esp
+: WeaponModsExpanded.esp
+RivenBRLCRReplacer.esp
+WMX_BRLRepeaterReplacer.esp
+: WeaponModsExpanded.esp and RivenBRLCRReplacer.esp
+RivenBRLCRNonReplacer.esp
+WMX_BRLRepeaterNONReplacer.esp
+: WeaponModsExpanded.esp and RivenBRLCRNonReplacer.esp
+WMX-VarmintRifle22LR.esp
+: WeaponModsExpanded.esp
+" VarmintRifle22LR.esp
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
 WMX-ModernWeapons.esp
 : AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
+BIS - WMX-ModernWeapons.esp
+: BIS - Brumbek's Inventory Sorting.esp and WeaponModsExpanded.esp
 WMX-DeadMoney.esp
 : WeaponModsExpanded.esp and DeadMoney.esm
+BIS - WMX-DeadMoney.esp
+: BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and DeadMoney.esm
+Hack Vending Machines - WMX.esp
+: DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 WMX-PreOrderPackCaravan.esp
 : CaravanPack.esm and WeaponModsExpanded.esp
+BIS - WMX-PreOrderPackCaravan.esp
+: BIS - Brumbek's Inventory Sorting.esp, CaravanPack.esm, and WeaponModsExpanded.esp
 WMX-PreOrderPackMercenary.esp
 : MercenaryPack.esm and WeaponModsExpanded.esp
-Recharger Weapons Rebalance WMX.esp
-: WeaponModsExpanded.esp
+BIS - WMX-PreOrderPackMercenary.esp
+: BIS - Brumbek's Inventory Sorting.esp, MercenaryPack.esm, and WeaponModsExpanded.esp
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 " WeaponModsExpanded.esp
@@ -2389,6 +2445,12 @@ Mail Order Catalogs XFO WME.esp
 Mail Order Catalogs XFO WME PopUp.esp
 : New Vegas Script Extender, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+WMVM-WMX.esp
+: WMVM.esm and WeaponModsExpanded.esp
+WMVM-WMX-DM.esp
+: WMVM-DM.esp, WeaponModsExpanded.esp, WMX-DeadMoney.esp, and WMVM-WMX.esp
+WMVM-WMX-MW.esp
+: WeaponModsExpanded.esp, WMX-ModernWeapons.esp, and WMVM-WMX.esp
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
@@ -2396,6 +2458,7 @@ Mail Order Catalogs XFO WME PopUp.esp
 FNVEnhancedShaders - AA-DOF Enable.esp
 OFT_ElectroCity.esp
 : ELECTRO-CITY - CompletedWorkorders.esm AND OperationFixedTerrain.esp
+ParallaxRoadtrim.esp
 MedGrass.esp
 HighGrass.esp
 KDS Green World.esp
