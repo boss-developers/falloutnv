@@ -1718,7 +1718,7 @@ ERCAFACTLESS.esp
 " ERCA.esp
 ERCA Doc.esp
 : ERCA.esp
-ERCA NCRSH.espFlashlightNVSE.esp
+ERCA NCRSH.esp
 : ERCA.esp
 Eyepatch.esp
 exoArmorPerks.esp
