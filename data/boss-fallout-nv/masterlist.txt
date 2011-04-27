@@ -2537,10 +2537,15 @@ ELECTRO-CITY - Darker Nights.esp
 Nights are Darker 25%.esp
 Nights are Darker 50%.esp
 Interior Lighting Overhaul-Realistic Interiors-Full.esp
+% {{BASH: C.Light}}
 Interior Lighting Overhaul-Realistic.esp
 ? Outdated. Consider Updating.
 Interior Lighting Overhaul-Darker.esp
 ? Outdated and no longer supported.
+ILO-RI-Original Lucky38 Suite.esp
+% {{BASH: C.Light}}
+ILO-RI-Dead Money.esp
+% {{BASH: C.Light}}
 Depth of View I.esp
 Depth of View I Blur.esp
 Depth of View IE.esp
