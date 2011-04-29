@@ -34,6 +34,8 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 Ambient Temperature.esm
+IWR.esm
+? Loaded early to let other mods override boundaries if needed.
 RBX.esm
 ? Needs to be before any mod using a reloading bench including a lot of house mods.
 FNVToolkit.esm
@@ -50,7 +52,6 @@ CHEMS.esm
 CompanionInfAmmo.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
-dangame.esm
 decwithreg.esm
 Decrucifixion.esm
 Detect Traps.esm
@@ -64,7 +65,6 @@ Goodsprings Hideout.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
-IWR.esm
 LW Companion.esm
 ? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
 Military Explansion Program.esm
@@ -79,6 +79,7 @@ PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
 ReactivePeople.esm
+rePopulated Wasteland.esm
 RRCompanionVault.esm
 RH_IRONSIGHTS_NV.esm
 RZW_Master.esm
@@ -86,13 +87,14 @@ RZW_Television.esm
 : RZW_Master.esm
 SCAV.esm
 Selective Fire.esm
+: New Vegas Script Extender
 Thermal Vision.esm
 VMods - Master.esm
+WARZONES - Misanthropy Pure.esm
 WMVM.esm
 wsex.esm
-rePopulated Wasteland.esm
-WARZONES - Misanthropy Pure.esm
 aHUD.esm
+: New Vegas Script Extender
 \ nVamp stuff
 Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 % {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
@@ -106,7 +108,6 @@ Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
 AWorldOfPain(LowLoot).esm
 ? Outdated. Consider using the latest version along with the low loot patches instead.
-BoulderCityFaceliftProject.esm
 EZ_CompanionNVSE.esm
 EZ_CompanionNVSE_Killable_Normal.esm
 ? Old
@@ -118,6 +119,7 @@ More Perks for Dead Money.esm
 More Traits.esm
 More Challenges.esm
 Project Nevada - Core.esm
+: New Vegas Script Extender
 iHUD.esm
 : New Vegas Script Extender
 ELECTRO-CITY - CompletedWorkorders.esm
@@ -157,10 +159,11 @@ nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
 ? Old, consider upgrading to nVamp version 0.15
 \ nVamp end
+BoulderCityFaceliftProject.esm
+dangame.esm
 The Roost.esm
 WME - Dead Money.esm
 : Dead Money.esm
-VMods - Master.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
@@ -1401,7 +1404,9 @@ BuildableBotsNV.esp
 Bountiful Harvest.esp
 " Dynamic Herbalism.esp
 CHEMS - Benches.esp
+: CHEMS.esm
 CHEMS - Basic Chems.esp
+: CHEMS.esm
 Craft Overhaul 1.1.esp
 Craftable Stealth boys.esp
 CRFTOven.esp
@@ -1460,6 +1465,7 @@ WMR_WME_R.esp
 \-----------
 1Camon Aks47 (In BUNKER HIDDEN VALLEY).esp
 ? Outdated. Consider Updating.
+1 AKSU ( Standart SD).esp
 .454 Cavalry Revolver Version 2 fixed.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
@@ -1537,6 +1543,7 @@ DWM4A1.esp
 DWM4A1V18Personal.esp
 " DWM4A1.esp
 : Selective Fire.esm IF the optional .esp is installed.
+DWSG556.esp
 DWSpas12.esp
 DWUSP45.esp
 : Caliber.esm IF the optional .esp is installed.
@@ -1550,6 +1557,7 @@ EnhancedServiceRifle.esp
 Euclid C-Finder Unlimited Ammo.esp
 ExperimentalMIRV.esp
 FingerOfGodNV.esp
+FN FAL.esp
 FN_SCAR.esp
 F03weaponpack_v1_0.esp
 FO3WeaponsRestoration.esp
@@ -1728,6 +1736,7 @@ DragonskinNCRPersonnelWearingOutfits.esp
 DragonskinBonusPack.esp
 dressup.esp
 dressupWITHweaponchanges.esp
+DuffleBagOfGuns.esp
 DynamicNightVision.esp
 epock.esp
 ? Meshes based off of the Type 3 Female Body.
@@ -2191,6 +2200,21 @@ Lever Rifle fire rate slow.esp
 limbregen.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
+Max Level 50.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 60.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 75.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 100.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 255.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
 Melee Lock-On.esp
 Modified Combat Values v2.esp
 More Damage To Player.esp
@@ -2200,11 +2224,14 @@ move.base.speed.100.esp
 move.base.speed.125.esp
 move.base.speed.150.esp
 MrSlackPants-DecentPipboyLightNV.esp
+MusicRecovery.esp
 no-faction-warning.esp
 NoBlurOnHit.esp
+NoCombatMusic.esp
 NoDegrade.esp
 NoDegradation.esp
 NoDialogueHints.esp
+No Experience Up Sound.esp
 NoFactionArmorMessage.esp
 No Neos.esp
 NoQuestItems.esp
