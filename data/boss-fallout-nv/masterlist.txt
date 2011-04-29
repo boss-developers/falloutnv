@@ -436,6 +436,7 @@ NV Ghouls Revenge - Increased Numbers.esp
 NV Ghouls Revenge - Resurrection.esp
 RefinedCasinoPeople&Suits.esp
 StripOpenNPCs.esp
+: NVStripOpen.esm
 SuitFixes+Factions.esp
 VendorGameTimeRestock.esp
 : New Vegas Script Extender
@@ -523,7 +524,6 @@ NiceFreeside.esp
 Novac Hotel Suite Upgrade.esp
 BobblehuntNovacSuite.esp
 NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
-StripOpenNPCs.esp
 NewVegasStripOverhaul.esp
 : StripOpenNPCs.esp
 NVSO - ELECTRO-CITY Patch.esp
