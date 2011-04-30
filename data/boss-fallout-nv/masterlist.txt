@@ -1500,6 +1500,17 @@ Assault Carbine mods.esp
 Automatic Service Rifle.esp
 AW50f.esp
 AWMRifle.esp
+Ahzteks Weapon Replacements.esp
+? Outdated.
+Selective Fire - Ahzteks NV Weapon Overhaul.esp
+: Selective Fire.esm AND Ahzteks Weapon Replacements.esp
+Ahzteks Weapon Overhaul.esp
+: Caliber.esm
+" Ahzteks Weapon Overhaul NO xCALIBER.esp
+Ahzteks Weapon Overhaul NO xCALIBER.esp
+" Ahzteks Weapon Overhaul.esp
+Ahzteks Impact Data (Optional).esp
+Ahzteks Muzzle Flashes (Optional).esp
 BearTrap.esp
 Beretta.esp
 Better Binoculars.esp
@@ -2061,8 +2072,13 @@ getallACH.esp
 Grays_EverybodyBleeds.esp
 " Moddable Unique Weps.esp
 " Moddable Unique Weps.esm
+MiscItemIconsNV.esp
+% {{BASH: Graphics}}
+" T3T_MiscItemIconsNV.esp
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
+" MiscItemIconsNV.esp
+? Outdated. Consider updating.
 Master of Throwing.esp
 Craft Throwing weapons.esp
 BIS - T3T_MiscItemIconsNV 0.7.esp
