@@ -948,8 +948,15 @@ Adventurers_New_Vegas-V0.1.esp
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Arwen_NV_Realism_Core.esp
+: New Vegas Script Extender later than Version 1.4.2
 % {{BASH: Stats}}
 Arwen FOV patch.esp
+Arwen_NV_Hard-Core.esp
+: New Vegas Script Extender and Arwen_NV_Realism_Core.esp
+Arwen_NV_Encumbrance.esp
+: New Vegas Script Extender and Arwen_NV_Realism_Core.esp
+Arwen_NV_Med-Tec.esp
+: New Vegas Script Extender and Arwen_NV_Realism_Core.esp
 BallanceMod.esp
 DeadlierExplosivesNV.esp
 Fallout - New FPS (Medium).esp
@@ -1685,7 +1692,13 @@ Selective Fire - ZL Armaments.esp
 
 \BeginGroup\: Armor and Clothes
 \-----------
+BlackWolf Backpack.esp
+" QS_Blackwolf_NV_Backpackmod.esp
+? To be used with BlackWolf Backpack - Vendor Script Replenish.esp
+BlackWolf Backpack - Vendor Script Replenish.esp
+? To be used with BlackWolf Backpack.esp
 QS_Blackwolf_NV_Backpackmod.esp
+" BlackWolf Backpack.esp
 QBackPackNV.esp
 KDS Wearable Backpacks.esp
 % {{BASH: Invent}}
@@ -2089,6 +2102,10 @@ BIS - T3T_MiscItemIconsNV 0.7.esp
 : T3T_MiscItemIconsNV.esp
 Scrap the crap.esp
 ShilohDS-Color Maps and Icons.esp
+Sorter - Books.esp
+% {{BASH: Names}}
+Sorter - Magazines.esp
+% {{BASH: Names}}
 Sorter - Combined.esp
 % {{BASH: Names}}
 Sorter - Combined - T3T Icon Compatch.esp
@@ -2112,12 +2129,6 @@ FeelingIrradiated-IS.esp
 4Aces Gameplay.esp
 _glaunch_explosion.esp
 aaaJNFSniperZooming.esp
-Arwen_NV_Hard-Core.esp
-: Arwen_NV_Realism_Core.esp
-Arwen_NV_Encumbrance.esp
-: Arwen_NV_Realism_Core.esp
-Arwen_Med-Tec.esp
-: Arwen_NV_Realism_Core.esp
 Automatic Inventory.esp
 Balance mod - 10% XP Gain.esp
 Balance mod - 50% XP Gain.esp
