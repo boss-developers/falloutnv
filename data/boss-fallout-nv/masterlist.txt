@@ -1237,30 +1237,34 @@ LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
 MagazinesReworked.esp
-Mail Order Catalogs.esp
-: New Vegas Script Extender
-? Select only ONE .esp when installing this mod.
 Mail Order Catalogs PopUp.esp
 : New Vegas Script Extender
 ? Select only ONE .esp when installing this mod.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO.esp
 : New Vegas Script Extender
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO PopUp.esp
 : New Vegas Script Extender
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 Mail Order Catalogs DLC.esp
 : New Vegas Script Extender AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod.
+? Outdated. Consider Updating.
 Mail Order Catalogs DLC PopUp.esp
 : New Vegas Script Extender AND DeadMoney.esm 
 ? Select only ONE .esp when installing this mod.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO DLC.esp
 : New Vegas Script Extender AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO DLC PopUp.esp
 : New Vegas Script Extender AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 ManualReload.esp
 Military Explansion Program.esp
 Mod Loot - 1. Really Rare.esp
@@ -2452,30 +2456,46 @@ Mod Loot - 2. Reasonably Rare (WME).esp
 : Weapon Mod Expansion.esm
 NV Scopes WME Compability.esp
 : Weapon Mod expansion.esp
+Mail Order Catalogs.esp
+: New Vegas Script Extender
+Mail Order Catalogs Hardcore.esp
+: New Vegas Script Extender AND Mail Order Catalogs.esp
+Mail Order Catalogs DLC01.esp
+: New Vegas Script Extender, DeadMoney.esm, AND Mail Order Catalogs.esp
 Mail Order Catalogs WMX.esp
-: New Vegas Script Extender AND WeaponModsExpanded.esp
-? Select only ONE .esp when installing this mod.
+: New Vegas Script Extender, WeaponModsExpanded.esp, AND Mail Order Catalogs.esp
+Mail Order Catalogs WMX Modern Weapons.esp
+: New Vegas Script Extender, WeaponModsExpanded.esp, WMX-ModernWeapons.esp, Mail Order Catalogs.esp, AND Mail Order Catalogs WMX.esp
+Mail Order Catalogs DLC01 WMX .esp
+: New Vegas Script Extender, DeadMoney.esm, WeaponModsExpanded.esp, WMX-DeadMoney.esp, Mail Order Catalogs.esp, Mail Order Catalogs DLC01.esp, AND Mail Order Catalogs WMX.esp
 Mail Order Catalogs WMX PopUp.esp
 : New Vegas Script Extender AND WeaponModsExpanded.esp
 ? Select only ONE .esp when installing this mod.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO WMX.esp
 : New Vegas Script Extender AND WeaponModsExpanded.esp
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO WMX PopUp.esp
 : New Vegas Script Extender AND WeaponModsExpanded.esp
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 Mail Order Catalogs WMX DLC.esp
 : New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod.
+? Outdated. Consider Updating.
 Mail Order Catalogs WMX DLC PopUp.esp
 : New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO WMX DLC.esp
 : New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 Mail Order Catalogs XFO WMX DLC PopUp.esp
 : New Vegas Script Extender, WeaponModsExpanded.esp, AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod. Does not require XFO.
+? Outdated. Consider Updating.
 Mail Order Catalogs WME.esp
 : New Vegas Script Extender, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 ? Select only ONE .esp when installing this mod.
