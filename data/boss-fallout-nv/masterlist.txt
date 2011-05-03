@@ -59,6 +59,7 @@ Docs Sexy Nurse.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
+Frequency.esm
 Frys_Freehold.esm
 Ghouls Attack Test.esm
 Goodsprings Hideout.esm
@@ -964,6 +965,8 @@ DeadlierExplosivesNV.esp
 Fallout - New FPS (Medium).esp
 Fallout - New FPS (Extreme).esp
 Light My Flare.esp
+Playing With Firepower - New Vegas.esp
+: New Vegas Script Extender and Frequency.esm
 Realistic Health - Medium.esp
 Realistic Health - Extreme.esp
 Realistic Health - Maximum.esp
@@ -1828,6 +1831,7 @@ Kaya47NordicGear.esp
 KerberosPanzer-AdvancedReconGear.esp
 KerberosPanzer-power armor.esp
 KerberosPanzer-lower dt.esp
+LDTribalPowerArmor.esp
 Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
 LegionNCRnonfaction.esp
@@ -2404,6 +2408,9 @@ WMX-VarmintRifle22LR.esp
 " VarmintRifle22LR.esp
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
+WMXTemporaryPatch.esp
+: WeaponModsExpanded.esp
+? Will be outdated once WMX updates to accommodate for patch 1.3's changes.
 WMX-ModernWeapons.esp
 : AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
 BIS - WMX-ModernWeapons.esp
