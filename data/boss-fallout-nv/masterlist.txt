@@ -391,6 +391,8 @@ Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
 VyntageCass02.esp
 % {{BASH: NpcFaces}}
+VyntageVeronica02.esp
+% {{BASH: NpcFaces}}
 \EndGroup\\
 
 \BeginGroup\: NPC
@@ -1219,13 +1221,20 @@ IWS-Core-Patrols.esp
 IWS-Core-Guards.esp
 IWS-Core-Civilians.esp
 IWS-AS-HighSpawns.esp
+: New Vegas Script Extender
+? Only use one of the spawn .esp's
 IWS-AS-MedSpawns.esp
+: New Vegas Script Extender
+? Only use one of the spawn .esp's
 IWS-AS-LowSpawns.esp
-IWS-AS-EnableDebugInfo.esp
+: New Vegas Script Extender
+? Only use one of the spawn .esp's
 IWS-AS-NoInteriorSpawns.esp
 IWS-AS-EnableDebugInfo.esp
 IWS-MoreSpawns.esp
+? Outdated. Consider Updating.
 IWS-UltraSpawns.esp
+? Outdated. Consider Updating.
 Kobu's Primary Attributes Uncapper.esp
 Kobu's Primary Attribute Uncapper.esp
 less_aggressive_cazadores.esp
@@ -1282,6 +1291,12 @@ Mod Loot - 5. Pretty Common.esp
 Mojave Express Expansion.esp
 MojaveXP.esp
 mojave music radio expanded v1.1.esp
+monsterranch.esp
+% {{BASH:Relev}}
+AWOP-MoMod.esp
+: AWorldOfPaint(Preview).esm AND monsterranch.esp
+IWS-MoMod.esp
+: IWS-Core.esm AND monsterranch.esp
 More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
