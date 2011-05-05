@@ -163,6 +163,9 @@ nVamp - Vaernus's Voracious Vermin.esm
 BoulderCityFaceliftProject.esm
 dangame.esm
 The Roost.esm
+MoMod.esm
+% {{BASH:Relev}}
+" monsterrach.esp
 WME - Dead Money.esm
 : Dead Money.esm
 New Vegas Redesigned.esm
@@ -1209,6 +1212,8 @@ FalloutNVCheatTerminal.esp
 FasterDialogZoom.esp
 FeelingIrradiated.esp
 FO1TAG.esp
+Frequency - CFWNV Patch.esp
+: Frequency.esm and CFWNV.esm
 gambling.esp
 Hardcore canteen.esp
 Hardcore (Double Rates).esp
@@ -1296,10 +1301,12 @@ MojaveXP.esp
 mojave music radio expanded v1.1.esp
 monsterranch.esp
 % {{BASH:Relev}}
+" MoMod.esm
+? Outdated. Consider Updating.
 AWOP-MoMod.esp
-: AWorldOfPaint(Preview).esm AND monsterranch.esp
+: AWorldOfPaint(Preview).esm AND MoMod.esm (Version 3 +) OR monsterranch.esp (Below Version 3)
 IWS-MoMod.esp
-: IWS-Core.esm AND monsterranch.esp
+: IWS-Core.esm AND MoMod.esm (Version 3+) OR monsterranch.esp (Below Version 3)
 More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
@@ -1383,6 +1390,8 @@ RZW_SilentVideoCollection.esp
 : RZW_Television.esm
 SaveCass.esp
 SaveCass_german.esp
+Selective Fire - Classic Fallout Weapons NV.esp
+: Selective Fire.esm and CFWNV.esm
 Selective Fire - Project Nevada.esp
 : Selective Fire.esm and Project Nevada - Core.esm
 Sex Try.esp
@@ -1495,6 +1504,7 @@ WMR_WME_R.esp
 1Camon Aks47 (In BUNKER HIDDEN VALLEY).esp
 ? Outdated. Consider Updating.
 1 AKSU ( Standart SD).esp
+1 Camon Ak47 (goodsprings saloon).esp
 .454 Cavalry Revolver Version 2 fixed.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
@@ -1603,8 +1613,6 @@ F03weaponpack_v1_0.esp
 FO3WeaponsRestoration.esp
 Selective Fire - FO3 Weapons Restoration.esp
 : Selective Fire.esm and FO3WeaponsRestoration.esp
-Selective Fire - Classic Fallout Weapons NV.esp
-: Selective Fire.esm and CFWNV.esm
 fownv - Sonic Screwdriver 1.0.esp
 G36C.esp
 Glow Sticks.esp
@@ -1745,6 +1753,8 @@ Amy_Armor.esp
 Amazon Armor.esp
 Armored PA Gloves.esp
 % {{BASH: Deflst}}
+ArmyCapDesert.esp
+ArmyCapWoodlandDigi.esp
 AsharasLightningItems_ForNV.esp
 ATT LeatherJacket.esp
 ATT SamusZero.esp
@@ -1819,6 +1829,7 @@ GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
 Hereticus Faction Armors Fading.esp
 % {{BASH: Names}}
+HDTshop.esp
 HomeTeleport.esp
 Holster.esp
 iL-Camouflage Ghost Bodysuit.esp
@@ -2371,6 +2382,8 @@ WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 WMX - Sorted.esp
 ? Merged into the main mod; No longer required.
+Frequency - WMX Patch.esp
+: Frequency.esm and WeaponModsExpanded.esp
 WMX-AWOP Patch.esp
 : AWorldOfPain(Preview).esm and WeaponModsExpanded.esp
 BIS - Weapon Mods Expanded (WMX).esp
@@ -2795,6 +2808,7 @@ Shojo Neko.esp
 
 \BeginGroup\: Hair
 \-----------
+bald.esp
 MediumBeard.esp
 Receding Hairstyle.esp
 Rikai'sHairPack.esp
