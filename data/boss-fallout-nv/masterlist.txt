@@ -56,6 +56,8 @@ decwithreg.esm
 Decrucifixion.esm
 Detect Traps.esm
 Docs Sexy Nurse.esm
+drgNV - Melissa Companion.esm
+Eve.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
@@ -202,6 +204,7 @@ Compiled Patch.esp
 Compiled Patch - DeadMoney.esp
 : DeadMoney.esm
 " CBC Dead Money Patch.esm AND CBC Dead Money Patch.esp
+26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
 Atomic Wrangler Suite Fix.esp
@@ -213,9 +216,12 @@ Brotherhood Fix.esp
 CaesarsFavorFoeHireFix.esp
 CaravanCardFix.esp
 ? Obsolete with latest patch
+CrimsonCaravanInvoiceBugFix.esp
 CompanionHoldouts.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
+DeadMoneyWeaponFixes.esp
+: DeadMoney.esm
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 DLM_QuestItemsFix_1.3b_Eng.esp
 DLM_QuestItemsFix_1.3b-DLC_DM.esp
@@ -234,6 +240,7 @@ FreesideKingsGiftGiverFix14Days.esp
 FreesideKingsGiftGiverFix999Days.esp
 headgearfix.esp
 IsolatingVirusFix.esp
+I Put A Spell On You Fix.esp
 JBrightExodusFix.esp
 Lucky38ContainersFix.esp
 Lucky 38 Suite Respawn Fix.esp
@@ -483,6 +490,7 @@ BetterNovacRoomFull.esp
 BONsQuarryJunctionRefuge-cave.esp
 Brahmin Bess.esp
 Brighter Novac Player Room.esp
+brotherhoodweaponstash.esp
 Bungalow Home.esp
 Dalls_Birds_Nest.esp
 Dalls_Lodger.esp
@@ -528,8 +536,12 @@ NCR Embassy-Revamp.esp
 NCR Outpost.esp
 NiceFreeside.esp
 Novac Hotel Suite Upgrade.esp
-BobblehuntNovacSuite.esp
+" NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
 NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
+" Novac Hotel Suite Upgrade.esp
+BobblehuntNovacSuite.esp
+NVR_ELECTRO-CITY_Patch.esp
+NVR-Version_9.esp
 NewVegasStripOverhaul.esp
 : StripOpenNPCs.esp
 NVSO - ELECTRO-CITY Patch.esp
@@ -542,6 +554,7 @@ NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
 Portable Tent.esp
+ProjectPrimm.esp
 Realistic Portable Tent.esp
 return_deadmoney.esp
 : DeadMoney.esm
@@ -557,6 +570,7 @@ sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
 SLA_02a_fort.esp
 SecretHideout-v1.21.esp
+The New Bison Steve Hotel.esp
 vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
@@ -1565,6 +1579,7 @@ Big Big Boomer.esp
 Binocs12fov.esp
 Boomers - T-57c PA.esp
 Camon AKS 47 Black Hidden Valley Bunker.esp
+Camon Bren (Hidden Supply Cave).esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
@@ -1586,6 +1601,7 @@ DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
 DWAUGA3.esp
 DWDEagle44.esp
+DWGlocks.esp
 DWHKUMP.esp
 : Caliber.esm IF the optional .esp is installed.
 DWM4A1.esp
@@ -1858,6 +1874,8 @@ Military NV Backpacks - BumBagUseSlot1.esp
 Military NV Backpacks - No Straps.esp
 Military NV Backpacks - Vendor Script Replenish.esp
 My Cloth Collection NV.esp
+NCR Black Ops Stealth Armor.esp
+? Due to a master issue, this requires ClassicPack.esm; Can be fixed manually using FNVEdit.
 NCR Rearmament v1.5.esp
 " NCR Rearmament v1.5 (Lore).esp
 NCR Rearmament v1.5 (Lore).esp
@@ -2002,6 +2020,7 @@ A Present For Boone.esp
 AllCompanionsEssential.esp
 AllCompanionsEssential 2.0.esp
 Essentialcompanions.esp
+Essentialplustweaks.esp
 ICC.esp
 boon_harcored.esp
 Boone0.2.esp
@@ -2026,12 +2045,17 @@ Cass Passive Fix.esp
 " Cass Passive Fix 2 Option.esp
 Cass Passive Fix 2 Option.esp
 " Cass Passive Fix.esp
+Classic Companion Config.esp
+CCC - Robots.esp
+: Classic Companion Config.esp
+CCC - Save Cass.esp
+: Classic Companion Config.esp
+? For use with the Save Cass mod.
 DeanMoneyCompanionsDeEquipandRebalance.esp
 : DeadMoney.esm
 drgNV - Marcus Companion.esp
 drgNV - Melissa Companion (Lings Hairstyle Add-On).esp
 drgNV - Melissa Companion (Recruitment Fix).esp
-drgNV - Melissa Companion.esm
 ED-E 3D Sound.esp
 ede-e_alert_replacement.esp
 ED-E Burr.esp
@@ -2040,7 +2064,6 @@ ED-E Phaser.esp
 ED-E Plasma.esp
 ED-E Rocket.esp
 ED-E Shotgun.esp
-Eve.esm
 CManagerie.esp
 Companion Sandbox Mode.esp
 Companion Sandbox Mode V2.0.esp
@@ -2049,10 +2072,15 @@ EnclaveCommander.esp
 EZ_VanillaFollowers.esp
 Follower Home Marker.esp
 GARU.esp
+HJLCompanionsv103.esp
 ImprovedCompanions.esp
 Jade.esp
 JeyebotCompanion.esp
 Light Step ED-E.esp
+LilyFawkes.esp
+" LilyArmored.esp
+LilyArmored.esp
+" LilyFawkes.esp
 Max Followers 12.esp
 miria.esp
 Nano - Cass Type A (Original Hair) (Essential).esp
@@ -2079,10 +2107,7 @@ RWKNV.esp
 SecuritronCompanion.esp
 SunnyCompanion.esp
 Mo'SunnyCompanion.esp
-: Mo'.esm
-: Lings.esm
-: Mo'Suite.esp
-: SunnyCompanion.esp
+: Mo'.esm, Lings.esm, Mo'Suite.esp, and SunnyCompanion.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
 Veronica.esp
@@ -2188,7 +2213,11 @@ RWD-NV v1.3 [NoLimbsExplosions].esp
 RWD-NV v1.3 [Standard Version].esp
 vatsbuff.esp
 vatsbuff2x.esp
+BetterHeadshots.esp
+Brighter PipBoy.esp
 Bullet Impact Increased LOD.esp
+CCC - weaker weapons.esp
+? Does not require CCC to work.
 CF_FastStart.esp
 Closer To Fallout - True Threshold.esp
 Color Me Evil.esp
@@ -2205,6 +2234,8 @@ dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
 DM-NoLvlMsg.esp
+: DeadMoney.esm
+Dead Money - No Collar Explosion and No Poison Cloud.esp
 : DeadMoney.esm
 durability.esp
 Ephemeral Ash and Goo Piles.esp
@@ -2297,6 +2328,8 @@ NoFactionArmorMessage.esp
 No Neos.esp
 NoQuestItems.esp
 No Scope Wobble.esp
+No Weapon Remove Dead Money.esp
+: DeadMoney.esm
 NVExpansionByDandysV1.400.esp
 NVR - High Lethality.esp
 NVR - Lock Bombing.esp
@@ -2364,6 +2397,7 @@ vanilla move.esp
 VarmintRifle22LR.esp
 " WMX-VarmintRifle22LR.esp
 Vats Longer distance.esp
+Vault_34_better_reactor.esp
 VMods.esp
 XIII + J3X's Flesh Burnificating Plasma.esp
 XtraSpecialNV.esp
@@ -2382,6 +2416,9 @@ WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 WMX - Sorted.esp
 ? Merged into the main mod; No longer required.
+WMXTemporaryPatch.esp
+: WeaponModsExpanded.esp
+? Will be outdated once WMX updates to accommodate for patch 1.3's changes.
 Frequency - WMX Patch.esp
 : Frequency.esm and WeaponModsExpanded.esp
 WMX-AWOP Patch.esp
@@ -2421,9 +2458,6 @@ WMX-VarmintRifle22LR.esp
 " VarmintRifle22LR.esp
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
-WMXTemporaryPatch.esp
-: WeaponModsExpanded.esp
-? Will be outdated once WMX updates to accommodate for patch 1.3's changes.
 WMX-ModernWeapons.esp
 : AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
 BIS - WMX-ModernWeapons.esp
