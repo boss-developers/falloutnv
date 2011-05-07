@@ -1278,7 +1278,7 @@ Mail Order Catalogs DLC.esp
 ? Select only ONE .esp when installing this mod.
 ? Outdated. Consider Updating.
 Mail Order Catalogs DLC PopUp.esp
-: New Vegas Script Extender AND DeadMoney.esm 
+: New Vegas Script Extender AND DeadMoney.esm
 ? Select only ONE .esp when installing this mod.
 ? Outdated. Consider Updating.
 Mail Order Catalogs XFO DLC.esp
