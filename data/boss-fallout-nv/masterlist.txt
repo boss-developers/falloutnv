@@ -1145,26 +1145,6 @@ Alternative Console Access.esp
 Animated Prostitution.esp
 ammoingredientsloot.esp
 ArenaAnySex.esp
-AWOPLowRobots.esp
-" AWOPVeryLowRobots.esp
-: AWorldOfPain(Preview).esm
-AWOPVeryLowRobots.esp
-" AWOPLowRobots.esp
-: AWorldOfPain(Preview).esm
-AWOP-BOEWeaponPatch.esp
-: AWorldOfPain(Preview).esm AND Mo'.esm
-AWOPCaliberXAmmoPatch.esp
-" AWOPCaliberXAmmoPatchLOW.esp
-: AWorldOfPain(Preview).esm AND Caliber.esm
-AWOPCaliberXAmmoPatchLOW.esp
-" AWOPCaliberXAmmoPatch.esp
-: AWorldOfPain(Preview).esm AND Caliber.esm
-AWOPLowLootGeneral.esp
-: AWorldOfPain(Preview).esm
-AWOPLowLootMWeapons.esp
-: AWorldOfPain(Preview).esm
-AWOPLowLootSkillBooks.esp
-: AWorldOfPain(Preview).esm
 BAN - Dupe This.esp
 BCL custom edition.esp
 Better Casinos.esp
@@ -1631,6 +1611,7 @@ Selective Fire - FO3 Weapons Restoration.esp
 : Selective Fire.esm and FO3WeaponsRestoration.esp
 fownv - Sonic Screwdriver 1.0.esp
 G36C.esp
+Glock18c.esp
 Glow Sticks.esp
 Gobi Rifle Enhanced.esp
 Golden Eagle.esp
@@ -1789,6 +1770,7 @@ ClassicPowerArmorPulseRifle.esp
 Clearhelmets4radsuits.esp
 COL - Liena's Armour.esp
 Colossus NV.esp
+Colossus Armor For New Vegas (keylek).esp
 CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Crazyeyesreaper T51b Variety Pack.esp
@@ -1978,6 +1960,33 @@ Lore version.esp
 
 \BeginGroup\: Middle Misc
 \-----------
+AWOPLowRobots.esp
+" AWOPVeryLowRobots.esp
+: AWorldOfPain(Preview).esm
+AWOPVeryLowRobots.esp
+" AWOPLowRobots.esp
+: AWorldOfPain(Preview).esm
+AWOP-AhztekWeaponPatch.esp
+: AWorldOfPain(Preview).esm AND Ahzteks Weapon Overhaul.esp
+AWOP-BOEWeaponPatch.esp
+: AWorldOfPain(Preview).esm AND Mo'.esm
+AWOPCFWWeaponPatch.esp
+: AWorldOfPain(Preview).esm AND CFWNV.esm
+AWOPCaliberXAmmoPatch.esp
+" AWOPCaliberXAmmoPatchLOW.esp
+: AWorldOfPain(Preview).esm AND Caliber.esm
+AWOPCaliberXAmmoPatchLOW.esp
+" AWOPCaliberXAmmoPatch.esp
+: AWorldOfPain(Preview).esm AND Caliber.esm
+AWOPLowLootGeneral.esp
+: AWorldOfPain(Preview).esm
+AWOPLowLootMWeapons.esp
+: AWorldOfPain(Preview).esm
+AWOPLowLootSkillBooks.esp
+: AWorldOfPain(Preview).esm
+AWOPMonsterPatch.esp
+: AWorldOfPain(Preview).esm AND MoMod.esm
+? Recommended to use the AWorldOfPain(Preview).esm included in the download as of Preview 003.
 Caesars_Legion_Overhaul.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
