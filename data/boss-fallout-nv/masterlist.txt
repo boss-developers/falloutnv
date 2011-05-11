@@ -68,6 +68,7 @@ Frequency.esm
 Frys_Freehold.esm
 Ghouls Attack Test.esm
 Goodsprings Hideout.esm
+GunSmith.esm
 HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
@@ -265,6 +266,7 @@ NCRRCombatFix.esp
 new vegas radios.esp
 NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
+Primm_Rumor_Fix.esp
 RadioComputerPartsFix.esp
 Raul Ranger Andy fix.esp
 ReloadBugFix.esp
@@ -525,6 +527,7 @@ FalloutShelter-nogear-v1-45.esp
 FF_Entry_Fix.esp
 : Frys_Freehold.esm
 FNV - ShopHome.esp
+Freeside Fine Living.esp 
 Freeside NCR Guard Post - Revamp.esp
 Freesidehome.esp
 Gomorrah3rdFloor.esp
@@ -614,6 +617,12 @@ UHNV-IncreasedLighting.esp
 " UHNV-Brighter Lighting.esp
 ? Outdated; Consider Updating.
 Underground Home.esp
+UWHNV-Core.esp
+: New Vegas Script Extender
+UWHNV-Addon-DLC.esp
+: New Vegas Script Extender, UWHNV-Core.esp, and DeadMoney.esm
+UWHNV-Addon-CHEMS.esp
+: New Vegas Script Extender, UWHNV-Core.esp, and CHEMS.esm
 WildBillsPawnArmory.esp
 YangtzeBunkerPlayerHome.esp
 ? Outdated; Consider Updating.
@@ -1100,6 +1109,8 @@ Boones Spotter Perk Enhanced.esp
 ChildAtHeartPerk.esp
 Calm_Heart_Fix.esp
 Detect Traps - Perk.esp
+EpF-BetterPerkDescriptions.esp
+FO2 TRAITS.esp
 Free Wild Wasteland.esp
 FreakinLaserBeams_Perk_1_2.esp
 FreakinLaserBeams_Perk_Light_1_2.esp
@@ -1122,6 +1133,7 @@ More Traits Update.esp
 More Challenges - Original Challenges Overhaul.esp
 NinjaPerkFix.esp
 Perks per du.esp
+Power Armor Training Perk.esp
 MercGrenadeRifleDemoPyro.esp
 mysterious increase.esp
 NV_Jinxed_Classicish.esp
@@ -1475,6 +1487,8 @@ EMP Ammo Expansion.esp
 Energy Conversion Converter.esp
 ExplosivesRecipes.esp
 GtabImprovedAmmo.esp
+GunSmith Guns Upgrade.esp
+: GunSmith.esm
 HandyRecipes.esp
 Homemade Grenades.esp
 Improved ammo.esp
@@ -1626,6 +1640,7 @@ EnergyBoost.esp
 EnergyWeaponDeNerf.esp
 EnergyWeaponMod.esp
 EnhancedServiceRifle.esp
+Erebus.esp
 Euclid C-Finder Unlimited Ammo.esp
 ExperimentalMIRV.esp
 FingerOfGodNV.esp
@@ -1636,6 +1651,7 @@ FO3WeaponsRestoration.esp
 Selective Fire - FO3 Weapons Restoration.esp
 : Selective Fire.esm and FO3WeaponsRestoration.esp
 fownv - Sonic Screwdriver 1.0.esp
+fownv - Classic Sonic Screwdriver 1.0.esp
 G36C.esp
 Glock18c.esp
 Glow Sticks.esp
@@ -1687,6 +1703,7 @@ Moddable Anti-Materiel Rifle.esp
 Moddable Unique Weps.esp
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esm
+molotov.esp
 MoraelinsExoticBladesMod.esp
 Mossberg.esp
 Mossberg590.esp
@@ -1702,6 +1719,7 @@ Omegared99-M2081.esp
 Orchids Custom Arsenal.esp
 PB-AR1.esp
 Pew Pew Pew Pew Pew Pew.esp
+photon.esp
 PK_Pulse_Pistol.esp
 PlasmaRifleAwesomefied.esp
 % {{BASH: Sound, Stats}}
@@ -1857,6 +1875,7 @@ GrimySuitMFix.esp
 Hereticus Faction Armors Fading.esp
 % {{BASH: Names}}
 HDTshop.esp
+HitmanSuitNV-B.esp
 HomeTeleport.esp
 Holster.esp
 iL-Camouflage Ghost Bodysuit.esp
@@ -1900,6 +1919,7 @@ NimrodDresses.esp
 NinjaHeadbandNV_Balanced.esp
 NinjaHeadbandNV_Powerful.esp
 Night Vision Sunglasses.esp
+NV_AsharasFormalClothing.esp
 NV Boone Armor Playable.esp
 NV Night Vision Sunglasses.esp
 NVLadyoutfit1.esp
@@ -2183,6 +2203,8 @@ BetterRepairKits.esp
 BetterRepairKits2.esp
 ? Old
 BetterRepairKits2b.esp
+Cowboy Repeater with Vanilla Name.esp
+? For use with GunSmith.esm and GunSmith Guns Upgrade.esp
 Destruction.esp
 Destructibles.esp
 Feng Shui NV.esp
@@ -2315,6 +2337,10 @@ FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
 GrenadeHotkey.esp
+" GrenadeHotkey - DeadMoney.esp
+GrenadeHotkey - DeadMoney.esp
+: DeadMoney.esm
+" GrenadeHotkey.esp
 Guaranteed Pick Pocket.esp
 GunCrosshairFollow.esp
 GunsIgnoreArmor.esp
@@ -2383,6 +2409,7 @@ No Weapon Remove Dead Money.esp
 : DeadMoney.esm
 NukaVend.esp
 NVExpansionByDandysV1.400.esp
+NV Explosive Knockdown mod.esp
 NVR - High Lethality.esp
 NVR - Lock Bombing.esp
 NVR - Lock Kicking.esp
@@ -2441,6 +2468,7 @@ SneakingCrosshair.esp
 SPECIALer.esp
 SporePlantPods.esp
 TimeTravel.esp
+ThrowMine.esp
 Toggle Quest Object.esp
 tyfasterwalk.esp
 tyfasterwalk-FR.esp
