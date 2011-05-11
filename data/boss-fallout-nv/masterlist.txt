@@ -592,6 +592,7 @@ SadiesSundries.esp
 Schoolhouse Base.esp
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
+Seachlight Airpot NCR V3.5.esp
 Silverpeak Bunker.esp
 sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
@@ -620,6 +621,8 @@ UHNV-IncreasedLighting.esp
 : UHNV.esp
 " UHNV-Brighter Lighting.esp
 ? Outdated; Consider Updating.
+UHNV-More Mannequins.esp
+: UHNV.esp
 Underground Home.esp
 UWHNV-Core.esp
 : New Vegas Script Extender
@@ -2123,6 +2126,7 @@ CCC - Robots.esp
 CCC - Save Cass.esp
 : Classic Companion Config.esp
 ? For use with the Save Cass mod.
+Dalls_Lily.esp
 DeanMoneyCompanionsDeEquipandRebalance.esp
 : DeadMoney.esm
 drgNV - Marcus Companion.esp
@@ -2173,6 +2177,7 @@ RemoteControlCompanions.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages, Actors.CombatStyle, C.Owner, Scripts}}
 " Incompatible with a majority of other companion mods. Be aware when installing.
+Raul Repairs Everywhere - Free Repair.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
 RWKNV.esp
