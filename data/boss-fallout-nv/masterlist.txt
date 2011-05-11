@@ -1118,6 +1118,7 @@ Calm_Heart_Fix.esp
 Detect Traps - Perk.esp
 EpF-BetterPerkDescriptions.esp
 FO2 TRAITS.esp
+Four Traits v1.esp
 Free Wild Wasteland.esp
 FreakinLaserBeams_Perk_1_2.esp
 FreakinLaserBeams_Perk_Light_1_2.esp
@@ -1877,6 +1878,12 @@ Project Nevada - FlashlightNVSE.esp
 Free Tribal Outfits.esp
 Geonox_Riot_Armor.esp
 Geonox_Wasteland_outfits.esp
+Ghost Variants.esp
+" Ghost Variants Safe.esp and Ghost Variants Adjutant.esp
+Ghost Variants Adjutant.esp
+" Ghost Variants.esp and Ghost Variants Safe.esp
+Ghost Variants Safe.esp
+" Ghost Variants.esp and Ghost Variants Adjutant.esp
 Glove_be_gone.esp
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
@@ -1993,6 +2000,7 @@ Type3 Leather Armors-lvld.esp
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
 VaultTecPowerArmor.esp
+VegasChokers.esp
 VegasOutfits.esp
 Vegas Volt his 7.esp
 VT08RangerGear.esp
@@ -2347,10 +2355,8 @@ FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
 GrenadeHotkey.esp
-" GrenadeHotkey - DeadMoney.esp
 GrenadeHotkey - DeadMoney.esp
-: DeadMoney.esm
-" GrenadeHotkey.esp
+: DeadMoney.esm and GrenadeHotkey.esp
 Guaranteed Pick Pocket.esp
 GunCrosshairFollow.esp
 GunsIgnoreArmor.esp
