@@ -333,6 +333,10 @@ LessIntrusiveKillCam.esp
 IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
 NewVegasOM_2.2.esp
+NV Game Stabilizer.esp
+" NV GameStabilizerA.esp
+NV GameStabilizerA.esp
+" NV Game Stabilizer.esp
 NVORganizedItems.esp
 % {{BASH: Names}}
 NVR - Extra Actions Toggle - Crouch.esp
@@ -1864,8 +1868,9 @@ Fiendish Power Armor.esp
 Fiendish Power Armor - Project Nevada.esp
 ? Merged into nVamp - New Vegas Mod Project. Do not use together.
 FlashlightNVSE.esp
+" Project Nevada - FlashlightNVSE.esp
 Project Nevada - FlashlightNVSE.esp
-: FlashlightNVSE.esp
+" FlashlightNVSE.esp
 Free Tribal Outfits.esp
 Geonox_Riot_Armor.esp
 Geonox_Wasteland_outfits.esp
@@ -2837,7 +2842,6 @@ Enhanced Ballistics Effects WME RH - NoTweaks.esp
 : Weapon Mod Expansion.esm AND RH_IRONSIGHTS_NV.esm
 Improved Ballistics Effects V2.esp
 mypatch.esp
-NV Game Stabilizer.esp
 \EndGroup\\
 
 \BeginGroup\: nVamp
