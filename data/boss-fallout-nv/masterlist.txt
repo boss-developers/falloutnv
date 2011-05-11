@@ -38,6 +38,8 @@ IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
 RBX.esm
 ? Needs to be before any mod using a reloading bench including a lot of house mods.
+RRCompanionVault.esm
+? Loaded early in the event Companion .esm mods require this.
 FNVToolkit.esm
 20th Century Weapons.esm
 Achievement Remover.esm
@@ -58,6 +60,7 @@ Detect Traps.esm
 Docs Sexy Nurse.esm
 drgNV - Melissa Companion.esm
 Eve.esm
+: RRCompanionVault.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
@@ -83,7 +86,6 @@ Playthings.esm
 Primary Needs HUD.esm
 ReactivePeople.esm
 rePopulated Wasteland.esm
-RRCompanionVault.esm
 RH_IRONSIGHTS_NV.esm
 RZW_Master.esm
 RZW_Television.esm
@@ -211,13 +213,17 @@ Atomic Wrangler Suite Fix.esp
 BathFix.esp
 BlackMountainRadioRhonda.esp
 BMNeilFix.esp
+Broad Machete VATS Fix.esp
+: TribalPack.esm
 BoxFix.esp
 Brotherhood Fix.esp
 CaesarsFavorFoeHireFix.esp
 CaravanCardFix.esp
 ? Obsolete with latest patch
+ClassicPackFix.esp
 CrimsonCaravanInvoiceBugFix.esp
 CompanionHoldouts.esp
+Companion Hostility Fix.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 DeadMoneyWeaponFixes.esp
@@ -229,18 +235,22 @@ DLM_QuestItemsFix_1.3b-DLC_DM.esp
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
 ? Obsolete with latest patch
+FactionArmorFixes.esp
 FatigueWeaponsFix.esp
 Fix - Boulder City Negotiator.esp
 Fix - Laser Rifle Beam Splitter Item Mod (v2).esp
 FNV-BeardEyebrowFixV1_0.esp
+FOB.esp
 Followers-NCR Alliance Fix.esp
 Followers+NCR=Alliance.fix.esp
+Four Eyes Fix.esp
 FreesideKingsGiftGiverFix.esp
 FreesideKingsGiftGiverFix14Days.esp
 FreesideKingsGiftGiverFix999Days.esp
 headgearfix.esp
 IsolatingVirusFix.esp
 I Put A Spell On You Fix.esp
+I've Got Sturdy Caravan Shotgun Fix.esp
 JBrightExodusFix.esp
 Lucky38ContainersFix.esp
 Lucky 38 Suite Respawn Fix.esp
@@ -280,6 +290,7 @@ VMS44Fixed.esp
 WeAllGoTogether.esp
 Weathered10mmFixes.esp
 WorkingCrimsonCaravanTraders.esp
+WRObjectFixes.esp
 PO10mmFix.esp
 \EndGroup\\
 
@@ -287,6 +298,8 @@ PO10mmFix.esp
 \-----------
 DarNifiedUINV.esp
 The Chicken and the Egg.esp
+AutoSaverNV.esp
+? Do not use with other Auto Savers as they serve the same purpose.
 RX-Auto Incremental Save.esp
 ? Do not use with CASM; has the same purpose.
 CASM.esp
@@ -365,6 +378,7 @@ FPT EDE 2BetaVanillaBlonde.esp
 FPT EDE 2BetaVanillaBlue.esp
 FPT EDE 2BetaVanillaBrunette.esp
 FPT EDE 2BetaVanillaRedhead.esp
+GrizzledBoone.esp
 Improved Faces v1.esp
 K2_NVPresets.esp
 Lore version.esp
@@ -397,6 +411,7 @@ Raul - Danny Trejo.esp
 REsLorePackNV.esp
 REsNonLorePackNV.esp
 RivensEyescapesNV.esp
+SweetVeronica.esp
 Veronica_Redux_Type3_Alice_Lings.esp
 Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
@@ -412,9 +427,12 @@ A Repair Bot.esp
 AlsatianRex.esp
 Armor Replacer Child NPC Fix.esp
 ArmyMen.esp
+BetterArmedBrightFollowers.esp
 Bigger Brighter Livelier Vegas.esp
 Brotherhood and House Alliance.esp
 CorpseEquip.esp
+DeadMoneyChristineSkills.esp
+: DeadMoney.esm
 Doc Mitchell Stealing Fix.esp
 FactionIDCards.esp
 FiendsNoHelmet.esp
@@ -451,6 +469,7 @@ RefinedCasinoPeople&Suits.esp
 StripOpenNPCs.esp
 : NVStripOpen.esm
 SuitFixes+Factions.esp
+TorresInventoryExpansion.esp
 VendorGameTimeRestock.esp
 : New Vegas Script Extender
 " VendorGameTimeRestockNoNVSE.esp
@@ -459,6 +478,7 @@ VendorGameTimeRestockNoNVSE.esp
 VendorGameTimeRestockNoDefaultRestock.esp
 ? Recommended to be used with one of the main .esp's
 weathersnotstuck.esp
+[Candora's Box] Sharing & Caring.esp
 \EndGroup\\
 
 \BeginGroup\: Places
@@ -1010,6 +1030,7 @@ Improved Sound FX - Weapon Sharing Fix.esp
 % {{BASH: Sound}}
 Machienzo-RadioNewVegasFix.esp
 Machienzo-RadioNewVegasFixv11.esp
+NewVegasJazz_1.0.esp
 PA Footsteps.esp
 R.A.C.E. Station.esp
 RadioNewVegas_Balancing.esp
@@ -1439,14 +1460,17 @@ CHEMS - Benches.esp
 : CHEMS.esm
 CHEMS - Basic Chems.esp
 : CHEMS.esm
+CraftedMantisGauntlet.esp
 Craft Overhaul 1.1.esp
 Craftable Stealth boys.esp
 CRFTOven.esp
 DeadMoneyJunkRoundsRedux.esp
 : Dead Money.esm
 Dire Contraptions.esp
+DixonRecipes.esp
 Dynamic Herbalism.esp
 " Bountiful Harvest.esp
+EasierMassPurifiedWater.esp
 EMP Ammo Expansion.esp
 Energy Conversion Converter.esp
 ExplosivesRecipes.esp
@@ -1467,6 +1491,7 @@ NVR - Trapper Time.esp
 NukaColaQuantum.esp
 NukaColaQuantum1.1.esp
 Oven Cooking.esp
+PhilippesRecipes.esp
 psychoelfs ammo crafting.esp
 Pulse Grenade Recipes.esp
 RiaAmmo.esp
@@ -1558,6 +1583,7 @@ BoilingOil - Eli's Edge.esp
 Big Big Boomer.esp
 Binocs12fov.esp
 Boomers - T-57c PA.esp
+c4nuke.esp
 Camon AKS 47 Black Hidden Valley Bunker.esp
 Camon Bren (Hidden Supply Cave).esp
 Caravan Pack Durability.esp
@@ -1774,10 +1800,13 @@ Colossus Armor For New Vegas (keylek).esp
 CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Crazyeyesreaper T51b Variety Pack.esp
+DamWarClothing.esp
 Dark Justice Duster.esp
 Dark Mercenary Gear.esp
 Dark Temptress.esp
 DarkStalker Outfit.esp
+DeadMoneyFemaleTuxedo.esp
+: DeadMoney.esm and Type 3 Body Replacer.
 DeepEyesNV.esp
 Desert Armor.esp
 Desert Armor rebuilt.esp
@@ -2042,8 +2071,17 @@ Companions teleporter All Essential.esp
 Companions teleporter All Essential RUS.esp
 Companions teleporter.esp
 Companions teleporter RUS.esp
+Companion Weapons - Special Ammo.esp
+" Companion Weapons - Special Ammo - Dead Money.esp
+Companion Weapons - Special Ammo - Dead Money.esp
+: DeadMoney.esm
+" Companion Weapons - Special Ammo.esp
 CompanionLevel30Cap.esp
 % {{BASH: Actors.ACBS}}
+" HigherCompanionLevelCap.esp
+? Outdated. Consider Updating.
+HigherCompanionLevelCap.esp
+" CompanionLevel30Cap.esp
 CompanionsEssential.esp
 Correction - Passive 2 Option.esp
 " Correction - Passive.esp
@@ -2181,6 +2219,9 @@ Sorter - Combined - Weighted.esp
 Inventory Sorter - Moddable Unique Weps.esp
 % {{BASH: Names}}
 : Moddable Unique Weps.esp
+FoodSanitizerRestorationLight.esp
+FoodSanitizerRestorationDeadMoney.esp
+: DeadMoney.esm
 LightweightSanitizer.esp
 DrugsAreBadMKay-IS.esp
 % {{BASH: Names}}
@@ -2294,6 +2335,7 @@ insta-hacker.esp
 Jump Fall Fixer.esp
 JumpNFall.esp
 KillingKarmaFix.esp
+LakelurkMeatDropFix.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
 Leveled Lists Fix.esp
@@ -2339,6 +2381,7 @@ NoQuestItems.esp
 No Scope Wobble.esp
 No Weapon Remove Dead Money.esp
 : DeadMoney.esm
+NukaVend.esp
 NVExpansionByDandysV1.400.esp
 NVR - High Lethality.esp
 NVR - Lock Bombing.esp
@@ -2396,17 +2439,21 @@ Sarsaparilla.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
 SPECIALer.esp
+SporePlantPods.esp
+TimeTravel.esp
 Toggle Quest Object.esp
 tyfasterwalk.esp
 tyfasterwalk-FR.esp
 tyfasterwalk-FR-N2HRP.esp
 tyfasterwalk-N2HRP.esp
 UnconsciousLooting.esp
+UsableCigarettes neunen Ver for New Vegas.esp
 vanilla move.esp
 VarmintRifle22LR.esp
 " WMX-VarmintRifle22LR.esp
 Vats Longer distance.esp
 Vault_34_better_reactor.esp
+VirusHuntV3.esp
 VMods.esp
 XIII + J3X's Flesh Burnificating Plasma.esp
 XtraSpecialNV.esp
@@ -2425,6 +2472,12 @@ WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 WMX - Sorted.esp
 ? Merged into the main mod; No longer required.
+WMXArenovalisRiotShottieCompat.esp
+: WeaponModsExpanded.esp
+? Will be outdated once WMX updates to accommodate the mesh changes.
+WMXMilleniaThatGunRetexCompat.esp
+: WeaponModsExpanded.esp
+? Will be outdated once WMX updates to accommodate the mesh changes.
 WMXTemporaryPatch.esp
 : WeaponModsExpanded.esp
 ? Will be outdated once WMX updates to accommodate for patch 1.3's changes.
@@ -2713,6 +2766,15 @@ DYNAVISION 2 - Dynamic Lens Effect.esp
 " Field Depth.esp
 Field Depth.esp
 " DYNAVISION - Dynamic Lens Effect.esp
+CombatModeNV.esp
+RadiationEffects-greenNV.esp
+" RadiationEffects-whiteNV.esp
+RadiationEffects-whiteNV.esp
+" RadiationEffects-greenNV.esp
+SneakNV.esp
+" Sneak - less saturated version NV.esp
+Sneak - less saturated version NV.esp
+" SneakNV.esp
 ELECTRO-CITY - Emittance.esp
 " ELECTRO-CITY - Imaginator.esp
 ? Outdated. Consider updating.
@@ -2747,6 +2809,7 @@ Enhanced Ballistics Effects WME RH - NoTweaks.esp
 : Weapon Mod Expansion.esm AND RH_IRONSIGHTS_NV.esm
 Improved Ballistics Effects V2.esp
 mypatch.esp
+NV Game Stabilizer.esp
 \EndGroup\\
 
 \BeginGroup\: nVamp
