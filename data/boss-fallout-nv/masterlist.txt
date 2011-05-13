@@ -333,10 +333,6 @@ LessIntrusiveKillCam.esp
 IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
 NewVegasOM_2.2.esp
-NV Game Stabilizer.esp
-" NV GameStabilizerA.esp
-NV GameStabilizerA.esp
-" NV Game Stabilizer.esp
 NVORganizedItems.esp
 % {{BASH: Names}}
 NVR - Extra Actions Toggle - Crouch.esp
@@ -1295,6 +1291,8 @@ LMDStorageBag.esp
 LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
+Isul-MagExchange.esp
+: New Vegas Script Extender
 MagazinesReworked.esp
 Mail Order Catalogs PopUp.esp
 : New Vegas Script Extender
@@ -1878,6 +1876,8 @@ Project Nevada - FlashlightNVSE.esp
 Free Tribal Outfits.esp
 Geonox_Riot_Armor.esp
 Geonox_Wasteland_outfits.esp
+ghostbodysuitcamo.esp
+: Type 3 Body Replacer
 Ghost Variants.esp
 " Ghost Variants Safe.esp and Ghost Variants Adjutant.esp
 Ghost Variants Adjutant.esp
@@ -1896,6 +1896,7 @@ Holster.esp
 iL-Camouflage Ghost Bodysuit.esp
 JillBSAA.esp
 JillBSAA Multicolor.esp
+: Type 3 Body Replacer
 Journeyman Armor.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
@@ -2088,6 +2089,9 @@ VRC.esp
 
 \BeginGroup\: Companions
 \-----------
+Companion Module Pack.esp
+? Consists of a number of Companion-Related mods. Be aware when installing.
+? You will have to remove any mods that you have that are included in the pack to avoid issues.
 Cassidy0.4E.esp
 Veronica0.6E.esp
 A Present For Boone.esp
@@ -2702,6 +2706,20 @@ WMVM-WMX-MW.esp
 : WeaponModsExpanded.esp, WMX-ModernWeapons.esp, and WMVM-WMX.esp
 \EndGroup\\
 
+\BeginGroup\: NV Game Stabilizer
+\-----------
+NV Game Stabilizer.esp
+" NV GameStabilizerA.esp
+% {{BASH:NoMerge}}
+? Outdated. Consider Updating.
+NV GameStabilizerA.esp
+" NV Game Stabilizer.esp
+% {{BASH:NoMerge}}
+? Raw variant of the A1 version; Does not contain much.
+NV GameStabilizerA1.esp
+% {{BASH:NoMerge}}
+\EndGroup\\
+
 \BeginGroup\: Weather\Light\Water
 \-----------
 FNVEnhancedShaders - AA-DOF Enable.esp
@@ -2711,6 +2729,10 @@ ParallaxRoadtrim.esp
 MedGrass.esp
 HighGrass.esp
 KDS Green World.esp
+SimpleStreetLights.esp
+" SimpleStreetLights (Extra Lights).esp
+SimpleStreetLights (Extra Lights).esp
+" SimpleStreetLights.esp
 Vurt's Trees & Grass.esp
 ? This is an outdated version. Consider updating to the latest.
 Vurt's WFO.esp
@@ -2785,16 +2807,25 @@ ELECTRO-CITY - Darker Nights.esp
 ? No longer supported by the mod. Can still be used.
 Nights are Darker 25%.esp
 Nights are Darker 50%.esp
+Interior Lighting Overhaul.esp
+% {{BASH: C.Light}}
+? Outdated Version. Consider Updating.
 Interior Lighting Overhaul-Realistic Interiors-Full.esp
 % {{BASH: C.Light}}
+? Use this or ILO-RI-Original Lucky38 Suite.esp
+? Designed for players that have not changed the Lucky 38 Suite.
 Interior Lighting Overhaul-Realistic.esp
 ? Outdated. Consider Updating.
 Interior Lighting Overhaul-Darker.esp
 ? Outdated and no longer supported.
+Interior Lighting Overhaul-Darker Interiors.esp
 ILO-RI-Original Lucky38 Suite.esp
 % {{BASH: C.Light}}
+? Use this or Interior Lighting Overhaul-Realistic Interiors-Full.esp
+? Designed for players that have changed the Lucky 38 Suite.
 ILO-RI-Dead Money.esp
 % {{BASH: C.Light}}
+: DeadMoney.esm
 Depth of View I.esp
 Depth of View I Blur.esp
 Depth of View IE.esp
