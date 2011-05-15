@@ -1366,8 +1366,11 @@ Permanent Skill Mags - Item Sorter.esp
 Pipboy2500.esp
 Plausible Starting Outfit.esp
 populatedcasino.esp
+" populatedcasino-medium.esp and populatedcasino-light.esp
 populatedcasino-medium.esp
+" populatedcasino.esp and populatedcasino-light.esp
 populatedcasino-light.esp
+" populatedcasino.esp and populatedcasino-medium.esp
 Pop and Beer do not Dehydrate.esp
 PortableCampsite.esp
 Project13 - Populated Wasteland.esp
@@ -1638,6 +1641,10 @@ DWM4A1V18Personal.esp
 DWSG556.esp
 DWSpas12.esp
 DWUSP45.esp
+" DWUSP_V18.esp
+: Caliber.esm IF the optional .esp is installed.
+DWUSP_V18.esp
+" DWUSP45.esp
 : Caliber.esm IF the optional .esp is installed.
 E-88 Plasma Rifle.esp
 EarlyWeapons.esp
@@ -1681,6 +1688,7 @@ Jmod Bullpup Pack.esp
 Jswords4sale.esp
 JTommyGun4Loot.esp
 JTommyGun4Free.esp
+Kaya47NordicWeapons.esp
 KerberosPanzer.esp
 Kerberosweapons.esp
 lucky_bastard_rifle_v3.esp
@@ -2111,6 +2119,7 @@ Companions teleporter All Essential.esp
 Companions teleporter All Essential RUS.esp
 Companions teleporter.esp
 Companions teleporter RUS.esp
+RemoteControlCompanions.esp
 Companion Weapons - Special Ammo.esp
 " Companion Weapons - Special Ammo - Dead Money.esp
 Companion Weapons - Special Ammo - Dead Money.esp
@@ -2185,10 +2194,10 @@ nemunoki-replacer.esp
 No More Annoying CC - ALL.esp
 NVBabyDeathclawCommander.esp
 NVC_Misty.esp
-RemoteControlCompanions.esp
 NVPhalanx.esp
 % {{BASH: Actors.AIPackages, Actors.CombatStyle, C.Owner, Scripts}}
 " Incompatible with a majority of other companion mods. Be aware when installing.
+NVWillow.esp
 Raul Repairs Everywhere - Free Repair.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
@@ -2710,14 +2719,17 @@ WMVM-WMX-MW.esp
 \-----------
 NV Game Stabilizer.esp
 " NV GameStabilizerA.esp
-% {{BASH:NoMerge}}
+% {{BASH: NoMerge}}
 ? Outdated. Consider Updating.
 NV GameStabilizerA.esp
 " NV Game Stabilizer.esp
-% {{BASH:NoMerge}}
-? Raw variant of the A1 version; Does not contain much.
+% {{BASH: NoMerge}}
+? Outdated. Consider Updating.
 NV GameStabilizerA1.esp
-% {{BASH:NoMerge}}
+% {{BASH: NoMerge}}
+? Outdated. Consider Updating.
+NV GameStabilizerA2.esp
+% {{BASH: NoMerge}}
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
@@ -2842,6 +2854,8 @@ DYNAVISION 2 - Dynamic Lens Effect.esp
 Field Depth.esp
 " DYNAVISION - Dynamic Lens Effect.esp
 CombatModeNV.esp
+DehydrationEffectNV.esp
+HungerEffectNV.esp
 RadiationEffects-greenNV.esp
 " RadiationEffects-whiteNV.esp
 RadiationEffects-whiteNV.esp
@@ -2850,6 +2864,7 @@ SneakNV.esp
 " Sneak - less saturated version NV.esp
 Sneak - less saturated version NV.esp
 " SneakNV.esp
+TirenessEffectNV.esp
 ELECTRO-CITY - Emittance.esp
 " ELECTRO-CITY - Imaginator.esp
 ? Outdated. Consider updating.
