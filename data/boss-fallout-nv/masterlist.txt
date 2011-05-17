@@ -24,6 +24,7 @@
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 DeadMoney.esm
+HonestHearts.esm
 Community Bugfix Compilation Patch.esm
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
 CBC Dead Money Patch.esm
