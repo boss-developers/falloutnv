@@ -169,7 +169,7 @@ BoulderCityFaceliftProject.esm
 dangame.esm
 The Roost.esm
 MoMod.esm
-% {{BASH:Relev}}
+% {{BASH: Relev}}
 " monsterrach.esp
 WME - Dead Money.esm
 : Dead Money.esm
@@ -1333,11 +1333,11 @@ Mojave Express Expansion.esp
 MojaveXP.esp
 mojave music radio expanded v1.1.esp
 monsterranch.esp
-% {{BASH:Relev}}
+% {{BASH: Relev}}
 " MoMod.esm
 ? Outdated. Consider Updating.
 AWOP-MoMod.esp
-: AWorldOfPaint(Preview).esm AND MoMod.esm (Version 3 +) OR monsterranch.esp (Below Version 3)
+: AWorldOfPain(Preview).esm AND MoMod.esm (Version 3 +) OR monsterranch.esp (Below Version 3)
 IWS-MoMod.esp
 : IWS-Core.esm AND MoMod.esm (Version 3+) OR monsterranch.esp (Below Version 3)
 More Ammo.esp
@@ -2060,7 +2060,6 @@ AWOPLowLootSkillBooks.esp
 : AWorldOfPain(Preview).esm
 AWOPMonsterPatch.esp
 : AWorldOfPain(Preview).esm AND MoMod.esm
-? Recommended to use the AWorldOfPain(Preview).esm included in the download as of Preview 003.
 Caesars_Legion_Overhaul.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
@@ -2531,13 +2530,13 @@ WMX - Sorted.esp
 ? Merged into the main mod; No longer required.
 WMXArenovalisRiotShottieCompat.esp
 : WeaponModsExpanded.esp
-? Will be outdated once WMX updates to accommodate the mesh changes.
+? Outdated. Download the Arenovalis Compatability Patch from the WMX Main Page.
 WMXMilleniaThatGunRetexCompat.esp
 : WeaponModsExpanded.esp
-? Will be outdated once WMX updates to accommodate the mesh changes.
+? Outdated. Download the Arenovalis Compatability Patch from the WMX Main Page.
 WMXTemporaryPatch.esp
 : WeaponModsExpanded.esp
-? Will be outdated once WMX updates to accommodate for patch 1.3's changes.
+? Outdated. Please update to Version 1.7 of WMX.
 Frequency - WMX Patch.esp
 : Frequency.esm and WeaponModsExpanded.esp
 WMX-AWOP Patch.esp
@@ -2575,6 +2574,8 @@ WMX_BRLRepeaterNONReplacer.esp
 WMX-VarmintRifle22LR.esp
 : WeaponModsExpanded.esp
 " VarmintRifle22LR.esp
+WMX-ArenovalisTextures.esp
+: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.  
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
 WMX-ModernWeapons.esp
@@ -2729,6 +2730,9 @@ NV GameStabilizerA1.esp
 % {{BASH: NoMerge}}
 ? Outdated. Consider Updating.
 NV GameStabilizerA2.esp
+% {{BASH: NoMerge}}
+? Outdated. Consider Updating.
+NV GameStabilizerA4.esp
 % {{BASH: NoMerge}}
 \EndGroup\\
 
