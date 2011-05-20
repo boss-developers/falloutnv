@@ -37,6 +37,10 @@ CaravanPack.esm
 Ambient Temperature.esm
 IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
+? Does the same thing as OWNB - Open World.esm; Use one or the other.
+OWNB - Open World.esm
+? Loaded early to let other mods override boundaries if needed.
+? Does the same thing as IWR.esm; Use one or the other.
 RBX.esm
 ? Needs to be before any mod using a reloading bench including a lot of house mods.
 RRCompanionVault.esm
@@ -310,6 +314,7 @@ CASM.esp
 Achievement Remover.esp
 Arwen_Camera.esp
 ASEF - Project Nevada Dynamic Crosshair Patch.esp
+: AmmoSpreadEffectFixer.esm and Project Nevada - Core.esm
 Automated Reloading Bench.esp
 BetterLoadingText.esp
 Better Performance for Older PCs - Bundle.esp
@@ -553,6 +558,7 @@ Lucky 38 Suite Expansion Bed Option.esp
 Lucky38SuiteRemodel.esp
 Bobblehunt - Lucky 38 Expantion Compatible.esp
 LargeGoodspringsPlayerHome.esp
+Liberty Loft.esp
 McFlyFarm.esp
 My Goodsprings Home.esp
 Mojave Outpost - Revamp.esp
@@ -1469,6 +1475,7 @@ z_Fiends_2.esp
 aliencell.esp
 AmmoCraftingSchematics.esp
 ArmourRepairKits.esp
+: New Vegas Script Extender
 Armor Crafting BETA.esp
 RBX Caliber compatibilty.esp
 Better Ammo Crafting.esp
@@ -1713,6 +1720,7 @@ MachienzoDLC2NCR.esp
 MachienzoDLC2PowderGanger.esp
 MiniNuke.esp
 MiniNukeSmall.esp
+MOD.Weapon.10mmTacticalSMG.esp
 Moddable Anti-Materiel Rifle.esp
 % {{BASH: WeaponMods}}
 Moddable Unique Weps.esp
@@ -2257,15 +2265,20 @@ BIS - T3T_MiscItemIconsNV 0.7.esp
 : T3T_MiscItemIconsNV.esp
 Scrap the crap.esp
 ShilohDS-Color Maps and Icons.esp
+Sorter - Combined.esp
+% {{BASH: Names}}
+Sorter - Dead Money.esp
+% {{BASH: Names}}
+: DeadMoney.esm
+Sorter - Combined - T3T Icon Compatch.esp
+% {{BASH: Names}}
+? Outdated as of Version 2.0; Phased into Sorted - Combined.esp
+Sorter - Combined - Aid Crafting.esp
+% {{BASH: Names}}
+? Outdated as of Version 2.0; Phased into Sorted - Combined.esp
 Sorter - Books.esp
 % {{BASH: Names}}
 Sorter - Magazines.esp
-% {{BASH: Names}}
-Sorter - Combined.esp
-% {{BASH: Names}}
-Sorter - Combined - T3T Icon Compatch.esp
-% {{BASH: Names}}
-Sorter - Combined - Aid Crafting.esp
 % {{BASH: Names}}
 Sorter - Combined - Weighted.esp
 % {{BASH: Names}}
@@ -2581,6 +2594,8 @@ nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
 WMX-ModernWeapons.esp
 : AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
+ACS-WMXModernWeapons.esp
+: AmmoCraftingSchematics.esp, WeaponModsExpanded.esp, and WMX-ModernWeapons.esp
 BIS - WMX-ModernWeapons.esp
 : BIS - Brumbek's Inventory Sorting.esp and WeaponModsExpanded.esp
 WMX-DeadMoney.esp
@@ -2735,6 +2750,9 @@ NV GameStabilizerA2.esp
 ? Outdated. Consider Updating.
 NV GameStabilizerA4.esp
 % {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
+NV GameStabilizerA5.esp
+% {{BASH: NoMerge}}
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
@@ -2742,6 +2760,8 @@ NV GameStabilizerA4.esp
 FNVEnhancedShaders - AA-DOF Enable.esp
 OFT_ElectroCity.esp
 : ELECTRO-CITY - CompletedWorkorders.esm AND OperationFixedTerrain.esp
+OFT_HonestHearts.esp
+: HonestHearts.esm AND OperationFixedTerrain.esp
 ParallaxRoadtrim.esp
 MedGrass.esp
 HighGrass.esp
@@ -2756,6 +2776,26 @@ Vurt's WFO.esp
 " Vurt's Trees & Grass.esp
 Vurt's WFO [Lite].esp
 " Vurt's WFO.esp
+DN More Lights.esp
+" ELECTRO-CITY - CompletedWorkorder.esp / .esm ; Has the same purpose.
+LUMENARIUM - Working Sunglasses ONLY.esp
+% {{BASH: Names}}
+ELECTRO-CITY - CompletedWorkorders.esp
+% {{BASH: Names}}
+? Outdated; Latest Versions use .esm instead of .esp
+ELECTRO-CITY - Highways and Byways.esp
+: ELECTRO-CITY - CompletedWorkorders.esp
+? Outdated; Latest Versions use .esm instead of .esp
+BIS - ELECTRO-CITY Extended Cateye.esp
+: ELECTRO-CITY - CompletedWorkorders.esp and ELECTRO-CITY - Highways and Byways.esp OR 
+: ELECTRO-CITY - CompletedWorkorders.esm and ELECTRO-CITY - Highways and Byways.esm
+ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
+: IWS-Core.esm
+? Will work but no further support will be added.
+ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
+" ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
+ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
+" ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
 ACF Brighter Days and Darker Nights v5 - Medium
 " Will conflict with any other mod that changes image space and image space modifiers.
 ACF Brighter Days and Darker Nights v5 - Dark
@@ -2775,47 +2815,30 @@ URWLNV Brighter Lights.esp
 Western Sky.esp
 " Will conflict with any other mod that changes weather, image space, and image space modifiers.
 Western Sky - Darker Nights.esp
-DN More Lights.esp
-" ELECTRO-CITY - CompletedWorkorder.esp / .esm ; Has the same purpose.
-LUMENARIUM - Working Sunglasses ONLY.esp
-% {{BASH: Names}}
-ELECTRO-CITY - CompletedWorkorders.esp
-% {{BASH: Names}}
-ELECTRO-CITY - Highways and Byways.esp
-: ELECTRO-CITY - CompletedWorkorders.esp
-BIS - ELECTRO-CITY Extended Cateye.esp
-: ELECTRO-CITY - CompletedWorkorders.esp and ELECTRO-CITY - Highways and Byways.esp OR ELECTRO-CITY - CompletedWorkorders.esm and ELECTRO-CITY - Highways and Byways.esm
-ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
-: IWS-CORE.ESM
-? Will work but no further support will be added.
-ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
-" ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
-ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
-" ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
 LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
-" Nevada Skies.esp
-" Nevada Skies - URWLified.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
+" Nevada Skies.esp, Nevada Skies - URWLified.esp, Nevada Skies - URWLHH.esp, and LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
+? Outdated and no longer to be used.
 LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
-" Nevada Skies.esp
-" Nevada Skies - URWLified.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+" Nevada Skies.esp, Nevada Skies - URWLified.esp, Nevada Skies - URWLHH.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+? Outdated and no longer to be used.
 Nevada Skies.esp
 % {{BASH: C.Climate,C.Light}}
-" Nevada Skies - URWLified.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+: HonestHearts.esm if the Optional Honest Hearts .esp is installed.
+" Nevada Skies - URWLified.esp and Nevada Skies - URWLHH.esp
+" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 Ambient Temperature - Nevada Skies.esp
 : Ambient Temperature.esm AND Nevada Skies.esp
 Nevada Skies - URWLified.esp
 % {{BASH: C.Climate,C.Light}}
-" Nevada Skies.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+" Nevada Skies.esp, Nevada Skies - URWLHH.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 BIS - Nevada Skies URWLified.esp
 : Nevada Skies - URWLified.esp
 Ambient Temperature - URWLified Nevada Skies.esp
 : Ambient Temperature.esm AND Nevada Skies - URWLified.esp
+Nevada Skies - URWLHH.esp
+% {{BASH: C.Climate,C.Light}}
+: HonestHearts.esm
+" Nevada Skies.esp, Nevada Skies - URWLified.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 NSkies - URWLNV.esp
 ? Outdated. Please update via the Nevada Skies download page.
 StripNightLum.esp
@@ -2827,15 +2850,13 @@ Nights are Darker 50%.esp
 Interior Lighting Overhaul.esp
 % {{BASH: C.Light}}
 ? Outdated Version. Consider Updating.
+Interior Lighting Overhaul-Realistic.esp
+% {{BASH: C.Light}}
+? Outdated. Consider Updating.
 Interior Lighting Overhaul-Realistic Interiors-Full.esp
 % {{BASH: C.Light}}
 ? Use this or ILO-RI-Original Lucky38 Suite.esp
 ? Designed for players that have not changed the Lucky 38 Suite.
-Interior Lighting Overhaul-Realistic.esp
-? Outdated. Consider Updating.
-Interior Lighting Overhaul-Darker.esp
-? Outdated and no longer supported.
-Interior Lighting Overhaul-Darker Interiors.esp
 ILO-RI-Original Lucky38 Suite.esp
 % {{BASH: C.Light}}
 ? Use this or Interior Lighting Overhaul-Realistic Interiors-Full.esp
@@ -2843,6 +2864,9 @@ ILO-RI-Original Lucky38 Suite.esp
 ILO-RI-Dead Money.esp
 % {{BASH: C.Light}}
 : DeadMoney.esm
+Interior Lighting Overhaul-Darker.esp
+? Outdated and no longer supported.
+Interior Lighting Overhaul-Darker Interiors.esp
 Depth of View I.esp
 Depth of View I Blur.esp
 Depth of View IE.esp
@@ -2996,6 +3020,8 @@ The Groovatron.esp
 \BeginGroup\: Beauty Packs & Race Addons
 \-----------
 AFricanAmericanAAlbino.esp
+DK Caucasians.esp
+: Lings.esm IF you're using the Lings Compatible mod.
 T3BBN Old Women.esp
 tkEyelashesFNV.esp
 " conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
