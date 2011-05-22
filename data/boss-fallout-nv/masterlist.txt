@@ -97,6 +97,8 @@ RZW_Master.esm
 RZW_Television.esm
 : RZW_Master.esm
 SCAV.esm
+SelectFire.esm
+: New Vegas Script Extender
 Selective Fire.esm
 : New Vegas Script Extender
 Thermal Vision.esm
@@ -1343,10 +1345,12 @@ monsterranch.esp
 % {{BASH: Relev}}
 " MoMod.esm
 ? Outdated. Consider Updating.
+AWOPMonsterPatch.esp
+: AWorldOfPain(Preview).esm and MoMod.esm
 AWOP-MoMod.esp
-: AWorldOfPain(Preview).esm AND MoMod.esm (Version 3 +) OR monsterranch.esp (Below Version 3)
+: AWorldOfPain(Preview).esm and MoMod.esm
 IWS-MoMod.esp
-: IWS-Core.esm AND MoMod.esm (Version 3+) OR monsterranch.esp (Below Version 3)
+: IWS-Core.esm and MoMod.esm
 More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
@@ -1663,6 +1667,8 @@ EnergyWeaponMod.esp
 EnhancedServiceRifle.esp
 Erebus.esp
 Euclid C-Finder Unlimited Ammo.esp
+Exciters Masada ACWS.esp
+: SelectFire.esm
 ExperimentalMIRV.esp
 FingerOfGodNV.esp
 FN FAL.esp
@@ -2067,8 +2073,6 @@ AWOPLowLootMWeapons.esp
 : AWorldOfPain(Preview).esm
 AWOPLowLootSkillBooks.esp
 : AWorldOfPain(Preview).esm
-AWOPMonsterPatch.esp
-: AWorldOfPain(Preview).esm AND MoMod.esm
 Caesars_Legion_Overhaul.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
@@ -2752,6 +2756,9 @@ NV GameStabilizerA4.esp
 % {{BASH: NoMerge}}
 ? Outdated. Consider Updatng.
 NV GameStabilizerA5.esp
+% {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
+NV GameStabilizerA5F.esp
 % {{BASH: NoMerge}}
 \EndGroup\\
 
