@@ -30,6 +30,7 @@ Community Bugfix Compilation Patch.esm
 CBC Dead Money Patch.esm
 : DeadMoney.esm
 AmmoSpreadEffectFixer.esm
+: New Vegas Script Extender
 ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
@@ -2687,7 +2688,7 @@ Mail Order Catalogs WMX.esp
 Mail Order Catalogs WMX Modern Weapons.esp
 : New Vegas Script Extender, WeaponModsExpanded.esp, WMX-ModernWeapons.esp, Mail Order Catalogs.esp, AND Mail Order Catalogs WMX.esp
 Mail Order Catalogs DLC01 WMX.esp
-: NVSE, DeadMoney.esm, WeaponModsExpanded.esp, WMX-DeadMoney.esp, Mail Order Catalogs.esp, Mail Order Catalogs DLC01.esp, AND Mail Order Catalogs WMX.esp
+: New Vegas Script Extender, DeadMoney.esm, WeaponModsExpanded.esp, WMX-DeadMoney.esp, Mail Order Catalogs.esp, Mail Order Catalogs DLC01.esp, AND Mail Order Catalogs WMX.esp
 Mail Order Catalogs WMX PopUp.esp
 : New Vegas Script Extender AND WeaponModsExpanded.esp
 ? Select only ONE .esp when installing this mod.
@@ -2794,11 +2795,10 @@ ELECTRO-CITY - Highways and Byways.esp
 : ELECTRO-CITY - CompletedWorkorders.esp
 ? Outdated; Latest Versions use .esm instead of .esp
 BIS - ELECTRO-CITY Extended Cateye.esp
-: ELECTRO-CITY - CompletedWorkorders.esp and ELECTRO-CITY - Highways and Byways.esp OR 
-: ELECTRO-CITY - CompletedWorkorders.esm and ELECTRO-CITY - Highways and Byways.esm
+: ELECTRO-CITY - CompletedWorkorders.esp and/or ELECTRO-CITY - Highways and Byways.esp OR ELECTRO-CITY - CompletedWorkorders.esm and/or ELECTRO-CITY - Highways and Byways.esm
 ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
 : IWS-Core.esm
-? Will work but no further support will be added.
+? This patch will work with the latest version of Electro-City but it won't be updated any further.
 ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
 " ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
 ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
@@ -2831,8 +2831,7 @@ LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 Nevada Skies.esp
 % {{BASH: C.Climate,C.Light}}
 : HonestHearts.esm if the Optional Honest Hearts .esp is installed.
-" Nevada Skies - URWLified.esp and Nevada Skies - URWLHH.esp
-" LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+" Nevada Skies - URWLified.esp, Nevada Skies - URWLHH.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 Ambient Temperature - Nevada Skies.esp
 : Ambient Temperature.esm AND Nevada Skies.esp
 Nevada Skies - URWLified.esp
@@ -2872,7 +2871,7 @@ ILO-RI-Dead Money.esp
 % {{BASH: C.Light}}
 : DeadMoney.esm
 Interior Lighting Overhaul-Darker.esp
-? Outdated and no longer supported.
+? Outdated.
 Interior Lighting Overhaul-Darker Interiors.esp
 Depth of View I.esp
 Depth of View I Blur.esp
