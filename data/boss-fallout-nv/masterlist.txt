@@ -257,10 +257,12 @@ FreesideKingsGiftGiverFix.esp
 FreesideKingsGiftGiverFix14Days.esp
 FreesideKingsGiftGiverFix999Days.esp
 headgearfix.esp
+HuntingRifleMeshFixes.esp
 IsolatingVirusFix.esp
 I Put A Spell On You Fix.esp
 I've Got Sturdy Caravan Shotgun Fix.esp
 JBrightExodusFix.esp
+Khan Rumor Fix.esp
 Lucky38ContainersFix.esp
 Lucky 38 Suite Respawn Fix.esp
 McCarranFixes.esp
@@ -1083,6 +1085,7 @@ Bobbleheads - Cases.esp
 Bobbleheads - Hidden_v1.2.esp
 Bobbleheads - Not Hidden_v1.2.esp
 CharacterBackgrounds.esp
+Dog_City3.esp
 Express Delivery.esp
 FreeplayafterMQNVv1_6.esp
 Free Play after MQ.esp
@@ -1234,6 +1237,8 @@ Dead Money - Hack Vending Machines.esp
 : DeadMoney.esm
 Dead Money - Low Loot.esp
 : DeadMoney.esm
+DeadMoneyCutOff.esp
+: DeadMoney.esm
 Decrucifixion.esp
 Decrucifixion - More Victims.esp
 Desaturated Cateye.esp
@@ -1292,8 +1297,6 @@ Less Weight.esp
 Level Cap 100.esp
 levelcap45.esp
 levelcap46.esp
-LFox Bottle That Water.esp
-% {{BASH: Names, Scripts}}
 LFox Infinite Companion Ammo Repair.esp
 LFox Infinite Companion Ammo.esp
 Lighter books.esp
@@ -1542,6 +1545,7 @@ Stealthboy Recipe.esp
 StimpakGivesSyringe.esp
 Tactical Crafting.esp
 Survival Expansion 0.1.esp
+UltrajetRecipe.esp
 WeaponModRecipes.esp
 WeaponModRecipesA.esp
 WeaponModRecipesS.esp
@@ -2211,6 +2215,7 @@ NVPhalanx.esp
 % {{BASH: Actors.AIPackages, Actors.CombatStyle, C.Owner, Scripts}}
 " Incompatible with a majority of other companion mods. Be aware when installing.
 NVWillow.esp
+Raul Repairs Everywhere.esp
 Raul Repairs Everywhere - Free Repair.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
@@ -2287,6 +2292,11 @@ Sorter - Magazines.esp
 % {{BASH: Names}}
 Sorter - Combined - Weighted.esp
 % {{BASH: Names}}
+Sorter - Empty Consumables.esp
+% {{BASH: Names}}
+Sorter - Empty Consumables - Dead Money.esp
+% {{BASH: Names}}
+: DeadMoney.esm and Sorter - Empty Consumables.esp
 Inventory Sorter - Moddable Unique Weps.esp
 % {{BASH: Names}}
 : Moddable Unique Weps.esp
@@ -2413,6 +2423,8 @@ Less Armor Degradation.esp
 Less Weapon Degradation.esp
 Leveled Lists Fix.esp
 Lever Rifle fire rate slow.esp
+LFox Bottle That Water.esp
+% {{BASH: Names, Scripts}}
 limbregen.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
@@ -2593,8 +2605,6 @@ WMX_BRLRepeaterNONReplacer.esp
 WMX-VarmintRifle22LR.esp
 : WeaponModsExpanded.esp
 " VarmintRifle22LR.esp
-WMX-ArenovalisTextures.esp
-: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.  
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
 WMX-ModernWeapons.esp
@@ -2609,6 +2619,10 @@ BIS - WMX-DeadMoney.esp
 : BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and DeadMoney.esm
 Hack Vending Machines - WMX.esp
 : DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
+WMX-HonestHearts.esp
+: WeaponModsExpanded.esp and HonestHearts.esm
+WMX-ArenovalisTextures.esp
+: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.  
 WMX-PreOrderPackCaravan.esp
 : CaravanPack.esm and WeaponModsExpanded.esp
 BIS - WMX-PreOrderPackCaravan.esp
@@ -2683,12 +2697,16 @@ Mail Order Catalogs Hardcore.esp
 : New Vegas Script Extender AND Mail Order Catalogs.esp
 Mail Order Catalogs DLC01.esp
 : New Vegas Script Extender, DeadMoney.esm, AND Mail Order Catalogs.esp
+Mail Order Catalogs DLC02.esp
+: New Vegas Script Extender, HonestHearts.esm, AND Mail Order Catalogs.esp
 Mail Order Catalogs WMX.esp
 : New Vegas Script Extender, WeaponModsExpanded.esp, AND Mail Order Catalogs.esp
 Mail Order Catalogs WMX Modern Weapons.esp
 : New Vegas Script Extender, WeaponModsExpanded.esp, WMX-ModernWeapons.esp, Mail Order Catalogs.esp, AND Mail Order Catalogs WMX.esp
 Mail Order Catalogs DLC01 WMX.esp
 : New Vegas Script Extender, DeadMoney.esm, WeaponModsExpanded.esp, WMX-DeadMoney.esp, Mail Order Catalogs.esp, Mail Order Catalogs DLC01.esp, AND Mail Order Catalogs WMX.esp
+Mail Order Catalogs DLC02 WMX.esp
+: New Vegas Script Extender, HonestHearts.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, Mail Order Catalogs.esp, Mail Order Catalogs DLC02.esp, AND Mail Order Catalogs WMX.esp
 Mail Order Catalogs WMX PopUp.esp
 : New Vegas Script Extender AND WeaponModsExpanded.esp
 ? Select only ONE .esp when installing this mod.
