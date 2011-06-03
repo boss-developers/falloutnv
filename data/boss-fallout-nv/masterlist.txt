@@ -58,6 +58,7 @@ BinocularsOverhaul.esm
 CALIBR.esm
 CHEMS.esm
 CompanionInfAmmo.esm
+Corvega.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
 decwithreg.esm
@@ -102,6 +103,7 @@ SelectFire.esm
 : New Vegas Script Extender
 Selective Fire.esm
 : New Vegas Script Extender
+TAC-SHOP.esm
 Thermal Vision.esm
 VMods - Master.esm
 WARZONES - Misanthropy Pure.esm
@@ -235,6 +237,8 @@ CompanionHoldouts.esp
 Companion Hostility Fix.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
+DeadMoneyEquipmentFixes.esp
+: DeadMoney.esm
 DeadMoneyWeaponFixes.esp
 : DeadMoney.esm
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
@@ -331,6 +335,8 @@ Centered 3rd Person Camera.esp
 " FOOK - New Vegas.esm
 Centered 3rd Person Camera - Unraised.esp
 " FOOK - New Vegas.esm
+Corvega -Electrocity.esp
+: Corvega.esm and ELECTRO-CITY - CompletedWorkorders.esm
 DynamiCamera.esp
 EZ_Force_Killable_NormalMode.esp
 EZ_GLUE.esp
@@ -441,6 +447,8 @@ AlsatianRex.esp
 Armor Replacer Child NPC Fix.esp
 ArmyMen.esp
 BetterArmedBrightFollowers.esp
+Better Burned Man.esp
+: HonestHearts.esm
 Bigger Brighter Livelier Vegas.esp
 Brotherhood and House Alliance.esp
 CorpseEquip.esp
@@ -606,6 +614,7 @@ sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
 SLA_02a_fort.esp
 SecretHideout-v1.21.esp
+TAC-SHOP.esp
 The New Bison Steve Hotel.esp
 vegassuburbshome.esp
 Wasteland Defense.esp
@@ -1038,6 +1047,11 @@ hardercore_wealth.esp
 hardercore_healing.esp
 pnv.esp
 Project Nevada - Cyberware.esp
+: Project Nevada - Core.esm
+Project Nevada - Dead Money + Honest Heart Patch.esp
+: DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
+Project Nevada - Dead Money SF + Honest Hearts Patch.esp
+: DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
 \EndGroup\\
 \EndGroup\\ Overhauls
 
@@ -1052,6 +1066,13 @@ Improved Sound FX.esp
 Improved Sound FX - Gunshot Distance Tweak.esp
 Improved Sound FX - Weapon Sharing Fix.esp
 % {{BASH: Sound}}
+Improved Sound FX - DM.esp
+: DeadMoney.esm
+Improved Sound FX - HH.esp
+: HonestHearts.esm
+Improved Sound FX - HH Sharing Fix.esp
+% {{BASH: Sound}}
+: HonestHearts.esm
 Machienzo-RadioNewVegasFix.esp
 Machienzo-RadioNewVegasFixv11.esp
 NewVegasJazz_1.0.esp
@@ -1100,6 +1121,7 @@ Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
 NewVegasBountiesII.esp
+PAMQ_v1.esp
 Serial Killer.esp
 TheCollector.esp
 Wasteland Explorer.esp
@@ -1355,6 +1377,10 @@ AWOP-MoMod.esp
 : AWorldOfPain(Preview).esm and MoMod.esm
 IWS-MoMod.esp
 : IWS-Core.esm and MoMod.esm
+MoMod-Aliens.esp
+: MoMod.esm
+MoMod-Terminators.esp
+: MoMod.esm
 More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
@@ -1472,6 +1498,7 @@ WMVM-DM.esp
 : WMVM.esm and DeadMoney.esm
 WurstBarberMachine.esp
 XP_Slower_125.esp
+XP_Slower_300.esp
 XP_Slower_Challenges.esp
 XP_Slower_NPCs.esp
 You take a sip from your trusty Vault 13 canteen.esp
@@ -1482,6 +1509,10 @@ z_Fiends_2.esp
 \-----------
 aliencell.esp
 AmmoCraftingSchematics.esp
+ACS-CaliberX.esp
+: Caliber.esm and AmmoCraftingSchematics.esp
+ACS-HonestHearts.esp
+: HonestHearts.esm and AmmoCraftingSchematics.esp
 ArmourRepairKits.esp
 : New Vegas Script Extender
 Armor Crafting BETA.esp
@@ -1502,7 +1533,7 @@ Craft Overhaul 1.1.esp
 Craftable Stealth boys.esp
 CRFTOven.esp
 DeadMoneyJunkRoundsRedux.esp
-: Dead Money.esm
+: DeadMoney.esm
 Dire Contraptions.esp
 DixonRecipes.esp
 Dynamic Herbalism.esp
@@ -1516,6 +1547,8 @@ GunSmith Guns Upgrade.esp
 : GunSmith.esm
 HandyRecipes.esp
 Homemade Grenades.esp
+HonestHeartsJunkRoundsRedux.esp
+: HonestHearts.esm
 Improved ammo.esp
 ImprovedWorkbench.esp
 IntuitiveRealisticCooking.esp
@@ -1590,14 +1623,6 @@ Advanced Recon Tech - Detect Traps.esp
 Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 AEVegas.esp
-AK47.esp
-American Hammer Compact.esp
-ASG.esp
-Assault Carbine mods.esp
-% {{BASH: WeaponMods}}
-Automatic Service Rifle.esp
-AW50f.esp
-AWMRifle.esp
 Ahzteks Weapon Replacements.esp
 ? Outdated.
 Selective Fire - Ahzteks NV Weapon Overhaul.esp
@@ -1609,6 +1634,15 @@ Ahzteks Weapon Overhaul NO xCALIBER.esp
 " Ahzteks Weapon Overhaul.esp
 Ahzteks Impact Data (Optional).esp
 Ahzteks Muzzle Flashes (Optional).esp
+AK47.esp
+Alexscorpion's Custom AK103.esp
+American Hammer Compact.esp
+ASG.esp
+Assault Carbine mods.esp
+% {{BASH: WeaponMods}}
+Automatic Service Rifle.esp
+AW50f.esp
+AWMRifle.esp
 BearTrap.esp
 Beretta.esp
 Better Binoculars.esp
@@ -1690,6 +1724,10 @@ Glow Sticks.esp
 Gobi Rifle Enhanced.esp
 Golden Eagle.esp
 guitar.esp
+HHWeapsInNV.esp
+: HonestHearts.esm
+HHWeapsInNVNPC.esp
+: HonestHearts.esm
 HighRoller.esp
 HK MP7.esp
 hz_BAMR.esp
@@ -2149,6 +2187,7 @@ CompanionLevel30Cap.esp
 HigherCompanionLevelCap.esp
 " CompanionLevel30Cap.esp
 CompanionsEssential.esp
+CompanionDisguises.esp
 Correction - Passive 2 Option.esp
 " Correction - Passive.esp
 Correction - Passive.esp
@@ -2533,6 +2572,9 @@ tyfasterwalk.esp
 tyfasterwalk-FR.esp
 tyfasterwalk-FR-N2HRP.esp
 tyfasterwalk-N2HRP.esp
+UltimateRecoil.esp
+: New Vegas Script Extender
+" RealisticWeaponRecoil.esp and RealisticWeaponRecoilDM.esp as they do the same thing.
 UnconsciousLooting.esp
 UsableCigarettes neunen Ver for New Vegas.esp
 vanilla move.esp
@@ -2888,6 +2930,9 @@ ILO-RI-Original Lucky38 Suite.esp
 ILO-RI-Dead Money.esp
 % {{BASH: C.Light}}
 : DeadMoney.esm
+ILO-RI-Honest Hearts.esp
+% {{BASH: C.Light}}
+: HonestHearts.esm
 Interior Lighting Overhaul-Darker.esp
 ? Outdated.
 Interior Lighting Overhaul-Darker Interiors.esp
@@ -2898,6 +2943,7 @@ Depth of View IE Blur.esp
 Depth of View IE Custom.esp
 Depth of View IE Gentler.esp
 Depth of View IE Middle.esp
+Depth of View PE.esp
 DYNAVISION - Dynamic Lens Effect.esp
 " Field Depth.esp
 ? Outdated. Consider updating.
@@ -3044,6 +3090,7 @@ The Groovatron.esp
 \BeginGroup\: Beauty Packs & Race Addons
 \-----------
 AFricanAmericanAAlbino.esp
+BMDD's All Races Playable V2.esp
 DK Caucasians.esp
 : Lings.esm IF you're using the Lings Compatible mod.
 T3BBN Old Women.esp
