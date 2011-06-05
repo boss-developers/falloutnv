@@ -89,6 +89,7 @@ Moddable Unique Weps.esm
 " Moddable Unique Weps.esp
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
+NVR-Strip.esm
 PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
@@ -106,6 +107,7 @@ Selective Fire.esm
 TAC-SHOP.esm
 Thermal Vision.esm
 VMods - Master.esm
+War Never Changes.esm
 WARZONES - Misanthropy Pure.esm
 WMVM.esm
 wsex.esm
@@ -132,10 +134,15 @@ OutfitsReColorNVMaster.esm
 More Perks.esm
 More Perks for Companions.esm
 More Perks for Dead Money.esm
+: DeadMoney.esm and More Perks.esm
+More Perks for Honest Hearts.esm
+: HonestHearts.esm and More Perks.esm
 More Traits.esm
 More Challenges.esm
 Project Nevada - Core.esm
 : New Vegas Script Extender
+Project Nevada - Equipment.esm
+: Project Nevada - Core.esm
 iHUD.esm
 : New Vegas Script Extender
 ELECTRO-CITY - CompletedWorkorders.esm
@@ -335,6 +342,8 @@ Centered 3rd Person Camera.esp
 " FOOK - New Vegas.esm
 Centered 3rd Person Camera - Unraised.esp
 " FOOK - New Vegas.esm
+CFWWpnDmgIncTweaker.esp
+: CFWNV.esm and Caliber.esm
 Corvega -Electrocity.esp
 : Corvega.esm and ELECTRO-CITY - CompletedWorkorders.esm
 DynamiCamera.esp
@@ -450,6 +459,7 @@ BetterArmedBrightFollowers.esp
 Better Burned Man.esp
 : HonestHearts.esm
 Bigger Brighter Livelier Vegas.esp
+brahmin-variant.esp
 Brotherhood and House Alliance.esp
 CorpseEquip.esp
 DeadMoneyChristineSkills.esp
@@ -462,9 +472,6 @@ Follower Wait Time 100000.esp
 GibsonDogs.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
-GunRunnersExpandedV3.4.esp
-GunRunnersExpandedV3.5.esp
-GunRunnersExpanded-LoreFriendly.esp
 I Fought the Law Workaround.esp
 AndTheLawWon.esp
 Karma Fix - NCRCF Powder Ganger.esp
@@ -486,6 +493,7 @@ NCR Rearmed.esp
 NPCsUseAmoo.esp
 NV Ghouls Revenge - Increased Numbers.esp
 NV Ghouls Revenge - Resurrection.esp
+NVR-NPCs.esp
 RefinedCasinoPeople&Suits.esp
 StripOpenNPCs.esp
 : NVStripOpen.esm
@@ -559,6 +567,13 @@ GoodSprings Home.esp
 GoodspringsSewer-1.22.esp
 Goodsprings Shack.esp
 GunRunnersExpandedV3.3.esp
+? Outdated. Consider Updating.
+GunRunnersExpandedV3.4.esp
+? Outdated. Consider Updating.
+GunRunnersExpandedV3.5.esp
+GunRunnersExpanded-LoreFriendly.esp
+? Outdated. Consider Updating.
+GunRunnersExpanded-LoreFriendly1.1.esp
 HELIOS Outpost - Revamp.esp
 HomeSweetHome.esp
 HiddenBunker.esp
@@ -596,6 +611,10 @@ NVHomestedCompanionEdit.esp
 NV Interiors - El Ray Motel.esp
 NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
+NVR-SMOTS-Version 10.esp
+NVR-Version_10.esp
+OWNB - Red Canyon Overhaul.esp
+: OWNB - Open World.esm
 Portable Tent.esp
 ProjectPrimm.esp
 Realistic Portable Tent.esp
@@ -622,6 +641,8 @@ Wolf's Goodspring hole v0.2.esp
 UHNV.esp
 UHNV-Dead Money.esp
 : UHNV.esp and DeadMoney.esm
+UHNV-Honest Hearts.esp
+: UHNV.esp and HonestHearts.esm
 UHNV-Bobblehunt.esp
 : UHNV.esp and Bobblehunt.esp
 UHNV-ARB Patch.esp
@@ -1048,6 +1069,8 @@ hardercore_healing.esp
 pnv.esp
 Project Nevada - Cyberware.esp
 : Project Nevada - Core.esm
+Project Nevada - Rebalance.esp
+: Project Nevada - Core.esm
 Project Nevada - Dead Money + Honest Heart Patch.esp
 : DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
 Project Nevada - Dead Money SF + Honest Hearts Patch.esp
@@ -1062,6 +1085,7 @@ enclaveradio.esp
 Existence2.0.esp
 CONELRAD 640-1240.esp
 ExtendedNVRadio.esp
+CRL9K_ThisMachineSound.esp
 Improved Sound FX.esp
 Improved Sound FX - Gunshot Distance Tweak.esp
 Improved Sound FX - Weapon Sharing Fix.esp
@@ -1124,6 +1148,7 @@ NewVegasBountiesII.esp
 PAMQ_v1.esp
 Serial Killer.esp
 TheCollector.esp
+War Never Changes.esp
 Wasteland Explorer.esp
 wsexInnuendoAnims.esp
 : wsex.esm
@@ -1168,6 +1193,9 @@ More Perks.esp
 More Perks Update.esp
 More Perks for Companions Update.esp
 More Perks for Dead Money Update.esp
+: More Perks.esm, DeadMoney.esm, and More Perks for Dead Money.esm
+More Perks for Honest Hearts Update.esp
+: More Perks.esm, HonestHearts.esm, and More Perks for Honest Hearts.esm
 More Traits Update.esp
 More Challenges - Original Challenges Overhaul.esp
 NinjaPerkFix.esp
@@ -1267,6 +1295,10 @@ Desaturated Cateye.esp
 Detect Traps - Traponator 4000.esp
 Detect Traps - Dead Money.esp
 : DeadMoney.esm
+" Detect Traps - DLC.esp
+Detect Traps - DLC.esp
+: DeadMoney.esm and HonestHearts.esm
+" Detect Traps - Dead Money.esp
 DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
 Double Turbo.esp
@@ -1467,10 +1499,14 @@ RZW_SilentVideoCollection.esp
 : RZW_Television.esm
 SaveCass.esp
 SaveCass_german.esp
+Selective Fire - AWOP.esp
+: AWorldOfPain(Preview).esm and Selective Fire.esm
 Selective Fire - Classic Fallout Weapons NV.esp
 : Selective Fire.esm and CFWNV.esm
 Selective Fire - Project Nevada.esp
 : Selective Fire.esm and Project Nevada - Core.esm
+SelectiveFire - retakrew7.esp
+: Selective Fire.esm
 Sex Try.esp
 Silver Rush inventory expansion.esp
 SleepHeath.esp
@@ -1539,6 +1575,7 @@ DixonRecipes.esp
 Dynamic Herbalism.esp
 " Bountiful Harvest.esp
 EasierMassPurifiedWater.esp
+E.C.K.O. Energy Cell Killer Overhaul.esp
 EMP Ammo Expansion.esp
 Energy Conversion Converter.esp
 ExplosivesRecipes.esp
@@ -1554,6 +1591,7 @@ ImprovedWorkbench.esp
 IntuitiveRealisticCooking.esp
 jerky.esp
 LFox Missing Ammo Recipes.esp
+LegendaryHunter.esp
 Metal Squeezer.esp
 MyFirstCookbook.esp
 MyFirstCookbook - sorted.esp
@@ -1564,6 +1602,7 @@ NukaColaQuantum.esp
 NukaColaQuantum1.1.esp
 Oven Cooking.esp
 PhilippesRecipes.esp
+Poisoned Darts.esp
 psychoelfs ammo crafting.esp
 Pulse Grenade Recipes.esp
 RiaAmmo.esp
@@ -1818,6 +1857,7 @@ The Sword of a Thousand Truths.esp
 ThirdLeg.esp
 THOR.esp
 Throwing Ninja's Weapon.esp
+turrets.esp
 Usableservice.esp
 Weathered10mmFixed.esp
 WeatheredHoldout.esp
@@ -1871,6 +1911,7 @@ ArmyCapWoodlandDigi.esp
 AsharasLightningItems_ForNV.esp
 ATT LeatherJacket.esp
 ATT SamusZero.esp
+Armored Duster.esp
 Boacombat2glove.esp
 BodyJewelry.esp
 Brotherhood Armor.esp
@@ -1911,6 +1952,7 @@ dressup.esp
 dressupWITHweaponchanges.esp
 DuffleBagOfGuns.esp
 DynamicNightVision.esp
+EliteScribeRobe-left.esp
 epock.esp
 ? Meshes based off of the Type 3 Female Body.
 ERCA.esp
@@ -2086,6 +2128,8 @@ WearGloves.esp
 Armor by Race w Undies.esp
 Body by Race.esp
 headgearfix.esp
+Machienzo - NPC Cosmetic Fixes DLC02.esp
+: HonestHearts.esm
 Lore version.esp
 : New Vegas Redesigned.esm
 \EndGroup\\
@@ -2403,6 +2447,10 @@ dD-Less Screen Blood Time.esp
 dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
+Delay DLC - Dead Money.esp
+: DeadMoney.esm
+Delay DLC - Honest Hearts.esp
+: HonestHearts.esm
 DM-NoLvlMsg.esp
 : DeadMoney.esm
 Dead Money - No Collar Explosion and No Poison Cloud.esp
@@ -2424,6 +2472,7 @@ Faster Running 4.5.esp
 Faster Terminals.esp
 Fatigue - Loot the Unconscious.esp
 Fatigue - Weapons Fatigue Damage.esp
+FireIndeedHot.esp
 First_Person_Gun_No_Follow.esp
 First_Person_Gun_No_Follow_Less.esp
 FlashlightNV-LOS.esp
@@ -2464,7 +2513,9 @@ Leveled Lists Fix.esp
 Lever Rifle fire rate slow.esp
 LFox Bottle That Water.esp
 % {{BASH: Names, Scripts}}
+Lighter Fission Battery.esp
 limbregen.esp
+Loot the paralyzed.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
 Max Level 50.esp
@@ -2556,6 +2607,12 @@ RealisticWeaponRecoilDM.esp
 : New Vegas Script Extender AND DeadMoney.esm
 Real Time Entry Skills.esp
 : New Vegas Script Extender
+Recharge Low.esp
+" Recharge High.esp
+? For use with E.C.K.O. Energy Cell Killer Overhaul.esp
+Recharge High.esp
+" Recharge Low.esp
+? For use with E.C.K.O. Energy Cell Killer Overhaul.esp
 Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
 RRDynamicXPonly.esp
@@ -2575,6 +2632,10 @@ tyfasterwalk-N2HRP.esp
 UltimateRecoil.esp
 : New Vegas Script Extender
 " RealisticWeaponRecoil.esp and RealisticWeaponRecoilDM.esp as they do the same thing.
+UltimateRecoilPN.esp
+: New Vegas Script Extender
+? For use with Project Nevada - Core.esm
+" UltimateRecoil.esp
 UnconsciousLooting.esp
 UsableCigarettes neunen Ver for New Vegas.esp
 vanilla move.esp
@@ -2618,6 +2679,10 @@ BIS - Weapon Mods Expanded (WMX).esp
 : WeaponModsExpanded.esp
 WeaponModsExpanded_FO3WeaponsRestoration.esp
 : WeaponModsExpanded.esp and FO3WeaponsRestoration.esp
+WMX-FOOKNV CP.esp
+: WeaponModsExpanded.esp and FOOK - New Vegas.esp
+WMX-FOOKNV-DLCs CP.esp
+: DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp
 WMX-ShotgunCommando.esp
 : WeaponModsExpanded.esp and Shotgun Commando.esp
 " WMX-Arwen_NV_Realism.esp
@@ -2821,6 +2886,10 @@ NV GameStabilizerA5.esp
 ? Outdated. Consider Updatng.
 NV GameStabilizerA5F.esp
 % {{BASH: NoMerge}}
+NV GameStabilizerA6.esp
+% {{BASH: NoMerge}}
+NV GameStabilizerA7.esp
+% {{BASH: NoMerge}}
 \EndGroup\\
 
 \BeginGroup\: Weather\Light\Water
@@ -2933,6 +3002,7 @@ ILO-RI-Dead Money.esp
 ILO-RI-Honest Hearts.esp
 % {{BASH: C.Light}}
 : HonestHearts.esm
+ILO-RI-PipBoy Light.esp
 Interior Lighting Overhaul-Darker.esp
 ? Outdated.
 Interior Lighting Overhaul-Darker Interiors.esp
