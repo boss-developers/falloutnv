@@ -549,6 +549,8 @@ Clean Goodsprings.esp
 clean McCarran.esp
 Clean Strip.esp
 CKvendor.esp
+DWWSM.esp
+: Caliber.esm and New Vegas Script Extender
 FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
 FF_Entry_Fix.esp
@@ -726,8 +728,11 @@ HAM-SixHands.esp
 \-----------
 FOOK - New Vegas.esp
 % {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
-FOOK - No Loose Files.esp
 FOOK - New Vegas DLCs.esp
+: DeadMoney.esm and HonestHearts.esm
+FOOK - No Loose Files.esp
+FOOK - No Loose Files DLCs.esp
+: DeadMoney.esm and HonestHearts.esm
 FOOK - Lings.esp
 Selective Fire - FOOK NV.esp
 : FOOK - New Vegas.esm
@@ -1748,6 +1753,7 @@ Euclid C-Finder Unlimited Ammo.esp
 Exciters Masada ACWS.esp
 : SelectFire.esm
 ExperimentalMIRV.esp
+FAL_Para_Carbine.esp
 FingerOfGodNV.esp
 FN FAL.esp
 FN_SCAR.esp
@@ -1859,6 +1865,7 @@ THOR.esp
 Throwing Ninja's Weapon.esp
 turrets.esp
 Usableservice.esp
+WeaponBersekCrossbow.esp
 Weathered10mmFixed.esp
 WeatheredHoldout.esp
 xCALIBRuniverse_ImpulsePurchasePack.esp
@@ -2681,8 +2688,6 @@ WeaponModsExpanded_FO3WeaponsRestoration.esp
 : WeaponModsExpanded.esp and FO3WeaponsRestoration.esp
 WMX-FOOKNV CP.esp
 : WeaponModsExpanded.esp and FOOK - New Vegas.esp
-WMX-FOOKNV-DLCs CP.esp
-: DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp
 WMX-ShotgunCommando.esp
 : WeaponModsExpanded.esp and Shotgun Commando.esp
 " WMX-Arwen_NV_Realism.esp
@@ -2729,7 +2734,9 @@ Hack Vending Machines - WMX.esp
 WMX-HonestHearts.esp
 : WeaponModsExpanded.esp and HonestHearts.esm
 WMX-ArenovalisTextures.esp
-: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.  
+: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
+WMX-FOOKNV-DLCs CP.esp
+: DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp  
 WMX-PreOrderPackCaravan.esp
 : CaravanPack.esm and WeaponModsExpanded.esp
 BIS - WMX-PreOrderPackCaravan.esp
