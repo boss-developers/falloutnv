@@ -1,22 +1,40 @@
-﻿\ Leading symbol code:
+﻿\ Masterlist Syntax Notes
 \
-\ \ A silent comment - will be ignored by the program.
-\ % A Bashed Patch suggestion for the mod above.
-\ ? A comment about the mod above.
-\ * Flags a critical mistake for nVamp installation in relation to the mod above.
-\ : An installation requirement (ie another mod or NVSE etc.).
-\ " A specific incompatibility.
-\ $ A FOOK specific comment.
-\ ^ A UNUSED specific comment
+\ Although two syntaxes (MF1 & MF2) are available, only the most common parts of the more general syntax (MF1) is covered here.
+\ See http://code.google.com/p/better-oblivion-sorting-software/wiki/MasterlistFormatSyntax for full details.
 \
-\ > process this line only if nVamp is installed.
-\ < process this line only if nVamp isn't installed.
+\  * Use blank lines to separate mods that are grouped together or where it helps readability.
+\  * Use silent comments when you think something needs clarification to others reading the masterlist (such as when a mod looks like it is misspelled, but is correct).
+\  * Only make edits/additions you're confident about - otherwise discuss the issue on the official forum threads. 
+\  * If you're unsure on how to write something in the correct syntax, check the masterlists for examples, and don't be afraid to ask other committers for help.
+\  * When you include a web link in a message, enclose it in double quotes "", for example: www.example.org should be written "www.example.org".
+\  * When you list Bash Tags for a mod, separate them using ", " and not just ",". Eg. {{BASH: Graphics,NoMerge}} should be written {{BASH: Graphics, NoMerge}}. This improves readability in the BOSSlog and the masterlist itself.
+\  * Don't include any HTML formatting in messages. In particular, web links do not need to be formatted as HTML hyperlinks, as BOSS will do this automatically.
+\  * Don't duplicate lines using different syntaxes. A line only needs to be written in one syntax.
+\  * As the majority of BOSS users use versions that only support MF1, write in that where possible. 
 \
-\ Multiple remark/comment/bash/error lines allowed.
-\ Lines beginning with \ and blank lines are treated the same (ignored).
+\ Comment Type                      Symbol      Description
+\ =====================================================================
+\ Silent comment                    \           A silent comment, ignored by BOSS.
+\ General comment                   ?           A general comment for the mod above.
+\ Bash Tag suggestion               %           A Bash Tag suggestion for the mod above.
+\ Requirement                       :           An installation requirement for the mod above.
+\ Incompatibility                   "           A specific incompatibility for the mod above.
+\ OOO-specific comment              $           A comment that is only displayed if OOO is installed.
+\ Better Cities-specific comment    ^           A comment that is only displayed if Better Cities is installed.
+\ Critical FCOM install error       >*          Prints an error message if FCOM is installed.
+\
+\ The symbol is followed by a space then the message string.
+\
+\ Conditional Type			Symbol		Description
+\ ===================================================================================
+\ FCOM-installed line			>		Only parses the line if FCOM is installed.
+\ FCOM-not-installed line		<		Only parses the line if FCOM is not installed.
+\
+\ Conditionals can be put before any mod or message line, and the line will only be processed if the conditional is true. 
+\ The critical FCOM install error message type already includes the FCOM-specific conditional, so you don't need to add another.
 
-\Masterlist variable setup. For BOSS v1.7+.
-\Earlier versions of BOSS will ignore this and any other masterlist format v2 stuff.
+\ Masterlist variable setup for BOSS v1.7+.
  IF ("nVamp - Core.esm") SET: NVAMP
 
 \BeginGroup\: ESMs
