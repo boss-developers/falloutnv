@@ -20,19 +20,19 @@
 \ Bash Tag suggestion               %           A Bash Tag suggestion for the mod above.
 \ Requirement                       :           An installation requirement for the mod above.
 \ Incompatibility                   "           A specific incompatibility for the mod above.
-\ OOO-specific comment              $           A comment that is only displayed if OOO is installed.
-\ Better Cities-specific comment    ^           A comment that is only displayed if Better Cities is installed.
-\ Critical FCOM install error       >*          Prints an error message if FCOM is installed.
+\ --                                $           --
+\ --                                ^           --
+\ Critical nVamp install error      >*          Prints an error message if nVamp is installed.
 \
 \ The symbol is followed by a space then the message string.
 \
 \ Conditional Type			Symbol		Description
 \ ===================================================================================
-\ FCOM-installed line			>		Only parses the line if FCOM is installed.
-\ FCOM-not-installed line		<		Only parses the line if FCOM is not installed.
+\ nVamp-installed line			>		Only parses the line if nVamp is installed.
+\ nVamp-not-installed line		<		Only parses the line if nVamp is not installed.
 \
 \ Conditionals can be put before any mod or message line, and the line will only be processed if the conditional is true. 
-\ The critical FCOM install error message type already includes the FCOM-specific conditional, so you don't need to add another.
+\ The critical nVamp install error message type already includes the nVamp-specific conditional, so you don't need to add another.
 
 \ Masterlist variable setup for BOSS v1.7+.
  IF ("nVamp - Core.esm") SET: NVAMP
