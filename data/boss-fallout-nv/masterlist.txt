@@ -54,6 +54,9 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 Ambient Temperature.esm
+Companion Core.esm
+: New Vegas Script Extender
+? Loaded early in the event Companion .esm mods require this.
 IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
 ? Does the same thing as OWNB - Open World.esm; Use one or the other.
@@ -81,6 +84,8 @@ BinocularsOverhaul.esm
 CALIBR.esm
 CHEMS.esm
 CompanionInfAmmo.esm
+Companion Share & Recruit.esm
+: New Vegas Script Extender and Companion Core.esm
 Corvega.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
@@ -224,8 +229,9 @@ Project Nevada - Equipment.esm
 CFWNV-DLC.esm
 : DeadMoney.esm and HonestHearts.esm
 WME - Dead Money.esm
-: DeadMoney.esm
+: DeadMoney.esm and Weapon Mod Expansion.esm
 WME - Honest Hearts.esm
+: HonestHearts.esm and Weapon Mod Expansion.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
@@ -375,9 +381,57 @@ Automated Reloading Bench.esp
 BetterLoadingText.esp
 Better Performance for Older PCs - Bundle.esp
 BIS - Brumbek's Inventory Sorting.esp
+% {{BASH: Names}}
+BIS - Dead Money.esp
+% {{BASH: Names}}
+: DeadMoney.esm
+BIS - Honest Hearts.esp
+% {{BASH: Names}}
+: HonestHearts.esm
+BIS - Community Bugfix Comp ESM.esp
+% {{BASH: Names}}
+: Community Bugfix Compilation Patch.esm
+" BIS - Community Bugfix Comp ESP.esp
+BIS - CBC Dead Money Patch ESM.esp
+% {{BASH: Names}}
+: DeadMoney.esm and CBC Dead Money Patch.esm
+" BIS - CBC Dead Money Patch ESP.esp
+BIS - Community Bugfix Comp ESP.esp
+% {{BASH: Names}}
+: Community Bugfix Compilation Patch.esp
+" BIS - Community Bugfix Comp ESM.esp
+BIS - CBC Dead Money Patch ESP.esp
+% {{BASH: Names}}
+: DeadMoney.esm and CBC Dead Money Patch.esp
+" BIS - CBC Dead Money Patch ESM.esp
+BIS - Promo DLC Caravan Pack.esp
+% {{BASH: Names}}
+: CaravanPack.esm
+BIS - Promo DLC Classic Pack.esp
+% {{BASH: Names}}
+: ClassicPack.esm
+BIS - Promo DLC Mercenary Pack.esp
+% {{BASH: Names}}
+: MercenaryPack.esm
+BIS - Promo DLC Tribal Pack.esp
+% {{BASH: Names}}
+: TribalPack.esm
+BIS - CFWNV.esp
+% {{BASH: Names}}
+: CFWNV.esm
+BIS - CFWNV-DLC.esp
+% {{BASH: Names}}
+: HonestHearts.esm and CFWNV-DLC.esm
+BIS - Primary Needs HUD.esp
+% {{BASH: Names}}
+: Primary Needs HUD.esm
 BIS - More Cactus Water Recipes.esp
+% {{BASH: Names}}
 Bobblehunt.esp
 Bobblehunt (german).esp
+BIS - Bobblehunt Patch.esp
+% {{BASH: Names}}
+: Bobblehunt.esp
 CameraShakingReduction.esp
 Centered 3rd Person Camera.esp
 " FOOK - New Vegas.esm
@@ -409,17 +463,10 @@ Primary Needs HUD.esp
 Primary Needs HUD-Kick Start Fix.esp
 Purge Cell Buffers.esp
 Readius_NV.esp
-Realistic Weight.esp
-% {{BASH: Stats}}
 ReallyOTS.esp
 SaveKey.esp
+The Mod Configuration Menu.esp
 TUWRM.esp
-Weight_Balance.esp
-% {{BASH: Stats}}
-Weight_Balance_v07.esp
-% {{BASH: Stats}}
-Weight_Balance_v10.esp
-% {{BASH: Stats}}
 RMPipboy.esp
 Sex Try.esp
 Sorter Caravan Card & Ammo @ END.esp
@@ -483,6 +530,8 @@ Psychoelfs Veronica shojo bms.esp
 Rifulized Veronica.esp
 Raul - Danny Trejo.esp
 % {{BASH: NpcFaces, NoMerge}}
+ReElijahfied.esp
+% {{BASH: NpcFaces}}
 REsLorePackNV.esp
 REsNonLorePackNV.esp
 RivensEyescapesNV.esp
@@ -502,6 +551,7 @@ A Repair Bot.esp
 AlsatianRex.esp
 Armor Replacer Child NPC Fix.esp
 ArmyMen.esp
+AWSW.esp
 BetterArmedBrightFollowers.esp
 Better Burned Man.esp
 : HonestHearts.esm
@@ -519,6 +569,7 @@ Follower Wait Time 100000.esp
 GibsonDogs.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
+GRARG.esp
 I Fought the Law Workaround.esp
 AndTheLawWon.esp
 Karma Fix - NCRCF Powder Ganger.esp
@@ -530,6 +581,22 @@ KillableKids.esp
 LFox Easy Weapon Mods.esp
 MajorKnightRepairs.esp
 Merchants Sell Displayed Items.esp
+monsterranch.esp
+% {{BASH: Relev}}
+" MoMod.esm
+? Outdated. Consider Updating.
+AWOPMonsterPatch.esp
+: AWorldOfPain(Preview).esm and MoMod.esm
+AWOP-MoMod.esp
+: AWorldOfPain(Preview).esm and MoMod.esm
+IWS-MoMod.esp
+: IWS-Core.esm and MoMod.esm
+MoMod-Aliens.esp
+: MoMod.esm
+MoMod-Terminators.esp
+: MoMod.esm
+Alpha's MoMod Overhaul.esp
+: MoMod.esm
 Mr Moneybags.esp
 MUd-CR48 Merchant.esp
 mysteriousnun.esp
@@ -547,6 +614,7 @@ NV Ghouls Revenge - Increased Numbers.esp
 NV Ghouls Revenge - Resurrection.esp
 NVR-NPCs.esp
 RefinedCasinoPeople&Suits.esp
+SRDG.esp
 StripOpenNPCs.esp
 : NVStripOpen.esm
 SuitFixes+Factions.esp
@@ -791,6 +859,12 @@ HAM-SixHands.esp
 
 \BeginGroup\: FOOK
 \-----------
+BIS - FOOK - New Vegas.esp
+% {{BASH: Names}}
+: FOOK - New Vegas.esm
+BIS - FOOK - New Vegas DLCs.esp
+% {{BASH: Names}}
+: DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, and FOOK - New Vegas DLCs.esm
 FOOK - New Vegas.esp
 % {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 FOOK - New Vegas DLCs.esp
@@ -1019,6 +1093,8 @@ nVamp - Caliber.esp
 
 \BeginGroup\: XFO NV - The New Vegas Overhaul
 \-----------
+XFODeadMoney.esp
+: DeadMoney.esm
 XFO - 1aa - Accuracy Revamp - mild.esp
 XFO - 1aa - Damage - Skill=Acc - mild.esp
 XFO - 1ab - Accuracy Revamp - hard.esp
@@ -1032,16 +1108,26 @@ XFO - 1be - Dmg - Skill-Var - 2x.esp
 XFO - 1bf - Dmg - Skill-Var - 3x.esp
 XFO - 1bg - Dmg - Skill-Var - 5x.esp
 XFO - 2aa - Armor - DR+DT - revamp - low.esp
+BIS - XFO - 2aa - Armor - DR+DT - revamp low.esp
+% {{BASH: Names}}
 XFO - 2aa - Armor - DR+DT - revamp - mild.esp
 XFO - 2ab - Armor - DR+DT - revamp - med.esp
+BIS - XFO - 2aa - Armor - DR+DT - revamp med.esp
+% {{BASH: Names}}
 XFO - 2ac - Armor - DR+DT - revamp - hard.esp
 XFO - 2ac - Armor - DR+DT - revamp - high.esp
+BIS - XFO - 2aa - Armor - DR+DT - revamp high.esp
+% {{BASH: Names}}
 XFO - 2ba - Armor - DR+DT - simple - low.esp
+BIS - XFO - 2ba - Armor - DR+DT - simple low.esp
+% {{BASH: Names}}
 XFO - 2bb - Armor - DR+DT - simple - med.esp
+BIS - XFO - 2ba - Armor - DR+DT - simple med.esp
+% {{BASH: Names}}
 XFO - 2bc - Armor - DR+DT - simple - hard.esp
 XFO - 2bc - Armor - DR+DT - simple - high.esp
-XFODeadMoney.esp
-: DeadMoney.esm
+BIS - XFO - 2ba - Armor - DR+DT - simple high.esp
+% {{BASH: Names}}
 XFO - 2da - Bleedthrough - 10% (from 20).esp
 XFO - 2db - Bleedthrough - 5%.esp
 XFO - 2dc - Bleedthrough - 0% (Full DT).esp
@@ -1072,6 +1158,8 @@ XFO - 5ea - Skills - Barter - Mild.esp
 XFO - 5eb - Skills - Barter - Hard.esp
 XFO - 6a - Pacing - Faster (No Cap).esp
 XFO - 6aa - Epic Skills - Effects Over 100 (NVSE req).esp
+BIS - XFO - 6aa - Epic Skills.esp
+% {{BASH: Names}}
 XFO - 6b - Pacing - Mild (No Cap).esp
 XFO - 6ba - Pacing - Mild (No Cap).esp
 XFO - 6bb - Pacing - Med (No Cap).esp
@@ -1140,11 +1228,22 @@ hardercore_combat.esp
 hardercore_wealth.esp
 % {{BASH: Delev, Relev}}
 hardercore_healing.esp
-pnv.esp
+BIS - Project Nevada - Core.esp
+% {{BASH: Names}}
+: Project Nevada - Core.esm
+BIS - Project Nevada - Equipment.esp
+% {{BASH: Names}}
+: Project Nevada - Core.esm and Project Nevada - Equipment.esm
 Project Nevada - Cyberware.esp
 : Project Nevada - Core.esm
+BIS - Project Nevada - Cyberware.esp
+% {{BASH: Names}}
+: Project Nevada - Core.esm and Project Nevada - Cyberware.esp
 Project Nevada - Rebalance.esp
 : Project Nevada - Core.esm
+BIS - Project Nevada - Rebalance.esp
+% {{BASH: Names}}
+: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 Project Nevada - Dead Money.esp
 : DeadMoney.esm and Project Nevada - Core.esm
 " Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
@@ -1159,6 +1258,13 @@ Project Nevada - Dead Money SF + Honest Hearts Patch.esp
 : DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
 " Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp 
 ? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegasnexus.com/downloads/file.php?id=42363"
+pnv.esp
+pnvhh.esp
+: HonestHearts.esm
+pnvprojectnevada.esp
+: Project Nevada - Core.esm
+pnvprojectnevadarebalance.esp
+: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
 
@@ -1230,6 +1336,8 @@ Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
+pnvnvbount1.esp
+: NewVegasBounties.esp
 NewVegasBountiesII.esp
 PAMQ_v1.esp
 Serial Killer.esp
@@ -1321,6 +1429,8 @@ WilderWasteland_SAC.esp
 VG0PreorderAlternative.esp
 xatmosSkillPerks.esp
 ZZZZ--APB_By_Nokturnihs.esp
+? Outdated. Consider Updating.
+ZZZZ--APB_221S_By_Nokturnihs.esp
 \EndGroup\\
 
 \BeginGroup\: Early Misc
@@ -1339,10 +1449,6 @@ AutoLoot.esp
 BAN - Dupe This.esp
 BCL custom edition.esp
 Better Casinos.esp
-BetterGamePerformanceV1.esp
-BetterGamePerformanceV2.esp
-BetterGamePerformanceV3.esp
-BetterGamePerformanceV4.esp
 Better Sneak.esp
 Better Sneak - No Stealth Field.esp
 Better Tag Skills.esp
@@ -1365,7 +1471,6 @@ Canteen.esp
 Clanf_NoWeaponsRemove.esp
 Classic Pack Canteen More Hardcore.esp
 clean paper trash remover.esp
-Clean Up New Vegas.esp
 Collectible Canteens.esp
 CompanionDe-Equip.esp
 CompanionsInfiniteAmmoMin.esp
@@ -1397,8 +1502,6 @@ Druged Effects.esp
 Duke Patricks - Improved Magazines.esp
 EnhancedSniperAmmo.esp
 ExpansionVendors.esp
-EV-WME.esp
-: Weapon Mod Expansion.esm
 FalloutNVCheatTerminal.esp
 FasterDialogZoom.esp
 FeelingIrradiated.esp
@@ -1493,20 +1596,6 @@ Mojave Express Expansion.esp
 MojaveEnclavePatrols_v1.0.esp
 MojaveXP.esp
 mojave music radio expanded v1.1.esp
-monsterranch.esp
-% {{BASH: Relev}}
-" MoMod.esm
-? Outdated. Consider Updating.
-AWOPMonsterPatch.esp
-: AWorldOfPain(Preview).esm and MoMod.esm
-AWOP-MoMod.esp
-: AWorldOfPain(Preview).esm and MoMod.esm
-IWS-MoMod.esp
-: IWS-Core.esm and MoMod.esm
-MoMod-Aliens.esp
-: MoMod.esm
-MoMod-Terminators.esp
-: MoMod.esm
 More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
@@ -1528,7 +1617,6 @@ Nuka Cola Enhanced.esp
 nv_passive_critters_norm_gecko.esp
 NoUndiscoveredCompassMarkers.esp
 OJL38RealCasino.esp
-old vaquero includes that gun.esp
 Open Sesame.esp
 Permanent Skill Mags.esp
 Permanent Skill Mags - Item Sorter.esp
@@ -1615,11 +1703,13 @@ Slower Level Rates - x3.0.esp
 Solar's Bottled Water.esp
 Solar's Bottled Water - Bottlecaps.esp
 Sprint Mod.esp
+BIS - Sprint Mod.esp
+% {{BASH: Names}}
+: Sprint Mod.esp
 StarBottleCaps.esp
 Static Battery Replacer.esp
 Stocked38 .esp
 Tag Skills Improved.esp
-that gun holdout.esp
 theHeroNV_1.1.esp
 Unique skill Magazines.esp
 VisualDrugs.esp
@@ -1662,6 +1752,7 @@ CHEMS - Basic Chems.esp
 : CHEMS.esm
 CraftedMantisGauntlet.esp
 Craft Overhaul 1.1.esp
+Craft Throwing weapons.esp
 Craftable Stealth boys.esp
 CRFTOven.esp
 DeadMoneyJunkRoundsRedux.esp
@@ -1710,6 +1801,7 @@ RX-Oven Is Campfire.esp
 RX-Pre-War Food become worse.esp
 RX-Silent Harvest.esp
 SCAMP - Scrapping Clutter And Making Parts.esp
+Scrap the crap.esp
 StealthBoyEnhanced.esp
 Stealthboy Recipe.esp
 StimpakGivesSyringe.esp
@@ -1720,12 +1812,6 @@ WeaponModRecipes.esp
 WeaponModRecipesA.esp
 WeaponModRecipesS.esp
 WeaponModRecipesR.esp
-WMR_WME_A.esp
-: Weapon Mod Expansion.esm
-WMR_WME_S.esp
-: Weapon Mod Expansion.esm
-WMR_WME_R.esp
-: Weapon Mod Expansion.esm
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -1798,8 +1884,27 @@ AWMRifle.esp
 BearTrap.esp
 Beretta.esp
 Better Binoculars.esp
+? Outdated. Consider Updating.
+Better Binoculars Low.esp
+? Select only one Better Bincoulars .esp to use.
+BIS - Kobu Better Binoculars Low.esp
+% {{BASH: Names}}
+? For use with Better Binoculars Low.esp
+Better Binoculars Medium.esp
+? Select only one Better Bincoulars .esp to use.
+BIS - Kobu Better Binoculars Medium.esp
+% {{BASH: Names}}
+? For use with Better Binoculars Medium.esp
 Better Binoculars High.esp
+? Select only one Better Bincoulars .esp to use.
+BIS - Kobu Better Binoculars High.esp
+% {{BASH: Names}}
+? For use with Better Binoculars High.esp
 Better Binoculars Max.esp
+? Select only one Better Bincoulars .esp to use.
+BIS - Kobu Better Binoculars Max.esp
+% {{BASH: Names}}
+? For use with Better Binoculars Max.esp
 better that gun 223.esp
 % {{BASH: Names, Stats}}
 better that gun 44mag.esp
@@ -1863,6 +1968,7 @@ EnergyWeaponMod.esp
 EnhancedServiceRifle.esp
 Erebus.esp
 Euclid C-Finder Unlimited Ammo.esp
+Everyscopedweaponhavenightvision.esp
 Exciters Masada ACWS.esp
 : SelectFire.esm
 ExperimentalMIRV.esp
@@ -1894,6 +2000,10 @@ IDreamOfElectricSheep.esp
 ImmaSightinMahLazor.esp
 % {{BASH: Stats}}
 Improved Throwing1.esp
+Improved Throwing DM.esp
+: DeadMoney.esm
+Improved Throwing HH.esp
+: HonestHearts.esm
 ironsightsnozoom.esp
 " ironsightsnozoom-wmx.esp
 LightSaberMod.esp
@@ -1947,6 +2057,7 @@ NV binoculars.esp
 NVExverminatorRifle.esp
 NVExverminatorRifle2xZoom.esp
 NVExverminatorRifle4xZoom.esp
+old vaquero includes that gun.esp
 Omegared99-M2081.esp
 Orchids Custom Arsenal.esp
 PB-AR1.esp
@@ -1973,14 +2084,18 @@ silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
 SpookyJ's LngRng GRifle.esp
 SR-25.esp
+Stalker Weapons Pack.esp
+Survivalist Crossbow-Surv.esp
 Tactical Weapon Pack.esp
 that gun 556.esp
 that gun 44 mag.esp
+that gun holdout.esp
 The Sword of a Thousand Truths.esp
 ThirdLeg.esp
 THOR.esp
 Throwing Ninja's Weapon.esp
 turrets.esp
+UniqueNVScopes.esp
 Usableservice.esp
 Vintorez VSS.esp
 : Caliber.esm
@@ -2076,6 +2191,8 @@ DragonskinTacticalOutfit.esp
 DragonskinNCRPersonnelWearingOutfits.esp
 % {{BASH: Relev}}
 DragonskinBonusPack.esp
+pnv - compatibility dragonskin tactical.esp
+: DragonskinTacticalOutfit.esp
 dressup.esp
 dressupWITHweaponchanges.esp
 DuffleBagOfGuns.esp
@@ -2131,6 +2248,7 @@ HitmanSuitNV-B.esp
 HomeTeleport.esp
 Holster.esp
 iL-Camouflage Ghost Bodysuit.esp
+ImprovedGeckoLeatherArmor.esp
 JillBSAA.esp
 JillBSAA Multicolor.esp
 : Type 3 Body Replacer
@@ -2157,6 +2275,11 @@ Military NV Backpacks - BumBagUseSlot1.esp
 Military NV Backpacks - No Straps.esp
 Military NV Backpacks - Vendor Script Replenish.esp
 My Cloth Collection NV.esp
+NAPA-NV 0.1.esp
+NAPA-Advanced Recon Tech.esp
+: Advanced Recon Tech.esm
+NAPA-Project Nevada.esp
+: Project Nevada - Core.esm
 NCR Black Ops Stealth Armor.esp
 ? Due to a master issue, this requires ClassicPack.esm; Can be fixed manually using FNVEdit.
 NCR Rearmament v1.5.esp
@@ -2191,12 +2314,20 @@ Powered Power Armor.esp
 Project Nevada - Desert Armor Patch.esp
 Ambient Temperature - PPA.esp
 Power Armour is Powered.esp
+pnvpoweredpowerarmor.esp
+: Powered Power Armor.esp
 PURELUST_port.esp
 QSondraOutfits.esp
 QVaultSuits.esp
 ranger_leather.esp
+pnv - new ranger armors.esp
+: ranger_leather.esp
 Rangermask.esp
 RCSS.esp
+PNVRCSScompatibility.esp
+: RCSS.esp
+Project Nevada - RCSS.esp
+: Project Nevada - Core.esm and RCSS.esp
 Realistic Power Armor.esp
 RealisticStealthArmor.esp
 Repairable_NCR_Combat_Armor_Main.esp
@@ -2475,9 +2606,6 @@ Destructibles.esp
 Feng Shui NV.esp
 Feng Shui NV - Keymap Template.esp
 getallACH.esp
-Grays_EverybodyBleeds.esp
-" Moddable Unique Weps.esp
-" Moddable Unique Weps.esm
 Real Weapon Names.esp
 % {{BASH: Names}}
 Real Weapon Names - NPC Compnaion Weapons.esp
@@ -2491,13 +2619,6 @@ Real Weapon Names - Honest Hearts.esp
 Real Weapon Names - Project Nevada.esp
 % {{BASH: Names}}
 : Project Nevada - Equipment.esm
-Real Weapon Names - WMX.esp
-% {{BASH: Names}}
-: WeaponModsExpanded.esp
-Real Weapon Names - WMX - Dead Money.esp
-% {{BASH: Names}}
-: DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
-% {{BASH: Names}}
 MiscItemIconsNV.esp
 % {{BASH: Graphics}}
 " T3T_MiscItemIconsNV.esp
@@ -2505,11 +2626,12 @@ T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
 " MiscItemIconsNV.esp
 ? Outdated. Consider updating.
-Master of Throwing.esp
-Craft Throwing weapons.esp
 BIS - T3T_MiscItemIconsNV 0.7.esp
+% {{BASH: Names}}
 : T3T_MiscItemIconsNV.esp
-Scrap the crap.esp
+BIS - MiscItemIconsNV 0.9.esp
+% {{BASH: Names}}
+: T3T_MiscItemIconsNV.esp
 ShilohDS-Color Maps and Icons.esp
 Sorter - Combined.esp
 % {{BASH: Names}}
@@ -2579,10 +2701,13 @@ RWD-NV v1.3 [Alternative Version] [NoLimbsExplosions].esp
 RWD-NV v1.3 [Alternative Version].esp
 RWD-NV v1.3 [NoLimbsExplosions].esp
 RWD-NV v1.3 [Standard Version].esp
+RWD-NV v1.4 [Standard Version].esp 
+RWD-Realistic Dismemberment 1.0.esp
 vatsbuff.esp
 vatsbuff2x.esp
 Bodypart Data Mod - Harsher Version.esp
 BetterHeadshots.esp
+BetterScopesModStandalone.esp
 BlurKillerDM.esp
 : DeadMoney.esm
 Brighter PipBoy.esp
@@ -2629,6 +2754,7 @@ Easy Unlocking and Guaranteed Pick Pocket.esp
 Easy Unlocking.esp
 Endurance_And_Health_Overhaul_Low.esp
 Euclid Tweak.esp 
+ExtraSPECIAL.esp
 Ez0n3_ArmorNoMovePenalty.esp
 FalloutNVQuickMessages.esp
 fastervats.esp
@@ -2650,7 +2776,11 @@ FONV - Real Time Lockpicking and Hacking.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
+Grays_EverybodyBleeds.esp
 GrenadeHotkey.esp
+BIS - Grenade Hotkey.esp
+% {{BASH: Names}}
+: New Vegas Script Extender and GrenadeHotkey.esp
 GrenadeHotkey - DeadMoney.esp
 : DeadMoney.esm and GrenadeHotkey.esp
 Guaranteed Pick Pocket.esp
@@ -2679,6 +2809,14 @@ Less Weapon Degradation.esp
 LevelCap100.esp
 Leveled Lists Fix.esp
 Lever Rifle fire rate slow.esp
+lexx-no-dialog-tags-Deutsch.esp
+" lexx-no-dialog-tags-English.esp
+lexx-no-dialog-tags-English.esp
+" lexx-no-dialog-tags-Deutsch.esp
+lexx-dm-no-dialog-tags-English.esp
+: DeadMoney.esm
+lexx-hh-no-dialog-tags-english.esp
+: HonestHearts.esm
 LFox Bottle That Water.esp
 % {{BASH: Names, Scripts}}
 Lighter Fission Battery.esp
@@ -2686,6 +2824,7 @@ limbregen.esp
 Loot the paralyzed.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
+Master of Throwing.esp
 Max Level 50.esp
 : New Vegas Script Extender
 " Other mods that change the max level.
@@ -2702,6 +2841,8 @@ Max Level 255.esp
 : New Vegas Script Extender
 " Other mods that change the max level.
 Melee Lock-On.esp
+Moddable Unique Weps.esp
+" Moddable Unique Weps.esm
 Modified Combat Values v2.esp
 More Damage To Player.esp
 More Realistic Aiming.esp
@@ -2769,6 +2910,8 @@ realistic headshots.esp
 realistic headshots VATS.esp
 Realistic Ingestible Metabolic Effects.esp
 Realistic Weapon Impact Effects.esp
+Realistic Weight.esp
+% {{BASH: Stats}}
 Realistic Weight Overhaul.esp
 RealisticWeaponRecoil.esp
 " RealisticWeaponRecoilDM.esp
@@ -2818,20 +2961,21 @@ Vats Longer distance.esp
 Vault_34_better_reactor.esp
 VirusHuntV3.esp
 VMods.esp
+Weight_Balance.esp
+% {{BASH: Stats}}
+Weight_Balance_v07.esp
+% {{BASH: Stats}}
+Weight_Balance_v10.esp
+% {{BASH: Stats}}
 WeightChanges.esp
 XIII + J3X's Flesh Burnificating Plasma.esp
 XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
+XS Skill Training.esp 
 \EndGroup\\
 
-\BeginGroup\: Base Game Weapon Modifications
+\BeginGroup\: Weapon Mods Expanded or WMX
 \-----------
-RH_IronSights_NV_Vanilla.esp
-: RH_IRONSIGHTS_NV.esm
-" WeaponModsExpanded.esp
-% {{BASH: Graphics}}
-RH_IronSights_NV_NewWeapons.esp
-: RH_IRONSIGHTS_NV.esm
 WeaponModsExpanded.esp
 " RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 WMX - Sorted.esp
@@ -2875,6 +3019,9 @@ AntiMaterialRifleRanger.esp
 ironsightsnozoom-wmx.esp
 : WeaponModsExpanded.esp
 " ironsightsnozoom.esp
+Real Weapon Names - WMX.esp
+% {{BASH: Names}}
+: WeaponModsExpanded.esp
 Recharger Weapons Rebalance WMX.esp
 : WeaponModsExpanded.esp
 RivenBRLCRReplacer.esp
@@ -2897,11 +3044,16 @@ BIS - WMX-ModernWeapons.esp
 WMX-DeadMoney.esp
 : WeaponModsExpanded.esp and DeadMoney.esm
 BIS - WMX-DeadMoney.esp
-: BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and DeadMoney.esm
+: DeadMoney.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 Hack Vending Machines - WMX.esp
 : DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
+Real Weapon Names - WMX - Dead Money.esp
+% {{BASH: Names}}
+: DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 WMX-HonestHearts.esp
-: WeaponModsExpanded.esp and HonestHearts.esm
+: HonestHearts.esm, WeaponModsExpanded.esp and HonestHearts.esm
+BIS - WMX-HonestHearts.esp
+: HonestHearts.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-HonestHearts.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
 : HonestHearts.esm and WMX-HonestHearts.esp
 WMX-ArenovalisTextures.esp
@@ -2916,27 +3068,43 @@ WMX-PreOrderPackMercenary.esp
 : MercenaryPack.esm and WeaponModsExpanded.esp
 BIS - WMX-PreOrderPackMercenary.esp
 : BIS - Brumbek's Inventory Sorting.esp, MercenaryPack.esm, and WeaponModsExpanded.esp
+\EndGroup\\
+
+\BeginGroup\: Weapon Mod Expansion or WME
+\-----------
+RH_IronSights_NV_Vanilla.esp
+: RH_IRONSIGHTS_NV.esm
+" WeaponModsExpanded.esp
+% {{BASH: Graphics}}
+RH_IronSights_NV_NewWeapons.esp
+: RH_IRONSIGHTS_NV.esm
 Weapon Mod Expansion.esp
 : Weapon Mod Expansion.esm
 " WeaponModsExpanded.esp
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
-WME - Dead Money.esp
-: DeadMoney.esm
-WME - FOOK - Dead Money.esp
-: FOOK - New Vegas.esm and DeadMoney.esm
-nVamp - Weapon Mod Expansion.esp
-: Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
+WME - 00 Commando.esp
+: Weapon Mod Expansion.esm
+% {{BASH: Graphics, Names, Stats, WeaponMods}}
 WME - Arwen Core.esp
 : Weapon Mod Expansion.esp
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
+WME - Arenovalis.esp
+: Weapon Mod Expansion.esm and Arenovalis' / Millenia's Weapon Re-textures.
+WME - Ironsights.esp
+: Weapon Mod Expansion.esm
+WME - RH Ironsights.esp
+: Weapon Mod Expansion.esm, RH_Ironsights_NV.esm, AND RH_IronSights_NV_Vanilla.esp
+% {{BASH: Graphics, WeaponMods}}
 WME - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Delev, Graphics, Names, Sound, Stats}}
 WME Replacer - FOOK.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Graphics, Names, Stats, WeaponMods}}
-WME - FOOK - Dead Money.esp
-: Weapon Mod Expansion.esm AND DeadMoney.esm
+WME - Named & Sorted.esp
+: Weapon Mod Expansion.esm
+WME - Packless.esp
+: Weapon Mod Expansion.esm
 WME - Reload.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm.esp
@@ -2945,6 +3113,9 @@ WME - Reload, Rebalance.esp
 : Weapon Mod Expansion.esm
 WME - Reload, Rearm, Rebalance.esp
 : Weapon Mod Expansion.esm
+WME - that gun 223.esp
+: Weapon Mod Expansion.esm
+% {{BASH: Names, Stats, WeaponMods}}
 WME - that gun 44 mag.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Names, Stats, WeaponMods}}
@@ -2952,32 +3123,66 @@ WME - that gun 556.esp
 : Weapon Mod Expansion.esm
 % {{BASH: Names, Stats, WeaponMods}}
 ? Old
-WME - that gun 223.esp
-: Weapon Mod Expansion.esm
-% {{BASH: Names, Stats, WeaponMods}}
-WME - Named & Sorted.esp
-: Weapon Mod Expansion.esm
-WME - 00 Commando.esp
-: Weapon Mod Expansion.esm
-% {{BASH: Graphics, Names, Stats, WeaponMods}}
-WME - RH Ironsights.esp
-: Weapon Mod Expansion.esm, RH_Ironsights_NV.esm, AND RH_IronSights_NV_Vanilla.esp
-% {{BASH: Graphics, WeaponMods}}
 Big Big Boomer - WME.esp
-WME - Ironsights.esp
 : Weapon Mod Expansion.esm
-WME - CS Sight Q Fix.esp
-: Weapon Mod Expansion.esm
-WME - WorldofPain.esp
-: AWorldOfPain(Preview).esm
 AG Supplementary Uniques WME.esp
+: Weapon Mod Expansion.esm
+BetterScopesModWMEVersion.esp
+: Weapon Mod Expansion.esm
+BIS - Weapon Mod Expansion.esp
+% {{BASH: Names}}
+: Weapon Mod Expansion.esm
+EV-WME.esp
 : Weapon Mod Expansion.esm
 Mo'WME.esp
 : Mo'.esm AND Weapon Mod Expansion.esm
 Mod Loot - 2. Reasonably Rare (WME).esp
 : Weapon Mod Expansion.esm
 NV Scopes WME Compability.esp
-: Weapon Mod expansion.esp
+: Weapon Mod expansion.esm
+WME - CS Sight Q Fix.esp
+: Weapon Mod Expansion.esm
+WME - WorldofPain.esp
+: AWorldOfPain(Preview).esm
+WMR_WME_A.esp
+: Weapon Mod Expansion.esm
+WMR_WME_S.esp
+: Weapon Mod Expansion.esm
+WMR_WME_R.esp
+: Weapon Mod Expansion.esm
+nVamp - Weapon Mod Expansion.esp
+: Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
+WME - Dead Money.esp
+: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+BIS - WME - Dead Money.esp
+% {{BASH: Names}}
+: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+WME - Dead Money Arenovalis Retex.esp
+: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+BIS - WME - Dead Money Arenovalis Retex.esp
+% {{BASH: Names}}
+: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+WME - FOOK - Dead Money.esp
+: Weapon Mod Expansion.esm and DeadMoney.esm
+? Outdated.
+WME - Honest Hearts.esp
+: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+BIS - WME - Honest Hearts.esp
+% {{BASH: Names}}
+: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+WME - Honest Hearts Arenovalis.esp
+: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+BIS - WME - Honest Hearts Arenovalis Retex.esp
+% {{BASH: Names}}
+: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+WME - FOOK DLCs.esp
+: DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, FOOK - New Vegas DLCs.esm, Weapon Mod Expansion.esm, WME - Dead Money.esm, and WME - Honest Hearts.esm
+\EndGroup\\
+
+\BeginGroup\: Special Cases for WMX and/or WME support
+\-----------
+RangerYosemite.esp
+: WeaponModsExpanded.esp, or Weapon Mod Expansion.esm, or neither depending on .esp used.
 Mail Order Catalogs.esp
 : New Vegas Script Extender
 Mail Order Catalogs Hardcore.esp
@@ -3106,13 +3311,18 @@ ELECTRO-CITY - Highways and Byways.esp
 ? Outdated; Latest Versions use .esm instead of .esp
 BIS - ELECTRO-CITY Extended Cateye.esp
 : ELECTRO-CITY - CompletedWorkorders.esp and/or ELECTRO-CITY - Highways and Byways.esp OR ELECTRO-CITY - CompletedWorkorders.esm and/or ELECTRO-CITY - Highways and Byways.esm
+? Outdated. Consider Updating.
 ELECTRO-CITY - IncreasedWastelandSpawnCOMPATIBILITYPatch.esp
 : IWS-Core.esm
 ? This patch will work with the latest version of Electro-City but it won't be updated any further.
 ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
 " ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
+BIS - ELECTRO-CITY ElectroCityCATEYEvalue.esp
+" BIS - ELECTRO-CITY RegularCATEYEvalue.esp
 ELECTRO-CITY - Inventory Sorters Compatibility Patch - RegularCATEYEvalue.esp
 " ELECTRO-CITY - Inventory Sorters Compatibility Patch - ElectroCityCATEYEvalue.esp
+BIS - ELECTRO-CITY RegularCATEYEvalue.esp
+" BIS - ELECTRO-CITY ElectroCityCATEYEvalue.esp
 ACF Brighter Days and Darker Nights v5 - Medium
 " Will conflict with any other mod that changes image space and image space modifiers.
 ACF Brighter Days and Darker Nights v5 - Dark
@@ -3215,6 +3425,7 @@ SneakNV.esp
 Sneak - less saturated version NV.esp
 " SneakNV.esp
 TirenessEffectNV.esp
+Night Brightness Adjuster.esp
 ELECTRO-CITY - Emittance.esp
 " ELECTRO-CITY - Imaginator.esp
 ? Outdated. Consider updating.
@@ -3240,13 +3451,26 @@ UWFXGodrays.esp
 
 \BeginGroup\: Lastish
 \-----------
-FNNsysNV.esp
+BetterGamePerformanceV1.esp
+? Outdated. Consider Updating.
+? Loaded last so that deleted references stay deleted.
+BetterGamePerformanceV2.esp
+? Outdated. Consider Updating.
+? Loaded last so that deleted references stay deleted.
+BetterGamePerformanceV3.esp
+? Outdated. Consider Updating.
+? Loaded last so that deleted references stay deleted.
+BetterGamePerformanceV4.esp
+? Loaded last so that deleted references stay deleted.
+Clean Up New Vegas.esp
+? Loaded last so that deleted references stay deleted.
 Enhanced Ballistics Effects.esp
 Enhanced Ballistics Effects - NoTweaks.esp
 Enhanced Ballistics Effects WME.esp
 : Weapon Mod Expansion.esm
 Enhanced Ballistics Effects WME RH - NoTweaks.esp
 : Weapon Mod Expansion.esm AND RH_IRONSIGHTS_NV.esm
+FNNsysNV.esp
 Improved Ballistics Effects V2.esp
 mypatch.esp
 \EndGroup\\
