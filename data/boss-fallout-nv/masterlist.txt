@@ -109,7 +109,7 @@ HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
 LDFemalePowerArmorPack.esm
-: LDFemalePowerArmorPack.esp
+" LDFemalePowerArmorPack.esp
 Lucky38Suite_Reloaded.esm
 LW Companion.esm
 ? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
@@ -2265,7 +2265,7 @@ KerberosPanzer-AdvancedReconGear.esp
 KerberosPanzer-power armor.esp
 KerberosPanzer-lower dt.esp
 LDFemalePowerArmorPack.esp
-: LDFemalePowerArmorPack.esm
+" LDFemalePowerArmorPack.esm
 LDTribalPowerArmor.esp
 LeatherBackpack - eng.esp
 Leather backpack - rus.esp
