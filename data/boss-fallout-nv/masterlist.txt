@@ -109,6 +109,8 @@ HAM-Spawns.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
 LDFemalePowerArmorPack.esm
+: LDFemalePowerArmorPack.esp
+Lucky38Suite_Reloaded.esm
 LW Companion.esm
 ? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
 Military Explansion Program.esm
@@ -333,6 +335,7 @@ NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
 NVVariousFixes - Honest Hearts.esp
 : HonestHearts.esm
+PackWeaponsFix.esp
 Primm_Rumor_Fix.esp
 RadioComputerPartsFix.esp
 Raul Ranger Andy fix.esp
@@ -427,11 +430,21 @@ BIS - Primary Needs HUD.esp
 : Primary Needs HUD.esm
 BIS - More Cactus Water Recipes.esp
 % {{BASH: Names}}
+BIS - Compiled Patch.esp
+% {{BASH: Names}}
+: Compiled Patch.esp
+BIS - Compiled Patch - DeadMoney.esp
+% {{BASH: Names}}
+: Compiled Patch - DeadMoney.esp
+BIS - Compiled Patch - HonestHearts.esp
+% {{BASH: Names}}
+: Compiled Patch - HonestHearts.esp
 Bobblehunt.esp
 Bobblehunt (german).esp
 BIS - Bobblehunt Patch.esp
 % {{BASH: Names}}
 : Bobblehunt.esp
+CamOne.esp
 CameraShakingReduction.esp
 Centered 3rd Person Camera.esp
 " FOOK - New Vegas.esm
@@ -497,6 +510,7 @@ FPT EDE 2BetaVanillaRedhead.esp
 GrizzledBoone.esp
 Improved Faces v1.esp
 K2_NVPresets.esp
+Look of Disapproval.esp
 Lore version.esp
 % {{BASH: NpcFaces}}
 MikotoBPCCArcade.esp
@@ -536,6 +550,11 @@ REsLorePackNV.esp
 REsNonLorePackNV.esp
 RivensEyescapesNV.esp
 SweetVeronica.esp
+Trollface.esp
+Veronica1.0.esp
+% {{BASH: NpcFaces}}
+Veronica_nerdy.esp
+% {{BASH: NpcFaces}}
 Veronica_Redux_Type3_Alice_Lings.esp
 Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
@@ -548,6 +567,7 @@ VyntageVeronica02.esp
 \BeginGroup\: NPC
 \-----------
 A Repair Bot.esp
+Alsatian NCR Guard Dogs.esp
 AlsatianRex.esp
 Armor Replacer Child NPC Fix.esp
 ArmyMen.esp
@@ -658,6 +678,7 @@ Better forest.esp
 Better Lucky 38 Presidential Suite Version 1.0.esp
 BetterLuckySuite.esp
 BetterNovacRoomFull.esp
+Bonds Prim Town House Upgrade.esp
 BONsQuarryJunctionRefuge-cave.esp
 Brahmin Bess.esp
 Brighter Novac Player Room.esp
@@ -725,14 +746,6 @@ Novac Hotel Suite Upgrade.esp
 NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
 " Novac Hotel Suite Upgrade.esp
 BobblehuntNovacSuite.esp
-NVR_rePopulated Wasteland_Patch.esp
-NVR_ELECTRO-CITY_Patch.esp
-NVR-SMOTS-ELECTRO-CITY_Patch.esp
-NVR-SMOTS-Version 10.esp
-: DeadMoney.esm
-NVR-Version_9.esp
-? Outdated; Consider Updating.
-NVR-Version_10.esp
 NewVegasStripOverhaul.esp
 : StripOpenNPCs.esp
 NVSO - ELECTRO-CITY Patch.esp
@@ -755,6 +768,7 @@ return_deadmoney.esp
 PoseidonResearchFacility.esp
 RedRockRanch.esp
 RustTownV1-1.esp
+s7oMolesWell.esp 
 SadiesSundries.esp
 Schoolhouse Base.esp
 SDs Lucky 38 Suite Trophies.esp
@@ -763,6 +777,8 @@ Seachlight Airpot NCR V3.5.esp
 SierraMadreEXIT.esp
 : DeadMoney.esm
 ? Same purpose as return_deadmoney.esp; use one or the other.
+SierraMadrev2.0.esp
+: DeadMoney.esm
 Silverpeak Bunker.esp
 sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
@@ -773,6 +789,17 @@ The New Bison Steve Hotel.esp
 vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
+NVR_rePopulated Wasteland_Patch.esp
+: rePopulated Wasteland.esm
+NVR_ELECTRO-CITY_Patch.esp
+NVR-SMOTS-ELECTRO-CITY_Patch.esp
+NVR-SMOTS-Version 10.esp
+: DeadMoney.esm
+NVR-SMOTS-V2-Version_10.esp
+: DeadMoney.esm
+NVR-Version_9.esp
+? Outdated; Consider Updating.
+NVR-Version_10.esp
 UHNV.esp
 UHNV-Dead Money.esp
 : UHNV.esp and DeadMoney.esm
@@ -787,6 +814,8 @@ UHNV-Chems.esp
 UHNV-Performance-Patch.esp
 : UHNV.esp
 ? Outdated as of Version 2.9
+UHNV-More Mannequins.esp
+: UHNV.esp
 UHNV-Brighter Lighting.esp
 : UHNV.esp
 " UHNV-IncreasedLighting.esp
@@ -794,8 +823,6 @@ UHNV-IncreasedLighting.esp
 : UHNV.esp
 " UHNV-Brighter Lighting.esp
 ? Outdated; Consider Updating.
-UHNV-More Mannequins.esp
-: UHNV.esp
 Underground Home.esp
 UWHNV-Core.esp
 : New Vegas Script Extender
@@ -1214,12 +1241,11 @@ BallanceMod.esp
 CGYH.esp
 Rise of the Machines.esp
 DeadlierExplosivesNV.esp
+EVE.esp
 EVE FNV.esp
 Fallout - New FPS (Medium).esp
 Fallout - New FPS (Extreme).esp
 Light My Flare.esp
-Playing With Firepower - New Vegas.esp
-: New Vegas Script Extender and Frequency.esm
 Realistic Health - Medium.esp
 Realistic Health - Extreme.esp
 Realistic Health - Maximum.esp
@@ -1239,11 +1265,6 @@ Project Nevada - Cyberware.esp
 BIS - Project Nevada - Cyberware.esp
 % {{BASH: Names}}
 : Project Nevada - Core.esm and Project Nevada - Cyberware.esp
-Project Nevada - Rebalance.esp
-: Project Nevada - Core.esm
-BIS - Project Nevada - Rebalance.esp
-% {{BASH: Names}}
-: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 Project Nevada - Dead Money.esp
 : DeadMoney.esm and Project Nevada - Core.esm
 " Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
@@ -1258,6 +1279,8 @@ Project Nevada - Dead Money SF + Honest Hearts Patch.esp
 : DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
 " Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp 
 ? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegasnexus.com/downloads/file.php?id=42363"
+Selective Fire - Project Nevada.esp
+: Selective Fire.esm and Project Nevada - Core.esm
 pnv.esp
 pnvhh.esp
 : HonestHearts.esm
@@ -1446,6 +1469,7 @@ ammoingredientsloot.esp
 ArenaAnySex.esp
 AutoLoot.esp
 : New Vegas Script Extender
+BankCard.esp
 BAN - Dupe This.esp
 BCL custom edition.esp
 Better Casinos.esp
@@ -1507,6 +1531,10 @@ FasterDialogZoom.esp
 FeelingIrradiated.esp
 FO1TAG.esp
 FNV_Easter_Eggs_Version_1.esp
+Frequency - Dead Money Patch.esp
+: Frequency.esm and DeadMoney.esm
+Frequency - Honest Hearts Compatbility Patch.esp
+: Frequency.esm and HonestHearts.esm
 Frequency - CFWNV Patch.esp
 : Frequency.esm and CFWNV.esm
 gambling.esp
@@ -1544,9 +1572,6 @@ Kobu's Primary Attribute Uncapper.esp
 less_aggressive_cazadores.esp
 Less Weight.esp
 " More Weight.esp
-Level Cap 100.esp
-levelcap45.esp
-levelcap46.esp
 LFox Infinite Companion Ammo Repair.esp
 LFox Infinite Companion Ammo.esp
 Lighter books.esp
@@ -1643,33 +1668,7 @@ Realistic Preorder-Mercenary.esp
 Realistic Preorder-Tribal.esp
 Realistic Wildlife.esp
 ReducedUndiscoveredCompass.esp
-Respawn12Hours.esp
-Respawn12HoursImproved.esp
-Respawn1Month.esp
-Respawn1MonthImproved.esp
-Respawn1Week.esp
-Respawn1WeekImproved.esp
-Respawn1Year.esp
-Respawn1YearImproved.esp
-Respawn24Hours.esp
-Respawn24HoursImproved.esp
-Respawn2Months.esp
-Respawn2MonthsImproved.esp
-Respawn2Weeks.esp
-Respawn2WeeksImproved.esp
-Respawn3Months.esp
-Respawn3MonthsImproved.esp
-Respawn48Hours.esp
-Respawn48HoursImproved.esp
-Respawn6Hours.esp
-Respawn6HoursImproved.esp
-Respawn6Months.esp
-Respawn6MonthsImproved.esp
-Respawn72HoursImproved.esp
-RespawnerImprovedEx.esp
-: Respawn Timer (Any Version)
 Respawning Containers.esp
-Respawn24HoursImprovedEx.esp
 Rustyhwys.esp
 RZW_VideoCollection01.esp
 : RZW_Television.esm
@@ -1687,19 +1686,12 @@ Selective Fire - AWOP.esp
 : AWorldOfPain(Preview).esm and Selective Fire.esm
 Selective Fire - Classic Fallout Weapons NV.esp
 : Selective Fire.esm and CFWNV.esm
-Selective Fire - Project Nevada.esp
-: Selective Fire.esm and Project Nevada - Core.esm
 SelectiveFire - retakrew7.esp
 : Selective Fire.esm
 Sex Try.esp
 Silver Rush inventory expansion.esp
 SleepHeath.esp
 Slightly More Hardcore Hardcore Mode.esp
-Slower Level Rates - x1.3.esp
-Slower Level Rates - x1.5.esp
-Slower Level Rates - x2.0.esp
-Slower Level Rates - x2.5.esp
-Slower Level Rates - x3.0.esp
 Solar's Bottled Water.esp
 Solar's Bottled Water - Bottlecaps.esp
 Sprint Mod.esp
@@ -1712,6 +1704,8 @@ Stocked38 .esp
 Tag Skills Improved.esp
 theHeroNV_1.1.esp
 Unique skill Magazines.esp
+VATSPerksNoMoreMain.esp
+VATSPerksNoMore.esp
 VisualDrugs.esp
 VMods.esp
 Weight8000.esp
@@ -1719,10 +1713,6 @@ weight50000.esp
 WMVM-DM.esp
 : WMVM.esm and DeadMoney.esm
 WurstBarberMachine.esp
-XP_Slower_125.esp
-XP_Slower_300.esp
-XP_Slower_Challenges.esp
-XP_Slower_NPCs.esp
 You take a sip from your trusty Vault 13 canteen.esp
 z_Fiends_2.esp
 \EndGroup\\
@@ -1872,6 +1862,8 @@ Selective Fire - Ahzteks Weapon Overhaul.esp
 AK47.esp
 AK47 with mods (Holosight).esp
 Alexscorpion's Custom AK103.esp
+A Load of Balls.esp
+: New Vegas Script Extender
 American Hammer Compact.esp
 AN-94 Select fire.esp
 : Caliber.esm
@@ -1912,6 +1904,7 @@ better that gun 44mag.esp
 Better Zoom.esp
 Bingles1handmelee.esp
 BinglesMelee.esp
+BinglesEnergyMelee.esp
 BoilingOil - Eli's Edge.esp
 Big Big Boomer.esp
 Binocs12fov.esp
@@ -1935,6 +1928,7 @@ Classic Pulse Grenade (classic sound).esp
 Classic Pulse Grenade (vanilla sound).esp
 % {{BASH: Graphics}}
 Classic YK42b Pulse Rifle.esp
+clintsfistfulrevolver.esp
 ColtM1911.esp
 ColtM1911NoAmmo.esp
 Devil'sMistressReturns.esp
@@ -1961,6 +1955,7 @@ DWUSP_V18.esp
 : Caliber.esm IF the optional .esp is installed.
 E-88 Plasma Rifle.esp
 EarlyWeapons.esp
+EasterFragHunt.esp
 EnergyBoost.esp
 % {{BASH: Stats}}
 EnergyWeaponDeNerf.esp
@@ -2017,6 +2012,7 @@ Kaya47NordicWeapons.esp
 KerberosPanzer.esp
 Kerberosweapons.esp
 LightSaber.esp
+ilbuonorevolver.esp
 lucky_bastard_rifle_v3.esp
 m110.esp
 : New Vegas Script Extender
@@ -2064,8 +2060,11 @@ PB-AR1.esp
 Pew Pew Pew Pew Pew Pew.esp
 photon.esp
 PK_Pulse_Pistol.esp
+Pipebombs.esp
 PlasmaRifleAwesomefied.esp
 % {{BASH: Sound, Stats}}
+Playing With Firepower - New Vegas.esp
+: New Vegas Script Extender and Frequency.esm
 P90Nana-set.esp
 R700.esp
 RAKatanasMod.esp
@@ -2074,6 +2073,7 @@ RHINO45-70MX_NV.esp
 RWIE Classic Pack.esp
 SAW M249.esp
 sawedoff.esp
+ScarabLaser.esp
 ShinohaiOuka.esp
 Shotgun Commando.esp
 % {{BASH: Stats}}
@@ -2085,6 +2085,8 @@ Six String Samurai Sword NV.esp
 SpookyJ's LngRng GRifle.esp
 SR-25.esp
 Stalker Weapons Pack.esp
+Survivalist Crossbow.esp
+Survivalist Crossbow-Custom.esp
 Survivalist Crossbow-Surv.esp
 Tactical Weapon Pack.esp
 that gun 556.esp
@@ -2131,6 +2133,8 @@ Advanced Recon Armor-Location Doc Mitchell.esp
 Advanced Recon Armor-No Stealth Field.esp
 Advanced Recon Armor-Predator Mode.esp
 Advanced Recon Armor-Stealth With Drawn Weapon.esp
+Advanced Recon Desert Ranger Helmet.esp
+: HonestHearts.esm
 Advanced Recon Range Finder.esp
 Advanced Recon Tech - Fiendish Power Armor.esp
 ? Merged into nVamp -Advanced Mod Project. Do not use both at the same time.
@@ -2158,6 +2162,7 @@ BodyJewelry.esp
 Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
 BOAt51b.esp
+boa ncrpahelmet.esp
 bzArmour.esp
 bzBodySuits.esp
 Cat Outfits Vegas.esp
@@ -2259,7 +2264,11 @@ Kaya47NordicGear.esp
 KerberosPanzer-AdvancedReconGear.esp
 KerberosPanzer-power armor.esp
 KerberosPanzer-lower dt.esp
+LDFemalePowerArmorPack.esp
+: LDFemalePowerArmorPack.esm
 LDTribalPowerArmor.esp
+LeatherBackpack - eng.esp
+Leather backpack - rus.esp
 Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
 LegionNCRnonfaction.esp
@@ -2270,6 +2279,8 @@ LUCSA.esp
 MadGear.esp
 Mantis07Reflex - Realism.esp
 Mantis07Reflex.esp
+manwithnoname.esp
+MercCharmerClean.esp
 Military NV Backpacks - Blank's Container Patch.esp
 Military NV Backpacks - BumBagUseSlot1.esp
 Military NV Backpacks - No Straps.esp
@@ -2532,6 +2543,12 @@ Comp_Idles_NV.esp
 EnclaveCommander.esp
 EZ_VanillaFollowers.esp
 Follower Home Marker.esp
+FollowersPlayCaravan.esp
+FollowersUnholster2.esp
+FollowersUnholster2_DM.esp
+: DeadMoney.esm
+FollowersUnholster2_HH.esp
+: HonestHearts.esm
 GARU.esp
 HJLCompanionsv103.esp
 ImprovedCompanions.esp
@@ -2566,6 +2583,7 @@ Raul Repairs Everywhere.esp
 Raul Repairs Everywhere - Free Repair.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
+RHKCompanionCure.esp
 RWKNV.esp
 SecuritronCompanion.esp
 SunnyCompanion.esp
@@ -2702,15 +2720,60 @@ RWD-NV v1.3 [Alternative Version].esp
 RWD-NV v1.3 [NoLimbsExplosions].esp
 RWD-NV v1.3 [Standard Version].esp
 RWD-NV v1.4 [Standard Version].esp 
+RWD-NellisArtillery Fix 1.0.esp
 RWD-Realistic Dismemberment 1.0.esp
 vatsbuff.esp
 vatsbuff2x.esp
+LevelCap100.esp
+Level Cap 100.esp
+levelcap45.esp
+levelcap46.esp
+Max Level 50.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 60.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 75.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 100.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+Max Level 255.esp
+: New Vegas Script Extender
+" Other mods that change the max level.
+SlowMinded.esp
+Slower Level Rates - x1.3.esp
+Slower Level Rates - x1.5.esp
+Slower Level Rates - x2.0.esp
+Slower Level Rates - x2.5.esp
+Slower Level Rates - x3.0.esp
+XP_Slower_125.esp
+XP_Slower_300.esp
+XP_Slower_Challenges.esp
+XP_Slower_NPCs.esp
+Brighter PipBoy.esp
+BrighterPipboyLight.esp
+Colored Piplight - White.esp
+PipBoyLightx1.5.esp
+PipBoyLightx2.esp
+PipBoyLight.esp
+pipboyx2.esp
+pipboyx3.esp
+pipboyx4.esp
+pipboyx5.esp
+pipboyx6.esp
+Piplight Brightness - 200%.esp
+Piplight Brightness - 300%.esp
+Piplight Brightness - 400%.esp
+Piplight Brightness - 500%.esp
+AllTargetable.esp
 Bodypart Data Mod - Harsher Version.esp
 BetterHeadshots.esp
 BetterScopesModStandalone.esp
 BlurKillerDM.esp
 : DeadMoney.esm
-Brighter PipBoy.esp
 Bullet Impact Increased LOD.esp
 Burning CampFire.esp
 Cateye.esp
@@ -2736,6 +2799,8 @@ Delay DLC - Dead Money.esp
 Delay DLC - Honest Hearts.esp
 : HonestHearts.esm
 DM-NoLvlMsg.esp
+: DeadMoney.esm
+Dead Money - Automatic Rifle fix.esp
 : DeadMoney.esm
 Dead Money - No Collar Explosion and No Poison Cloud.esp
 : DeadMoney.esm
@@ -2773,6 +2838,7 @@ Half_Sneak_Attack.esp
 Head Mounted Flashlight.esp
 : FlashlightNV-LOS.esp
 FONV - Real Time Lockpicking and Hacking.esp
+FreakinLaserBeams_1_1.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
@@ -2800,13 +2866,14 @@ ImprovedImplantRegen.esp
 Increasedcarryweight.esp
 Increasedcarryweight2.esp
 insta-hacker.esp
+Invisibility for No Reputation.esp
+: New Vegas Script Extender
 Jump Fall Fixer.esp
 JumpNFall.esp
 KillingKarmaFix.esp
 LakelurkMeatDropFix.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
-LevelCap100.esp
 Leveled Lists Fix.esp
 Lever Rifle fire rate slow.esp
 lexx-no-dialog-tags-Deutsch.esp
@@ -2825,22 +2892,9 @@ Loot the paralyzed.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
 Master of Throwing.esp
-Max Level 50.esp
-: New Vegas Script Extender
-" Other mods that change the max level.
-Max Level 60.esp
-: New Vegas Script Extender
-" Other mods that change the max level.
-Max Level 75.esp
-: New Vegas Script Extender
-" Other mods that change the max level.
-Max Level 100.esp
-: New Vegas Script Extender
-" Other mods that change the max level.
-Max Level 255.esp
-: New Vegas Script Extender
-" Other mods that change the max level.
 Melee Lock-On.esp
+Meltdown Medley.esp
+: Frequency.esm
 Moddable Unique Weps.esp
 " Moddable Unique Weps.esm
 Modified Combat Values v2.esp
@@ -2879,22 +2933,40 @@ NVReplayabilityByDandysV1.5000.esp
 NVReplayabilityByDandysV1.600.esp
 NVReplayabilityByDandysV1.700.esp
 Packless Heavy Weapons.esp
-PipBoyLightx1.5.esp
-PipBoyLightx2.esp
-PipBoyLight.esp
-pipboyx2.esp
-pipboyx3.esp
-pipboyx4.esp
-pipboyx5.esp
-pipboyx6.esp
 Project Nevada - FPSWeaponWheel.esp
 : Project Nevada - Core.esm and FNVToolkit.esm
-Colored Piplight - White.esp
-Piplight Brightness - 200%.esp
-Piplight Brightness - 300%.esp
-Piplight Brightness - 400%.esp
-Piplight Brightness - 500%.esp
+Project Nevada - Rebalance.esp
+: Project Nevada - Core.esm
+BIS - Project Nevada - Rebalance.esp
+% {{BASH: Names}}
+: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 Perception_And_Vats_Accuracy.esp
+Respawn12Hours.esp
+Respawn12HoursImproved.esp
+Respawn1Month.esp
+Respawn1MonthImproved.esp
+Respawn1Week.esp
+Respawn1WeekImproved.esp
+Respawn1Year.esp
+Respawn1YearImproved.esp
+Respawn24Hours.esp
+Respawn24HoursImproved.esp
+Respawn2Months.esp
+Respawn2MonthsImproved.esp
+Respawn2Weeks.esp
+Respawn2WeeksImproved.esp
+Respawn3Months.esp
+Respawn3MonthsImproved.esp
+Respawn48Hours.esp
+Respawn48HoursImproved.esp
+Respawn6Hours.esp
+Respawn6HoursImproved.esp
+Respawn6Months.esp
+Respawn6MonthsImproved.esp
+Respawn72HoursImproved.esp
+RespawnerImprovedEx.esp
+: Respawn Timer (Any Version)
+Respawn24HoursImprovedEx.esp
 Quest Items - Non-Essential and Categorised.esp
 QuickHacking-NV.esp
 Quicker PipBoy Light-0_2Sec.esp
@@ -2938,9 +3010,13 @@ Sensible Dismemberment.esp
 SneakingCrosshair.esp
 SPECIALer.esp
 SporePlantPods.esp
+SubtitlesHotkeyNV.esp
+: New Vegas Script Extender
 TimeTravel.esp
 ThrowMine.esp
 Toggle Quest Object.esp
+Trackable Blood and Footprints.esp
+TWO BEARS HIGHFIVING.esp
 tyfasterwalk.esp
 tyfasterwalk-FR.esp
 tyfasterwalk-FR-N2HRP.esp
@@ -3140,6 +3216,8 @@ Mod Loot - 2. Reasonably Rare (WME).esp
 : Weapon Mod Expansion.esm
 NV Scopes WME Compability.esp
 : Weapon Mod expansion.esm
+WME - AWOP.esp 
+: Weapon Mod Expansion.esm and AWorldOfPain(Preview).esm
 WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
 WME - WorldofPain.esp
@@ -3174,6 +3252,8 @@ WME - Honest Hearts Arenovalis.esp
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 BIS - WME - Honest Hearts Arenovalis Retex.esp
 % {{BASH: Names}}
+: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+WME - Ironsights - HH.esp 
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - FOOK DLCs.esp
 : DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, FOOK - New Vegas DLCs.esm, Weapon Mod Expansion.esm, WME - Dead Money.esm, and WME - Honest Hearts.esm
@@ -3274,6 +3354,8 @@ NV GameStabilizerA5F.esp
 NV GameStabilizerA6.esp
 % {{BASH: NoMerge}}
 NV GameStabilizerA7.esp
+% {{BASH: NoMerge}}
+NV GameStabilizerA7b.esp
 % {{BASH: NoMerge}}
 \EndGroup\\
 
@@ -3413,6 +3495,7 @@ DYNAVISION 2 - Dynamic Lens Effect.esp
 " Field Depth.esp
 Field Depth.esp
 " DYNAVISION - Dynamic Lens Effect.esp
+HardcoreFourEyes.esp
 CombatModeNV.esp
 DehydrationEffectNV.esp
 HungerEffectNV.esp
@@ -3569,6 +3652,7 @@ AFricanAmericanAAlbino.esp
 BMDD's All Races Playable V2.esp
 DK Caucasians.esp
 : Lings.esm IF you're using the Lings Compatible mod.
+MoonShadowRace.esp
 T3BBN Old Women.esp
 tkEyelashesFNV.esp
 " conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
