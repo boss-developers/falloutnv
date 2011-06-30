@@ -2154,6 +2154,7 @@ Armored PA Gloves.esp
 ArmyCapDesert.esp
 ArmyCapWoodlandDigi.esp
 AsharasLightningItems_ForNV.esp
+AsukaArmorMkiV.esp
 ATT LeatherJacket.esp
 ATT SamusZero.esp
 Armored Duster.esp
@@ -2314,6 +2315,7 @@ NVLadyoutfitXOH.esp
 NVRefugee Outfits.esp
 NvTacticalVests.esp
 NWghostbodysuit.esp
+NWIxiaarmor1.esp
 Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
 Persona_and_Secret.esp
@@ -2371,6 +2373,7 @@ Toni Outfits.esp
 TheArmorer.esp
 Thermoptic Power Helmets.esp
 Transladatum - E.esp
+TSoutfitv1.esp
 TumbaJamba Tactical Gear.esp
 TUPAM-NV.esp
 Type3 Leather Armors.esp
