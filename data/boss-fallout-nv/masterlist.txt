@@ -244,6 +244,7 @@ Herculine's NCCS Companions Volume 1.esm
 : Lings.esm
 Shojo Race Vegas.esm
 : Lings.esm
+AngelicaRace.esm
 \EndGroup\\
 
 \BeginGroup\: Earliest
@@ -729,6 +730,7 @@ IncreasedLegion1_1.esp
 Isolated Camp.esp
 Lucky 38 Suite Expansion.esp
 Lucky 38 Suite Expansion Bed Option.esp
+Lucky38.esp
 Lucky38SuiteRemodel.esp
 Bobblehunt - Lucky 38 Expantion Compatible.esp
 LargeGoodspringsPlayerHome.esp
@@ -1857,6 +1859,7 @@ Ahzteks Weapon Overhaul NO xCALIBER.esp
 Ahzteks Impact Data (Optional).esp
 Ahzteks Muzzle Flashes (Optional).esp
 Ahzteks Pistol and SMG Replacements.esp
+% {{BASH: Names, Graphics, Sound, Stats, WeaponMods}}
 Selective Fire - Ahzteks Weapon Overhaul.esp
 : Selective Fire.esm AND Ahzteks Weapon Overhaul.esp
 AK47.esp
@@ -2164,6 +2167,7 @@ Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
 BOAt51b.esp
 boa ncrpahelmet.esp
+BSCollection.esp
 bzArmour.esp
 bzBodySuits.esp
 Cat Outfits Vegas.esp
@@ -2274,6 +2278,7 @@ Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
 LegionNCRnonfaction.esp
 LFox Invisible Armored Vests.esp
+LNC StealthSuit NV.esp
 Lucky Lighter.esp
 lucky Shades.esp
 LUCSA.esp
@@ -2442,6 +2447,7 @@ Caesars_Legion_Overhaul.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
+Improved_Karma.esp
 LogicalReputationShifts.esp
 PrimmReputation.esp
 Mercy Killing Karma.esp
@@ -2479,6 +2485,10 @@ Companion Module Pack.esp
 ? You will have to remove any mods that you have that are included in the pack to avoid issues.
 Cassidy0.4E.esp
 Veronica0.6E.esp
+Angelica.esp
+: AngelicaRace.esm
+AngelicaCassVeronica.esp
+: AngelicaRace.esm
 A Present For Boone.esp
 AllCompanionsEssential.esp
 AllCompanionsEssential 2.0.esp
