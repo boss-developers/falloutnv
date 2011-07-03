@@ -44,7 +44,7 @@ FalloutNV.esm
 DeadMoney.esm
 HonestHearts.esm
 Community Bugfix Compilation Patch.esm
-% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
+% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 CBC Dead Money Patch.esm
 : DeadMoney.esm
 AmmoSpreadEffectFixer.esm
@@ -162,6 +162,7 @@ IWS-Core.esm
 % {{BASH: Delev, Relev}}
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
+% {{BASH: Invent}}
 AWorldOfPain(LowLoot).esm
 ? Outdated. Consider using the latest version along with the low loot patches instead.
 EZ_CompanionNVSE.esm
@@ -185,6 +186,7 @@ ELECTRO-CITY - CompletedWorkorders.esm
 ELECTRO-CITY - Highways and Byways.esm
 CINEMATECH.esm
 Caliber.esm
+% {{BASH: Invent}}
 CFWNV.esm
 Weapon Mod Expansion.esm
 % {{BASH: Names}}
@@ -255,7 +257,7 @@ AngelicaRace.esm
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
 Community Bugfix Compilation Patch.esp
-% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
+% {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 " Compiled Patch.esp
 CBC Dead Money Patch.esp
 : DeadMoney.esm
@@ -1260,7 +1262,7 @@ BIS - Project Nevada - Core.esp
 % {{BASH: Names}}
 : Project Nevada - Core.esm
 BIS - Project Nevada - Equipment.esp
-% {{BASH: Names}}
+% {{BASH: Names, BASH: Invent}}
 : Project Nevada - Core.esm and Project Nevada - Equipment.esm
 Project Nevada - Cyberware.esp
 : Project Nevada - Core.esm
@@ -2261,6 +2263,7 @@ iL-Camouflage Ghost Bodysuit.esp
 ImprovedGeckoLeatherArmor.esp
 JillBSAA.esp
 JillBSAA Multicolor.esp
+% {{BASH: Invent}}
 : Type 3 Body Replacer
 Journeyman Armor.esp
 JRougeRangerCoats4Loot.esp
@@ -2430,9 +2433,11 @@ AWOP-BOEWeaponPatch.esp
 AWOPCFWWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND CFWNV.esm
 AWOPCaliberXAmmoPatch.esp
+% {{BASH: Invent}}
 " AWOPCaliberXAmmoPatchLOW.esp
 : AWorldOfPain(Preview).esm AND Caliber.esm
 AWOPCaliberXAmmoPatchLOW.esp
+% {{BASH: Invent}}
 " AWOPCaliberXAmmoPatch.esp
 : AWorldOfPain(Preview).esm AND Caliber.esm
 AWOPLowLootGeneral.esp
@@ -3066,6 +3071,7 @@ XS Skill Training.esp
 \BeginGroup\: Weapon Mods Expanded or WMX
 \-----------
 WeaponModsExpanded.esp
+% {{BASH: Invent}}
 " RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 WMX - Sorted.esp
 ? Merged into the main mod; No longer required.
@@ -3125,12 +3131,14 @@ WMX-VarmintRifle22LR.esp
 nVamp - Weapon Mods Expanded.esp
 : WeaponModsExpanded.esp
 WMX-ModernWeapons.esp
+% {{BASH: Invent}}
 : AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
 ACS-WMXModernWeapons.esp
 : AmmoCraftingSchematics.esp, WeaponModsExpanded.esp, and WMX-ModernWeapons.esp
 BIS - WMX-ModernWeapons.esp
 : BIS - Brumbek's Inventory Sorting.esp and WeaponModsExpanded.esp
 WMX-DeadMoney.esp
+% {{BASH: Invent}}
 : WeaponModsExpanded.esp and DeadMoney.esm
 BIS - WMX-DeadMoney.esp
 : DeadMoney.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
@@ -3140,6 +3148,7 @@ Real Weapon Names - WMX - Dead Money.esp
 % {{BASH: Names}}
 : DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 WMX-HonestHearts.esp
+% {{BASH: Invent}}
 : HonestHearts.esm, WeaponModsExpanded.esp and HonestHearts.esm
 BIS - WMX-HonestHearts.esp
 : HonestHearts.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-HonestHearts.esp
