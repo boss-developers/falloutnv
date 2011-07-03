@@ -5,13 +5,13 @@
 \
 \  * Use blank lines to separate mods that are grouped together or where it helps readability.
 \  * Use silent comments when you think something needs clarification to others reading the masterlist (such as when a mod looks like it is misspelled, but is correct).
-\  * Only make edits/additions you're confident about - otherwise discuss the issue on the official forum threads. 
+\  * Only make edits/additions you're confident about - otherwise discuss the issue on the official forum threads.
 \  * If you're unsure on how to write something in the correct syntax, check the masterlists for examples, and don't be afraid to ask other committers for help.
 \  * When you include a web link in a message, enclose it in double quotes "", for example: www.example.org should be written "www.example.org".
 \  * When you list Bash Tags for a mod, separate them using ", " and not just ",". Eg. {{BASH: Graphics,NoMerge}} should be written {{BASH: Graphics, NoMerge}}. This improves readability in the BOSSlog and the masterlist itself.
 \  * Don't include any HTML formatting in messages. In particular, web links do not need to be formatted as HTML hyperlinks, as BOSS will do this automatically.
 \  * Don't duplicate lines using different syntaxes. A line only needs to be written in one syntax.
-\  * As the majority of BOSS users use versions that only support MF1, write in that where possible. 
+\  * As the majority of BOSS users use versions that only support MF1, write in that where possible.
 \
 \ Comment Type                      Symbol      Description
 \ =====================================================================
@@ -31,7 +31,7 @@
 \ nVamp-installed line			>		Only parses the line if nVamp is installed.
 \ nVamp-not-installed line		<		Only parses the line if nVamp is not installed.
 \
-\ Conditionals can be put before any mod or message line, and the line will only be processed if the conditional is true. 
+\ Conditionals can be put before any mod or message line, and the line will only be processed if the conditional is true.
 \ The critical nVamp install error message type already includes the nVamp-specific conditional, so you don't need to add another.
 
 \ Masterlist variable setup for BOSS v1.7+.
@@ -78,7 +78,7 @@ Active Wasteland.esm
 AccuRifles.esm
 : NVSE
 Advanced Recon Tech.esm
-AEVegas.esm 
+AEVegas.esm
 Alice Armor.esm
 BinocularsOverhaul.esm
 CALIBR.esm
@@ -702,7 +702,7 @@ FalloutShelter-nogear-v1-45.esp
 FF_Entry_Fix.esp
 : Frys_Freehold.esm
 FNV - ShopHome.esp
-Freeside Fine Living.esp 
+Freeside Fine Living.esp
 Freeside NCR Guard Post - Revamp.esp
 Freesidehome.esp
 Gomorrah3rdFloor.esp
@@ -739,7 +739,7 @@ LargeGoodspringsPlayerHome.esp
 Laurens_Bathroom_poetry.esp
 Liberty Loft.esp
 McFlyFarm.esp
-MojaveUnderground.esp 
+MojaveUnderground.esp
 My Goodsprings Home.esp
 Mojave Outpost - Revamp.esp
 NCR Embassy-Revamp.esp
@@ -772,7 +772,7 @@ return_deadmoney.esp
 PoseidonResearchFacility.esp
 RedRockRanch.esp
 RustTownV1-1.esp
-s7oMolesWell.esp 
+s7oMolesWell.esp
 SadiesSundries.esp
 Schoolhouse Base.esp
 SDs Lucky 38 Suite Trophies.esp
@@ -788,6 +788,7 @@ sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
 SLA_02a_fort.esp
 SecretHideout-v1.21.esp
+ssstudio.esp
 TAC-SHOP.esp
 The New Bison Steve Hotel.esp
 vegassuburbshome.esp
@@ -1272,16 +1273,16 @@ BIS - Project Nevada - Cyberware.esp
 Project Nevada - Dead Money.esp
 : DeadMoney.esm and Project Nevada - Core.esm
 " Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
-Project Nevada - Honest Hearts.esp 
+Project Nevada - Honest Hearts.esp
 : HonestHearts.esm and Project Nevada - Core.esm
 " Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
 Project Nevada - Dead Money + Honest Heart Patch.esp
 : DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
-" Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp 
+" Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp
 ? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegasnexus.com/downloads/file.php?id=42363"
 Project Nevada - Dead Money SF + Honest Hearts Patch.esp
 : DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
-" Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp 
+" Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp
 ? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegasnexus.com/downloads/file.php?id=42363"
 Selective Fire - Project Nevada.esp
 : Selective Fire.esm and Project Nevada - Core.esm
@@ -1918,7 +1919,7 @@ Boomers - T-57c PA.esp
 c4nuke.esp
 Camon AKS 47 Black Hidden Valley Bunker.esp
 Camon Bren (Hidden Supply Cave).esp
-Camon MG42 and SS Outfit.esp 
+Camon MG42 and SS Outfit.esp
 Caravan Pack Durability.esp
 CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
@@ -2737,7 +2738,7 @@ RWD-NV v1.3 [Alternative Version] [NoLimbsExplosions].esp
 RWD-NV v1.3 [Alternative Version].esp
 RWD-NV v1.3 [NoLimbsExplosions].esp
 RWD-NV v1.3 [Standard Version].esp
-RWD-NV v1.4 [Standard Version].esp 
+RWD-NV v1.4 [Standard Version].esp
 RWD-NellisArtillery Fix 1.0.esp
 RWD-Realistic Dismemberment 1.0.esp
 vatsbuff.esp
@@ -2836,7 +2837,7 @@ Easy Unlocking and Easy Hacking.esp
 Easy Unlocking and Guaranteed Pick Pocket.esp
 Easy Unlocking.esp
 Endurance_And_Health_Overhaul_Low.esp
-Euclid Tweak.esp 
+Euclid Tweak.esp
 ExtraSPECIAL.esp
 Ez0n3_ArmorNoMovePenalty.esp
 FalloutNVQuickMessages.esp
@@ -3065,7 +3066,7 @@ WeightChanges.esp
 XIII + J3X's Flesh Burnificating Plasma.esp
 XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
-XS Skill Training.esp 
+XS Skill Training.esp
 \EndGroup\\
 
 \BeginGroup\: Weapon Mods Expanded or WMX
@@ -3157,7 +3158,7 @@ Improved Sound FX - WMX - HH Sharing Fix.esp
 WMX-ArenovalisTextures.esp
 : WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
 WMX-FOOKNV-DLCs CP.esp
-: DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp  
+: DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp
 WMX-PreOrderPackCaravan.esp
 : CaravanPack.esm and WeaponModsExpanded.esp
 BIS - WMX-PreOrderPackCaravan.esp
@@ -3238,7 +3239,7 @@ Mod Loot - 2. Reasonably Rare (WME).esp
 : Weapon Mod Expansion.esm
 NV Scopes WME Compability.esp
 : Weapon Mod expansion.esm
-WME - AWOP.esp 
+WME - AWOP.esp
 : Weapon Mod Expansion.esm and AWorldOfPain(Preview).esm
 WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
@@ -3275,7 +3276,7 @@ WME - Honest Hearts Arenovalis.esp
 BIS - WME - Honest Hearts Arenovalis Retex.esp
 % {{BASH: Names}}
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
-WME - Ironsights - HH.esp 
+WME - Ironsights - HH.esp
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - FOOK DLCs.esp
 : DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, FOOK - New Vegas DLCs.esm, Weapon Mod Expansion.esm, WME - Dead Money.esm, and WME - Honest Hearts.esm
