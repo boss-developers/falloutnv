@@ -3666,6 +3666,7 @@ FewPosesMore NVedition.esp
 7DanceFnV.esp
 Animation Tool.esp
 The Groovatron.esp
+The Groovatron NV.esp
 \EndGroup\\
 
 \BeginGroup\: Beauty Packs & Race Addons
