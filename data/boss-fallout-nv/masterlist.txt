@@ -162,7 +162,7 @@ IWS-Core.esm
 % {{BASH: Delev, Relev}}
 Tales from the Burning Sands.esm
 AWorldOfPain(Preview).esm
-% {{BASH: Invent}}
+% {{BASH: Invent,Deflst}}
 AWorldOfPain(LowLoot).esm
 ? Outdated. Consider using the latest version along with the low loot patches instead.
 EZ_CompanionNVSE.esm
@@ -1009,28 +1009,28 @@ NEVAX - BEAUTYPACK.esp
 NEVAX - DUNKLE NAECHTE.esp
 NEVAX - EINSTELLUNGSTERMINALS.esp
 NEVAX - FUNDE.esp
-% {{BASH: DefLst, Relev}}
+% {{BASH: Deflst, Relev}}
 NEVAX - HomeSweetHome.esp
 NEVAX - ITEMBALANCINGS.esp
 % {{BASH: Stats}}
 NEVAX - KAUFINHALTE.esp
-% {{BASH: DefLst, Invent, Relev}}
+% {{BASH: Deflst, Invent, Relev}}
 NEVAX - MEHR MONSTER.esp
 % {{BASH: Relev, Scripts}}
 NEVAX - MONSTER.esp
-% {{BASH: DefLst, Relev}}
+% {{BASH: Deflst, Relev}}
 NEVAX - MUNITIONSBEZEICHNUNGEN.esp
 NEVAX - NPC BALANCING.esp
-% {{BASH: DefLst, Relev, Scripts}}
+% {{BASH: Deflst, Relev, Scripts}}
 NEVAX - PERKS SKILLS.esp
 NEVAX - PERKS.esp
 NEVAX - RAIDER u NPC.esp
-% {{BASH: DefLst, Relev, Scripts}}
+% {{BASH: Deflst, Relev, Scripts}}
 NEVAX - RUESTUNGEN.esp
-% {{BASH: DefLst, Relev}}
+% {{BASH: Deflst, Relev}}
 NEVAX - TOEDLICHERE PROJEKTILE.esp
 NEVAX - WAFFEN.esp
-% {{BASH: DefLst, Relev}}
+% {{BASH: Deflst, Relev}}
 NEVAX - WENIGER GEGENSTAENDE.esp
 NEVAX - WENIGER MUNITION.esp
 \EndGroup\\
@@ -1855,6 +1855,7 @@ Selective Fire - Ahzteks NV Weapon Overhaul.esp
 : Selective Fire.esm AND Ahzteks Weapon Replacements.esp
 ? Outdated. Consider Updating.
 Ahzteks Weapon Overhaul.esp
+% {{BASH: Deflst}}
 : Caliber.esm
 " Ahzteks Weapon Overhaul NO xCALIBER.esp
 Ahzteks Weapon Overhaul NO xCALIBER.esp
@@ -2153,6 +2154,7 @@ Alice Armor.esp
 Alice Murray Outfit.esp
 AliceRace.esp
 AliceOutfits.esp
+Altanative.esp
 Amy_Armor.esp
 Amazon Armor.esp
 Armored PA Gloves.esp
@@ -3072,7 +3074,7 @@ XS Skill Training.esp
 \BeginGroup\: Weapon Mods Expanded or WMX
 \-----------
 WeaponModsExpanded.esp
-% {{BASH: Invent}}
+% {{BASH: Invent, Delev, WeaponMods}}
 " RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
 WMX - Sorted.esp
 ? Merged into the main mod; No longer required.
@@ -3103,6 +3105,9 @@ WMX-ShotgunCommando.esp
 WMX-Arwen_NV_Realism.esp
 : WeaponModsExpanded.esp and Arwen_NV_Realism_Core.esp
 " WMX-ShotgunCommando.esp
+Project Nevada - WMX.esp
+% {{BASH: Graphics, Invent, Names, WeaponMods}}
+: WeaponModsExpanded.esp and Project Neavda - Core.esm and Project Nevada - Equipment.esm
 WMR_WMX_A.esp
 : WeaponModsExpanded.esp
 WMR_WMX_R.esp
