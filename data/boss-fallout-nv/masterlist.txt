@@ -1318,7 +1318,6 @@ CGYH.esp
 Rise of the Machines.esp
 DeadlierExplosivesNV.esp
 EVE.esp
-EVE FNV.esp
 Fallout - New FPS (Medium).esp
 Fallout - New FPS (Extreme).esp
 Light My Flare.esp
