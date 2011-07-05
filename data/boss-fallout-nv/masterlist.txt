@@ -198,6 +198,7 @@ TAC-SHOP.esm
 TalonPack.esm
 < Tales from the Burning Sands.esm
 Thermal Vision.esm
+< The Roost.esm
 VMods - Master.esm
 War Never Changes.esm
 WARZONES - Misanthropy Pure.esm
