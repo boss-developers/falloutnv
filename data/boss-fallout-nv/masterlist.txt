@@ -56,11 +56,11 @@ ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
-< Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
+<Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 <% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
-< Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
+<Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
 <% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
-< Machienzo - NPC Cosmetic Fixes.esm
+<Machienzo - NPC Cosmetic Fixes.esm
 <% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 Ambient Temperature.esm
 AmmoSpreadEffectFixer.esm
@@ -71,7 +71,7 @@ Companion Core.esm
 IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
 ? Does the same thing as OWNB - Open World.esm; Use one or the other.
-< IWS-Core.esm
+<IWS-Core.esm
 <% {{BASH: Delev, Relev}}
 <? Loaded early to let other mods override spawn points if needed.
 NosCo Companion System.esm
@@ -94,22 +94,22 @@ AccuRifles.esm
 Advanced Recon Tech.esm
 AEVegas.esm
 Alice Armor.esm
-< AWorldOfPain(Preview).esm
+<AWorldOfPain(Preview).esm
 <% {{BASH: Invent,Deflst}}
-< AWorldOfPain(LowLoot).esm
+<AWorldOfPain(LowLoot).esm
 <? Outdated. Consider using the latest version along with the low loot patches instead.
 BinocularsOverhaul.esm
-< BoulderCityFaceliftProject.esm
+<BoulderCityFaceliftProject.esm
 CALIBR.esm
-< Caliber.esm
+<Caliber.esm
 <% {{BASH: Invent}}
-< HonestHearts-CaliberX.esm
+<HonestHearts-CaliberX.esm
 <: HonestHearts.esm
-< CFWNV.esm
-< CFWNV-DLC.esm
+<CFWNV.esm
+<CFWNV-DLC.esm
 <: DeadMoney.esm and HonestHearts.esm
 CHEMS.esm
-< CINEMATECH.esm
+<CINEMATECH.esm
 <: New Vegas Script Extender and The Mod Configuration Menu for Version 1.5+
 CompanionInfAmmo.esm
 Companion Share & Recruit.esm
@@ -117,7 +117,7 @@ Companion Share & Recruit.esm
 Corvega.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
-< dangame.esm
+<dangame.esm
 decwithreg.esm
 Decrucifixion.esm
 Detect Traps.esm
@@ -127,16 +127,16 @@ Eve.esm
 IF (A4084FA6|"Eve.esm") SAY: Recommended that you upgrade to the official EVE FNV mod.
 IFNOT (A4084FA6|"Eve.esm") REQ: RRCompanionVault.esm
 EVE-900.esm
-< EZ_CompanionNVSE.esm
-< EZ_CompanionNVSE_Killable_Normal.esm
+<EZ_CompanionNVSE.esm
+<EZ_CompanionNVSE_Killable_Normal.esm
 <? Old
-< EZ_Face_TEMPLATE.esm
+<EZ_Face_TEMPLATE.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
-< FOOK - New Vegas.esm
+<FOOK - New Vegas.esm
 <% {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
-< FOOK - New Vegas DLCs.esm
+<FOOK - New Vegas DLCs.esm
 <: DeadMoney.esm and HonestHearts.esm
 Frequency.esm
 Frys_Freehold.esm
@@ -151,7 +151,7 @@ LDFemalePowerArmorPack.esm
 Lucky38Suite_Reloaded.esm
 LW Companion.esm
 ? The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
-< Mo'.esm
+<Mo'.esm
 <: Caliber.esm and NVSE Version 1 Beta 6 or newer.
 Military Explansion Program.esm
 Military NV Backpacks.esm
@@ -159,17 +159,17 @@ M.M.A.T - Core Module.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
-< MoMod.esm
+<MoMod.esm
 <% {{BASH: Relev}}
 <" monsterrach.esp
-< More Perks.esm
-< More Perks for Companions.esm
-< More Perks for Dead Money.esm
+<More Perks.esm
+<More Perks for Companions.esm
+<More Perks for Dead Money.esm
 <: DeadMoney.esm and More Perks.esm
-< More Perks for Honest Hearts.esm
+<More Perks for Honest Hearts.esm
 <: HonestHearts.esm and More Perks.esm
-< More Traits.esm
-< More Challenges.esm
+<More Traits.esm
+<More Challenges.esm
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
 NVR - Extra Actions Lib.esm
@@ -178,9 +178,9 @@ NVR-Strip.esm
 PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
-< Project Nevada - Core.esm
+<Project Nevada - Core.esm
 <: New Vegas Script Extender
-< Project Nevada - Equipment.esm
+<Project Nevada - Equipment.esm
 <: New Vegas Script Extender and Project Nevada - Core.esm
 ReactivePeople.esm
 rePopulated Wasteland.esm
@@ -199,70 +199,70 @@ SunnyCompanion.esm
 ? Outdated. Consider Updating.
 TAC-SHOP.esm
 TalonPack.esm
-< Tales from the Burning Sands.esm
+<Tales from the Burning Sands.esm
 Thermal Vision.esm
-< The Roost.esm
+<The Roost.esm
 VMods - Master.esm
 War Never Changes.esm
 WARZONES - Misanthropy Pure.esm
-< Weapon Mod Expansion.esm
+<Weapon Mod Expansion.esm
 <% {{BASH: Names}}
-< WME - Dead Money.esm
+<WME - Dead Money.esm
 <: DeadMoney.esm and Weapon Mod Expansion.esm
-< WME - Honest Hearts.esm
+<WME - Honest Hearts.esm
 <: HonestHearts.esm and Weapon Mod Expansion.esm
 WMVM.esm
 wsex.esm
-< ELECTRO-CITY - CompletedWorkorders.esm
-< ELECTRO-CITY - Highways and Byways.esm
+<ELECTRO-CITY - CompletedWorkorders.esm
+<ELECTRO-CITY - Highways and Byways.esm
 aHUD.esm
 : New Vegas Script Extender
-< iHUD.esm
+<iHUD.esm
 <: New Vegas Script Extender
 \ nVamp stuff
-> Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
+>Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 >% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
-> Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
+>Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
 >% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
-> Machienzo - NPC Cosmetic Fixes.esm
+>Machienzo - NPC Cosmetic Fixes.esm
 >% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
-> IWS-Core.esm
+>IWS-Core.esm
 >% {{BASH: Delev, Relev}}
-> Tales from the Burning Sands.esm
-> AWorldOfPain(Preview).esm
+>Tales from the Burning Sands.esm
+>AWorldOfPain(Preview).esm
 >% {{BASH: Invent,Deflst}}
-> AWorldOfPain(LowLoot).esm
+>AWorldOfPain(LowLoot).esm
 >? Outdated. Consider using the latest version along with the low loot patches instead.
-> EZ_CompanionNVSE.esm
-> EZ_CompanionNVSE_Killable_Normal.esm
+>EZ_CompanionNVSE.esm
+>EZ_CompanionNVSE_Killable_Normal.esm
 >? Old
-> EZ_Face_TEMPLATE.esm
-> OutfitsReColorNVMaster.esm
-> More Perks.esm
-> More Perks for Companions.esm
-> More Perks for Dead Money.esm
+>EZ_Face_TEMPLATE.esm
+>OutfitsReColorNVMaster.esm
+>More Perks.esm
+>More Perks for Companions.esm
+>More Perks for Dead Money.esm
 >: DeadMoney.esm and More Perks.esm
-> More Perks for Honest Hearts.esm
+>More Perks for Honest Hearts.esm
 >: HonestHearts.esm and More Perks.esm
-> More Traits.esm
-> More Challenges.esm
-> Project Nevada - Core.esm
+>More Traits.esm
+>More Challenges.esm
+>Project Nevada - Core.esm
 >: New Vegas Script Extender
-> iHUD.esm
+>iHUD.esm
 >: New Vegas Script Extender
-> ELECTRO-CITY - CompletedWorkorders.esm
-> ELECTRO-CITY - Highways and Byways.esm
-> CINEMATECH.esm
+>ELECTRO-CITY - CompletedWorkorders.esm
+>ELECTRO-CITY - Highways and Byways.esm
+>CINEMATECH.esm
 >: New Vegas Script Extender
-> Caliber.esm
+>Caliber.esm
 >% {{BASH: Invent}}
-> CFWNV.esm
-> Weapon Mod Expansion.esm
+>CFWNV.esm
+>Weapon Mod Expansion.esm
 >% {{BASH: Names}}
-> FOOK - New Vegas.esm
+>FOOK - New Vegas.esm
 >% {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
-> FOOK - New Vegas DLCs.esm
-> Mo'.esm
+>FOOK - New Vegas DLCs.esm
+>Mo'.esm
 >: Caliber.esm and NVSE Version 1 Beta 6 or newer.
 nVamp - Very Voracious Vermin.esm
 nVamp - Really Awesome Travels.esm
@@ -289,21 +289,21 @@ nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
 ? Old, consider upgrading to nVamp version 0.15
 \ nVamp end
-> HonestHearts-CaliberX.esm
+>HonestHearts-CaliberX.esm
 >: HonestHearts.esm
-> BoulderCityFaceliftProject.esm
-> dangame.esm
-> The Roost.esm
-> MoMod.esm
+>BoulderCityFaceliftProject.esm
+>dangame.esm
+>The Roost.esm
+>MoMod.esm
 >% {{BASH: Relev}}
 >" monsterrach.esp
-> Project Nevada - Equipment.esm
+>Project Nevada - Equipment.esm
 >: New Vegas Script Extender and Project Nevada - Core.esm
-> CFWNV-DLC.esm
+>CFWNV-DLC.esm
 >: DeadMoney.esm and HonestHearts.esm
-> WME - Dead Money.esm
+>WME - Dead Money.esm
 >: DeadMoney.esm and Weapon Mod Expansion.esm
-> WME - Honest Hearts.esm
+>WME - Honest Hearts.esm
 >: HonestHearts.esm and Weapon Mod Expansion.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
