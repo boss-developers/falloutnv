@@ -37,6 +37,10 @@
 \ Masterlist variable setup for BOSS v1.7+.
  IF ("nVamp - Core.esm") SET: NVAMP
  IF ("EVE FNV.esp") SET: EVE
+  
+\ Upgrade message for 1.7 users:
+ IF (<1.8.0.0|"BOSS") GLOBAL WARN: You are using an outdated version of BOSS. An update for BOSS (v1.8) has been released. Download it at "http://www.tesnexus.com/downloads/file.php?id=20516", "http://www.fallout3nexus.com/downloads/file.php?id=10193" or "http://www.newvegasnexus.com/downloads/file.php?id=35999"
+
 
 \BeginGroup\: ESMs
 \------------
