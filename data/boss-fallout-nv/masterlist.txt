@@ -47,6 +47,7 @@
 FalloutNV.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 DeadMoney.esm
+% {{BASH: Deflst}}
 HonestHearts.esm
 Community Bugfix Compilation Patch.esm
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
@@ -72,7 +73,7 @@ IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
 ? Does the same thing as OWNB - Open World.esm; Use one or the other.
 <IWS-Core.esm
-<% {{BASH: Delev, Relev}}
+<% {{BASH: Delev}}
 <? Loaded early to let other mods override spawn points if needed.
 NosCo Companion System.esm
 ? Loaded early in the event Companion .esm mods require this.
@@ -181,6 +182,7 @@ Primary Needs HUD.esm
 <Project Nevada - Core.esm
 <: New Vegas Script Extender
 <Project Nevada - Equipment.esm
+<% {{BASH: Delev, Invent}}
 <: New Vegas Script Extender and Project Nevada - Core.esm
 ReactivePeople.esm
 rePopulated Wasteland.esm
@@ -227,7 +229,7 @@ aHUD.esm
 >Machienzo - NPC Cosmetic Fixes.esm
 >% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 >IWS-Core.esm
->% {{BASH: Delev, Relev}}
+>% {{BASH: Delev}}
 >Tales from the Burning Sands.esm
 >AWorldOfPain(Preview).esm
 >% {{BASH: Invent,Deflst}}
@@ -298,6 +300,7 @@ nVamp - Vaernus's Voracious Vermin.esm
 >% {{BASH: Relev}}
 >" monsterrach.esp
 >Project Nevada - Equipment.esm
+>% {{BASH: Delev, Invent}}
 >: New Vegas Script Extender and Project Nevada - Core.esm
 >CFWNV-DLC.esm
 >: DeadMoney.esm and HonestHearts.esm
@@ -1337,7 +1340,7 @@ BIS - Project Nevada - Core.esp
 % {{BASH: Names}}
 : Project Nevada - Core.esm
 BIS - Project Nevada - Equipment.esp
-% {{BASH: Names, BASH: Invent}}
+% {{BASH: Names, Invent}}
 : Project Nevada - Core.esm and Project Nevada - Equipment.esm
 Project Nevada - Cyberware.esp
 : Project Nevada - Core.esm
@@ -1806,6 +1809,7 @@ AmmoCraftingSchematics.esp
 ACS-CaliberX.esp
 : Caliber.esm and AmmoCraftingSchematics.esp
 ACS-HonestHearts.esp
+% {{BASH: Invent}}
 : HonestHearts.esm and AmmoCraftingSchematics.esp
 ArmourRepairKits.esp
 : New Vegas Script Extender
@@ -1935,7 +1939,7 @@ Selective Fire - Ahzteks NV Weapon Overhaul.esp
 : Selective Fire.esm AND Ahzteks Weapon Replacements.esp
 ? Outdated. Consider Updating.
 Ahzteks Weapon Overhaul.esp
-% {{BASH: Deflst}}
+% {{BASH: Deflst, Delev, Invent}}
 : Caliber.esm
 " Ahzteks Weapon Overhaul NO xCALIBER.esp
 Ahzteks Weapon Overhaul NO xCALIBER.esp
@@ -2522,6 +2526,7 @@ AWOPVeryLowRobots.esp
 " AWOPLowRobots.esp
 : AWorldOfPain(Preview).esm
 AWOP-AhztekWeaponPatch.esp
+% {{BASH: Invent}}
 : AWorldOfPain(Preview).esm AND Ahzteks Weapon Overhaul.esp
 AWOP-BOEWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND Mo'.esm
@@ -3238,6 +3243,7 @@ WMX-ModernWeapons.esp
 % {{BASH: Invent}}
 : AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
 ACS-WMXModernWeapons.esp
+% {{BASH: Invent}}
 : AmmoCraftingSchematics.esp, WeaponModsExpanded.esp, and WMX-ModernWeapons.esp
 BIS - WMX-ModernWeapons.esp
 : BIS - Brumbek's Inventory Sorting.esp and WeaponModsExpanded.esp
