@@ -45,7 +45,7 @@
 \BeginGroup\: ESMs
 \------------
 FalloutNV.esm
-? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+? Masterlist Revision: 2987 (Jul 12, 2011)
 DeadMoney.esm
 % {{BASH: Deflst}}
 HonestHearts.esm
@@ -132,6 +132,7 @@ EVE-900.esm
 <EZ_CompanionNVSE_Killable_Normal.esm
 <? Old
 <EZ_Face_TEMPLATE.esm
+<OutfitsReColorNVMaster.esm
 FalloutNV_Camera_Control.esm
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
