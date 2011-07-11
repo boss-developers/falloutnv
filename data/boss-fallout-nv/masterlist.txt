@@ -96,7 +96,7 @@ Advanced Recon Tech.esm
 AEVegas.esm
 Alice Armor.esm
 <AWorldOfPain(Preview).esm
-<% {{BASH: Invent,Deflst}}
+<% {{BASH: Invent, Deflst}}
 <AWorldOfPain(LowLoot).esm
 <? Outdated. Consider using the latest version along with the low loot patches instead.
 BinocularsOverhaul.esm
@@ -232,7 +232,7 @@ aHUD.esm
 >% {{BASH: Delev}}
 >Tales from the Burning Sands.esm
 >AWorldOfPain(Preview).esm
->% {{BASH: Invent,Deflst}}
+>% {{BASH: Invent, Deflst}}
 >AWorldOfPain(LowLoot).esm
 >? Outdated. Consider using the latest version along with the low loot patches instead.
 >EZ_CompanionNVSE.esm
@@ -3578,20 +3578,20 @@ LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
 " Nevada Skies.esp, Nevada Skies - URWLified.esp, Nevada Skies - URWLHH.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 ? Outdated and no longer to be used.
 Nevada Skies.esp
-% {{BASH: C.Climate,C.Light}}
+% {{BASH: C.Climate, C.Light}}
 : HonestHearts.esm if the Optional Honest Hearts .esp is installed.
 " Nevada Skies - URWLified.esp, Nevada Skies - URWLHH.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 Ambient Temperature - Nevada Skies.esp
 : Ambient Temperature.esm AND Nevada Skies.esp
 Nevada Skies - URWLified.esp
-% {{BASH: C.Climate,C.Light}}
+% {{BASH: C.Climate, C.Light}}
 " Nevada Skies.esp, Nevada Skies - URWLHH.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 BIS - Nevada Skies URWLified.esp
 : Nevada Skies - URWLified.esp
 Ambient Temperature - URWLified Nevada Skies.esp
 : Ambient Temperature.esm AND Nevada Skies - URWLified.esp
 Nevada Skies - URWLHH.esp
-% {{BASH: C.Climate,C.Light}}
+% {{BASH: C.Climate, C.Light}}
 : HonestHearts.esm
 " Nevada Skies.esp, Nevada Skies - URWLified.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 NSkies - URWLNV.esp
