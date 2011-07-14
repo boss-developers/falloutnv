@@ -3515,6 +3515,8 @@ OFT_ElectroCity.esp
 : ELECTRO-CITY - CompletedWorkorders.esm AND OperationFixedTerrain.esp
 OFT_HonestHearts.esp
 : HonestHearts.esm AND OperationFixedTerrain.esp
+OFT_HonestHearts_Interiors.esp
+: HonestHearts.esm AND OperationFixedTerrain.esp
 ParallaxRoadtrim.esp
 MedGrass.esp
 HighGrass.esp
