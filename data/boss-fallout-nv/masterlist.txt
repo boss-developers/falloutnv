@@ -45,7 +45,7 @@
 \BeginGroup\: ESMs
 \------------
 FalloutNV.esm
-? Masterlist Revision: 2987 (Jul 12, 2011)
+? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 DeadMoney.esm
 % {{BASH: Deflst}}
 HonestHearts.esm
