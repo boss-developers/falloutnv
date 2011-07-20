@@ -49,6 +49,7 @@ FalloutNV.esm
 DeadMoney.esm
 % {{BASH: Deflst}}
 HonestHearts.esm
+OldWorldBlues.esm
 Community Bugfix Compilation Patch.esm
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 CBC Dead Money Patch.esm
