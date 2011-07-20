@@ -175,6 +175,7 @@ Moddable Unique Weps.esm
 <More Challenges.esm
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
+NV Child - Shojo Headgear.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 NVR-Strip.esm
