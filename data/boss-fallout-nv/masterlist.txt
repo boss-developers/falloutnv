@@ -2286,6 +2286,8 @@ CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Courier Power Armor - Project Nevada.esp
 : Project Nevada - Core.esm and courierpowerarmor.esp
+CRHDV3O1.esp
+CRHDV3O2.esp
 CRHDV3O3.esp
 Crazyeyesreaper T51b Variety Pack.esp
 DamWarClothing.esp
