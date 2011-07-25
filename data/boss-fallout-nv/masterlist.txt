@@ -848,6 +848,8 @@ Realistic Portable Tent.esp
 return_deadmoney.esp
 : DeadMoney.esm
 ? Same Purpose as SierraMadreEXIT.esp; use one or the other.
+RumbleZones.esp
+: MoMod.esm
 PoseidonResearchFacility.esp
 RedRockRanch.esp
 RustTownV1-1.esp
@@ -855,6 +857,8 @@ s7oMolesWell.esp
 SadiesSundries.esp
 Scavengers Hideaway.esp
 Schoolhouse Base.esp
+? Outdated; Consider Updating.
+Schoolhouse Base V2.esp
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
 Seachlight Airpot NCR V3.5.esp
@@ -885,6 +889,7 @@ NVR-SMOTS-V2-Version_10.esp
 NVR-Version_9.esp
 ? Outdated; Consider Updating.
 NVR-Version_10.esp
+NVFR-Version 1.esp
 UHNV.esp
 UHNV-Dead Money.esp
 : UHNV.esp and DeadMoney.esm
@@ -2923,10 +2928,14 @@ dD-Less Screen Blood Time.esp
 dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
+Delay DLC - DM + HH + OWB.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm
 Delay DLC - Dead Money.esp
 : DeadMoney.esm
 Delay DLC - Honest Hearts.esp
 : HonestHearts.esm
+Delay DLC - Old World Blues.esp
+: OldWorldBlues.esm
 DM-NoLvlMsg.esp
 : DeadMoney.esm
 Dead Money - Automatic Rifle fix.esp
