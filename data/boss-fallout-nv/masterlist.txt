@@ -175,6 +175,7 @@ Moddable Unique Weps.esm
 <More Challenges.esm
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
+NPC Project.esm
 NV Child - Shojo Headgear.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
@@ -200,6 +201,7 @@ SelectFire.esm
 Selective Fire.esm
 : New Vegas Script Extender
 Sortomatic.esm
+SpeedyResources.esm
 SunnyCompanion.esm
 ? Outdated. Consider Updating.
 TAC-SHOP.esm
@@ -287,6 +289,7 @@ nVamp - Combat nVamped.esm
 nVamp - More Of Everything.esm
 nVamp - Performance nVamped.esm
 ? Optional file designed to increase game performance for those with older computers.
+nVamp - DLCs.esm
 nVamp - Dead Money.esm
 nVamp - Dead Money - WME.esm
 nVamp - Dead Money - WMX.esm
@@ -322,6 +325,9 @@ Herculine's NCCS Companions Volume 1.esm
 Shojo Race Vegas.esm
 : Lings.esm
 AngelicaRace.esm
+NV GameStabilizerA8.esm
+% {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
 \EndGroup\\
 
 \BeginGroup\: Earliest
@@ -568,6 +574,10 @@ Vanity Camera Smoother.esp
 
 \BeginGroup\: Faces
 \-----------
+188 Trading Post Revisited.esp
+% {{BASH: NpcFaces}}
+Bitter Springs Revisited.esp
+% {{BASH: NpcFaces}}
 Cass_Redux.esp
 Cass_Redux_Mikoto.esp
 Cass V01 -Lings.esp
@@ -587,6 +597,8 @@ FPT EDE 2BetaVanillaBlue.esp
 FPT EDE 2BetaVanillaBrunette.esp
 FPT EDE 2BetaVanillaRedhead.esp
 GrizzledBoone.esp
+Hanlon the badass 4.esp
+% {{BASH: NpcFaces}}
 Improved Faces v1.esp
 K2_NVPresets.esp
 Look of Disapproval.esp
@@ -610,6 +622,8 @@ NiceCass.esp
 NiceCass - C.esp
 % {{BASH: NpcFaces}}
 " NiceCass.esp
+NPC Project - Aero Office Park.esp
+% {{BASH: NpcFaces}}
 OldGhoulEye.esp
 OldGhoulEye-NoHeadbandSlotForHeadgear.esp
 OldGhoulEye-ProjectNevada.esp
@@ -637,6 +651,8 @@ Veronica_nerdy.esp
 Veronica_Redux_Type3_Alice_Lings.esp
 Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
+Vulpes Inculta.esp
+% {{BASH: NpcFaces}}
 VyntageCass02.esp
 % {{BASH: NpcFaces}}
 VyntageVeronica02.esp
@@ -665,6 +681,7 @@ FactionIDCards.esp
 FiendsNoHelmet.esp
 FNV_MoreVendorCaps.esp
 Follower Wait Time 100000.esp
+FrankHorriganBETA1.esp
 GibsonDogs.esp
 gomorrahgirls.esp
 GomorrahProstituteEnable.esp
@@ -809,6 +826,7 @@ HideoutVault.esp
 IncreasedLegion.esp
 IncreasedLegion1_1.esp
 Isolated Camp.esp
+Jacobstown Expanded.esp
 Lucky 38 Suite Expansion.esp
 Lucky 38 Suite Expansion Bed Option.esp
 Lucky38.esp
@@ -862,11 +880,17 @@ Schoolhouse Base V2.esp
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
 Seachlight Airpot NCR V3.5.esp
+? Outdated; Consider Updating.
+Seachlight Airpot NCR.esp
 SierraMadreEXIT.esp
 : DeadMoney.esm
 ? Same purpose as return_deadmoney.esp; use one or the other.
 SierraMadrev2.0.esp
 : DeadMoney.esm
+? Outdated; Consider Updating.
+SierraMadrev2.1.esp
+: DeadMoney.esm
+SMOTS-EC patch.esp
 Silverpeak Bunker.esp
 sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
@@ -1329,7 +1353,9 @@ Arwen_NV_Encumbrance.esp
 Arwen_NV_Med-Tec.esp
 : New Vegas Script Extender and Arwen_NV_Realism_Core.esp
 BallanceMod.esp
+BartertownPeaceful.esp
 CGYH.esp
+Classic FO SM_v1.2.esp
 Rise of the Machines.esp
 DeadlierExplosivesNV.esp
 EVE.esp
@@ -1976,6 +2002,7 @@ AW50f.esp
 AWMRifle.esp
 BearTrap.esp
 Beretta.esp
+BerettaNV_NVSE_Xcal.esp
 Better Binoculars.esp
 ? Outdated. Consider Updating.
 Better Binoculars Low.esp
@@ -2163,6 +2190,7 @@ OldWesternEnergyWeapons.esp
 Omegared99-M2081.esp
 Orchids Custom Arsenal.esp
 PB-AR1.esp
+PersonalHologram.esp
 Pew Pew Pew Pew Pew Pew.esp
 photon.esp
 PK_Pulse_Pistol.esp
@@ -2233,6 +2261,10 @@ KDS Wearable Backpacks.esp
 Kobu's Sortable Backpack.esp
 Kobu's Sortable Backpack - No Extra Carry Weight.esp
 Kobu's Sortable Crafting Backpack.esp
+1stReconArmor_Med.esp
+1stReconArmor_MedNonFaction.esp
+1stReconArmor_Light.esp
+1stReconArmor_LightNonFaction.esp
 Advanced Recon Armor.esp
 Advanced Recon Armor-Easier Stealth.esp
 Advanced Recon Armor-Location Doc Mitchell.esp
@@ -2259,6 +2291,7 @@ Amazon Armor.esp
 ArmoredGlassEyewear.esp
 Armored PA Gloves.esp
 % {{BASH: Deflst}}
+Armory_of_Xzax.esp
 ArmyCapDesert.esp
 ArmyCapWoodlandDigi.esp
 AsharasLightningItems_ForNV.esp
@@ -2272,6 +2305,7 @@ Boacombat2glove.esp
 BodyJewelry.esp
 Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
+Blck_Fx NV-- Add Implants Occulaire SM style.esp
 BOAt51b.esp
 boa ncrpahelmet.esp
 BSCollection.esp
@@ -2287,6 +2321,7 @@ Classic Tesla Metal Armor.esp
 COL - Liena's Armour.esp
 Colossus NV.esp
 Colossus Armor For New Vegas (keylek).esp
+Colossus T49.esp
 CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Courier Power Armor - Project Nevada.esp
@@ -2312,6 +2347,8 @@ DragonskinTacticalOutfit.esp
 DragonskinNCRPersonnelWearingOutfits.esp
 % {{BASH: Relev}}
 DragonskinBonusPack.esp
+DTO-ProjectNevada.esp
+DTOBP-ProjectNevada.esp
 pnv - compatibility dragonskin tactical.esp
 : DragonskinTacticalOutfit.esp
 dressup.esp
@@ -2398,6 +2435,7 @@ Mantis07Reflex - Realism.esp
 Mantis07Reflex.esp
 manwithnoname.esp
 MercCharmerClean.esp
+merccustom.esp
 Military NV Backpacks - Blank's Container Patch.esp
 Military NV Backpacks - BumBagUseSlot1.esp
 Military NV Backpacks - No Straps.esp
@@ -2496,6 +2534,7 @@ Type3 Leather Armors.esp
 ? Designed for the Type3 Female Body Replacer.
 Type3 Leather Armors-lvld.esp
 : meshes and textures from New Vegas Type3 Leather Armors.
+UberGrunt 1.5.esp
 UrgeWasterScarf.esp
 Valhalla_Personal_Protection_NV.esp
 Vault34Powerarmor.esp
@@ -2600,6 +2639,7 @@ Companion Module Pack.esp
 ? You will have to remove any mods that you have that are included in the pack to avoid issues.
 Cassidy0.4E.esp
 Veronica0.6E.esp
+Alien Companion.esp
 Angelica.esp
 : AngelicaRace.esm
 AngelicaCassVeronica.esp
@@ -2613,6 +2653,7 @@ Essentialplustweaks.esp
 ICC.esp
 boon_harcored.esp
 Boone0.2.esp
+CFollowers.esp
 Charisma Based Follower Limit.esp
 Companions never Die.esp
 Companions Commander.esp
@@ -2993,11 +3034,15 @@ GunsIgnoreArmor.esp
 HJLLessDismembermentAndExplosionsv100.esp
 Imp's More Complex Needs.esp
 Imp's More Complex Needs - JA - SORTED.esp
+% {{BASH: Names}}
+? Older version. Consider using version 1.0.3 HotfixA or later.
 IMCNNV - Sorted.esp
+% {{BASH: Names}}
 Improved Stealth Boy.esp
 Ambient Temperature - IMCNNV.esp
 IMCNNV - HUD and Hotkeys.esp
 MyFirstCookbook - IMCN compatibility.esp
+IMCN-Tales.esp
 ImprovedImplantRegen.esp
 Increasedcarryweight.esp
 Increasedcarryweight2.esp
@@ -3049,6 +3094,7 @@ NoCombatMusic.esp
 NoDegrade.esp
 NoDegradation.esp
 NoDialogueHints.esp
+NoMessageHints.esp
 No Experience Up Sound.esp
 NoFactionArmorMessage.esp
 No Neos.esp
@@ -3073,6 +3119,8 @@ Packless Heavy Weapons.esp
 Project Nevada - FPSWeaponWheel.esp
 : Project Nevada - Core.esm and FNVToolkit.esm
 IFNOT ("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
+: Project Nevada - Core.esm
+IFNOT ("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
 : Project Nevada - Core.esm
 IFNOT ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
 % {{BASH: Names}}
@@ -3181,6 +3229,10 @@ Weight_Balance_v07.esp
 % {{BASH: Stats}}
 Weight_Balance_v10.esp
 % {{BASH: Stats}}
+Weight_Rebalance_v10.esp.
+% {{BASH: Stats}}
+BIS - Weight_Balance_v10.esp
+% {{BASH: Names}}
 WeightChanges.esp
 XIII + J3X's Flesh Burnificating Plasma.esp
 XtraSpecialNV.esp
@@ -3366,6 +3418,8 @@ WME - CS Sight Q Fix.esp
 : Weapon Mod Expansion.esm
 WME - WorldofPain.esp
 : AWorldOfPain(Preview).esm
+Project Nevada - WME.esp
+% {{BASH: Graphics, Invent, Names, WeaponMods}}
 WMR_WME_A.esp
 : Weapon Mod Expansion.esm
 WMR_WME_S.esp
@@ -3512,11 +3566,20 @@ NV GameStabilizerA5.esp
 ? Outdated. Consider Updatng.
 NV GameStabilizerA5F.esp
 % {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
 NV GameStabilizerA6.esp
 % {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
 NV GameStabilizerA7.esp
 % {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
 NV GameStabilizerA7b.esp
+% {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
+NV GameStabilizerA8.esp
+% {{BASH: NoMerge}}
+? Outdated. Consider Updatng.
+NV GameStabilizerA9.esp
 % {{BASH: NoMerge}}
 \EndGroup\\
 
@@ -3612,6 +3675,10 @@ Nevada Skies - URWLHH.esp
 " Nevada Skies.esp, Nevada Skies - URWLified.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
 NSkies - URWLNV.esp
 ? Outdated. Please update via the Nevada Skies download page.
+Project Westland vision.esp
+% {{BASH: C.Climate, C.Light}}
+Project Westland vision-ZionHH.esp
+% {{BASH: C.Climate, C.Light}}
 StripNightLum.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
@@ -3722,6 +3789,8 @@ Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
 IF ("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
 : Project Nevada - Core.esm
+IF ("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
+: Project Nevada - Core.esm
 IF ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
 % {{BASH: Names}}
 : Project Nevada - Core.esm and Project Nevada - Rebalance.esp
@@ -3730,6 +3799,7 @@ mypatch.esp
 
 \BeginGroup\: nVamp
 \-----------
+nVamp - DLCs.esp
 nVamp - Dead Money.esp
 nVamp - Dead Money - WME.esp
 nVamp - Dead Money - WMX.esp
