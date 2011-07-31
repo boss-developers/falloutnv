@@ -1833,6 +1833,13 @@ Stocked38 .esp
 Tag Skills Improved.esp
 TagBonuses.esp
 theHeroNV_1.1.esp
+Too Many Quest Markers - Main.esp
+Too Many Quest Markers - Dead Money.esp
+: DeadMoney.esm
+Too Many Quest Markers - Honest Hearts.esp
+: HonestHearts.esm
+Too Many Quest Markers - Old World Blues.esp
+: OldWorldBlues.esm
 Unique skill Magazines.esp
 VATSPerksNoMoreMain.esp
 VATSPerksNoMore.esp
