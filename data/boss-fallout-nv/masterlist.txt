@@ -2717,6 +2717,7 @@ Companion Sandbox Mode V2.0.esp
 Comp_Idles_NV.esp
 EnclaveCommander.esp
 EZ_VanillaFollowers.esp
+% {{BASH: Actors.AIPackages, Actors.CombatStyle}}
 Follower Home Marker.esp
 FollowersPlayCaravan.esp
 FollowersUnholster2.esp
