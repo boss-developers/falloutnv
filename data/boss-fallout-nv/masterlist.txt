@@ -1461,6 +1461,7 @@ Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 \BeginGroup\: Quests
 \-----------
 Bobbleheads - Cases.esp
+Bobbleheads - Cases_v1.2a.esp
 Bobbleheads - Hidden_v1.2.esp
 Bobbleheads - Not Hidden_v1.2.esp
 CharacterBackgrounds.esp
@@ -1564,6 +1565,7 @@ QuickerDrawOriginal.esp
 Search & Mark 4 Adam The Duck.esp
 SnowGlobePerks.esp
 SnowGlobePerks_SkillsOnly.esp
+Supercharged Traits - Perks.esp
 skeleton_key.esp
 SPECIAL_Fixes.esp
 SturdyCaravanShotgunSurgeon.esp
@@ -1746,6 +1748,8 @@ More Ammo.esp
 More Ammo - 2x.esp
 More Ammo - 3x.esp
 More Ammo - 5x.esp
+More from plants.esp
+MoreContainers.esp
 MoreShells.esp
 MoreSkillBooks.esp
 More Weight.esp
@@ -1760,6 +1764,8 @@ NoHarassingTheKing.esp
 NewVegasRestorationStrip+Casino.esp
 NVR - Hardcore Enhanced.esp
 Nuka Cola Enhanced.esp
+Nuka Cola Plus.esp
+NukaVend25.esp
 nv_passive_critters_norm_gecko.esp
 NoUndiscoveredCompassMarkers.esp
 OJL38RealCasino.esp
@@ -1776,6 +1782,7 @@ populatedcasino-light.esp
 " populatedcasino.esp and populatedcasino-medium.esp
 Pop and Beer do not Dehydrate.esp
 PortableCampsite.esp
+Portal.esp
 Project13 - Populated Wasteland.esp
 % {{BASH: Actors.AIPackages, Delev, Relev}}
 psychoelf lev stripping.esp
@@ -1816,6 +1823,7 @@ Slightly More Hardcore Hardcore Mode.esp
 Solar's Bottled Water.esp
 Solar's Bottled Water - Bottlecaps.esp
 Sprint Mod.esp
+Stash.esp
 BIS - Sprint Mod.esp
 % {{BASH: Names}}
 : Sprint Mod.esp
@@ -1823,6 +1831,7 @@ StarBottleCaps.esp
 Static Battery Replacer.esp
 Stocked38 .esp
 Tag Skills Improved.esp
+TagBonuses.esp
 theHeroNV_1.1.esp
 Unique skill Magazines.esp
 VATSPerksNoMoreMain.esp
@@ -2165,6 +2174,7 @@ MachienzoDLC2GreatKhan.esp
 MachienzoDLC2Legion.esp
 MachienzoDLC2NCR.esp
 MachienzoDLC2PowderGanger.esp
+Minimissilelauncher.esp
 MiniNuke.esp
 MiniNukeSmall.esp
 MiscItemWeapons.esp
@@ -2605,6 +2615,7 @@ Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
 Improved_Karma.esp
+Karma-Less Petty Crime NV.esp
 LogicalReputationShifts.esp
 PrimmReputation.esp
 Mercy Killing Karma.esp
@@ -2919,6 +2930,7 @@ Max Level 100.esp
 Max Level 255.esp
 : New Vegas Script Extender
 " Other mods that change the max level.
+NVLevelCapByDandysWithHPAnd1LPP.esp
 SlowMinded.esp
 Slower Level Rates - x1.3.esp
 Slower Level Rates - x1.5.esp
@@ -2952,6 +2964,7 @@ BlurKillerDM.esp
 : DeadMoney.esm
 Bullet Impact Increased LOD.esp
 Burning CampFire.esp
+CarreyweightAPAdjustment.esp
 Cateye.esp
 CCC - weaker weapons.esp
 ? Does not require CCC to work.
@@ -3130,6 +3143,7 @@ IFNOT ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
 % {{BASH: Names}}
 : Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 Perception_And_Vats_Accuracy.esp
+psychoelf perk lev stripping.esp
 Respawn12Hours.esp
 Respawn12HoursImproved.esp
 Respawn1Month.esp
