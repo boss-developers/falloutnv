@@ -2844,7 +2844,7 @@ Real Weapon Names - Project Nevada.esp
 % {{BASH: Names}}
 : Project Nevada - Equipment.esm
 MiscItemIconsNV.esp
-% {{BASH: Graphics}}
+% {{BASH: Graphics, NoMerge}}
 " T3T_MiscItemIconsNV.esp
 T3T_MiscItemIconsNV.esp
 % {{BASH: Graphics}}
@@ -3368,6 +3368,7 @@ BIS - WMX-HonestHearts.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
 : HonestHearts.esm and WMX-HonestHearts.esp
 WMX-ArenovalisTextures.esp
+% {{BASH: Graphics, NoMerge}} 
 : WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
 WMX-FOOKNV-DLCs CP.esp
 : DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp
