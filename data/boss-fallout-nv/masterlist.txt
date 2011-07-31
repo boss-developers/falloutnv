@@ -537,6 +537,7 @@ Centered 3rd Person Camera - Unraised.esp
 " FOOK - New Vegas.esm
 CFWWpnDmgIncTweaker.esp
 : CFWNV.esm and Caliber.esm
+Choose_XP.esp
 Corvega -Electrocity.esp
 : Corvega.esm and ELECTRO-CITY - CompletedWorkorders.esm
 DynamiCamera.esp
@@ -1185,6 +1186,9 @@ PMT - Total Challenge Remover.esp
 " PMT - Reduced Challenge Notifications.esp
 PMT - Reduced Challenge Notifications.esp
 " PMT - Total Challenge Remover.esp
+PMT - Honest Hearts Reduced Ammo.esp
+: HonestHearts.esm
+PMT - Tougher Vehicles.esp
 PMT - Sound Fixes.esp
 nVamp - PMT.esp
 \EndGroup\\
@@ -2003,6 +2007,7 @@ Ahzteks Pistol and SMG Replacements.esp
 % {{BASH: Names, Graphics, Sound, Stats, WeaponMods}}
 Selective Fire - Ahzteks Weapon Overhaul.esp
 : Selective Fire.esm AND Ahzteks Weapon Overhaul.esp
+AK_AR15WP.esp
 AK47.esp
 AK47 with mods (Holosight).esp
 AK74U.esp
@@ -2444,6 +2449,7 @@ LeatherBackpack - eng.esp
 Leather backpack - rus.esp
 Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
+Legion Redesigned.esp
 LegionNCRnonfaction.esp
 LFox Invisible Armored Vests.esp
 LNC StealthSuit NV.esp
@@ -2472,6 +2478,8 @@ NCR Rearmament v1.5.esp
 " NCR Rearmament v1.5 (Lore).esp
 NCR Rearmament v1.5 (Lore).esp
 " NCR Rearmament v1.5.esp
+NCR_Desert.esp
+NCR_Woodland.esp
 Neckchains.esp
 NeutralPowerArmor.esp
 NEVECbodysuit.esp
@@ -2580,8 +2588,12 @@ White Glove attire actually has White Gloves.esp
 Armor by Race w Undies.esp
 Body by Race.esp
 headgearfix.esp
+Machienzo - NPC Cosmetic Fixes DLC01.esp
+: DeadMoney.esm
 Machienzo - NPC Cosmetic Fixes DLC02.esp
 : HonestHearts.esm
+Machienzo - NPC Cosmetic Fixes DLC03.esp
+: OldWorldBlues.esm
 Lore version.esp
 : New Vegas Redesigned.esm
 \EndGroup\\
