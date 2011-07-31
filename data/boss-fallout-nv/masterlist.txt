@@ -171,6 +171,10 @@ Moddable Unique Weps.esm
 <: DeadMoney.esm and More Perks.esm
 <More Perks for Honest Hearts.esm
 <: HonestHearts.esm and More Perks.esm
+<More Perks for Old World Blues.esm
+<: OldWorldBlues.esm and More Perks.esm
+<More Perks for Old World Blues Update.esp
+<: OldWorldBlues.esm and More Perks.esm
 <More Traits.esm
 <More Challenges.esm
 NCCS Nos' Premade Companions.esm
@@ -251,6 +255,10 @@ aHUD.esm
 >: DeadMoney.esm and More Perks.esm
 >More Perks for Honest Hearts.esm
 >: HonestHearts.esm and More Perks.esm
+>More Perks for Old World Blues.esm
+>: OldWorldBlues.esm and More Perks.esm
+>More Perks for Old World Blues Update.esp
+>: OldWorldBlues.esm and More Perks.esm
 >More Traits.esm
 >More Challenges.esm
 >Project Nevada - Core.esm
@@ -543,6 +551,7 @@ Corvega -Electrocity.esp
 DynamiCamera.esp
 EZ_Force_Killable_NormalMode.esp
 EZ_GLUE.esp
+FairyRadar.esp
 Further3rdPersonCamera.esp
 HUD Extended.esp
 HUD Extended - Ambient Temperature.esp
@@ -655,6 +664,8 @@ Veronica_nerdy.esp
 Veronica_Redux_Type3_Alice_Lings.esp
 Veronica_Redux_Type3_Alice_Mikoto.esp
 veronicafaceonly.esp
+VeronicaOlder.esp
+% {{BASH: NpcFaces}}
 Vulpes Inculta.esp
 % {{BASH: NpcFaces}}
 VyntageCass02.esp
@@ -958,6 +969,7 @@ YangtzeBunkerPlayerHomeV1_3.esp
 YangtzeBunkerPlayerHomeV1_4.esp
 ? Outdated; Consider Updating.
 YangtzeBunkerPlayerHomeV1_5.esp
+CampMC MapMarkers.esp
 ContrerasMapMarker.esp
 Lucky38marker.esp
 Lucky38markerV3.esp
@@ -1514,6 +1526,7 @@ AltSpotterPerk_v1.esp
 Boones Spotter Perk Enhanced.esp
 ChildAtHeartPerk.esp
 Calm_Heart_Fix.esp
+Combat Enhancement Perks v1.0.esp
 Detect Traps - Perk.esp
 EpF-BetterPerkDescriptions.esp
 Expanded Traits.esp
@@ -1548,6 +1561,7 @@ Perks per du.esp
 Power Armor Training Perk.esp
 MercGrenadeRifleDemoPyro.esp
 mysterious increase.esp
+NewAndImprovedPerks.esp
 NV_Jinxed_Classicish.esp
 NV_Jinxed_KD.esp
 NV_STMutatePack - NVSE.esp
@@ -1587,6 +1601,9 @@ ZZZZ--APB_221S_By_Nokturnihs.esp
 \-----------
 Active Wasteland.esp
 Active Wasteland - Vanilla Replacements.esp
+Active Wasteland - Coffee Maker.esp
+Active Wasteland - Dead Money Coffee Maker.esp
+Active Wasteland - Dead Money Replacements.esp
 AddEmptyBottle.esp
 AddLunchBox.esp
 add that gun to cowboy perk.esp
@@ -1793,6 +1810,7 @@ psychoelf lev stripping.esp
 psychoelfs sneak past artillery.esp
 pyDoF.esp
 pyRepair.esp
+RandomSnowGlobesNV.esp
 Reactive People II - Sneak & Diversion.esp
 Realistic Preorder-Caravan.esp
 Realistic Preorder-Classic.esp
@@ -1986,6 +2004,7 @@ Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 AEVegas.esp
 ? Outdated. Consider Updating.
+AG Supplementary Uniques.esp
 AG Supplementary Uniques-Dead Money.esp
 : DeadMoney.esm
 AG Supplementary Uniques-Honest Hearts.esp
@@ -2347,6 +2366,8 @@ COL - Liena's Armour.esp
 Colossus NV.esp
 Colossus Armor For New Vegas (keylek).esp
 Colossus T49.esp
+Project Nevada - T49XV Patch.esp
+: Project Nevada - Core.esm and Colossus T49.esp
 CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Courier Power Armor - Project Nevada.esp
@@ -2437,6 +2458,13 @@ JillBSAA.esp
 JillBSAA Multicolor.esp
 % {{BASH: Invent}}
 : Type 3 Body Replacer
+JNinjas.esp
+JNinjasNinjasComeBack.esp
+" JNinjasStealthFieldStops.esp and JNinjasStealthFieldStopsNinjasComeBack.esp
+JNinjasStealthFieldStops.esp
+" JNinjasNinjasComeBack.esp and JNinjasStealthFieldStopsNinjasComeBack.esp
+JNinjasStealthFieldStopsNinjasComeBack.esp
+" JNinjasNinjasComeBack.esp and JNinjasStealthFieldStops.esp
 Journeyman Armor.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
@@ -2672,6 +2700,8 @@ Companion Module Pack.esp
 ? You will have to remove any mods that you have that are included in the pack to avoid issues.
 Cassidy0.4E.esp
 Veronica0.6E.esp
+1nivCorgiComp.esp
+1nivCorgiWorld.esp
 Alien Companion.esp
 Angelica.esp
 : AngelicaRace.esm
@@ -2806,6 +2836,9 @@ VeronicaScribeRobe.esp
 VeronicaScribeRobeRed.esp
 WeakerBoone40LevelMultiplierESSENTIALVERSION.esp
 WeakerBoone40LevelMultiplier.esp
+Cass Barks.esp
+EDE Barks.esp
+Rex Barks.esp
 \EndGroup\\
 
 \BeginGroup\: Later Misc
