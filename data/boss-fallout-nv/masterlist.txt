@@ -70,6 +70,7 @@ AmmoSpreadEffectFixer.esm
 Companion Core.esm
 : New Vegas Script Extender
 ? Loaded early in the event Companion .esm mods require this.
+DFB - Random Encounters.esm
 IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
 ? Does the same thing as OWNB - Open World.esm; Use one or the other.
@@ -179,6 +180,8 @@ Moddable Unique Weps.esm
 <More Challenges.esm
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
+ACM Fem Fatales of FO3.esm
+ACMFemFatalesMore.esm
 NPC Project.esm
 NV Child - Shojo Headgear.esm
 NVR - Extra Actions Lib.esm
@@ -222,6 +225,8 @@ WARZONES - Misanthropy Pure.esm
 <: DeadMoney.esm and Weapon Mod Expansion.esm
 <WME - Honest Hearts.esm
 <: HonestHearts.esm and Weapon Mod Expansion.esm
+<WME - Old World Blues.esm
+<: OldWorldBlues.esm and Weapon Mod Expansion.esm
 WMVM.esm
 wsex.esm
 <ELECTRO-CITY - CompletedWorkorders.esm
@@ -322,6 +327,8 @@ nVamp - Vaernus's Voracious Vermin.esm
 >: DeadMoney.esm and Weapon Mod Expansion.esm
 >WME - Honest Hearts.esm
 >: HonestHearts.esm and Weapon Mod Expansion.esm
+>WME - Old World Blues.esm
+>: OldWorldBlues.esm and Weapon Mod Expansion.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
@@ -333,6 +340,7 @@ Herculine's NCCS Companions Volume 1.esm
 Shojo Race Vegas.esm
 : Lings.esm
 AngelicaRace.esm
+AngelPark.esm
 NV GameStabilizerA8.esm
 % {{BASH: NoMerge}}
 ? Outdated. Consider Updatng.
@@ -359,6 +367,8 @@ Compiled Patch - DeadMoney.esp
 " CBC Dead Money Patch.esm AND CBC Dead Money Patch.esp
 Compiled Patch - HonestHearts.esp
 : HonestHearts.esm
+Compiled Patch - Old World Blues.esp
+: OldWorldBlues.esm
 26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -388,8 +398,15 @@ DeadMoneyWeaponFixes.esp
 : DeadMoney.esm
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 DLM_QuestItemsFix_1.3b_Eng.esp
+? Outdated. Consider Updating.
 DLM_QuestItemsFix_1.3b-DLC_DM.esp
 : DeadMoney.esm
+? Outdated. Consider Updating.
+DLM_QuestItemsFix_1.4.esp
+DLM_QuestItemsFix_1.4-DLC_DM.esp
+: DeadMoney.esm
+DLM_QuestItemsFix_1.4-DLC_HH.esp
+: HonestHearts.esm
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
 ? Obsolete with latest patch
@@ -576,6 +593,7 @@ Purge Cell Buffers.esp
 Readius_NV.esp
 ReallyOTS.esp
 SaveKey.esp
+Sortomatic_1-22Hotfix.esp
 The Mod Configuration Menu.esp
 TUWRM.esp
 RMPipboy.esp
@@ -609,6 +627,7 @@ FPT EDE 2BetaVanillaBlonde.esp
 FPT EDE 2BetaVanillaBlue.esp
 FPT EDE 2BetaVanillaBrunette.esp
 FPT EDE 2BetaVanillaRedhead.esp
+FPT EDE 3 Mikoto AnnMay.esp
 GrizzledBoone.esp
 Hanlon the badass 4.esp
 % {{BASH: NpcFaces}}
@@ -627,6 +646,10 @@ MikotoBPWastersOverhaul.esp
 % {{BASH: NpcFaces, NoMerge}}
 MikotoBPCCFull.esp
 % {{BASH: NpcFaces, NoMerge}}
+Mikotos_REyescapesNV.esp
+% {{BASH: Eyes}}
+Mutant Eyes.esp
+% {{BASH: Eyes}}
 NewCass.esp
 NewCass1.1.esp
 NiceCass.esp
@@ -801,6 +824,7 @@ Bungalow Home.esp
 Dalls_Birds_Nest.esp
 Dalls_Lodger.esp
 Dan's Presidential Upgrade.esp
+Camping Gear.esp
 CleanFreeside.esp
 Clean Goodsprings.esp
 clean McCarran.esp
@@ -812,6 +836,7 @@ FalloutShelter-gear-v1-45.esp
 FalloutShelter-nogear-v1-45.esp
 FF_Entry_Fix.esp
 : Frys_Freehold.esm
+Filling New Vegas.esp
 FNV - ShopHome.esp
 Freeside Fine Living.esp
 Freeside NCR Guard Post - Revamp.esp
@@ -838,6 +863,7 @@ HELIOS Outpost - Revamp.esp
 HomeSweetHome.esp
 HiddenBunker.esp
 HideoutVault.esp
+HiVEnv.esp
 IncreasedLegion.esp
 IncreasedLegion1_1.esp
 Isolated Camp.esp
@@ -862,6 +888,7 @@ Novac Hotel Suite Upgrade.esp
 NEVADA SKIES COMPATABLE Novac Hotel Suite Upgrade.esp
 " Novac Hotel Suite Upgrade.esp
 BobblehuntNovacSuite.esp
+New Vegas Trade Center.esp
 NewVegasStripOverhaul.esp
 : StripOpenNPCs.esp
 NVSO - ELECTRO-CITY Patch.esp
@@ -895,6 +922,7 @@ Schoolhouse Base V2.esp
 SDs Lucky 38 Suite Trophies.esp
 Searchlight Outpost- Revamp.esp
 Seachlight Airpot NCR V3.5.esp
+Seachlight Airport NCR.esp
 ? Outdated; Consider Updating.
 Seachlight Airpot NCR.esp
 SierraMadreEXIT.esp
@@ -917,6 +945,7 @@ The New Bison Steve Hotel.esp
 vegassuburbshome.esp
 Wasteland Defense.esp
 Wolf's Goodspring hole v0.2.esp
+NukeTheWorld.esp
 NVR_rePopulated Wasteland_Patch.esp
 : rePopulated Wasteland.esm
 NVR-ELECTRO-CTIY_Patch.esp
@@ -929,6 +958,13 @@ NVR-Version_9.esp
 ? Outdated; Consider Updating.
 NVR-Version_10.esp
 NVFR-Version 1.esp
+Sortomatic - Safehouses.esp
+Sortomatic - Hunter's Farm.esp
+Sortomatic - Harper's Shack.esp
+Sortomatic - El Dorado Gas & Service.esp
+Sortomatic - Wolfhorn Ranch.esp
+Sortomatic - Victor's Shack.esp
+Sortomatic - Yangtze Shack.esp
 UHNV.esp
 UHNV-Dead Money.esp
 : UHNV.esp and DeadMoney.esm
@@ -1527,6 +1563,7 @@ Boones Spotter Perk Enhanced.esp
 ChildAtHeartPerk.esp
 Calm_Heart_Fix.esp
 Combat Enhancement Perks v1.0.esp
+CosmicKnifePerks.esp
 Detect Traps - Perk.esp
 EpF-BetterPerkDescriptions.esp
 Expanded Traits.esp
@@ -1547,6 +1584,7 @@ LibrarianOfTheWastes.esp
 LFox Improved Regen Implant.esp
 LFox Night Vision Implant.esp
 LFox Night Vision Implant Low Brightness.esp
+moira_perks.esp
 More Perks.esp
 More Perks Update.esp
 More Perks for Companions Update.esp
@@ -1611,6 +1649,8 @@ Alternative Console Access.esp
 Animated Prostitution.esp
 ammoingredientsloot.esp
 ArenaAnySex.esp
+Auto Loot Enhanced.esp
+Autoclosingdoorspub1p2.esp
 AutoLoot.esp
 : New Vegas Script Extender
 BankCard.esp
@@ -1639,6 +1679,8 @@ Canteen.esp
 Clanf_NoWeaponsRemove.esp
 Classic Pack Canteen More Hardcore.esp
 clean paper trash remover.esp
+ClutterBGoneFlatStatic.esp
+ClutterBGoneItems.esp
 Collectible Canteens.esp
 CompanionDe-Equip.esp
 CompanionsInfiniteAmmoMin.esp
@@ -1668,6 +1710,7 @@ DK_BulletTime_NV.esp
 Double Turbo.esp
 Druged Effects.esp
 Duke Patricks - Improved Magazines.esp
+EmptyBottles.esp
 EnhancedSniperAmmo.esp
 ExpansionVendors.esp
 FalloutNVCheatTerminal.esp
@@ -1690,6 +1733,7 @@ Hardcore Rates (Refined-robpsychobob).esp
 hold_breath.esp
 HoverBoard.esp
 Improved Non Combat XP-Orchid.esp
+Improved-ammoingredientsloot.esp
 immersivesneaking.esp
 Insects.esp
 IWS-Core-Patrols.esp
@@ -1782,6 +1826,7 @@ No Clutter Junk in Loot Containers.esp
 No Litter.esp
 No Stealth Messages.esp
 NoHarassingTheKing.esp
+NewVegasFood.esp
 NewVegasRestorationStrip+Casino.esp
 NVR - Hardcore Enhanced.esp
 Nuka Cola Enhanced.esp
@@ -1839,6 +1884,7 @@ Selective Fire - Classic Fallout Weapons NV.esp
 SelectiveFire - retakrew7.esp
 : Selective Fire.esm
 Sex Try.esp
+Smalltalk.esp
 Silver Rush inventory expansion.esp
 SleepHeath.esp
 Slightly More Hardcore Hardcore Mode.esp
@@ -1959,8 +2005,9 @@ Scrap the crap.esp
 StealthBoyEnhanced.esp
 Stealthboy Recipe.esp
 StimpakGivesSyringe.esp
-Tactical Crafting.esp
+SW_Recipes_v07.esp
 Survival Expansion 0.1.esp
+Tactical Crafting.esp
 UltrajetRecipe.esp
 WeaponModRecipes.esp
 WeaponModRecipesA.esp
@@ -1986,6 +2033,7 @@ WeaponModRecipesR.esp
 20th Century v5 ALIVE (Fiend).esp
 20th Century v5 ALIVE (LEGION).esp
 20th Century v5 ALIVE (SuperMutant).esp
+30mmVladimirGun.esp
 88 Plasma Rifle.esp
 injectionpatch.esp
 MERGEinjection.esp
@@ -1995,6 +2043,7 @@ MERGEinjection.esp
 44mag.esp
 45autopistolsightsmod.esp
 : HonestHearts.esm
+50MGHE.esp
 AA12.esp
 ACR.esp
 Advanced Recon Gear.esp
@@ -2034,9 +2083,12 @@ AK9000.esp
 Alexscorpion's Custom AK103.esp
 A Load of Balls.esp
 : New Vegas Script Extender
+Almost Infinite 45 Ammo.esp
 American Hammer Compact.esp
 AN-94 Select fire.esp
 : Caliber.esm
+Armageddon Weapon & Mine.esp
+Artillery Marker Sniper Ammo.esp
 ASG.esp
 Assault Carbine mods.esp
 % {{BASH: WeaponMods}}
@@ -2139,7 +2191,10 @@ Everyscopedweaponhavenightvision.esp
 Exciters Masada ACWS.esp
 : SelectFire.esm
 ExperimentalMIRV.esp
+FabriqueNationale.esp
 FAL_Para_Carbine.esp
+fatman nuke mines.esp
+FatManUltra_NV.esp
 FingerOfGodNV.esp
 FN FAL.esp
 FN_SCAR.esp
@@ -2155,12 +2210,14 @@ Glow Sticks.esp
 Gobi Rifle Enhanced.esp
 Golden Eagle.esp
 guitar.esp
+HH - 45 Caliber Rifles.esp
 HHWeapsInNV.esp
 : HonestHearts.esm
 HHWeapsInNVNPC.esp
 : HonestHearts.esm
 HighRoller.esp
 HK MP7.esp
+HK PSG-1 Snipers.esp
 hz_BAMR.esp
 hz_SVD.esp
 IDreamOfElectricSheep.esp
@@ -2219,12 +2276,16 @@ Moddable Unique Weps.esp
 " Moddable Unique Weps.esm
 molotov.esp
 MoraelinsExoticBladesMod.esp
+MoraelinsHalberds.esp
+MoraelinsSilentGunsMod.esp
+More Mini-Nukes.esp
 Mossberg.esp
 Mossberg590.esp
 Murdelizer.esp
 NekhCFinderFix.esp
 NepaleseKukri.esp
 NudeRay 1.3.esp
+NukaQuantum.esp
 NV binoculars.esp
 NVExverminatorRifle.esp
 NVExverminatorRifle2xZoom.esp
@@ -2252,6 +2313,7 @@ RWIE Classic Pack.esp
 SAW M249.esp
 sawedoff.esp
 ScarabLaser.esp
+ServiceCarbine.esp
 ShinohaiOuka.esp
 Shotgun Commando.esp
 % {{BASH: Stats}}
@@ -2263,9 +2325,11 @@ Six String Samurai Sword NV.esp
 SpookyJ's LngRng GRifle.esp
 SR-25.esp
 Stalker Weapons Pack.esp
+suitcase_nuke.esp
 Survivalist Crossbow.esp
 Survivalist Crossbow-Custom.esp
 Survivalist Crossbow-Surv.esp
+Tactical Nuclear Incendiary Ammo.esp
 Tactical Weapon Pack.esp
 that gun 556.esp
 that gun 44 mag.esp
@@ -2279,7 +2343,9 @@ UniqueNVScopes.esp
 Usableservice.esp
 Vintorez VSS.esp
 : Caliber.esm
+Warhead.esp
 WeaponBersekCrossbow.esp
+WeaponsOfTheShogunate.esp
 Weathered10mmFixed.esp
 WeatheredHoldout.esp
 xCALIBRuniverse_ImpulsePurchasePack.esp
@@ -2322,6 +2388,7 @@ Advanced Recon Tech - Fiendish Power Armor.esp
 ? Merged into nVamp -Advanced Mod Project. Do not use both at the same time.
 Advanced Recon Gear - Project Nevada.esp
 AG All-Purpose Science Suit 100.esp
+AG All-Purpose Science Suit 75.esp
 AL Black Corsetry and Blanc dress.esp
 AirForceArmorT57C.esp
 Alexscorpion'sNVG.esp
@@ -2347,6 +2414,7 @@ LDFemalePowerArmorPack.esp
 " LDFemalePowerArmorPack.esm
 Boacombat2glove.esp
 BodyJewelry.esp
+bornagain Book Of Steel.esp
 Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
 Blck_Fx NV-- Add Implants Occulaire SM style.esp
@@ -2403,6 +2471,7 @@ DuffleBagOfGuns.esp
 DXProject.esp
 DynamicNightVision.esp
 EliteScribeRobe-left.esp
+EnhancedGlasses.esp
 epock.esp
 ? Meshes based off of the Type 3 Female Body.
 ERCA.esp
@@ -2449,6 +2518,7 @@ Grim Armor - NV.esp
 Hereticus Faction Armors Fading.esp
 % {{BASH: Names}}
 HDTshop.esp
+HHType3tribalhands.esp
 HitmanSuitNV-B.esp
 HomeTeleport.esp
 Holster.esp
@@ -2468,6 +2538,7 @@ JNinjasStealthFieldStopsNinjasComeBack.esp
 Journeyman Armor.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
+Kaya47GlacierGlasses.esp
 Kaya47NordicGear.esp
 KerberosPanzer-AdvancedReconGear.esp
 KerberosPanzer-power armor.esp
@@ -2520,6 +2591,7 @@ Night Vision Sunglasses.esp
 NV_AsharasFormalClothing.esp
 NV Boone Armor Playable.esp
 NV Night Vision Sunglasses.esp
+NVCassCleanerXOH.esp
 NVLadyoutfit1.esp
 NVLadyoutfitXOH.esp
 NVRefugee Outfits.esp
@@ -2528,6 +2600,7 @@ NWghostbodysuit.esp
 NWIxiaarmor1.esp
 Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
+OutfitsReColorChangeClothes.esp
 Persona_and_Secret.esp
 PimpMyScarf.esp
 PimpMyScarf_v2.esp
@@ -2562,11 +2635,13 @@ Rivens Costume Mod.esp
 Roberts_NewVegas.esp
 Sack of Holding-NV.esp
 SBVenomousArmor.esp
+Slofs Boners - ENG.esp
 Spawn Armor.esp
 SpetsnazArmor.esp
 SpetsnazN'SmittysArmory.esp
 Starke's Seperate Chinese Stealth Armor Helmet NV.esp
 Starke's Seperate Chinese Stealth Armor Helmet NV (OA Version).esp
+StealthSuitHelm_NV.esp
 Sunglasses Shipment.esp
 Sunglasses Shipment - Four Eyes.esp
 t3bbarmor.esp
@@ -2606,6 +2681,7 @@ w44Satchels - Lite.esp
 : SCAV.esm
 " w44Satchels - Full.esp
 WastelandCourier.esp
+WastelandNecklaceCollection.esp
 WearGloves.esp
 Wolfeco_Courier.esp
 White Glove attire actually has White Gloves.esp
@@ -2658,6 +2734,7 @@ AWOPLowLootSkillBooks.esp
 Sortomatic-AWOP.esp
 : Sortomatic.esm and AWorldOfPain(Preview).esm
 Caesars_Legion_Overhaul.esp
+CaliberX_Ammo_Update_1dot3.esp
 Fun with Karma NV.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
@@ -2746,6 +2823,7 @@ Correction - Passive.esp
 " Correction - Passive 2 Option.esp
 Companion Share & Recruit Companions.esp
 Brahmin Companion.esp
+Cass Gone Rogue & Factionless.esp
 Cass Passive Fix.esp
 " Cass Passive Fix 2 Option.esp
 Cass Passive Fix 2 Option.esp
@@ -2936,6 +3014,7 @@ Balance mod - 50% XP Gain.esp
 balance mod - perk every 2 levels optional.esp
 balance mod - perk every 3 levels optional.esp
 BalanceMod - Slower moving optional.esp
+BartertownDangerous.esp
 BetterImplantRegen2.esp
 BetterImplantRegen5.esp
 Bindable Pipboy Light R2.esp
@@ -2963,6 +3042,7 @@ RWD-NellisArtillery Fix 1.0.esp
 RWD-Realistic Dismemberment 1.0.esp
 vatsbuff.esp
 vatsbuff2x.esp
+Level50PerkPerLevel.esp
 LevelCap100.esp
 Level Cap 100.esp
 levelcap45.esp
@@ -3126,6 +3206,7 @@ LakelurkMeatDropFix.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
 Leveled Lists Fix.esp
+LeveledItemListCorrections.esp
 Lever Rifle fire rate slow.esp
 lexx-no-dialog-tags-Deutsch.esp
 " lexx-no-dialog-tags-English.esp
@@ -3223,6 +3304,8 @@ RespawnerImprovedEx.esp
 : Respawn Timer (Any Version)
 Respawn24HoursImprovedEx.esp
 Quest Items - Non-Essential and Categorised.esp
+Quick Trade.esp
+: The Mod Configuration Menu
 QuickHacking-NV.esp
 Quicker PipBoy Light-0_2Sec.esp
 Quicker PipBoy Light-0_4Sec.esp
@@ -3269,6 +3352,7 @@ SporePlantPods.esp
 SubtitlesHotkeyNV.esp
 : New Vegas Script Extender
 TimeTravel.esp
+ThermicLanceFireEffects.esp
 ThrowMine.esp
 Toggle Quest Object.esp
 Trackable Blood and Footprints.esp
@@ -3385,7 +3469,7 @@ BIS - WMX-ModernWeapons.esp
 : BIS - Brumbek's Inventory Sorting.esp and WeaponModsExpanded.esp
 WMX-DeadMoney.esp
 % {{BASH: Invent}}
-: WeaponModsExpanded.esp and DeadMoney.esm
+: DeadMoney.esm, WeaponModsExpanded.esp
 BIS - WMX-DeadMoney.esp
 : DeadMoney.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 Hack Vending Machines - WMX.esp
@@ -3395,13 +3479,16 @@ Real Weapon Names - WMX - Dead Money.esp
 : DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 WMX-HonestHearts.esp
 % {{BASH: Invent}}
-: HonestHearts.esm, WeaponModsExpanded.esp and HonestHearts.esm
+: HonestHearts.esm, WeaponModsExpanded.esp
 BIS - WMX-HonestHearts.esp
 : HonestHearts.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-HonestHearts.esp
+WMX-OldWorldBlues.esp
+% {{BASH: Invent}}
+: OldWorldBlues.esm, WeaponModsExpanded.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
 : HonestHearts.esm and WMX-HonestHearts.esp
 WMX-ArenovalisTextures.esp
-% {{BASH: Graphics, NoMerge}} 
+% {{BASH: Graphics, NoMerge}}
 : WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
 WMX-FOOKNV-DLCs CP.esp
 : DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp
@@ -3470,6 +3557,10 @@ Big Big Boomer - WME.esp
 : Weapon Mod Expansion.esm
 AG Supplementary Uniques WME.esp
 : Weapon Mod Expansion.esm
+AG Supplementary Uniques-Dead Money WME.esp
+: Weapon Mod Expansion.esm
+AG Supplementary Uniques-Honest Hearts WME.esp
+: Weapon Mod Expansion.esm
 BetterScopesModWMEVersion.esp
 : Weapon Mod Expansion.esm
 BIS - Weapon Mod Expansion.esp
@@ -3512,6 +3603,8 @@ WME - Honest Hearts.esp
 BIS - WME - Honest Hearts.esp
 % {{BASH: Names}}
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+WME - Old World Blues.esp
+: OldWorldBlues.esm, Weapon Mod Expansion.esm, WME - Old World Blues.esm
 WME - Ironsights - HH.esp
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - FOOK DLCs.esp
@@ -3535,6 +3628,8 @@ BIS - WME - Honest Hearts Arenovalis Retex.esp
 EVE FNV.esp
 WMEVE.esp
 : Weapon Mod Expansion.esm
+EVE_WMX.esp
+: WeaponModsExpanded.esp
 Frequency - EVE Patch.esp
 : Frequency.esm
 IF ($EVE) MOD: Meltdown Medley.esp
@@ -3678,6 +3773,8 @@ Vurt's WFO.esp
 " Vurt's Trees & Grass.esp
 Vurt's WFO [Lite].esp
 " Vurt's WFO.esp
+250.esp
+500.esp
 DN More Lights.esp
 " ELECTRO-CITY - CompletedWorkorder.esp / .esm ; Has the same purpose.
 LUMENARIUM - Working Sunglasses ONLY.esp
@@ -3815,6 +3912,8 @@ ELECTRO-CITY - Emittance.esp
 ? Outdated. Consider updating.
 ELECTRO-CITY - Imaginator.esp
 " ELECTRO-CITY - Emittance.esp
+Directors Chair.esp
+: The Mod Configuration Menu, iHUD.esm, CINEMATECH.esm, DYNAVISION 2 - Dynamic Lens Effect.esp, ELECTRO-CITY - Imaginator.esp
 CustomLighting-I DoF Blur.esp
 ? Outdated.
 CustomLighting-IE DoF Blur.esp
