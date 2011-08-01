@@ -3861,12 +3861,9 @@ Interior Lighting Overhaul-Realistic.esp
 ? Outdated. Consider Updating.
 Interior Lighting Overhaul-Realistic Interiors-Full.esp
 % {{BASH: C.Light}}
-? Use this or ILO-RI-Original Lucky38 Suite.esp
-? Designed for players that have not changed the Lucky 38 Suite.
 ILO-RI-Original Lucky38 Suite.esp
 % {{BASH: C.Light}}
-? Use this or Interior Lighting Overhaul-Realistic Interiors-Full.esp
-? Designed for players that have changed the Lucky 38 Suite.
+: Interior Lighting Overhaul-Realistic Interiors-Full.esp
 ILO-RI-Dead Money.esp
 % {{BASH: C.Light}}
 : DeadMoney.esm
