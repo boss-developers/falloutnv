@@ -768,6 +768,12 @@ NPCsUseAmmo-More Ammo.esp
 NV Ghouls Revenge - Increased Numbers.esp
 NV Ghouls Revenge - Resurrection.esp
 NVR-NPCs.esp
+HighlyPopulatedFreeside.esp
+" MediumPopulatedFreeside.esp, LowPopulatedFreeside.esp
+MediumPopulatedFreeside.esp
+" HighlyPopulatedFreeside.esp, LowPopulatedFreeside.esp
+LowPopulatedFreeside.esp
+" HighlyPopulatedFreeside.esp, MediumPopulatedFreeside.esp
 RefinedCasinoPeople&Suits.esp
 SRDG.esp
 StripOpenNPCs.esp
@@ -958,6 +964,9 @@ NVR-Version_9.esp
 ? Outdated; Consider Updating.
 NVR-Version_10.esp
 NVFR-Version 1.esp
+? Outdated; Consider Updating.
+NVFR-Version_2.esp
+NVFR-NVR-Version_2.esp
 Sortomatic - Safehouses.esp
 Sortomatic - Hunter's Farm.esp
 Sortomatic - Harper's Shack.esp
@@ -2635,6 +2644,7 @@ Rivens Costume Mod.esp
 Roberts_NewVegas.esp
 Sack of Holding-NV.esp
 SBVenomousArmor.esp
+sexysleepwear.esp
 Slofs Boners - ENG.esp
 Spawn Armor.esp
 SpetsnazArmor.esp
