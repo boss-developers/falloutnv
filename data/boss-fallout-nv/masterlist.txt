@@ -174,8 +174,6 @@ Moddable Unique Weps.esm
 <: HonestHearts.esm and More Perks.esm
 <More Perks for Old World Blues.esm
 <: OldWorldBlues.esm and More Perks.esm
-<More Perks for Old World Blues Update.esp
-<: OldWorldBlues.esm and More Perks.esm
 <More Traits.esm
 <More Challenges.esm
 NCCS Nos' Premade Companions.esm
@@ -183,6 +181,7 @@ NCCS Nos' Premade Companions.esm
 ACM Fem Fatales of FO3.esm
 ACMFemFatalesMore.esm
 NPC Project.esm
+NSkies - Vanilla Edition.esm
 NV Child - Shojo Headgear.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
@@ -261,8 +260,6 @@ aHUD.esm
 >More Perks for Honest Hearts.esm
 >: HonestHearts.esm and More Perks.esm
 >More Perks for Old World Blues.esm
->: OldWorldBlues.esm and More Perks.esm
->More Perks for Old World Blues Update.esp
 >: OldWorldBlues.esm and More Perks.esm
 >More Traits.esm
 >More Challenges.esm
@@ -646,8 +643,6 @@ MikotoBPWastersOverhaul.esp
 % {{BASH: NpcFaces, NoMerge}}
 MikotoBPCCFull.esp
 % {{BASH: NpcFaces, NoMerge}}
-Mikotos_REyescapesNV.esp
-% {{BASH: Eyes}}
 Mutant Eyes.esp
 % {{BASH: Eyes}}
 NewCass.esp
@@ -678,6 +673,11 @@ ReElijahfied.esp
 REsLorePackNV.esp
 REsNonLorePackNV.esp
 RivensEyescapesNV.esp
+% {{BASH: Eyes}}
+: MikotoBeauty.esm
+Mikotos_REyescapesNV.esp
+% {{BASH: Eyes}}
+: MikotoBeauty.esm, RivensEyescapesNV.esp
 SweetVeronica.esp
 Trollface.esp
 Veronica1.0.esp
@@ -751,6 +751,9 @@ MoMod-Terminators.esp
 : MoMod.esm
 Alpha's MoMod Overhaul.esp
 : MoMod.esm
+? Outdated. Consider Updating.
+Monster Mod Wasteland Edition.esp
+: MoMod.esm
 Methclaw.esp
 Mr Moneybags.esp
 MUd-CR48 Merchant.esp
@@ -802,6 +805,7 @@ IIWR 2.0.9.esp
 IIWR 2.1.0.esp
 ? Outdated Version. Consider Updating to IWR.esm
 nocol.esp
+00 red cross.esp
 1000th addon (more containers).esp
 1000th patch 2.1.esp
 1000th addon (new walls n floors 1.1).esp
@@ -1239,6 +1243,10 @@ PMT - Gravity Kills.esp
 PMT - Tougher economy.esp
 PMT - Rude Awakening.esp
 PMT - QuieterVats.esp
+PMT - Faint Heartbeat.esp
+" PMT - Silent Heartbeat.esp
+PMT - Silent Heartbeat.esp
+" PMT - Faint Heartbeat.esp
 PMT - Total Challenge Remover.esp
 " PMT - Reduced Challenge Notifications.esp
 PMT - Reduced Challenge Notifications.esp
@@ -1246,7 +1254,12 @@ PMT - Reduced Challenge Notifications.esp
 PMT - Honest Hearts Reduced Ammo.esp
 : HonestHearts.esm
 PMT - Tougher Vehicles.esp
+PMT - Very Hard Damage Adjustment.esp
 PMT - Sound Fixes.esp
+PMT - Assassin Suit Tweaks.esp
+: DeadMoney.esm
+PMT - OWB - Sonic Emitter Robot Damage Fix.esp
+: OldWorldBlues.esm
 nVamp - PMT.esp
 \EndGroup\\
 
@@ -1492,6 +1505,8 @@ Improved Sound FX - HH.esp
 Improved Sound FX - HH Sharing Fix.esp
 % {{BASH: Sound}}
 : HonestHearts.esm
+LouderGuns.esp
+% {{BASH: Sound}}
 Machienzo-RadioNewVegasFix.esp
 Machienzo-RadioNewVegasFixv11.esp
 NewVegasJazz_1.0.esp
@@ -1548,6 +1563,7 @@ PAMQ_v1.esp
 Serial Killer.esp
 TheCollector.esp
 War Never Changes.esp
+War Never Changes - Seven.esp
 Wasteland Explorer.esp
 wsexInnuendoAnims.esp
 : wsex.esm
@@ -1601,6 +1617,8 @@ More Perks for Dead Money Update.esp
 : More Perks.esm, DeadMoney.esm, and More Perks for Dead Money.esm
 More Perks for Honest Hearts Update.esp
 : More Perks.esm, HonestHearts.esm, and More Perks for Honest Hearts.esm
+More Perks for Old World Blues Update.esp
+: More Perks.esm, OldWorldBlues.esm and More Perks for Old World Blues.esm
 More Traits Update.esp
 More Challenges - Original Challenges Overhaul.esp
 NinjaPerkFix.esp
@@ -1656,6 +1674,7 @@ AddLunchBox.esp
 add that gun to cowboy perk.esp
 Alternative Console Access.esp
 Animated Prostitution.esp
+AmmoCollectingFPSstyle.esp
 ammoingredientsloot.esp
 ArenaAnySex.esp
 Auto Loot Enhanced.esp
@@ -1714,6 +1733,8 @@ Detect Traps - Dead Money.esp
 Detect Traps - DLC.esp
 : DeadMoney.esm and HonestHearts.esm
 " Detect Traps - Dead Money.esp
+DFB - Random Encounters - Angels Park.esp
+DFB - Random Encounters - Hotfix 2.5.esp
 DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
 Double Turbo.esp
@@ -2352,6 +2373,7 @@ UniqueNVScopes.esp
 Usableservice.esp
 Vintorez VSS.esp
 : Caliber.esm
+Walther P99.esp
 Warhead.esp
 WeaponBersekCrossbow.esp
 WeaponsOfTheShogunate.esp
@@ -2725,6 +2747,8 @@ AWOP-AhztekWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND Ahzteks Weapon Overhaul.esp
 AWOP-BOEWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND Mo'.esm
+AWOP-LowNPCSWastelandOnly.esp
+: AWorldOfPain(Preview).esm
 AWOPCFWWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND CFWNV.esm
 AWOPCaliberXAmmoPatch.esp
@@ -3207,6 +3231,15 @@ Increasedcarryweight.esp
 Increasedcarryweight2.esp
 insta-hacker.esp
 Intelligence_And_Skill_Points_Hardcore.esp
+? Choose only one 'Intelligence and Skill Points' ESP.
+Intelligence_And_Skill_Points_High.esp
+? Choose only one 'Intelligence and Skill Points' ESP.
+Intelligence_And_Skill_Points_Increased.esp
+? Choose only one 'Intelligence and Skill Points' ESP.
+Intelligence_And_Skill_Points_Normal.esp
+? Choose only one 'Intelligence and Skill Points' ESP.
+Intelligence_And_Skill_Points_Very_High.esp
+? Choose only one 'Intelligence and Skill Points' ESP.
 Invisibility for No Reputation.esp
 : New Vegas Script Extender
 Jump Fall Fixer.esp
