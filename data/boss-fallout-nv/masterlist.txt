@@ -985,6 +985,9 @@ NVFR-Version 1.esp
 ? Outdated; Consider Updating.
 NVFR-Version_2.esp
 NVFR-NVR-Version_2.esp
+:NVR-Strip.esm
+NVFR-NVR-NVTC-Version_2.esp
+:NVR-Strip.esm
 Sortomatic - Safehouses.esp
 Sortomatic - Hunter's Farm.esp
 Sortomatic - Harper's Shack.esp
