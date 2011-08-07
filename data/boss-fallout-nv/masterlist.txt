@@ -215,6 +215,7 @@ TalonPack.esm
 <Tales from the Burning Sands.esm
 Thermal Vision.esm
 <The Roost.esm
+TSC Vegas.esm
 VMods - Master.esm
 War Never Changes.esm
 WARZONES - Misanthropy Pure.esm
@@ -600,6 +601,16 @@ STnukaRetex.esp
 Vanity Camera Smoother.esp
 \EndGroup\\
 
+\BeginGroup\: Alternative starts
+\''''''''''''''''''
+\
+\Must go after anything that alters the main quest.
+
+CF_FastStart.esp
+Kobu's New Game Quick Start and Better Rebuild.esp
+Roleplay Start 1.2.esp
+\EndGroup\\
+
 \BeginGroup\: Faces
 \-----------
 188 Trading Post Revisited.esp
@@ -754,6 +765,8 @@ Alpha's MoMod Overhaul.esp
 ? Outdated. Consider Updating.
 Monster Mod Wasteland Edition.esp
 : MoMod.esm
+MMWE-No Oblivion.esp
+: MoMod.esm, Monster Mod Wasteland Edition.esp
 Methclaw.esp
 Mr Moneybags.esp
 MUd-CR48 Merchant.esp
@@ -944,6 +957,7 @@ SierraMadrev2.0.esp
 SierraMadrev2.1.esp
 : DeadMoney.esm
 SMOTS-EC patch.esp
+Sniper Towers.esp
 Silverpeak Bunker.esp
 sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
@@ -1008,6 +1022,8 @@ UWHNV-Addon-DLC.esp
 : New Vegas Script Extender, UWHNV-Core.esp, and DeadMoney.esm
 UWHNV-Addon-CHEMS.esp
 : New Vegas Script Extender, UWHNV-Core.esp, and CHEMS.esm
+UWHNV-Addon-FollowerHome.esp
+: New Vegas Script Extender, UWHNV-Core.esp
 WildBillsPawnArmory.esp
 YangtzeBunkerPlayerHome.esp
 ? Outdated; Consider Updating.
@@ -1208,6 +1224,17 @@ NEVAX - WAFFEN.esp
 % {{BASH: Deflst, Relev}}
 NEVAX - WENIGER GEGENSTAENDE.esp
 NEVAX - WENIGER MUNITION.esp
+\EndGroup\\
+
+\BeginGroup\: New Vegas Replayability
+\-----------
+NVReplayabilityByDandys.esp
+NVReplayabilityByDandysV1.100.esp
+NVReplayabilityByDandysV1.200.esp
+NVReplayabilityByDandysV1.300.esp
+NVReplayabilityByDandysV1.5000.esp
+NVReplayabilityByDandysV1.600.esp
+NVReplayabilityByDandysV1.700.esp
 \EndGroup\\
 
 \BeginGroup\: Puce Moose Tweak and Balance Center
@@ -1505,6 +1532,9 @@ Improved Sound FX - HH.esp
 Improved Sound FX - HH Sharing Fix.esp
 % {{BASH: Sound}}
 : HonestHearts.esm
+Improved Sound FX - OWB Sharing Fix.esp
+% {{BASH: Sound}}
+: OldWorldBlues.esm
 LouderGuns.esp
 % {{BASH: Sound}}
 Machienzo-RadioNewVegasFix.esp
@@ -1552,7 +1582,6 @@ HarderThan.esp
 SilentStruggleV1.esp
 Identity Crisis Part I - Silent Struggle V2.esp
 Identity Crisis Part 2 - Long Night.esp
-Kobu's New Game Quick Start and Better Rebuild.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
@@ -1560,8 +1589,10 @@ pnvnvbount1.esp
 : NewVegasBounties.esp
 NewVegasBountiesII.esp
 PAMQ_v1.esp
+PowerAmor.esp
 Serial Killer.esp
 TheCollector.esp
+TSC Vegas Commander.esp
 War Never Changes.esp
 War Never Changes - Seven.esp
 Wasteland Explorer.esp
@@ -1740,6 +1771,7 @@ DK_BulletTime_NV.esp
 Double Turbo.esp
 Druged Effects.esp
 Duke Patricks - Improved Magazines.esp
+DumpIt.esp
 EmptyBottles.esp
 EnhancedSniperAmmo.esp
 ExpansionVendors.esp
@@ -1762,6 +1794,7 @@ Hardcore (Triple Rates).esp
 Hardcore Rates (Refined-robpsychobob).esp
 hold_breath.esp
 HoverBoard.esp
+iAssist.esp
 Improved Non Combat XP-Orchid.esp
 Improved-ammoingredientsloot.esp
 immersivesneaking.esp
@@ -2522,6 +2555,7 @@ Fade That Faction Armor.esp
 FaithOutfit.esp
 Female t45 Power Armor.esp
 Female t51-b PA.esp
+Femalepowerarmor.esp
 Fiendish Power Armor - Thermal Nightvision.esp
 Fiendish Power Armor-Doc Mitchells.esp
 Fiendish Power Armor.esp
@@ -2543,6 +2577,7 @@ Ghost Variants Adjutant.esp
 Ghost Variants Safe.esp
 " Ghost Variants.esp and Ghost Variants Adjutant.esp
 Glove_be_gone.esp
+Great Khan Armor no faction.esp
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
 Grim Armor - NV.esp
@@ -2604,6 +2639,7 @@ NAPA-Project Nevada.esp
 : Project Nevada - Core.esm
 NCR Black Ops Stealth Armor.esp
 ? Due to a master issue, this requires ClassicPack.esm; Can be fixed manually using FNVEdit.
+NCR Ranger Helmet Neck Cover.esp
 NCR Rearmament v1.5.esp
 " NCR Rearmament v1.5 (Lore).esp
 NCR Rearmament v1.5 (Lore).esp
@@ -2667,6 +2703,7 @@ Roberts_NewVegas.esp
 Sack of Holding-NV.esp
 SBVenomousArmor.esp
 sexysleepwear.esp
+SKINNY in Vegas Basic.esp
 Slofs Boners - ENG.esp
 Spawn Armor.esp
 SpetsnazArmor.esp
@@ -2681,6 +2718,7 @@ T3BBN Armor Replacer.esp
 T3Belts_BootsNV.esp
 T3Belts_BootsNV2.esp
 T51b-Manual.esp
+t51bsnow.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 Tactical Combat Gear.esp
@@ -2774,6 +2812,8 @@ Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
 Improved_Karma.esp
 Karma-Less Petty Crime NV.esp
+karmaneutralized.esp
+KillingKarmaFix.esp
 LogicalReputationShifts.esp
 PrimmReputation.esp
 Mercy Killing Karma.esp
@@ -3113,6 +3153,7 @@ Colored Piplight - White.esp
 PipBoyLightx1.5.esp
 PipBoyLightx2.esp
 PipBoyLight.esp
+PipboyNightVision.esp
 pipboyx2.esp
 pipboyx3.esp
 pipboyx4.esp
@@ -3134,7 +3175,6 @@ CarreyweightAPAdjustment.esp
 Cateye.esp
 CCC - weaker weapons.esp
 ? Does not require CCC to work.
-CF_FastStart.esp
 Closer To Fallout - True Threshold.esp
 Color Me Evil.esp
 Color Me Evil - Cass.esp
@@ -3244,7 +3284,6 @@ Invisibility for No Reputation.esp
 : New Vegas Script Extender
 Jump Fall Fixer.esp
 JumpNFall.esp
-KillingKarmaFix.esp
 LakelurkMeatDropFix.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
@@ -3259,6 +3298,8 @@ lexx-dm-no-dialog-tags-English.esp
 : DeadMoney.esm
 lexx-hh-no-dialog-tags-english.esp
 : HonestHearts.esm
+lexx-owb-no-dialog-tags-english.esp
+: OldWorldBlues.esm
 LFox Bottle That Water.esp
 % {{BASH: Names, Scripts}}
 Lighter Fission Battery.esp
@@ -3301,13 +3342,6 @@ NV Explosive Knockdown mod.esp
 NVR - High Lethality.esp
 NVR - Lock Bombing.esp
 NVR - Lock Kicking.esp
-NVReplayabilityByDandys.esp
-NVReplayabilityByDandysV1.100.esp
-NVReplayabilityByDandysV1.200.esp
-NVReplayabilityByDandysV1.300.esp
-NVReplayabilityByDandysV1.5000.esp
-NVReplayabilityByDandysV1.600.esp
-NVReplayabilityByDandysV1.700.esp
 Packless Heavy Weapons.esp
 Project Nevada - FPSWeaponWheel.esp
 : Project Nevada - Core.esm and FNVToolkit.esm
