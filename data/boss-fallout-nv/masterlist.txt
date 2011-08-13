@@ -70,7 +70,6 @@ AmmoSpreadEffectFixer.esm
 Companion Core.esm
 : New Vegas Script Extender
 ? Loaded early in the event Companion .esm mods require this.
-DFB - Random Encounters.esm
 IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
 ? Does the same thing as OWNB - Open World.esm; Use one or the other.
@@ -339,6 +338,7 @@ Shojo Race Vegas.esm
 : Lings.esm
 AngelicaRace.esm
 AngelPark.esm
+DFB - Random Encounters.esm
 NV GameStabilizerA8.esm
 % {{BASH: NoMerge}}
 ? Outdated. Consider Updatng.
