@@ -347,6 +347,8 @@ NV GameStabilizerA8.esm
 \BeginGroup\: Earliest
 \-----------
 {FalloutNV v1.2.0.285 [Unpatched Records]}.esp
+FalloutNV_lang.esp
+? Translation file.
 \EndGroup\\
 
 \BeginGroup\: Unofficial Patches and Fixes
