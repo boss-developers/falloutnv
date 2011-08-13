@@ -369,6 +369,8 @@ Compiled Patch - HonestHearts.esp
 : HonestHearts.esm
 Compiled Patch - Old World Blues.esp
 : OldWorldBlues.esm
+Compiled Patch - OldWorldBlues.esp
+: OldWorldBlues.esm
 26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -936,6 +938,7 @@ return_deadmoney.esp
 RumbleZones.esp
 : MoMod.esm
 PoseidonResearchFacility.esp
+PSSignRemoval.esp
 RedRockRanch.esp
 RustTownV1-1.esp
 s7oMolesWell.esp
@@ -1049,6 +1052,7 @@ SimpleStripMarkers21603.esp
 Tibersmapmarkers.esp
 New Vegas Map Markers.esp
 NewStripMapMarkers.esp
+NewVegasExtendedMapMarkers.esp
 NewVegasStrip&FreesideMarkers_v2.esp
 \EndGroup\\
 
@@ -1733,6 +1737,7 @@ BottleBrahminMilkNV11.esp
 BottleBrahminMilkNV12.esp
 Bottlecaps Have Weight.esp
 Bottles, cans, litter oh my!.esp
+Bullet Crafter Drops.esp
 BzBody.esp
 Caesars Freeside Shop.esp
 Casino Anti Anti Cheat.esp
@@ -1770,7 +1775,15 @@ Detect Traps - DLC.esp
 : DeadMoney.esm and HonestHearts.esm
 " Detect Traps - Dead Money.esp
 DFB - Random Encounters - Angels Park.esp
+: DFB - Random Encounters.esm, AngelPark.esm
 DFB - Random Encounters - Hotfix 2.5.esp
+: DFB - Random Encounters.esm
+DFB - Random Encounters - Dead Money Additions.esp
+: DFB - Random Encounters.esm and DeadMoney.esm
+DFB - Random Encounters - Honest Hearts Additions.esp
+: DFB - Random Encounters.esm and HonestHearts.esm
+DFB - Random Encounters - Old World Blues Additions.esp
+: DFB - Random Encounters.esm and OldWorldBlues.esm
 DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
 Double Turbo.esp
@@ -1789,6 +1802,10 @@ Frequency - Dead Money Patch.esp
 : Frequency.esm and DeadMoney.esm
 Frequency - Honest Hearts Compatbility Patch.esp
 : Frequency.esm and HonestHearts.esm
+Frequency - Honest Hearts Patch.esp
+: Frequency.esm and HonestHearts.esm
+Frequency - Old World Blues Patch.esp
+: Frequency.esm and OldWorldBlues.esm
 Frequency - CFWNV Patch.esp
 : Frequency.esm and CFWNV.esm
 gambling.esp
@@ -1986,6 +2003,7 @@ weight50000.esp
 WMVM-DM.esp
 : WMVM.esm and DeadMoney.esm
 WurstBarberMachine.esp
+YamsPinupParade.esp
 You take a sip from your trusty Vault 13 canteen.esp
 z_Fiends_2.esp
 \EndGroup\\
@@ -2121,6 +2139,12 @@ Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 AEVegas.esp
 ? Outdated. Consider Updating.
+AG Shell Casing Fixes-All Five.esp
+% {{BASH: Graphics}}
+AG Shell Casing Fixes Repeater-Service-ThatGun.esp
+% {{BASH: Graphics}}
+AG Shell Casing Fixes - OWB.esp
+% {{BASH: Graphics}}
 AG Supplementary Uniques.esp
 AG Supplementary Uniques-Dead Money.esp
 : DeadMoney.esm
@@ -2170,6 +2194,7 @@ Better Binoculars.esp
 ? Outdated. Consider Updating.
 Better Binoculars Low.esp
 ? Select only one Better Bincoulars .esp to use.
+Bigger Bangs.esp
 BIS - Kobu Better Binoculars Low.esp
 % {{BASH: Names}}
 ? For use with Better Binoculars Low.esp
@@ -2696,6 +2721,8 @@ PNVRCSScompatibility.esp
 : RCSS.esp
 Project Nevada - RCSS.esp
 : Project Nevada - Core.esm and RCSS.esp
+RadiiHairFix.esp
+: OldWorldBlues.esm
 Realistic Power Armor.esp
 RealisticStealthArmor.esp
 Repairable_NCR_Combat_Armor_Main.esp
@@ -3234,6 +3261,7 @@ Faster Runing.esp
 Faster Running (5.5).esp
 Faster Running 4.5.esp
 Faster Terminals.esp
+fasttravelindoors.esp
 Fatigue - Loot the Unconscious.esp
 Fatigue - Weapons Fatigue Damage.esp
 FireIndeedHot.esp
@@ -3249,6 +3277,7 @@ FreakinLaserBeams_1_1.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
+Full_SPECIAL_Stats_Overhaul_Mod.esp
 Grays_EverybodyBleeds.esp
 GrenadeHotkey.esp
 BIS - Grenade Hotkey.esp
@@ -3358,6 +3387,16 @@ IFNOT ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
 % {{BASH: Names}}
 : Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 Perception_And_Vats_Accuracy.esp
+Permanent_Weapon_Shells_Heavy.esp
+? Choose only one of Permanent_Weapon_Shells esps, not both
+Permanent_Weapon_Shells_Light.esp
+? Choose only one of Permanent_Weapon_Shells esps, not both
+Permanent_Weapon_Shells_Medium.esp
+? Choose only one of Permanent_Weapon_Shells esps, not both
+Permanent_Weapon_Shells_Very_Heavy.esp
+? Choose only one of Permanent_Weapon_Shells esps, not both
+Permanent_Weapon_Shells_Very_Light.esp
+? Choose only one of Permanent_Weapon_Shells esps, not both
 psychoelf perk lev stripping.esp
 Respawn12Hours.esp
 Respawn12HoursImproved.esp
@@ -3430,6 +3469,12 @@ Sarsaparilla.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
 SPECIALer.esp
+SpecialEveryFiveLevels.esp
+? Choose only one of SpecialEveryThreeLevels.esp and SpecialEveryTwoLevels.esp, not both
+SpecialEveryThreeLevels.esp
+? Choose only one of SpecialEveryFiveLevels.esp and SpecialEveryTwoLevels.esp, not both
+SpecialEveryTwoLevels.esp
+? Choose only one of SpecialEveryFiveLevels.esp and SpecialEveryThreeLevels.esp, not both
 SporePlantPods.esp
 SubtitlesHotkeyNV.esp
 : New Vegas Script Extender
@@ -3492,12 +3537,14 @@ WMXMilleniaThatGunRetexCompat.esp
 WMXTemporaryPatch.esp
 : WeaponModsExpanded.esp
 ? Outdated. Please update to Version 1.7 of WMX.
-Frequency - WMX Patch.esp
-: Frequency.esm and WeaponModsExpanded.esp
 Improved Sound FX - WMX - Weapon Sharing Fix.esp
 : WeaponModsExpanded.esp
 WMX-AWOP Patch.esp
+% {{BASH: WeaponMods}}
 : AWorldOfPain(Preview).esm and WeaponModsExpanded.esp
+Frequency - WMX Patch.esp
+% {{BASH: Graphics}}
+: Frequency.esm and WeaponModsExpanded.esp
 BIS - Weapon Mods Expanded (WMX).esp
 : WeaponModsExpanded.esp
 WeaponModsExpanded_FO3WeaponsRestoration.esp
@@ -3933,6 +3980,7 @@ StripNightLum.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
 ? No longer supported by the mod. Can still be used.
+Jupiter over Vegas.esp
 Nights are Darker 25%.esp
 Nights are Darker 50%.esp
 Interior Lighting Overhaul.esp
