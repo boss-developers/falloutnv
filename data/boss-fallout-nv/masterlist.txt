@@ -96,10 +96,6 @@ AccuRifles.esm
 Advanced Recon Tech.esm
 AEVegas.esm
 Alice Armor.esm
-<AWorldOfPain(Preview).esm
-<% {{BASH: Invent, Deflst}}
-<AWorldOfPain(LowLoot).esm
-<? Outdated. Consider using the latest version along with the low loot patches instead.
 BinocularsOverhaul.esm
 <BoulderCityFaceliftProject.esm
 CALIBR.esm
@@ -175,6 +171,10 @@ Moddable Unique Weps.esm
 <: OldWorldBlues.esm and More Perks.esm
 <More Traits.esm
 <More Challenges.esm
+<AWorldOfPain(Preview).esm
+<% {{BASH: Invent, Deflst}}
+<AWorldOfPain(LowLoot).esm
+<? Outdated. Consider using the latest version along with the low loot patches instead.
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
 ACM Fem Fatales of FO3.esm
@@ -244,10 +244,6 @@ aHUD.esm
 >IWS-Core.esm
 >% {{BASH: Delev}}
 >Tales from the Burning Sands.esm
->AWorldOfPain(Preview).esm
->% {{BASH: Invent, Deflst}}
->AWorldOfPain(LowLoot).esm
->? Outdated. Consider using the latest version along with the low loot patches instead.
 >EZ_CompanionNVSE.esm
 >EZ_CompanionNVSE_Killable_Normal.esm
 >? Old
@@ -326,6 +322,10 @@ nVamp - Vaernus's Voracious Vermin.esm
 >: HonestHearts.esm and Weapon Mod Expansion.esm
 >WME - Old World Blues.esm
 >: OldWorldBlues.esm and Weapon Mod Expansion.esm
+>AWorldOfPain(Preview).esm
+>% {{BASH: Invent, Deflst}}
+>AWorldOfPain(LowLoot).esm
+>? Outdated. Consider using the latest version along with the low loot patches instead.
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
