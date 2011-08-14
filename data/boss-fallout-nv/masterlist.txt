@@ -158,6 +158,10 @@ M.M.A.T - Core Module.esm
 Moddable Unique Weps.esm
 % {{BASH: WeaponMods}}
 " Moddable Unique Weps.esp
+<AWorldOfPain(Preview).esm
+<% {{BASH: Invent, Deflst}}
+<AWorldOfPain(LowLoot).esm
+<? Outdated. Consider using the latest version along with the low loot patches instead.
 <MoMod.esm
 <% {{BASH: Relev}}
 <" monsterrach.esp
@@ -171,16 +175,17 @@ Moddable Unique Weps.esm
 <: OldWorldBlues.esm and More Perks.esm
 <More Traits.esm
 <More Challenges.esm
-<AWorldOfPain(Preview).esm
-<% {{BASH: Invent, Deflst}}
-<AWorldOfPain(LowLoot).esm
-<? Outdated. Consider using the latest version along with the low loot patches instead.
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
 ACM Fem Fatales of FO3.esm
 ACMFemFatalesMore.esm
 NPC Project.esm
 NSkies - Vanilla Edition.esm
+% {{BASH: C.Climate, C.Light}}
+? Choose only one of NSkies URWLified.esm, not both
+NSkies URWLified.esm
+% {{BASH: C.Climate, C.Light}}
+? Choose only one of NSkies - Vanilla Edition.esm, not both
 NV Child - Shojo Headgear.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
@@ -196,6 +201,7 @@ Primary Needs HUD.esm
 ReactivePeople.esm
 rePopulated Wasteland.esm
 RH_IRONSIGHTS_NV.esm
+RobCo Certified.esm
 Run the Lucky 38.esm
 RZW_Master.esm
 RZW_Television.esm
@@ -308,6 +314,10 @@ nVamp - Vaernus's Voracious Vermin.esm
 >BoulderCityFaceliftProject.esm
 >dangame.esm
 >The Roost.esm
+>AWorldOfPain(Preview).esm
+>% {{BASH: Invent, Deflst}}
+>AWorldOfPain(LowLoot).esm
+>? Outdated. Consider using the latest version along with the low loot patches instead.
 >MoMod.esm
 >% {{BASH: Relev}}
 >" monsterrach.esp
@@ -322,10 +332,6 @@ nVamp - Vaernus's Voracious Vermin.esm
 >: HonestHearts.esm and Weapon Mod Expansion.esm
 >WME - Old World Blues.esm
 >: OldWorldBlues.esm and Weapon Mod Expansion.esm
->AWorldOfPain(Preview).esm
->% {{BASH: Invent, Deflst}}
->AWorldOfPain(LowLoot).esm
->? Outdated. Consider using the latest version along with the low loot patches instead.
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
@@ -338,6 +344,7 @@ Shojo Race Vegas.esm
 : Lings.esm
 AngelicaRace.esm
 AngelPark.esm
+CodeOfSteelBase.esm
 DFB - Random Encounters.esm
 NV GameStabilizerA8.esm
 % {{BASH: NoMerge}}
@@ -571,6 +578,7 @@ DynamiCamera.esp
 EZ_Force_Killable_NormalMode.esp
 EZ_GLUE.esp
 FairyRadar.esp
+FPSWeaponWheel.esp
 Further3rdPersonCamera.esp
 HUD Extended.esp
 HUD Extended - Ambient Temperature.esp
@@ -618,6 +626,8 @@ Roleplay Start 1.2.esp
 \BeginGroup\: Faces
 \-----------
 188 Trading Post Revisited.esp
+% {{BASH: NpcFaces}}
+A Better Veronica.esp
 % {{BASH: NpcFaces}}
 Bitter Springs Revisited.esp
 % {{BASH: NpcFaces}}
@@ -754,12 +764,12 @@ monsterranch.esp
 % {{BASH: Relev}}
 " MoMod.esm
 ? Outdated. Consider Updating.
-AWOPMonsterPatch.esp
-: AWorldOfPain(Preview).esm and MoMod.esm
-AWOP-MoMod.esp
-: AWorldOfPain(Preview).esm and MoMod.esm
 IWS-MoMod.esp
 : IWS-Core.esm and MoMod.esm
+AWOP-MoMod.esp
+: AWorldOfPain(Preview).esm and MoMod.esm
+AWOPMonsterPatch.esp
+: AWorldOfPain(Preview).esm and MoMod.esm
 MoMod-Aliens.esp
 : MoMod.esm
 MoMod-Terminators.esp
@@ -939,6 +949,7 @@ RumbleZones.esp
 : MoMod.esm
 PoseidonResearchFacility.esp
 PSSignRemoval.esp
+ranger substation kestral.esp
 RedRockRanch.esp
 RustTownV1-1.esp
 s7oMolesWell.esp
@@ -1119,6 +1130,17 @@ LinkesAuge - Retexture edits.esp
 vertibirds & toxic cave.esp
 \EndGroup\\
 
+\BeginGroup\: New Vegas Replayability
+\-----------
+NVReplayabilityByDandys.esp
+NVReplayabilityByDandysV1.100.esp
+NVReplayabilityByDandysV1.200.esp
+NVReplayabilityByDandysV1.300.esp
+NVReplayabilityByDandysV1.5000.esp
+NVReplayabilityByDandysV1.600.esp
+NVReplayabilityByDandysV1.700.esp
+\EndGroup\\
+
 \BeginGroup\: Frontsalats Modular Mods and Tweaks
 \-----------
 NoWeaponZoom.esp
@@ -1233,17 +1255,6 @@ NEVAX - WAFFEN.esp
 % {{BASH: Deflst, Relev}}
 NEVAX - WENIGER GEGENSTAENDE.esp
 NEVAX - WENIGER MUNITION.esp
-\EndGroup\\
-
-\BeginGroup\: New Vegas Replayability
-\-----------
-NVReplayabilityByDandys.esp
-NVReplayabilityByDandysV1.100.esp
-NVReplayabilityByDandysV1.200.esp
-NVReplayabilityByDandysV1.300.esp
-NVReplayabilityByDandysV1.5000.esp
-NVReplayabilityByDandysV1.600.esp
-NVReplayabilityByDandysV1.700.esp
 \EndGroup\\
 
 \BeginGroup\: Puce Moose Tweak and Balance Center
@@ -1580,6 +1591,8 @@ Bobbleheads - Cases_v1.2a.esp
 Bobbleheads - Hidden_v1.2.esp
 Bobbleheads - Not Hidden_v1.2.esp
 CharacterBackgrounds.esp
+CodeofSteelQuests.esp
+: CodeOfSteelBase.esm
 Continue After End.esp
 Dog_City3.esp
 Express Delivery.esp
@@ -1624,6 +1637,8 @@ Zombie Apocalypse.esp
 1ASS RPG, Extra.esp
 AlternativeSniperPerk.esp
 AltSpotterPerk_v1.esp
+BCPerkPack.esp
+BCPerksRebalanced.esp
 Boones Spotter Perk Enhanced.esp
 ChildAtHeartPerk.esp
 Calm_Heart_Fix.esp
@@ -1633,6 +1648,7 @@ Detect Traps - Perk.esp
 EpF-BetterPerkDescriptions.esp
 Expanded Traits.esp
 FO2 TRAITS.esp
+fo3 perks alt..esp
 Four Traits v1.esp
 Free Wild Wasteland.esp
 FreakinLaserBeams_Perk_1_2.esp
@@ -1682,10 +1698,12 @@ OutofVATS.esp
 Passive Animals & Critters - A Perk Suite.esp
 psychoelf traits 1.esp
 Predator Sneak.esp
+professionallistfix.esp
 pyFourEyesFix - w FX.esp
 pyFourEyesFix.esp
 QuickerDrawOriginal.esp
 Search & Mark 4 Adam The Duck.esp
+slowlearnertrait_50.esp
 SnowGlobePerks.esp
 SnowGlobePerks_SkillsOnly.esp
 Supercharged Traits - Perks.esp
@@ -2063,6 +2081,8 @@ ImprovedWorkbench.esp
 IntuitiveRealisticCooking.esp
 jerky.esp
 LFox Missing Ammo Recipes.esp
+LFox Missing Ammo Recipes HH DLC.esp
+: LFox Missing Ammo Recipes.esp and HonestHearts.esm
 LegendaryHunter.esp
 Metal Squeezer.esp
 MyFirstCookbook.esp
@@ -2099,6 +2119,7 @@ WeaponModRecipes.esp
 WeaponModRecipesA.esp
 WeaponModRecipesS.esp
 WeaponModRecipesR.esp
+Wonder Meat.esp
 \EndGroup\\
 
 \BeginGroup\: Weapons
@@ -2293,6 +2314,9 @@ FN FAL.esp
 FN_SCAR.esp
 F03weaponpack_v1_0.esp
 FO3WeaponsRestoration.esp
+FO3WeaponsRestoration_SoundRestoration.esp
+: FO3WeaponsRestoration.esp
+? User needs to move wav files from fallout 3 sound.bsa to use.
 Selective Fire - FO3 Weapons Restoration.esp
 : Selective Fire.esm and FO3WeaponsRestoration.esp
 fownv - Sonic Screwdriver 1.0.esp
@@ -2370,6 +2394,7 @@ Moddable Unique Weps.esp
 molotov.esp
 MoraelinsExoticBladesMod.esp
 MoraelinsHalberds.esp
+MoraelinsPickaxe.esp
 MoraelinsSilentGunsMod.esp
 More Mini-Nukes.esp
 Mossberg.esp
@@ -2506,6 +2531,7 @@ ATT SamusZero.esp
 Armored Duster.esp
 LDFemalePowerArmorPack.esp
 " LDFemalePowerArmorPack.esm
+BetterMercArmors.esp
 Boacombat2glove.esp
 BodyJewelry.esp
 bornagain Book Of Steel.esp
@@ -2565,6 +2591,7 @@ DuffleBagOfGuns.esp
 DXProject.esp
 DynamicNightVision.esp
 EliteScribeRobe-left.esp
+EMR-StealthSuitMkII.esp
 EnhancedGlasses.esp
 epock.esp
 ? Meshes based off of the Type 3 Female Body.
@@ -2651,6 +2678,7 @@ LNC StealthSuit NV.esp
 Lucky Lighter.esp
 lucky Shades.esp
 LUCSA.esp
+lucsa_no_helmet.esp
 MadGear.esp
 Mantis07Reflex - Realism.esp
 Mantis07Reflex.esp
@@ -2692,6 +2720,7 @@ NVCassCleanerXOH.esp
 NVLadyoutfit1.esp
 NVLadyoutfitXOH.esp
 NVRefugee Outfits.esp
+nvspacesuit.esp
 NvTacticalVests.esp
 NWghostbodysuit.esp
 NWIxiaarmor1.esp
@@ -2817,6 +2846,8 @@ AWOP-AhztekWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND Ahzteks Weapon Overhaul.esp
 AWOP-BOEWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND Mo'.esm
+AWOP-LowNPCS.esp
+: AWorldOfPain(Preview).esm
 AWOP-LowNPCSWastelandOnly.esp
 : AWorldOfPain(Preview).esm
 AWOPCFWWeaponPatch.esp
@@ -3004,6 +3035,7 @@ Raul Repairs Everywhere - Free Repair.esp
 RexReplacerEss.esp
 % {{BASH: Graphics}}
 RHKCompanionCure.esp
+RHKGilbertCompanion.esm
 RWKNV.esp
 SecuritronCompanion.esp
 SunnyCompanion.esp
@@ -3273,11 +3305,13 @@ Half_Sneak_Attack.esp
 Head Mounted Flashlight.esp
 : FlashlightNV-LOS.esp
 FONV - Real Time Lockpicking and Hacking.esp
+fotn fix.esp
 FreakinLaserBeams_1_1.esp
 FreakinLaserBeams_1_2.esp
 FreakinLaserBeams_Grad_1_2.esp
 FreakinLaserBeams_Light_1_2.esp
 Full_SPECIAL_Stats_Overhaul_Mod.esp
+gamesettings.esp
 Grays_EverybodyBleeds.esp
 GrenadeHotkey.esp
 BIS - Grenade Hotkey.esp
@@ -3398,6 +3432,7 @@ Permanent_Weapon_Shells_Very_Heavy.esp
 Permanent_Weapon_Shells_Very_Light.esp
 ? Choose only one of Permanent_Weapon_Shells esps, not both
 psychoelf perk lev stripping.esp
+psychoelfs anti anti cheat.esp
 Respawn12Hours.esp
 Respawn12HoursImproved.esp
 Respawn1Month.esp
@@ -3962,6 +3997,7 @@ Ambient Temperature - Nevada Skies.esp
 Nevada Skies - URWLified.esp
 % {{BASH: C.Climate, C.Light}}
 " Nevada Skies.esp, Nevada Skies - URWLHH.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+? Outdated. Please update via the Nevada Skies download page.
 BIS - Nevada Skies URWLified.esp
 : Nevada Skies - URWLified.esp
 Ambient Temperature - URWLified Nevada Skies.esp
@@ -3970,8 +4006,18 @@ Nevada Skies - URWLHH.esp
 % {{BASH: C.Climate, C.Light}}
 : HonestHearts.esm
 " Nevada Skies.esp, Nevada Skies - URWLified.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+? Outdated. Please update via the Nevada Skies download page.
 NSkies - URWLNV.esp
 ? Outdated. Please update via the Nevada Skies download page.
+NSkies URWLifiedOWB.esp
+% {{BASH: C.Climate, C.Light}}
+: NSkies URWLified.esm
+NSkies URWLifiedHH.esp
+% {{BASH: C.Climate, C.Light}}
+: NSkies URWLified.esm
+NSkies URWLifiedDM.esp
+% {{BASH: C.Climate, C.Light}}
+: NSkies URWLified.esm
 Project Westland vision.esp
 % {{BASH: C.Climate, C.Light}}
 Project Westland vision-ZionHH.esp
@@ -4000,6 +4046,9 @@ ILO-RI-Dead Money.esp
 ILO-RI-Honest Hearts.esp
 % {{BASH: C.Light}}
 : HonestHearts.esm
+ILO-RI-Rust Town.esp
+% {{BASH: C.Light}}
+: RustTownV1-1.esp
 ILO-RI-PipBoy Light.esp
 Interior Lighting Overhaul-Darker.esp
 ? Outdated.
@@ -4198,6 +4247,8 @@ tkEyelashesFNV.esp
 " conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
 tkEyelashesFNV_FemalesOnly.esp
 " conflicts with other race-altering mods, such as mods that add hairstyles or beauty packs
+playableghoul.esp
+playableghouldeadmoney.esp
 ShilohDS-Desert Succubus CORE.esp
 Shojo Neko.esp
 : Shojo Race Vegas.esm
