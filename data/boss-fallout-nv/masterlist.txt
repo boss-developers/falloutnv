@@ -2341,6 +2341,7 @@ Classic YK42b Pulse Rifle.esp
 clintsfistfulrevolver.esp
 ColtM1911.esp
 ColtM1911NoAmmo.esp
+Darkfiregaming T-Shirt & Weapon Bonuses Mod..esp
 Devil'sMistressReturns.esp
 DiscontinuedLegionArmorSet.esp
 DiscontinuedNCRArmorSet.esp
