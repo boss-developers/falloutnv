@@ -68,7 +68,9 @@ CaravanPack.esm
 <% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 <? Old, update to NVCE.
 <NVCE Main.esm
-<% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
+<% {{BASH: Actors.ACBS, Actors.AIPackages, Invent, NPC.Race, NpcFaces}}
+<NVCE Main (Faces Only).esm
+<% {{BASH: Actors.ACBS, Deactivate, Filter, NPC.Race, NpcFaces}}
 Ambient Temperature.esm
 AmmoSpreadEffectFixer.esm
 : New Vegas Script Extender
@@ -126,6 +128,7 @@ Decrucifixion.esm
 Detect Traps.esm
 Docs Sexy Nurse.esm
 drgNV - Melissa Companion.esm
+EnergyShield.esm
 Eve.esm
 IF (A4084FA6|"Eve.esm") SAY: Recommended that you upgrade to the official EVE FNV mod.
 IFNOT (A4084FA6|"Eve.esm") REQ: RRCompanionVault.esm
@@ -197,7 +200,9 @@ NSkies URWLified.esm
 NV Child - Shojo Headgear.esm
 NVInteriors_Core.esm
 NVInteriors_WastelandEditon.esm
+? Choose only one of NVInteriors_WastelandEditon.esm and NVInteriors_WastelandEditonAWOP.esm, not both
 NVInteriors_WastelandEditonAWOP.esm
+? Choose only one of NVInteriors_WastelandEditon.esm and NVInteriors_WastelandEditonAWOP.esm, not both
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 NVR-Strip.esm
@@ -262,7 +267,9 @@ aHUD.esm
 >% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 >? Old, update to NVCE.
 >NVCE Main.esm
->% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
+>% {{BASH: Actors.ACBS, Actors.AIPackages, Invent, NPC.Race, NpcFaces}}
+>NVCE Main (Faces Only).esm
+>% {{BASH: Actors.ACBS, Deactivate, Filter, NPC.Race, NpcFaces}}
 >IWS-Core.esm
 >% {{BASH: Delev}}
 >Tales from the Burning Sands.esm
@@ -1032,6 +1039,8 @@ SierraMadrev2.1.esp
 SMOTS-EC patch.esp
 Sniper Towers.esp
 Silverpeak Bunker.esp
+Project Nevada - Silverpeak Patch.esp
+: Silverpeak Bunker.esp, Project Nevada - Core.esm and Project Nevada - Equipment.esm
 sjs_ultraluxereplacer.esp
 SLA_01_wall.esp
 SLA_02a_fort.esp
@@ -1648,6 +1657,7 @@ Machienzo-RadioNewVegasFixv11.esp
 NewVegasJazz_1.0.esp
 PA Footsteps.esp
 R.A.C.E. Station.esp
+Radio Free Wasteland.esp
 RadioClassical.esp
 RadioNewVegas_Balancing.esp
 RNVExtended[20]v3b1.esp
@@ -1928,6 +1938,16 @@ Druged Effects.esp
 Duke Patricks - Improved Magazines.esp
 DumpIt.esp
 EmptyBottles.esp
+EnergyShield_NV.esp
+: EnergyShield.esm
+EnergyShield_DM.esp
+: EnergyShield.esm and DeadMoney.esm
+EnergyShield_HH.esp
+: EnergyShield.esm and HonestHearts.esm
+EnergyShield_OWB.esp
+: EnergyShield.esm and OldWorldBlues.esm
+EnergyShield_LR.esp
+: EnergyShield.esm and LonesomeRoad.esm
 EnhancedSniperAmmo.esp
 ExpansionVendors.esp
 FalloutNVCheatTerminal.esp
@@ -2779,10 +2799,12 @@ Great Khan Armor no faction.esp
 GrimySuitM+DirtySuitF.esp
 GrimySuitMFix.esp
 Grim Armor - NV.esp
+HeadGogglesNonReplacer.esp
 Hereticus Faction Armors Fading.esp
 % {{BASH: Names}}
 HDTshop.esp
 HHType3tribalhands.esp
+% {{BASH:Body-F}}
 HitmanSuitNV-B.esp
 HomeTeleport.esp
 Honest Hearts Armor Playable.esp
@@ -2913,6 +2935,9 @@ Rivens Costume Mod.esp
 Roberts_NewVegas.esp
 Sack of Holding-NV.esp
 SBVenomousArmor.esp
+Seeker Armor.esp
+Seeker Veronica.esp
+% {{BASH: Invent}}
 sexysleepwear.esp
 SKINNY in Vegas Basic.esp
 Slofs Boners - ENG.esp
