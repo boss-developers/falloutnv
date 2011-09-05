@@ -613,6 +613,7 @@ CFWWpnDmgIncTweaker.esp
 Choose_XP.esp
 Corvega -Electrocity.esp
 : Corvega.esm and ELECTRO-CITY - CompletedWorkorders.esm
+DuggelzMenuFix.esp
 DynamiCamera.esp
 EZ_Force_Killable_NormalMode.esp
 EZ_GLUE.esp
@@ -2122,6 +2123,7 @@ SelectiveFire - retakrew7.esp
 : Selective Fire.esm
 Sex Try.esp
 Smalltalk.esp
+Sierra Madre Vending Addon.esp
 SignatureWeapons.esp
 Silver Rush inventory expansion.esp
 SleepHeath.esp
@@ -3353,6 +3355,9 @@ BetterImplantRegen5.esp
 BetterMerchantCaravanLimit.esp
 Bindable Pipboy Light R2.esp
 BlurKiller.esp
+BPD Revised.esp
+BPD Revised MoMod.esp
+: MoMod.esm
 Carrying Capacity Increase.esp
 CarryMult.esp
 noautoaim.esp
@@ -3503,6 +3508,7 @@ GooBeGone.esp
 Half_Sneak_Attack.esp
 Head Mounted Flashlight.esp
 : FlashlightNV-LOS.esp
+Health Balance 1_0.esp
 FONV - Real Time Lockpicking and Hacking.esp
 fotn fix.esp
 FreakinLaserBeams_1_1.esp
