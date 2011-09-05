@@ -128,6 +128,7 @@ Decrucifixion.esm
 Detect Traps.esm
 Docs Sexy Nurse.esm
 drgNV - Melissa Companion.esm
+DXEAmigoCafeNV.esm
 EnergyShield.esm
 Eve.esm
 IF (A4084FA6|"Eve.esm") SAY: Recommended that you upgrade to the official EVE FNV mod.
@@ -1699,7 +1700,6 @@ Free Play after MQ.esp
 Free the Slaves.esp
 Goodsprings Filler.esp
 Goodsprings Goodstart.esp
-Identity Crisis Part 2 - Long Night.esp
 LawlessVegas.esp
 lexx-q-warehouse-war-house.esp
 SilentStruggleV1.esp
@@ -3167,6 +3167,7 @@ DeanMoneyCompanionsDeEquipandRebalance.esp
 drgNV - Marcus Companion.esp
 drgNV - Melissa Companion (Lings Hairstyle Add-On).esp
 drgNV - Melissa Companion (Recruitment Fix).esp
+DXEAmigoCafeNV.esp
 ED-E 3D Sound.esp
 ede-e_alert_replacement.esp
 ED-E Burr.esp
