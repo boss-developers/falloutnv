@@ -1360,7 +1360,7 @@ PMT - More Demanding Hardcore.esp
 % {{BASH: Stats}}
 PMT - Nastier mines and grenades.esp
 PMT - Destructible Ordnance.esp
-% {{BASH: Destructable}}
+% {{BASH: Destructible}}
 PMT - Destructible Ordnance Reduced Ammo.esp
 PMT - Explosive Robots.esp
 PMT - Deadlier Combat.esp
