@@ -71,6 +71,22 @@ CaravanPack.esm
 <% {{BASH: Actors.ACBS, Actors.AIPackages, Invent, NPC.Race, NpcFaces}}
 <NVCE Main (Faces Only).esm
 <% {{BASH: Actors.ACBS, Deactivate, Filter, NPC.Race, NpcFaces}}
+OFT_Merge_All.esm
+" All other OFT plugins are merged with it.
+OFT_Merge_Base.esm
+" OFT_Merge_All.esm
+" OFT_Base.esp
+" OFT_Base_Interiors.esp
+" OFT_IWR_Base.esp
+" OFT_Coordinate_Finder.esp
+OFT_Merge_HonestHearts.esm
+" OFT_Merge_All.esm
+" OFT_HonestHearts.esp
+" OFT_HonestHearts_Interiors.esp
+OFT_Merge_OldWorldBlues.esm
+" OFT_Merge_All.esm
+" OFT_OldWorldBlues.esp
+" OFT_IWR_OldWorldBlues.esp
 Ambient Temperature.esm
 AmmoSpreadEffectFixer.esm
 : New Vegas Script Extender
@@ -80,6 +96,7 @@ Companion Core.esm
 IWR.esm
 ? Loaded early to let other mods override boundaries if needed.
 ? Does the same thing as OWNB - Open World.esm; Use one or the other.
+" These resources are now in OFT_IWR_Base.esp
 <IWS-Core.esm
 <% {{BASH: Delev}}
 <? Loaded early to let other mods override spawn points if needed.
@@ -102,6 +119,7 @@ AccuRifles.esm
 : NVSE
 Advanced Recon Tech.esm
 AEVegas.esm
+Afterschool Special.esm
 Alice Armor.esm
 BinocularsOverhaul.esm
 <BoulderCityFaceliftProject.esm
@@ -523,6 +541,33 @@ Weathered10mmFixes.esp
 WorkingCrimsonCaravanTraders.esp
 WRObjectFixes.esp
 PO10mmFix.esp
+
+\BeginGroup\: Operation Fixed Terrain
+OFT_Base.esp
+" OFT_Merge_All.esm
+" OFT_Merge_Base.esm
+OFT_Base_Interiors.esp
+" OFT_Merge_All.esm
+" OFT_Merge_Base.esm
+OFT_HonestHearts.esp
+" OFT_Merge_All.esm
+" OFT_Merge_HonestHearts.esm
+OFT_HonestHearts_Interiors.esp
+" OFT_Merge_All.esm
+" OFT_Merge_HonestHearts.esm
+OFT_OldWorldBlues.esp
+" OFT_Merge_All.esm
+" OFT_Merge_OldWorldBlues.esm
+OFT_IWR_Base.esp
+" OFT_Merge_All.esm
+" OFT_Merge_Base.esm
+OFT_IWR_OldWorldBlues.esp
+" OFT_Merge_All.esm
+" OFT_Merge_OldWorldBlues.esm
+OFT_Coordinate_Finder.esp
+" OFT_Merge_All.esm
+" OFT_Merge_Base.esm
+\EndGroup\\
 \EndGroup\\
 
 \BeginGroup\: Early Loading Mods
@@ -626,6 +671,7 @@ HUD Extended - Ambient Temperature.esp
 : Ambient Temperature.esm
 IWR - Rebuilt.esp
 : IWR.esm
+" Deprecated if using OFT_Base.esp
 LessIntrusiveKillCam.esp
 IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
@@ -637,8 +683,6 @@ NVR - Extra Actions Toggle - Crouch.esp
 NVR - Extra Actions Toggle - Walk.esp
 OperationFixedTerrain.esp
 ? Outdated. Consider Updating.
-OFT_Base.esp
-OFT_Base_Interiors.esp
 Primary Needs HUD.esp
 Primary Needs HUD-Kick Start Fix.esp
 Purge Cell Buffers.esp
@@ -946,6 +990,7 @@ GoodspringsHome.esp
 GoodSprings Home.esp
 GoodspringsSewer-1.22.esp
 Goodsprings Shack.esp
+GSWeaponsCache.esp
 GunRunnersExpandedV3.3.esp
 ? Outdated. Consider Updating.
 GunRunnersExpandedV3.4.esp
