@@ -50,6 +50,7 @@ DeadMoney.esm
 % {{BASH: Deflst}}
 HonestHearts.esm
 OldWorldBlues.esm
+LonesomeRoad.esm
 Community Bugfix Compilation Patch.esm
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 CBC Dead Money Patch.esm
@@ -990,7 +991,6 @@ GoodspringsHome.esp
 GoodSprings Home.esp
 GoodspringsSewer-1.22.esp
 Goodsprings Shack.esp
-GSWeaponsCache.esp
 GunRunnersExpandedV3.3.esp
 ? Outdated. Consider Updating.
 GunRunnersExpandedV3.4.esp
@@ -1976,6 +1976,8 @@ DFB - Random Encounters - Old World Blues Additions.esp
 : DFB - Random Encounters.esm and OldWorldBlues.esm
 DFB - Random Encounters - DIfficulty Fix.esp
 : DFB - Random Encounters.esm
+DFB - Random Encounters - Remove Goodsprings Spawns.esp
+: DFB - Random Encounters.esm
 DM_ener_ammo.esp
 DrugsAreBadMKay.esp
 DK_BulletTime_NV.esp
@@ -2011,6 +2013,8 @@ Frequency - Old World Blues Patch.esp
 : Frequency.esm and OldWorldBlues.esm
 Frequency - CFWNV Patch.esp
 : Frequency.esm and CFWNV.esm
+Frequency - Project Nevada Patch.esp
+: Frequency.esm and Project Nevada - Core.esm and Project Nevada - Equipment.esm
 gambling.esp
 Hardcore canteen.esp
 Hardcore (Double Rates).esp
@@ -2852,6 +2856,10 @@ Hereticus Faction Armors Fading.esp
 HDTshop.esp
 HHType3tribalhands.esp
 % {{BASH:Body-F}}
+Hirez Ranger Armor.esp
+VT Custom Ranger Gear.esp
+VT Custom Ranger Gear - Honest Hearts.esp
+: HonestHearts.esm
 HitmanSuitNV-B.esp
 HomeTeleport.esp
 Honest Hearts Armor Playable.esp
@@ -3835,6 +3843,9 @@ WMX-AWOP Patch.esp
 Frequency - WMX Patch.esp
 % {{BASH: Graphics}}
 : Frequency.esm and WeaponModsExpanded.esp
+Frequency - PN+WMX Patch.esp
+% {{BASH: Graphics}}
+: Frequency.esm and Project Nevada - Equipment.esm and WeaponModsExpanded.esp and Project Nevada - WMX.esp and Frequency - Project Nevada Patch.esp and Frequency - WMX Patch.esp
 BIS - Weapon Mods Expanded (WMX).esp
 : WeaponModsExpanded.esp
 WeaponModsExpanded_FO3WeaponsRestoration.esp
@@ -4148,6 +4159,13 @@ WMVM-WME-HH.esp
 : HonestHearts.esm, WME - Honest Hearts.esm, and WMVM-HH.esp
 WMVM-WME-OWB.esp
 : OldWorldBlues.esm, WME - Old World Blues.esm, and WMVM-OWB.esp
+GSWeaponsCache.esp
+GSWeaponsCache-WMX.esp
+GSWC-WMX-ModernWeapons.esp
+GSWC-WMX-DeadMoney.esp
+GSWC-WMX-HonestHearts.esp
+GSWC-WMX-OldWorldBlues.esp
+GSWC-PNCyberMods.esp
 \EndGroup\\
 
 \BeginGroup\: NV Game Stabilizer
@@ -4328,6 +4346,9 @@ ILO-RI-Dead Money.esp
 ILO-RI-Honest Hearts.esp
 % {{BASH: C.Light}}
 : HonestHearts.esm
+ILO-RI-Old World Blues.esp
+% {{BASH: C.Light}}
+: OldWorldBlues.esm
 ILO-RI-Rust Town.esp
 % {{BASH: C.Light}}
 : RustTownV1-1.esp
