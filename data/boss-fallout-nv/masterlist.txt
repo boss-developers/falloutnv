@@ -251,6 +251,7 @@ Sortomatic.esm
 SpeedyResources.esm
 SunnyCompanion.esm
 ? Outdated. Consider Updating.
+Survivalist Bunker.esm
 TAC-SHOP.esm
 TalonPack.esm
 <Tales from the Burning Sands.esm
@@ -596,6 +597,12 @@ BIS - Dead Money.esp
 BIS - Honest Hearts.esp
 % {{BASH: Names}}
 : HonestHearts.esm
+BIS - Old World Blues.esp
+% {{BASH: Names}}
+: OldWorldBlues.esm
+BIS - Lonesome Road.esp
+% {{BASH: Names}}
+: LonesomeRoad.esm
 BIS - Community Bugfix Comp ESM.esp
 % {{BASH: Names}}
 : Community Bugfix Compilation Patch.esm
@@ -1228,12 +1235,6 @@ HAM-SixHands.esp
 
 \BeginGroup\: FOOK
 \-----------
-BIS - FOOK - New Vegas.esp
-% {{BASH: Names}}
-: FOOK - New Vegas.esm
-BIS - FOOK - New Vegas DLCs.esp
-% {{BASH: Names}}
-: DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, and FOOK - New Vegas DLCs.esm
 FOOK - New Vegas.esp
 % {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 FOOK - New Vegas DLCs.esp
@@ -1241,6 +1242,12 @@ FOOK - New Vegas DLCs.esp
 FOOK - No Loose Files.esp
 FOOK - No Loose Files DLCs.esp
 : DeadMoney.esm and HonestHearts.esm
+BIS - FOOK - New Vegas.esp
+% {{BASH: Names}}
+: FOOK - New Vegas.esm
+BIS - FOOK - New Vegas DLCs.esp
+% {{BASH: Names}}
+: DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, and FOOK - New Vegas DLCs.esm
 FOOK - Lings.esp
 Selective Fire - FOOK NV.esp
 : FOOK - New Vegas.esm
