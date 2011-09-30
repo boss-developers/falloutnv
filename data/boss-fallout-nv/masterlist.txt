@@ -51,6 +51,7 @@ DeadMoney.esm
 HonestHearts.esm
 OldWorldBlues.esm
 LonesomeRoad.esm
+GunRunnersArsenal.esm
 Community Bugfix Compilation Patch.esm
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 CBC Dead Money Patch.esm
@@ -59,6 +60,7 @@ ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
+Machienzo-PreOrdAlt#1.esm
 <Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 <% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
 <? Old, update to NVCE.
@@ -425,6 +427,8 @@ Compiled Patch - Old World Blues.esp
 : OldWorldBlues.esm
 Compiled Patch - OldWorldBlues.esp
 : OldWorldBlues.esm
+Compiled Patch - LonesomeRoad.esp
+: LonesomeRoad.esm
 26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -530,6 +534,7 @@ Vance's Gun Quest Full Patch.esp
 Vance's Gun Quest Patch.esp
 vangraf fix.esp
 VanGraff Vendor Fix.esp
+VanGraffHostilityQuestFix.esp
 Vault11HouseFix.esp
 Vault22ElevatorFix.esp
 Vault3DoorNameFix.esp
@@ -728,6 +733,10 @@ A Better Boone.esp
 % {{BASH: NpcFaces, Invent}}
 A Better Cass.esp
 % {{BASH: NpcFaces, Invent}}
+A Better Cass - Rearmed SG.esp
+% {{BASH: Graphics, Sound, Stats}}
+A Better Cass - Rearmed M1911.esp
+% {{BASH: Graphics, Sound, Stats}}
 A Better Veronica.esp
 % {{BASH: NpcFaces, Invent}}
 Bitter Springs Revisited.esp
@@ -1169,6 +1178,7 @@ New Vegas Map Markers.esp
 NewStripMapMarkers.esp
 NewVegasExtendedMapMarkers.esp
 NewVegasStrip&FreesideMarkers_v2.esp
+CampMcCarranSupplyShackMarker.esp
 
 \BeginGroup\: New Vegas Restoration
 \-----------
@@ -1337,7 +1347,7 @@ M.M.A.T Repair Module.esp
 M.M.A.T - Repair Module.esp
 \EndGroup\\
 
-\BeginGroup\: Mo Beta
+\BeginGroup\: Book Of Earache
 \-----------
 Mo'Guns.esp
 : Mo'.esm
@@ -1353,7 +1363,12 @@ Mo'o'less.esp
 : Mo'.esm
 : Lings.esm
 : Mo'Suite.esp
-
+Mo'AWOP.esp
+: AWorldOfPain(Preview).esm
+Mo'IPP.esp
+Mo'Uniques.esp
+Mo'haveAmmoDepot.esp
+Mo'DLC.esp
 \EndGroup\\
 
 \BeginGroup\: NEVAX - New Vegas Expanded (German)
@@ -1704,6 +1719,12 @@ Improved Sound FX - HH Sharing Fix.esp
 Improved Sound FX - OWB Sharing Fix.esp
 % {{BASH: Sound}}
 : OldWorldBlues.esm
+Improved Sound FX - LR Sharing Fix.esp
+% {{BASH: Sound}}
+: LonesomeRoad.esm
+Improved Sound FX - Project Nevada.esp
+% {{BASH: Sound}}
+: Project Nevada - Core.esm
 LouderGuns.esp
 % {{BASH: Sound}}
 Machienzo-RadioNewVegasFix.esp
@@ -2204,6 +2225,8 @@ Too Many Quest Markers - Honest Hearts.esp
 : HonestHearts.esm
 Too Many Quest Markers - Old World Blues.esp
 : OldWorldBlues.esm
+Too Many Quest Markers - Lonesome Road.esp
+: LonesomeRoad.esm
 Unique Items & Collectables.esp
 Collectable NES Games Bonus Pack.esp
 Vinyl Collection Bonus Pack.esp
@@ -2463,6 +2486,8 @@ CaravanShotgunReplacer.es
 Cheeco88'sUniqueWeapons.esp
 Chey Tac M200.esp
 : CaliberX's Meshes and Textures for .408 ammo AND/OR Caliber.esm depending on the .esp you are using. Please read carefully when choosing one.
+christinecos.esp
+% {{BASH: Graphics}}
 Classic energy weapons.esp
 Classic M72 Gauss Rifle.esp
 Classic Plasma Grenade.esp
@@ -2988,6 +3013,7 @@ RadiiHairFix.esp
 : OldWorldBlues.esm
 Realistic Power Armor.esp
 RealisticStealthArmor.esp
+Rebreather.Headgear.NonquestV1.1.esp
 Repairable_NCR_Combat_Armor_Main.esp
 Repairable_NCR_Combat_Armor_Alt.esp
 ReworkStuff.esp
@@ -3070,18 +3096,24 @@ Machienzo - NPC Cosmetic Fixes DLC03.esp
 : OldWorldBlues.esm
 ? Old, update to NVCE.
 NVCE DLC01.esp
+% {{BASH:Actors.ACBS,NPC.Race,NpcFaces}}
 : DeadMoney.esm
 NVCE DLC02.esp
+% {{BASH:Actors.ACBS,Invent,NPC.Race,NpcFaces}}
 : HonestHearts.esm
 NVCE DLC03.esp
+% {{BASH:Actors.ACBS,Body-M,NpcFaces}}
 : OldWorldBlues.esm
-
+NVCE DLC04.esp
+% {{BASH:Actors.ACBS,NpcFaces}}
+: LonesomeRoad.esm
 Lore version.esp
 : New Vegas Redesigned.esm
 \EndGroup\\
 
 \BeginGroup\: Middle Misc
 \-----------
+AWOP-BOE-DLC.esp
 AWOPLowRobots.esp
 " AWOPVeryLowRobots.esp
 : AWorldOfPain(Preview).esm
@@ -3128,16 +3160,6 @@ LogicalReputationShifts.esp
 PrimmReputation.esp
 Mercy Killing Karma.esp
 Mercy Killing Karma v2.0.esp
-Mo'AWOP.esp
-: A World of Pain.
-Mo'Gals.esp
-: Anthony Lings Coiffure - Hair Eyes Lashes for FONV.
-Mo'Guns.esp
-Mo'IPP.esp
-Mo'Suite.esp
-Mo'SunnyCompanion.esp
-: Sunny Smiles Companion.
-Mo'Uniques.esp
 nokarmalossforstealing.esp
 nv_hats_repair.esp
 nv_hats_repair_morehealth.esp
@@ -3294,9 +3316,9 @@ RobCo Certified Friendly Hit Fixer.esp
 Ryl_VeronicaTweaks.esp
 SecuritronCompanion.esp
 SunnyCompanion.esp
-Tactical Squad.esp
 Mo'SunnyCompanion.esp
 : Mo'.esm, Lings.esm, Mo'Suite.esp, and SunnyCompanion.esp
+Tactical Squad.esp
 UnlimitedCompanions.esp
 Unlimited Companions.esp
 Veronica.esp
@@ -3522,12 +3544,17 @@ dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
 Delay DLC - DM + HH + OWB.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm
+? Old, update to Delay DLC - DM + HH + OWB + LR.esp
+Delay DLC - DM + HH + OWB + LR.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 Delay DLC - Dead Money.esp
 : DeadMoney.esm
 Delay DLC - Honest Hearts.esp
 : HonestHearts.esm
 Delay DLC - Old World Blues.esp
 : OldWorldBlues.esm
+Delay DLC - Lonesome Road.esp
+: LonesomeRoad.esm
 DM-NoLvlMsg.esp
 : DeadMoney.esm
 Dead Money - Automatic Rifle fix.esp
@@ -3850,15 +3877,14 @@ WMX-AWOP Patch.esp
 Frequency - WMX Patch.esp
 % {{BASH: Graphics}}
 : Frequency.esm and WeaponModsExpanded.esp
-Frequency - PN+WMX Patch.esp
-% {{BASH: Graphics}}
-: Frequency.esm and Project Nevada - Equipment.esm and WeaponModsExpanded.esp and Project Nevada - WMX.esp and Frequency - Project Nevada Patch.esp and Frequency - WMX Patch.esp
 BIS - Weapon Mods Expanded (WMX).esp
 : WeaponModsExpanded.esp
 WeaponModsExpanded_FO3WeaponsRestoration.esp
 : WeaponModsExpanded.esp and FO3WeaponsRestoration.esp
 WMX-FOOKNV CP.esp
 : WeaponModsExpanded.esp and FOOK - New Vegas.esp
+BIS - WMX-FOOKNV CP.esp
+: BIS - Brumbek's Inventory Sorting.esp, WMX-FOOKNV CP.esp
 WMX-ShotgunCommando.esp
 : WeaponModsExpanded.esp and Shotgun Commando.esp
 " WMX-Arwen_NV_Realism.esp
@@ -3868,6 +3894,9 @@ WMX-Arwen_NV_Realism.esp
 Project Nevada - WMX.esp
 % {{BASH: Graphics, Invent, Names, WeaponMods}}
 : WeaponModsExpanded.esp and Project Neavda - Core.esm and Project Nevada - Equipment.esm
+Frequency - PN+WMX Patch.esp
+% {{BASH: Graphics}}
+: Frequency.esm, Project Nevada - Equipment.esm, WeaponModsExpanded.esp, Project Nevada - WMX.esp, Frequency - Project Nevada Patch.esp, Frequency - WMX Patch.esp
 WMR_WMX_A.esp
 : WeaponModsExpanded.esp
 WMR_WMX_R.esp
@@ -3922,6 +3951,8 @@ BIS - WMX-HonestHearts.esp
 WMX-OldWorldBlues.esp
 % {{BASH: Invent}}
 : OldWorldBlues.esm, WeaponModsExpanded.esp
+BIS - WMX-OldWorldBlues.esp
+: OldWorldBlues.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-OldWorldBlues.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
 : HonestHearts.esm and WMX-HonestHearts.esp
 Improved Sound FX - WMX - OWB Sharing Fix.esp
@@ -3931,6 +3962,8 @@ WMX-ArenovalisTextures.esp
 : WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
 WMX-FOOKNV-DLCs CP.esp
 : DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp
+BIS - WMX-FOOKNV-DLCs CP.esp
+: BIS - Brumbek's Inventory Sorting.esp, WMX-FOOKNV-DLCs CP.esp
 WMX-PreOrderPackCaravan.esp
 : CaravanPack.esm and WeaponModsExpanded.esp
 BIS - WMX-PreOrderPackCaravan.esp
@@ -3941,6 +3974,8 @@ BIS - WMX-PreOrderPackMercenary.esp
 : BIS - Brumbek's Inventory Sorting.esp, MercenaryPack.esm, and WeaponModsExpanded.esp
 ScientistPackWMX.esp
 ? Choose only one of ScientistPack.esp and ScientistPackWMX.esp, not both
+Mo'Guns_WMX.esp
+AWOP-BOE-WMX.esp
 \EndGroup\\
 
 \BeginGroup\: Weapon Mod Expansion or WME
@@ -4075,6 +4110,8 @@ Project Nevada - EVE.esp
 WMEVE.esp
 : Weapon Mod Expansion.esm
 EVE_WMX.esp
+: WeaponModsExpanded.esp
+WMX-EVE.esp
 : WeaponModsExpanded.esp
 Frequency - EVE Patch.esp
 : Frequency.esm
@@ -4274,6 +4311,7 @@ Emperical Weather.esp
 " Will conflict with any other mod that changes weather, image space, and image space modifiers.
 Fellout.esp
 " Will conflict with any other mod that changes weather, image space, and image space modifiers.
+Fellout-OWB.esp
 friendofnightforfellout.esp
 ? Recommended for use with Fellout.esp
 night_and_day.esp
@@ -4343,6 +4381,8 @@ Interior Lighting Overhaul-Realistic.esp
 % {{BASH: C.Light}}
 ? Outdated. Consider Updating.
 Interior Lighting Overhaul-Realistic Interiors-Full.esp
+% {{BASH: C.Light}}
+Interior Lighting Overhaul-Realistic Interiors-Combined.esp
 % {{BASH: C.Light}}
 ILO-RI-Original Lucky38 Suite.esp
 % {{BASH: C.Light}}
