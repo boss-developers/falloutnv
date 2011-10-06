@@ -75,18 +75,22 @@ Machienzo-PreOrdAlt#1.esm
 <NVCE Main (Faces Only).esm
 <% {{BASH: Actors.ACBS, Deactivate, Filter, NPC.Race, NpcFaces}}
 OFT_Merge_All.esm
+? Old, update to latest version 3.1+.
 " All other OFT plugins are merged with it.
 OFT_Merge_Base.esm
+? Old, update to latest version 3.1+.
 " OFT_Merge_All.esm
 " OFT_Base.esp
 " OFT_Base_Interiors.esp
 " OFT_IWR_Base.esp
 " OFT_Coordinate_Finder.esp
 OFT_Merge_HonestHearts.esm
+? Old, update to latest version 3.1+.
 " OFT_Merge_All.esm
 " OFT_HonestHearts.esp
 " OFT_HonestHearts_Interiors.esp
 OFT_Merge_OldWorldBlues.esm
+? Old, update to latest version 3.1+.
 " OFT_Merge_All.esm
 " OFT_OldWorldBlues.esp
 " OFT_IWR_OldWorldBlues.esp
@@ -251,6 +255,7 @@ Selective Fire.esm
 : New Vegas Script Extender
 Sortomatic.esm
 SpeedyResources.esm
+Stalker Weapons Pack.esm
 SunnyCompanion.esm
 ? Outdated. Consider Updating.
 Survivalist Bunker.esm
@@ -271,6 +276,9 @@ WARZONES - Misanthropy Pure.esm
 <: HonestHearts.esm and Weapon Mod Expansion.esm
 <WME - Old World Blues.esm
 <: OldWorldBlues.esm and Weapon Mod Expansion.esm
+<WME - DLCs.esm
+<: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
+<" WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 WMVM.esm
 wsex.esm
 <ELECTRO-CITY - CompletedWorkorders.esm
@@ -378,6 +386,9 @@ nVamp - Vaernus's Voracious Vermin.esm
 >: HonestHearts.esm and Weapon Mod Expansion.esm
 >WME - Old World Blues.esm
 >: OldWorldBlues.esm and Weapon Mod Expansion.esm
+>WME - DLCs.esm
+>: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
+>" WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
@@ -550,30 +561,61 @@ WRObjectFixes.esp
 PO10mmFix.esp
 
 \BeginGroup\: Operation Fixed Terrain
+OFT_Merge_All.esp
+" All other OFT plugins are merged with it.
+OFT_Merge_Base.esm
+" OFT_Merge_All.esm
+" OFT_Base.esp
+" OFT_Base_Interiors.esp
+" OFT_IWR_Base.esp
+" OFT_Coordinate_Finder.esp
+OFT_Merge_HonestHearts.esm
+" OFT_Merge_All.esm
+" OFT_HonestHearts.esp
+" OFT_HonestHearts_Interiors.esp
+OFT_Merge_OldWorldBlues.esm
+" OFT_Merge_All.esm
+" OFT_OldWorldBlues.esp
+" OFT_IWR_OldWorldBlues.esp
+OFT_NoIWR_Merge_All.esp
+" OFT_Merge_All.esm
+" OFT_Base.esp
+" OFT_Base_Interiors.esp
+" OFT_HonestHearts.esp
+" OFT_HonestHearts_Interiors.esp
+" OFT_OldWorldBlues.esp
+" OFT_Coordinate_Finder.esp
+OFT_NoIWR_Merge_Base.esp
+" OFT_Merge_All.esm
+" OFT_Base.esp
+" OFT_Base_Interiors.esp
+" OFT_Coordinate_Finder.esp
 OFT_Base.esp
-" OFT_Merge_All.esm
-" OFT_Merge_Base.esm
+" OFT_Merge_All.esp
+" OFT_Merge_Base.esp
 OFT_Base_Interiors.esp
-" OFT_Merge_All.esm
-" OFT_Merge_Base.esm
+" OFT_Merge_All.esp
+" OFT_Merge_Base.esp
 OFT_HonestHearts.esp
-" OFT_Merge_All.esm
-" OFT_Merge_HonestHearts.esm
+" OFT_Merge_All.esp
+" OFT_Merge_HonestHearts.esp
 OFT_HonestHearts_Interiors.esp
-" OFT_Merge_All.esm
-" OFT_Merge_HonestHearts.esm
+" OFT_Merge_All.esp
+" OFT_Merge_HonestHearts.esp
 OFT_OldWorldBlues.esp
-" OFT_Merge_All.esm
-" OFT_Merge_OldWorldBlues.esm
+" OFT_Merge_All.esp
+" OFT_Merge_OldWorldBlues.esp
 OFT_IWR_Base.esp
-" OFT_Merge_All.esm
-" OFT_Merge_Base.esm
+" OFT_Merge_All.esp
+" OFT_Merge_Base.esp
 OFT_IWR_OldWorldBlues.esp
-" OFT_Merge_All.esm
-" OFT_Merge_OldWorldBlues.esm
+" OFT_Merge_All.esp
+" OFT_Merge_OldWorldBlues.esp
 OFT_Coordinate_Finder.esp
-" OFT_Merge_All.esm
-" OFT_Merge_Base.esm
+" OFT_Merge_All.esp
+" OFT_Merge_Base.esp
+OFT_Deutsche_Uebersetzung.esp
+: OFT_Merge_All.esp
 \EndGroup\\
 \EndGroup\\
 
@@ -684,7 +726,6 @@ HUD Extended - Ambient Temperature.esp
 : Ambient Temperature.esm
 IWR - Rebuilt.esp
 : IWR.esm
-" Deprecated if using OFT_Base.esp
 LessIntrusiveKillCam.esp
 IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
@@ -696,6 +737,9 @@ NVR - Extra Actions Toggle - Crouch.esp
 NVR - Extra Actions Toggle - Walk.esp
 OperationFixedTerrain.esp
 ? Outdated. Consider Updating.
+OFT_ElectroCity.esp
+? Outdated. Consider Updating.
+: ELECTRO-CITY - CompletedWorkorders.esm AND OperationFixedTerrain.esp
 Primary Needs HUD.esp
 Primary Needs HUD-Kick Start Fix.esp
 Purge Cell Buffers.esp
@@ -760,6 +804,7 @@ FPT EDE 2BetaVanillaBlue.esp
 FPT EDE 2BetaVanillaBrunette.esp
 FPT EDE 2BetaVanillaRedhead.esp
 FPT EDE 3 Mikoto AnnMay.esp
+FPT EDE Vanilla RinByReddimus.esp
 GrizzledBoone.esp
 Hanlon the badass 4.esp
 % {{BASH: NpcFaces}}
@@ -1012,6 +1057,8 @@ GunRunnersExpandedV3.3.esp
 GunRunnersExpandedV3.4.esp
 ? Outdated. Consider Updating.
 GunRunnersExpandedV3.5.esp
+? Outdated. Consider Updating.
+GunRunnersExpandedV4.1.esp
 GunRunnersExpanded-LoreFriendly.esp
 ? Outdated. Consider Updating.
 GunRunnersExpanded-LoreFriendly1.1.esp
@@ -1563,6 +1610,7 @@ XFO - 3ce - rarity - meds - easier.esp
 XFO - 4a - Perks - Paths.esp
 XFO - 4ba - Perks - Perk Every Level.esp
 XFO - 4bb - Perks - Two Perks Per Level.esp
+XFO - 4bb - Perks - Two per level.esp
 XFO - 5a - SPECIAL & Stats Rebalance.esp
 XFO - 5b - Skills - SP Formula Rebalance.esp
 XFO - 5c - Skills - Better Med Surv Repair.esp
@@ -1795,6 +1843,8 @@ TheCollector.esp
 TimeCapsule.esp
 TimeCapsule(NVR-Compatible).esp
 TSC Vegas Commander.esp
+TSC Big Mountain.esp
+: OldWorldBlues.esm
 War Never Changes.esp
 War Never Changes - Seven.esp
 Wasteland Explorer.esp
@@ -1832,6 +1882,7 @@ Detect Traps - Perk.esp
 EpF-BetterPerkDescriptions.esp
 Expanded Traits.esp
 FO2 TRAITS.esp
+FO3 Perks.esp
 fo3 perks alt..esp
 Four Traits v1.esp
 FourEyesDynamic.esp
@@ -1843,16 +1894,20 @@ FreakinLaserBeams_Perk_1_2.esp
 FreakinLaserBeams_Perk_Light_1_2.esp
 Guns_challenge_and_perk_fix.esp
 implants.esp
+jarelle_perk_and_traits.esp
+KarmaPerks.esp
 KDS Stronger Back Perk 100 Pounds.esp
 KDS Stronger Back Perk 200 Pounds.esp
 KDS Stronger Back Perk 500 Pounds.esp
 KDS Stronger Back Perk 1000 Pounds.esp
 Killable Children.esp
 Kobu's Free Wild Wasteland Trait.esp
+LegBloatflyPerk.esp
 LibrarianOfTheWastes.esp
 LFox Improved Regen Implant.esp
 LFox Night Vision Implant.esp
 LFox Night Vision Implant Low Brightness.esp
+LockDoorsPerk.esp
 Machine Head Perk Rank Fix v1_0.esp
 moira_perks.esp
 More Perks.esp
@@ -1869,6 +1924,7 @@ More Challenges - Original Challenges Overhaul.esp
 NinjaPerkFix.esp
 Perks per du.esp
 Power Armor Training Perk.esp
+Max special perks.esp
 MercGrenadeRifleDemoPyro.esp
 mysterious increase.esp
 NewAndImprovedPerks.esp
@@ -1886,6 +1942,7 @@ NVPerksImproved.esp
 OutofVATS.esp
 Passive Animals & Critters - A Perk Suite.esp
 Perks for Challenges.esp
+Perky Snowglobes.esp
 psychoelf traits 1.esp
 Predator Sneak.esp
 professionallistfix.esp
@@ -1911,6 +1968,8 @@ SturdyCaravanShotgunSurgeon.esp
 UnarmedAndMelee-PerkFix.esp
 Weathered10mmProfessional.esp
 WilderWasteland_SAC.esp
+WPO.esp
+: DeadMoney.esm, HonestHearts.esm and OldWorldBlues.esm
 VG0PreorderAlternative.esp
 xatmosSkillPerks.esp
 ZZZZ--APB_By_Nokturnihs.esp
@@ -2201,6 +2260,7 @@ SelectiveFire - retakrew7.esp
 Sex Try.esp
 Smalltalk.esp
 Sierra Madre Vending Addon.esp
+SignatureArmor.esp
 SignatureWeapons.esp
 Silver Rush inventory expansion.esp
 SleepHeath.esp
@@ -2559,6 +2619,8 @@ Glock18c.esp
 Glow Sticks.esp
 Gobi Rifle Enhanced.esp
 Golden Eagle.esp
+GRA Shipment.esp
+: GunRunnersArsenal.esm
 guitar.esp
 HH - 45 Caliber Rifles.esp
 HHWeapsInNV.esp
@@ -2683,10 +2745,13 @@ Six String Samurai Sword NV.esp
 SpookyJ's LngRng GRifle.esp
 SR-25.esp
 Stalker Weapons Pack.esp
+? Old, update to latest version.
 suitcase_nuke.esp
 Survivalist Crossbow.esp
 Survivalist Crossbow-Custom.esp
 Survivalist Crossbow-Surv.esp
+SWP40 Patch 01.esp
+SWP40Pistols.esp
 Tactical Nuclear Incendiary Ammo.esp
 Tactical Weapon Pack.esp
 that gun 556.esp
@@ -3027,6 +3092,9 @@ Seeker Armor.esp
 Seeker Veronica.esp
 % {{BASH: Invent}}
 sexysleepwear.esp
+? Choose only one of sexysleepwear.esp and sexysleepwearnr.esp, not both
+sexysleepwearnr.esp
+? Choose only one of sexysleepwear.esp and sexysleepwearnr.esp, not both
 SKINNY in Vegas Basic.esp
 Slofs Boners - ENG.esp
 Spawn Armor.esp
@@ -3597,6 +3665,8 @@ Half_Sneak_Attack.esp
 Head Mounted Flashlight.esp
 : FlashlightNV-LOS.esp
 Health Balance 1_0.esp
+HonestHeartsCheats.esp
+: HonestHearts.esm
 FONV - Real Time Lockpicking and Hacking.esp
 fotn fix.esp
 FreakinLaserBeams_1_1.esp
@@ -3646,6 +3716,7 @@ Invisibility for No Reputation.esp
 : New Vegas Script Extender
 Jump Fall Fixer.esp
 JumpNFall.esp
+keepcompanionperks.esp
 LakelurkMeatDropFix.esp
 Less Armor Degradation.esp
 Less Weapon Degradation.esp
@@ -4085,6 +4156,12 @@ BIS - WME - Honest Hearts.esp
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - Old World Blues.esp
 : OldWorldBlues.esm, Weapon Mod Expansion.esm, WME - Old World Blues.esm
+WME - DLCs.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Weapon Mod Expansion.esm and WME - DLCs.esm
+" WME - Dead Money.esp, WME - Honest Hearts.esp, WME - Old World Blues.esp, WME - DLCs Arenovalis.esp
+WME - DLCs Arenovalis.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Weapon Mod Expansion.esm, WME - DLCs.esm and Arenovalis' / Millenia's Weapon Re-textures.
+" WME - Dead Money.esp, WME - Honest Hearts.esp, WME - Old World Blues.esp, WME - DLCs.esp
 WME - Ironsights - HH.esp
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - FOOK DLCs.esp
@@ -4257,12 +4334,6 @@ NV GameStabilizerA9.esp
 \-----------
 Cactai of the Wastes [plugin].esp
 FNVEnhancedShaders - AA-DOF Enable.esp
-OFT_ElectroCity.esp
-: ELECTRO-CITY - CompletedWorkorders.esm AND OperationFixedTerrain.esp
-OFT_HonestHearts.esp
-: HonestHearts.esm AND OperationFixedTerrain.esp
-OFT_HonestHearts_Interiors.esp
-: HonestHearts.esm AND OperationFixedTerrain.esp
 ParallaxRoadtrim.esp
 MedGrass.esp
 HighGrass.esp
@@ -4592,6 +4663,8 @@ BMDD's All Races Playable V2.esp
 Bouncing Natural Breasts.esp
 DK Caucasians.esp
 : Lings.esm IF you're using the Lings Compatible mod.
+Lings-PlayableRaces.esp
+: Lings.esm
 MoonShadowRace.esp
 T3BBN Old Women.esp
 tkEyelashesFNV.esp
