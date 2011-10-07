@@ -219,10 +219,10 @@ ACMFemFatalesMore.esm
 NPC Project.esm
 NSkies - Vanilla Edition.esm
 % {{BASH: C.Climate, C.Light}}
-? Choose only one of NSkies URWLified.esm, not both
+? Choose only one of NSkies - Vanilla Edition.esm and NSkies URWLified.esm, not both
 NSkies URWLified.esm
 % {{BASH: C.Climate, C.Light}}
-? Choose only one of NSkies - Vanilla Edition.esm, not both
+? Choose only one of NSkies - Vanilla Edition.esm and NSkies URWLified.esm, not both
 NV Child - Shojo Headgear.esm
 NVInteriors_Core.esm
 NVInteriors_WastelandEditon.esm
@@ -755,6 +755,8 @@ Sex Try.esp
 Sorter Caravan Card & Ammo @ END.esp
 STnukaRetex.esp
 Vanity Camera Smoother.esp
+WOP Fixes.esp
+: AWorldOfPain(Preview).esm
 \EndGroup\\
 
 \BeginGroup\: Alternative starts
@@ -1502,6 +1504,14 @@ PMT - Assassin Suit Tweaks.esp
 : DeadMoney.esm
 PMT - OWB - Sonic Emitter Robot Damage Fix.esp
 : OldWorldBlues.esm
+PMT - OWB - Reduced Big MT Spawns.esp
+: OldWorldBlues.esm
+PMT - OWB - Less Generous Sink Buddies.esp
+: OldWorldBlues.esm
+PMT - OWB - Reduced Ammo and Items.esp
+: OldWorldBlues.esm
+PMT - LR - Reduced Ammo Food Chems.esp
+: LonesomeRoad.esm
 nVamp - PMT.esp
 \EndGroup\\
 
@@ -1653,6 +1663,7 @@ XFO - 10ad - Hardcore - Hunger&Thirst - Easier (Half).esp
 XFO - 10b - Hardcore - Food&Drink (no healing).esp
 XFO - 10c - Hardcore - Severe Penalties.esp
 nVamp - XFO.esp
+XFO - PMT Merged Tweaks.esp
 \EndGroup\\
 
 \BeginGroup\: Other
@@ -1732,6 +1743,8 @@ Project Nevada - Old World Blues (No Cyberware).esp
 ? Choose only one of Project Nevada - Old World Blues.esp and Project Nevada - Old World Blues (No Cyberware).esp, not both
 Selective Fire - Project Nevada.esp
 : Selective Fire.esm and Project Nevada - Core.esm
+OWB Big Empty Overhaul.esp
+% {{BASH: Names, Invent, Stats}}
 pnv.esp
 pnvhh.esp
 : HonestHearts.esm
@@ -1770,6 +1783,9 @@ Improved Sound FX - OWB Sharing Fix.esp
 Improved Sound FX - LR Sharing Fix.esp
 % {{BASH: Sound}}
 : LonesomeRoad.esm
+Improved Sound FX - GRA.esp
+% {{BASH: Sound}}
+: GunRunnersArsenal.esm
 Improved Sound FX - Project Nevada.esp
 % {{BASH: Sound}}
 : Project Nevada - Core.esm
@@ -1819,6 +1835,7 @@ Express Delivery.esp
 FreeplayafterMQNVv1_6.esp
 Free Play after MQ.esp
 Free the Slaves.esp
+Game_Bloodlines.esp
 Goodsprings Filler.esp
 Goodsprings Goodstart.esp
 LawlessVegas.esp
@@ -2134,6 +2151,14 @@ IWS-MoreSpawns.esp
 ? Outdated. Consider Updating.
 IWS-UltraSpawns.esp
 ? Outdated. Consider Updating.
+IWS-DM.esp
+: DeadMoney.esm
+IWS-HH.esp
+: HonestHearts.esm
+IWS-OWB.esp
+: OldWorldBlues.esm
+IWS-LR.esp
+: LonesomeRoad.esm
 Kasdar's Medical Injection System.esp
 Kobu's Primary Attributes Uncapper.esp
 Kobu's Primary Attribute Uncapper.esp
@@ -3181,7 +3206,6 @@ Lore version.esp
 
 \BeginGroup\: Middle Misc
 \-----------
-AWOP-BOE-DLC.esp
 AWOPLowRobots.esp
 " AWOPVeryLowRobots.esp
 : AWorldOfPain(Preview).esm
@@ -3193,6 +3217,8 @@ AWOP-AhztekWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND Ahzteks Weapon Overhaul.esp
 AWOP-BOEWeaponPatch.esp
 : AWorldOfPain(Preview).esm AND Mo'.esm
+AWOP-BOE-DLC.esp
+: AWOP-BOEWeaponPatch.esp
 AWOP-LowNPCS.esp
 : AWorldOfPain(Preview).esm
 AWOP-LowNPCSWastelandOnly.esp
@@ -4280,6 +4306,15 @@ WMVM-WME-HH.esp
 : HonestHearts.esm, WME - Honest Hearts.esm, and WMVM-HH.esp
 WMVM-WME-OWB.esp
 : OldWorldBlues.esm, WME - Old World Blues.esm, and WMVM-OWB.esp
+GRA Overhaul.esp
+% {{BASH: Names, Stats}}
+? Choose only one of GRA Overhaul.esp and GRA Overhaul - EVE.esp and GRA Overhaul - WMX or WME.esp, not both
+GRA Overhaul - EVE.esp
+% {{BASH: Names, Stats}}
+? Choose only one of GRA Overhaul.esp and GRA Overhaul - EVE.esp and GRA Overhaul - WMX or WME.esp, not both
+GRA Overhaul - WMX or WME.esp
+% {{BASH: Names, Stats}}
+? Choose only one of GRA Overhaul.esp and GRA Overhaul - EVE.esp and GRA Overhaul - WMX or WME.esp, not both
 GSWeaponsCache.esp
 GSWeaponsCache-WMX.esp
 GSWC-WMX-ModernWeapons.esp
@@ -4435,6 +4470,9 @@ Project Westland vision.esp
 Project Westland vision-ZionHH.esp
 % {{BASH: C.Climate, C.Light}}
 F3NVProjectRealityMkIv3.esp
+? Old, update to latest version 4.2+.
+% {{BASH: C.Climate, C.Light}}
+F3NVProjectRealityMkIv4.2.esp
 % {{BASH: C.Climate, C.Light}}
 NV WEATHER DEAD MONEY WITH NIGHT.esp
 : DeadMoney.esm
