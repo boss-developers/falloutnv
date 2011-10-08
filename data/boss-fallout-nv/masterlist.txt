@@ -132,9 +132,10 @@ BinocularsOverhaul.esm
 <BoulderCityFaceliftProject.esm
 CALIBR.esm
 <Caliber.esm
-<% {{BASH: Invent}}
+<% {{BASH: Invent, Names}}
 <HonestHearts-CaliberX.esm
 <: HonestHearts.esm
+<% {{BASH: Names}}
 <CFWNV.esm
 <CFWNV-DLC.esm
 <: DeadMoney.esm and HonestHearts.esm
@@ -329,7 +330,7 @@ aHUD.esm
 >CINEMATECH.esm
 >: New Vegas Script Extender
 >Caliber.esm
->% {{BASH: Invent}}
+>% {{BASH: Invent, Names}}
 >CFWNV.esm
 >Weapon Mod Expansion.esm
 >% {{BASH: Names}}
@@ -366,6 +367,7 @@ nVamp - Vaernus's Voracious Vermin.esm
 \ nVamp end
 >HonestHearts-CaliberX.esm
 >: HonestHearts.esm
+>% {{BASH: Names}}
 >BoulderCityFaceliftProject.esm
 >dangame.esm
 >The Roost.esm
