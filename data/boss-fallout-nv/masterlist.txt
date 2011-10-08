@@ -389,6 +389,8 @@ nVamp - Vaernus's Voracious Vermin.esm
 >WME - DLCs.esm
 >: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
 >" WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
+CCO - Gameplay Changes.esm
+CCO - Classic Perks.esm
 New Vegas Redesigned.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
@@ -650,6 +652,9 @@ BIS - Old World Blues.esp
 BIS - Lonesome Road.esp
 % {{BASH: Names}}
 : LonesomeRoad.esm
+BIS - Gun Runners Arsenal.esp
+% {{BASH: Names}}
+: GunRunnersArsenal.esm
 BIS - Community Bugfix Comp ESM.esp
 % {{BASH: Names}}
 : Community Bugfix Compilation Patch.esm
@@ -1177,6 +1182,8 @@ UHNV-Dead Money.esp
 : UHNV.esp and DeadMoney.esm
 UHNV-Honest Hearts.esp
 : UHNV.esp and HonestHearts.esm
+UHNV-OWB.esp
+: UHNV.esp and OldWorldBlues.esm
 UHNV-Bobblehunt.esp
 : UHNV.esp and Bobblehunt.esp
 UHNV-ARB Patch.esp
@@ -1200,6 +1207,8 @@ UWHNV-Core.esp
 : New Vegas Script Extender
 UWHNV-Addon-DLC.esp
 : New Vegas Script Extender, UWHNV-Core.esp, and DeadMoney.esm
+UWHNV-Addon-GRA.esp
+: New Vegas Script Extender, UWHNV-Core.esp, and GunRunnersArsenal.esm
 UWHNV-Addon-CHEMS.esp
 : New Vegas Script Extender, UWHNV-Core.esp, and CHEMS.esm
 UWHNV-Addon-FollowerHome.esp
@@ -1301,6 +1310,8 @@ FOOK - New Vegas DLCs.esp
 FOOK - No Loose Files.esp
 FOOK - No Loose Files DLCs.esp
 : DeadMoney.esm and HonestHearts.esm
+FOOK GRA Ammo Hotfix.esp
+: GunRunnersArsenal.esm
 BIS - FOOK - New Vegas.esp
 % {{BASH: Names}}
 : FOOK - New Vegas.esm
@@ -1685,6 +1696,36 @@ Arwen_NV_Med-Tec.esp
 : New Vegas Script Extender and Arwen_NV_Realism_Core.esp
 BallanceMod.esp
 BartertownPeaceful.esp
+CCO - Perk Rebalance.esp
+CCO - Damage Resistance.esp
+CCO - GC DM Patch.esp
+: DeadMoney.esm, CCO - Gameplay Changes.esm
+CCO - GC HH Patch.esp
+: HonestHearts.esm, CCO - Gameplay Changes.esm
+CCO - GC OWB Patch.esp
+: OldWorldBlues.esm, CCO - Gameplay Changes.esm
+CCO - GC LR Patch.esp
+: LonesomeRoad.esm, CCO - Gameplay Changes.esm
+CCO - CP DM Patch.esp
+: DeadMoney.esm, CCO - Classic Perks.esm
+CCO - CP OWB Patch.esp
+: OldWorldBlues.esm, CCO - Classic Perks.esm
+CCO - CP LR Patch.esp
+: LonesomeRoad.esm, CCO - Classic Perks.esm
+CCO - CP PN Core Patch.esp
+: Project Nevada - Core.esm, CCO - Classic Perks.esm
+CCO - CP PN Equipment Patch.esp
+: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm
+CCO - PR PN Patch.esp
+: Project Nevada - Core.esm, CCO - Perk Rebalance.esp
+CCO - DR DM Patch.esp
+: DeadMoney.esm, CCO - Damage Resistance.esp
+CCO - DR HH Patch.esp
+: HonestHearts.esm, CCO - Damage Resistance.esp
+CCO - DR OWB Patch.esp
+: OldWorldBlues.esm, CCO - Damage Resistance.esp
+CCO - DR PN Patch.esp
+: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Damage Resistance.esp
 CGYH.esp
 Classic FO SM_v1.2.esp
 Rise of the Machines.esp
@@ -1750,8 +1791,6 @@ pnvhh.esp
 : HonestHearts.esm
 pnvprojectnevada.esp
 : Project Nevada - Core.esm
-pnvprojectnevadarebalance.esp
-: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 \EndGroup\\
 \EndGroup\\ Overhauls
 
@@ -3761,8 +3800,12 @@ lexx-owb-no-dialog-tags-english.esp
 : OldWorldBlues.esm
 LFox Bottle That Water.esp
 % {{BASH: Names, Scripts}}
+UWHNV-Addon-Bottle That Water.esp
+: New Vegas Script Extender, UWHNV-Core.esp, and LFox Bottle That Water.esp
 Lighter Fission Battery.esp
 limbregen.esp
+LonesomeRoad Faction Selector.esp
+: LonesomeRoad.esm
 Loot the paralyzed.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
@@ -3800,19 +3843,35 @@ No Weapon Remove Dead Money.esp
 NukaVend.esp
 NVExpansionByDandysV1.400.esp
 NV Explosive Knockdown mod.esp
+NVDLC04 Allegiance.esp
+: LonesomeRoad.esm
+? Choose only one of NVDLC04 Allegiance.esp and NVDLC04 Allegiance w Duster.esp, not both
+NVDLC04 Allegiance w Duster.esp
+: LonesomeRoad.esm
+? Choose only one of NVDLC04 Allegiance.esp and NVDLC04 Allegiance w Duster.esp, not both
 NVR - High Lethality.esp
 NVR - Lock Bombing.esp
 NVR - Lock Kicking.esp
 Packless Heavy Weapons.esp
 Project Nevada - FPSWeaponWheel.esp
-: Project Nevada - Core.esm and FNVToolkit.esm
+: Project Nevada - Core.esm, FNVToolkit.esm
 IFNOT ("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
 : Project Nevada - Core.esm
 IFNOT ("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
 : Project Nevada - Core.esm
+IFNOT ("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
+: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
+IFNOT ("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
+: Project Nevada - Core.esm, Project Nevada - Rebalance.esm, CCO - Gameplay Changes.esm
+IFNOT ("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
+: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+IFNOT ("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
+: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+IFNOT ("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
+: Project Nevada - Core.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IFNOT ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
 % {{BASH: Names}}
-: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
+: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 Perception_And_Vats_Accuracy.esp
 Permanent_Weapon_Shells_Heavy.esp
 ? Choose only one of Permanent_Weapon_Shells esps, not both
@@ -4590,6 +4649,8 @@ Enhanced Ballistics Effects WME.esp
 Enhanced Ballistics Effects WME RH - NoTweaks.esp
 : Weapon Mod Expansion.esm AND RH_IRONSIGHTS_NV.esm
 FNNsysNV.esp
+UWHNV-Addon-Time for Bed NV.esp
+: New Vegas Script Extender, UWHNV-Core.esp, and FNNsysNV.esp
 Improved Ballistics Effects V2.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
@@ -4597,9 +4658,19 @@ IF ("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
 : Project Nevada - Core.esm
 IF ("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
 : Project Nevada - Core.esm
+IF ("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
+: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
+IF ("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
+: Project Nevada - Core.esm, Project Nevada - Rebalance.esm, CCO - Gameplay Changes.esm
+IF ("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
+: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+IF ("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
+: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+IF ("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
+: Project Nevada - Core.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IF ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
 % {{BASH: Names}}
-: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
+: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 mypatch.esp
 \EndGroup\\
 
