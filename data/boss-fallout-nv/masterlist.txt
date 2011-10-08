@@ -148,6 +148,7 @@ Corvega.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
 <dangame.esm
+DarNifiedUI.esm
 decwithreg.esm
 Decrucifixion.esm
 Detect Traps.esm
@@ -442,6 +443,8 @@ Compiled Patch - OldWorldBlues.esp
 : OldWorldBlues.esm
 Compiled Patch - LonesomeRoad.esp
 : LonesomeRoad.esm
+Compiled Patch All_DLCs.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -529,6 +532,21 @@ new vegas radios.esp
 NV_Fixpack_Perks.esp
 NV_Fixpack_Items.esp
 NV_Fixpack_Companions.esp
+NV Error Fixes DLCs 1.0.esp
+? Old, update to latest version.
+NV Error Fixes FNV 1.1.esp
+? Old, update to latest version.
+NV Error Fixes FNV 1.1 - FOOK Patch.esp
+? Old, update to latest version.
+NV Error Fixes Merged 1.1.esp
+? Old, update to latest version.
+NV Error Corrections FNV.esp
+NV Error Corrections FNV - FOOK Patch.esp
+: FOOK - New Vegas.esm
+NV Error Corrections Merged.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+NV Error Corrections Merged - FOOK Patch.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, FOOK - New Vegas.esm
 NVVariousFixes - Honest Hearts.esp
 : HonestHearts.esm
 PackWeaponsFix.esp
@@ -2863,6 +2881,13 @@ Kobu's Sortable Crafting Backpack.esp
 1stReconArmor_MedNonFaction.esp
 1stReconArmor_Light.esp
 1stReconArmor_LightNonFaction.esp
+ADAM - MAIN.esp
+ADAM - HH.esp
+: HonestHearts.esm
+ADAM - LR.esp
+: LonesomeRoad.esm
+ADAM - Rangers on Patrol.esp
+ADAM - Outcast Ranger Armour.esp
 Advanced Recon Armor.esp
 Advanced Recon Armor-Easier Stealth.esp
 Advanced Recon Armor-Location Doc Mitchell.esp
@@ -2898,6 +2923,7 @@ AsukaArmorMkiV.esp
 ATT LeatherJacket.esp
 ATT SamusZero.esp
 Armored Duster.esp
+LeiFang.esp
 LDFemalePowerArmorPack.esp
 " LDFemalePowerArmorPack.esm
 BetterMercArmors.esp
@@ -4109,6 +4135,8 @@ WMX-OldWorldBlues.esp
 : OldWorldBlues.esm, WeaponModsExpanded.esp
 BIS - WMX-OldWorldBlues.esp
 : OldWorldBlues.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-OldWorldBlues.esp
+WMX-LonesomeRoad.esp
+: LonesomeRoad.esm, WeaponModsExpanded.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
 : HonestHearts.esm and WMX-HonestHearts.esp
 Improved Sound FX - WMX - OWB Sharing Fix.esp
