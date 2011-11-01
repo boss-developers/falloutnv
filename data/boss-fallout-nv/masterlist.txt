@@ -445,8 +445,10 @@ Compiled Patch - OldWorldBlues.esp
 : OldWorldBlues.esm
 Compiled Patch - LonesomeRoad.esp
 : LonesomeRoad.esm
+Compiled Patch - Gunrunners Arsenal.esp
+: GunRunnersArsenal.esm
 Compiled Patch All_DLCs.esp
-: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -543,12 +545,23 @@ NV Error Fixes FNV 1.1 - FOOK Patch.esp
 NV Error Fixes Merged 1.1.esp
 ? Old, update to latest version.
 NV Error Corrections FNV.esp
+? Old, update to latest version 1.7+.
 NV Error Corrections FNV - FOOK Patch.esp
 : FOOK - New Vegas.esm
+? Old, update to latest version 1.7+.
 NV Error Corrections Merged.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+? Old, update to latest version 1.7+.
 NV Error Corrections Merged - FOOK Patch.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, FOOK - New Vegas.esm
+? Old, update to latest version 1.7+.
+New Vegas Error Corrections - NO DLC.esp
+New Vegas Error Corrections - DLC.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+New Vegas Error Corrections - DLC + GRA.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+New Vegas Error Corrections - GRA ONLY.esp
+: GunRunnersArsenal.esm
 NVVariousFixes - Honest Hearts.esp
 : HonestHearts.esm
 PackWeaponsFix.esp
@@ -2395,6 +2408,7 @@ z_Fiends_2.esp
 \-----------
 aliencell.esp
 AlienPowerCell.esp
+ammocrafting.esp
 AmmoCraftingSchematics.esp
 ACS-CaliberX.esp
 : Caliber.esm and AmmoCraftingSchematics.esp
@@ -2422,12 +2436,17 @@ CraftedMantisGauntlet.esp
 Craft Overhaul 1.1.esp
 Craft Throwing weapons.esp
 Craftable Stealth boys.esp
+crafting alike items.esp
 CRFTOven.esp
+Dead Money Bunker Hot Plate.esp
+: DeadMoney.esm
 Dead Money Recipe Box.esp
 : DeadMoney.esm
 DeadMoneyJunkRoundsRedux.esp
 : DeadMoney.esm
 DeadMoneyMissingOutfitReturnOptions.esp
+: DeadMoney.esm
+DeadMoneyMoreCraftedKnifeVariants.esp
 : DeadMoney.esm
 Dire Contraptions.esp
 DixonRecipes.esp
@@ -3420,6 +3439,7 @@ ED-E Plasma.esp
 ED-E Rocket.esp
 ED-E Shotgun.esp
 ED-E Stealth 2.0.esp
+ede dual upgrades.esp
 CManagerie.esp
 Companion Sandbox Mode.esp
 Companion Sandbox Mode V2.0.esp
