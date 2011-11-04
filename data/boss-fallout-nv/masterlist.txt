@@ -562,6 +562,14 @@ New Vegas Error Corrections - DLC + GRA.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 New Vegas Error Corrections - GRA ONLY.esp
 : GunRunnersArsenal.esm
+NVEC FOOK PATCH - DLC.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, FOOK - New Vegas.esm
+NVEC FOOK PATCH - NO DLC.esp
+: FOOK - New Vegas.esm
+NVEC LINGS PATCH - DLC.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Lings.esm
+NVEC LINGS PATCH - NO DLC.esp
+: Lings.esm
 NVVariousFixes - Honest Hearts.esp
 : HonestHearts.esm
 PackWeaponsFix.esp
@@ -598,22 +606,22 @@ PO10mmFix.esp
 \BeginGroup\: Operation Fixed Terrain
 OFT_Merge_All.esp
 " All other OFT plugins are merged with it.
-OFT_Merge_Base.esm
-" OFT_Merge_All.esm
+OFT_Merge_Base.esp
+" OFT_Merge_All.esp
 " OFT_Base.esp
 " OFT_Base_Interiors.esp
 " OFT_IWR_Base.esp
 " OFT_Coordinate_Finder.esp
-OFT_Merge_HonestHearts.esm
-" OFT_Merge_All.esm
+OFT_Merge_HonestHearts.esp
+" OFT_Merge_All.esp
 " OFT_HonestHearts.esp
 " OFT_HonestHearts_Interiors.esp
-OFT_Merge_OldWorldBlues.esm
-" OFT_Merge_All.esm
+OFT_Merge_OldWorldBlues.esp
+" OFT_Merge_All.esp
 " OFT_OldWorldBlues.esp
 " OFT_IWR_OldWorldBlues.esp
 OFT_NoIWR_Merge_All.esp
-" OFT_Merge_All.esm
+" OFT_Merge_All.esp
 " OFT_Base.esp
 " OFT_Base_Interiors.esp
 " OFT_HonestHearts.esp
@@ -621,7 +629,7 @@ OFT_NoIWR_Merge_All.esp
 " OFT_OldWorldBlues.esp
 " OFT_Coordinate_Finder.esp
 OFT_NoIWR_Merge_Base.esp
-" OFT_Merge_All.esm
+" OFT_Merge_All.esp
 " OFT_Base.esp
 " OFT_Base_Interiors.esp
 " OFT_Coordinate_Finder.esp
@@ -979,6 +987,8 @@ Alpha's MoMod Overhaul.esp
 ? Outdated. Consider Updating.
 Monster Mod Wasteland Edition.esp
 : MoMod.esm
+MoMod-MCMMenu.esp
+MoMod-NightSpawn.esp
 MMWE-No Oblivion.esp
 : MoMod.esm, Monster Mod Wasteland Edition.esp
 Methclaw.esp
@@ -1181,11 +1191,16 @@ Seachlight Airpot NCR.esp
 SierraMadreEXIT.esp
 : DeadMoney.esm
 ? Same purpose as return_deadmoney.esp; use one or the other.
+SierraMadrev11.esp
+: DeadMoney.esm
 SierraMadrev2.0.esp
 : DeadMoney.esm
 ? Outdated; Consider Updating.
 SierraMadrev2.1.esp
 : DeadMoney.esm
+? Outdated; Consider Updating.
+SierraMadrev2.2.esp
+: DeadMoney.esm, HonestHearts.esm
 SMOTS-EC patch.esp
 Sniper Towers.esp
 Silverpeak Bunker.esp
@@ -1217,6 +1232,8 @@ UHNV-Honest Hearts.esp
 : UHNV.esp and HonestHearts.esm
 UHNV-OWB.esp
 : UHNV.esp and OldWorldBlues.esm
+UHNV-Lonesome Road.esp
+: UHNV.esp and LonesomeRoad.esm
 UHNV-Bobblehunt.esp
 : UHNV.esp and Bobblehunt.esp
 UHNV-ARB Patch.esp
@@ -3100,6 +3117,8 @@ Leather backpack - rus.esp
 Leather Trench Coat NV v1.0.esp
 LegateArmor.esp
 Legion Redesigned.esp
+LegionGladiatorPA.esp
+DragbodysLegionReplacerV01.esp
 LegionNCRnonfaction.esp
 LFox Invisible Armored Vests.esp
 LNC StealthSuit NV.esp
