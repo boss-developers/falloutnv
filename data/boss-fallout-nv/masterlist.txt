@@ -278,6 +278,8 @@ WARZONES - Misanthropy Pure.esm
 <: HonestHearts.esm and Weapon Mod Expansion.esm
 <WME - Old World Blues.esm
 <: OldWorldBlues.esm and Weapon Mod Expansion.esm
+<WME - GRA Light.esm
+<: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 <WME - DLCs.esm
 <: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
 <" WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
@@ -389,6 +391,8 @@ nVamp - Vaernus's Voracious Vermin.esm
 >: HonestHearts.esm and Weapon Mod Expansion.esm
 >WME - Old World Blues.esm
 >: OldWorldBlues.esm and Weapon Mod Expansion.esm
+>WME - GRA Light.esm
+>: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 >WME - DLCs.esm
 >: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
 >" WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
@@ -1093,6 +1097,7 @@ FNV - ShopHome.esp
 Freeside Fine Living.esp
 Freeside NCR Guard Post - Revamp.esp
 Freesidehome.esp
+ftcGreatKhanArmoryMarker.esp
 Gomorrah3rdFloor.esp
 GoodspringsFarmhouse_v1.2.esp
 GoodspringsPlayerHome.esp
@@ -2534,6 +2539,8 @@ Wonder Meat.esp
 ? Outdated. Consider Updating.
 1 AKSU ( Standart SD).esp
 1 Camon Ak47 (goodsprings saloon).esp
+1 Camon Survivalist Ak47&Ak47M (Wasteland Traders).esp
+1 Camon SVD (Yangtze memorial shack).esp
 .454 Cavalry Revolver Version 2 fixed.esp
 20th Century v5 ALIVE (TEST Container).esp
 20th Century v5 ALIVE (BOS).esp
@@ -2926,6 +2933,8 @@ ADAM - LR.esp
 : LonesomeRoad.esm
 ADAM - Rangers on Patrol.esp
 ADAM - Outcast Ranger Armour.esp
+ADAM - NCR Patrol Armour.esp
+ADAM - Project Nevada Patch.esp
 Advanced Recon Armor.esp
 Advanced Recon Armor-Easier Stealth.esp
 Advanced Recon Armor-Location Doc Mitchell.esp
@@ -3249,6 +3258,7 @@ THE5 Visors Mod.esp
 Toni Outfits.esp
 TheArmorer.esp
 Thermoptic Power Helmets.esp
+ToggleCarryWeightHat.esp
 Transladatum - E.esp
 TSoutfitv1.esp
 TumbaJamba Tactical Gear.esp
@@ -3284,6 +3294,8 @@ White Glove attire actually has White Gloves.esp
 Armor by Race w Undies.esp
 Body by Race.esp
 headgearfix.esp
+LingsPrettyThings.esp
+% {{BASH: Eyes, Hair, Invent, Names, NPC.Class, NPC.Race, NpcFaces, R.Attributes-F, R.Attributes-M, R.Description, R.Head, R.Mouth, R.Teeth, Voice-F}}
 Machienzo - NPC Cosmetic Fixes DLC01.esp
 : DeadMoney.esm
 ? Old, update to NVCE.
@@ -4310,6 +4322,8 @@ BIS - WME - Honest Hearts.esp
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - Old World Blues.esp
 : OldWorldBlues.esm, Weapon Mod Expansion.esm, WME - Old World Blues.esm
+WME - GRA Light.esp
+: GunRunnersArsenal.esm, Weapon Mod Expansion.esm, WME - GRA Light.esm
 WME - DLCs.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Weapon Mod Expansion.esm and WME - DLCs.esm
 " WME - Dead Money.esp, WME - Honest Hearts.esp, WME - Old World Blues.esp, WME - DLCs Arenovalis.esp
@@ -4332,6 +4346,8 @@ WME - Honest Hearts Arenovalis.esp
 BIS - WME - Honest Hearts Arenovalis Retex.esp
 % {{BASH: Names}}
 : HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+WME - GRA Light Arenovalis.esp
+: GunRunnersArsenal.esm, Weapon Mod Expansion.esm, WME - GRA Light.esm
 \EndGroup\\
 
 \BeginGroup\: Special Cases for WMX and/or WME support
@@ -4633,6 +4649,9 @@ ILO-RI-Honest Hearts.esp
 ILO-RI-Old World Blues.esp
 % {{BASH: C.Light}}
 : OldWorldBlues.esm
+ILO-RI-Lonesome Road.esp
+% {{BASH: C.Light}}
+: LonesomeRoad.esm
 ILO-RI-Rust Town.esp
 % {{BASH: C.Light}}
 : RustTownV1-1.esp
