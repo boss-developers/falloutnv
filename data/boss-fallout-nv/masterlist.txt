@@ -232,6 +232,9 @@ NVInteriors_WastelandEditon.esm
 ? Choose only one of NVInteriors_WastelandEditon.esm and NVInteriors_WastelandEditonAWOP.esm, not both
 NVInteriors_WastelandEditonAWOP.esm
 ? Choose only one of NVInteriors_WastelandEditon.esm and NVInteriors_WastelandEditonAWOP.esm, not both
+NVInteriors_ComboEdition.esm
+: NVInteriors_Core.esm
+? Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 NVR-Strip.esm
@@ -400,6 +403,8 @@ nVamp - Vaernus's Voracious Vermin.esm
 CCO - Gameplay Changes.esm
 CCO - Classic Perks.esm
 New Vegas Redesigned.esm
+% {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
+New Vegas Redesigned II.esm
 % {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
 % {{BASH: Hair, Eyes}}
