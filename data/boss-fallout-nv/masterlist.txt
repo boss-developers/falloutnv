@@ -235,6 +235,7 @@ NVInteriors_WastelandEditonAWOP.esm
 NVInteriors_ComboEdition.esm
 : NVInteriors_Core.esm
 ? Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
+Interior Lighting Overhaul - Core.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 NVR-Strip.esm
@@ -295,6 +296,9 @@ aHUD.esm
 : New Vegas Script Extender
 <iHUD.esm
 <: New Vegas Script Extender
+oHUD.esm
+: New Vegas Script Extender
+" aHUD.esm, iHUD.esm, Primary Needs HUD.esm
 \ nVamp stuff
 >Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
 >% {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
@@ -1785,6 +1789,8 @@ CCO - DR HH Patch.esp
 : HonestHearts.esm, CCO - Damage Resistance.esp
 CCO - DR OWB Patch.esp
 : OldWorldBlues.esm, CCO - Damage Resistance.esp
+CCO - DR LR Patch.esp
+: LonesomeRoad.esm, CCO - Damage Resistance.esp
 CCO - DR PN Patch.esp
 : Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Damage Resistance.esp
 CGYH.esp
@@ -3325,6 +3331,20 @@ NVCE DLC04.esp
 : LonesomeRoad.esm
 Lore version.esp
 : New Vegas Redesigned.esm
+NVR- Lore version.esp
+% {{BASH: Actors.ACBS, NpcFaces}}
+: New Vegas Redesigned II.esm
+" NVR- Recommended.esp
+NVR- Recommended.esp
+% {{BASH: Actors.ACBS, NpcFaces}}
+: New Vegas Redesigned II.esm
+" NVR- Lore version.esp
+New Vegas redesigned- Honest Hearts.esp
+% {{BASH: Actors.ACBS, NpcFaces}}
+: HonestHearts.esm
+Voice dissonance fix.esp
+% {{BASH: NpcFaces}}
+: New Vegas Redesigned II.esm
 \EndGroup\\
 
 \BeginGroup\: Middle Misc
@@ -3748,6 +3768,8 @@ Color Me Evil.esp
 Color Me Evil - Cass.esp
 Companions to Zion.esp
 : HonestHearts.esm
+Couriers Stash - Package Selection Menu.esp
+? Does not require all the Courier's Stash/Pre-order packs to work.
 Creatures Balance Overhaul.esp
 dD - Enhanced Blood Main NV.esp
 dD-Smaller Wounds.esp
@@ -3760,6 +3782,8 @@ dD-Less Screen Blood Time.esp
 dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
+Delay DLC - DM + HH + OWB + LR + GRA.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 Delay DLC - DM + HH + OWB.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm
 ? Old, update to Delay DLC - DM + HH + OWB + LR.esp
@@ -4623,6 +4647,8 @@ F3NVProjectRealityMkIv3.esp
 ? Old, update to latest version 4.2+.
 % {{BASH: C.Climate, C.Light}}
 F3NVProjectRealityMkIv4.2.esp
+% {{BASH: C.Climate, C.Light}}
+ProjectRealityMkIv5HDR.esp
 % {{BASH: C.Climate, C.Light}}
 NV WEATHER DEAD MONEY WITH NIGHT.esp
 : DeadMoney.esm
