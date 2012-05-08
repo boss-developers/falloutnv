@@ -814,6 +814,7 @@ RMPipboy.esp
 Sex Try.esp
 Sorter Caravan Card & Ammo @ END.esp
 STnukaRetex.esp
+The Weapon Mod Menu.esp
 Vanity Camera Smoother.esp
 WOP Fixes.esp
 : AWorldOfPain(Preview).esm
@@ -959,6 +960,8 @@ Brotherhood and House Alliance.esp
 CorpseEquip.esp
 DeadMoneyChristineSkills.esp
 : DeadMoney.esm
+Doc Mitchell's House Owner.esp
+% {{BASH: C.Owner}}
 Doc Mitchell Stealing Fix.esp
 Fasto.esp
 FactionIDCards.esp
@@ -1849,11 +1852,25 @@ Project Nevada - Old World Blues.esp
 Project Nevada - Old World Blues (No Cyberware).esp
 : OldWorldBlues.esm and Project Nevada - Core.esm
 ? Choose only one of Project Nevada - Old World Blues.esp and Project Nevada - Old World Blues (No Cyberware).esp, not both
+Project Nevada - Lonesome Road.esp
+: LonesomeRoad.esm and Project Nevada - Core.esm
+Project Nevada - Gun Runners' Arsenal.esp
+: GunRunnersArsenal.esm and Project Nevada - Core.esm
 Selective Fire - Project Nevada.esp
 : Selective Fire.esm and Project Nevada - Core.esm
 OWB Big Empty Overhaul.esp
 % {{BASH: Names, Invent, Stats}}
 pnv.esp
+RBDC - DM.esp
+: DeadMoney.esm
+RBDC - HH.esp
+: HonestHearts.esm
+RBDC - HH - Authentic Burned Man.esp
+: HonestHearts.esm and Better Burned Man.esp
+RBDC - OWB.esp
+: OldWorldBlues.esm
+RBDC - LR.esp
+: LonesomeRoad.esm
 pnvhh.esp
 : HonestHearts.esm
 pnvprojectnevada.esp
@@ -2226,6 +2243,7 @@ Frequency - CFWNV Patch.esp
 Frequency - Project Nevada Patch.esp
 : Frequency.esm and Project Nevada - Core.esm and Project Nevada - Equipment.esm
 gambling.esp
+Game_NV_MotorcycleTravelAdvMapMarkers.esp
 Hardcore canteen.esp
 Hardcore (Double Rates).esp
 Hardcore (Refined Rates).esp
@@ -2275,6 +2293,8 @@ LFox Infinite Companion Ammo Repair.esp
 LFox Infinite Companion Ammo.esp
 Lighter books.esp
 LMDStorageBag.esp
+Loot Vehicles.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
@@ -3506,6 +3526,7 @@ EZ_VanillaFollowers.esp
 % {{BASH: Actors.AIPackages, Actors.CombatStyle}}
 Follower Home Marker.esp
 FollowersPlayCaravan.esp
+Followers Ready To Fight - Unlimited Companions.esp
 FollowersUnholster2.esp
 FollowersUnholster2_DM.esp
 : DeadMoney.esm
@@ -3689,6 +3710,7 @@ ImprovedTerrifyingPresence.esp
 instavats.esp
 IntegratedFullDLC.esp
 : All four DLC's.
+No [Empty] Message.esp
 DoubleDamage.esp
 RWD-NVv1.esp
 RWD-NV V1.2 Alt NoLimbsExplosions.esp
@@ -3907,6 +3929,8 @@ lexx-hh-no-dialog-tags-english.esp
 : HonestHearts.esm
 lexx-owb-no-dialog-tags-english.esp
 : OldWorldBlues.esm
+lexx-lr-no-dialog-tags-english.esp
+: LonesomeRoad.esm
 LFox Bottle That Water.esp
 % {{BASH: Names, Scripts}}
 UWHNV-Addon-Bottle That Water.esp
@@ -4101,6 +4125,7 @@ Vats Longer distance.esp
 Vault_34_better_reactor.esp
 VirusHuntV3.esp
 VMods.esp
+WeaponJammingNoReloadJams.esp
 Weight_Balance.esp
 % {{BASH: Stats}}
 Weight_Balance_v07.esp
@@ -4219,7 +4244,11 @@ WMX-OldWorldBlues.esp
 BIS - WMX-OldWorldBlues.esp
 : OldWorldBlues.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-OldWorldBlues.esp
 WMX-LonesomeRoad.esp
+% {{BASH: Invent}}
 : LonesomeRoad.esm, WeaponModsExpanded.esp
+WMX-GunRunnersArsenal.esp
+% {{BASH: Invent}}
+: GunRunnersArsenal.esm and WeaponModsExpanded.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
 : HonestHearts.esm and WMX-HonestHearts.esp
 Improved Sound FX - WMX - OWB Sharing Fix.esp
@@ -4231,6 +4260,8 @@ WMX-FOOKNV-DLCs CP.esp
 : DeadMoney.esm, HonestHearts.esm, WeaponModsExpanded.esp, and FOOK - New Vegas.esp
 BIS - WMX-FOOKNV-DLCs CP.esp
 : BIS - Brumbek's Inventory Sorting.esp, WMX-FOOKNV-DLCs CP.esp
+WMX-PreOrderPackClassic.esp
+: ClassicPack.esm and WeaponModsExpanded.esp
 WMX-PreOrderPackCaravan.esp
 : CaravanPack.esm and WeaponModsExpanded.esp
 BIS - WMX-PreOrderPackCaravan.esp
@@ -4239,6 +4270,8 @@ WMX-PreOrderPackMercenary.esp
 : MercenaryPack.esm and WeaponModsExpanded.esp
 BIS - WMX-PreOrderPackMercenary.esp
 : BIS - Brumbek's Inventory Sorting.esp, MercenaryPack.esm, and WeaponModsExpanded.esp
+WMX-PreOrderPackTribal.esp
+: TribalPack.esm and WeaponModsExpanded.esp
 ScientistPackWMX.esp
 ? Choose only one of ScientistPack.esp and ScientistPackWMX.esp, not both
 Mo'Guns_WMX.esp
@@ -4669,6 +4702,9 @@ Interior Lighting Overhaul-Realistic Interiors-Full.esp
 % {{BASH: C.Light}}
 Interior Lighting Overhaul-Realistic Interiors-Combined.esp
 % {{BASH: C.Light}}
+Interior Lighting Overhaul - Ultimate Edition.esp
+% {{BASH: C.Light}}
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Interior Lighting Overhaul - Core.esm
 ILO-RI-Original Lucky38 Suite.esp
 % {{BASH: C.Light}}
 : Interior Lighting Overhaul-Realistic Interiors-Full.esp
@@ -4688,6 +4724,13 @@ ILO-RI-Rust Town.esp
 % {{BASH: C.Light}}
 : RustTownV1-1.esp
 ILO-RI-PipBoy Light.esp
+ILO - PipBoy Light.esp
+ILO - NVInteriors Project.esp
+% {{BASH: C.Light}}
+: NVInteriors_Core.esm, NVInteriors_ComboEdition.esm, Interior Lighting Overhaul - Core.esm
+ILO - Project Reality Patch.esp
+% {{BASH: C.Climate}}
+: ProjectRealityMkIv5HDR.esp
 Interior Lighting Overhaul-Darker.esp
 ? Outdated.
 Interior Lighting Overhaul-Darker Interiors.esp
