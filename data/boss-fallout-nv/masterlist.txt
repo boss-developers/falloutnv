@@ -439,6 +439,8 @@ FalloutNV_lang.esp
 
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
+Mission Mojave - Ultimate Edition.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 Community Bugfix Compilation Patch.esp
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 " Compiled Patch.esp
@@ -1835,6 +1837,8 @@ BIS - Project Nevada - Cyberware.esp
 Project Nevada - Dead Money.esp
 : DeadMoney.esm and Project Nevada - Core.esm
 " Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
+Project Nevada - Dead Money (Rebalance).esp
+: DeadMoney.esm, Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 Project Nevada - Honest Hearts.esp
 : HonestHearts.esm and Project Nevada - Core.esm
 " Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
@@ -1856,6 +1860,8 @@ Project Nevada - Lonesome Road.esp
 : LonesomeRoad.esm and Project Nevada - Core.esm
 Project Nevada - Gun Runners' Arsenal.esp
 : GunRunnersArsenal.esm and Project Nevada - Core.esm
+Project Nevada - Gun Runners' Arsenal (Rebalance).esp
+: GunRunnersArsenal.esm, Project Nevada - Core.esm
 Selective Fire - Project Nevada.esp
 : Selective Fire.esm and Project Nevada - Core.esm
 OWB Big Empty Overhaul.esp
@@ -1909,6 +1915,10 @@ Improved Sound FX - LR Sharing Fix.esp
 Improved Sound FX - GRA.esp
 % {{BASH: Sound}}
 : GunRunnersArsenal.esm
+Improved Sound FX - Merged Major DLCs.esp
+% {{BASH: Sound}}
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+" Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - WMX - Merged Major DLCs.esp
 Improved Sound FX - Project Nevada.esp
 % {{BASH: Sound}}
 : Project Nevada - Core.esm
@@ -3417,6 +3427,18 @@ LogicalReputationShifts.esp
 PrimmReputation.esp
 Mercy Killing Karma.esp
 Mercy Killing Karma v2.0.esp
+MMUE-CP-PNCore.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Project Nevada - Core.esm
+MMUE-CP-PNRebalance.esp
+: DeadMoney.esm, OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Rebalance.esp, Mission Mojave - Ultimate Edition.esp
+MMUE-CP-PNEquipment.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Project Nevada - Equipment.esp, Mission Mojace - Ultimate Edition.esp
+MMUE-CP-PNOWB.esp
+: OldWorldBlues.esm, Mission Mojave - Ultimate Edition.esp, Project Nevada - Old World Blues.esp
+MMUE-CP-rePopulated.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, rePopulated Wasteland.esm
+MMUE-CP-New Vegas Redesigned.esp
+: New Vegas Redesigned II.esm, Mission Mojave - Ultimate Edition.esp
 nokarmalossforstealing.esp
 nv_hats_repair.esp
 nv_hats_repair_morehealth.esp
@@ -4253,6 +4275,10 @@ Improved Sound FX - WMX - HH Sharing Fix.esp
 : HonestHearts.esm and WMX-HonestHearts.esp
 Improved Sound FX - WMX - OWB Sharing Fix.esp
 : OldWorldBlues.esm and WMX-OldWorldBlues.esp
+Improved Sound FX - WMX - Merged Major DLCs.esp
+% {{BASH: Sound}}
+: HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, WMX-OldWorldBlues.esp, WMX-LonesomeRoad.esp
+" Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - Merged Major DLCs.esp
 WMX-ArenovalisTextures.esp
 % {{BASH: Graphics, NoMerge}}
 : WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
