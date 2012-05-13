@@ -1840,6 +1840,8 @@ BIS - Project Nevada - Core.esp
 BIS - Project Nevada - Equipment.esp
 % {{BASH: Names, Invent}}
 : Project Nevada - Core.esm and Project Nevada - Equipment.esm
+Project Nevada - Rebalance.esp
+: Project Nevada - Core.esm
 Project Nevada - Cyberware.esp
 : Project Nevada - Core.esm
 HarderThan-PN.esp
