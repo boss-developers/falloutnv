@@ -136,6 +136,9 @@ CALIBR.esm
 <% {{BASH: Invent, Names}}
 <HonestHearts-CaliberX.esm
 <: HonestHearts.esm
+<CaliberXhonesthearts.esm
+<: HonestHearts.esm
+<CaliberXgunrunners.esm
 <% {{BASH: Names}}
 <CFWNV.esm
 <CFWNV-DLC.esm
@@ -215,6 +218,10 @@ Moddable Unique Weps.esm
 <: OldWorldBlues.esm and More Perks.esm
 <More Traits.esm
 <More Challenges.esm
+New Vegas Error Corrections Complete - NO DLC.esm
+New Vegas Error Corrections Complete - DLC + GRA + NVCE + MM.esm
+New Vegas Error Corrections BugFixes - NO DLC.esm
+New Vegas Error Corrections BugFixes - DLC + GRA + NVCE + MM.esm
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
 ACM Fem Fatales of FO3.esm
@@ -283,6 +290,8 @@ WARZONES - Misanthropy Pure.esm
 <: HonestHearts.esm and Weapon Mod Expansion.esm
 <WME - Old World Blues.esm
 <: OldWorldBlues.esm and Weapon Mod Expansion.esm
+<WME - GRA.esm
+<: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 <WME - GRA Light.esm
 <: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 <WME - DLCs.esm
@@ -531,6 +540,7 @@ I've Got Sturdy Caravan Shotgun Fix.esp
 JacknDianeFix.esp
 % {{BASH: Invent}}
 JBrightExodusFix.esp
+jsawyer.esp
 Khan Rumor Fix.esp
 L38Aggressivefix.esp
 LFox Sink Bug Fixes.esp
@@ -1389,6 +1399,7 @@ BIS - FOOK - New Vegas DLCs.esp
 % {{BASH: Names}}
 : DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, and FOOK - New Vegas DLCs.esm
 FOOK - Lings.esp
+FOOK - JSawyer.esp
 Selective Fire - FOOK NV.esp
 : FOOK - New Vegas.esm
 CFWNV-FOOK.esp
@@ -1401,6 +1412,7 @@ LinkesAuge - Bug fixing compilation.esp
 LinkesAuge - Retexture edits.esp
 % {{BASH: Graphics}}
 vertibirds & toxic cave.esp
+MMUE-CP-FOOK.esp
 \EndGroup\\
 
 \BeginGroup\: New Vegas Replayability
@@ -1581,6 +1593,7 @@ PMT - Honest Hearts Reduced Ammo.esp
 PMT - Tougher Vehicles.esp
 PMT - Very Hard Damage Adjustment.esp
 PMT - Sound Fixes.esp
+PMT - Responsive Kill Reactions.esp
 PMT - Assassin Suit Tweaks.esp
 : DeadMoney.esm
 PMT - OWB - Sonic Emitter Robot Damage Fix.esp
@@ -2254,6 +2267,7 @@ Frequency - Project Nevada Patch.esp
 : Frequency.esm and Project Nevada - Core.esm and Project Nevada - Equipment.esm
 gambling.esp
 Game_NV_MotorcycleTravelAdvMapMarkers.esp
+GRA - The Right to Bear Arms.esp
 Hardcore canteen.esp
 Hardcore (Double Rates).esp
 Hardcore (Refined Rates).esp
@@ -4413,6 +4427,13 @@ WME - Old World Blues.esp
 : OldWorldBlues.esm, Weapon Mod Expansion.esm, WME - Old World Blues.esm
 WME - GRA Light.esp
 : GunRunnersArsenal.esm, Weapon Mod Expansion.esm, WME - GRA Light.esm
+WME - GRA - Weapon Integration.esp
+WME - GRA - Vendor Reform.esp
+WME - GRA - Unique Integration.esp
+WME - GRA - Just Guns.esp
+WME - GRA - Complete.esp
+WME - GRA - Arenovalis.esp
+WME - GRA - All Weapons.esp
 WME - DLCs.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Weapon Mod Expansion.esm and WME - DLCs.esm
 " WME - Dead Money.esp, WME - Honest Hearts.esp, WME - Old World Blues.esp, WME - DLCs Arenovalis.esp
@@ -4443,6 +4464,8 @@ WME - GRA Light Arenovalis.esp
 \-----------
 EVE FNV.esp
 Project Nevada - EVE.esp
+dD-Reduced Dismember Force - EVE.esp
+dD-Smaller Wounds - EVE.esp
 WMEVE.esp
 : Weapon Mod Expansion.esm
 EVE_WMX.esp
