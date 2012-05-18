@@ -219,8 +219,10 @@ Moddable Unique Weps.esm
 <More Traits.esm
 <More Challenges.esm
 New Vegas Error Corrections Complete - NO DLC.esm
+New Vegas Error Corrections Complete - DLC + GRA.esm
 New Vegas Error Corrections Complete - DLC + GRA + NVCE + MM.esm
 New Vegas Error Corrections BugFixes - NO DLC.esm
+New Vegas Error Corrections BugFixes - DLC + GRA.esm
 New Vegas Error Corrections BugFixes - DLC + GRA + NVCE + MM.esm
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
@@ -449,16 +451,24 @@ FalloutNV_lang.esp
 \BeginGroup\: Unofficial Patches and Fixes
 \-----------
 Mission Mojave - Ultimate Edition.esp
+% {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
+" Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+MMUE-Tools-InvisibleWallRemover.esp
+: Mission Mojave - Ultimate Edition.esp
+" IWR.esm
+MMUE-Tools-CoordinateGun.esp
+: Mission Mojave - Ultimate Edition.esp
 Community Bugfix Compilation Patch.esp
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
-" Compiled Patch.esp
+" Compiled Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
+? Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 CBC Dead Money Patch.esp
 : DeadMoney.esm
 " Compiled Patch - DeadMoney.esp
 Compiled Patch.esp
 % {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
-" Community Bugfix Compilation Patch.esp
+" Community Bugfix Compilation Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
 Compiled Patch - DeadMoney.esp
 : DeadMoney.esm
 " CBC Dead Money Patch.esm AND CBC Dead Money Patch.esp
@@ -474,6 +484,8 @@ Compiled Patch - Gunrunners Arsenal.esp
 : GunRunnersArsenal.esm
 Compiled Patch All_DLCs.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+" Compiled Patch.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
+? Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -1194,6 +1206,7 @@ OWNB - Red Canyon Overhaul.esp
 : OWNB - Open World.esm
 Portable Tent.esp
 ProjectPrimm.esp
+Rancho Villa.esp
 Realistic Portable Tent.esp
 return_deadmoney.esp
 : DeadMoney.esm
@@ -1412,6 +1425,7 @@ LinkesAuge - Bug fixing compilation.esp
 LinkesAuge - Retexture edits.esp
 % {{BASH: Graphics}}
 vertibirds & toxic cave.esp
+NVEC Complete FOOK Patch - DLC + GRA.esp
 MMUE-CP-FOOK.esp
 \EndGroup\\
 
@@ -1937,6 +1951,7 @@ Improved Sound FX - Merged Major DLCs.esp
 Improved Sound FX - Project Nevada.esp
 % {{BASH: Sound}}
 : Project Nevada - Core.esm
+NVEC Complete Improved Sound FX Patch.esp
 LouderGuns.esp
 % {{BASH: Sound}}
 Machienzo-RadioNewVegasFix.esp
@@ -2980,6 +2995,7 @@ KDS Wearable Backpacks.esp
 Kobu's Sortable Backpack.esp
 Kobu's Sortable Backpack - No Extra Carry Weight.esp
 Kobu's Sortable Crafting Backpack.esp
+1SBSteamOutfit.esp
 1stReconArmor_Med.esp
 1stReconArmor_MedNonFaction.esp
 1stReconArmor_Light.esp
@@ -3171,6 +3187,7 @@ JNinjasStealthFieldStops.esp
 JNinjasStealthFieldStopsNinjasComeBack.esp
 " JNinjasNinjasComeBack.esp and JNinjasStealthFieldStops.esp
 Journeyman Armor.esp
+josexysleepwear.esp
 JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
 Kaya47GlacierGlasses.esp
@@ -3575,6 +3592,9 @@ HJLCompanionsv103.esp
 ImprovedCompanions.esp
 Jade.esp
 JeyebotCompanion.esp
+jocassfacel.esp
+jocassfacem.esp
+jocassfacev.esp
 Light Step ED-E.esp
 LilyFawkes.esp
 " LilyArmored.esp
@@ -3617,6 +3637,7 @@ Mo'SunnyCompanion.esp
 : Mo'.esm, Lings.esm, Mo'Suite.esp, and SunnyCompanion.esp
 Tactical Squad.esp
 UnlimitedCompanions.esp
+UnlimitedCompanions SCRIPT FIX.esp
 Unlimited Companions.esp
 Veronica.esp
 Veronica fix.esp
@@ -4466,16 +4487,21 @@ WME - GRA Light Arenovalis.esp
 \-----------
 EVE FNV.esp
 Project Nevada - EVE.esp
+: EVE FNV.esp
 dD-Reduced Dismember Force - EVE.esp
+: EVE FNV.esp
 dD-Smaller Wounds - EVE.esp
+: EVE FNV.esp
+MMUE-CP-EVE.esp
+: Mission Mojave - Ultimate Edition.esp, EVE FNV.esp
 WMEVE.esp
-: Weapon Mod Expansion.esm
+: Weapon Mod Expansion.esm, EVE FNV.esp
 EVE_WMX.esp
-: WeaponModsExpanded.esp
+: WeaponModsExpanded.esp, EVE FNV.esp
 WMX-EVE.esp
-: WeaponModsExpanded.esp
+: WeaponModsExpanded.esp, EVE FNV.esp
 Frequency - EVE Patch.esp
-: Frequency.esm
+: Frequency.esm, EVE FNV.esp
 Frequency - WME Patch.esp
 : Frequency.esm, Weapon Mod Expansion.esm
 Frequency - WME Honest Hearts Patch.esp
@@ -4785,6 +4811,7 @@ ILO - Project Reality Patch.esp
 Interior Lighting Overhaul-Darker.esp
 ? Outdated.
 Interior Lighting Overhaul-Darker Interiors.esp
+ILO - NSkies URWLified Patch.esp
 OWB-Path Lights.esp
 Depth of View I.esp
 Depth of View I Blur.esp
@@ -4988,6 +5015,7 @@ DK Caucasians.esp
 : Lings.esm IF you're using the Lings Compatible mod.
 Lings-PlayableRaces.esp
 : Lings.esm
+NVEC Complete Lings Patch - DLC + GRA.esp
 MoonShadowRace.esp
 T3BBN Old Women.esp
 tkEyelashesFNV.esp
