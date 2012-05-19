@@ -922,6 +922,8 @@ NiceCass - C.esp
 " NiceCass.esp
 NPC Project - Aero Office Park.esp
 % {{BASH: NpcFaces}}
+NPC Project - Aerotech Office Park.esp
+: NPC Project.esm
 OldGhoulEye.esp
 OldGhoulEye-NoHeadbandSlotForHeadgear.esp
 OldGhoulEye-ProjectNevada.esp
@@ -2655,10 +2657,23 @@ AG Shell Casing Fixes Repeater-Service-ThatGun.esp
 AG Shell Casing Fixes - OWB.esp
 % {{BASH: Graphics}}
 AG Supplementary Uniques.esp
+" AG Supplementary Uniques WME.esp
 AG Supplementary Uniques-Dead Money.esp
 : DeadMoney.esm
+" AG Supplementary Uniques-Dead Money WME.esp
 AG Supplementary Uniques-Honest Hearts.esp
 : HonestHearts.esm
+" AG Supplementary Uniques-Honest Hearts WME.esp
+AG Supplementary Uniques-Old World Blues.esp
+: OldWorldBlues.esm
+AG Supplementary Uniques-Lonesome Road.esp
+: LonesomeRoad.esm
+" AG Supplementary Uniques-Lonesome Road WME.esp
+AG Supplementary Uniques-AllInOne.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+" AG Supplementary Uniques.esp, AG Supplementary Uniques-Dead Money.esp, AG Supplementary Uniques-Honest Hearts.esp, AG Supplementary Uniques-Old World Blues.esp, AG Supplementary Uniques-Lonesome Road.esp
+AG Supplementary Uniques-GRA.esp
+: GunRunnersArsenal.esm
 Ahzteks Weapon Replacements.esp
 ? Outdated.
 Selective Fire - Ahzteks NV Weapon Overhaul.esp
@@ -3007,6 +3022,9 @@ ADAM - LR.esp
 : LonesomeRoad.esm
 ADAM - Rangers on Patrol.esp
 ADAM - Outcast Ranger Armour.esp
+ADAM - Nemesis Armours.esp
+: LonesomeRoad.esm
+ADAM - Trooper Gloves.esp
 ADAM - NCR Patrol Armour.esp
 ADAM - Project Nevada Patch.esp
 Advanced Recon Armor.esp
@@ -3076,6 +3094,8 @@ CombatArmor_MarkII.esp
 courierpowerarmor.esp
 Courier Power Armor - Project Nevada.esp
 : Project Nevada - Core.esm and courierpowerarmor.esp
+Courier Power Armor - Advanced Recon Tech.esp
+: Advanced Recon Tech.esm, courierpowerarmor.esp
 CRHDV3O1.esp
 CRHDV3O2.esp
 CRHDV3O3.esp
@@ -3412,6 +3432,8 @@ Voice dissonance fix.esp
 
 \BeginGroup\: Middle Misc
 \-----------
+AWOPDeadMoney.esp
+: DeadMoney.esm
 AWOPLowRobots.esp
 " AWOPVeryLowRobots.esp
 : AWorldOfPain(Preview).esm
@@ -4403,6 +4425,10 @@ AG Supplementary Uniques-Dead Money WME.esp
 AG Supplementary Uniques-Honest Hearts WME.esp
 : Weapon Mod Expansion.esm
 AG Supplementary Uniques-Old World Blues.esp
+: Weapon Mod Expansion.esm
+AG Supplementary Uniques-Lonesome Road WME.esp
+: Weapon Mod Expansion.esm
+AG Supplementary Uniques-AllInOne WME.esp
 : Weapon Mod Expansion.esm
 BetterScopesModWMEVersion.esp
 : Weapon Mod Expansion.esm
