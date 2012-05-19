@@ -271,6 +271,7 @@ Selective Fire.esm
 : New Vegas Script Extender
 Sortomatic.esm
 SpeedyResources.esm
+SRDG.esm
 Stalker Weapons Pack.esm
 SunnyCompanion.esm
 ? Outdated. Consider Updating.
@@ -303,6 +304,7 @@ WMVM.esm
 wsex.esm
 <ELECTRO-CITY - CompletedWorkorders.esm
 <ELECTRO-CITY - Highways and Byways.esm
+Clean-Deluxe FNV.esm
 aHUD.esm
 : New Vegas Script Extender
 <iHUD.esm
@@ -2164,9 +2166,17 @@ ZZZZ--APB_221S_By_Nokturnihs.esp
 31 New Food Items.esp
 Active Wasteland.esp
 Active Wasteland - Vanilla Replacements.esp
+: Active Wasteland.esm
 Active Wasteland - Coffee Maker.esp
-Active Wasteland - Dead Money Coffee Maker.esp
+: Active Wasteland.esm
+Active Wasteland - Goggle Tints.esp
+: Active Wasteland.esm
 Active Wasteland - Dead Money Replacements.esp
+: Active Wasteland.esm, DeadMoney.esm
+Active Wasteland - Dead Money Coffee Maker.esp
+: Active Wasteland.esm, DeadMoney.esm
+Active Wasteland - Dead Money Goggle Tints.esp
+: Active Wasteland.esm, DeadMoney.esm
 AddEmptyBottle.esp
 AddLunchBox.esp
 add that gun to cowboy perk.esp
@@ -4838,6 +4848,10 @@ Interior Lighting Overhaul-Darker.esp
 ? Outdated.
 Interior Lighting Overhaul-Darker Interiors.esp
 ILO - NSkies URWLified Patch.esp
+Clean-Deluxe FNV Merge - All DLC.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Clean-Delux FNV.esm
+Clean-Deluxe FNV Merge - ILO.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Clean-Delux FNV.esm
 OWB-Path Lights.esp
 Depth of View I.esp
 Depth of View I Blur.esp
