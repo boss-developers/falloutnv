@@ -49,6 +49,7 @@
 FalloutNV.esm
 DeadMoney.esm
 % {{BASH: Deflst}}
+ACES - Casino Data Extension.esm
 HonestHearts.esm
 OldWorldBlues.esm
 LonesomeRoad.esm
@@ -269,6 +270,10 @@ SelectFire.esm
 : New Vegas Script Extender
 Selective Fire.esm
 : New Vegas Script Extender
+Sexout.esm
+SexoutCommonResources.esm
+SexoutSlavery.esm
+SexoutLegion.esm
 Sortomatic.esm
 SpeedyResources.esm
 SRDG.esm
