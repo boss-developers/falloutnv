@@ -39,7 +39,7 @@
  IF ("EVE FNV.esp") SET: EVE
 
 \ Upgrade message for 1.7+ users:
- IF (<2.0.1.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.0.1) has been released. Download it at "http://oblivion.nexusmods.com/downloads/file.php?id=20516", "http://skyrim.nexusmods.com/downloads/file.php?id=6", "http://fallout3.nexusmods.com/mods/10193" or "http://newvegas.nexusmods.com/mods/35999"
+ IF (<2.0.1.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.0.1) has been released. Download it at "http://oblivion.nexusmods.com/mods/20516", "http://skyrim.nexusmods.com/downloads/file.php?id=6", "http://fallout3.nexusmods.com/mods/10193" or "http://newvegas.nexusmods.com/mods/35999"
 
 \ ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 
@@ -1894,11 +1894,11 @@ Project Nevada - Honest Hearts.esp
 Project Nevada - Dead Money + Honest Heart Patch.esp
 : DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
 " Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp
-? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegasnexus.com/downloads/file.php?id=42363"
+? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegas.nexusmods.com/mods/42363"
 Project Nevada - Dead Money SF + Honest Hearts Patch.esp
 : DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
 " Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp
-? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegasnexus.com/downloads/file.php?id=42363"
+? Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegas.nexusmods.com/mods/42363"
 Project Nevada - Old World Blues.esp
 : OldWorldBlues.esm and Project Nevada - Core.esm
 ? Choose only one of Project Nevada - Old World Blues.esp and Project Nevada - Old World Blues (No Cyberware).esp, not both
