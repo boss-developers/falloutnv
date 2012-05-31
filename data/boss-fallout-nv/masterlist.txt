@@ -225,6 +225,10 @@ New Vegas Error Corrections Complete - DLC + GRA + NVCE + MM.esm
 New Vegas Error Corrections BugFixes - NO DLC.esm
 New Vegas Error Corrections BugFixes - DLC + GRA.esm
 New Vegas Error Corrections BugFixes - DLC + GRA + NVCE + MM.esm
+NVEC Complete.esm
+NVEC Complete + NVCE.esm
+NVEC BugFixes.esm
+NVEC BugFixes + NVCE.esm
 NCCS Nos' Premade Companions.esm
 : NosCo Companion System.esm
 ACM Fem Fatales of FO3.esm
@@ -607,14 +611,21 @@ New Vegas Error Corrections - DLC + GRA.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 New Vegas Error Corrections - GRA ONLY.esp
 : GunRunnersArsenal.esm
+NVEC Enhancements.esp
+NVEC Reduce CTD.esp
+NVEC Complete FOOK Patch.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, FOOK - New Vegas.esm
 NVEC FOOK PATCH - DLC.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, FOOK - New Vegas.esm
 NVEC FOOK PATCH - NO DLC.esp
 : FOOK - New Vegas.esm
 NVEC LINGS PATCH - DLC.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Lings.esm
+NVEC Complete Lings Patch.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Lings.esm
 NVEC LINGS PATCH - NO DLC.esp
 : Lings.esm
+NVEC Extras.esp
 NVVariousFixes - Honest Hearts.esp
 : HonestHearts.esm
 PackWeaponsFix.esp
@@ -1961,6 +1972,7 @@ Improved Sound FX - Project Nevada.esp
 % {{BASH: Sound}}
 : Project Nevada - Core.esm
 NVEC Complete Improved Sound FX Patch.esp
+NVEC Improved Sound FX Patch.esp
 LouderGuns.esp
 % {{BASH: Sound}}
 Machienzo-RadioNewVegasFix.esp
