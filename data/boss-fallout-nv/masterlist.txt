@@ -2701,6 +2701,8 @@ AG Supplementary Uniques-AllInOne.esp
 " AG Supplementary Uniques.esp, AG Supplementary Uniques-Dead Money.esp, AG Supplementary Uniques-Honest Hearts.esp, AG Supplementary Uniques-Old World Blues.esp, AG Supplementary Uniques-Lonesome Road.esp
 AG Supplementary Uniques-GRA.esp
 : GunRunnersArsenal.esm
+MMUE-CP-AGSU.esp
+: AG Supplementary Uniques.esp
 Ahzteks Weapon Replacements.esp
 ? Outdated.
 Selective Fire - Ahzteks NV Weapon Overhaul.esp
