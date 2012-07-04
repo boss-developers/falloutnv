@@ -468,6 +468,10 @@ Mission Mojave - Ultimate Edition.esp
 % {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
 " Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+MMUE - Deutsch.esp
+% {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
+" Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
+: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 MMUE+.esp
 MMUE-Tools-InvisibleWallRemover.esp
 : Mission Mojave - Ultimate Edition.esp
