@@ -5106,6 +5106,11 @@ MikotoBeauty.esp
 Merged Patch.esp
 \EndGroup\\
 
+\BeginGroup\: ModFusion
+\-----------
+ModFusion.esp
+\EndGroup\\
+
 \BeginGroup\: Bashed Patch
 \-----------
 Bashed Patch, 0.esp
