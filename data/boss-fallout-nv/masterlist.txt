@@ -159,6 +159,8 @@ decwithreg.esm
 Decrucifixion.esm
 Detect Traps.esm
 Docs Sexy Nurse.esm
+domecity.esm
+domecity_Kaz_plugin.esm 
 drgNV - Melissa Companion.esm
 DXEAmigoCafeNV.esm
 EnergyShield.esm
@@ -176,6 +178,7 @@ Fiends, With Style.esm
 % {{BASH: Delev}}
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
+FreesideOpen.esm
 <FOOK - New Vegas.esm
 <% {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 <FOOK - New Vegas DLCs.esm
@@ -465,6 +468,7 @@ Mission Mojave - Ultimate Edition.esp
 % {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
 " Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp
 : DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+MMUE+.esp
 MMUE-Tools-InvisibleWallRemover.esp
 : Mission Mojave - Ultimate Edition.esp
 " IWR.esm
@@ -823,6 +827,10 @@ EZ_GLUE.esp
 FairyRadar.esp
 FPSWeaponWheel.esp
 Further3rdPersonCamera.esp
+FreesideOpenPatch.esp
+: FreesideOpen.esm
+FreesideOpenBoulderDomePatch.esp
+: domecity.esm, FreesideOpen.esm
 HUD Extended.esp
 HUD Extended - Ambient Temperature.esp
 : Ambient Temperature.esm
@@ -869,6 +877,7 @@ WOP Fixes.esp
 
 CF_FastStart.esp
 Kobu's New Game Quick Start and Better Rebuild.esp
+originalintro.esp
 Roleplay Start 1.2.esp
 \EndGroup\\
 
@@ -1942,6 +1951,8 @@ BluesRadioNV.esp
 CONELRAD 640-1240.esp
 ExtendedNVRadio.esp
 ExtendedNVRadio (Secret Stash).esp
+FSOmusic.esp
+: FreesideOpen.esm
 AG Weapon Reload SFX.esp
 CRL9K_ThisMachineSound.esp
 Improved Sound FX.esp
@@ -2006,6 +2017,17 @@ Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 
 \BeginGroup\: Quests
 \-----------
+athornysituation.esp
+avangraffscorned.esp
+awilderwasteland.esp
+" awilderwastelandnobenny.esp
+awilderwastelandnobenny.esp
+" awilderwasteland.esp
+betsybrahmin.esp
+" betsybrahminFSO.esp
+betsybrahminFSO.esp
+: FreesideOpen.esm
+" betsybrahmin.esp
 Bobbleheads - Cases.esp
 Bobbleheads - Cases_v1.2a.esp
 Bobbleheads - Hidden_v1.2.esp
@@ -2022,6 +2044,7 @@ Free the Slaves.esp
 Game_Bloodlines.esp
 Goodsprings Filler.esp
 Goodsprings Goodstart.esp
+kochandbohr.esp
 LawlessVegas.esp
 lexx-q-warehouse-war-house.esp
 SilentStruggleV1.esp
@@ -2035,10 +2058,15 @@ NoMainStoryUltimatums.esp
 pnvnvbount1.esp
 : NewVegasBounties.esp
 NewVegasBountiesII.esp
+NewVegasBountiesFSOPatch.esp
+: FreesideOpen.esm
+outsidebets.esp
+Pacersgambit.esp
 PAMQ_v1.esp
 PowerAmor.esp
 QRhymeRenegade.esp
 : NewVegasBountiesII.esp
+rotfacetoriches.esp
 Serial Killer.esp
 TheCollector.esp
 TimeCapsule.esp
