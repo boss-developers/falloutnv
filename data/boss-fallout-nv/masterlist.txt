@@ -20,25 +20,25 @@ Silent Comments:
 Silent comments are ignored by BOSS, and may be written by starting a line with  "//" (not including quotes).
 You cannot start a silent comment part-way into a line, only whole lines may be silent.
 
- Message Type                      Keyword      Description
- =====================================================================
- General message                   SAY          A general message for the mod above.
- Bash Tag suggestion               TAG          A Bash Tag suggestion for the mod above.
- Requirement                       REQ          An installation requirement for the mod above.
- Incompatibility                   INC          A specific incompatibility for the mod above.
- Dirty mod message                 DIRTY        A message relating to dirty edits in the mod above.
- Warning                           WARN         A message used to display a non-critical warning for the mod above.
- Error                             ERROR        A message used to display a critical (ie. install-breaking) error for the mod above.
+  Message Type                      Keyword      Description
+  =====================================================================
+  General message                   SAY          A general message for the mod above.
+  Bash Tag suggestion               TAG          A Bash Tag suggestion for the mod above.
+  Requirement                       REQ          An installation requirement for the mod above.
+  Incompatibility                   INC          A specific incompatibility for the mod above.
+  Dirty mod message                 DIRTY        A message relating to dirty edits in the mod above.
+  Warning                           WARN         A message used to display a non-critical warning for the mod above.
+  Error                             ERROR        A message used to display a critical (ie. install-breaking) error for the mod above.
 
 Message keywords should be indented by two spaces and followed by a colon ':' then the message string.
 */
 
 // Masterlist variable setup for BOSS v1.7+.
- IF ("nVamp - Core.esm") SET: NVAMP
- IF ("EVE FNV.esp") SET: EVE
+  IF ("nVamp - Core.esm") SET: NVAMP
+  IF ("EVE FNV.esp") SET: EVE
 
 // Upgrade message for 1.7+ users:
- IF (<2.0.1.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.0.1) has been released. Download it at "http://oblivion.nexusmods.com/mods/20516", "http://skyrim.nexusmods.com/mods/6", "http://fallout3.nexusmods.com/mods/10193" or "http://newvegas.nexusmods.com/mods/35999"
+  IF (<2.0.1.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.0.1) has been released. Download it at "http://oblivion.nexusmods.com/mods/20516", "http://skyrim.nexusmods.com/mods/6", "http://fallout3.nexusmods.com/mods/10193" or "http://newvegas.nexusmods.com/mods/35999"
 
 
 BEGINGROUP: ESMs
