@@ -475,6 +475,9 @@ MMUE-Tools-InvisibleWallRemover.esp
   INC: IWR.esm
 MMUE-Tools-CoordinateGun.esp
   REQ: Mission Mojave - Ultimate Edition.esp
+MMUE-CP-Electrocity.esp
+  REQ: ELECTRO-CITY - CompletedWorkorders.esm
+  REQ: ELECTRO-CITY - Highways and Byways.esm
 Community Bugfix Compilation Patch.esp
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
@@ -3539,6 +3542,8 @@ AWOPLowLootSkillBooks.esp
   REQ: AWorldOfPain(Preview).esm
 Sortomatic-AWOP.esp
   REQ: Sortomatic.esm and AWorldOfPain(Preview).esm
+MMUE-CP-AWOP.esp
+  REQ: AWorldOfPain(Preview).esm
 Caesars_Legion_Overhaul.esp
 CaliberX_Ammo_Update_1dot3.esp
 Fun with Karma NV.esp
@@ -4582,6 +4587,9 @@ ENDGROUP
 BEGINGROUP: Special Cases for WMX and/or WME support
 //-----------
 EVE FNV.esp
+EVE FNV-[GRA Patch for EVE 1.3].esp
+  REQ: EVE FNV.esp
+  REQ: GunRunnersArsenal.esm
 Project Nevada - EVE.esp
   REQ: EVE FNV.esp
 dD-Reduced Dismember Force - EVE.esp
