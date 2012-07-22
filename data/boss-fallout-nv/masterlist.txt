@@ -2055,6 +2055,8 @@ Machienzo-Behold The Riches.esp
 Northwind Bunker.esp
 Prove Your Worth.esp
 NewVegasBounties.esp
+Cowboy Perk Complete - New Vegas Bounties.esp
+ REQ: NewVegasBounties.esp
 NoMainStoryUltimatums.esp
 pnvnvbount1.esp
   REQ: NewVegasBounties.esp
@@ -3458,6 +3460,7 @@ Machienzo - NPC Cosmetic Fixes DLC02.esp
 Machienzo - NPC Cosmetic Fixes DLC03.esp
   REQ: OldWorldBlues.esm
   SAY: Old, update to NVCE.
+Mojave Nights.esp
 NVCE DLC01.esp
   TAG: {{BASH:Actors.ACBS,NPC.Race,NpcFaces}}
   REQ: DeadMoney.esm
@@ -3492,6 +3495,13 @@ BEGINGROUP: Middle Misc
 //-----------
 AWOPDeadMoney.esp
   REQ: DeadMoney.esm
+AWOP DLC + GRA Conflict Error Fixes.esp
+  REQ: AWorldOfPain(Preview).esm
+  REQ: DeadMoney.esm
+  REQ: GunRunnersArsenal.esm
+  REQ: HonestHearts.esm
+  REQ: LonesomeRoad.esm
+  REQ: OldWorldBlues.esm
 AWOPLowRobots.esp
   INC: AWOPVeryLowRobots.esp
   REQ: AWorldOfPain(Preview).esm
@@ -3522,6 +3532,8 @@ AWOPCaliberXAmmoPatchLOW.esp
 AWOPLowLootGeneral.esp
   REQ: AWorldOfPain(Preview).esm
 AWOPLowLootMWeapons.esp
+  REQ: AWorldOfPain(Preview).esm
+AWOPLowLootMWeaponsArmor.esp
   REQ: AWorldOfPain(Preview).esm
 AWOPLowLootSkillBooks.esp
   REQ: AWorldOfPain(Preview).esm
