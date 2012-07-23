@@ -3463,7 +3463,6 @@ Machienzo - NPC Cosmetic Fixes DLC02.esp
 Machienzo - NPC Cosmetic Fixes DLC03.esp
   REQ: OldWorldBlues.esm
   SAY: Old, update to NVCE.
-Mojave Nights.esp
 NVCE DLC01.esp
   TAG: {{BASH:Actors.ACBS,NPC.Race,NpcFaces}}
   REQ: DeadMoney.esm
@@ -3753,6 +3752,8 @@ ENDGROUP
 BEGINGROUP: Later Misc
 //-----------
 PrimmSheriff.esp
+101Billboards.esp
+101Posters.esp
 1ASS RPG, Icons.esp
 1PipboyPDA.esp
 Advanced PipBoy 1.esp
@@ -3788,6 +3789,7 @@ Real Weapon Names - Project Nevada.esp
 MiscItemIconsNV.esp
   TAG: {{BASH: Graphics, NoMerge}}
   INC: T3T_MiscItemIconsNV.esp
+Mojave Nights.esp
 NVDLC02 Extensions.esp
   REQ: HonestHearts.esm, QHHFollowers.esp
 T3T_MiscItemIconsNV.esp
