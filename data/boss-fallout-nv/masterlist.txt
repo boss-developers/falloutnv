@@ -52,6 +52,7 @@ OldWorldBlues.esm
 LonesomeRoad.esm
 GunRunnersArsenal.esm
 Community Bugfix Compilation Patch.esm
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 CBC Dead Money Patch.esm
   REQ: DeadMoney.esm
@@ -74,22 +75,22 @@ IFNOT ($NVAMP) MOD: NVCE Main.esm
 IFNOT ($NVAMP) MOD: NVCE Main (Faces Only).esm
   TAG: {{BASH: Actors.ACBS, Deactivate, Filter, NPC.Race, NpcFaces}}
 OFT_Merge_All.esm
-  SAY: Old, update to latest version 3.1+.
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
   INC: All other OFT plugins are merged with it.
 OFT_Merge_Base.esm
-  SAY: Old, update to latest version 3.1+.
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
   INC: OFT_Merge_All.esm
   INC: OFT_Base.esp
   INC: OFT_Base_Interiors.esp
   INC: OFT_IWR_Base.esp
   INC: OFT_Coordinate_Finder.esp
 OFT_Merge_HonestHearts.esm
-  SAY: Old, update to latest version 3.1+.
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
   INC: OFT_Merge_All.esm
   INC: OFT_HonestHearts.esp
   INC: OFT_HonestHearts_Interiors.esp
 OFT_Merge_OldWorldBlues.esm
-  SAY: Old, update to latest version 3.1+.
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
   INC: OFT_Merge_All.esm
   INC: OFT_OldWorldBlues.esp
   INC: OFT_IWR_OldWorldBlues.esp
@@ -470,6 +471,9 @@ MMUE - Deutsch.esp
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 MMUE+.esp
+  REQ: Mission Mojave - Ultimate Edition.esp
+MMUE-GRA-Standard.esp
+  REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-Tools-InvisibleWallRemover.esp
   REQ: Mission Mojave - Ultimate Edition.esp
   INC: IWR.esm
@@ -477,7 +481,6 @@ MMUE-Tools-CoordinateGun.esp
   REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-CP-Electrocity.esp
   REQ: ELECTRO-CITY - CompletedWorkorders.esm
-  REQ: ELECTRO-CITY - Highways and Byways.esm
 Community Bugfix Compilation Patch.esp
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
@@ -1238,6 +1241,7 @@ NVInteriors_WastelandEditon.esp
 OWNB - Red Canyon Overhaul.esp
   REQ: OWNB - Open World.esm
 Portable Tent.esp
+Portable Tent - Bobbleheads.esp
 ProjectPrimm.esp
 Rancho Villa.esp
 Realistic Portable Tent.esp
@@ -3060,19 +3064,7 @@ ENDGROUP
 
 BEGINGROUP: Armor and Clothes
 //-----------
-BlackWolf Backpack.esp
-  INC: QS_Blackwolf_NV_Backpackmod.esp
-  SAY: To be used with BlackWolf Backpack - Vendor Script Replenish.esp
-BlackWolf Backpack - Vendor Script Replenish.esp
-  SAY: To be used with BlackWolf Backpack.esp
-QS_Blackwolf_NV_Backpackmod.esp
-  INC: BlackWolf Backpack.esp
-QBackPackNV.esp
-KDS Wearable Backpacks.esp
-  TAG: {{BASH: Invent}}
-Kobu's Sortable Backpack.esp
-Kobu's Sortable Backpack - No Extra Carry Weight.esp
-Kobu's Sortable Crafting Backpack.esp
+1Earrings.esp
 1SBSteamOutfit.esp
 1stReconArmor_Med.esp
 1stReconArmor_MedNonFaction.esp
@@ -3134,6 +3126,11 @@ BodyJewelry.esp
 bornagain Book Of Steel.esp
 Brotherhood Armor.esp
 Blackrock Mesa Outfit.esp
+BlackWolf Backpack.esp
+  INC: QS_Blackwolf_NV_Backpackmod.esp
+  SAY: To be used with BlackWolf Backpack - Vendor Script Replenish.esp
+BlackWolf Backpack - Vendor Script Replenish.esp
+  SAY: To be used with BlackWolf Backpack.esp
 Blck_Fx NV-- Add Implants Occulaire SM style.esp
 BOAt51b.esp
 boa ncrpahelmet.esp
@@ -3275,9 +3272,14 @@ JRougeRangerCoats4Loot.esp
 K2_NVClothes01.esp
 Kaya47GlacierGlasses.esp
 Kaya47NordicGear.esp
+KDS Wearable Backpacks.esp
+  TAG: {{BASH: Invent}}
 KerberosPanzer-AdvancedReconGear.esp
 KerberosPanzer-power armor.esp
 KerberosPanzer-lower dt.esp
+Kobu's Sortable Backpack.esp
+Kobu's Sortable Backpack - No Extra Carry Weight.esp
+Kobu's Sortable Crafting Backpack.esp
 LDTribalPowerArmor.esp
 LeatherBackpack - eng.esp
 Leather backpack - rus.esp
@@ -3359,6 +3361,9 @@ Power Armour is Powered.esp
 pnvpoweredpowerarmor.esp
   REQ: Powered Power Armor.esp
 PURELUST_port.esp
+QBackPackNV.esp
+QS_Blackwolf_NV_Backpackmod.esp
+  INC: BlackWolf Backpack.esp
 QSondraOutfits.esp
 QVaultSuits.esp
 ranger_leather.esp
@@ -4600,6 +4605,8 @@ dD-Smaller Wounds - EVE.esp
   REQ: EVE FNV.esp
 MMUE-CP-EVE.esp
   REQ: Mission Mojave - Ultimate Edition.esp, EVE FNV.esp
+MMUE-CP-WMX.esp
+  REQ: Mission Mojave - Ultimate Edition.esp, WeaponModsExpanded.esp
 WMEVE.esp
   REQ: Weapon Mod Expansion.esm, EVE FNV.esp
 EVE_WMX.esp
@@ -4829,6 +4836,7 @@ Nevada Skies.esp
   TAG: {{BASH: C.Climate, C.Light}}
   REQ: HonestHearts.esm if the Optional Honest Hearts .esp is installed.
   INC: Nevada Skies - URWLified.esp, Nevada Skies - URWLHH.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
+  DIRTY: Contains unnecessary landscape edits.
 Ambient Temperature - Nevada Skies.esp
   REQ: Ambient Temperature.esm AND Nevada Skies.esp
 Nevada Skies - URWLified.esp
@@ -4875,6 +4883,12 @@ ELECTRO-CITY - Darker Nights.esp
 Jupiter over Vegas.esp
 Nights are Darker 25%.esp
 Nights are Darker 50%.esp
+Nights are Darker - Fallout New Vegas.esp
+Nights are Darker - Dead Money.esp
+Nights are Darker - Honest Hearts.esp
+Nights are Darker - Old World Blues.esp
+Nights are Darker - Lonesome Road.esp
+Nights are Darker - Ultimate Edition.esp
 Interior Lighting Overhaul.esp
   TAG: {{BASH: C.Light}}
   SAY: Outdated Version. Consider Updating.
