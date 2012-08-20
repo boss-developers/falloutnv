@@ -34,11 +34,11 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 */
 
 // Masterlist variable setup for BOSS v1.7+.
-  IF ("nVamp - Core.esm") SET: NVAMP
-  IF ("EVE FNV.esp") SET: EVE
+  IF FILE("nVamp - Core.esm") SET: NVAMP
+  IF FILE("EVE FNV.esp") SET: EVE
 
 // Upgrade message for 1.7+ users:
-  IF (<2.1.0.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.1.0) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
+  IF VERSION("BOSS", "2.1.0.0", <) GLOBAL WARN: An update for BOSS (v2.1.0) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
 
 
 BEGINGROUP: ESMs
@@ -61,18 +61,18 @@ MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
 Machienzo-PreOrdAlt#1.esm
-IFNOT ($NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
+IFNOT VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
   INC: Old, update to NVCE.
-IFNOT ($NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
+IFNOT VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
   SAY: Old, update to NVCE.
-IFNOT ($NVAMP) MOD: Machienzo - NPC Cosmetic Fixes.esm
+IFNOT VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
   SAY: Old, update to NVCE.
-IFNOT ($NVAMP) MOD: NVCE Main.esm
+IFNOT VAR(NVAMP) MOD: NVCE Main.esm
   TAG: {{BASH: Actors.ACBS, Actors.AIPackages, Invent, NPC.Race, NpcFaces}}
-IFNOT ($NVAMP) MOD: NVCE Main (Faces Only).esm
+IFNOT VAR(NVAMP) MOD: NVCE Main (Faces Only).esm
   TAG: {{BASH: Actors.ACBS, Deactivate, Filter, NPC.Race, NpcFaces}}
 OFT_Merge_All.esm
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
@@ -104,7 +104,7 @@ IWR.esm
   SAY: Loaded early to let other mods override boundaries if needed.
   SAY: Does the same thing as OWNB - Open World.esm; Use one or the other.
   INC: These resources are now in OFT_IWR_Base.esp
-IFNOT ($NVAMP) MOD: IWS-Core.esm
+IFNOT VAR(NVAMP) MOD: IWS-Core.esm
   TAG: {{BASH: Delev}}
   SAY: Loaded early to let other mods override spawn points if needed.
 NosCo Companion System.esm
@@ -129,21 +129,21 @@ AEVegas.esm
 Afterschool Special.esm
 Alice Armor.esm
 BinocularsOverhaul.esm
-IFNOT ($NVAMP) MOD: BoulderCityFaceliftProject.esm
+IFNOT VAR(NVAMP) MOD: BoulderCityFaceliftProject.esm
 CALIBR.esm
-IFNOT ($NVAMP) MOD: Caliber.esm
+IFNOT VAR(NVAMP) MOD: Caliber.esm
   TAG: {{BASH: Invent, Names}}
-IFNOT ($NVAMP) MOD: HonestHearts-CaliberX.esm
+IFNOT VAR(NVAMP) MOD: HonestHearts-CaliberX.esm
   REQ: HonestHearts.esm
-IFNOT ($NVAMP) MOD: CaliberXhonesthearts.esm
+IFNOT VAR(NVAMP) MOD: CaliberXhonesthearts.esm
   REQ: HonestHearts.esm
-IFNOT ($NVAMP) MOD: CaliberXgunrunners.esm
+IFNOT VAR(NVAMP) MOD: CaliberXgunrunners.esm
   TAG: {{BASH: Names}}
-IFNOT ($NVAMP) MOD: CFWNV.esm
-IFNOT ($NVAMP) MOD: CFWNV-DLC.esm
+IFNOT VAR(NVAMP) MOD: CFWNV.esm
+IFNOT VAR(NVAMP) MOD: CFWNV-DLC.esm
   REQ: DeadMoney.esm and HonestHearts.esm
 CHEMS.esm
-IFNOT ($NVAMP) MOD: CINEMATECH.esm
+IFNOT VAR(NVAMP) MOD: CINEMATECH.esm
   REQ: New Vegas Script Extender and The Mod Configuration Menu for Version 1.5+
 CompanionInfAmmo.esm
 Companion Share & Recruit.esm
@@ -151,7 +151,7 @@ Companion Share & Recruit.esm
 Corvega.esm
 CreatureAdditions.esm
 Creature Add-On XIII.esm
-IFNOT ($NVAMP) MOD: dangame.esm
+IFNOT VAR(NVAMP) MOD: dangame.esm
 DarNifiedUI.esm
 decwithreg.esm
 Decrucifixion.esm
@@ -163,23 +163,23 @@ drgNV - Melissa Companion.esm
 DXEAmigoCafeNV.esm
 EnergyShield.esm
 Eve.esm
-IF (A4084FA6|"Eve.esm") SAY: Recommended that you upgrade to the official EVE FNV mod.
-IFNOT (A4084FA6|"Eve.esm") REQ: RRCompanionVault.esm
+IF CHECKSUM("Eve.esm", A4084FA6) SAY: Recommended that you upgrade to the official EVE FNV mod.
+IFNOT CHECKSUM("Eve.esm", A4084FA6) REQ: RRCompanionVault.esm
 EVE-900.esm
-IFNOT ($NVAMP) MOD: EZ_CompanionNVSE.esm
-IFNOT ($NVAMP) MOD: EZ_CompanionNVSE_Killable_Normal.esm
+IFNOT VAR(NVAMP) MOD: EZ_CompanionNVSE.esm
+IFNOT VAR(NVAMP) MOD: EZ_CompanionNVSE_Killable_Normal.esm
   SAY: Old
-IFNOT ($NVAMP) MOD: EZ_Face_TEMPLATE.esm
-IFNOT ($NVAMP) MOD: OutfitsReColorNVMaster.esm
+IFNOT VAR(NVAMP) MOD: EZ_Face_TEMPLATE.esm
+IFNOT VAR(NVAMP) MOD: OutfitsReColorNVMaster.esm
 FalloutNV_Camera_Control.esm
 Fiends, With Style.esm
   TAG: {{BASH: Delev}}
 FONVAMoreSpawns.esm
 FPT EDE Lings Lisbet Brunette.esm
 FreesideOpen.esm
-IFNOT ($NVAMP) MOD: FOOK - New Vegas.esm
+IFNOT VAR(NVAMP) MOD: FOOK - New Vegas.esm
   TAG: {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
-IFNOT ($NVAMP) MOD: FOOK - New Vegas DLCs.esm
+IFNOT VAR(NVAMP) MOD: FOOK - New Vegas DLCs.esm
   REQ: DeadMoney.esm and HonestHearts.esm
 Frequency.esm
 Frys_Freehold.esm
@@ -195,7 +195,7 @@ LDFemalePowerArmorPack.esm
 Lucky38Suite_Reloaded.esm
 LW Companion.esm
   SAY: The custom esp file that is created by this mod needs to be sorted manually. Place after any beauty pack or hair mods.
-IFNOT ($NVAMP) MOD: Mo'.esm
+IFNOT VAR(NVAMP) MOD: Mo'.esm
   REQ: Caliber.esm and NVSE Version 1 Beta 6 or newer.
 Military Explansion Program.esm
 Military NV Backpacks.esm
@@ -203,23 +203,23 @@ M.M.A.T - Core Module.esm
 Moddable Unique Weps.esm
   TAG: {{BASH: WeaponMods}}
   INC: Moddable Unique Weps.esp
-IFNOT ($NVAMP) MOD: AWorldOfPain(Preview).esm
+IFNOT VAR(NVAMP) MOD: AWorldOfPain(Preview).esm
   TAG: {{BASH: Invent, Deflst}}
-IFNOT ($NVAMP) MOD: AWorldOfPain(LowLoot).esm
+IFNOT VAR(NVAMP) MOD: AWorldOfPain(LowLoot).esm
   SAY: Outdated. Consider using the latest version along with the low loot patches instead.
-IFNOT ($NVAMP) MOD: MoMod.esm
+IFNOT VAR(NVAMP) MOD: MoMod.esm
   TAG: {{BASH: Relev}}
   INC: monsterrach.esp
-IFNOT ($NVAMP) MOD: More Perks.esm
-IFNOT ($NVAMP) MOD: More Perks for Companions.esm
-IFNOT ($NVAMP) MOD: More Perks for Dead Money.esm
+IFNOT VAR(NVAMP) MOD: More Perks.esm
+IFNOT VAR(NVAMP) MOD: More Perks for Companions.esm
+IFNOT VAR(NVAMP) MOD: More Perks for Dead Money.esm
   REQ: DeadMoney.esm and More Perks.esm
-IFNOT ($NVAMP) MOD: More Perks for Honest Hearts.esm
+IFNOT VAR(NVAMP) MOD: More Perks for Honest Hearts.esm
   REQ: HonestHearts.esm and More Perks.esm
-IFNOT ($NVAMP) MOD: More Perks for Old World Blues.esm
+IFNOT VAR(NVAMP) MOD: More Perks for Old World Blues.esm
   REQ: OldWorldBlues.esm and More Perks.esm
-IFNOT ($NVAMP) MOD: More Traits.esm
-IFNOT ($NVAMP) MOD: More Challenges.esm
+IFNOT VAR(NVAMP) MOD: More Traits.esm
+IFNOT VAR(NVAMP) MOD: More Challenges.esm
 New Vegas Error Corrections Complete - NO DLC.esm
 New Vegas Error Corrections Complete - DLC + GRA.esm
 New Vegas Error Corrections Complete - DLC + GRA + NVCE + MM.esm
@@ -257,9 +257,9 @@ NVR-Strip.esm
 PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
-IFNOT ($NVAMP) MOD: Project Nevada - Core.esm
+IFNOT VAR(NVAMP) MOD: Project Nevada - Core.esm
   REQ: New Vegas Script Extender
-IFNOT ($NVAMP) MOD: Project Nevada - Equipment.esm
+IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 ReactivePeople.esm
@@ -288,89 +288,89 @@ SunnyCompanion.esm
 Survivalist Bunker.esm
 TAC-SHOP.esm
 TalonPack.esm
-IFNOT ($NVAMP) MOD: Tales from the Burning Sands.esm
+IFNOT VAR(NVAMP) MOD: Tales from the Burning Sands.esm
 Thermal Vision.esm
-IFNOT ($NVAMP) MOD: The Roost.esm
+IFNOT VAR(NVAMP) MOD: The Roost.esm
 TSC Vegas.esm
 VMods - Master.esm
 War Never Changes.esm
 WARZONES - Misanthropy Pure.esm
-IFNOT ($NVAMP) MOD: Weapon Mod Expansion.esm
+IFNOT VAR(NVAMP) MOD: Weapon Mod Expansion.esm
   TAG: {{BASH: Names}}
-IFNOT ($NVAMP) MOD: WME - Dead Money.esm
+IFNOT VAR(NVAMP) MOD: WME - Dead Money.esm
   REQ: DeadMoney.esm and Weapon Mod Expansion.esm
-IFNOT ($NVAMP) MOD: WME - Honest Hearts.esm
+IFNOT VAR(NVAMP) MOD: WME - Honest Hearts.esm
   REQ: HonestHearts.esm and Weapon Mod Expansion.esm
-IFNOT ($NVAMP) MOD: WME - Old World Blues.esm
+IFNOT VAR(NVAMP) MOD: WME - Old World Blues.esm
   REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
-IFNOT ($NVAMP) MOD: WME - GRA.esm
+IFNOT VAR(NVAMP) MOD: WME - GRA.esm
   REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
-IFNOT ($NVAMP) MOD: WME - GRA Light.esm
+IFNOT VAR(NVAMP) MOD: WME - GRA Light.esm
   REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
-IFNOT ($NVAMP) MOD: WME - DLCs.esm
+IFNOT VAR(NVAMP) MOD: WME - DLCs.esm
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
   INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 WMVM.esm
 wsex.esm
-IFNOT ($NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
-IFNOT ($NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
+IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
+IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 Clean-Deluxe FNV.esm
 aHUD.esm
   REQ: New Vegas Script Extender
-IFNOT ($NVAMP) MOD: iHUD.esm
+IFNOT VAR(NVAMP) MOD: iHUD.esm
   REQ: New Vegas Script Extender
 oHUD.esm
   REQ: New Vegas Script Extender
   INC: aHUD.esm, iHUD.esm, Primary Needs HUD.esm
 // nVamp stuff
-IF ($NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
+IF VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
   SAY: Old, update to NVCE.
-IF ($NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
+IF VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.57.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
   SAY: Old, update to NVCE.
-IF ($NVAMP) MOD: Machienzo - NPC Cosmetic Fixes.esm
+IF VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
   SAY: Old, update to NVCE.
-IF ($NVAMP) MOD: NVCE Main.esm
+IF VAR(NVAMP) MOD: NVCE Main.esm
   TAG: {{BASH: Actors.ACBS, Actors.AIPackages, Invent, NPC.Race, NpcFaces}}
-IF ($NVAMP) MOD: NVCE Main (Faces Only).esm
+IF VAR(NVAMP) MOD: NVCE Main (Faces Only).esm
   TAG: {{BASH: Actors.ACBS, Deactivate, Filter, NPC.Race, NpcFaces}}
-IF ($NVAMP) MOD: IWS-Core.esm
+IF VAR(NVAMP) MOD: IWS-Core.esm
   TAG: {{BASH: Delev}}
-IF ($NVAMP) MOD: Tales from the Burning Sands.esm
-IF ($NVAMP) MOD: EZ_CompanionNVSE.esm
-IF ($NVAMP) MOD: EZ_CompanionNVSE_Killable_Normal.esm
+IF VAR(NVAMP) MOD: Tales from the Burning Sands.esm
+IF VAR(NVAMP) MOD: EZ_CompanionNVSE.esm
+IF VAR(NVAMP) MOD: EZ_CompanionNVSE_Killable_Normal.esm
   SAY: Old
-IF ($NVAMP) MOD: EZ_Face_TEMPLATE.esm
-IF ($NVAMP) MOD: OutfitsReColorNVMaster.esm
-IF ($NVAMP) MOD: More Perks.esm
-IF ($NVAMP) MOD: More Perks for Companions.esm
-IF ($NVAMP) MOD: More Perks for Dead Money.esm
+IF VAR(NVAMP) MOD: EZ_Face_TEMPLATE.esm
+IF VAR(NVAMP) MOD: OutfitsReColorNVMaster.esm
+IF VAR(NVAMP) MOD: More Perks.esm
+IF VAR(NVAMP) MOD: More Perks for Companions.esm
+IF VAR(NVAMP) MOD: More Perks for Dead Money.esm
   REQ: DeadMoney.esm and More Perks.esm
-IF ($NVAMP) MOD: More Perks for Honest Hearts.esm
+IF VAR(NVAMP) MOD: More Perks for Honest Hearts.esm
   REQ: HonestHearts.esm and More Perks.esm
-IF ($NVAMP) MOD: More Perks for Old World Blues.esm
+IF VAR(NVAMP) MOD: More Perks for Old World Blues.esm
   REQ: OldWorldBlues.esm and More Perks.esm
-IF ($NVAMP) MOD: More Traits.esm
-IF ($NVAMP) MOD: More Challenges.esm
-IF ($NVAMP) MOD: Project Nevada - Core.esm
+IF VAR(NVAMP) MOD: More Traits.esm
+IF VAR(NVAMP) MOD: More Challenges.esm
+IF VAR(NVAMP) MOD: Project Nevada - Core.esm
   REQ: New Vegas Script Extender
-IF ($NVAMP) MOD: iHUD.esm
+IF VAR(NVAMP) MOD: iHUD.esm
   REQ: New Vegas Script Extender
-IF ($NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
-IF ($NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
-IF ($NVAMP) MOD: CINEMATECH.esm
+IF VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
+IF VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
+IF VAR(NVAMP) MOD: CINEMATECH.esm
   REQ: New Vegas Script Extender
-IF ($NVAMP) MOD: Caliber.esm
+IF VAR(NVAMP) MOD: Caliber.esm
   TAG: {{BASH: Invent, Names}}
-IF ($NVAMP) MOD: CFWNV.esm
-IF ($NVAMP) MOD: Weapon Mod Expansion.esm
+IF VAR(NVAMP) MOD: CFWNV.esm
+IF VAR(NVAMP) MOD: Weapon Mod Expansion.esm
   TAG: {{BASH: Names}}
-IF ($NVAMP) MOD: FOOK - New Vegas.esm
+IF VAR(NVAMP) MOD: FOOK - New Vegas.esm
   TAG: {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
-IF ($NVAMP) MOD: FOOK - New Vegas DLCs.esm
-IF ($NVAMP) MOD: Mo'.esm
+IF VAR(NVAMP) MOD: FOOK - New Vegas DLCs.esm
+IF VAR(NVAMP) MOD: Mo'.esm
   REQ: Caliber.esm and NVSE Version 1 Beta 6 or newer.
 nVamp - Very Voracious Vermin.esm
 nVamp - Really Awesome Travels.esm
@@ -398,33 +398,33 @@ nVamp - Core.esm
 nVamp - Vaernus's Voracious Vermin.esm
   SAY: Old, consider upgrading to nVamp version 0.15
 // nVamp end
-IF ($NVAMP) MOD: HonestHearts-CaliberX.esm
+IF VAR(NVAMP) MOD: HonestHearts-CaliberX.esm
   REQ: HonestHearts.esm
   TAG: {{BASH: Names}}
-IF ($NVAMP) MOD: BoulderCityFaceliftProject.esm
-IF ($NVAMP) MOD: dangame.esm
-IF ($NVAMP) MOD: The Roost.esm
-IF ($NVAMP) MOD: AWorldOfPain(Preview).esm
+IF VAR(NVAMP) MOD: BoulderCityFaceliftProject.esm
+IF VAR(NVAMP) MOD: dangame.esm
+IF VAR(NVAMP) MOD: The Roost.esm
+IF VAR(NVAMP) MOD: AWorldOfPain(Preview).esm
   TAG: {{BASH: Invent, Deflst}}
-IF ($NVAMP) MOD: AWorldOfPain(LowLoot).esm
+IF VAR(NVAMP) MOD: AWorldOfPain(LowLoot).esm
   SAY: Outdated. Consider using the latest version along with the low loot patches instead.
-IF ($NVAMP) MOD: MoMod.esm
+IF VAR(NVAMP) MOD: MoMod.esm
   TAG: {{BASH: Relev}}
   INC: monsterrach.esp
-IF ($NVAMP) MOD: Project Nevada - Equipment.esm
+IF VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
-IF ($NVAMP) MOD: CFWNV-DLC.esm
+IF VAR(NVAMP) MOD: CFWNV-DLC.esm
   REQ: DeadMoney.esm and HonestHearts.esm
-IF ($NVAMP) MOD: WME - Dead Money.esm
+IF VAR(NVAMP) MOD: WME - Dead Money.esm
   REQ: DeadMoney.esm and Weapon Mod Expansion.esm
-IF ($NVAMP) MOD: WME - Honest Hearts.esm
+IF VAR(NVAMP) MOD: WME - Honest Hearts.esm
   REQ: HonestHearts.esm and Weapon Mod Expansion.esm
-IF ($NVAMP) MOD: WME - Old World Blues.esm
+IF VAR(NVAMP) MOD: WME - Old World Blues.esm
   REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
-IF ($NVAMP) MOD: WME - GRA Light.esm
+IF VAR(NVAMP) MOD: WME - GRA Light.esm
   REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
-IF ($NVAMP) MOD: WME - DLCs.esm
+IF VAR(NVAMP) MOD: WME - DLCs.esm
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
   INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 CCO - Gameplay Changes.esm
@@ -451,14 +451,14 @@ NV GameStabilizerA8.esm
   TAG: {{BASH: NoMerge}}
   SAY: Outdated. Consider Updatng.
 RedRockRanch.esm
-ENDGROUP
+ENDGROUP: ESMs
 
 BEGINGROUP: Earliest
 //-----------
 {FalloutNV v1.2.0.285 [Unpatched Records]}.esp
 FalloutNV_lang.esp
   SAY: Translation file.
-ENDGROUP
+ENDGROUP: Earliest
 
 BEGINGROUP: Unofficial Patches and Fixes
 //-----------
@@ -726,8 +726,8 @@ OFT_Coordinate_Finder.esp
   INC: OFT_Merge_Base.esp
 OFT_Deutsche_Uebersetzung.esp
   REQ: OFT_Merge_All.esp
-ENDGROUP
-ENDGROUP
+ENDGROUP: Operation Fixed Terrain
+ENDGROUP: Unofficial Patches and Fixes
 
 BEGINGROUP: Early Loading Mods
 //-----------
@@ -875,7 +875,7 @@ The Weapon Mod Menu.esp
 Vanity Camera Smoother.esp
 WOP Fixes.esp
   REQ: AWorldOfPain(Preview).esm
-ENDGROUP
+ENDGROUP: Early Loading Mods
 
 BEGINGROUP: Alternative starts
 //''''''''''''''''''
@@ -886,7 +886,7 @@ CF_FastStart.esp
 Kobu's New Game Quick Start and Better Rebuild.esp
 originalintro.esp
 Roleplay Start 1.2.esp
-ENDGROUP
+ENDGROUP: Alternative starts
 
 BEGINGROUP: Faces
 //-----------
@@ -999,7 +999,7 @@ VyntageCass02.esp
   TAG: {{BASH: NpcFaces}}
 VyntageVeronica02.esp
   TAG: {{BASH: NpcFaces}}
-ENDGROUP
+ENDGROUP: Faces
 
 BEGINGROUP: NPC
 //-----------
@@ -1107,7 +1107,7 @@ VendorGameTimeRestockNoDefaultRestock.esp
   SAY: Recommended to be used with one of the main .esp's
 weathersnotstuck.esp
 [Candora's Box] Sharing & Caring.esp
-ENDGROUP
+ENDGROUP: NPC
 
 BEGINGROUP: Places
 //-----------
@@ -1395,8 +1395,8 @@ NVFR-NVR-Version_2.esp
   REQ:NVR-Strip.esm
 NVFR-NVR-NVTC-Version_2.esp
   REQ:NVR-Strip.esm
-ENDGROUP
-ENDGROUP Places
+ENDGROUP: New Vegas Restoration
+ENDGROUP: Places
 
 BEGINGROUP: Overhauls
 //-----------
@@ -1412,7 +1412,7 @@ NVWastelandUnlocked.esp
 NVWeaponAmmoTweaks.esp
   TAG: {{BASH: Stats, WeaponMods}}
 NVUnnerfed.esp
-ENDGROUP
+ENDGROUP: BlackCompany HarderCore Pack
 
 BEGINGROUP: Fallout New Vegas Advanced & HAM-Hardcore Advanced Mods
 //-----------
@@ -1429,7 +1429,7 @@ HAM-Basics.esp
 HAM-Damage.esp
 HAM-Needs.esp
 HAM-SixHands.esp
-ENDGROUP
+ENDGROUP: Fallout New Vegas Advanced & HAM-Hardcore Advanced Mods
 
 BEGINGROUP: FOOK
 //-----------
@@ -1464,7 +1464,7 @@ LinkesAuge - Retexture edits.esp
 vertibirds & toxic cave.esp
 NVEC Complete FOOK Patch - DLC + GRA.esp
 MMUE-CP-FOOK.esp
-ENDGROUP
+ENDGROUP: FOOK
 
 BEGINGROUP: New Vegas Replayability
 //-----------
@@ -1475,7 +1475,7 @@ NVReplayabilityByDandysV1.300.esp
 NVReplayabilityByDandysV1.5000.esp
 NVReplayabilityByDandysV1.600.esp
 NVReplayabilityByDandysV1.700.esp
-ENDGROUP
+ENDGROUP: New Vegas Replayability
 
 BEGINGROUP: Frontsalats Modular Mods and Tweaks
 //-----------
@@ -1538,7 +1538,7 @@ M.M.A.T Recipe Module.esp
 M.M.A.T - Recipe Module.esp
 M.M.A.T Repair Module.esp
 M.M.A.T - Repair Module.esp
-ENDGROUP
+ENDGROUP: Frontsalats Modular Mods and Tweaks
 
 BEGINGROUP: Book Of Earache
 //-----------
@@ -1562,7 +1562,7 @@ Mo'IPP.esp
 Mo'Uniques.esp
 Mo'haveAmmoDepot.esp
 Mo'DLC.esp
-ENDGROUP
+ENDGROUP: Book Of Earache
 
 BEGINGROUP: NEVAX - New Vegas Expanded (German)
 //-----------
@@ -1596,7 +1596,7 @@ NEVAX - WAFFEN.esp
   TAG: {{BASH: Deflst, Relev}}
 NEVAX - WENIGER GEGENSTAENDE.esp
 NEVAX - WENIGER MUNITION.esp
-ENDGROUP
+ENDGROUP: NEVAX - New Vegas Expanded (German)
 
 BEGINGROUP: Puce Moose Tweak and Balance Center
 //-----------
@@ -1658,7 +1658,7 @@ PMT - OWB - Reduced Ammo and Items.esp
 PMT - LR - Reduced Ammo Food Chems.esp
   REQ: LonesomeRoad.esm
 nVamp - PMT.esp
-ENDGROUP
+ENDGROUP: Puce Moose Tweak and Balance Center
 
 BEGINGROUP: Reload
 //-----------
@@ -1674,7 +1674,7 @@ RearmRebalance.esp
   TAG: {{BASH: Stats}}
 ReSort.esp
   TAG: {{BASH: Names}}
-ENDGROUP
+ENDGROUP: Reload
 
 BEGINGROUP: Superior Firepower
 //-----------
@@ -1705,7 +1705,7 @@ Superior Firepower - Factional Changes.esp
   TAG: {{BASH: Delev, Relev}}
 Superior Firepower - Leveled Lists Fix.esp
 nVamp - Caliber.esp
-ENDGROUP
+ENDGROUP: Superior Firepower
 
 BEGINGROUP: XFO NV - The New Vegas Overhaul
 //-----------
@@ -1809,7 +1809,7 @@ XFO - 10b - Hardcore - Food&Drink (no healing).esp
 XFO - 10c - Hardcore - Severe Penalties.esp
 nVamp - XFO.esp
 XFO - PMT Merged Tweaks.esp
-ENDGROUP
+ENDGROUP: XFO NV - The New Vegas Overhaul
 
 BEGINGROUP: Other
 //-----------
@@ -1947,8 +1947,8 @@ pnvhh.esp
   REQ: HonestHearts.esm
 pnvprojectnevada.esp
   REQ: Project Nevada - Core.esm
-ENDGROUP
-ENDGROUP Overhauls
+ENDGROUP: Other
+ENDGROUP: Overhauls
 
 BEGINGROUP: Sounds
 //-----------
@@ -2021,7 +2021,7 @@ WPR.esp
 world of pain voice.esp
 Distant Gunfire Sound Fix.esp
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
-ENDGROUP
+ENDGROUP: Sounds
 
 BEGINGROUP: Quests
 //-----------
@@ -2098,7 +2098,7 @@ wsex_workgirl_tryout.esp
   REQ: wsex.esm
   INC: wsex_workgirl.esp
 Zombie Apocalypse.esp
-ENDGROUP
+ENDGROUP: Quests
 
 BEGINGROUP: Perks
 //-----------
@@ -2214,7 +2214,7 @@ xatmosSkillPerks.esp
 ZZZZ--APB_By_Nokturnihs.esp
   SAY: Outdated. Consider Updating.
 ZZZZ--APB_221S_By_Nokturnihs.esp
-ENDGROUP
+ENDGROUP: Perks
 
 BEGINGROUP: Early Misc
 //-----------
@@ -2564,7 +2564,7 @@ WurstBarberMachine.esp
 YamsPinupParade.esp
 You take a sip from your trusty Vault 13 canteen.esp
 z_Fiends_2.esp
-ENDGROUP
+ENDGROUP: Early Misc
 
 BEGINGROUP: Crafting
 //-----------
@@ -2671,7 +2671,7 @@ WeaponModRecipesA.esp
 WeaponModRecipesS.esp
 WeaponModRecipesR.esp
 Wonder Meat.esp
-ENDGROUP
+ENDGROUP: Crafting
 
 BEGINGROUP: Weapons
 //-----------
@@ -3060,7 +3060,7 @@ Xepha's Radial Blurred Zoom.esp
 ZLArmaments.esp
 Selective Fire - ZL Armaments.esp
   REQ: ZLArmaments.esp, Selective Fire.esm, AND Caliber.esm
-ENDGROUP
+ENDGROUP: Weapons
 
 BEGINGROUP: Armor and Clothes
 //-----------
@@ -3450,7 +3450,7 @@ WastelandNecklaceCollection.esp
 WearGloves.esp
 Wolfeco_Courier.esp
 White Glove attire actually has White Gloves.esp
-ENDGROUP
+ENDGROUP: Armor and Clothes
 
 BEGINGROUP: Cosmetics
 //-----------
@@ -3496,7 +3496,7 @@ New Vegas redesigned- Honest Hearts.esp
 Voice dissonance fix.esp
   TAG: {{BASH: NpcFaces}}
   REQ: New Vegas Redesigned II.esm
-ENDGROUP
+ENDGROUP: Cosmetics
 
 BEGINGROUP: Middle Misc
 //-----------
@@ -3587,7 +3587,7 @@ Realistic_Repair_NV.esp
 Stealing -1 Karma.esp
 TheRocKarma.esp
 VRC.esp
-ENDGROUP
+ENDGROUP: Middle Misc
 
 BEGINGROUP: Companions
 //-----------
@@ -3752,7 +3752,7 @@ WeakerBoone40LevelMultiplier.esp
 Cass Barks.esp
 EDE Barks.esp
 Rex Barks.esp
-ENDGROUP
+ENDGROUP: Companions
 
 BEGINGROUP: Later Misc
 //-----------
@@ -3841,7 +3841,7 @@ DrugsAreBadMKay-IS.esp
   TAG: {{BASH: Names}}
 FeelingIrradiated-IS.esp
   TAG: {{BASH: Names}}
-ENDGROUP
+ENDGROUP: Later Misc
 
 BEGINGROUP: Game-Settings and Overrides
 //-----------
@@ -4107,7 +4107,7 @@ LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
 Master of Throwing.esp
 Melee Lock-On.esp
-IFNOT ($EVE) MOD: Meltdown Medley.esp
+IFNOT VAR(EVE) MOD: Meltdown Medley.esp
   REQ: Frequency.esm
 Moddable Unique Weps.esp
   INC: Moddable Unique Weps.esm
@@ -4151,21 +4151,21 @@ NVR - Lock Kicking.esp
 Packless Heavy Weapons.esp
 Project Nevada - FPSWeaponWheel.esp
   REQ: Project Nevada - Core.esm, FNVToolkit.esm
-IFNOT ("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
+IFNOT FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
   REQ: Project Nevada - Core.esm
-IFNOT ("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
+IFNOT FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
   REQ: Project Nevada - Core.esm
-IFNOT ("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
+IFNOT FILE("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
-IFNOT ("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
+IFNOT FILE("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esm, CCO - Gameplay Changes.esm
-IFNOT ("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
+IFNOT FILE("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
-IFNOT ("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
+IFNOT FILE("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
   REQ: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
-IFNOT ("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
+IFNOT FILE("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
   REQ: Project Nevada - Core.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
-IFNOT ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
+IFNOT FILE("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
   TAG: {{BASH: Names}}
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 Perception_And_Vats_Accuracy.esp
@@ -4304,7 +4304,7 @@ XIII + J3X's Flesh Burnificating Plasma.esp
 XtraSpecialNV.esp
 XSNVBalanceTweaks.esp
 XS Skill Training.esp
-ENDGROUP
+ENDGROUP: Game-Settings and Overrides
 
 BEGINGROUP: Weapon Mods Expanded or WMX
 //-----------
@@ -4443,7 +4443,7 @@ ScientistPackWMX.esp
   SAY: Choose only one of ScientistPack.esp and ScientistPackWMX.esp, not both
 Mo'Guns_WMX.esp
 AWOP-BOE-WMX.esp
-ENDGROUP
+ENDGROUP: Weapon Mods Expanded or WMX
 
 BEGINGROUP: Weapon Mod Expansion or WME
 //-----------
@@ -4589,7 +4589,7 @@ BIS - WME - Honest Hearts Arenovalis Retex.esp
   REQ: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - GRA Light Arenovalis.esp
   REQ: GunRunnersArsenal.esm, Weapon Mod Expansion.esm, WME - GRA Light.esm
-ENDGROUP
+ENDGROUP: Weapon Mod Expansion or WME
 
 BEGINGROUP: Special Cases for WMX and/or WME support
 //-----------
@@ -4625,7 +4625,7 @@ Frequency - WME IS HH Patch.esp
   REQ: Frequency.esm, HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 Frequency - WMEVE Patch.esp
   REQ: Frequency.esm, Weapon Mod Expansion.esm
-IF ($EVE) MOD: Meltdown Medley.esp
+IF VAR(EVE) MOD: Meltdown Medley.esp
   REQ: Frequency.esm
 RangerYosemite.esp
   REQ: WeaponModsExpanded.esp, or Weapon Mod Expansion.esm, or neither depending on .esp used.
@@ -4719,7 +4719,7 @@ GSWC-WMX-DeadMoney.esp
 GSWC-WMX-HonestHearts.esp
 GSWC-WMX-OldWorldBlues.esp
 GSWC-PNCyberMods.esp
-ENDGROUP
+ENDGROUP: Special Cases for WMX and/or WME support
 
 BEGINGROUP: NV Game Stabilizer
 //-----------
@@ -4760,7 +4760,7 @@ NV GameStabilizerA8.esp
   SAY: Outdated. Consider Updatng.
 NV GameStabilizerA9.esp
   TAG: {{BASH: NoMerge}}
-ENDGROUP
+ENDGROUP: NV Game Stabilizer
 
 BEGINGROUP: Weather\Light\Water
 //-----------
@@ -4990,7 +4990,7 @@ UnderwaterFX.esp
   REQ: New Vegas Script Extender
 UWFXGodrays.esp
   REQ: New Vegas Script Extender AND UnderwaterFX.esp
-ENDGROUP
+ENDGROUP: Weather\Light\Water
 
 BEGINGROUP: Lastish
 //-----------
@@ -5019,25 +5019,25 @@ UWHNV-Addon-Time for Bed NV.esp
 Improved Ballistics Effects V2.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
-IF ("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
+IF FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
   REQ: Project Nevada - Core.esm
-IF ("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
+IF FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
   REQ: Project Nevada - Core.esm
-IF ("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
+IF FILE("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
-IF ("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
+IF FILE("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esm, CCO - Gameplay Changes.esm
-IF ("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
+IF FILE("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
-IF ("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
+IF FILE("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
   REQ: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
-IF ("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
+IF FILE("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
   REQ: Project Nevada - Core.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
-IF ("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
+IF FILE("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
   TAG: {{BASH: Names}}
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 mypatch.esp
-ENDGROUP
+ENDGROUP: Lastish
 
 BEGINGROUP: nVamp
 //-----------
@@ -5118,7 +5118,7 @@ nVamp - Vaernus's Voracious Vermin.esp
 nVamp - More Hardcore.esp
   SAY: OPTIONAL FOR MORE HARDCORE EXPERIENCE
   SAY: Old, consider upgrading to nVamp version 0.15
-ENDGROUP
+ENDGROUP: nVamp
 
 BEGINGROUP: Pose mods
 //-----------
@@ -5127,7 +5127,7 @@ FewPosesMore NVedition.esp
 Animation Tool.esp
 The Groovatron.esp
 The Groovatron NV.esp
-ENDGROUP
+ENDGROUP: Pose mods
 
 BEGINGROUP: Beauty Packs & Race Addons
 //-----------
@@ -5151,7 +5151,7 @@ playableghouldeadmoney.esp
 ShilohDS-Desert Succubus CORE.esp
 Shojo Neko.esp
   REQ: Shojo Race Vegas.esm
-ENDGROUP
+ENDGROUP: Beauty Packs & Race Addons
 
 BEGINGROUP: Hair
 //-----------
@@ -5164,17 +5164,17 @@ SideburnsBeardLong.esp
 SideburnsBeardShort.esp
 Sideburns.esp
 MikotoBeauty.esp
-ENDGROUP
+ENDGROUP: Hair
 
 BEGINGROUP: Merged Patch
 //-----------
 Merged Patch.esp
-ENDGROUP
+ENDGROUP: Merged Patch
 
 BEGINGROUP: ModFusion
 //-----------
 ModFusion.esp
-ENDGROUP
+ENDGROUP: ModFusion
 
 BEGINGROUP: Bashed Patch
 //-----------
@@ -5189,7 +5189,7 @@ Bashed Patch, 7.esp
 Bashed Patch, 8.esp
 Bashed Patch, 9.esp
 Bashed Patch.esp
-ENDGROUP
+ENDGROUP: Bashed Patch
 
 BEGINGROUP: Post Bashed Patch
 //-----------
@@ -5197,5 +5197,5 @@ BEGINGROUP: Post Bashed Patch
 //Utility addons.
 //Ultimate final absolute end last mods, ever.
 {FalloutNV v1.2.0.314 [Patched Records]}.esp
-ENDGROUP
+ENDGROUP: Post Bashed Patch
 
