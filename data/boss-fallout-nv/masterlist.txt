@@ -36,6 +36,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 // Masterlist variable setup for BOSS v1.7+.
   IF FILE("nVamp - Core.esm") SET: NVAMP
   IF FILE("EVE FNV.esp") SET: EVE
+  IF FILE("NVSE") SET: NVSE
   
 // DLC variable setup.
   IF FILE("DeadMoney.esm") SET: DM
@@ -103,9 +104,9 @@ OFT_Merge_OldWorldBlues.esm
   INC: OFT_IWR_OldWorldBlues.esp
 Ambient Temperature.esm
 AmmoSpreadEffectFixer.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Companion Core.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Loaded early in the event Companion .esm mods require this.
 IWR.esm
   SAY: Loaded early to let other mods override boundaries if needed.
@@ -265,7 +266,7 @@ PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Core.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
@@ -279,9 +280,9 @@ RZW_Television.esm
   REQ: RZW_Master.esm
 SCAV.esm
 SelectFire.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Selective Fire.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Sexout.esm
 SexoutCommonResources.esm
 SexoutSlavery.esm
@@ -323,11 +324,11 @@ IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 Clean-Deluxe FNV.esm
 aHUD.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IFNOT VAR(NVAMP) MOD: iHUD.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 oHUD.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: aHUD.esm, iHUD.esm, Primary Needs HUD.esm
 // nVamp stuff
 IF VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
@@ -362,13 +363,13 @@ IF VAR(NVAMP) MOD: More Perks for Old World Blues.esm
 IF VAR(NVAMP) MOD: More Traits.esm
 IF VAR(NVAMP) MOD: More Challenges.esm
 IF VAR(NVAMP) MOD: Project Nevada - Core.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IF VAR(NVAMP) MOD: iHUD.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IF VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
 IF VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 IF VAR(NVAMP) MOD: CINEMATECH.esm
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IF VAR(NVAMP) MOD: Caliber.esm
   TAG: {{BASH: Invent, Names}}
 IF VAR(NVAMP) MOD: CFWNV.esm
@@ -1106,7 +1107,7 @@ StripOpenNPCs.esp
 SuitFixes+Factions.esp
 TorresInventoryExpansion.esp
 VendorGameTimeRestock.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: VendorGameTimeRestockNoNVSE.esp
 VendorGameTimeRestockNoNVSE.esp
   INC: VendorGameTimeRestock.esp
@@ -1341,7 +1342,7 @@ UHNV-IncreasedLighting.esp
   SAY: Outdated; Consider Updating.
 Underground Home.esp
 UWHNV-Core.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 UWHNV-Addon-DLC.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and DeadMoney.esm
 UWHNV-Addon-GRA.esp
@@ -1826,7 +1827,7 @@ Adventurers_New_Vegas-V0.1.esp
 Adventurers_New_Vegas-econ-and-items-V02.esp
 Adventurers_New_Vegas-gameplay-and-combat-V02.esp
 Arwen_NV_Realism_Core.esp
-  IF VERSION("NVSE", "1.4.2", <) || IFNOT FILE("NVSE") REQ: New Vegas Script Extender 1.4.2+
+  IF VERSION("NVSE", "0.1.4.2", <) || IFNOT VAR(NVSE) REQ: New Vegas Script Extender 1.4.2+
   TAG: {{BASH: Stats}}
 Arwen FOV patch.esp
 Arwen_NV_Hard-Core.esp
@@ -2250,7 +2251,7 @@ ArenaAnySex.esp
 Auto Loot Enhanced.esp
 Autoclosingdoorspub1p2.esp
 AutoLoot.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 BankCard.esp
 BAN - Dupe This.esp
 BCL custom edition.esp
@@ -2376,13 +2377,13 @@ IWS-Core-Patrols.esp
 IWS-Core-Guards.esp
 IWS-Core-Civilians.esp
 IWS-AS-HighSpawns.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Only use one of the spawn .esp's
 IWS-AS-MedSpawns.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Only use one of the spawn .esp's
 IWS-AS-LowSpawns.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Only use one of the spawn .esp's
 IWS-AS-NoInteriorSpawns.esp
 IWS-AS-EnableDebugInfo.esp
@@ -2414,19 +2415,19 @@ LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
 Isul-MagExchange.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 MagazinesReworked.esp
 MakHealOther.esp
 Mail Order Catalogs PopUp.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Select only ONE .esp when installing this mod.
   SAY: Outdated. Consider Updating.
 Mail Order Catalogs XFO.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Select only ONE .esp when installing this mod. Does not require XFO.
   SAY: Outdated. Consider Updating.
 Mail Order Catalogs XFO PopUp.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Select only ONE .esp when installing this mod. Does not require XFO.
   SAY: Outdated. Consider Updating.
 Mail Order Catalogs DLC.esp
@@ -2585,7 +2586,7 @@ ACS-HonestHearts.esp
   TAG: {{BASH: Invent}}
   REQ: HonestHearts.esm and AmmoCraftingSchematics.esp
 ArmourRepairKits.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Armor Crafting BETA.esp
 Armor Crafting BETA - Robeless.esp
 RBX Caliber compatibilty.esp
@@ -2773,7 +2774,7 @@ AK74U.esp
 AK9000.esp
 Alexscorpion's Custom AK103.esp
 A Load of Balls.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Almost Infinite 45 Ammo.esp
 American Hammer Compact.esp
 AN-94 Select fire.esp
@@ -2945,7 +2946,7 @@ LightSaber.esp
 ilbuonorevolver.esp
 lucky_bastard_rifle_v3.esp
 m110.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 m1c.esp
 M14.esp
 M1GarandThisMachine.esp
@@ -3902,19 +3903,19 @@ Level Cap 100.esp
 levelcap45.esp
 levelcap46.esp
 Max Level 50.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: Other mods that change the max level.
 Max Level 60.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: Other mods that change the max level.
 Max Level 75.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: Other mods that change the max level.
 Max Level 100.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: Other mods that change the max level.
 Max Level 255.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: Other mods that change the max level.
 NVLevelCapByDandysWithHPAnd1LPP.esp
 SlowMinded.esp
@@ -4079,7 +4080,7 @@ Intelligence_And_Skill_Points_Normal.esp
 Intelligence_And_Skill_Points_Very_High.esp
   SAY: Choose only one 'Intelligence and Skill Points' ESP.
 Invisibility for No Reputation.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Jump Fall Fixer.esp
 JumpNFall.esp
 keepcompanionperks.esp
@@ -4236,12 +4237,12 @@ Realistic Weight.esp
 Realistic Weight Overhaul.esp
 RealisticWeaponRecoil.esp
   INC: RealisticWeaponRecoilDM.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 RealisticWeaponRecoilDM.esp
   INC: RealisticWeaponRecoil.esp
   REQ: New Vegas Script Extender AND DeadMoney.esm
 Real Time Entry Skills.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Recharge Low.esp
   INC: Recharge High.esp
   SAY: For use with E.C.K.O. Energy Cell Killer Overhaul.esp
@@ -4252,9 +4253,9 @@ Recharger Weapons Rebalance.esp
 Reign Monocyte Implant Improvement.esp
 Robots Balance Overhaul.esp
 RRDynamicXPonly.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Runner.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Sarsaparilla.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
@@ -4267,7 +4268,7 @@ SpecialEveryTwoLevels.esp
   SAY: Choose only one of SpecialEveryFiveLevels.esp and SpecialEveryThreeLevels.esp, not both
 SporePlantPods.esp
 SubtitlesHotkeyNV.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 TimeTravel.esp
 ThermicLanceFireEffects.esp
 ThrowMine.esp
@@ -4279,10 +4280,10 @@ tyfasterwalk-FR.esp
 tyfasterwalk-FR-N2HRP.esp
 tyfasterwalk-N2HRP.esp
 UltimateRecoil.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: RealisticWeaponRecoil.esp and RealisticWeaponRecoilDM.esp as they do the same thing.
 UltimateRecoilPN.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: For use with Project Nevada - Core.esm
   INC: UltimateRecoil.esp
 UnconsciousLooting.esp
@@ -4637,7 +4638,7 @@ IF VAR(EVE) MOD: Meltdown Medley.esp
 RangerYosemite.esp
   REQ: WeaponModsExpanded.esp, or Weapon Mod Expansion.esm, or neither depending on .esp used.
 Mail Order Catalogs.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Mail Order Catalogs Hardcore.esp
   REQ: New Vegas Script Extender AND Mail Order Catalogs.esp
 Mail Order Catalogs DLC01.esp
@@ -4994,7 +4995,7 @@ CustomLighting-IE DoF.esp
 CustomLighting.esp
 CustomLighting II.esp
 UnderwaterFX.esp
-  IFNOT FILE("NVSE") REQ: New Vegas Script Extender
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 UWFXGodrays.esp
   REQ: New Vegas Script Extender AND UnderwaterFX.esp
 ENDGROUP: Weather\Light\Water
