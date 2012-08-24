@@ -34,9 +34,10 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 */
 
 // Masterlist variable setup for BOSS v1.7+.
+  IF FILE("NVSE") SET: NVSE
   IF FILE("nVamp - Core.esm") SET: NVAMP
   IF FILE("EVE FNV.esp") SET: EVE
-  IF FILE("NVSE") SET: NVSE
+  IF FILE("Weapon Mod Expansion.esm") SET: WME
   
 // DLC variable setup.
   IF FILE("DeadMoney.esm") SET: DM
@@ -44,6 +45,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("OldWorldBlues.esm") SET: OWB
   IF FILE("LonesomeRoad.esm") SET: LR
   IF FILE("GunRunnersArsenal.esm") SET: GRA
+  IF VAR(LR) && IF VAR(OWB) && IF VAR(HH) && IF VAR(DM) SET: DLC
 
 // Upgrade message for 1.7+ users:
   IF VERSION("BOSS", "2.1.0.0", <) GLOBAL WARN: An update for BOSS (v2.1.0) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
@@ -149,7 +151,7 @@ IFNOT VAR(NVAMP) MOD: CaliberXgunrunners.esm
   TAG: {{BASH: Names}}
 IFNOT VAR(NVAMP) MOD: CFWNV.esm
 IFNOT VAR(NVAMP) MOD: CFWNV-DLC.esm
-  REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
 CHEMS.esm
 IFNOT VAR(NVAMP) MOD: CINEMATECH.esm
   REQ: New Vegas Script Extender and The Mod Configuration Menu for Version 1.5+
@@ -188,7 +190,7 @@ FreesideOpen.esm
 IFNOT VAR(NVAMP) MOD: FOOK - New Vegas.esm
   TAG: {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 IFNOT VAR(NVAMP) MOD: FOOK - New Vegas DLCs.esm
-  REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
 Frequency.esm
 Frys_Freehold.esm
 Ghouls Attack Test.esm
@@ -306,17 +308,17 @@ WARZONES - Misanthropy Pure.esm
 IFNOT VAR(NVAMP) MOD: Weapon Mod Expansion.esm
   TAG: {{BASH: Names}}
 IFNOT VAR(NVAMP) MOD: WME - Dead Money.esm
-  REQ: DeadMoney.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(DM) || IFNOT VAR(WME) REQ: DeadMoney.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - Honest Hearts.esm
-  REQ: HonestHearts.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(HH) || IFNOT VAR(WME) REQ: HonestHearts.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - Old World Blues.esm
-  REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(OWB) || IFNOT VAR(WME) REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - GRA.esm
-  REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - GRA Light.esm
-  REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - DLCs.esm
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(DLC) || IFNOT VAR(WME) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
   INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 WMVM.esm
 wsex.esm
@@ -423,17 +425,19 @@ IF VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IF VAR(NVAMP) MOD: CFWNV-DLC.esm
-  REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
 IF VAR(NVAMP) MOD: WME - Dead Money.esm
-  REQ: DeadMoney.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(DM) || IFNOT VAR(WME) REQ: DeadMoney.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - Honest Hearts.esm
-  REQ: HonestHearts.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(HH) || IFNOT VAR(WME) REQ: HonestHearts.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - Old World Blues.esm
-  REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(OWB) || IFNOT VAR(WME) REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
+IF VAR(NVAMP) MOD: WME - GRA.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - GRA Light.esm
-  REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - DLCs.esm
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(DLC) || IFNOT VAR(WME) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
   INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 CCO - Gameplay Changes.esm
 CCO - Classic Perks.esm
@@ -524,7 +528,7 @@ BathFix.esp
 BlackMountainRadioRhonda.esp
 BMNeilFix.esp
 Broad Machete VATS Fix.esp
-  REQ: TribalPack.esm
+  IFNOT FILE("TribalPack.esm") REQ: TribalPack.esm
 BoxFix.esp
 BrotherhoodArmorDistributionFix.esp
 Brotherhood Fix.esp
@@ -789,16 +793,16 @@ BIS - CBC Dead Money Patch ESP.esp
   INC: BIS - CBC Dead Money Patch ESM.esp
 BIS - Promo DLC Caravan Pack.esp
   TAG: {{BASH: Names}}
-  REQ: CaravanPack.esm
+  IFNOT FILE("CaravanPack.esm") REQ: CaravanPack.esm
 BIS - Promo DLC Classic Pack.esp
   TAG: {{BASH: Names}}
-  REQ: ClassicPack.esm
+  IFNOT FILE("ClassicPack.esm") REQ: ClassicPack.esm
 BIS - Promo DLC Mercenary Pack.esp
   TAG: {{BASH: Names}}
-  REQ: MercenaryPack.esm
+  IFNOT FILE("MercenaryPack.esm") REQ: MercenaryPack.esm
 BIS - Promo DLC Tribal Pack.esp
   TAG: {{BASH: Names}}
-  REQ: TribalPack.esm
+  IFNOT FILE("TribalPack.esm") REQ: TribalPack.esm
 BIS - CFWNV.esp
   TAG: {{BASH: Names}}
   REQ: CFWNV.esm
@@ -1444,10 +1448,10 @@ BEGINGROUP: FOOK
 FOOK - New Vegas.esp
   TAG: {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 FOOK - New Vegas DLCs.esp
-  REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
 FOOK - No Loose Files.esp
 FOOK - No Loose Files DLCs.esp
-  REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
 FOOK GRA Ammo Hotfix.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 BIS - FOOK - New Vegas.esp
@@ -2304,7 +2308,7 @@ Detect Traps - Dead Money.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: Detect Traps - DLC.esp
 Detect Traps - DLC.esp
-  REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
   INC: Detect Traps - Dead Money.esp
 DFB - Random Encounters - Angels Park.esp
   REQ: DFB - Random Encounters.esm, AngelPark.esm
@@ -3028,7 +3032,7 @@ ShinohaiOuka.esp
 Shotgun Commando.esp
   TAG: {{BASH: Stats}}
 Shotgun Commando 1.2 Caravan.esp
-  REQ: CaravanPack.esm
+  IFNOT FILE("CaravanPack.esm") REQ: CaravanPack.esm
   TAG: {{BASH: Stats}}
 silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
