@@ -36,6 +36,13 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 // Masterlist variable setup for BOSS v1.7+.
   IF FILE("nVamp - Core.esm") SET: NVAMP
   IF FILE("EVE FNV.esp") SET: EVE
+  
+// DLC variable setup.
+  IF FILE("DeadMoney.esm") SET: DM
+  IF FILE("HonestHearts.esm") SET: HH
+  IF FILE("OldWorldBlues.esm") SET: OWB
+  IF FILE("LonesomeRoad.esm") SET: LR
+  IF FILE("GunRunnersArsenal.esm") SET: GRA
 
 // Upgrade message for 1.7+ users:
   IF VERSION("BOSS", "2.1.0.0", <) GLOBAL WARN: An update for BOSS (v2.1.0) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
@@ -55,7 +62,7 @@ Community Bugfix Compilation Patch.esm
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 CBC Dead Money Patch.esm
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
@@ -134,9 +141,9 @@ CALIBR.esm
 IFNOT VAR(NVAMP) MOD: Caliber.esm
   TAG: {{BASH: Invent, Names}}
 IFNOT VAR(NVAMP) MOD: HonestHearts-CaliberX.esm
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 IFNOT VAR(NVAMP) MOD: CaliberXhonesthearts.esm
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 IFNOT VAR(NVAMP) MOD: CaliberXgunrunners.esm
   TAG: {{BASH: Names}}
 IFNOT VAR(NVAMP) MOD: CFWNV.esm
@@ -399,7 +406,7 @@ nVamp - Vaernus's Voracious Vermin.esm
   SAY: Old, consider upgrading to nVamp version 0.15
 // nVamp end
 IF VAR(NVAMP) MOD: HonestHearts-CaliberX.esm
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
   TAG: {{BASH: Names}}
 IF VAR(NVAMP) MOD: BoulderCityFaceliftProject.esm
 IF VAR(NVAMP) MOD: dangame.esm
@@ -486,24 +493,24 @@ Community Bugfix Compilation Patch.esp
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 CBC Dead Money Patch.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: Compiled Patch - DeadMoney.esp
 Compiled Patch.esp
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts}}
   INC: Community Bugfix Compilation Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
 Compiled Patch - DeadMoney.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: CBC Dead Money Patch.esm AND CBC Dead Money Patch.esp
 Compiled Patch - HonestHearts.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Compiled Patch - Old World Blues.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Compiled Patch - OldWorldBlues.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Compiled Patch - LonesomeRoad.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 Compiled Patch - Gunrunners Arsenal.esp
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 Compiled Patch All_DLCs.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
   INC: Compiled Patch.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
@@ -530,25 +537,25 @@ Companion Hostility Fix.esp
 CompanionWeaponCasinoFix.esp
 Davisonnoattack.esp
 DeadMoneyEquipmentFixes.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DeadMoneyGasFix.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DeadMoneyWeaponFixes.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Distant Gunfire Sound Fix V2.1 - Machienzo.esp
 DistantCompanionsFix.esp
 DLM_Dead Money Deans Blackmail holo fix.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DLM_QuestItemsFix_1.3b_Eng.esp
   SAY: Outdated. Consider Updating.
 DLM_QuestItemsFix_1.3b-DLC_DM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Outdated. Consider Updating.
 DLM_QuestItemsFix_1.4.esp
 DLM_QuestItemsFix_1.4-DLC_DM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DLM_QuestItemsFix_1.4-DLC_HH.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 DonationFix.esp
 ED-EUpgradeInventoryFix.esp
   SAY: Obsolete with latest patch
@@ -621,7 +628,7 @@ New Vegas Error Corrections - DLC.esp
 New Vegas Error Corrections - DLC + GRA.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 New Vegas Error Corrections - GRA ONLY.esp
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 NVEC Enhancements.esp
 NVEC Reduce CTD.esp
 NVEC Complete FOOK Patch.esp
@@ -638,7 +645,7 @@ NVEC LINGS PATCH - NO DLC.esp
   REQ: Lings.esm
 NVEC Extras.esp
 NVVariousFixes - Honest Hearts.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 PackWeaponsFix.esp
 Primm_Rumor_Fix.esp
 RadioComputerPartsFix.esp
@@ -750,19 +757,19 @@ BIS - Brumbek's Inventory Sorting.esp
   TAG: {{BASH: Names}}
 BIS - Dead Money.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 BIS - Honest Hearts.esp
   TAG: {{BASH: Names}}
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 BIS - Old World Blues.esp
   TAG: {{BASH: Names}}
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 BIS - Lonesome Road.esp
   TAG: {{BASH: Names}}
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 BIS - Gun Runners Arsenal.esp
   TAG: {{BASH: Names}}
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 BIS - Community Bugfix Comp ESM.esp
   TAG: {{BASH: Names}}
   REQ: Community Bugfix Compilation Patch.esm
@@ -1013,13 +1020,13 @@ ArmyMen.esp
 AWSW.esp
 BetterArmedBrightFollowers.esp
 Better Burned Man.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Bigger Brighter Livelier Vegas.esp
 brahmin-variant.esp
 Brotherhood and House Alliance.esp
 CorpseEquip.esp
 DeadMoneyChristineSkills.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Doc Mitchell's House Owner.esp
   TAG: {{BASH: C.Owner}}
 Doc Mitchell Stealing Fix.esp
@@ -1246,7 +1253,7 @@ ProjectPrimm.esp
 Rancho Villa.esp
 Realistic Portable Tent.esp
 return_deadmoney.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Same Purpose as SierraMadreEXIT.esp; use one or the other.
 RRRAWOPCompatability.esp
 RumbleZones.esp
@@ -1269,15 +1276,15 @@ Seachlight Airport NCR.esp
   SAY: Outdated; Consider Updating.
 Seachlight Airpot NCR.esp
 SierraMadreEXIT.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Same purpose as return_deadmoney.esp; use one or the other.
 SierraMadrev11.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 SierraMadrev2.0.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Outdated; Consider Updating.
 SierraMadrev2.1.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Outdated; Consider Updating.
 SierraMadrev2.2.esp
   REQ: DeadMoney.esm, HonestHearts.esm
@@ -1382,9 +1389,9 @@ NVR_rePopulated Wasteland_Patch.esp
 NVR-ELECTRO-CTIY_Patch.esp
 NVR-SMOTS-ELECTRO-CITY_Patch.esp
 NVR-SMOTS-Version 10.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 NVR-SMOTS-V2-Version_10.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 NVR-Version_9.esp
   SAY: Outdated; Consider Updating.
 NVR-Version_10.esp
@@ -1441,7 +1448,7 @@ FOOK - No Loose Files.esp
 FOOK - No Loose Files DLCs.esp
   REQ: DeadMoney.esm and HonestHearts.esm
 FOOK GRA Ammo Hotfix.esp
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 BIS - FOOK - New Vegas.esp
   TAG: {{BASH: Names}}
   REQ: FOOK - New Vegas.esm
@@ -1640,23 +1647,23 @@ PMT - Total Challenge Remover.esp
 PMT - Reduced Challenge Notifications.esp
   INC: PMT - Total Challenge Remover.esp
 PMT - Honest Hearts Reduced Ammo.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 PMT - Tougher Vehicles.esp
 PMT - Very Hard Damage Adjustment.esp
 PMT - Sound Fixes.esp
 PMT - Responsive Kill Reactions.esp
 PMT - Assassin Suit Tweaks.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 PMT - OWB - Sonic Emitter Robot Damage Fix.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 PMT - OWB - Reduced Big MT Spawns.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 PMT - OWB - Less Generous Sink Buddies.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 PMT - OWB - Reduced Ammo and Items.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 PMT - LR - Reduced Ammo Food Chems.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 nVamp - PMT.esp
 ENDGROUP: Puce Moose Tweak and Balance Center
 
@@ -1710,7 +1717,7 @@ ENDGROUP: Superior Firepower
 BEGINGROUP: XFO NV - The New Vegas Overhaul
 //-----------
 XFODeadMoney.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 XFO - 1aa - Accuracy Revamp - mild.esp
 XFO - 1aa - Damage - Skill=Acc - mild.esp
 XFO - 1ab - Accuracy Revamp - hard.esp
@@ -1934,17 +1941,17 @@ OWB Big Empty Overhaul.esp
   TAG: {{BASH: Names, Invent, Stats}}
 pnv.esp
 RBDC - DM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 RBDC - HH.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 RBDC - HH - Authentic Burned Man.esp
   REQ: HonestHearts.esm and Better Burned Man.esp
 RBDC - OWB.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 RBDC - LR.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 pnvhh.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 pnvprojectnevada.esp
   REQ: Project Nevada - Core.esm
 ENDGROUP: Other
@@ -1968,21 +1975,21 @@ Improved Sound FX - Gunshot Distance Tweak.esp
 Improved Sound FX - Weapon Sharing Fix.esp
   TAG: {{BASH: Sound}}
 Improved Sound FX - DM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Improved Sound FX - HH.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Improved Sound FX - HH Sharing Fix.esp
   TAG: {{BASH: Sound}}
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Improved Sound FX - OWB Sharing Fix.esp
   TAG: {{BASH: Sound}}
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Improved Sound FX - LR Sharing Fix.esp
   TAG: {{BASH: Sound}}
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 Improved Sound FX - GRA.esp
   TAG: {{BASH: Sound}}
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 Improved Sound FX - Merged Major DLCs.esp
   TAG: {{BASH: Sound}}
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
@@ -2083,7 +2090,7 @@ TimeCapsule.esp
 TimeCapsule(NVR-Compatible).esp
 TSC Vegas Commander.esp
 TSC Big Mountain.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 War Never Changes.esp
 War Never Changes - Seven.esp
 Wasteland Explorer.esp
@@ -2190,11 +2197,11 @@ pyFourEyesFix.esp
 QuickerDrawOriginal.esp
 qSkillPerks.esp
 qSkillPerksDLC01.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 qSkillPerksDLC02.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 qSkillPerksDLC03.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Search & Mark 4 Adam The Duck.esp
 slowlearnertrait_50.esp
 SnowGlobePerks.esp
@@ -2282,18 +2289,18 @@ CompanionInfAmmoOptional.esp
 CompanionInfAmmoCheat.esp
 Cliff's Empty Drinkable Bottles.esp
 Dead Money - Hack Vending Machines.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Dead Money - Low Loot.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DeadMoneyCutOff.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Decrucifixion.esp
 Decrucifixion - More Victims.esp
 Desaturated Cateye.esp
 DFB - Dead Money Ghosts Respawn.esp
 Detect Traps - Traponator 4000.esp
 Detect Traps - Dead Money.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: Detect Traps - DLC.esp
 Detect Traps - DLC.esp
   REQ: DeadMoney.esm and HonestHearts.esm
@@ -2384,13 +2391,13 @@ IWS-MoreSpawns.esp
 IWS-UltraSpawns.esp
   SAY: Outdated. Consider Updating.
 IWS-DM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 IWS-HH.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 IWS-OWB.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 IWS-LR.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 Kasdar's Medical Injection System.esp
 Kobu's Primary Attributes Uncapper.esp
 Kobu's Primary Attribute Uncapper.esp
@@ -2539,13 +2546,13 @@ TagBonuses.esp
 theHeroNV_1.1.esp
 Too Many Quest Markers - Main.esp
 Too Many Quest Markers - Dead Money.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Too Many Quest Markers - Honest Hearts.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Too Many Quest Markers - Old World Blues.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Too Many Quest Markers - Lonesome Road.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 Unique Items & Collectables.esp
 Collectable NES Games Bonus Pack.esp
 Vinyl Collection Bonus Pack.esp
@@ -2601,15 +2608,15 @@ Craftable Stealth boys.esp
 crafting alike items.esp
 CRFTOven.esp
 Dead Money Bunker Hot Plate.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Dead Money Recipe Box.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DeadMoneyJunkRoundsRedux.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DeadMoneyMissingOutfitReturnOptions.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DeadMoneyMoreCraftedKnifeVariants.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Dire Contraptions.esp
 DixonRecipes.esp
 Dynamic Herbalism.esp
@@ -2625,7 +2632,7 @@ GunSmith Guns Upgrade.esp
 HandyRecipes.esp
 Homemade Grenades.esp
 HonestHeartsJunkRoundsRedux.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Improved ammo.esp
 ImprovedWorkbench.esp
 IntuitiveRealisticCooking.esp
@@ -2702,7 +2709,7 @@ MERGEinjection.esp
 1st Recon Ranger Gear.esp
 44mag.esp
 45autopistolsightsmod.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 50MGHE.esp
 AA12.esp
 AAR-525NV-.esp
@@ -2724,21 +2731,21 @@ AG Shell Casing Fixes - OWB.esp
 AG Supplementary Uniques.esp
   INC: AG Supplementary Uniques WME.esp
 AG Supplementary Uniques-Dead Money.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: AG Supplementary Uniques-Dead Money WME.esp
 AG Supplementary Uniques-Honest Hearts.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
   INC: AG Supplementary Uniques-Honest Hearts WME.esp
 AG Supplementary Uniques-Old World Blues.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 AG Supplementary Uniques-Lonesome Road.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
   INC: AG Supplementary Uniques-Lonesome Road WME.esp
 AG Supplementary Uniques-AllInOne.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
   INC: AG Supplementary Uniques.esp, AG Supplementary Uniques-Dead Money.esp, AG Supplementary Uniques-Honest Hearts.esp, AG Supplementary Uniques-Old World Blues.esp, AG Supplementary Uniques-Lonesome Road.esp
 AG Supplementary Uniques-GRA.esp
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 MMUE-CP-AGSU.esp
   REQ: AG Supplementary Uniques.esp
 Ahzteks Weapon Replacements.esp
@@ -2902,13 +2909,13 @@ Glow Sticks.esp
 Gobi Rifle Enhanced.esp
 Golden Eagle.esp
 GRA Shipment.esp
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 guitar.esp
 HH - 45 Caliber Rifles.esp
 HHWeapsInNV.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 HHWeapsInNVNPC.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 HighRoller.esp
 HK MP7.esp
 HK PSG-1 Snipers.esp
@@ -2919,9 +2926,9 @@ ImmaSightinMahLazor.esp
   TAG: {{BASH: Stats}}
 Improved Throwing1.esp
 Improved Throwing DM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Improved Throwing HH.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 ironsightsnozoom.esp
   INC: ironsightsnozoom-wmx.esp
 LightSaberMod.esp
@@ -3072,13 +3079,13 @@ BEGINGROUP: Armor and Clothes
 1stReconArmor_LightNonFaction.esp
 ADAM - MAIN.esp
 ADAM - HH.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 ADAM - LR.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 ADAM - Rangers on Patrol.esp
 ADAM - Outcast Ranger Armour.esp
 ADAM - Nemesis Armours.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 ADAM - Trooper Gloves.esp
 ADAM - NCR Patrol Armour.esp
 ADAM - Project Nevada Patch.esp
@@ -3089,7 +3096,7 @@ Advanced Recon Armor-No Stealth Field.esp
 Advanced Recon Armor-Predator Mode.esp
 Advanced Recon Armor-Stealth With Drawn Weapon.esp
 Advanced Recon Desert Ranger Helmet.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Advanced Recon Range Finder.esp
 Advanced Recon Tech - Fiendish Power Armor.esp
   SAY: Merged into nVamp -Advanced Mod Project. Do not use both at the same time.
@@ -3173,7 +3180,7 @@ Desert Armor rebuilt.esp
 Desert Recon Kit.esp
 DIM TYPE3clothesRETAIL_NV.esp
 DMGhostPeople.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Docs Sexy Nurse.esp
 DragonskinTacticalOutfit.esp
 DragonskinNCRPersonnelWearingOutfits.esp
@@ -3247,11 +3254,11 @@ HHType3tribalhands.esp
 Hirez Ranger Armor.esp
 VT Custom Ranger Gear.esp
 VT Custom Ranger Gear - Honest Hearts.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 HitmanSuitNV-B.esp
 HomeTeleport.esp
 Honest Hearts Armor Playable.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Holster.esp
 iL-Camouflage Ghost Bodysuit.esp
 ImprovedGeckoLeatherArmor.esp
@@ -3377,7 +3384,7 @@ PNVRCSScompatibility.esp
 Project Nevada - RCSS.esp
   REQ: Project Nevada - Core.esm and RCSS.esp
 RadiiHairFix.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Realistic Power Armor.esp
 RealisticStealthArmor.esp
 Rebreather.Headgear.NonquestV1.1.esp
@@ -3460,26 +3467,26 @@ headgearfix.esp
 LingsPrettyThings.esp
   TAG: {{BASH: Eyes, Hair, Invent, Names, NPC.Class, NPC.Race, NpcFaces, R.Attributes-F, R.Attributes-M, R.Description, R.Head, R.Mouth, R.Teeth, Voice-F}}
 Machienzo - NPC Cosmetic Fixes DLC01.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Old, update to NVCE.
 Machienzo - NPC Cosmetic Fixes DLC02.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
   SAY: Old, update to NVCE.
 Machienzo - NPC Cosmetic Fixes DLC03.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
   SAY: Old, update to NVCE.
 NVCE DLC01.esp
   TAG: {{BASH:Actors.ACBS,NPC.Race,NpcFaces}}
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 NVCE DLC02.esp
   TAG: {{BASH:Actors.ACBS,Invent,NPC.Race,NpcFaces}}
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 NVCE DLC03.esp
   TAG: {{BASH:Actors.ACBS,Body-M,NpcFaces}}
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 NVCE DLC04.esp
   TAG: {{BASH:Actors.ACBS,NpcFaces}}
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 Lore version.esp
   REQ: New Vegas Redesigned.esm
 NVR- Lore version.esp
@@ -3492,7 +3499,7 @@ NVR- Recommended.esp
   INC: NVR- Lore version.esp
 New Vegas redesigned- Honest Hearts.esp
   TAG: {{BASH: Actors.ACBS, NpcFaces}}
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Voice dissonance fix.esp
   TAG: {{BASH: NpcFaces}}
   REQ: New Vegas Redesigned II.esm
@@ -3501,14 +3508,14 @@ ENDGROUP: Cosmetics
 BEGINGROUP: Middle Misc
 //-----------
 AWOPDeadMoney.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 AWOP DLC + GRA Conflict Error Fixes.esp
   REQ: AWorldOfPain(Preview).esm
-  REQ: DeadMoney.esm
-  REQ: GunRunnersArsenal.esm
-  REQ: HonestHearts.esm
-  REQ: LonesomeRoad.esm
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 AWOPLowRobots.esp
   INC: AWOPVeryLowRobots.esp
   REQ: AWorldOfPain(Preview).esm
@@ -3630,7 +3637,7 @@ RemoteControlCompanions.esp
 Companion Weapons - Special Ammo.esp
   INC: Companion Weapons - Special Ammo - Dead Money.esp
 Companion Weapons - Special Ammo - Dead Money.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: Companion Weapons - Special Ammo.esp
 CompanionLevel30Cap.esp
   TAG: {{BASH: Actors.ACBS}}
@@ -3658,7 +3665,7 @@ CCC - Save Cass.esp
   SAY: For use with the Save Cass mod.
 Dalls_Lily.esp
 DeanMoneyCompanionsDeEquipandRebalance.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 drgNV - Marcus Companion.esp
 drgNV - Melissa Companion (Lings Hairstyle Add-On).esp
 drgNV - Melissa Companion (Recruitment Fix).esp
@@ -3685,9 +3692,9 @@ FollowersPlayCaravan.esp
 Followers Ready To Fight - Unlimited Companions.esp
 FollowersUnholster2.esp
 FollowersUnholster2_DM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 FollowersUnholster2_HH.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 GARU.esp
 HJLCompanionsv103.esp
 ImprovedCompanions.esp
@@ -3784,10 +3791,10 @@ Real Weapon Names - NPC Compnaion Weapons.esp
   TAG: {{BASH: Names}}
 Real Weapon Names - Dead Money.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Real Weapon Names - Honest Hearts.esp
   TAG: {{BASH: Names}}
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Real Weapon Names - Project Nevada.esp
   TAG: {{BASH: Names}}
   REQ: Project Nevada - Equipment.esm
@@ -3812,7 +3819,7 @@ Sorter - Combined.esp
   TAG: {{BASH: Names}}
 Sorter - Dead Money.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Sorter - Combined - T3T Icon Compatch.esp
   TAG: {{BASH: Names}}
   SAY: Outdated as of Version 2.0; Phased into Sorted - Combined.esp
@@ -3835,7 +3842,7 @@ Inventory Sorter - Moddable Unique Weps.esp
   REQ: Moddable Unique Weps.esp
 FoodSanitizerRestorationLight.esp
 FoodSanitizerRestorationDeadMoney.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 LightweightSanitizer.esp
 DrugsAreBadMKay-IS.esp
   TAG: {{BASH: Names}}
@@ -3941,7 +3948,7 @@ Bodypart Data Mod - Harsher Version.esp
 BetterHeadshots.esp
 BetterScopesModStandalone.esp
 BlurKillerDM.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Bullet Impact Increased LOD.esp
 Burning CampFire.esp
 CarreyweightAPAdjustment.esp
@@ -3975,21 +3982,21 @@ Delay DLC - DM + HH + OWB.esp
 Delay DLC - DM + HH + OWB + LR.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 Delay DLC - Dead Money.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Delay DLC - Honest Hearts.esp
   REQ: HonestHearts.esm
 Delay DLC - Old World Blues.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Delay DLC - Lonesome Road.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 DM-NoLvlMsg.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Dead Money - Automatic Rifle fix.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Dead Money - No Collar Explosion and No Poison Cloud.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 DEADMONEYSUN.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 Disable Anti Cheat Minute.esp
 durability.esp
 Dynamic Quantity Prompt.esp
@@ -4087,13 +4094,13 @@ lexx-no-dialog-tags-Deutsch.esp
 lexx-no-dialog-tags-English.esp
   INC: lexx-no-dialog-tags-Deutsch.esp
 lexx-dm-no-dialog-tags-English.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 lexx-hh-no-dialog-tags-english.esp
   REQ: HonestHearts.esm
 lexx-owb-no-dialog-tags-english.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 lexx-lr-no-dialog-tags-english.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 LFox Bottle That Water.esp
   TAG: {{BASH: Names, Scripts}}
 UWHNV-Addon-Bottle That Water.esp
@@ -4101,7 +4108,7 @@ UWHNV-Addon-Bottle That Water.esp
 Lighter Fission Battery.esp
 limbregen.esp
 LonesomeRoad Faction Selector.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 Loot the paralyzed.esp
 LR - CD [NV].esp
 MakeGrenadeLaunchersUseful_v1.esp
@@ -4135,15 +4142,15 @@ No Neos.esp
 NoQuestItems.esp
 No Scope Wobble.esp
 No Weapon Remove Dead Money.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 NukaVend.esp
 NVExpansionByDandysV1.400.esp
 NV Explosive Knockdown mod.esp
 NVDLC04 Allegiance.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
   SAY: Choose only one of NVDLC04 Allegiance.esp and NVDLC04 Allegiance w Duster.esp, not both
 NVDLC04 Allegiance w Duster.esp
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
   SAY: Choose only one of NVDLC04 Allegiance.esp and NVDLC04 Allegiance w Duster.esp, not both
 NVR - High Lethality.esp
 NVR - Lock Bombing.esp
@@ -4596,7 +4603,7 @@ BEGINGROUP: Special Cases for WMX and/or WME support
 EVE FNV.esp
 EVE FNV-[GRA Patch for EVE 1.3].esp
   REQ: EVE FNV.esp
-  REQ: GunRunnersArsenal.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 Project Nevada - EVE.esp
   REQ: EVE FNV.esp
 dD-Reduced Dismember Force - EVE.esp
@@ -4849,7 +4856,7 @@ Ambient Temperature - URWLified Nevada Skies.esp
   REQ: Ambient Temperature.esm AND Nevada Skies - URWLified.esp
 Nevada Skies - URWLHH.esp
   TAG: {{BASH: C.Climate, C.Light}}
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
   INC: Nevada Skies.esp, Nevada Skies - URWLified.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp, and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
   SAY: Outdated. Please update via the Nevada Skies download page.
 NSkies - URWLNV.esp
@@ -4875,7 +4882,7 @@ F3NVProjectRealityMkIv4.2.esp
 ProjectRealityMkIv5HDR.esp
   TAG: {{BASH: C.Climate, C.Light}}
 NV WEATHER DEAD MONEY WITH NIGHT.esp
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 StripNightLum.esp
 LUMENARIUM - Bright Clear Days.esp
 ELECTRO-CITY - Darker Nights.esp
@@ -4907,16 +4914,16 @@ ILO-RI-Original Lucky38 Suite.esp
   REQ: Interior Lighting Overhaul-Realistic Interiors-Full.esp
 ILO-RI-Dead Money.esp
   TAG: {{BASH: C.Light}}
-  REQ: DeadMoney.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm
 ILO-RI-Honest Hearts.esp
   TAG: {{BASH: C.Light}}
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 ILO-RI-Old World Blues.esp
   TAG: {{BASH: C.Light}}
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 ILO-RI-Lonesome Road.esp
   TAG: {{BASH: C.Light}}
-  REQ: LonesomeRoad.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 ILO-RI-Rust Town.esp
   TAG: {{BASH: C.Light}}
   REQ: RustTownV1-1.esp
