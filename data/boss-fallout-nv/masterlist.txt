@@ -38,6 +38,10 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("nVamp - Core.esm") SET: NVAMP
   IF FILE("EVE FNV.esp") SET: EVE
   IF FILE("Weapon Mod Expansion.esm") SET: WME
+
+  IF FILE("Project Nevada - Core.esm") SET: PN-C
+  IF FILE("Project Nevada - Rebalance.esp") SET: PN-R
+  IF FILE("Project Nevada - Equipment.esm") SET: PN-E
   
 // DLC variable setup.
   IF FILE("DeadMoney.esm") SET: DM
@@ -973,7 +977,7 @@ NPC Project - Aerotech Office Park.esp
 OldGhoulEye.esp
 OldGhoulEye-NoHeadbandSlotForHeadgear.esp
 OldGhoulEye-ProjectNevada.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 psychoelfs Boone Shojo.esp
 psychoelfs cass shojo blond.esp
 psychoelfs cass shojo black hair.esp
@@ -1899,14 +1903,14 @@ Hardened-AWOP-MonsterPatch.esp
 Hardened-AWOP.esp
 BIS - Project Nevada - Core.esp
   TAG: {{BASH: Names}}
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 BIS - Project Nevada - Equipment.esp
   TAG: {{BASH: Names, Invent}}
   REQ: Project Nevada - Core.esm and Project Nevada - Equipment.esm
 Project Nevada - Rebalance.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 Project Nevada - Cyberware.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 HarderThan-PN.esp
   REQ: Project Nevada - Core.esm, HarderThan.esp, Project Nevada - Cyberware.esp
 BIS - Project Nevada - Cyberware.esp
@@ -1958,7 +1962,7 @@ RBDC - LR.esp
 pnvhh.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
 pnvprojectnevada.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 ENDGROUP: Other
 ENDGROUP: Overhauls
 
@@ -2001,7 +2005,7 @@ Improved Sound FX - Merged Major DLCs.esp
   INC: Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - WMX - Merged Major DLCs.esp
 Improved Sound FX - Project Nevada.esp
   TAG: {{BASH: Sound}}
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 NVEC Complete Improved Sound FX Patch.esp
 NVEC Improved Sound FX Patch.esp
 LouderGuns.esp
@@ -3322,7 +3326,7 @@ NAPA-NV 0.1.esp
 NAPA-Advanced Recon Tech.esp
   REQ: Advanced Recon Tech.esm
 NAPA-Project Nevada.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 NCR Black Ops Stealth Armor.esp
   SAY: Due to a master issue, this requires ClassicPack.esm; Can be fixed manually using FNVEdit.
 NCR Ranger Helmet Neck Cover.esp
@@ -4164,9 +4168,9 @@ Packless Heavy Weapons.esp
 Project Nevada - FPSWeaponWheel.esp
   REQ: Project Nevada - Core.esm, FNVToolkit.esm
 IFNOT FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 IFNOT FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 IFNOT FILE("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 IFNOT FILE("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
@@ -5032,9 +5036,9 @@ Improved Ballistics Effects V2.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
 IF FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 IF FILE("Nevada Skies.esp") MOD: Project Nevada - Rebalance Rebalanced.esp
-  REQ: Project Nevada - Core.esm
+  IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 IF FILE("Nevada Skies.esp") MOD: pnvprojectnevadarebalance.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 IF FILE("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
@@ -5042,12 +5046,12 @@ IF FILE("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
 IF FILE("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IF FILE("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
-  REQ: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+  IFNOT VAR(PN-C) || IFNOT VAR(PN-R) || IFNOT VAR(OWB) || IFNOT FILE("CCO - Classic Perks.esm") || IFNOT VAR(PN-E) REQ: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IF FILE("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
-  REQ: Project Nevada - Core.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+  IFNOT VAR(PN-C) || IFNOT VAR(PN-R) || IFNOT FILE("CCO - Classic Perks.esm") REQ: Project Nevada - Core.esm, CCO - Classic Perks.esm and Project Nevada - Rebalance.esp
 IF FILE("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
   TAG: {{BASH: Names}}
-  REQ: Project Nevada - Core.esm, Project Nevada - Rebalance.esp
+  IFNOT VAR(PN-C) || IFNOT VAR(PN-R) REQ: Project Nevada - Core.esm and Project Nevada - Rebalance.esp
 mypatch.esp
 ENDGROUP: Lastish
 
@@ -5163,7 +5167,7 @@ playableghoul.esp
 playableghouldeadmoney.esp
 ShilohDS-Desert Succubus CORE.esp
 Shojo Neko.esp
-  REQ: Shojo Race Vegas.esm
+  IFNOT FILE("Shojo Race Vegas.esm") REQ: Shojo Race Vegas.esm
 ENDGROUP: Beauty Packs & Race Addons
 
 BEGINGROUP: Hair
