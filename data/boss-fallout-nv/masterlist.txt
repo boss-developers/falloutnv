@@ -438,7 +438,7 @@ IF VAR(NVAMP) MOD: WME - GRA Light.esm
   IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - DLCs.esm
   IFNOT VAR(DLC) || IFNOT VAR(WME) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
-  INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
+  IF FILE("WME - Dead Money.esm") || IF FILE("WME - Honest Hearts.esm") || IF FILE("WME - Old World Blues.esm") INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 CCO - Gameplay Changes.esm
 CCO - Classic Perks.esm
 New Vegas Redesigned.esm
@@ -450,9 +450,9 @@ Lings.esm
 MikotoBeauty.esm
   TAG: {{BASH: Hair, Eyes, Graphics}}
 Herculine's NCCS Companions Volume 1.esm
-  REQ: Lings.esm
+  IFNOT FILE("Lings.esm") REQ: Lings.esm
 Shojo Race Vegas.esm
-  REQ: Lings.esm
+  IFNOT FILE("Lings.esm") REQ: Lings.esm
 AngelicaRace.esm
 AngelPark.esm
 CodeOfSteelBase.esm
@@ -647,7 +647,7 @@ NVEC LINGS PATCH - DLC.esp
 NVEC Complete Lings Patch.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Lings.esm
 NVEC LINGS PATCH - NO DLC.esp
-  REQ: Lings.esm
+  IFNOT FILE("Lings.esm") REQ: Lings.esm
 NVEC Extras.esp
 NVVariousFixes - Honest Hearts.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
@@ -1560,13 +1560,13 @@ Mo'betta IPP.esp
   REQ: Mo'.esm
 Mo'Gals.esp
   REQ: Mo'.esm
-  REQ: Lings.esm
+  IFNOT FILE("Lings.esm") REQ: Lings.esm
 Mo'Suite.esp
   REQ: Mo'.esm
-  REQ: Lings.esm
+  IFNOT FILE("Lings.esm") REQ: Lings.esm
 Mo'o'less.esp
   REQ: Mo'.esm
-  REQ: Lings.esm
+  IFNOT FILE("Lings.esm") REQ: Lings.esm
   REQ: Mo'Suite.esp
 Mo'AWOP.esp
   REQ: AWorldOfPain(Preview).esm
@@ -5148,9 +5148,10 @@ AFricanAmericanAAlbino.esp
 BMDD's All Races Playable V2.esp
 Bouncing Natural Breasts.esp
 DK Caucasians.esp
-  REQ: Lings.esm IF you're using the Lings Compatible mod.
+  IF FILE("Lings.esm") && IF CHECKSUM("DK Caucasians.esp", B67B57E2) REQ: "http://newvegas.nexusmods.com/mods/41548 Lings compatibility patch"
+  IFNOT FILE("Lings.esm") && IF CHECKSUM("DK Caucasians.esp", C1254A5A) REQ: Lings.esm
 Lings-PlayableRaces.esp
-  REQ: Lings.esm
+  IFNOT FILE("Lings.esm") REQ: Lings.esm
 NVEC Complete Lings Patch - DLC + GRA.esp
 MoonShadowRace.esp
 T3BBN Old Women.esp
