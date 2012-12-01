@@ -139,7 +139,6 @@ Active Wasteland.esm
 AccuRifles.esm
   REQ: NVSE
 Advanced Recon Tech.esm
-AEVegas.esm
 Afterschool Special.esm
 Alice Armor.esm
 BinocularsOverhaul.esm
@@ -264,6 +263,11 @@ NVInteriors_WastelandEditonAWOP.esm
 NVInteriors_ComboEdition.esm
   REQ: NVInteriors_Core.esm
   SAY: Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
+  INC: NVInteriors_ComboEdition_AWOP.esm
+NVInteriors_ComboEdition_AWOP.esm
+  REQ: NVInteriors_Core.esm
+  SAY: Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
+  INC: NVInteriors_ComboEdition.esm
 Interior Lighting Overhaul - Core.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
@@ -458,6 +462,8 @@ Herculine's NCCS Companions Volume 1.esm
 Shojo Race Vegas.esm
   IFNOT FILE("Lings.esm") REQ: Lings.esm
 AngelicaRace.esm
+AngelRaces.esm
+AEVegas.esm
 AngelPark.esm
 CodeOfSteelBase.esm
 D.E.I.M.O.S..esm
@@ -487,6 +493,8 @@ MMUE - Deutsch.esp
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 MMUE+.esp
+  REQ: Mission Mojave - Ultimate Edition.esp
+MMUE POP.esp
   REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-GRA-Standard.esp
   REQ: Mission Mojave - Ultimate Edition.esp
@@ -925,6 +933,8 @@ Bitter Springs Revisited.esp
 Cass_Redux.esp
 Cass_Redux_Mikoto.esp
 Cass V01 -Lings.esp
+Cass and Veronica.esp
+  TAG: {{BASH: NpcFaces, Invent}}
 Cuter Boone.esp
   TAG: {{BASH: NpcFaces, NoMerge}}
 Cuter Boone NEW.esp
@@ -1079,11 +1089,35 @@ Alpha's MoMod Overhaul.esp
   REQ: MoMod.esm
   SAY: Outdated. Consider Updating.
 Monster Mod Wasteland Edition.esp
+  TAG: {{BASH: Relev}}
   REQ: MoMod.esm
 MoMod-MCMMenu.esp
 MoMod-NightSpawn.esp
 MMWE-No Oblivion.esp
   REQ: MoMod.esm, Monster Mod Wasteland Edition.esp
+  TAG: {{BASH: Delev}}
+MMWE-Claw Beast B Gone.esp
+  REQ: MoMod.esm, Monster Mod Wasteland Edition.esp
+  TAG: {{BASH: Delev}}
+MMWE-LoreOut.esp
+  REQ: MoMod.esm, Monster Mod Wasteland Edition.esp
+  TAG: {{BASH: Delev}}
+MMWE-No Werewolves.esp
+  REQ: MoMod.esm, Monster Mod Wasteland Edition.esp
+  TAG: {{BASH: Delev}}
+MMWE - Robco Certified Fix.esp
+MMWE - Rebalanced Leveled Lists.esp
+  TAG: {{BASH: Delev, Relev}}
+  REQ: MoMod.esm, Monster Mod Wasteland Edition.esp
+MMWE - Vanilla Spawn Chance.esp
+  TAG: {{BASH: Delev, Relev}}
+  REQ: MoMod.esm, Monster Mod Wasteland Edition.esp, MMWE - Rebalanced Leveled Lists.esp
+MMWE-LoreOut-Rebalanced.esp
+  TAG: {{BASH: Delev, Relev}}
+  REQ: MoMod.esm, Monster Mod Wasteland Edition.esp, MMWE - Rebalanced Leveled Lists.esp
+MMWE-LoreOut-VanillaSpawnChance.esp
+  TAG: {{BASH: Delev, Relev}}
+  REQ: MoMod.esm, Monster Mod Wasteland Edition.esp, MMWE - Rebalanced Leveled Lists.esp
 Methclaw.esp
 Mr Moneybags.esp
 MUd-CR48 Merchant.esp
@@ -1141,6 +1175,7 @@ nocol.esp
 1000th patch 2.1.esp
 1000th addon (new walls n floors 1.1).esp
 1000th addon (balcony 1.1).esp
+AsukaDollHouse.esp
 A Home in the Mountains.esp
 AbandonedShack.esp
 AFNV_PartOne.esp
@@ -1254,6 +1289,7 @@ NV Interiors - West Vegas Fringe.esp
 NV Interiors - Cottonwood Cove.esp
 NVInteriors_WastelandEditon.esp
   SAY: Old, update to NVInteriors_WastelandEditon.esm
+NVInteriors_Combo_AWOP_Tweaks_DLC.esp
 OWNB - Red Canyon Overhaul.esp
   REQ: OWNB - Open World.esm
 Portable Tent.esp
@@ -1944,6 +1980,7 @@ Project Nevada - Gun Runners' Arsenal.esp
   REQ: GunRunnersArsenal.esm and Project Nevada - Core.esm
 Project Nevada - Gun Runners' Arsenal (Rebalance).esp
   REQ: GunRunnersArsenal.esm, Project Nevada - Core.esm
+Project Nevada - Extra Options.esp
 Selective Fire - Project Nevada.esp
   REQ: Selective Fire.esm and Project Nevada - Core.esm
 OWB Big Empty Overhaul.esp
@@ -2314,6 +2351,8 @@ Detect Traps - Dead Money.esp
 Detect Traps - DLC.esp
   IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
   INC: Detect Traps - Dead Money.esp
+DFB - Random Encounters - Update - MCM.esp
+  REQ: DFB - Random Encounters.esm
 DFB - Random Encounters - Angels Park.esp
   REQ: DFB - Random Encounters.esm, AngelPark.esm
 DFB - Random Encounters - Hotfix 2.5.esp
@@ -2730,6 +2769,8 @@ Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
 AEVegas.esp
   SAY: Outdated. Consider Updating.
+AEVegas_101_items.esp
+AEVegas_101_storage.esp
 AG Melee Mods.esp
 AG Shell Casing Fixes-All Five.esp
   TAG: {{BASH: Graphics}}
@@ -2845,6 +2886,8 @@ Cheeco88'sUniqueWeapons.esp
 Chey Tac M200.esp
   REQ: CaliberX's Meshes and Textures for .408 ammo AND/OR Caliber.esm depending on the .esp you are using. Please read carefully when choosing one.
 christinecos.esp
+  TAG: {{BASH: Graphics}}
+GRA WRP Compatibility Patch.esp
   TAG: {{BASH: Graphics}}
 Classic energy weapons.esp
 Classic M72 Gauss Rifle.esp
@@ -3164,6 +3207,7 @@ COL - Liena's Armour.esp
 Colossus NV.esp
 Colossus Armor For New Vegas (keylek).esp
 Colossus T49.esp
+Cuteclothes_NV.esp
 Project Nevada - T49XV Patch.esp
   REQ: Project Nevada - Core.esm and Colossus T49.esp
 CombatArmor_MarkII.esp
@@ -3361,6 +3405,7 @@ NWghostbodysuit.esp
 NWIxiaarmor1.esp
 Oblivion Conversions Merged.esp
 OCD-Cass outfits.esp
+OdekoGoggles.esp
 OldCowboyhatFem.esp
 OutfitsReColorChangeClothes.esp
 OWBs Skull Cap.esp
@@ -3413,6 +3458,8 @@ sexysleepwear.esp
   SAY: Choose only one of sexysleepwear.esp and sexysleepwearnr.esp, not both
 sexysleepwearnr.esp
   SAY: Choose only one of sexysleepwear.esp and sexysleepwearnr.esp, not both
+ShinC.esp
+ShinC-NV.esp
 SKINNY in Vegas Basic.esp
 Slofs Boners - ENG.esp
 Spawn Armor.esp
@@ -3429,6 +3476,7 @@ T3Belts_BootsNV.esp
 T3Belts_BootsNV2.esp
 T51b-Manual.esp
 t51bsnow.esp
+T6M Equipment Replacer NV.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 Tactical Combat Gear.esp
@@ -3466,6 +3514,7 @@ WastelandNecklaceCollection.esp
 WearGloves.esp
 Wolfeco_Courier.esp
 White Glove attire actually has White Gloves.esp
+zzzShojoRaceBeret.esp
 ENDGROUP: Armor and Clothes
 
 BEGINGROUP: Cosmetics
@@ -3564,6 +3613,10 @@ Sortomatic-AWOP.esp
   REQ: Sortomatic.esm and AWorldOfPain(Preview).esm
 MMUE-CP-AWOP.esp
   REQ: AWorldOfPain(Preview).esm
+MMUE-CP-AWOP+NVInteriors.esp
+  REQ: AWorldOfPain(Preview).esm
+  INC: MMUE-CP-AWOP.esp
+AWOP-PNRebalanceHPpatch.esp
 Caesars_Legion_Overhaul.esp
 CaliberX_Ammo_Update_1dot3.esp
 Fun with Karma NV.esp
@@ -3623,6 +3676,8 @@ Angelica.esp
   REQ: AngelicaRace.esm
 AngelicaCassVeronica.esp
   REQ: AngelicaRace.esm
+Angel.esp
+  REQ: AngelRace.esm
 A Present For Boone.esp
 AllCompanionsEssential.esp
 AllCompanionsEssential 2.0.esp
@@ -3794,6 +3849,7 @@ Destructibles.esp
 Feng Shui NV.esp
 Feng Shui NV - Keymap Template.esp
 getallACH.esp
+Motorcyclereplacer.esp
 Real Weapon Names.esp
   TAG: {{BASH: Names}}
 Real Weapon Names - NPC Compnaion Weapons.esp
@@ -4339,8 +4395,12 @@ WMXTemporaryPatch.esp
   REQ: WeaponModsExpanded.esp
   SAY: Outdated. Please update to Version 1.7 of WMX.
 Improved Sound FX - WMX - Weapon Sharing Fix.esp
+  TAG: {{BASH: Sound}}
   REQ: WeaponModsExpanded.esp
 WMX-AWOP Patch.esp
+  TAG: {{BASH: WeaponMods}}
+  REQ: AWorldOfPain(Preview).esm and WeaponModsExpanded.esp
+WMX-AWOP-Overhaul.esp
   TAG: {{BASH: WeaponMods}}
   REQ: AWorldOfPain(Preview).esm and WeaponModsExpanded.esp
 Frequency - WMX Patch.esp
@@ -4428,6 +4488,8 @@ WMX-LonesomeRoad.esp
 WMX-GunRunnersArsenal.esp
   TAG: {{BASH: Invent}}
   REQ: GunRunnersArsenal.esm and WeaponModsExpanded.esp
+WMX-MW-GRA.esp
+  REQ: GunRunnersArsenal.esm and WMX-ModernWeapons.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
   REQ: HonestHearts.esm and WMX-HonestHearts.esp
 Improved Sound FX - WMX - OWB Sharing Fix.esp
@@ -4436,6 +4498,9 @@ Improved Sound FX - WMX - Merged Major DLCs.esp
   TAG: {{BASH: Sound}}
   REQ: HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, WMX-OldWorldBlues.esp, WMX-LonesomeRoad.esp
   INC: Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - Merged Major DLCs.esp
+Improved Sound FX - WMX - GRA Sharing Fix.esp
+  TAG: {{BASH: Sound}}
+  REQ: GunRunnersArsenal.esm, WeaponModsExpanded.esp, WMX-GunRunnersArsenal.esp, Improved Sound FX - WMX - Weapon Sharing Fix.esp
 WMX-ArenovalisTextures.esp
   TAG: {{BASH: Graphics, NoMerge}}
   REQ: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
@@ -4610,6 +4675,7 @@ ENDGROUP: Weapon Mod Expansion or WME
 BEGINGROUP: Special Cases for WMX and/or WME support
 //-----------
 EVE FNV.esp
+  TAG: {{BASH: Graphics, Sound}}
 EVE FNV-[GRA Patch for EVE 1.3].esp
   REQ: EVE FNV.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
@@ -4918,6 +4984,9 @@ Interior Lighting Overhaul-Realistic Interiors-Combined.esp
 Interior Lighting Overhaul - Ultimate Edition.esp
   TAG: {{BASH: C.Light}}
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Interior Lighting Overhaul - Core.esm
+Interior Lighting Overhaul - Ultimate Edition - No Lucky38.esp
+  TAG: {{BASH: C.Light}}
+  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Interior Lighting Overhaul - Core.esm
 ILO-RI-Original Lucky38 Suite.esp
   TAG: {{BASH: C.Light}}
   REQ: Interior Lighting Overhaul-Realistic Interiors-Full.esp
@@ -4941,6 +5010,9 @@ ILO - PipBoy Light.esp
 ILO - NVInteriors Project.esp
   TAG: {{BASH: C.Light}}
   REQ: NVInteriors_Core.esm, NVInteriors_ComboEdition.esm, Interior Lighting Overhaul - Core.esm
+ILO - NVInteriors Project - AWOP.esp
+  TAG: {{BASH: C.Light}}
+  REQ: NVInteriors_Core.esm, NVInteriors_ComboEdition_AWOP.esm, Interior Lighting Overhaul - Core.esm
 ILO - Project Reality Patch.esp
   TAG: {{BASH: C.Climate}}
   REQ: ProjectRealityMkIv5HDR.esp
@@ -4948,6 +5020,9 @@ Interior Lighting Overhaul-Darker.esp
   SAY: Outdated.
 Interior Lighting Overhaul-Darker Interiors.esp
 ILO - NSkies URWLified Patch.esp
+ILO - A World of Pain.esp
+  TAG: {{BASH: C.Light}}
+  REQ: AWorldOfPain(Preview).esm
 Clean-Deluxe FNV Merge - All DLC.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Clean-Delux FNV.esm
 Clean-Deluxe FNV Merge - ILO.esp
@@ -5154,6 +5229,8 @@ Bouncing Natural Breasts.esp
 DK Caucasians.esp
   IF FILE("Lings.esm") && IF CHECKSUM("DK Caucasians.esp", B67B57E2) REQ: "http://newvegas.nexusmods.com/mods/41548 Lings compatibility patch"
   IFNOT FILE("Lings.esm") && IF CHECKSUM("DK Caucasians.esp", C1254A5A) REQ: Lings.esm
+EwwGhoulyBody.esp
+  TAG: {{BASH: Body-F}}
 Lings-PlayableRaces.esp
   IFNOT FILE("Lings.esm") REQ: Lings.esm
 NVEC Complete Lings Patch - DLC + GRA.esp
