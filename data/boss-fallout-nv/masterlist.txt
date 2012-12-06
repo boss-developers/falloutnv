@@ -484,6 +484,12 @@ ENDGROUP: Earliest
 
 BEGINGROUP: Unofficial Patches and Fixes
 //-----------
+MM-Main.esp
+MM-HonestHearts.esp
+MM-OldWorldBlues.esp
+MM-LonesomeRoad.esp
+MM-InvisibleWallRemover.esp
+MM-Coordinate-Gun.esp
 Mission Mojave - Ultimate Edition.esp
   TAG: {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp
@@ -4297,8 +4303,9 @@ realistic headshots VATS.esp
 Realistic Ingestible Metabolic Effects.esp
 Realistic Weapon Impact Effects.esp
 Realistic Weight.esp
-  TAG: {{BASH: Stats}}
+  TAG: {{BASH: Stats, NoMerge}}
 Realistic Weight Overhaul.esp
+  TAG: {{BASH: Stats, NoMerge}}
 RealisticWeaponRecoil.esp
   INC: RealisticWeaponRecoilDM.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
@@ -4360,6 +4367,7 @@ Vats Longer distance.esp
 Vault_34_better_reactor.esp
 VirusHuntV3.esp
 VMods.esp
+WeaponJamming.esp
 WeaponJammingNoReloadJams.esp
 Weight_Balance.esp
   TAG: {{BASH: Stats}}
@@ -4486,7 +4494,7 @@ WMX-LonesomeRoad.esp
   TAG: {{BASH: Invent}}
   REQ: LonesomeRoad.esm, WeaponModsExpanded.esp
 WMX-GunRunnersArsenal.esp
-  TAG: {{BASH: Invent}}
+  TAG: {{BASH: Invent, WeaponMods}}
   REQ: GunRunnersArsenal.esm and WeaponModsExpanded.esp
 WMX-MW-GRA.esp
   REQ: GunRunnersArsenal.esm and WMX-ModernWeapons.esp
@@ -4679,6 +4687,9 @@ EVE FNV.esp
 EVE FNV-[GRA Patch for EVE 1.3].esp
   REQ: EVE FNV.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
+Improved Sound FX - EVE.esp
+  REQ: EVE FNV.esp
+  TAG: {{BASH: Sound}}
 Project Nevada - EVE.esp
   REQ: EVE FNV.esp
 dD-Reduced Dismember Force - EVE.esp
@@ -4695,6 +4706,7 @@ EVE_WMX.esp
   REQ: WeaponModsExpanded.esp, EVE FNV.esp
 WMX-EVE.esp
   REQ: WeaponModsExpanded.esp, EVE FNV.esp
+  TAG: {{BASH: Graphics, WeaponMods}}
 Frequency - EVE Patch.esp
   REQ: Frequency.esm, EVE FNV.esp
 Frequency - WME Patch.esp
