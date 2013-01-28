@@ -485,9 +485,13 @@ ENDGROUP: Earliest
 BEGINGROUP: Unofficial Patches and Fixes
 //-----------
 MM-Main.esp
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 MM-HonestHearts.esp
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 MM-OldWorldBlues.esp
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 MM-LonesomeRoad.esp
+  SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 MM-InvisibleWallRemover.esp
 MM-Coordinate-Gun.esp
 Mission Mojave - Ultimate Edition.esp
@@ -498,8 +502,11 @@ MMUE - Deutsch.esp
   TAG: {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+Mission Mojave - Ultimate Edition Plus.esp
+  REQ: Mission Mojave - Ultimate Edition.esp
 MMUE+.esp
   REQ: Mission Mojave - Ultimate Edition.esp
+  SAY: Plugin is old. Please update it.
 MMUE POP.esp
   REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-GRA-Standard.esp
