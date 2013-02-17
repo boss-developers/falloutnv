@@ -47,7 +47,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("DeadMoney.esm") SET: DM
   IF FILE("HonestHearts.esm") SET: HH
   IF FILE("OldWorldBlues.esm") SET: OWB
-  IF FILE("LonesomeRoad.esm") SET: LR
+  IF FILE("LonesomeRoad.esm") SET: LR 
   IF FILE("GunRunnersArsenal.esm") SET: GRA
   IF VAR(LR) && IF VAR(OWB) && IF VAR(HH) && IF VAR(DM) SET: DLC
 
@@ -154,7 +154,7 @@ IFNOT VAR(NVAMP) MOD: CaliberXgunrunners.esm
   TAG: {{BASH: Names}}
 IFNOT VAR(NVAMP) MOD: CFWNV.esm
 IFNOT VAR(NVAMP) MOD: CFWNV-DLC.esm
-  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
 CHEMS.esm
 IFNOT VAR(NVAMP) MOD: CINEMATECH.esm
   REQ: New Vegas Script Extender and The Mod Configuration Menu for Version 1.5+
@@ -193,7 +193,7 @@ FreesideOpen.esm
 IFNOT VAR(NVAMP) MOD: FOOK - New Vegas.esm
   TAG: {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 IFNOT VAR(NVAMP) MOD: FOOK - New Vegas DLCs.esm
-  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
 Frequency.esm
 Frys_Freehold.esm
 Ghouls Attack Test.esm
@@ -226,11 +226,11 @@ IFNOT VAR(NVAMP) MOD: MoMod.esm
 IFNOT VAR(NVAMP) MOD: More Perks.esm
 IFNOT VAR(NVAMP) MOD: More Perks for Companions.esm
 IFNOT VAR(NVAMP) MOD: More Perks for Dead Money.esm
-  REQ: DeadMoney.esm and More Perks.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm and More Perks.esm
 IFNOT VAR(NVAMP) MOD: More Perks for Honest Hearts.esm
-  REQ: HonestHearts.esm and More Perks.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm and More Perks.esm
 IFNOT VAR(NVAMP) MOD: More Perks for Old World Blues.esm
-  REQ: OldWorldBlues.esm and More Perks.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm and More Perks.esm
 IFNOT VAR(NVAMP) MOD: More Traits.esm
 IFNOT VAR(NVAMP) MOD: More Challenges.esm
 New Vegas Error Corrections Complete - NO DLC.esm
@@ -321,15 +321,15 @@ WARZONES - Misanthropy Pure.esm
 IFNOT VAR(NVAMP) MOD: Weapon Mod Expansion.esm
   TAG: {{BASH: Names}}
 IFNOT VAR(NVAMP) MOD: WME - Dead Money.esm
-  IFNOT VAR(DM) || IFNOT VAR(WME) REQ: DeadMoney.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(DM) || IFNOT VAR(WME) IFNOT VAR(DM) REQ: DeadMoney.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - Honest Hearts.esm
-  IFNOT VAR(HH) || IFNOT VAR(WME) REQ: HonestHearts.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(HH) || IFNOT VAR(WME) IFNOT VAR(HH) REQ: HonestHearts.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - Old World Blues.esm
-  IFNOT VAR(OWB) || IFNOT VAR(WME) REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(OWB) || IFNOT VAR(WME) IFNOT VAR(OWB) REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - GRA.esm
-  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - GRA Light.esm
-  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IFNOT VAR(NVAMP) MOD: WME - DLCs.esm
   IFNOT VAR(DLC) || IFNOT VAR(WME) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
   INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
@@ -370,11 +370,11 @@ IF VAR(NVAMP) MOD: OutfitsReColorNVMaster.esm
 IF VAR(NVAMP) MOD: More Perks.esm
 IF VAR(NVAMP) MOD: More Perks for Companions.esm
 IF VAR(NVAMP) MOD: More Perks for Dead Money.esm
-  REQ: DeadMoney.esm and More Perks.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm and More Perks.esm
 IF VAR(NVAMP) MOD: More Perks for Honest Hearts.esm
-  REQ: HonestHearts.esm and More Perks.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm and More Perks.esm
 IF VAR(NVAMP) MOD: More Perks for Old World Blues.esm
-  REQ: OldWorldBlues.esm and More Perks.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm and More Perks.esm
 IF VAR(NVAMP) MOD: More Traits.esm
 IF VAR(NVAMP) MOD: More Challenges.esm
 IF VAR(NVAMP) MOD: Project Nevada - Core.esm
@@ -438,17 +438,17 @@ IF VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IF VAR(NVAMP) MOD: CFWNV-DLC.esm
-  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
 IF VAR(NVAMP) MOD: WME - Dead Money.esm
-  IFNOT VAR(DM) || IFNOT VAR(WME) REQ: DeadMoney.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(DM) || IFNOT VAR(WME) IFNOT VAR(DM) REQ: DeadMoney.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - Honest Hearts.esm
-  IFNOT VAR(HH) || IFNOT VAR(WME) REQ: HonestHearts.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(HH) || IFNOT VAR(WME) IFNOT VAR(HH) REQ: HonestHearts.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - Old World Blues.esm
-  IFNOT VAR(OWB) || IFNOT VAR(WME) REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(OWB) || IFNOT VAR(WME) IFNOT VAR(OWB) REQ: OldWorldBlues.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - GRA.esm
-  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - GRA Light.esm
-  IFNOT VAR(GRA) || IFNOT VAR(WME) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
+  IFNOT VAR(GRA) || IFNOT VAR(WME) IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and Weapon Mod Expansion.esm
 IF VAR(NVAMP) MOD: WME - DLCs.esm
   IFNOT VAR(DLC) || IFNOT VAR(WME) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
   IF FILE("WME - Dead Money.esm") || IF FILE("WME - Honest Hearts.esm") || IF FILE("WME - Old World Blues.esm") INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
@@ -652,14 +652,14 @@ NV Error Corrections FNV - FOOK Patch.esp
   REQ: FOOK - New Vegas.esm
   SAY: Old, update to latest version 1.7+.
 NV Error Corrections Merged.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+  IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
   SAY: Old, update to latest version 1.7+.
 NV Error Corrections Merged - FOOK Patch.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, FOOK - New Vegas.esm
   SAY: Old, update to latest version 1.7+.
 New Vegas Error Corrections - NO DLC.esp
 New Vegas Error Corrections - DLC.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+  IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 New Vegas Error Corrections - DLC + GRA.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 New Vegas Error Corrections - GRA ONLY.esp
@@ -683,17 +683,17 @@ Performance Of The Gods.esp
 NVVariousFixes - Honest Hearts.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
 OWB Companion Teleport.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 OWB Moddable FIDO.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 OWB More Vendor Caps.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 OWB Stealth Field Suit.esp  
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 OWB Valence Extra.esp
-  REQ: OldWorldBlues.esm 
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm 
 OWB Valence Mask.esp
-  REQ: OldWorldBlues.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 PackWeaponsFix.esp
 Primm_Rumor_Fix.esp
 RadioComputerPartsFix.esp
@@ -824,7 +824,7 @@ BIS - Community Bugfix Comp ESM.esp
   INC: BIS - Community Bugfix Comp ESP.esp
 BIS - CBC Dead Money Patch ESM.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm and CBC Dead Money Patch.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm and CBC Dead Money Patch.esm
   INC: BIS - CBC Dead Money Patch ESP.esp
 BIS - Community Bugfix Comp ESP.esp
   TAG: {{BASH: Names}}
@@ -832,7 +832,7 @@ BIS - Community Bugfix Comp ESP.esp
   INC: BIS - Community Bugfix Comp ESM.esp
 BIS - CBC Dead Money Patch ESP.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm and CBC Dead Money Patch.esp
+  IFNOT VAR(DM) REQ: DeadMoney.esm and CBC Dead Money Patch.esp
   INC: BIS - CBC Dead Money Patch ESM.esp
 BIS - Promo DLC Caravan Pack.esp
   TAG: {{BASH: Names}}
@@ -851,7 +851,7 @@ BIS - CFWNV.esp
   REQ: CFWNV.esm
 BIS - CFWNV-DLC.esp
   TAG: {{BASH: Names}}
-  REQ: HonestHearts.esm and CFWNV-DLC.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm and CFWNV-DLC.esm
 BIS - Primary Needs HUD.esp
   TAG: {{BASH: Names}}
   REQ: Primary Needs HUD.esm
@@ -1519,10 +1519,10 @@ BEGINGROUP: FOOK
 FOOK - New Vegas.esp
   TAG: {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 FOOK - New Vegas DLCs.esp
-  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
 FOOK - No Loose Files.esp
 FOOK - No Loose Files DLCs.esp
-  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
 FOOK GRA Ammo Hotfix.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 BIS - FOOK - New Vegas.esp
@@ -1916,19 +1916,19 @@ BartertownPeaceful.esp
 CCO - Perk Rebalance.esp
 CCO - Damage Resistance.esp
 CCO - GC DM Patch.esp
-  REQ: DeadMoney.esm, CCO - Gameplay Changes.esm
+  REQ: DeadMoney.esm CCO - Gameplay Changes.esm
 CCO - GC HH Patch.esp
-  REQ: HonestHearts.esm, CCO - Gameplay Changes.esm
+  REQ: HonestHearts.esm CCO - Gameplay Changes.esm
 CCO - GC OWB Patch.esp
-  REQ: OldWorldBlues.esm, CCO - Gameplay Changes.esm
+  REQ: OldWorldBlues.esm CCO - Gameplay Changes.esm
 CCO - GC LR Patch.esp
-  REQ: LonesomeRoad.esm, CCO - Gameplay Changes.esm
+  REQ: LonesomeRoad.esm CCO - Gameplay Changes.esm
 CCO - CP DM Patch.esp
-  REQ: DeadMoney.esm, CCO - Classic Perks.esm
+  REQ: DeadMoney.esm CCO - Classic Perks.esm
 CCO - CP OWB Patch.esp
-  REQ: OldWorldBlues.esm, CCO - Classic Perks.esm
+  REQ: OldWorldBlues.esm CCO - Classic Perks.esm
 CCO - CP LR Patch.esp
-  REQ: LonesomeRoad.esm, CCO - Classic Perks.esm
+  REQ: LonesomeRoad.esm CCO - Classic Perks.esm
 CCO - CP PN Core Patch.esp
   REQ: Project Nevada - Core.esm, CCO - Classic Perks.esm
 CCO - CP PN Equipment Patch.esp
@@ -1936,13 +1936,13 @@ CCO - CP PN Equipment Patch.esp
 CCO - PR PN Patch.esp
   REQ: Project Nevada - Core.esm, CCO - Perk Rebalance.esp
 CCO - DR DM Patch.esp
-  REQ: DeadMoney.esm, CCO - Damage Resistance.esp
+  REQ: DeadMoney.esm CCO - Damage Resistance.esp
 CCO - DR HH Patch.esp
-  REQ: HonestHearts.esm, CCO - Damage Resistance.esp
+  REQ: HonestHearts.esm CCO - Damage Resistance.esp
 CCO - DR OWB Patch.esp
-  REQ: OldWorldBlues.esm, CCO - Damage Resistance.esp
+  REQ: OldWorldBlues.esm CCO - Damage Resistance.esp
 CCO - DR LR Patch.esp
-  REQ: LonesomeRoad.esm, CCO - Damage Resistance.esp
+  REQ: LonesomeRoad.esm CCO - Damage Resistance.esp
 CCO - DR PN Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Damage Resistance.esp
 CGYH.esp
@@ -1963,7 +1963,7 @@ hardercore_wealth.esp
 hardercore_healing.esp
 HarderThan.esp
 HarderThan-HH.esp
-  REQ: HonestHearts.esm, HarderThan.esp
+  REQ: HonestHearts.esm HarderThan.esp
 Hardened-MoMod.esp
 Hardened-AWOP-MoMod.esp
 Hardened-AWOP-MonsterPatch.esp
@@ -1984,12 +1984,12 @@ BIS - Project Nevada - Cyberware.esp
   TAG: {{BASH: Names}}
   REQ: Project Nevada - Core.esm and Project Nevada - Cyberware.esp
 Project Nevada - Dead Money.esp
-  REQ: DeadMoney.esm and Project Nevada - Core.esm
+  IFNOT VAR(DM) REQ: DeadMoney.esm and Project Nevada - Core.esm
   INC: Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
 Project Nevada - Dead Money (Rebalance).esp
-  REQ: DeadMoney.esm, Project Nevada - Core.esm, Project Nevada - Rebalance.esp
+  REQ: DeadMoney.esm Project Nevada - Core.esm, Project Nevada - Rebalance.esp
 Project Nevada - Honest Hearts.esp
-  REQ: HonestHearts.esm and Project Nevada - Core.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm and Project Nevada - Core.esm
   INC: Project Nevada - Dead Money + Honest Heart Patch.esp and Project Nevada - Dead Money SF + Honest Hearts Patch.esp
 Project Nevada - Dead Money + Honest Heart Patch.esp
   REQ: DeadMoney.esm, HonestHearts.esm, and Project Nevada - Core.esm
@@ -2000,17 +2000,17 @@ Project Nevada - Dead Money SF + Honest Hearts Patch.esp
   INC: Project Nevada - Dead Money.esp and Project Nevada - Honest Hearts.esp
   SAY: Recommended that you use the official Project Nevada Patches. You can find them here: "http://newvegas.nexusmods.com/mods/42363"
 Project Nevada - Old World Blues.esp
-  REQ: OldWorldBlues.esm and Project Nevada - Core.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm and Project Nevada - Core.esm
   SAY: Choose only one of Project Nevada - Old World Blues.esp and Project Nevada - Old World Blues (No Cyberware).esp, not both
 Project Nevada - Old World Blues (No Cyberware).esp
-  REQ: OldWorldBlues.esm and Project Nevada - Core.esm
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm and Project Nevada - Core.esm
   SAY: Choose only one of Project Nevada - Old World Blues.esp and Project Nevada - Old World Blues (No Cyberware).esp, not both
 Project Nevada - Lonesome Road.esp
-  REQ: LonesomeRoad.esm and Project Nevada - Core.esm
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm and Project Nevada - Core.esm
 Project Nevada - Gun Runners' Arsenal.esp
-  REQ: GunRunnersArsenal.esm and Project Nevada - Core.esm
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and Project Nevada - Core.esm
 Project Nevada - Gun Runners' Arsenal (Rebalance).esp
-  REQ: GunRunnersArsenal.esm, Project Nevada - Core.esm
+  REQ: GunRunnersArsenal.esm Project Nevada - Core.esm
 Project Nevada - Extra Options.esp
 Selective Fire - Project Nevada.esp
   REQ: Selective Fire.esm and Project Nevada - Core.esm
@@ -2022,7 +2022,7 @@ RBDC - DM.esp
 RBDC - HH.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
 RBDC - HH - Authentic Burned Man.esp
-  REQ: HonestHearts.esm and Better Burned Man.esp
+  IFNOT VAR(HH) REQ: HonestHearts.esm and Better Burned Man.esp
 RBDC - OWB.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 RBDC - LR.esp
@@ -2069,7 +2069,7 @@ Improved Sound FX - GRA.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 Improved Sound FX - Merged Major DLCs.esp
   TAG: {{BASH: Sound}}
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+  IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
   INC: Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - WMX - Merged Major DLCs.esp
 Improved Sound FX - Project Nevada.esp
   TAG: {{BASH: Sound}}
@@ -2386,7 +2386,7 @@ Detect Traps - Dead Money.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: Detect Traps - DLC.esp
 Detect Traps - DLC.esp
-  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
   INC: Detect Traps - Dead Money.esp
 DFB - Random Encounters - Update - MCM.esp
   REQ: DFB - Random Encounters.esm
@@ -2494,7 +2494,7 @@ LFox Infinite Companion Ammo.esp
 Lighter books.esp
 LMDStorageBag.esp
 Loot Vehicles.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+  IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 LootableOldCars.esp
 LootableOldCars_AE.esp
 LootableOldCars_OE.esp
@@ -2668,7 +2668,7 @@ ACS-CaliberX.esp
   REQ: Caliber.esm and AmmoCraftingSchematics.esp
 ACS-HonestHearts.esp
   TAG: {{BASH: Invent}}
-  REQ: HonestHearts.esm and AmmoCraftingSchematics.esp
+  IFNOT VAR(HH) REQ: HonestHearts.esm and AmmoCraftingSchematics.esp
 ArmourRepairKits.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Armor Crafting BETA.esp
@@ -2829,7 +2829,7 @@ AG Supplementary Uniques-Lonesome Road.esp
   IFNOT VAR(LR) REQ: LonesomeRoad.esm
   INC: AG Supplementary Uniques-Lonesome Road WME.esp
 AG Supplementary Uniques-AllInOne.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+  IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
   INC: AG Supplementary Uniques.esp, AG Supplementary Uniques-Dead Money.esp, AG Supplementary Uniques-Honest Hearts.esp, AG Supplementary Uniques-Old World Blues.esp, AG Supplementary Uniques-Lonesome Road.esp
 AG Supplementary Uniques-GRA.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
@@ -3267,7 +3267,7 @@ Dark Mercenary Gear.esp
 Dark Temptress.esp
 DarkStalker Outfit.esp
 DeadMoneyFemaleTuxedo.esp
-  REQ: DeadMoney.esm and Type 3 Body Replacer.
+  IFNOT VAR(DM) REQ: DeadMoney.esm and Type 3 Body Replacer.
 DeepEyesNV.esp
 Desert Armor.esp
 Desert Armor rebuilt.esp
@@ -3675,11 +3675,11 @@ Mercy Killing Karma v2.0.esp
 MMUE-CP-PNCore.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Project Nevada - Core.esm
 MMUE-CP-PNRebalance.esp
-  REQ: DeadMoney.esm, OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Rebalance.esp, Mission Mojave - Ultimate Edition.esp
+  REQ: DeadMoney.esm OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Rebalance.esp, Mission Mojave - Ultimate Edition.esp
 MMUE-CP-PNEquipment.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Project Nevada - Equipment.esp, Mission Mojace - Ultimate Edition.esp
 MMUE-CP-PNOWB.esp
-  REQ: OldWorldBlues.esm, Mission Mojave - Ultimate Edition.esp, Project Nevada - Old World Blues.esp
+  REQ: OldWorldBlues.esm Mission Mojave - Ultimate Edition.esp, Project Nevada - Old World Blues.esp
 MMUE-CP-rePopulated.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, rePopulated Wasteland.esm
 MMUE-CP-New Vegas Redesigned.esp
@@ -3910,7 +3910,7 @@ MiscItemIconsNV.esp
   INC: T3T_MiscItemIconsNV.esp
 Mojave Nights.esp
 NVDLC02 Extensions.esp
-  REQ: HonestHearts.esm, QHHFollowers.esp
+  REQ: HonestHearts.esm QHHFollowers.esp
 T3T_MiscItemIconsNV.esp
   TAG: {{BASH: Graphics}}
   INC: MiscItemIconsNV.esp
@@ -3943,7 +3943,7 @@ Sorter - Empty Consumables.esp
   TAG: {{BASH: Names}}
 Sorter - Empty Consumables - Dead Money.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm and Sorter - Empty Consumables.esp
+  IFNOT VAR(DM) REQ: DeadMoney.esm and Sorter - Empty Consumables.esp
 Inventory Sorter - Moddable Unique Weps.esp
   TAG: {{BASH: Names}}
   REQ: Moddable Unique Weps.esp
@@ -4066,7 +4066,7 @@ Closer To Fallout - True Threshold.esp
 Color Me Evil.esp
 Color Me Evil - Cass.esp
 Companions to Zion.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Couriers Stash - Package Selection Menu.esp
   SAY: Does not require all the Courier's Stash/Pre-order packs to work.
 Creatures Balance Overhaul.esp
@@ -4087,11 +4087,11 @@ Delay DLC - DM + HH + OWB.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm
   SAY: Old, update to Delay DLC - DM + HH + OWB + LR.esp
 Delay DLC - DM + HH + OWB + LR.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
+  IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 Delay DLC - Dead Money.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
 Delay DLC - Honest Hearts.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 Delay DLC - Old World Blues.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Delay DLC - Lonesome Road.esp
@@ -4139,7 +4139,7 @@ Head Mounted Flashlight.esp
   REQ: FlashlightNV-LOS.esp
 Health Balance 1_0.esp
 HonestHeartsCheats.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 FONV - Real Time Lockpicking and Hacking.esp
 fotn fix.esp
 FreakinLaserBeams_1_1.esp
@@ -4154,7 +4154,7 @@ BIS - Grenade Hotkey.esp
   TAG: {{BASH: Names}}
   REQ: New Vegas Script Extender and GrenadeHotkey.esp
 GrenadeHotkey - DeadMoney.esp
-  REQ: DeadMoney.esm and GrenadeHotkey.esp
+  IFNOT VAR(DM) REQ: DeadMoney.esm and GrenadeHotkey.esp
 Guaranteed Pick Pocket.esp
 GunCrosshairFollow.esp
 GunsIgnoreArmor.esp
@@ -4203,7 +4203,7 @@ lexx-no-dialog-tags-English.esp
 lexx-dm-no-dialog-tags-English.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
 lexx-hh-no-dialog-tags-english.esp
-  REQ: HonestHearts.esm
+  IFNOT VAR(HH) REQ: HonestHearts.esm
 lexx-owb-no-dialog-tags-english.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 lexx-lr-no-dialog-tags-english.esp
@@ -4276,7 +4276,7 @@ IFNOT FILE("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
 IFNOT FILE("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IFNOT FILE("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
-  REQ: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+  REQ: OldWorldBlues.esm Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IFNOT FILE("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
   REQ: Project Nevada - Core.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IFNOT FILE("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
@@ -4508,43 +4508,43 @@ BIS - WMX-ModernWeapons.esp
   REQ: BIS - Brumbek's Inventory Sorting.esp and WeaponModsExpanded.esp
 WMX-DeadMoney.esp
   TAG: {{BASH: Invent}}
-  REQ: DeadMoney.esm, WeaponModsExpanded.esp
+  REQ: DeadMoney.esm WeaponModsExpanded.esp
 BIS - WMX-DeadMoney.esp
-  REQ: DeadMoney.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
+  REQ: DeadMoney.esm BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 Hack Vending Machines - WMX.esp
-  REQ: DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
+  REQ: DeadMoney.esm WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 Real Weapon Names - WMX - Dead Money.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm, WeaponModsExpanded.esp, and WMX-DeadMoney.esp
+  REQ: DeadMoney.esm WeaponModsExpanded.esp, and WMX-DeadMoney.esp
 WMX-HonestHearts.esp
   TAG: {{BASH: Invent}}
-  REQ: HonestHearts.esm, WeaponModsExpanded.esp
+  REQ: HonestHearts.esm WeaponModsExpanded.esp
 BIS - WMX-HonestHearts.esp
-  REQ: HonestHearts.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-HonestHearts.esp
+  REQ: HonestHearts.esm BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-HonestHearts.esp
 WMX-OldWorldBlues.esp
   TAG: {{BASH: Invent}}
-  REQ: OldWorldBlues.esm, WeaponModsExpanded.esp
+  REQ: OldWorldBlues.esm WeaponModsExpanded.esp
 BIS - WMX-OldWorldBlues.esp
-  REQ: OldWorldBlues.esm, BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-OldWorldBlues.esp
+  REQ: OldWorldBlues.esm BIS - Brumbek's Inventory Sorting.esp, WeaponModsExpanded.esp, and WMX-OldWorldBlues.esp
 WMX-LonesomeRoad.esp
   TAG: {{BASH: Invent}}
-  REQ: LonesomeRoad.esm, WeaponModsExpanded.esp
+  REQ: LonesomeRoad.esm WeaponModsExpanded.esp
 WMX-GunRunnersArsenal.esp
   TAG: {{BASH: Invent, WeaponMods}}
-  REQ: GunRunnersArsenal.esm and WeaponModsExpanded.esp
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and WeaponModsExpanded.esp
 WMX-MW-GRA.esp
-  REQ: GunRunnersArsenal.esm and WMX-ModernWeapons.esp
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and WMX-ModernWeapons.esp
 Improved Sound FX - WMX - HH Sharing Fix.esp
-  REQ: HonestHearts.esm and WMX-HonestHearts.esp
+  IFNOT VAR(HH) REQ: HonestHearts.esm and WMX-HonestHearts.esp
 Improved Sound FX - WMX - OWB Sharing Fix.esp
-  REQ: OldWorldBlues.esm and WMX-OldWorldBlues.esp
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm and WMX-OldWorldBlues.esp
 Improved Sound FX - WMX - Merged Major DLCs.esp
   TAG: {{BASH: Sound}}
-  REQ: HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, WMX-OldWorldBlues.esp, WMX-LonesomeRoad.esp
+  REQ: HonestHearts.esm OldWorldBlues.esm, LonesomeRoad.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, WMX-OldWorldBlues.esp, WMX-LonesomeRoad.esp
   INC: Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - Merged Major DLCs.esp
 Improved Sound FX - WMX - GRA Sharing Fix.esp
   TAG: {{BASH: Sound}}
-  REQ: GunRunnersArsenal.esm, WeaponModsExpanded.esp, WMX-GunRunnersArsenal.esp, Improved Sound FX - WMX - Weapon Sharing Fix.esp
+  REQ: GunRunnersArsenal.esm WeaponModsExpanded.esp, WMX-GunRunnersArsenal.esp, Improved Sound FX - WMX - Weapon Sharing Fix.esp
 WMX-ArenovalisTextures.esp
   TAG: {{BASH: Graphics, NoMerge}}
   REQ: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
@@ -4667,22 +4667,22 @@ WMR_WME_R.esp
 nVamp - Weapon Mod Expansion.esp
   REQ: Weapon Mod Expansion.esm and Weapon Mod Expansion.esp
 WME - Dead Money.esp
-  REQ: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+  REQ: DeadMoney.esm Weapon Mod Expansion.esm, and WME - Dead Money.esm
 BIS - WME - Dead Money.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+  REQ: DeadMoney.esm Weapon Mod Expansion.esm, and WME - Dead Money.esm
 WME - FOOK - Dead Money.esp
   REQ: Weapon Mod Expansion.esm and DeadMoney.esm
   SAY: Outdated.
 WME - Honest Hearts.esp
-  REQ: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+  REQ: HonestHearts.esm Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 BIS - WME - Honest Hearts.esp
   TAG: {{BASH: Names}}
-  REQ: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+  REQ: HonestHearts.esm Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - Old World Blues.esp
-  REQ: OldWorldBlues.esm, Weapon Mod Expansion.esm, WME - Old World Blues.esm
+  REQ: OldWorldBlues.esm Weapon Mod Expansion.esm, WME - Old World Blues.esm
 WME - GRA Light.esp
-  REQ: GunRunnersArsenal.esm, Weapon Mod Expansion.esm, WME - GRA Light.esm
+  REQ: GunRunnersArsenal.esm Weapon Mod Expansion.esm, WME - GRA Light.esm
 WME - GRA - Weapon Integration.esp
 WME - GRA - Vendor Reform.esp
 WME - GRA - Unique Integration.esp
@@ -4697,23 +4697,23 @@ WME - DLCs Arenovalis.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Weapon Mod Expansion.esm, WME - DLCs.esm and Arenovalis' / Millenia's Weapon Re-textures.
   INC: WME - Dead Money.esp, WME - Honest Hearts.esp, WME - Old World Blues.esp, WME - DLCs.esp
 WME - Ironsights - HH.esp
-  REQ: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+  REQ: HonestHearts.esm Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - FOOK DLCs.esp
   REQ: DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, FOOK - New Vegas DLCs.esm, Weapon Mod Expansion.esm, WME - Dead Money.esm, and WME - Honest Hearts.esm
 WME - Arenovalis.esp
   REQ: Weapon Mod Expansion.esm and Arenovalis' / Millenia's Weapon Re-textures.
 WME - Dead Money Arenovalis Retex.esp
-  REQ: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+  REQ: DeadMoney.esm Weapon Mod Expansion.esm, and WME - Dead Money.esm
 BIS - WME - Dead Money Arenovalis Retex.esp
   TAG: {{BASH: Names}}
-  REQ: DeadMoney.esm, Weapon Mod Expansion.esm, and WME - Dead Money.esm
+  REQ: DeadMoney.esm Weapon Mod Expansion.esm, and WME - Dead Money.esm
 WME - Honest Hearts Arenovalis.esp
-  REQ: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+  REQ: HonestHearts.esm Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 BIS - WME - Honest Hearts Arenovalis Retex.esp
   TAG: {{BASH: Names}}
-  REQ: HonestHearts.esm, Weapon Mod Expansion.esm and WME - Honest Hearts.esm
+  REQ: HonestHearts.esm Weapon Mod Expansion.esm and WME - Honest Hearts.esm
 WME - GRA Light Arenovalis.esp
-  REQ: GunRunnersArsenal.esm, Weapon Mod Expansion.esm, WME - GRA Light.esm
+  REQ: GunRunnersArsenal.esm Weapon Mod Expansion.esm, WME - GRA Light.esm
 ENDGROUP: Weapon Mod Expansion or WME
 
 BEGINGROUP: Special Cases for WMX and/or WME support
@@ -4818,9 +4818,9 @@ Mail Order Catalogs XFO WME PopUp.esp
 WMVM-WMX.esp
   REQ: WMVM.esm and WeaponModsExpanded.esp
 WMVM-WMX-DM.esp
-  REQ: DeadMoney.esm, WMVM-DM.esp, WeaponModsExpanded.esp, WMX-DeadMoney.esp, and WMVM-WMX.esp
+  REQ: DeadMoney.esm WMVM-DM.esp, WeaponModsExpanded.esp, WMX-DeadMoney.esp, and WMVM-WMX.esp
 WMVM-WMX-HH.esp
-  REQ: HonestHearts.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, and WMVM-WMX.esp
+  REQ: HonestHearts.esm WeaponModsExpanded.esp, WMX-HonestHearts.esp, and WMVM-WMX.esp
 WMVM-WMX-MW.esp
   REQ: WeaponModsExpanded.esp, WMX-ModernWeapons.esp, and WMVM-WMX.esp
 WMVM-WMX-OWB.esp
@@ -4828,11 +4828,11 @@ WMVM-WMX-OWB.esp
 WMVM-WME.esp
   REQ: WNVM.esm and Weapon Mod Expansion.esm
 WMVM-WME-DM.esp
-  REQ: DeadMoney.esm, WME - Dead Money.esm, WMVM-DM.esp, and WMVM-WME.esp
+  REQ: DeadMoney.esm WME - Dead Money.esm, WMVM-DM.esp, and WMVM-WME.esp
 WMVM-WME-HH.esp
-  REQ: HonestHearts.esm, WME - Honest Hearts.esm, and WMVM-HH.esp
+  REQ: HonestHearts.esm WME - Honest Hearts.esm, and WMVM-HH.esp
 WMVM-WME-OWB.esp
-  REQ: OldWorldBlues.esm, WME - Old World Blues.esm, and WMVM-OWB.esp
+  REQ: OldWorldBlues.esm WME - Old World Blues.esm, and WMVM-OWB.esp
 GRA Overhaul.esp
   TAG: {{BASH: Names, Stats}}
   SAY: Choose only one of GRA Overhaul.esp and GRA Overhaul - EVE.esp and GRA Overhaul - WMX or WME.esp, not both
@@ -4964,7 +4964,7 @@ LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp
   SAY: Outdated and no longer to be used.
 Nevada Skies.esp
   TAG: {{BASH: C.Climate, C.Light}}
-  REQ: HonestHearts.esm if the Optional Honest Hearts .esp is installed.
+  IFNOT VAR(HH) REQ: HonestHearts.esm if the Optional Honest Hearts .esp is installed.
   INC: Nevada Skies - URWLified.esp, Nevada Skies - URWLHH.esp, LUMENARIUMandELECTROCITY - Nevada Skies Replacer.esp and LUMENARIUMandELECTROCITY - Nevada Skies 061 Replacer.esp
   DIRTY: Contains unnecessary landscape edits.
 Ambient Temperature - Nevada Skies.esp
@@ -5019,11 +5019,6 @@ Nights are Darker - Honest Hearts.esp
 Nights are Darker - Old World Blues.esp
 Nights are Darker - Lonesome Road.esp
 Nights are Darker - Ultimate Edition.esp
-Interior Lighting Overhaul.esp
-  TAG: {{BASH: C.Light}}
-  SAY: Outdated Version. Consider Updating.
-ILO - Fallout New Vegas.esp
-  TAG: {{BASH: C.Light}}
 Interior Lighting Overhaul-Realistic.esp
   TAG: {{BASH: C.Light}}
   SAY: Outdated. Consider Updating.
@@ -5037,18 +5032,39 @@ Interior Lighting Overhaul - Ultimate Edition.esp
 Interior Lighting Overhaul - Ultimate Edition - No Lucky38.esp
   TAG: {{BASH: C.Light}}
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Interior Lighting Overhaul - Core.esm
+Interior Lighting Overhaul.esp
+  TAG: {{BASH: C.Light}}
+  SAY: Outdated Version. Consider Updating.
+ILO - Fallout New Vegas.esp
+  TAG: {{BASH: C.Light}}
+ILO - Fallout New Vegas - No Lucky38.esp
+  TAG: {{BASH: C.Light}}
+  INC: ILO - Fallout New Vegas.esp
+ILO - GS Shack.esp
+  TAG: {{BASH: C.Light}}
 ILO-RI-Original Lucky38 Suite.esp
   TAG: {{BASH: C.Light}}
   REQ: Interior Lighting Overhaul-Realistic Interiors-Full.esp
+ILO - Dead Money.esp
+  TAG: {{BASH: C.Light}}
 ILO-RI-Dead Money.esp
   TAG: {{BASH: C.Light}}
   IFNOT VAR(DM) REQ: DeadMoney.esm
+ILO - Honest Hearts.esp
+  TAG: {{BASH: C.Light}}
+  REQ: Honest Hearts.esp
 ILO-RI-Honest Hearts.esp
   TAG: {{BASH: C.Light}}
   IFNOT VAR(HH) REQ: HonestHearts.esm
+ILO - Old World Blues.esp
+  TAG: {{BASH: C.Light}}
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 ILO-RI-Old World Blues.esp
   TAG: {{BASH: C.Light}}
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
+ILO - Lonesome Road.esp  
+  TAG: {{BASH: C.Light}}
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 ILO-RI-Lonesome Road.esp
   TAG: {{BASH: C.Light}}
   IFNOT VAR(LR) REQ: LonesomeRoad.esm
@@ -5171,7 +5187,7 @@ IF FILE("Nevada Skies.esp") MOD: CCO - GC PN Rebalance Patch.esp
 IF FILE("Nevada Skies.esp") MOD: CCO - CP PN Patch.esp
   REQ: Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IF FILE("Nevada Skies.esp") MOD: CCO - CP OWB PN Patch.esp
-  IFNOT VAR(PN-C) || IFNOT VAR(PN-R) || IFNOT VAR(OWB) || IFNOT FILE("CCO - Classic Perks.esm") || IFNOT VAR(PN-E) REQ: OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
+  IFNOT VAR(PN-C) || IFNOT VAR(PN-R) || IFNOT VAR(OWB) || IFNOT FILE("CCO - Classic Perks.esm") || IFNOT VAR(PN-E) REQ: OldWorldBlues.esm Project Nevada - Core.esm, Project Nevada - Equipment.esm, CCO - Classic Perks.esm, Project Nevada - Rebalance.esp
 IF FILE("Nevada Skies.esp") MOD: CCO - CP PN Rebalance Patch.esp
   IFNOT VAR(PN-C) || IFNOT VAR(PN-R) || IFNOT FILE("CCO - Classic Perks.esm") REQ: Project Nevada - Core.esm, CCO - Classic Perks.esm and Project Nevada - Rebalance.esp
 IF FILE("Nevada Skies.esp") MOD: BIS - Project Nevada - Rebalance.esp
