@@ -200,6 +200,7 @@ Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 GunSmith.esm
 HAM-Spawns.esm
+Interior Lighting Overhaul - Core.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
 Kaya47NF.esm
@@ -271,6 +272,7 @@ NVInteriors_ComboEdition_AWOP.esm
 MMUE-CP-NVInteriors.esp
   REQ: NVInteriors_ComboEdition.esm
 Interior Lighting Overhaul - Core.esm
+  TAG: {{BASH: C.Light}}
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 NVR-Strip.esm
