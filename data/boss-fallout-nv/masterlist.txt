@@ -268,6 +268,8 @@ NVInteriors_ComboEdition_AWOP.esm
   REQ: NVInteriors_Core.esm
   SAY: Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
   INC: NVInteriors_ComboEdition.esm
+MMUE-CP-NVInteriors.esp
+  REQ: NVInteriors_ComboEdition.esm
 Interior Lighting Overhaul - Core.esm
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
@@ -297,6 +299,8 @@ Sexout.esm
 SexoutCommonResources.esm
 SexoutSlavery.esm
 SexoutLegion.esm
+SexoutSlavery.esm
+SexoutStore.esm
 Sortomatic.esm
 SpeedyResources.esm
 SRDG.esm
@@ -307,6 +311,7 @@ Survivalist Bunker.esm
 TAC-SHOP.esm
 TalonPack.esm
 IFNOT VAR(NVAMP) MOD: Tales from the Burning Sands.esm
+The.Armory.esm
 Thermal Vision.esm
 IFNOT VAR(NVAMP) MOD: The Roost.esm
 TSC Vegas.esm
@@ -677,6 +682,18 @@ NVEC Extras.esp
 Performance Of The Gods.esp
 NVVariousFixes - Honest Hearts.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
+OWB Companion Teleport.esp
+  REQ: OldWorldBlues.esm
+OWB Moddable FIDO.esp
+  REQ: OldWorldBlues.esm
+OWB More Vendor Caps.esp
+  REQ: OldWorldBlues.esm
+OWB Stealth Field Suit.esp  
+  REQ: OldWorldBlues.esm
+OWB Valence Extra.esp
+  REQ: OldWorldBlues.esm 
+OWB Valence Mask.esp
+  REQ: OldWorldBlues.esm
 PackWeaponsFix.esp
 Primm_Rumor_Fix.esp
 RadioComputerPartsFix.esp
@@ -2064,6 +2081,11 @@ LouderGuns.esp
 Machienzo-RadioNewVegasFix.esp
 Machienzo-RadioNewVegasFixv11.esp
 NewVegasJazz_1.0.esp
+MojaveExtended20.esp
+MojaveExtended40.esp
+MojaveExtended60.esp
+MojaveExtended80.esp
+MojaveExtended100.esp
 PA Footsteps.esp
 R.A.C.E. Station.esp
 Radio Free Wasteland.esp
@@ -2274,6 +2296,7 @@ SturdyCaravanShotgunSurgeon.esp
 UnarmedAndMelee-PerkFix.esp
 Weathered10mmProfessional.esp
 WilderWasteland_SAC.esp
+Wild Wasteland Integration.esp
 WPO.esp
   REQ: DeadMoney.esm, HonestHearts.esm and OldWorldBlues.esm
 VG0PreorderAlternative.esp
@@ -3102,6 +3125,7 @@ silenced 9mmpistol.esp
 Six String Samurai Sword NV.esp
 SpookyJ's LngRng GRifle.esp
 SR-25.esp
+Steamer.esp
 Stalker Weapons Pack.esp
   SAY: Old, update to latest version.
 suitcase_nuke.esp
@@ -3637,6 +3661,7 @@ AWOP-PNRebalanceHPpatch.esp
 Caesars_Legion_Overhaul.esp
 CaliberX_Ammo_Update_1dot3.esp
 Fun with Karma NV.esp
+FleshBurningPlasma.esp
 Immersive Karma.esp
 Immersive Karma with NoStealingKarma.esp
 Improved_Karma.esp
@@ -3682,7 +3707,6 @@ Companion Module Pack.esp
   SAY: Consists of a number of Companion-Related mods. Be aware when installing.
   SAY: You will have to remove any mods that you have that are included in the pack to avoid issues.
 Companion Share & Recruit Companions.esp
-
 Cassidy0.4E.esp
 Veronica0.6E.esp
 1nivCorgiComp.esp
@@ -3747,6 +3771,7 @@ CCC - Save Cass.esp
 Dalls_Lily.esp
 DeanMoneyCompanionsDeEquipandRebalance.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
+desmond companion.esp
 drgNV - Marcus Companion.esp
 drgNV - Melissa Companion (Lings Hairstyle Add-On).esp
 drgNV - Melissa Companion (Recruitment Fix).esp
@@ -4997,6 +5022,8 @@ Nights are Darker - Ultimate Edition.esp
 Interior Lighting Overhaul.esp
   TAG: {{BASH: C.Light}}
   SAY: Outdated Version. Consider Updating.
+ILO - Fallout New Vegas.esp
+  TAG: {{BASH: C.Light}}
 Interior Lighting Overhaul-Realistic.esp
   TAG: {{BASH: C.Light}}
   SAY: Outdated. Consider Updating.
