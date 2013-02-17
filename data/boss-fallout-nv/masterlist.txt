@@ -674,6 +674,7 @@ NVEC Complete Lings Patch.esp
 NVEC LINGS PATCH - NO DLC.esp
   IFNOT FILE("Lings.esm") REQ: Lings.esm
 NVEC Extras.esp
+Performance Of The Gods.esp
 NVVariousFixes - Honest Hearts.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
 PackWeaponsFix.esp
@@ -2964,6 +2965,7 @@ FO3WeaponsRestoration.esp
 FO3WeaponsRestoration_SoundRestoration.esp
   REQ: FO3WeaponsRestoration.esp
   SAY: User needs to move wav files from fallout 3 sound.bsa to use.
+FuturisticAssaultRifle.esp
 Selective Fire - FO3 Weapons Restoration.esp
   REQ: Selective Fire.esm and FO3WeaponsRestoration.esp
 fownv - Sonic Screwdriver 1.0.esp
@@ -3029,6 +3031,7 @@ MachienzoDLC2Legion.esp
 MachienzoDLC2NCR.esp
 MachienzoDLC2PowderGanger.esp
 Masada S New Vegas.esp
+MEU(SOC) 1911.esp
 Minimissilelauncher.esp
 MiniNuke.esp
 MiniNukeSmall.esp
@@ -3064,6 +3067,7 @@ Omegared99-M2081.esp
 Orchids Custom Arsenal.esp
 OWB HQ Textures Fix.esp
   TAG: {{BASH: Graphics}}
+PancorJH.esp
 PB-AR1.esp
 PersonalHologram.esp
 Pew Pew Pew Pew Pew Pew.esp
