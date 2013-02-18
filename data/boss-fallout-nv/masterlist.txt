@@ -54,6 +54,11 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 // Upgrade message for 1.7+ users:
   IF VERSION("BOSS", "2.1.1.0", <) GLOBAL WARN: An update for BOSS (v2.1.1) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
 
+// BOSS Thread
+  GLOBAL SAY: "http://forums.bethsoft.com/topic/1313081-rel-boss-for-fallout-new-vegas/ Latest BOSS thread"
+
+// Recruitment
+  GLOBAL SAY: "We are currently having around 700 unrecogniced plugins in our database. If you wish to help us PM wrinklyninja at forums.bethsoft.com"
 
 BEGINGROUP: ESMs
 //------------
