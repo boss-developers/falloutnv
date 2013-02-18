@@ -2172,6 +2172,8 @@ NoMainStoryUltimatums.esp
 pnvnvbount1.esp
   REQ: NewVegasBounties.esp
 NewVegasBountiesII.esp
+NewVegasBountiesII Fixes - DLCs.esp
+  REQ: NewVegasBountiesII.esp
 NewVegasBountiesFSOPatch.esp
   REQ: FreesideOpen.esm
 outsidebets.esp
