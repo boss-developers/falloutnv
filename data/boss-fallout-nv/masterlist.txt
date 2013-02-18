@@ -50,6 +50,9 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("LonesomeRoad.esm") SET: LR 
   IF FILE("GunRunnersArsenal.esm") SET: GRA
   IF VAR(LR) && IF VAR(OWB) && IF VAR(HH) && IF VAR(DM) SET: DLC
+  
+// Unofficial Patch
+  IF FILE("Mission Mojave - Ultmate Edition.esp") SET: MM
 
 // Upgrade message for 1.7+ users:
   IF VERSION("BOSS", "2.1.1.0", <) GLOBAL WARN: An update for BOSS (v2.1.1) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
@@ -58,7 +61,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   GLOBAL SAY: "http://forums.bethsoft.com/topic/1313081-rel-boss-for-fallout-new-vegas/ Latest BOSS thread"
 
 // Recruitment
-  GLOBAL SAY: "We are currently having around 700 unrecogniced plugins in our database. If you wish to help us PM wrinklyninja at forums.bethsoft.com"
+  GLOBAL SAY: We are currently having around 700 unrecogniced plugins in our database. If you wish to help us PM wrinklyninja at forums.bethsoft.com
 
 BEGINGROUP: ESMs
 //------------
@@ -240,11 +243,15 @@ IFNOT VAR(NVAMP) MOD: More Perks for Old World Blues.esm
 IFNOT VAR(NVAMP) MOD: More Traits.esm
 IFNOT VAR(NVAMP) MOD: More Challenges.esm
 New Vegas Error Corrections Complete - NO DLC.esm
+  IF VAR(MM) INC: Mission Mojave - Ultimate Edition.esp
 New Vegas Error Corrections Complete - DLC + GRA.esm
 New Vegas Error Corrections Complete - DLC + GRA + NVCE + MM.esm
 New Vegas Error Corrections BugFixes - NO DLC.esm
+  IF VAR(MM) INC: Mission Mojave - Ultimate Edition.esp
 New Vegas Error Corrections BugFixes - DLC + GRA.esm
+  IF VAR(MM) INC: Mission Mojave - Ultimate Edition.esp
 New Vegas Error Corrections BugFixes - DLC + GRA + NVCE + MM.esm
+  IF VAR(MM) INC: Mission Mojave - Ultimate Edition.esp
 NVEC Complete.esm
 NVEC Complete + NVCE.esm
 NVEC BugFixes.esm
@@ -345,6 +352,7 @@ wsex.esm
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 Clean-Deluxe FNV.esm
+  INC: Performance of the Gods.esp
 aHUD.esm
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IFNOT VAR(NVAMP) MOD: iHUD.esm
@@ -515,19 +523,19 @@ MMUE - Deutsch.esp
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 Mission Mojave - Ultimate Edition Plus.esp
-  REQ: Mission Mojave - Ultimate Edition.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
 MMUE+.esp
-  REQ: Mission Mojave - Ultimate Edition.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
   SAY: Plugin is old. Please update it.
 MMUE POP.esp
-  REQ: Mission Mojave - Ultimate Edition.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-GRA-Standard.esp
-  REQ: Mission Mojave - Ultimate Edition.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-Tools-InvisibleWallRemover.esp
-  REQ: Mission Mojave - Ultimate Edition.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
   INC: IWR.esm
 MMUE-Tools-CoordinateGun.esp
-  REQ: Mission Mojave - Ultimate Edition.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-CP-Electrocity.esp
   REQ: ELECTRO-CITY - CompletedWorkorders.esm
 Community Bugfix Compilation Patch.esp
@@ -4740,9 +4748,9 @@ dD-Reduced Dismember Force - EVE.esp
 dD-Smaller Wounds - EVE.esp
   REQ: EVE FNV.esp
 MMUE-CP-EVE.esp
-  REQ: Mission Mojave - Ultimate Edition.esp, EVE FNV.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp, EVE FNV.esp
 MMUE-CP-WMX.esp
-  REQ: Mission Mojave - Ultimate Edition.esp, WeaponModsExpanded.esp
+  IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp, WeaponModsExpanded.esp
 WMEVE.esp
   REQ: Weapon Mod Expansion.esm, EVE FNV.esp
 EVE_WMX.esp
