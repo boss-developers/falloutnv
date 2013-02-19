@@ -281,8 +281,6 @@ NVInteriors_ComboEdition_AWOP.esm
   REQ: NVInteriors_Core.esm
   SAY: Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
   INC: NVInteriors_ComboEdition.esm
-MMUE-CP-NVInteriors.esp
-  REQ: NVInteriors_ComboEdition.esm
 Interior Lighting Overhaul - Core.esm
   TAG: {{BASH: C.Light}}
 NVR - Extra Actions Lib.esm
@@ -538,6 +536,8 @@ MMUE-Tools-CoordinateGun.esp
   IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
 MMUE-CP-Electrocity.esp
   REQ: ELECTRO-CITY - CompletedWorkorders.esm
+MMUE-CP-NVInteriors.esp
+  REQ: NVInteriors_ComboEdition.esm
 Community Bugfix Compilation Patch.esp
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
@@ -2172,6 +2172,7 @@ NoMainStoryUltimatums.esp
 pnvnvbount1.esp
   REQ: NewVegasBounties.esp
 NewVegasBountiesII.esp
+NewVegasBountiesII Fixes - DLCs.esp
 NewVegasBountiesII Fixes - DLCs.esp
   REQ: NewVegasBountiesII.esp
 NewVegasBountiesFSOPatch.esp
