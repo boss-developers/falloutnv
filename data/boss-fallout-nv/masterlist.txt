@@ -38,10 +38,11 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("nVamp - Core.esm") SET: NVAMP
   IF FILE("EVE FNV.esp") SET: EVE
   IF FILE("Weapon Mod Expansion.esm") SET: WME
-
   IF FILE("Project Nevada - Core.esm") SET: PN-C
   IF FILE("Project Nevada - Rebalance.esp") SET: PN-R
   IF FILE("Project Nevada - Equipment.esm") SET: PN-E
+  IF FILE("FOOK - New Vegas.esm") SET: FOOK
+  IF FILE("Mission Mojave - Ultmate Edition.esp") SET: MM
   
 // DLC variable setup.
   IF FILE("DeadMoney.esm") SET: DM
@@ -49,10 +50,15 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("OldWorldBlues.esm") SET: OWB
   IF FILE("LonesomeRoad.esm") SET: LR 
   IF FILE("GunRunnersArsenal.esm") SET: GRA
+  IF FILE("ClassicPack.esm") SET: CLP
+  IF FILE("MercenaryPack.esm") SET: MEP
+  IF FILE("TribalPack.esm") SET: TRP
+  IF FILE("CaravanPack.esm") SET: CAP
   IF VAR(LR) && IF VAR(OWB) && IF VAR(HH) && IF VAR(DM) SET: DLC
-  
-// Unofficial Patch
-  IF FILE("Mission Mojave - Ultmate Edition.esp") SET: MM
+  IF VAR(CLP) && IF VAR(MEP) && IF VAR(TRP) && IF VAR(CAP) SET: PACK
+  IF VAR(DLC) && IF VAR(PACK) SET: DLC-P
+  IF VAR(DLC) && IF VAR(GRA) SET: DLC-G
+  IF VAR(DLC-G) && IF VAR(PACK) SET: DLC-A
 
 // Upgrade message for 1.7+ users:
   IF VERSION("BOSS", "2.1.1.0", <) GLOBAL WARN: An update for BOSS (v2.1.1) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
@@ -162,7 +168,7 @@ IFNOT VAR(NVAMP) MOD: CaliberXgunrunners.esm
   TAG: {{BASH: Names}}
 IFNOT VAR(NVAMP) MOD: CFWNV.esm
 IFNOT VAR(NVAMP) MOD: CFWNV-DLC.esm
-  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm, HonestHearts.esm
 CHEMS.esm
 IFNOT VAR(NVAMP) MOD: CINEMATECH.esm
   REQ: New Vegas Script Extender and The Mod Configuration Menu for Version 1.5+
@@ -201,7 +207,7 @@ FreesideOpen.esm
 IFNOT VAR(NVAMP) MOD: FOOK - New Vegas.esm
   TAG: {{BASH: Deflst, Delev, Graphics, Names, Relev, Sound, Stats, Scripts}}
 IFNOT VAR(NVAMP) MOD: FOOK - New Vegas DLCs.esm
-  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm, HonestHearts.esm
 Frequency.esm
 Frys_Freehold.esm
 Ghouls Attack Test.esm
@@ -515,11 +521,11 @@ MM-Coordinate-Gun.esp
 Mission Mojave - Ultimate Edition.esp
   TAG: {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+  IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 MMUE - Deutsch.esp
   TAG: {{BASH: Actors.AIPackages, NoMerge, Sound, Stats, Scripts}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+  IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 Mission Mojave - Ultimate Edition Plus.esp
   IFNOT VAR(MM) REQ: Mission Mojave - Ultimate Edition.esp
 MMUE+.esp
@@ -538,6 +544,10 @@ MMUE-CP-Electrocity.esp
   REQ: ELECTRO-CITY - CompletedWorkorders.esm
 MMUE-CP-NVInteriors.esp
   REQ: NVInteriors_ComboEdition.esm
+MMUE-CP-rePopulated.esp
+  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, rePopulated Wasteland.esm
+MMUE-CP-New Vegas Redesigned.esp
+  REQ: New Vegas Redesigned II.esm, Mission Mojave - Ultimate Edition.esp
 Community Bugfix Compilation Patch.esp
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
   INC: Compiled Patch.esp, Compiled Patch All_DLCs.esp, Mission Mojave - Ultimate Edition.esp
@@ -562,7 +572,7 @@ Compiled Patch - LonesomeRoad.esp
 Compiled Patch - Gunrunners Arsenal.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 Compiled Patch All_DLCs.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+  IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
   INC: Compiled Patch.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
 26_fixes.esp
@@ -664,7 +674,7 @@ NV Error Fixes Merged 1.1.esp
 NV Error Corrections FNV.esp
   SAY: Old, update to latest version 1.7+.
 NV Error Corrections FNV - FOOK Patch.esp
-  REQ: FOOK - New Vegas.esm
+  IFNOT VAR(FOOK) REQ: FOOK - New Vegas.esm
   SAY: Old, update to latest version 1.7+.
 NV Error Corrections Merged.esp
   IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
@@ -676,21 +686,21 @@ New Vegas Error Corrections - NO DLC.esp
 New Vegas Error Corrections - DLC.esp
   IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 New Vegas Error Corrections - DLC + GRA.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+  IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 New Vegas Error Corrections - GRA ONLY.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 NVEC Enhancements.esp
 NVEC Reduce CTD.esp
 NVEC Complete FOOK Patch.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, FOOK - New Vegas.esm
+  IFNOT VAR(DLC-G) || IFNOT VAR(FOOK) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, FOOK - New Vegas.esm
 NVEC FOOK PATCH - DLC.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, FOOK - New Vegas.esm
 NVEC FOOK PATCH - NO DLC.esp
-  REQ: FOOK - New Vegas.esm
+  IFNOT VAR(FOOK) REQ: FOOK - New Vegas.esm
 NVEC LINGS PATCH - DLC.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Lings.esm
+  IFNOT VAR(DLC-G) || IFNOT FILE("Lings.esm") REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Lings.esm
 NVEC Complete Lings Patch.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Lings.esm
+  IFNOT VAR(DLC) || IFNOT FILE("Lings.esm") REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Lings.esm
 NVEC LINGS PATCH - NO DLC.esp
   IFNOT FILE("Lings.esm") REQ: Lings.esm
 NVEC Extras.esp
@@ -1542,14 +1552,14 @@ FOOK GRA Ammo Hotfix.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 BIS - FOOK - New Vegas.esp
   TAG: {{BASH: Names}}
-  REQ: FOOK - New Vegas.esm
+  IFNOT VAR(FOOK) REQ: FOOK - New Vegas.esm
 BIS - FOOK - New Vegas DLCs.esp
   TAG: {{BASH: Names}}
   REQ: DeadMoney.esm, HonestHearts.esm, FOOK - New Vegas.esm, and FOOK - New Vegas DLCs.esm
 FOOK - Lings.esp
 FOOK - JSawyer.esp
 Selective Fire - FOOK NV.esp
-  REQ: FOOK - New Vegas.esm
+  IFNOT VAR(FOOK) REQ: FOOK - New Vegas.esm
 CFWNV-FOOK.esp
 CFW-FOOK-DLC.esp
 ammo can fix.esp
@@ -2027,6 +2037,14 @@ Project Nevada - Gun Runners' Arsenal.esp
 Project Nevada - Gun Runners' Arsenal (Rebalance).esp
   REQ: GunRunnersArsenal.esm Project Nevada - Core.esm
 Project Nevada - Extra Options.esp
+MMUE-CP-PNCore.esp
+  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Project Nevada - Core.esm
+MMUE-CP-PNRebalance.esp
+  REQ: DeadMoney.esm OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Rebalance.esp, Mission Mojave - Ultimate Edition.esp
+MMUE-CP-PNEquipment.esp
+  IFNOT VAR(DLC-G) || IFNOT VAR (MM) || IFNOT VAR(PN-E) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Project Nevada - Equipment.esp, Mission Mojave - Ultimate Edition.esp
+MMUE-CP-PNOWB.esp
+  REQ: OldWorldBlues.esm Mission Mojave - Ultimate Edition.esp, Project Nevada - Old World Blues.esp
 Selective Fire - Project Nevada.esp
   REQ: Selective Fire.esm and Project Nevada - Core.esm
 OWB Big Empty Overhaul.esp
@@ -3690,18 +3708,6 @@ LogicalReputationShifts.esp
 PrimmReputation.esp
 Mercy Killing Karma.esp
 Mercy Killing Karma v2.0.esp
-MMUE-CP-PNCore.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Project Nevada - Core.esm
-MMUE-CP-PNRebalance.esp
-  REQ: DeadMoney.esm OldWorldBlues.esm, Project Nevada - Core.esm, Project Nevada - Rebalance.esp, Mission Mojave - Ultimate Edition.esp
-MMUE-CP-PNEquipment.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Project Nevada - Equipment.esp, Mission Mojace - Ultimate Edition.esp
-MMUE-CP-PNOWB.esp
-  REQ: OldWorldBlues.esm Mission Mojave - Ultimate Edition.esp, Project Nevada - Old World Blues.esp
-MMUE-CP-rePopulated.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, rePopulated Wasteland.esm
-MMUE-CP-New Vegas Redesigned.esp
-  REQ: New Vegas Redesigned II.esm, Mission Mojave - Ultimate Edition.esp
 nokarmalossforstealing.esp
 nv_hats_repair.esp
 nv_hats_repair_morehealth.esp
@@ -4100,7 +4106,7 @@ dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
 Delay DLC - DM + HH + OWB + LR + GRA.esp
-  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+  IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 Delay DLC - DM + HH + OWB.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm
   SAY: Old, update to Delay DLC - DM + HH + OWB + LR.esp
