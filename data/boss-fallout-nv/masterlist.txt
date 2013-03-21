@@ -300,6 +300,7 @@ IFNOT VAR(NVAMP) MOD: Project Nevada - Core.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
+IFNOT VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
 ReactivePeople.esm
 rePopulated Wasteland.esm
 RH_IRONSIGHTS_NV.esm
@@ -456,6 +457,7 @@ IF VAR(NVAMP) MOD: MoMod.esm
 IF VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
+IF VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
 IF VAR(NVAMP) MOD: CFWNV-DLC.esm
   IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
 IF VAR(NVAMP) MOD: WME - Dead Money.esm
@@ -2037,6 +2039,12 @@ Project Nevada - Gun Runners' Arsenal.esp
 Project Nevada - Gun Runners' Arsenal (Rebalance).esp
   REQ: GunRunnersArsenal.esm Project Nevada - Core.esm
 Project Nevada - Extra Options.esp
+Project Nevada - Cyberware Additions.esp
+Project Nevada - Rebalance Complete.esp
+Project Nevada - All DLC.esp
+IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+MMUE-CP-PNALLDLC.esp
+  REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esp, Mission Mojave - Ultimate Edition.esp
 MMUE-CP-PNCore.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Project Nevada - Core.esm
 MMUE-CP-PNRebalance.esp
@@ -4450,7 +4458,10 @@ BEGINGROUP: Weapon Mods Expanded or WMX
 //-----------
 WeaponModsExpanded.esp
   TAG: {{BASH: Invent, Delev, WeaponMods}}
-  INC: RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, AND Weapon Mod Expansion.esp
+  INC: RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, Weapon Mod Expansion.esp
+WMXUE.esp
+  TAG: {{BASH: Invent, Delev, WeaponMods}}
+  INC: RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, Weapon Mod Expansion.esp, WeaponModsExpanded.esp
 WMX - Sorted.esp
   SAY: Merged into the main mod; No longer required.
 WMXArenovalisRiotShottieCompat.esp
@@ -4490,7 +4501,10 @@ WMX-Arwen_NV_Realism.esp
   INC: WMX-ShotgunCommando.esp
 Project Nevada - WMX.esp
   TAG: {{BASH: Graphics, Invent, Names, WeaponMods}}
-  REQ: WeaponModsExpanded.esp and Project Neavda - Core.esm and Project Nevada - Equipment.esm
+  REQ: WeaponModsExpanded.esp, Project Neavda - Core.esm, Project Nevada - Equipment.esm
+WMXUE-PN.esp
+  TAG: {{BASH: Graphics, Invent, Names, WeaponMods}}
+  REQ: WMXUE.esp, Project Neavda - Core.esm, Project Nevada - Equipment.esm
 Frequency - PN+WMX Patch.esp
   TAG: {{BASH: Graphics}}
   REQ: Frequency.esm, Project Nevada - Equipment.esm, WeaponModsExpanded.esp, Project Nevada - WMX.esp, Frequency - Project Nevada Patch.esp, Frequency - WMX Patch.esp
