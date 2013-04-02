@@ -74,11 +74,21 @@ BEGINGROUP: ESMs
 FalloutNV.esm
 DeadMoney.esm
   TAG: {{BASH: Deflst}}
-ACES - Casino Data Extension.esm
+  IF CHECKSUM("DeadMoney.esm", D70F165B) DIRTY: 403 ITM, 51 UDR
+  SAY: Needs "http://skyrim.nexusmods.com/mods/25859 TES5Edit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 HonestHearts.esm
+  IF CHECKSUM("HonestHearts.esm", 2352B189) DIRTY: 121 ITM, 10 UDR
+  SAY: Needs "http://skyrim.nexusmods.com/mods/25859 TES5Edit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 OldWorldBlues.esm
+  IF CHECKSUM("OldWorldBlues.esm", 7F8F8225) DIRTY: 124 ITM, 0 UDR
+  SAY: Needs "http://skyrim.nexusmods.com/mods/25859 TES5Edit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 LonesomeRoad.esm
+  IF CHECKSUM("LonesomeRoad.esm", 30073D50) DIRTY: 240 ITM, 6 UDR
+  SAY: Needs "http://skyrim.nexusmods.com/mods/25859 TES5Edit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 GunRunnersArsenal.esm
+  IF CHECKSUM("GunRunnersArsenal.esm", AAC938D) DIRTY: 97 ITM, 0 UDR
+  SAY: Needs "http://skyrim.nexusmods.com/mods/25859 TES5Edit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
+ACES - Casino Data Extension.esm
 Community Bugfix Compilation Patch.esm
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
