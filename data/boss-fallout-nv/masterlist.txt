@@ -36,7 +36,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 // Masterlist variable setup for BOSS v1.7+.
   IF FILE("NVSE") SET: NVSE
   IF FILE("nVamp - Core.esm") SET: NVAMP
-  IF FILE("EVE FNV.esp") SET: EVE
+  IF FILE("EVE FNV.esp") || IF FILE("EVE FNV - ALL DLC.esp") SET: EVE
   IF FILE("Weapon Mod Expansion.esm") SET: WME
   IF FILE("Project Nevada - Core.esm") SET: PN-C
   IF FILE("Project Nevada - Rebalance.esp") SET: PN-R
@@ -222,6 +222,7 @@ HAM-Spawns.esm
 Interior Lighting Overhaul - Core.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
+JIP Selective-Fire.esm
 Kaya47NF.esm
 LDFemalePowerArmorPack.esm
   INC: LDFemalePowerArmorPack.esp
@@ -4611,6 +4612,8 @@ ScientistPackWMX.esp
   SAY: Choose only one of ScientistPack.esp and ScientistPackWMX.esp, not both
 Mo'Guns_WMX.esp
 AWOP-BOE-WMX.esp
+WMX-EVE-AllDLC.esp
+  REQ: EVE FNV - ALL DLC.esp
 ENDGROUP: Weapon Mods Expanded or WMX
 
 BEGINGROUP: Weapon Mod Expansion or WME
@@ -4766,6 +4769,10 @@ EVE FNV.esp
 EVE FNV-[GRA Patch for EVE 1.3].esp
   REQ: EVE FNV.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
+EVE FNV - ALL DLC.esp
+  TAG: {{BASH: Graphics, Sound}}
+Project Nevada - EVE All DLC.esp
+  REQ: EVE FNV - ALL DLC.esp
 Improved Sound FX - EVE.esp
   REQ: EVE FNV.esp
   TAG: {{BASH: Sound}}
