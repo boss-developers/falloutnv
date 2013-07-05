@@ -43,12 +43,12 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("Project Nevada - Equipment.esm") SET: PN-E
   IF FILE("FOOK - New Vegas.esm") SET: FOOK
   IF FILE("Mission Mojave - Ultmate Edition.esp") SET: MM
-  
+
 // DLC variable setup.
   IF FILE("DeadMoney.esm") SET: DM
   IF FILE("HonestHearts.esm") SET: HH
   IF FILE("OldWorldBlues.esm") SET: OWB
-  IF FILE("LonesomeRoad.esm") SET: LR 
+  IF FILE("LonesomeRoad.esm") SET: LR
   IF FILE("GunRunnersArsenal.esm") SET: GRA
   IF FILE("ClassicPack.esm") SET: CLP
   IF FILE("MercenaryPack.esm") SET: MEP
@@ -190,7 +190,7 @@ Decrucifixion.esm
 Detect Traps.esm
 Docs Sexy Nurse.esm
 domecity.esm
-domecity_Kaz_plugin.esm 
+domecity_Kaz_plugin.esm
 drgNV - Melissa Companion.esm
 DXEAmigoCafeNV.esm
 EnergyShield.esm
@@ -720,10 +720,10 @@ OWB Moddable FIDO.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 OWB More Vendor Caps.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
-OWB Stealth Field Suit.esp  
+OWB Stealth Field Suit.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 OWB Valence Extra.esp
-  IFNOT VAR(OWB) REQ: OldWorldBlues.esm 
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 OWB Valence Mask.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 PackWeaponsFix.esp
@@ -5113,7 +5113,7 @@ ILO - Old World Blues.esp
 ILO-RI-Old World Blues.esp
   TAG: {{BASH: C.Light}}
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
-ILO - Lonesome Road.esp  
+ILO - Lonesome Road.esp
   TAG: {{BASH: C.Light}}
   IFNOT VAR(LR) REQ: LonesomeRoad.esm
 ILO-RI-Lonesome Road.esp
