@@ -43,6 +43,8 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("Project Nevada - Equipment.esm") SET: PN-E
   IF FILE("FOOK - New Vegas.esm") SET: FOOK
   IF FILE("Mission Mojave - Ultmate Edition.esp") SET: MM
+  IF FILE("TaleOfTwoWastelands.esm") SET: TTW
+  IF VAR(TTW) && IFNOT CHECKSUM("TaleOfTwoWastelands.esm", 8104A5CA) SET: TTW-WARN
 
 // DLC variable setup.
   IF FILE("DeadMoney.esm") SET: DM
@@ -83,6 +85,15 @@ LonesomeRoad.esm
   IF CHECKSUM("LonesomeRoad.esm", 30073D50) DIRTY: 240 ITM, 6 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 GunRunnersArsenal.esm
   IF CHECKSUM("GunRunnersArsenal.esm", AAC938D) DIRTY: 97 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
+Fallout3.esm
+Anchorage.esm
+ThePitt.esm
+BrokenSteel.esm
+PointLookout.esm
+Zeta.esm
+TaleOfTwoWastelands.esm
+  IF VAR(TTW-WARN) WARN: Need check for Tale of Two Wastelands load order
+  IF VAR(TTW-WARN) GLOBAL WARN: Need check for Tale of Two Wastelands load order
 ACES - Casino Data Extension.esm
 Community Bugfix Compilation Patch.esm
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
@@ -510,6 +521,11 @@ ENDGROUP: ESMs
 
 BEGINGROUP: Earliest
 //-----------
+TTW_StashPackOptions.esp
+TTW_NoKarmaDCFollowers.esp
+TTW_Bobbleheads.esp
+TTW_MoreCookingItems.esp
+TTW_XPReduction.esp
 {FalloutNV v1.2.0.285 [Unpatched Records]}.esp
 FalloutNV_lang.esp
   SAY: Translation file.
@@ -4135,6 +4151,8 @@ Delay DLC - Old World Blues.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 Delay DLC - Lonesome Road.esp
   IFNOT VAR(LR) REQ: LonesomeRoad.esm
+Delay DLC - TTW.esp
+  IFNOT VAR(TTW) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Anchorage.esm, ThePitt.esm, BrokenSteel.esm, PointLookout.esm, Zeta.esm 
 DM-NoLvlMsg.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
 Dead Money - Automatic Rifle fix.esp
