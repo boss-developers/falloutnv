@@ -221,6 +221,7 @@ FalloutNV_Camera_Control.esm
 Fiends, With Style.esm
   TAG: {{BASH: Delev}}
 FONVAMoreSpawns.esm
+FNVChristmasSpecial.esm
 FPT EDE Lings Lisbet Brunette.esm
 FreesideOpen.esm
 IFNOT VAR(NVAMP) MOD: FOOK - New Vegas.esm
@@ -322,6 +323,7 @@ IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
+ProjectBrazil.esm
 ReactivePeople.esm
 rePopulated Wasteland.esm
 RH_IRONSIGHTS_NV.esm
@@ -348,6 +350,7 @@ Stalker Weapons Pack.esm
 SunnyCompanion.esm
   SAY: Outdated. Consider Updating.
 Survivalist Bunker.esm
+T6M Equipment Replacer NV.esm
 TAC-SHOP.esm
 TalonPack.esm
 IFNOT VAR(NVAMP) MOD: Tales from the Burning Sands.esm
@@ -2066,6 +2069,9 @@ Project Nevada - Extra Options.esp
 Project Nevada - Cyberware Additions.esp
 Project Nevada - Rebalance Complete.esp
 Project Nevada - All DLC.esp
+Project Brazil NV Courier Stash Control.esp
+Project Brazil NV DLC Control.esp
+Project Brazil Project Nevada Patch.esp
 IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 MMUE-CP-PNALLDLC.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esp, Mission Mojave - Ultimate Edition.esp
@@ -3143,6 +3149,7 @@ MoraelinsSilentGunsMod.esp
 More Mini-Nukes.esp
 Mossberg.esp
 Mossberg590.esp
+MRRadioactivs Griss Vector.esp
 Murdelizer.esp
 NekhCFinderFix.esp
 NepaleseKukri.esp
@@ -3586,6 +3593,8 @@ T3Belts_BootsNV2.esp
 T51b-Manual.esp
 t51bsnow.esp
 T6M Equipment Replacer NV.esp
+T6M Lingerie NV.esp
+Type 6.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 Tactical Combat Gear.esp
@@ -5017,6 +5026,14 @@ Emperical Weather.esp
 Fellout.esp
   INC: Will conflict with any other mod that changes weather, image space, and image space modifiers.
 Fellout-OWB.esp
+fnvrwlo - original.esp
+  SAY: Use only one FNV Realistic Wasteland Lighting
+fnvrwlo - brighter nights.esp
+  SAY: Use only one FNV Realistic Wasteland Lighting
+fnvrwl FNV only - brighter nights.esp
+  SAY: Use only one FNV Realistic Wasteland Lighting
+fnvrwl FNV only.esp
+  SAY: Use only one FNV Realistic Wasteland Lighting
 friendofnightforfellout.esp
   SAY: Recommended for use with Fellout.esp
 night_and_day.esp
@@ -5389,6 +5406,7 @@ BEGINGROUP: Hair
 //-----------
 bald.esp
 MediumBeard.esp
+MojaveDelight.esp
 Receding Hairstyle.esp
 Rikai'sHairPack.esp
 SideburnsBeardFlare.esp
