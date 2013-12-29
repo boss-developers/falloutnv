@@ -3342,6 +3342,8 @@ Dark Justice Duster.esp
 Dark Mercenary Gear.esp
 Dark Temptress.esp
 DarkStalker Outfit.esp
+Daughters of Ares.esp
+Daughters of Ares - CouriersStash.esp
 DeadMoneyFemaleTuxedo.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm and Type 3 Body Replacer.
 DeepEyesNV.esp
@@ -3643,6 +3645,7 @@ Body by Race.esp
 headgearfix.esp
 LingsPrettyThings.esp
   TAG: {{BASH: Eyes, Hair, Invent, Names, NPC.Class, NPC.Race, NpcFaces, R.Attributes-F, R.Attributes-M, R.Description, R.Head, R.Mouth, R.Teeth, Voice-F}}
+Daughters of Ares - Lings Patch.esp  
 Machienzo - NPC Cosmetic Fixes DLC01.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Old, update to NVCE.
