@@ -41,6 +41,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF FILE("Project Nevada - Core.esm") SET: PN-C
   IF FILE("Project Nevada - Rebalance.esp") SET: PN-R
   IF FILE("Project Nevada - Equipment.esm") SET: PN-E
+  IF FILE("ProjectBrazil.esm") SET: PRJB
   IF FILE("FOOK - New Vegas.esm") SET: FOOK
   IF FILE("Mission Mojave - Ultmate Edition.esp") SET: MM
   IF FILE("TaleOfTwoWastelands.esm") SET: TTW
