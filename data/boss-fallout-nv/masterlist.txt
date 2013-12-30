@@ -2628,6 +2628,7 @@ More Weight.esp
   INC: Less Weight.esp
 More or Less Mess NV.esp
 More Reduced FX Dust Particles.esp
+MTB.esp
 NoFastTravel_NV.esp
 No Clutter Junk in Loot Containers.esp
 No Litter.esp
@@ -3589,6 +3590,7 @@ Starke's Seperate Chinese Stealth Armor Helmet NV (OA Version).esp
 StealthSuitHelm_NV.esp
 Sunglasses Shipment.esp
 Sunglasses Shipment - Four Eyes.esp
+Sunglasses Shipment - Merchant.esp
 t3bbarmor.esp
 T3BBN Armor Replacer.esp
 T3Belts_BootsNV.esp
@@ -3598,6 +3600,7 @@ t51bsnow.esp
 T6M Equipment Replacer NV.esp
 T6M Lingerie NV.esp
 Type 6.esp
+T6M Wonder Woman.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 Tactical Combat Gear.esp
