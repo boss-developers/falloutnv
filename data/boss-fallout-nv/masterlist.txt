@@ -231,6 +231,7 @@ IFNOT VAR(NVAMP) MOD: FOOK - New Vegas DLCs.esm
   IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm, HonestHearts.esm
 Frequency.esm
 Frys_Freehold.esm
+GaussAmmo.esm
 Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 GunSmith.esm
@@ -717,6 +718,7 @@ New Vegas Error Corrections - DLC.esp
   IFNOT VAR(DLC) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm
 New Vegas Error Corrections - DLC + GRA.esp
   IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
+New Vegas Error Corrections - DLC - GRS.esp
 New Vegas Error Corrections - GRA ONLY.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 NVEC Enhancements.esp
@@ -954,6 +956,11 @@ HUD Extended - Ambient Temperature.esp
 IWR - Rebuilt.esp
   REQ: IWR.esm
 LessIntrusiveKillCam.esp
+ImplantGRX-ActivatorHotkey.esp
+  SAY: Use only one Implant GRX Activator
+ImplantGRX-NVSEHotkey.esp
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
+  SAY: Use only one Implant GRX Activator
 IntegratedFullDLC.esp
 LMDExpandedHotkeys.esp
 MojaveLoadingScreens.esp
@@ -1394,6 +1401,8 @@ PSSignRemoval.esp
 ranger substation kestral.esp
 RedRockRanch.esp
 RustTownV1-1.esp
+RustTownAdditions3.esp
+  TAG: {{BASH: Names, Invent, Factions}}
 s7oMolesWell.esp
 SadiesSundries.esp
 Scavengers Hideaway.esp
@@ -2365,6 +2374,7 @@ SnowGlobePerks.esp
 SnowGlobePerks_SkillsOnly.esp
 Supercharged Traits - Perks.esp
 skeleton_key.esp
+SkilledAndGifted.esp
 SPECIAL_Fixes.esp
 StealthTechnician.esp
 SturdyCaravanShotgunSurgeon.esp
@@ -2665,6 +2675,7 @@ Realistic Preorder-Tribal.esp
 Realistic Wildlife.esp
 ReducedUndiscoveredCompass.esp
 Respawning Containers.esp
+RustTownV1Master.esm
 Rustyhwys.esp
 RZW_VideoCollection01.esp
   REQ: RZW_Television.esm
@@ -2880,6 +2891,7 @@ Advanced Recon Tech.esp
 Advanced Recon Tech - Detect Traps.esp
 Advanced Recon Tech - FOOK.esp
 Advanced Recon Gear-Locations Doc Mitchell.esp
+ae86seiryuu.esp
 AEVegas.esp
   SAY: Outdated. Consider Updating.
 AEVegas_101_items.esp
@@ -3004,8 +3016,10 @@ GRA WRP Compatibility Patch.esp
   TAG: {{BASH: Graphics}}
 Classic energy weapons.esp
 Classic M72 Gauss Rifle.esp
+Classic MEC Gauss Minigun.esp
 Classic Plasma Grenade.esp
   TAG: {{BASH: Graphics}}
+Classic PPK12 Gauss Pistol.esp  
 Classic Pulse Grenade (classic sound).esp
   TAG: {{BASH: Graphics, Sounds}}
 Classic Pulse Grenade (vanilla sound).esp
@@ -3995,6 +4009,8 @@ BIS - T3T_MiscItemIconsNV 0.7.esp
 BIS - MiscItemIconsNV 0.9.esp
   TAG: {{BASH: Names}}
   REQ: T3T_MiscItemIconsNV.esp
+repairkitsexpanded.esp
+  TAG: {{BASH: Names}}
 ShilohDS-Color Maps and Icons.esp
 Sorter - Combined.esp
   TAG: {{BASH: Names}}
