@@ -3014,6 +3014,12 @@ christinecos.esp
   TAG: {{BASH: Graphics}}
 GRA WRP Compatibility Patch.esp
   TAG: {{BASH: Graphics}}
+CFW-DM.esp
+CFW-HH.esp
+CFW-OWB.esp
+CFW-LR.esp
+CFW-GRA.esp
+CFW-DLC.esp 
 Classic energy weapons.esp
 Classic M72 Gauss Rifle.esp
 Classic MEC Gauss Minigun.esp
