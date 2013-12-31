@@ -175,6 +175,7 @@ AccuRifles.esm
 Advanced Recon Tech.esm
 Afterschool Special.esm
 Alice Armor.esm
+Badlands.esm
 BinocularsOverhaul.esm
 IFNOT VAR(NVAMP) MOD: BoulderCityFaceliftProject.esm
 CALIBR.esm
@@ -207,6 +208,7 @@ Docs Sexy Nurse.esm
 domecity.esm
 domecity_Kaz_plugin.esm
 drgNV - Melissa Companion.esm
+DWCNV.esm
 DXEAmigoCafeNV.esm
 EnergyShield.esm
 Eve.esm
@@ -311,6 +313,9 @@ NVInteriors_ComboEdition_AWOP.esm
   REQ: NVInteriors_Core.esm
   SAY: Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
   INC: NVInteriors_ComboEdition.esm
+NVInteriors_Urban_Edition.esm
+  REQ: NVInteriors_Core.esm
+NVInteriors_Urban_Edition_AWOP.esm
 Interior Lighting Overhaul - Core.esm
   TAG: {{BASH: C.Light}}
 NVR - Extra Actions Lib.esm
@@ -326,6 +331,8 @@ IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
 ProjectBrazil.esm
+Psiclones.esm
+  TAG: {{BASH: Names}}
 ReactivePeople.esm
 rePopulated Wasteland.esm
 RH_IRONSIGHTS_NV.esm
@@ -363,6 +370,10 @@ TSC Vegas.esm
 VMods - Master.esm
 War Never Changes.esm
 WARZONES - Misanthropy Pure.esm
+WARZONES Respawner.esp
+  TAG: {{BASH: Actors.ACBS, Actors.AIPackages}}
+WARZONES RespawnerLITE.esp
+  TAG: {{BASH: Actors.ACBS, Actors.AIPackages}}
 IFNOT VAR(NVAMP) MOD: Weapon Mod Expansion.esm
   TAG: {{BASH: Names}}
 IFNOT VAR(NVAMP) MOD: WME - Dead Money.esm
@@ -729,7 +740,11 @@ NVEC FOOK PATCH - DLC.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, FOOK - New Vegas.esm
 NVEC FOOK PATCH - NO DLC.esp
   IFNOT VAR(FOOK) REQ: FOOK - New Vegas.esm
+NVEC FOOK Patch - DLC + GRA.esp
+  IFNOT VAR(DLC-G) || IFNOT VAR(FOOK) REQ: FOOK - New Vegas.esm, DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 NVEC LINGS PATCH - DLC.esp
+  IFNOT VAR(DLC-G) || IFNOT FILE("Lings.esm") REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Lings.esm
+NVEC LINGS PATCH - DLC + GRA.esp
   IFNOT VAR(DLC-G) || IFNOT FILE("Lings.esm") REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Lings.esm
 NVEC Complete Lings Patch.esp
   IFNOT VAR(DLC) || IFNOT FILE("Lings.esm") REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Lings.esm
@@ -1383,6 +1398,8 @@ NV Interiors - Cottonwood Cove.esp
 NVInteriors_WastelandEditon.esp
   SAY: Old, update to NVInteriors_WastelandEditon.esm
 NVInteriors_Combo_AWOP_Tweaks_DLC.esp
+NVInteriors_Urban_Edition_v1.0.esp
+  SAY: Old, update to NVInteriors_Urban_Edition.esm
 OWNB - Red Canyon Overhaul.esp
   REQ: OWNB - Open World.esm
 Portable Tent.esp
@@ -2032,12 +2049,16 @@ Hardened-MoMod.esp
 Hardened-AWOP-MoMod.esp
 Hardened-AWOP-MonsterPatch.esp
 Hardened-AWOP.esp
+// MoMod for FNV not available can't load into FNVEdit
+MoMod-NightSpawn-HarderThan.esp
+  REQ: MoMod.esm, HarderThan.esp
 BIS - Project Nevada - Core.esp
   TAG: {{BASH: Names}}
   IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 BIS - Project Nevada - Equipment.esp
   TAG: {{BASH: Names, Invent}}
   REQ: Project Nevada - Core.esm and Project Nevada - Equipment.esm
+MassRecalibration.esp
 Project Nevada - Rebalance.esp
   IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 Project Nevada - Cyberware.esp
@@ -2201,6 +2222,7 @@ awilderwasteland.esp
   INC: awilderwastelandnobenny.esp
 awilderwastelandnobenny.esp
   INC: awilderwasteland.esp
+A world of horror.esp
 betsybrahmin.esp
   INC: betsybrahminFSO.esp
 betsybrahminFSO.esp
@@ -2216,6 +2238,7 @@ CodeofSteelQuests.esp
 Continue After End.esp
 Dog_City3.esp
 Express Delivery.esp
+Fortune Canyon.esp
 FreeplayafterMQNVv1_6.esp
 Free Play after MQ.esp
 Free the Slaves.esp
@@ -2753,9 +2776,21 @@ ammocrafting.esp
 AmmoCraftingSchematics.esp
 ACS-CaliberX.esp
   REQ: Caliber.esm and AmmoCraftingSchematics.esp
+ACS-DeadMoney.esp
+  TAG: {{BASH: Invent}}
+  IFNOT VAR(DM) REQ: DeadMoney.esm and AmmoCraftingSchematics.esp
 ACS-HonestHearts.esp
   TAG: {{BASH: Invent}}
   IFNOT VAR(HH) REQ: HonestHearts.esm and AmmoCraftingSchematics.esp
+ACS-LonesomeRoad.esp
+  TAG: {{BASH: Names}}
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm and AmmoCraftingSchematics.esp
+ACS-GunRunnersArsenal.esp
+  TAG: {{BASH: Invent, Names}}
+  IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and AmmoCraftingSchematics.esp
+ACS-DLCMerged.esp
+  TAG: {{BASH: Invent, Names}}
+  SAY: Requires DeadMoney.esm, HonestHearts.esm, LonesomeRoad.esm, GunRunnersArsenal.esm and AmmoCraftingSchematics.esp
 ArmourRepairKits.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Armor Crafting BETA.esp
@@ -3262,6 +3297,8 @@ ENDGROUP: Weapons
 BEGINGROUP: Armor and Clothes
 //-----------
 1Earrings.esp
+1nivVSLArmors.esp
+  TAG: {{BASH: Invent,Names}}
 1SBSteamOutfit.esp
 1stReconArmor_Med.esp
 1stReconArmor_MedNonFaction.esp
@@ -3386,6 +3423,8 @@ pnv - compatibility dragonskin tactical.esp
 dressup.esp
 dressupWITHweaponchanges.esp
 DuffleBagOfGuns.esp
+DWCNV-CS.esp
+  IFNOT VAR(PACK) REQ: Couriers Stash
 DXProject.esp
 DynamicNightVision.esp
 EliteScribeRobe-left.esp
@@ -3424,6 +3463,7 @@ Project Nevada - FlashlightNVSE.esp
 Free Tribal Outfits.esp
 Geonox_Riot_Armor.esp
 Geonox_Wasteland_outfits.esp
+geonoxT3Armors.esp
 ghostbodysuitcamo.esp
   REQ: Type 3 Body Replacer
 Ghost Variants.esp
