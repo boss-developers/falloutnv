@@ -617,6 +617,9 @@ Compiled Patch All_DLCs.esp
   IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
   INC: Compiled Patch.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
+NVEC Compiled Patch PATCH.esp  
+NVEC Compiled Patch PATCH - DLC.esp
+  IFNOT VAR(DM) REQ: Dead Money.esm, Compiled Patch All_DLCs.esp
 26_fixes.esp
 Abandoned Bunker Fix.esp
 AndyRaulFix.esp
@@ -771,6 +774,9 @@ Primm_Rumor_Fix.esp
 RadioComputerPartsFix.esp
 Raul Ranger Andy fix.esp
 ReloadBugFix.esp
+  SAY: Obsolete with latest patch
+Reload Speed Game Start Fix.esp
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   SAY: Obsolete with latest patch
 RepairKitFix.esp
   SAY: This fix does not currently work for custom weapon durability mods which increase the weapon's health by anything other than 50%.
@@ -4695,6 +4701,9 @@ Improved Sound FX - WMX - Merged Major DLCs.esp
 Improved Sound FX - WMX - GRA Sharing Fix.esp
   TAG: {{BASH: Sound}}
   REQ: GunRunnersArsenal.esm WeaponModsExpanded.esp, WMX-GunRunnersArsenal.esp, Improved Sound FX - WMX - Weapon Sharing Fix.esp
+Improved Sound FX - WMX - LR Sharing Fix.esp  
+  TAG: {{BASH: Sound}}
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 WMX-ArenovalisTextures.esp
   TAG: {{BASH: Graphics, NoMerge}}
   REQ: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
