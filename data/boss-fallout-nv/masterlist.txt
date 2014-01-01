@@ -3325,8 +3325,6 @@ Advanced Recon Armor-Stealth With Drawn Weapon.esp
 Advanced Recon Desert Ranger Helmet.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
 Advanced Recon Range Finder.esp
-Advanced Recon Tech - Fiendish Power Armor.esp
-  SAY: Merged into nVamp -Advanced Mod Project. Do not use both at the same time.
 Advanced Recon Gear - Project Nevada.esp
 AG All-Purpose Science Suit 100.esp
 AG All-Purpose Science Suit 75.esp
@@ -3456,6 +3454,8 @@ Fiendish Power Armor-Doc Mitchells.esp
 Fiendish Power Armor.esp
 Fiendish Power Armor - Project Nevada.esp
   SAY: Merged into nVamp - New Vegas Mod Project. Do not use together.
+Advanced Recon Tech - Fiendish Power Armor.esp
+  SAY: Merged into nVamp -Advanced Mod Project. Do not use both at the same time.
 FlashlightNVSE.esp
   INC: Project Nevada - FlashlightNVSE.esp
 Project Nevada - FlashlightNVSE.esp
@@ -3493,6 +3493,7 @@ HomeTeleport.esp
 Honest Hearts Armor Playable.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm
 Holster.esp
+I Got Spurs.esp
 iL-Camouflage Ghost Bodysuit.esp
 ImprovedGeckoLeatherArmor.esp
 JillBSAA.esp
@@ -3698,6 +3699,9 @@ WastelandNecklaceCollection.esp
 WearGloves.esp
 Wolfeco_Courier.esp
 White Glove attire actually has White Gloves.esp
+XVEnclaveBunker.esp
+  TAG: {{BASH: Invent}}
+Project Nevada - XV Enclave Bunker Patch.esp
 zzzShojoRaceBeret.esp
 ENDGROUP: Armor and Clothes
 
@@ -4462,6 +4466,8 @@ Respawn24HoursImprovedEx.esp
 Quest Items - Non-Essential and Categorised.esp
 Quick Trade.esp
   REQ: The Mod Configuration Menu
+Quick Trade - iHud.esp
+  SAY: Obsolete, update to latest version 3.4 of iHud.
 QuickHacking-NV.esp
 Quicker PipBoy Light-0_2Sec.esp
 Quicker PipBoy Light-0_4Sec.esp
