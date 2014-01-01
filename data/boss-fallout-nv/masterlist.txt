@@ -5062,6 +5062,15 @@ BEGINGROUP: Weather\Light\Water
 //-----------
 Cactai of the Wastes [plugin].esp
 campgolfharbor-fortified-landscape.esp
+campgolfharbor-fortified-guards-leatherarmor.esp
+campgolfharbor-fortified-guards-legion.esp
+campgolfharbor-fortified-guards-metalarmor.esp
+campgolfharbor-fortified-guards-powerarmor.esp
+campgolfharbor-fortified-helipad.esp
+campgolfharbor-patch-AWOP.esp
+  REQ: AWorldofPain(Preview).esm
+campgolfharbor-patch-IWS.esp
+  REQ: IWS-Core.esm
 FNVEnhancedShaders - AA-DOF Enable.esp
 ParallaxRoadtrim.esp
 MedGrass.esp
@@ -5077,6 +5086,10 @@ Vurt's WFO.esp
   INC: Vurt's Trees & Grass.esp
 Vurt's WFO [Lite].esp
   INC: Vurt's WFO.esp
+campgolfharbor-patch-VWFO-Dead.esp
+  REQ: Vurt's WFO.esp
+campgolfharbor-patch-VWFO-Fertile.esp
+  REQ: Vurt's WFO.esp
 250.esp
 500.esp
 DN More Lights.esp
