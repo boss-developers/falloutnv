@@ -187,6 +187,7 @@ IFNOT VAR(NVAMP) MOD: CaliberXhonesthearts.esm
   IFNOT VAR(HH) REQ: HonestHearts.esm
 IFNOT VAR(NVAMP) MOD: CaliberXgunrunners.esm
   TAG: {{BASH: Names}}
+campgolfharbor-fortified.esm
 IFNOT VAR(NVAMP) MOD: CFWNV.esm
 IFNOT VAR(NVAMP) MOD: CFWNV-DLC.esm
   IFNOT VAR(DM) || IFNOT VAR(HH) REQ: DeadMoney.esm, HonestHearts.esm
@@ -5060,6 +5061,7 @@ ENDGROUP: NV Game Stabilizer
 BEGINGROUP: Weather\Light\Water
 //-----------
 Cactai of the Wastes [plugin].esp
+campgolfharbor-fortified-landscape.esp
 FNVEnhancedShaders - AA-DOF Enable.esp
 ParallaxRoadtrim.esp
 MedGrass.esp
