@@ -404,6 +404,8 @@ IFNOT VAR(NVAMP) MOD: iHUD.esm
 oHUD.esm
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
   INC: aHUD.esm, iHUD.esm, Primary Needs HUD.esm
+UWHNV-Core.esm
+  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 // nVamp stuff
 IF VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
@@ -1507,6 +1509,7 @@ UHNV-IncreasedLighting.esp
 Underground Home.esp
 UWHNV-Core.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
+  SAY: Obsolete, upgrade to new version 4.202, UWHNV-Core.esm
 UWHNV-Addon-DLC.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and DeadMoney.esm
 UWHNV-Addon-GRA.esp
@@ -1515,6 +1518,8 @@ UWHNV-Addon-CHEMS.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and CHEMS.esm
 UWHNV-Addon-FollowerHome.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp
+UWHNV-Addon-NoCompanionsRoom.esp
+  REQ: New Vegas Script Extender, UWHNV-Core.esm
 WildBillsPawnArmory.esp
 YangtzeBunkerPlayerHome.esp
   SAY: Outdated; Consider Updating.
@@ -3254,6 +3259,7 @@ sawedoff.esp
 ScarabLaser.esp
 ScientistPack.esp
   SAY: Choose only one of ScientistPack.esp and ScientistPackWMX.esp, not both
+ScottmacksBastardGun.esp
 ServiceCarbine.esp
 ShinohaiOuka.esp
 Shotgun Commando.esp
@@ -3874,6 +3880,7 @@ Essentialplustweaks.esp
 ICC.esp
 boon_harcored.esp
 Boone0.2.esp
+Captain Rex SW B1 battle droid.esp
 CFollowers.esp
 Charisma Based Follower Limit.esp
 Companions never Die.esp
