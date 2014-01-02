@@ -1520,6 +1520,7 @@ UWHNV-Addon-FollowerHome.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp
 UWHNV-Addon-NoCompanionsRoom.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esm
+  INC: UWHNV-Addon-Follower.esp
 WildBillsPawnArmory.esp
 YangtzeBunkerPlayerHome.esp
   SAY: Outdated; Consider Updating.
@@ -5368,7 +5369,7 @@ Enhanced Ballistics Effects WME RH - NoTweaks.esp
   REQ: Weapon Mod Expansion.esm AND RH_IRONSIGHTS_NV.esm
 FNNsysNV.esp
 UWHNV-Addon-Time for Bed NV.esp
-  REQ: New Vegas Script Extender, UWHNV-Core.esp, and FNNsysNV.esp
+  REQ: New Vegas Script Extender, UWHNV-Core.esm, and FNNsysNV.esp
 Improved Ballistics Effects V2.esp
 Imp's Timescale Adjuster.esp
 Ambient Temperature - ITA.esp
