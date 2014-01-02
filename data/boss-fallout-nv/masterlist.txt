@@ -211,6 +211,7 @@ domecity_Kaz_plugin.esm
 drgNV - Melissa Companion.esm
 DWCNV.esm
 DXEAmigoCafeNV.esm
+EnclaveCommanderMarine.esm
 EnergyShield.esm
 Eve.esm
 IF CHECKSUM("Eve.esm", A4084FA6) SAY: Recommended that you upgrade to the official EVE FNV mod.
