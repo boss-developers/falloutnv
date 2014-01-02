@@ -1518,6 +1518,7 @@ UWHNV-Addon-CHEMS.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and CHEMS.esm
 UWHNV-Addon-FollowerHome.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp
+  TAG: {{BASH: Actors.AIPackages, Actors.CombatStyle}}
 UWHNV-Addon-NoCompanionsRoom.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esm
   INC: UWHNV-Addon-Follower.esp
