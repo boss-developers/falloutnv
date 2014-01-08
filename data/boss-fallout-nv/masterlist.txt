@@ -522,7 +522,7 @@ New Vegas Redesigned II.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 Lings.esm
   TAG: {{BASH: Hair, Eyes}}
-MikotoBeauty.esm
+IFNOT FILE("RHKGilbertCompanion.esm") MOD: MikotoBeauty.esm
   TAG: {{BASH: Hair, Eyes, Graphics}}
 Herculine's NCCS Companions Volume 1.esm
   IFNOT FILE("Lings.esm") REQ: Lings.esm
@@ -3678,6 +3678,7 @@ T6M Equipment Replacer NV.esp
 T6M Lingerie NV.esp
 Type 6.esp
 T6M Wonder Woman.esp
+T6M Wonder Woman NEW Uniform.esp
 Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 Tactical Combat Gear.esp
@@ -3997,6 +3998,8 @@ RexReplacerEss.esp
   TAG: {{BASH: Graphics}}
 RHKCompanionCure.esp
 RHKGilbertCompanion.esm
+  IF FILE("RHKGilbertCompanion.esm") MOD: MikotoBeauty.esm
+RHKGilbertCompanion-Mikoto.esp
 RWKNV.esp
 RobCo Certified Friendly Hit Fixer.esp
 Ryl_VeronicaTweaks.esp
