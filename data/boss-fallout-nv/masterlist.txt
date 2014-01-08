@@ -362,6 +362,7 @@ SunnyCompanion.esm
   SAY: Outdated. Consider Updating.
 Survivalist Bunker.esm
 T6M Equipment Replacer NV.esm
+  TAG: {{BASH: Graphics, Names}}
 TAC-SHOP.esm
 TalonPack.esm
 IFNOT VAR(NVAMP) MOD: Tales from the Burning Sands.esm
@@ -3361,6 +3362,7 @@ Armory_of_Xzax.esp
 ArmyCapDesert.esp
 ArmyCapWoodlandDigi.esp
 AsharasLightningItems_ForNV.esp
+  TAG: {{BASH: Invent, Actors.AIData, NpcFaces}}
 AsukaArmorMkiV.esp
 ATT LeatherJacket.esp
 ATT SamusZero.esp
@@ -3679,6 +3681,7 @@ T6M Equipment Replacer NV.esp
 T6M Gambler Female Suit.esp
 T6M Lingerie NV.esp
 Type 6.esp
+  TAG: {{BASH: Graphics, Stats, Deflst}}
 T6M Wonder Woman.esp
 T6M Wonder Woman NEW Uniform.esp
 Tailor Maid - NV.esp
@@ -4001,8 +4004,10 @@ RexReplacerEss.esp
   TAG: {{BASH: Graphics}}
 RHKCompanionCure.esp
 RHKGilbertCompanion.esm
-  IF FILE("RHKGilbertCompanion.esm") MOD: MikotoBeauty.esm
+IF FILE("RHKGilbertCompanion.esm") MOD: MikotoBeauty.esm
+  TAG: {{BASH: Hair, Eyes, Graphics}}
 RHKGilbertCompanion-Mikoto.esp
+  TAG: {{BASH: R.Mouth, R.Teeth}}
 RWKNV.esp
 RobCo Certified Friendly Hit Fixer.esp
 Ryl_VeronicaTweaks.esp
