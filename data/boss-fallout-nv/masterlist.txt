@@ -5529,6 +5529,7 @@ SideburnsBeardLong.esp
 SideburnsBeardShort.esp
 Sideburns.esp
 MikotoBeauty.esp
+  TAG: {{BASH: Hair, Eyes}}
 ENDGROUP: Hair
 
 BEGINGROUP: Merged Patch
