@@ -327,9 +327,10 @@ PipboyRemover.esm
 Playthings.esm
 Primary Needs HUD.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Core.esm
+  TAG: {{BASH: Invent}}
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
-  TAG: {{BASH: Delev, Invent}}
+  TAG: {{BASH: Delev, Invent, Names}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
 ProjectBrazil.esm
@@ -440,6 +441,7 @@ IF VAR(NVAMP) MOD: More Perks for Old World Blues.esm
 IF VAR(NVAMP) MOD: More Traits.esm
 IF VAR(NVAMP) MOD: More Challenges.esm
 IF VAR(NVAMP) MOD: Project Nevada - Core.esm
+  TAG: {{BASH: Invent}}
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IF VAR(NVAMP) MOD: iHUD.esm
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
@@ -497,7 +499,7 @@ IF VAR(NVAMP) MOD: MoMod.esm
   TAG: {{BASH: Relev}}
   INC: monsterrach.esp
 IF VAR(NVAMP) MOD: Project Nevada - Equipment.esm
-  TAG: {{BASH: Delev, Invent}}
+  TAG: {{BASH: Delev, Invent, Names}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IF VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
 IF VAR(NVAMP) MOD: CFWNV-DLC.esm
@@ -1518,8 +1520,8 @@ UWHNV-Addon-GRA.esp
 UWHNV-Addon-CHEMS.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and CHEMS.esm
 UWHNV-Addon-FollowerHome.esp
+  TAG: {{BASH: NpcFaces, Actors.AIPackages, Actors.CombatStyle}}
   REQ: New Vegas Script Extender, UWHNV-Core.esp
-  TAG: {{BASH: Actors.AIPackages, Actors.CombatStyle}}
 UWHNV-Addon-NoCompanionsRoom.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esm
   INC: UWHNV-Addon-Follower.esp
@@ -2077,6 +2079,7 @@ BIS - Project Nevada - Equipment.esp
 MassRecalibration.esp
 Project Nevada - Rebalance.esp
   IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
+  TAG: {{BASH: Names, Invent}}
 Project Nevada - Cyberware.esp
   IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
 HarderThan-PN.esp
@@ -2363,6 +2366,7 @@ Machine Head Perk Rank Fix v1_0.esp
 moira_perks.esp
 More Perks.esp
 More Perks Update.esp
+  TAG: {{BASH: Actors.ACBS}}
 More Perks for Companions Update.esp
 More Perks for Dead Money Update.esp
   REQ: More Perks.esm, DeadMoney.esm, and More Perks for Dead Money.esm
@@ -2371,6 +2375,7 @@ More Perks for Honest Hearts Update.esp
 More Perks for Old World Blues Update.esp
   REQ: More Perks.esm, OldWorldBlues.esm and More Perks for Old World Blues.esm
 More Traits Update.esp
+  TAG: {{BASH: Actors.ACBS}}
 More Challenges - Original Challenges Overhaul.esp
 NinjaPerkFix.esp
 Perks per du.esp
@@ -3681,7 +3686,7 @@ T6M Equipment Replacer NV.esp
 T6M Gambler Female Suit.esp
 T6M Lingerie NV.esp
 Type 6.esp
-  TAG: {{BASH: Graphics, Stats, Deflst}}
+  TAG: {{BASH: Graphics, Stats}}
 T6M Wonder Woman.esp
 T6M Wonder Woman NEW Uniform.esp
 Tailor Maid - NV.esp
@@ -4005,7 +4010,7 @@ RexReplacerEss.esp
 RHKCompanionCure.esp
 RHKGilbertCompanion.esm
 IF FILE("RHKGilbertCompanion.esm") MOD: MikotoBeauty.esm
-  TAG: {{BASH: Hair, Eyes, Graphics}}
+  TAG: {{BASH: Hair, Eyes, Graphics, Names}}
 RHKGilbertCompanion-Mikoto.esp
   TAG: {{BASH: R.Mouth, R.Teeth}}
 RWKNV.esp
@@ -5534,7 +5539,7 @@ SideburnsBeardLong.esp
 SideburnsBeardShort.esp
 Sideburns.esp
 MikotoBeauty.esp
-  TAG: {{BASH: Hair, Eyes}}
+  TAG: {{BASH: Hair, Eyes, Names}}
 ENDGROUP: Hair
 
 BEGINGROUP: Merged Patch
