@@ -3676,6 +3676,7 @@ T3Belts_BootsNV2.esp
 T51b-Manual.esp
 t51bsnow.esp
 T6M Equipment Replacer NV.esp
+T6M Gambler Female Suit.esp
 T6M Lingerie NV.esp
 Type 6.esp
 T6M Wonder Woman.esp
@@ -3684,6 +3685,7 @@ Tailor Maid - NV.esp
 Tailor Maid Black Retex - NV.esp
 Tactical Combat Gear.esp
 TGsArmorCollectionVegas.esp
+TG Mikasa armor.esp
 THE5 Visors Mod.esp
 Toni Outfits.esp
 TheArmorer.esp
