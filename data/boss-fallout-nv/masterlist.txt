@@ -3430,6 +3430,7 @@ DragonskinTacticalOutfit.esp
 DragonskinNCRPersonnelWearingOutfits.esp
   TAG: {{BASH: Relev}}
 DragonskinBonusPack.esp
+DragsModernGunslinger.esp
 DTO-ProjectNevada.esp
 DTOBP-ProjectNevada.esp
 pnv - compatibility dragonskin tactical.esp
