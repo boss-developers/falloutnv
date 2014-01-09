@@ -104,10 +104,12 @@ Community Bugfix Compilation Patch.esm
   TAG: {{BASH: Actors.AIPackages, Delev, Relev, Sound, Stats, Scripts, Invent}}
 CBC Dead Money Patch.esm
   IFNOT VAR(DM) REQ: DeadMoney.esm
+// Order needs verification, is it important?
 ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
+YUP - Base Game + All DLC.esm
 Machienzo-PreOrdAlt#1.esm
 IFNOT VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
@@ -2168,6 +2170,8 @@ FSOmusic.esp
   REQ: FreesideOpen.esm
 AG Weapon Reload SFX.esp
 CRL9K_ThisMachineSound.esp
+Flight of the ValkED-E.esp
+  TAG: {{BASH: Sound}}
 Improved Sound FX.esp
 Improved Sound FX - Gunshot Distance Tweak.esp
 Improved Sound FX - Weapon Sharing Fix.esp
@@ -2457,6 +2461,10 @@ add that gun to cowboy perk.esp
 Alternative Console Access.esp
 Animated Prostitution.esp
 AmmoCollectingFPSstyle.esp
+Alternative Repairing.esp
+Alternative Repairing - Honest Hearts.esp
+Alternative Repairing - Breakdown Item Icons.esp
+Alternative Repairing - Additional Campfires.esp
 ammoingredientsloot.esp
 ArenaAnySex.esp
 Auto Loot Enhanced.esp
@@ -2868,6 +2876,7 @@ jerky.esp
 LFox Missing Ammo Recipes.esp
 LFox Missing Ammo Recipes HH DLC.esp
   REQ: LFox Missing Ammo Recipes.esp and HonestHearts.esm
+LFox Missing Ammo Recipes GRA DLC.esp
 LegendaryHunter.esp
 Metal Squeezer.esp
 MyFirstCookbook.esp
@@ -3002,6 +3011,7 @@ AK47.esp
 AK47 with mods (Holosight).esp
 AK74U.esp
 AK9000.esp
+AKS74u.esp
 Alexscorpion's Custom AK103.esp
 A Load of Balls.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
@@ -3055,6 +3065,7 @@ BinglesEnergyMelee.esp
 BoilingOil - Eli's Edge.esp
 Big Big Boomer.esp
 Binocs12fov.esp
+BM4A1.esp
 BoltGun.esp
 Boomers - T-57c PA.esp
 c4nuke.esp
@@ -3983,6 +3994,7 @@ LilyArmored.esp
   INC: LilyFawkes.esp
 Max Followers 12.esp
 miria.esp
+My essential friends (animals).esp
 Nano - Cass Type A (Original Hair) (Essential).esp
 Nano - Cass Type A (Original Hair).esp
 Nano - Cass Type B (Essential).esp
