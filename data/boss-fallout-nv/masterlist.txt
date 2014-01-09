@@ -65,7 +65,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 
 // Upgrade message for 1.7+ users:
   IF VERSION("BOSS", "2.1.1.0", <) GLOBAL WARN: An update for BOSS (v2.1.1) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
-  
+
 // Beta testing
   GLOBAL SAY: The next major release of BOSS is now open for "https://github.com/boss-developers/boss-code/wiki/BOSSv3-Beta-Testing beta testing". Anyone wishing to help test must have a BethSoft forum account and be comfortable with using FNVEdit to view conflicts.
 
@@ -112,6 +112,7 @@ CaravanPack.esm
 
 // Yukichigai Unofficial Patch - YUP
 YUP - Base Game + All DLC.esm
+  TAG: {{BASH: Actors.ACBS, Actors.AIData, Hair, Eyes, NpcFaces, Graphics, Delev, Relev, Invent, Factions, Names, Stats, Sounds, Voice-F}}
 YUP - Base Game.esm
 YUP - Dead Money.esm
 YUP - Honest Hearts.esm
@@ -408,6 +409,7 @@ IFNOT VAR(NVAMP) MOD: WME - DLCs.esm
 WMVM.esm
 wsex.esm
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
+  TAG: {{BASH: Actors.AIData, Actors.AIPackages, Invent, Names, NpcFaces}}
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 Clean-Deluxe FNV.esm
   INC: Performance of the Gods.esp
@@ -458,6 +460,7 @@ IF VAR(NVAMP) MOD: Project Nevada - Core.esm
 IF VAR(NVAMP) MOD: iHUD.esm
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IF VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
+  TAG: {{BASH: Actors.AIData, Actors.AIPackages, Invent, Names, NpcFaces}}
 IF VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 IF VAR(NVAMP) MOD: CINEMATECH.esm
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
@@ -636,7 +639,7 @@ Compiled Patch All_DLCs.esp
   IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
   INC: Compiled Patch.esp, Community Bugfix Compilation Patch.esp, Mission Mojave - Ultimate Edition.esp
   SAY: Outdated. Consider using the latest version of Mission Mojave - Ultimate Edition instead.
-NVEC Compiled Patch PATCH.esp  
+NVEC Compiled Patch PATCH.esp
 NVEC Compiled Patch PATCH - DLC.esp
   IFNOT VAR(DM) REQ: Dead Money.esm, Compiled Patch All_DLCs.esp
 26_fixes.esp
@@ -1527,8 +1530,10 @@ UWHNV-Core.esp
   SAY: Obsolete, upgrade to new version 4.202, UWHNV-Core.esm
 UWHNV-Addon-DLC.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and DeadMoney.esm
+  TAG: {{BASH: C.Light}}
 UWHNV-Addon-GRA.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and GunRunnersArsenal.esm
+  TAG: {{BASH: C.Light}}
 UWHNV-Addon-CHEMS.esp
   REQ: New Vegas Script Extender, UWHNV-Core.esp, and CHEMS.esm
 UWHNV-Addon-FollowerHome.esp
@@ -2134,6 +2139,7 @@ Project Nevada - All DLC.esp
 Project Brazil NV Courier Stash Control.esp
 Project Brazil NV DLC Control.esp
 Project Brazil Project Nevada Patch.esp
+  TAG: {{BASH: Invent}}
 IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 MMUE-CP-PNALLDLC.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Project Nevada - Core.esm, Project Nevada - Equipment.esp, Mission Mojave - Ultimate Edition.esp
@@ -3096,13 +3102,13 @@ CFW-HH.esp
 CFW-OWB.esp
 CFW-LR.esp
 CFW-GRA.esp
-CFW-DLC.esp 
+CFW-DLC.esp
 Classic energy weapons.esp
 Classic M72 Gauss Rifle.esp
 Classic MEC Gauss Minigun.esp
 Classic Plasma Grenade.esp
   TAG: {{BASH: Graphics}}
-Classic PPK12 Gauss Pistol.esp  
+Classic PPK12 Gauss Pistol.esp
 Classic Pulse Grenade (classic sound).esp
   TAG: {{BASH: Graphics, Sounds}}
 Classic Pulse Grenade (vanilla sound).esp
@@ -3704,6 +3710,7 @@ T3Belts_BootsNV2.esp
 T51b-Manual.esp
 t51bsnow.esp
 T6M Equipment Replacer NV.esp
+  TAG: {{BASH: Graphics, Stats}}
 T6M Gambler Female Suit.esp
 T6M Lingerie NV.esp
 Type 6.esp
@@ -3761,7 +3768,7 @@ Body by Race.esp
 headgearfix.esp
 LingsPrettyThings.esp
   TAG: {{BASH: Eyes, Hair, Invent, Names, NPC.Class, NPC.Race, NpcFaces, R.Attributes-F, R.Attributes-M, R.Description, R.Head, R.Mouth, R.Teeth, Voice-F}}
-Daughters of Ares - Lings Patch.esp  
+Daughters of Ares - Lings Patch.esp
 Machienzo - NPC Cosmetic Fixes DLC01.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
   SAY: Old, update to NVCE.
@@ -4005,6 +4012,7 @@ LilyArmored.esp
 Max Followers 12.esp
 miria.esp
 My essential friends (animals).esp
+  TAG: {{BASH: Actors.ACBS, Actors.AIPackages}}
 Nano - Cass Type A (Original Hair) (Essential).esp
 Nano - Cass Type A (Original Hair).esp
 Nano - Cass Type B (Essential).esp
@@ -4292,7 +4300,7 @@ Delay DLC - Old World Blues.esp
 Delay DLC - Lonesome Road.esp
   IFNOT VAR(LR) REQ: LonesomeRoad.esm
 Delay DLC - TTW.esp
-  IFNOT VAR(TTW) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Anchorage.esm, ThePitt.esm, BrokenSteel.esm, PointLookout.esm, Zeta.esm 
+  IFNOT VAR(TTW) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm, Anchorage.esm, ThePitt.esm, BrokenSteel.esm, PointLookout.esm, Zeta.esm
 DM-NoLvlMsg.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
 Dead Money - Automatic Rifle fix.esp
@@ -4750,7 +4758,7 @@ Improved Sound FX - WMX - Merged Major DLCs.esp
 Improved Sound FX - WMX - GRA Sharing Fix.esp
   TAG: {{BASH: Sound}}
   REQ: GunRunnersArsenal.esm WeaponModsExpanded.esp, WMX-GunRunnersArsenal.esp, Improved Sound FX - WMX - Weapon Sharing Fix.esp
-Improved Sound FX - WMX - LR Sharing Fix.esp  
+Improved Sound FX - WMX - LR Sharing Fix.esp
   TAG: {{BASH: Sound}}
   IFNOT VAR(LR) REQ: LonesomeRoad.esm
 WMX-ArenovalisTextures.esp
