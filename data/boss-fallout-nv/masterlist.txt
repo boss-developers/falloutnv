@@ -109,7 +109,17 @@ ClassicPack.esm
 MercenaryPack.esm
 TribalPack.esm
 CaravanPack.esm
+
+// Yukichigai Unofficial Patch - YUP
 YUP - Base Game + All DLC.esm
+YUP - Base Game.esm
+YUP - Dead Money.esm
+YUP - Honest Hearts.esm
+YUP - Old World Blues.esm
+YUP - Lonesome Road.esm
+YUP - Gun Runners Arsenal.esm
+YUP - Courier's Stash.esm
+
 Machienzo-PreOrdAlt#1.esm
 IFNOT VAR(NVAMP) MOD: Machienzo - NPC Cosmetic Fixes - Ver 1.55.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Voice-M, Voice-F, Body-M, Body-F, R.Teeth, R.Mouth}}
