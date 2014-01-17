@@ -2539,7 +2539,7 @@ Detect Traps - Dead Money.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
   INC: Detect Traps - DLC.esp
 Detect Traps - DLC.esp
-  IFNOT VAR(DM) || IFNOT VAR(HH) IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
+  IFNOT VAR(DM) || IFNOT VAR(HH) || IFNOT VAR(DM) REQ: DeadMoney.esm and HonestHearts.esm
   INC: Detect Traps - Dead Money.esp
 DFB - Random Encounters - Update - MCM.esp
   REQ: DFB - Random Encounters.esm
