@@ -3,7 +3,7 @@ Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 
 Masterlist Syntax Notes
 
-Only the basics of the most commonly-used parts of the syntax are covered here. See the BOSS Masterlist Syntax.html documentation file in data/boss-common/ on the Google Code repository for full details.
+Only the basics of the most commonly-used parts of the syntax are covered here. See the BOSS Masterlist Syntax.html documentation file in data/boss-common/ on the BOSS code repository for full details.
 
   * Use blank lines to separate mods that are grouped together or where it helps readability.
   * Use silent comments when you think something needs clarification to others reading the masterlist (such as when a mod looks like it is misspelled, but is correct).
@@ -64,7 +64,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF VAR(DLC-G) && IF VAR(PACK) SET: DLC-A
 
 // Upgrade message for 1.7+ users:
-  IF VERSION("BOSS", "2.1.1.0", <) GLOBAL WARN: An update for BOSS (v2.1.1) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
+  IF VERSION("BOSS", "2.1.1.0", <) GLOBAL WARN: An update for BOSS (v2.1.1) has been released. Download it at "http://boss-developers.github.io"
 
 // Beta testing
   GLOBAL SAY: The next major release of BOSS is now open for "https://github.com/boss-developers/boss-code/wiki/BOSSv3-Beta-Testing beta testing". Anyone wishing to help test must have a BethSoft forum account and be comfortable with using FNVEdit to view conflicts.
