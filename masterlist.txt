@@ -557,6 +557,11 @@ ENDGROUP: ESMs
 
 BEGINGROUP: Earliest
 //-----------
+// Yuki patch NPC files, need to be loaded the earliest possible position after ESM files.
+YUP - NPC Fixes (Base Game).esp
+  TAG: {{BASH: Actors.ACBS, Actors.AIData, Actors.AIPackages, Actors.Stats, Factions, Invent, Names}}
+YUP - NPC Fixes (Base Game + All DLC).esp
+  TAG: {{BASH: Actors.ACBS, Actors.AIData, Actors.AIPackages, Actors.Stats, Factions, Invent, Names}}
 TTW_StashPackOptions.esp
 TTW_NoKarmaDCFollowers.esp
 TTW_Bobbleheads.esp
