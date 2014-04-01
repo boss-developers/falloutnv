@@ -793,8 +793,7 @@ Raul Ranger Andy fix.esp
 ReloadBugFix.esp
   SAY: Obsolete with latest patch
 Reload Speed Game Start Fix.esp
-  IFNOT VAR(NVSE) REQ: New Vegas Script Extender
-  SAY: Obsolete with latest patch
+  IFNOT VAR(NVSE) REQ: "http://nvse.silverlock.org/ New Vegas Script Extender"
 RepairKitFix.esp
   SAY: This fix does not currently work for custom weapon durability mods which increase the weapon's health by anything other than 50%.
 RHKBooneWarnFix.esp
