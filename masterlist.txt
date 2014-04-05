@@ -4582,6 +4582,7 @@ RRDynamicXPonly.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 Runner.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
+REGEX: Safe ShowRaceMenu.*\.esp
 Sarsaparilla.esp
 Sensible Dismemberment.esp
 SneakingCrosshair.esp
