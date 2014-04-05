@@ -529,6 +529,7 @@ IF VAR(NVAMP) MOD: WME - DLCs.esm
   IF FILE("WME - Dead Money.esm") || IF FILE("WME - Honest Hearts.esm") || IF FILE("WME - Old World Blues.esm") INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 CCO - Gameplay Changes.esm
 CCO - Classic Perks.esm
+
 New Vegas Redesigned.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 New Vegas Redesigned II.esm
@@ -548,6 +549,8 @@ AngelPark.esm
 CodeOfSteelBase.esm
 D.E.I.M.O.S..esm
 DFB - Random Encounters.esm
+FCOMaster.esm
+  TAG: {{BASH: NpcFaces, NPC.Race}}
 LawlessVegas.esm
 NV GameStabilizerA8.esm
   TAG: {{BASH: NoMerge}}
@@ -3807,6 +3810,13 @@ Voice dissonance fix.esp
   REQ: New Vegas Redesigned II.esm
 MMUE-CP-New Vegas Redesigned.esp
   REQ: New Vegas Redesigned II.esm, Mission Mojave - Ultimate Edition.esp
+FCO.esp
+  TAG: {{BASH: NpcFaces, NPC.Race}}
+FCO - Melissa Fix.esp
+  TAG: {{BASH: NPC.Race}}
+FCO - OnHolyServiceBound NPC's.esp
+FCO - Niner.esp
+FCO - Willow.esp
 ENDGROUP: Cosmetics
 
 BEGINGROUP: Middle Misc
