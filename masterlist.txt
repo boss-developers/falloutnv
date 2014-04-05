@@ -3817,6 +3817,7 @@ FCO - Melissa Fix.esp
 FCO - OnHolyServiceBound NPC's.esp
 FCO - Niner.esp
 FCO - Willow.esp
+FCO - Roberts Patch.esp
 ENDGROUP: Cosmetics
 
 BEGINGROUP: Middle Misc
