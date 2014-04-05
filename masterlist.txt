@@ -251,7 +251,7 @@ HAM-Spawns.esm
 Interior Lighting Overhaul - Core.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
-JIP Selective-Fire.esm
+IFNOT VAR(PN-C) MOD: JIP Selective-Fire.esm
 Kaya47NF.esm
 LDFemalePowerArmorPack.esm
   INC: LDFemalePowerArmorPack.esp
@@ -341,6 +341,7 @@ IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
   TAG: {{BASH: Delev, Invent, Names}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
+IF VAR(PN-C) MOD: JIP Selective-Fire.esm
 ProjectBrazil.esm
 Psiclones.esm
   TAG: {{BASH: Names}}
