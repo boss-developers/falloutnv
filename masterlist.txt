@@ -2139,6 +2139,7 @@ Project Nevada - Extra Options.esp
 Project Nevada - Cyberware Additions.esp
 Project Nevada - Rebalance Complete.esp
 Project Nevada - All DLC.esp
+PNxEO MCMScriptFixes.esp
 Project Brazil NV Courier Stash Control.esp
 Project Brazil NV DLC Control.esp
 Project Brazil Project Nevada Patch.esp
