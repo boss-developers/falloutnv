@@ -107,7 +107,7 @@ CaravanPack.esm
 
 // Yukichigai Unofficial Patch - YUP
 YUP - Base Game + All DLC.esm
-  TAG: {{BASH: Actors.ACBS, C.Owner, C.Water, Delev, Destructible, Factions, Eyes, Graphics, Invent, Names, Relev, Scripts, Sounds, Stats}}
+  TAG: {{BASH: Actors.ACBS, C.Owner, C.Water, Delev, Destructible, Factions, Eyes, Graphics, Invent, Names, Relev, Scripts, Sound, Stats}}
 YUP - Base Game.esm
 YUP - Dead Money.esm
 YUP - Honest Hearts.esm
