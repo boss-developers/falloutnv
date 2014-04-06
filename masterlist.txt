@@ -1176,6 +1176,7 @@ A Repair Bot.esp
 Alsatian NCR Guard Dogs.esp
 AlsatianRex.esp
 Armor Replacer Child NPC Fix.esp
+  TAG: {{BASH: Actors.ACBS, Invent}}
 ArmyMen.esp
 AWSW.esp
 BetterArmedBrightFollowers.esp
@@ -4811,6 +4812,7 @@ Mo'Guns_WMX.esp
 AWOP-BOE-WMX.esp
 REGEX: Integration - (Couriers Stash|.* Pack)\+?WMX(\+Shotgun Commando)?\.esp
   TAG: {{BASH: Graphics, Names, Stats, WeaponMods}}
+  SAY: Make sure WMX-POPMerged.esp or any WMX Preorder plugins are disabled when using this ESP.
 ENDGROUP: Weapon Mods Expanded or WMX
 
 BEGINGROUP: Weapon Mod Expansion or WME
