@@ -4651,7 +4651,7 @@ ENDGROUP: Game-Settings and Overrides
 BEGINGROUP: Weapon Mods Expanded or WMX
 //-----------
 WeaponModsExpanded.esp
-  TAG: {{BASH: Invent, Delev, WeaponMods}}
+  TAG: {{BASH: Actors.AIData, Delev, Graphics, Invent, Names, Relev, Stats, WeaponMods}}
   INC: RH_IRONSIGHTS_NV.esm, Weapon Mod Expansion.esm, Weapon Mod Expansion.esp
 WMXUE.esp
   TAG: {{BASH: Invent, Delev, WeaponMods}}
@@ -4731,7 +4731,7 @@ WMX-VarmintRifle22LR.esp
 nVamp - Weapon Mods Expanded.esp
   REQ: WeaponModsExpanded.esp
 WMX-ModernWeapons.esp
-  TAG: {{BASH: Invent}}
+  TAG: {{BASH: Delev, Invent, Relev}}
   REQ: AmmoSpreadEffectFixer.esm and WeaponModsExpanded.esp
 ACS-WMXModernWeapons.esp
   TAG: {{BASH: Invent}}
@@ -4766,6 +4766,8 @@ WMX-GunRunnersArsenal.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and WeaponModsExpanded.esp
 WMX-MW-GRA.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and WMX-ModernWeapons.esp
+WMX-DLCMerged.esp
+  TAG: {{BASH: Graphics, Invent, Names, Relev, Sound, Stats, WeaponMods}}
 Improved Sound FX - WMX - HH Sharing Fix.esp
   IFNOT VAR(HH) REQ: HonestHearts.esm and WMX-HonestHearts.esp
 Improved Sound FX - WMX - OWB Sharing Fix.esp
@@ -4799,6 +4801,8 @@ BIS - WMX-PreOrderPackMercenary.esp
   REQ: BIS - Brumbek's Inventory Sorting.esp, MercenaryPack.esm, and WeaponModsExpanded.esp
 WMX-PreOrderPackTribal.esp
   REQ: TribalPack.esm and WeaponModsExpanded.esp
+WMX-POPMerged.esp
+  TAG: {{BASH: Graphics, Stats, WeaponMods}}
 ScientistPackWMX.esp
   SAY: Choose only one of ScientistPack.esp and ScientistPackWMX.esp, not both
 Mo'Guns_WMX.esp
@@ -4959,9 +4963,11 @@ EVE FNV-[GRA Patch for EVE 1.3].esp
   REQ: EVE FNV.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm
 EVE FNV - ALL DLC.esp
-  TAG: {{BASH: Graphics, Sound}}
+  TAG: {{BASH: Delev, Destructible, Graphics, Invent, Names, Scripts, Sound, Stats, WeaponMods}}
 WMX-EVE-AllDLC.esp
   REQ: EVE FNV - ALL DLC.esp
+WMX-Eve-AllDLCMerged.esp
+  TAG: {{BASH: Graphics, Stats, WeaponMods}}
 Project Nevada - EVE All DLC.esp
   REQ: EVE FNV - ALL DLC.esp
 Improved Sound FX - EVE.esp
