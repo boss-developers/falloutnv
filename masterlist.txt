@@ -303,6 +303,7 @@ ACM Fem Fatales of FO3.esm
 ACMFemFatalesMore.esm
 NPC Project.esm
 Nevada Skies.esm
+NevadaSkies.esm
 NSkies - Vanilla Edition.esm
   TAG: {{BASH: C.Climate, C.Light}}
   SAY: Choose only one of NSkies - Vanilla Edition.esm and NSkies URWLified.esm, not both
@@ -5373,6 +5374,7 @@ Clean-Deluxe FNV Merge - All DLC.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Clean-Delux FNV.esm
 Clean-Deluxe FNV Merge - ILO.esp
   REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, Clean-Delux FNV.esm
+NevadaSkies - Ultimate DLC Edition.esp
 OWB-Path Lights.esp
 Depth of View I.esp
 Depth of View I Blur.esp
