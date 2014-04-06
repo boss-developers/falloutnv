@@ -3106,6 +3106,8 @@ christinecos.esp
   TAG: {{BASH: Graphics}}
 GRA WRP Compatibility Patch.esp
   TAG: {{BASH: Graphics}}
+GRA-WRP-Patch-Two_Unofficial.esp
+  TAG: {{BASH: Graphics}}
 CFW-DM.esp
 CFW-HH.esp
 CFW-OWB.esp
