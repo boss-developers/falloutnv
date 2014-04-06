@@ -107,7 +107,7 @@ CaravanPack.esm
 
 // Yukichigai Unofficial Patch - YUP
 YUP - Base Game + All DLC.esm
-  TAG: {{BASH: Actors.ACBS, Actors.AIData, Eyes, Graphics, Delev, Relev, Invent, Factions, Names, Scripts, Stats, Sounds, Voice-F}}
+  TAG: {{BASH: Actors.ACBS, C.Owner, C.Water, Delev, Destructible, Factions, Eyes, Graphics, Invent, Names, Relev, Scripts, Stats, Sounds}}
 YUP - Base Game.esm
 YUP - Dead Money.esm
 YUP - Honest Hearts.esm
@@ -530,7 +530,6 @@ IF VAR(NVAMP) MOD: WME - DLCs.esm
   IF FILE("WME - Dead Money.esm") || IF FILE("WME - Honest Hearts.esm") || IF FILE("WME - Old World Blues.esm") INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
 CCO - Gameplay Changes.esm
 CCO - Classic Perks.esm
-
 New Vegas Redesigned.esm
   TAG: {{BASH: NpcFaces, Hair, Eyes, Body-M, Body-F}}
 New Vegas Redesigned II.esm
