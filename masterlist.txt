@@ -3353,7 +3353,8 @@ BEGINGROUP: Armor and Clothes
 //-----------
 1Earrings.esp
 1nivVSLArmors.esp
-  TAG: {{BASH: Invent,Names}}
+  TAG: {{BASH: Deflst, Delev, Graphics, Invent, Names, Relev}}
+1nivPNSLPatch.esp
 1SBSteamOutfit.esp
 1stReconArmor_Med.esp
 1stReconArmor_MedNonFaction.esp
