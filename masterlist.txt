@@ -329,6 +329,8 @@ NVInteriors_Urban_Edition.esm
 NVInteriors_Urban_Edition_AWOP.esm
 Interior Lighting Overhaul - Core.esm
   TAG: {{BASH: C.Light}}
+Interior Lighting Overhaul - L38PS.esm
+  TAG: {{BASH: C.Light}}
 NVR - Extra Actions Lib.esm
 NVStripOpen.esm
 NVR-Strip.esm
