@@ -249,7 +249,6 @@ Ghouls Attack Test.esm
 Goodsprings Hideout.esm
 GunSmith.esm
 HAM-Spawns.esm
-Interior Lighting Overhaul - Core.esm
 Improved Lucky 38-Suite 2.0.esm
 Inventory Access.esm
 IFNOT VAR(PN-C) MOD: JIP Selective-Fire.esm
@@ -328,7 +327,7 @@ NVInteriors_Urban_Edition.esm
   REQ: NVInteriors_Core.esm
 NVInteriors_Urban_Edition_AWOP.esm
 Interior Lighting Overhaul - Core.esm
-  TAG: {{BASH: C.Light}}
+  TAG: {{BASH: C.Climate, C.Light}}
 Interior Lighting Overhaul - L38PS.esm
   TAG: {{BASH: C.Light}}
 NVR - Extra Actions Lib.esm
