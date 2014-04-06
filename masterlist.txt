@@ -5353,6 +5353,7 @@ ILO-RI-Rust Town.esp
   REQ: RustTownV1-1.esp
 ILO-RI-PipBoy Light.esp
 ILO - PipBoy Light.esp
+REGEX: Pip-Boy Light - .*\.esp
 ILO - NVInteriors Project.esp
   TAG: {{BASH: C.Light}}
   REQ: NVInteriors_Core.esm, NVInteriors_ComboEdition.esm, Interior Lighting Overhaul - Core.esm
