@@ -999,6 +999,8 @@ FreesideOpenBoulderDomePatch.esp
 HUD Extended.esp
 HUD Extended - Ambient Temperature.esp
   REQ: Ambient Temperature.esm
+REGEX: Integration - (Couriers Stash|.* Pack)(|\+Shotgun Commando)\.esp
+  TAG: {{BASH: Names, Stats}}
 IWR - Rebuilt.esp
   REQ: IWR.esm
 LessIntrusiveKillCam.esp
@@ -4807,6 +4809,8 @@ ScientistPackWMX.esp
   SAY: Choose only one of ScientistPack.esp and ScientistPackWMX.esp, not both
 Mo'Guns_WMX.esp
 AWOP-BOE-WMX.esp
+REGEX: Integration - (Couriers Stash|.* Pack)\+?WMX(\+Shotgun Commando)?\.esp
+  TAG: {{BASH: Graphics, Names, Stats, WeaponMods}}
 ENDGROUP: Weapon Mods Expanded or WMX
 
 BEGINGROUP: Weapon Mod Expansion or WME
