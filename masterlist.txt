@@ -3618,6 +3618,7 @@ NCR Rearmament v1.5 (Lore).esp
 NCR_Desert.esp
 NCR_Woodland.esp
 NCR-Modified.esp
+NCRTrooperOverhaul.esp
 Neckchains.esp
 NeutralPowerArmor.esp
 NEVECbodysuit.esp
@@ -3733,6 +3734,8 @@ TheArmorer.esp
 Thermoptic Power Helmets.esp
 ToggleCarryWeightHat.esp
 Transladatum - E.esp
+TrooperOverhaul-Dragbody.esp
+  TAG: {{BASH: Deflst, Delev, Graphics, Invent, Names, Relev, Sound, Stats}}
 TSoutfitv1.esp
 TumbaJamba Tactical Gear.esp
 TUPAM-NV.esp
