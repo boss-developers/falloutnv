@@ -188,13 +188,14 @@ BinocularsOverhaul.esm
 IFNOT VAR(NVAMP) MOD: BoulderCityFaceliftProject.esm
 CALIBR.esm
 IFNOT VAR(NVAMP) MOD: Caliber.esm
-  TAG: {{BASH: Invent, Names}}
+  TAG: {{BASH: Delev, Graphics, Invent, Names, Stats}}
 IFNOT VAR(NVAMP) MOD: HonestHearts-CaliberX.esm
   IFNOT VAR(HH) REQ: HonestHearts.esm
 IFNOT VAR(NVAMP) MOD: CaliberXhonesthearts.esm
   IFNOT VAR(HH) REQ: HonestHearts.esm
+  TAG: {{BASH: Deflst, Delev, Invent, Names}}
 IFNOT VAR(NVAMP) MOD: CaliberXgunrunners.esm
-  TAG: {{BASH: Names}}
+  TAG: {{BASH: Invent, Names}}
 campgolfharbor-fortified.esm
 IFNOT VAR(NVAMP) MOD: CFWNV.esm
 IFNOT VAR(NVAMP) MOD: CFWNV-DLC.esm
