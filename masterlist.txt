@@ -107,7 +107,7 @@ CaravanPack.esm
 
 // Yukichigai Unofficial Patch - YUP
 YUP - Base Game + All DLC.esm
-  TAG: {{BASH: Actors.ACBS, Actors.AIData, Hair, Eyes, NpcFaces, Graphics, Delev, Relev, Invent, Factions, Names, Stats, Sounds, Voice-F}}
+  TAG: {{BASH: Actors.ACBS, Actors.AIData, Eyes, Graphics, Delev, Relev, Invent, Factions, Names, Scripts, Stats, Sounds, Voice-F}}
 YUP - Base Game.esm
 YUP - Dead Money.esm
 YUP - Honest Hearts.esm
@@ -2640,6 +2640,8 @@ IWS-OWB.esp
   IFNOT VAR(OWB) REQ: OldWorldBlues.esm
 IWS-LR.esp
   IFNOT VAR(LR) REQ: LonesomeRoad.esm
+JIP Realistic Weapon Overheating.esp
+  IFNOT VAR(NVSE) REQ: "http://nvse.silverlock.org/ New Vegas Script Extender"
 Kasdar's Medical Injection System.esp
 Kobu's Primary Attributes Uncapper.esp
 Kobu's Primary Attribute Uncapper.esp
