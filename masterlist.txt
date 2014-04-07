@@ -405,6 +405,7 @@ IFNOT VAR(NVAMP) MOD: WME - GRA Light.esm
 IFNOT VAR(NVAMP) MOD: WME - DLCs.esm
   IFNOT VAR(DLC) || IFNOT VAR(WME) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm and Weapon Mod Expansion.esm
   INC: WME - Dead Money.esm, WME - Honest Hearts.esm, WME - Old World Blues.esm
+Weapons.of.the.New.Millenia.esm
 WMVM.esm
 wsex.esm
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
@@ -3345,6 +3346,16 @@ Vintorez VSS.esp
 Walther P99.esp
 Warhead.esp
 WeaponBersekCrossbow.esp
+Weapons.of.the.New.Millenia.Cheat.Cabinet.esp
+Weapons.of.the.New.Millenia.CaliberX.Patch.esp
+  ERROR: Outdated. Please use the patch on the CaliberX page instead of this one.
+Weapons.of.the.New.Millenia.CaliberX4+.Patch.esp
+  TAG: {{BASH: Delev, Graphics, Stats}}
+Weapons.of.the.New.Millenia.Honest.Hearts.Grunt.Patch.esp
+  IF FILE("Weapons.of.the.New.Millenia.CaliberX4+.Patch.esp") ERROR: Deactivate. Included in Weapons.of.the.New.Millenia.CaliberX4+.Patch.esp.
+Weapons.of.the.New.Millenia.Leveled.Lists.esp
+Weapons.of.the.New.Millenia.Store.esp
+  TAG: {{BASH: C.Light, Sound}}
 WeaponsOfTheShogunate.esp
 Weathered10mmFixed.esp
 WeatheredHoldout.esp
