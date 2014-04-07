@@ -4786,6 +4786,20 @@ WMX-MW-GRA.esp
   IFNOT VAR(GRA) REQ: GunRunnersArsenal.esm and WMX-ModernWeapons.esp
 WMX-DLCMerged.esp
   TAG: {{BASH: Graphics, Invent, Names, Relev, Sound, Stats, WeaponMods}}
+Improved Sound FX - WMX - HH Sharing Fix.esp
+  IFNOT VAR(HH) REQ: HonestHearts.esm and WMX-HonestHearts.esp
+Improved Sound FX - WMX - OWB Sharing Fix.esp
+  IFNOT VAR(OWB) REQ: OldWorldBlues.esm and WMX-OldWorldBlues.esp
+Improved Sound FX - WMX - Merged Major DLCs.esp
+  TAG: {{BASH: Sound}}
+  REQ: HonestHearts.esm OldWorldBlues.esm, LonesomeRoad.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, WMX-OldWorldBlues.esp, WMX-LonesomeRoad.esp
+  INC: Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - Merged Major DLCs.esp
+Improved Sound FX - WMX - GRA Sharing Fix.esp
+  TAG: {{BASH: Sound}}
+  REQ: GunRunnersArsenal.esm WeaponModsExpanded.esp, WMX-GunRunnersArsenal.esp, Improved Sound FX - WMX - Weapon Sharing Fix.esp
+Improved Sound FX - WMX - LR Sharing Fix.esp
+  TAG: {{BASH: Sound}}
+  IFNOT VAR(LR) REQ: LonesomeRoad.esm
 WMX-ArenovalisTextures.esp
   TAG: {{BASH: Graphics, NoMerge}}
   REQ: WeaponModsExpanded.esp and Selected Arenovalis' / Milennia's Weapon Re-textures. Refer to the readme for details.
@@ -4980,21 +4994,6 @@ Project Nevada - EVE All DLC.esp
 Improved Sound FX - EVE.esp
   REQ: EVE FNV.esp
   TAG: {{BASH: Sound}}
-Improved Sound FX - WMX - HH Sharing Fix.esp
-  IFNOT VAR(HH) REQ: HonestHearts.esm and WMX-HonestHearts.esp
-Improved Sound FX - WMX - OWB Sharing Fix.esp
-  IFNOT VAR(OWB) REQ: OldWorldBlues.esm and WMX-OldWorldBlues.esp
-Improved Sound FX - WMX - Merged Major DLCs.esp
-  TAG: {{BASH: Sound}}
-  REQ: HonestHearts.esm OldWorldBlues.esm, LonesomeRoad.esm, WeaponModsExpanded.esp, WMX-HonestHearts.esp, WMX-OldWorldBlues.esp, WMX-LonesomeRoad.esp
-  INC: Improved Sound FX - DM.esp, Improved Sound FX - HH.esp, Improved Sound FX - HH Sharing Fix.esp, Improved Sound FX - OWB Sharing Fix.esp, Improved Sound FX - LR Sharing Fix.esp, Improved Sound FX - Merged Major DLCs.esp
-Improved Sound FX - WMX - GRA Sharing Fix.esp
-  TAG: {{BASH: Sound}}
-  REQ: GunRunnersArsenal.esm WeaponModsExpanded.esp, WMX-GunRunnersArsenal.esp, Improved Sound FX - WMX - Weapon Sharing Fix.esp
-Improved Sound FX - WMX - LR Sharing Fix.esp
-  TAG: {{BASH: Sound}}
-  IFNOT VAR(LR) REQ: LonesomeRoad.esm
-// WMX plugins moved down to load after EVE so that their changes are not overriden in the Bash Patch. -William
 Project Nevada - EVE.esp
   REQ: EVE FNV.esp
 dD-Reduced Dismember Force - EVE.esp
