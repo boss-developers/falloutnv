@@ -4632,6 +4632,10 @@ ThermicLanceFireEffects.esp
 ThrowMine.esp
 Toggle Quest Object.esp
 Trackable Blood and Footprints.esp
+Tutorial Killer.esp
+Tutorial Killer - Factions.esp
+Tutorial Killer - Project Nevada.esp
+Tutorial Killer - Alternate Start.esp
 TWO BEARS HIGHFIVING.esp
 tyfasterwalk.esp
 tyfasterwalk-FR.esp
