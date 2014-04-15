@@ -4322,6 +4322,7 @@ dD-Less Screen Blood Time.esp
 dD-No Screen Blood.esp
 dD-Smaller Spatters Default.esp
 dD-Smaller Spatters Realistic.esp
+Alternative Blood Spout.esp
 Delay DLC - DM + HH + OWB + LR + GRA.esp
   IFNOT VAR(DLC-G) REQ: DeadMoney.esm, HonestHearts.esm, OldWorldBlues.esm, LonesomeRoad.esm, GunRunnersArsenal.esm
 Delay DLC - DM + HH + OWB.esp
