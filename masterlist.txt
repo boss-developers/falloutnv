@@ -4158,6 +4158,8 @@ BIS - T3T_MiscItemIconsNV 0.7.esp
 BIS - MiscItemIconsNV 0.9.esp
   TAG: {{BASH: Names}}
   REQ: T3T_MiscItemIconsNV.esp
+RaestlozFactionArmorEnhancement.esp
+  TAG: {{BASH: Scripts}}
 repairkitsexpanded.esp
   TAG: {{BASH: Names}}
 ShilohDS-Color Maps and Icons.esp
