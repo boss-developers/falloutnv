@@ -2617,6 +2617,8 @@ HoverBoard.esp
 iAssist.esp
 Improved Non Combat XP-Orchid.esp
 Improved-ammoingredientsloot.esp
+REGEX: Improved Casinos .X\.esp
+  SAY: Make sure only one ESP is enabled from this mod.
 Immersive Compass Markers.esp
 immersivesneaking.esp
 Insects.esp
