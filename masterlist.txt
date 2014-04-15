@@ -4158,8 +4158,6 @@ BIS - T3T_MiscItemIconsNV 0.7.esp
 BIS - MiscItemIconsNV 0.9.esp
   TAG: {{BASH: Names}}
   REQ: T3T_MiscItemIconsNV.esp
-RaestlozFactionArmorEnhancement.esp
-  TAG: {{BASH: Scripts}}
 repairkitsexpanded.esp
   TAG: {{BASH: Names}}
 ShilohDS-Color Maps and Icons.esp
@@ -4346,6 +4344,7 @@ Dead Money - Automatic Rifle fix.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
 Dead Money - No Collar Explosion and No Poison Cloud.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
+Dead Money Surprise Items.esp
 DEADMONEYSUN.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm
 Disable Anti Cheat Minute.esp
@@ -4539,6 +4538,8 @@ Permanent_Weapon_Shells_Very_Light.esp
   SAY: Choose only one of Permanent_Weapon_Shells esps, not both
 psychoelf perk lev stripping.esp
 psychoelfs anti anti cheat.esp
+RaestlozFactionArmorEnhancement.esp
+  TAG: {{BASH: Scripts}}
 Respawn12Hours.esp
 Respawn12HoursImproved.esp
 Respawn1Month.esp
