@@ -4433,6 +4433,7 @@ Intelligence_And_Skill_Points_Very_High.esp
   SAY: Choose only one 'Intelligence and Skill Points' ESP.
 Invisibility for No Reputation.esp
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
+JIP Companions Command & Control.esp
 Jump Fall Fixer.esp
 JumpNFall.esp
 keepcompanionperks.esp
