@@ -1050,6 +1050,7 @@ BEGINGROUP: Alternative starts
 //
 //Must go after anything that alters the main quest.
 
+Alternative Start.esp
 CF_FastStart.esp
 Kobu's New Game Quick Start and Better Rebuild.esp
 originalintro.esp
