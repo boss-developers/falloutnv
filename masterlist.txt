@@ -62,7 +62,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
   IF VAR(DLC-G) && IF VAR(PACK) SET: DLC-A
 
 // Upgrade message for 1.7+ users:
-  IF VERSION("BOSS", "2.2.0.0", <) GLOBAL WARN: An update for BOSS (v2.2.0) has been released. Download it at "http://boss-developers.github.io"
+  IF VERSION("BOSS", "2.3.0.0", <) GLOBAL WARN: An update for BOSS (v2.3.0) has been released. Download it at "http://boss-developers.github.io". With this release, the BOSS Log plugin submitter endpoint has been moved, and the previous endpoint will be turned off shortly. Users are advised to upgrade to maintain functionality.
 
 // BOSS Thread
   GLOBAL SAY: "http://forums.bethsoft.com/topic/1313081-rel-boss-for-fallout-new-vegas/ Latest BOSS thread"
