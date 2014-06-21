@@ -2147,6 +2147,8 @@ Project Nevada - Cyberware Additions.esp
 Project Nevada - Rebalance Complete.esp
 Project Nevada - All DLC.esp
 PNxEO MCMScriptFixes.esp
+Project Nevada - Med-X Fix.esp
+  TAG: {{BASH: Names}}
 Project Brazil NV Courier Stash Control.esp
 Project Brazil NV DLC Control.esp
 Project Brazil Project Nevada Patch.esp
