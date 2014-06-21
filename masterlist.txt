@@ -5214,7 +5214,7 @@ campgolfharbor-patch-VWFO-Dead.esp
 campgolfharbor-patch-VWFO-Fertile.esp
   REQ: Vurt's WFO.esp
 vault22FloralOverhaul.esp
-  IF CHECKSUM("vault22FloralOverhaul.esp", 8F16FF2B) DIRTY: 0 ITM, 46 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
+  IF CHECKSUM("vault22FloralOverhaul.esp", 8F16FF2B) DIRTY: Do not clean, otherwise the game will crash on startup.
 250.esp
 500.esp
 DN More Lights.esp
