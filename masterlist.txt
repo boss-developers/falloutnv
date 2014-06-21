@@ -3847,7 +3847,7 @@ Voice dissonance fix.esp
 MMUE-CP-New Vegas Redesigned.esp
   REQ: New Vegas Redesigned II.esm, Mission Mojave - Ultimate Edition.esp
 FCO.esp
-  TAG: {{BASH: NpcFaces, NPC.Race}}
+  TAG: {{BASH: Actors.ACBS, NpcFaces, NPC.Race}}
 FCO - Melissa Fix.esp
   TAG: {{BASH: NPC.Race}}
 FCO - OnHolyServiceBound NPC's.esp
