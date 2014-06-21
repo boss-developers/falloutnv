@@ -3853,6 +3853,9 @@ FCO - Melissa Fix.esp
 FCO - OnHolyServiceBound NPC's.esp
 FCO - Niner.esp
 FCO - Willow.esp
+  TAG: {{BASH: NpcFaces, NPC.Race}}
+FCO - Willow (Cazy).esp
+  TAG: {{BASH: NpcFaces, NPC.Race}}
 FCO - Roberts Patch.esp
   IF CHECKSUM("FCO - Roberts Patch.esp", A03DB8AE) DIRTY: 1 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 FCO - OWB.esp
