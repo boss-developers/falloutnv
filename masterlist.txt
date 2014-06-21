@@ -5198,6 +5198,7 @@ Vurt's Trees & Grass.esp
   SAY: This is an outdated version. Consider updating to the latest.
 Vurt's WFO.esp
   INC: Vurt's Trees & Grass.esp
+  IF CHECKSUM("Vurt's WFO.esp", 31B1B874) DIRTY: 377 ITM records. Do not clean UDRs, otherwise the game will crash on startup. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 Vurt's WFO [Lite].esp
   INC: Vurt's WFO.esp
 campgolfharbor-patch-VWFO-Dead.esp
