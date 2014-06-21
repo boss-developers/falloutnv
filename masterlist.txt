@@ -554,7 +554,7 @@ CodeOfSteelBase.esm
 D.E.I.M.O.S..esm
 DFB - Random Encounters.esm
 FCOMaster.esm
-  TAG: {{BASH: NpcFaces, NPC.Race}}
+  TAG: {{BASH: Actors.ACBS, NpcFaces, NPC.Race}}
 LawlessVegas.esm
 NV GameStabilizerA8.esm
   TAG: {{BASH: NoMerge}}
