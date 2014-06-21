@@ -181,7 +181,6 @@ Active Wasteland.esm
 AccuRifles.esm
   REQ: NVSE
 Advanced Recon Tech.esm
-Afterschool Special.esm
 Alice Armor.esm
 Badlands.esm
 BinocularsOverhaul.esm
@@ -408,6 +407,7 @@ IFNOT VAR(NVAMP) MOD: WME - DLCs.esm
 Weapons.of.the.New.Millenia.esm
 WMVM.esm
 wsex.esm
+Afterschool Special.esm
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
   TAG: {{BASH: Actors.AIData, Actors.AIPackages, Invent, Names, NpcFaces}}
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
