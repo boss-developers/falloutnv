@@ -2904,6 +2904,11 @@ Improved ammo.esp
 ImprovedWorkbench.esp
 IntuitiveRealisticCooking.esp
 jerky.esp
+KFE - Refill Water Bottles.esp
+  TAG: {{BASH: Scripts}}
+KFE - Refill Water Bottles - Unbreakable Bottles.esp
+PN-Refill Water Bottles Patch.esp
+  IF CHECKSUM("KFE - Refill Water Bottles.esp", B85EF60C) ERROR: Deactivate. The main file already contains the proper edits for Project Nevada compatibility.
 LFox Missing Ammo Recipes.esp
 LFox Missing Ammo Recipes HH DLC.esp
   REQ: LFox Missing Ammo Recipes.esp and HonestHearts.esm
