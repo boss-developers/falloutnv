@@ -4658,7 +4658,7 @@ Trackable Blood and Footprints.esp
 Tutorial Killer.esp
 Tutorial Killer - Factions.esp
 Tutorial Killer - Project Nevada.esp
-Tutorial Killer - Alternate Start.esp
+Tutorial Killer - Alternative Start.esp
 TWO BEARS HIGHFIVING.esp
 tyfasterwalk.esp
 tyfasterwalk-FR.esp
