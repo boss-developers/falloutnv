@@ -318,6 +318,7 @@ NVInteriors_ComboEdition.esm
   REQ: NVInteriors_Core.esm
   SAY: Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
   INC: NVInteriors_ComboEdition_AWOP.esm
+  TAG: {{BASH: Graphics}}
 NVInteriors_ComboEdition_AWOP.esm
   REQ: NVInteriors_Core.esm
   SAY: Merge of NVInteriors_WastelandEdition, NVInteriorsUrbanEdition, and NVInteriors_Tweeks
@@ -326,7 +327,7 @@ NVInteriors_Urban_Edition.esm
   REQ: NVInteriors_Core.esm
 NVInteriors_Urban_Edition_AWOP.esm
 Interior Lighting Overhaul - Core.esm
-  TAG: {{BASH: C.Climate, C.Light}}
+  TAG: {{BASH: C.Climate, C.Light, Destructible}}
 Interior Lighting Overhaul - L38PS.esm
   TAG: {{BASH: C.Light}}
 NVR - Extra Actions Lib.esm
@@ -5413,7 +5414,7 @@ ILO-RI-PipBoy Light.esp
 ILO - PipBoy Light.esp
 REGEX: Pip-Boy Light - .*\.esp
 ILO - NVInteriors Project.esp
-  TAG: {{BASH: C.Light}}
+  TAG: {{BASH: C.Light, C.Owner}}
   REQ: NVInteriors_Core.esm, NVInteriors_ComboEdition.esm, Interior Lighting Overhaul - Core.esm
 ILO - NVInteriors Project - AWOP.esp
   TAG: {{BASH: C.Light}}
