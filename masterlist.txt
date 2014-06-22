@@ -2317,6 +2317,7 @@ NoMainStoryUltimatums.esp
 pnvnvbount1.esp
   REQ: NewVegasBounties.esp
 NewVegasBountiesII.esp
+  TAG: {{BASH: Relations}}
 NewVegasBountiesII Fixes - DLCs.esp
 NewVegasBountiesII Fixes - DLCs.esp
   REQ: NewVegasBountiesII.esp
