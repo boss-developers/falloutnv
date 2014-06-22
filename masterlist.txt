@@ -3367,6 +3367,8 @@ Weapons.of.the.New.Millenia.Honest.Hearts.Grunt.Patch.esp
 Weapons.of.the.New.Millenia.Leveled.Lists.esp
 Weapons.of.the.New.Millenia.Store.esp
   TAG: {{BASH: C.Light, Sound}}
+Weapons.of.the.New.Millenia.Store.LITE.esp
+  TAG: {{BASH: C.Light}}
 WeaponsOfTheShogunate.esp
 Weathered10mmFixed.esp
 WeatheredHoldout.esp
