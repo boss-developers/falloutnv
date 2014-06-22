@@ -1510,6 +1510,7 @@ Sortomatic - El Dorado Gas & Service.esp
 Sortomatic - Wolfhorn Ranch.esp
 Sortomatic - Victor's Shack.esp
 Sortomatic - Yangtze Shack.esp
+Sortomatic_for_House_of_the_Chef.esp
 UHNV.esp
 UHNV-Dead Money.esp
   REQ: UHNV.esp and DeadMoney.esm
