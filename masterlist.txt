@@ -2150,6 +2150,7 @@ Project Nevada - Extra Options.esp
 Project Nevada - Cyberware Additions.esp
 Project Nevada - Rebalance Complete.esp
   TAG: {{BASH: Relev}}
+  IF CHECKSUM("Project Nevada - Rebalance Complete.esp", E0E2C3C0) DIRTY: 22 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 Project Nevada - All DLC.esp
   TAG: {{BASH: Actors.DeathItem, Invent, Relev}}
 PNxEO MCMScriptFixes.esp
