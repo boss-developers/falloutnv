@@ -4135,6 +4135,8 @@ Advanced PipBoy 1.esp
 Advanced PipBoy 2.esp
 Advanced PipBoy 3.esp
 Pipboy 5k.esp
+AnimatedFan.esp
+  TAG: {{BASH: Destructible}}
 aaaJNFCamp.esp
 BetterRepairKits.esp
   SAY: Old
