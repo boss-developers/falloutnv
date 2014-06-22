@@ -4563,6 +4563,9 @@ psychoelf perk lev stripping.esp
 psychoelfs anti anti cheat.esp
 RaestlozFactionArmorEnhancement.esp
   TAG: {{BASH: Scripts}}
+RagdollOverhaulULTIMATE.esp
+ TAG: {{BASH: Actors.Skeleton}}
+ IF CHECKSUM("RagdollOverhaulULTIMATE.esp", 8AB4F125) DIRTY: 15 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 Respawn12Hours.esp
 Respawn12HoursImproved.esp
 Respawn1Month.esp
