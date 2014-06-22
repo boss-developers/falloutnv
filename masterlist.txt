@@ -411,7 +411,7 @@ WMVM.esm
 wsex.esm
 Afterschool Special.esm
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
-  TAG: {{BASH: Actors.AIData, Actors.AIPackages, Invent, Names, NpcFaces}}
+  TAG: {{BASH: Actors.ACBS, Actors.AIData, Actors.AIPackages, Destructible, Invent, Names, NpcFaces, Stats}}
 IFNOT VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 Clean-Deluxe FNV.esm
   INC: Performance of the Gods.esp
@@ -464,7 +464,7 @@ IF VAR(NVAMP) MOD: Project Nevada - Core.esm
 IF VAR(NVAMP) MOD: iHUD.esm
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IF VAR(NVAMP) MOD: ELECTRO-CITY - CompletedWorkorders.esm
-  TAG: {{BASH: Actors.AIData, Actors.AIPackages, Invent, Names, NpcFaces}}
+TAG: {{BASH: Actors.ACBS, Actors.AIData, Actors.AIPackages, Destructible, Invent, Names, NpcFaces, Stats}}
 IF VAR(NVAMP) MOD: ELECTRO-CITY - Highways and Byways.esm
 IF VAR(NVAMP) MOD: CINEMATECH.esm
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
