@@ -2325,6 +2325,7 @@ PowerAmor.esp
 QRhymeRenegade.esp
   REQ: NewVegasBountiesII.esp
 rotfacetoriches.esp
+  TAG: {{BASH: Factions}}
 Serial Killer.esp
 TheCollector.esp
 TimeCapsule.esp
