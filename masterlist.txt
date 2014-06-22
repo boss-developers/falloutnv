@@ -74,7 +74,6 @@ BEGINGROUP: ESMs
 //------------
 FalloutNV.esm
 DeadMoney.esm
-  TAG: {{BASH: Deflst}}
   IF CHECKSUM("DeadMoney.esm", D70F165B) DIRTY: 403 ITM, 51 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 HonestHearts.esm
   IF CHECKSUM("HonestHearts.esm", 2352B189) DIRTY: 121 ITM, 10 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
