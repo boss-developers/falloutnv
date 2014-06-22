@@ -340,7 +340,7 @@ IFNOT VAR(NVAMP) MOD: Project Nevada - Core.esm
   TAG: {{BASH: Invent}}
   IFNOT VAR(NVSE) REQ: New Vegas Script Extender
 IFNOT VAR(NVAMP) MOD: Project Nevada - Equipment.esm
-  TAG: {{BASH: Delev, Invent, Names}}
+  TAG: {{BASH: Actors.ACBS, Delev, Graphics, Invent, Names, Relev, Scripts, Stats}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IFNOT VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
 IF VAR(PN-C) MOD: JIP Selective-Fire.esm
@@ -515,7 +515,7 @@ IF VAR(NVAMP) MOD: MoMod.esm
   TAG: {{BASH: Relev}}
   INC: monsterrach.esp
 IF VAR(NVAMP) MOD: Project Nevada - Equipment.esm
-  TAG: {{BASH: Delev, Invent, Names}}
+  TAG: {{BASH: Actors.ACBS, Delev, Graphics, Invent, Names, Relev, Scripts, Stats}}
   REQ: New Vegas Script Extender and Project Nevada - Core.esm
 IF VAR(NVAMP) MOD: Project Nevada - Extra Options.esm
 IF VAR(NVAMP) MOD: CFWNV-DLC.esm
@@ -2107,9 +2107,10 @@ BIS - Project Nevada - Equipment.esp
 MassRecalibration.esp
 Project Nevada - Rebalance.esp
   IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
-  TAG: {{BASH: Names, Invent}}
+  TAG: {{BASH: Delev, Invent, Names, Stats}}
 Project Nevada - Cyberware.esp
   IFNOT VAR(PN-C) REQ: Project Nevada - Core.esm
+  TAG: {{BASH: Invent}}
 HarderThan-PN.esp
   REQ: Project Nevada - Core.esm, HarderThan.esp, Project Nevada - Cyberware.esp
 BIS - Project Nevada - Cyberware.esp
@@ -2146,7 +2147,9 @@ Project Nevada - Gun Runners' Arsenal (Rebalance).esp
 Project Nevada - Extra Options.esp
 Project Nevada - Cyberware Additions.esp
 Project Nevada - Rebalance Complete.esp
+  TAG: {{BASH: Relev}}
 Project Nevada - All DLC.esp
+  TAG: {{BASH: Actors.DeathItem, Invent, Relev}}
 PNxEO MCMScriptFixes.esp
 Project Nevada - Med-X Fix.esp
   TAG: {{BASH: Names}}
