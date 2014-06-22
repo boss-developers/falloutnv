@@ -366,6 +366,7 @@ SexoutSlavery.esm
 SexoutLegion.esm
 SexoutSlavery.esm
 SexoutStore.esm
+SomeguySeries.esm
 Sortomatic.esm
 SpeedyResources.esm
 SRDG.esm
