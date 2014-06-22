@@ -380,6 +380,7 @@ TAC-SHOP.esm
 TalonPack.esm
 IFNOT VAR(NVAMP) MOD: Tales from the Burning Sands.esm
   IF CHECKSUM("Tales from the Burning Sands.esm", 35F7BAE7) DIRTY: 17 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
+  TAG: {{BASH: Factions, Names, Relev, Scripts}}
 The.Armory.esm
 Thermal Vision.esm
 IFNOT VAR(NVAMP) MOD: The Roost.esm
@@ -442,6 +443,7 @@ IF VAR(NVAMP) MOD: IWS-Core.esm
   TAG: {{BASH: Delev}}
 IF VAR(NVAMP) MOD: Tales from the Burning Sands.esm
   IF CHECKSUM("Tales from the Burning Sands.esm", 35F7BAE7) DIRTY: 17 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
+  TAG: {{BASH: Factions, Names, Relev, Scripts}}
 IF VAR(NVAMP) MOD: EZ_CompanionNVSE.esm
 IF VAR(NVAMP) MOD: EZ_CompanionNVSE_Killable_Normal.esm
   SAY: Old
