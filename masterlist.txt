@@ -3735,6 +3735,7 @@ ReworkStuff.esp
 Rivens Costume Mod.esp
   SAY: Designed for Robert's Male Body and Type3 Female Body variants.
 Roberts_NewVegas.esp
+  TAG: {{BASH: Body-M, Graphics}}
 Sack of Holding-NV.esp
 SBVenomousArmor.esp
 Seeker Armor.esp
@@ -3875,6 +3876,7 @@ FCO - Willow.esp
 FCO - Willow (Cazy).esp
   TAG: {{BASH: NpcFaces, NPC.Race}}
 FCO - Roberts Patch.esp
+  TAG: {{BASH: Body-M}}
   IF CHECKSUM("FCO - Roberts Patch.esp", A03DB8AE) DIRTY: 1 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 FCO - OWB.esp
   TAG: {{BASH: Actors.ACBS, NpcFaces, NPC.Race}}
