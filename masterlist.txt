@@ -3504,6 +3504,7 @@ Daughters of Ares.esp
 Daughters of Ares - CouriersStash.esp
 DeadMoneyFemaleTuxedo.esp
   IFNOT VAR(DM) REQ: DeadMoney.esm and Type 3 Body Replacer.
+  TAG: {{BASH: Graphics}}
 DeepEyesNV.esp
 Desert Armor.esp
 Desert Armor rebuilt.esp
