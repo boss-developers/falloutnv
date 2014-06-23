@@ -2280,6 +2280,8 @@ BEGINGROUP: Quests
 //-----------
 athornysituation.esp
 avangraffscorned.esp
+  TAG: {{BASH: Actors.AIPackages}}
+  IF CHECKSUM("avangraffscorned.esp", 026AB27D) DIRTY: 1 ITM, 0 UDR records. DIRTY: 1 ITM, 0 UDR records. Needs "http://newvegas.nexusmods.com/mods/34703 FNVEdit" cleaning. A cleaning guide is available "http://www.creationkit.com/TES5Edit_Cleaning_Guide_-_TES5Edit here".
 awilderwasteland.esp
   INC: awilderwastelandnobenny.esp
 awilderwastelandnobenny.esp
@@ -2308,6 +2310,7 @@ Game_Bloodlines.esp
 Goodsprings Filler.esp
 Goodsprings Goodstart.esp
 kochandbohr.esp
+  TAG: {{BASH: Actors.ACBS, Factions}}
 LawlessVegas.esp
 lexx-q-warehouse-war-house.esp
 SilentStruggleV1.esp
