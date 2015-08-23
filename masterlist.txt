@@ -67,8 +67,8 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 // BOSS Thread
   GLOBAL SAY: "http://forums.bethsoft.com/topic/1313081-rel-boss-for-fallout-new-vegas/ Latest BOSS thread"
 
-// Recruitment
-  GLOBAL SAY: We are currently having around 700 unrecogniced plugins in our database. If you wish to help us PM wrinklyninja at forums.bethsoft.com
+// Deprecation message
+  GLOBAL WARN: BOSS support for Fallout: New Vegas is no longer maintained. Users are strongly advised to use "http://loot.github.io/ LOOT" instead when sorting their Fallout: New Vegas load orders.
 
 BEGINGROUP: ESMs
 //------------
